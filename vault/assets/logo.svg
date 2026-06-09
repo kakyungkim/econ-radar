@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="econ-radar">
+  <title>econ-radar</title>
+  <defs>
+    <clipPath id="er-quadrant">
+      <rect x="6" y="6" width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <!-- Radar scope: concentric arcs sweeping up-right from lower-left origin -->
+  <g clip-path="url(#er-quadrant)" fill="none" stroke="#334155" stroke-width="2.6" stroke-linecap="round">
+    <circle cx="12" cy="36" r="11" opacity="0.32"/>
+    <circle cx="12" cy="36" r="20" opacity="0.58"/>
+    <circle cx="12" cy="36" r="29" opacity="0.90"/>
+  </g>
+  <!-- Sweep line: the rising growth vector -->
+  <line x1="12" y1="36" x2="40" y2="10" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+  <!-- Pulse dots: ascending signals captured by the radar -->
+  <circle cx="20" cy="28.6" r="2.1" fill="#10b981"/>
+  <circle cx="28" cy="21.2" r="2.6" fill="#10b981"/>
+  <circle cx="40" cy="10" r="3.3" fill="#10b981"/>
+</svg>
