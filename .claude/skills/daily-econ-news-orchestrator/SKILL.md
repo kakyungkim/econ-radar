@@ -20,7 +20,7 @@ description: econ-radar의 매일 뉴스 파이프라인 입구. "오늘 경제 
    - "이어서"/기간 한정 → 해당 범위로 수집·분석.
 
 ## 팀 구성 (Agent Team)
-news-scout, market-analyst, career-analyst, newsletter-editor, style-critic, report-renderer, knowledge-curator.
+news-scout, market-analyst, company-scout, newsletter-editor, style-critic, report-renderer, knowledge-curator.
 
 ## 품질 기준선
 - `vault/_meta/benchmarks.md`의 "바로 반영할" 체크리스트를 품질 기준으로 삼는다(Why it matters 한 줄, 1차 자료 직접 링크, 양면 시각, 항목당 분량 상한, 재사용 전략 프레임). 이 파일이 없거나 오래됐으면 benchmark-scout를 먼저 돌릴 것을 제안한다.
@@ -30,7 +30,7 @@ news-scout, market-analyst, career-analyst, newsletter-editor, style-critic, rep
 2. `TaskCreate`로 단계·의존관계 등록:
    - T1 수집(news-scout) → `vault/raw/`
    - T2 산업·투자 분석(market-analyst, T1 의존) → `vault/analysis/market-*`
-   - T3 커리어 분석(career-analyst, T1 의존) → `vault/analysis/career-*`  ※ T2와 병렬
+   - T3 유망 기업 분석(company-scout, T1 의존) → `vault/analysis/company-*`  ※ T2와 병렬
    - T4 통합(newsletter-editor, T2·T3 의존) → `vault/daily/*`
    - **T4.5 문체 검수(style-critic, T4 의존) → `vault/daily/*` 윤문** (발행 전 AI스러운 표현 제거)
    - T5 렌더(report-renderer, T4.5 의존) → `vault/html/*.html`, `vault/push/*`
@@ -51,7 +51,7 @@ news-scout, market-analyst, career-analyst, newsletter-editor, style-critic, rep
 | 단계 | 파일 | 다음 단계가 읽음 |
 | --- | --- | --- |
 | 수집 | `vault/raw/news-YYYY-MM-DD.md` | 분석가 |
-| 분석 | `vault/analysis/{market|career}-YYYY-MM-DD.md` | 편집자 |
+| 분석 | `vault/analysis/{market|company}-YYYY-MM-DD.md` | 편집자 |
 | 통합 | `vault/daily/YYYY-MM-DD.md` | 렌더러·큐레이터·(3층) |
 | 렌더 | `vault/html/*.html`, `vault/push/*.md` | 사람(읽기/발송) |
 | 정리 | `vault/topics/*.md` | 내일 수집·3층 저술 |

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="발음 듣기">
+  <!-- Speaker body: cone + cabinet (solid) -->
+  <path fill="#0d9488"
+        d="M11.4 4.18A1 1 0 0 1 13 5v14a1 1 0 0 1-1.6.8L6.66 16H4a1.6 1.6 0 0 1-1.6-1.6V9.6A1.6 1.6 0 0 1 4 8h2.66l4.74-3.82z"/>
+  <!-- Sound waves: two concentric arcs -->
+  <path fill="none" stroke="#0d9488" stroke-width="1.9" stroke-linecap="round"
+        d="M16.2 9.1a4.2 4.2 0 0 1 0 5.8"/>
+  <path fill="none" stroke="#0d9488" stroke-width="1.9" stroke-linecap="round"
+        d="M18.7 6.6a7.7 7.7 0 0 1 0 10.8"/>
+</svg>
