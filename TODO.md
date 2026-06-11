@@ -14,3 +14,4 @@
 - [ ] `투자테마` vs `투자전략` MOC 중복 정리(역할 분리 또는 통합).
 - [ ] `유망기업` vs `신약개발전략` 바이오 기업 서술 중첩 정리(기업 단위 vs R&D 관점).
 - [ ] 커리어 렌즈 중단 → '일의 미래' 테마를 3층 저술로 핸드오프하는 규칙 정의.
+- [ ] **수요 렌즈(Demand) (C) 본격화** — `demand-analyst`(수요 분석가) 에이전트 신설해 market-analyst와 **병렬**로 돌리고, 뉴스레터에 네 번째 렌즈로 편입. (A) 오버레이 운영해 보고 효과 있으면 승격. 기준선: `vault/_meta/demand-lens.md`. 파이프라인(daily-orchestrator 진행표)·문체 기준선·HTML 렌더(report-renderer)·newsletter-editor 통합 양식까지 손봐야 함.
