@@ -18,10 +18,11 @@ tools: Read, Write, Bash
 ## 출력
 - `vault/html/YYYY-MM-DD.html`
   - TailwindCSS는 CDN으로 불러온다(단일 파일·오프라인 시 스타일 제한 안내 포함).
-  - 5건 요약 카드. 각 카드에 **두 블록**: ① **"Key Point"**(객관, 보라 강조 블록) ② **"💡 인사이트"**(주관 의견, 별도 블록 — Key Point와 색·라벨로 구분). "왜 중요한가"라는 라벨은 쓰지 않는다.
-  - **🗣 오늘의 화제(가장 큰 강조 카드)**, 산업·투자·**유망 기업** 섹션 카드, 분야 색 배지(거시/바이오/AI/유망기업), 출처 리스트.
+  - 5건 요약 카드. 각 카드에 **두 블록**: ① **"Key Point"**(객관, 보라 강조 블록) ② **"💡 인사이트"**(주관 의견, 별도 블록 — Key Point와 색·라벨로 구분). 수요 신호가 뚜렷한 카드엔 ③ **"🙋 Demand"**(amber 블록) 한 줄을 더한다. "왜 중요한가"라는 라벨은 쓰지 않는다.
+  - **섹션 제목은 daily의 영어 헤더를 그대로 따른다**(At a Glance·Today's Top 5·🗣 Today's Topic·🗽 Business English·Deep Dive·Macro & Policy·AI & Infrastructure·Bio & Pharma·🙋 Demand·💰 Investment·🚀 Companies to Watch·Threads to Follow·Sources). **맨 위 3줄 리드 앞에 "At a Glance" 라벨을 단다.**
+  - **🗣 Today's Topic(가장 큰 강조 카드)**, 심층·투자·**Companies to Watch**·🙋 Demand 섹션 카드, **분야 색 배지(영어: Macro/Bio/AI/Market — 보조 태그도 영어로: 반도체→Semiconductor·인프라→Infrastructure 등)**, 출처 리스트.
   - **상단 히어로 이미지**: 헤더 맨 위에 econ-radar 컨셉 이미지(`assets/econ-radar_logo-concept-16vs9.jpg`, 레이더 일러스트)를 가로 꽉 차게(rounded·shadow) 넣는다. **단, 사파리 등 브라우저·환경 무관하게 깨지지 않도록 base64 data URI로 인라인한다**(`<img src="data:image/jpeg;base64,…">`). `file://`에서 외부 `src` 참조는 사파리에서 깨지므로 금지. (jpg가 가벼워 인라인해도 100여 KB 수준.)
-  - **발행자 한 줄 아이덴티티**: 제목 아래 "제약·바이오·AI에 무게를 둔 경제 데일리 — 산업구조·투자·유망 기업 3렌즈" 태그라인을 넣는다. 발행자 실명은 쓰지 않는다(브랜드명 econ-radar로 발행).
+  - **발행자 한 줄 아이덴티티**: 제목 아래 "제약·바이오·AI에 무게를 둔 경제 데일리 — 산업구조·투자·시장 3렌즈" 태그라인을 넣는다. 발행자 실명은 쓰지 않는다(브랜드명 econ-radar로 발행).
   - **의미 해설 라벨**: 핵심 5건 카드는 "Key Point"(+💡 Insight, 둘 다 영어로 통일), 심층 분석의 의미 해설은 "관전 포인트"를 라벨로 쓴다. "왜 중요한가"는 쓰지 않는다.
   - PC에서 약간 넓게(`max-w-[820px]`), 모바일은 전체 폭(px-4)로 반응형.
   - 본문 글자 크기는 16px 기준(본문 문단 15px 이상). 너무 작게 만들지 않는다.
