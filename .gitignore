@@ -1,14 +1,6 @@
 .DS_Store
 .claude/settings*.json
 
-# 개인 분석 데이터 — 로컬 vault에만
-vault/raw/
-vault/analysis/
-vault/daily/
-vault/topics/
-vault/blog/
-vault/book/
-vault/reports/
-
-# 렌더링 산출물은 repo에 포함 (클라우드 에이전트가 push)
-# vault/html/ 과 vault/push/ 는 추적
+# 2026-06-13부터 vault 전체를 git 추적한다(레포 private 전환 완료).
+# 이유: 클라우드 루틴이 raw/analysis/daily/topics를 읽고 써야
+# 큐레이션 자동화·멀티위크 연속성(딜 추적, "어제 이어서")이 가능하다.

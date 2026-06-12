@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>econ-radar — {{DATE}}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      line-height: 1.78;
+    }
+    .badge-macro   { background:#dbeafe; color:#1e40af; }
+    .badge-bio     { background:#dcfce7; color:#166534; }
+    .badge-ai      { background:#ede9fe; color:#5b21b6; }
+    .badge-company { background:#fef3c7; color:#92400e; }
+    .badge-market  { background:#fef3c7; color:#92400e; }
+    details summary { cursor: pointer; user-select: none; }
+    details[open] summary .chevron { transform: rotate(180deg); }
+    .chevron { display:inline-block; transition: transform 0.2s; }
+
+    /* Key Point callout */
+    .why-matters {
+      border-left: 4px solid #4338ca;
+      padding: 10px 16px;
+      background: #f5f3ff;
+      border-radius: 0 10px 10px 0;
+      margin-top: 14px;
+    }
+    .why-matters .label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: #4338ca;
+      margin-bottom: 4px;
+    }
+    .why-matters .text {
+      font-size: 15.5px;
+      font-weight: 500;
+      color: #312e81;
+      line-height: 1.7;
+    }
+
+    /* 💡 Insight callout */
+    .insight {
+      border-left: 4px solid #14b8a6;
+      padding: 10px 16px;
+      background: #f0fdfa;
+      border-radius: 0 10px 10px 0;
+      margin-top: 10px;
+    }
+    .insight .label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #0d9488;
+      margin-bottom: 4px;
+    }
+    .insight .text {
+      font-size: 15px;
+      color: #134e4a;
+      line-height: 1.7;
+    }
+
+    /* 🙋 Demand callout */
+    .customer {
+      border-left: 4px solid #f59e0b;
+      padding: 10px 16px;
+      background: #fffbeb;
+      border-radius: 0 10px 10px 0;
+      margin-top: 10px;
+    }
+    .customer .label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #b45309;
+      margin-bottom: 4px;
+    }
+    .customer .text {
+      font-size: 15px;
+      color: #78350f;
+      line-height: 1.7;
+    }
+
+    .sum-badge { min-width: 52px; text-align: center; }
+
+    /* 경제 영어 카드 */
+    .eng-card {
+      background: linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 100%);
+      border: 1.5px solid #99f6e4;
+      border-radius: 16px;
+      padding: 22px;
+    }
+    .eng-word {
+      font-size: 26px;
+      font-weight: 700;
+      color: #0f766e;
+      letter-spacing: -0.02em;
+    }
+    .eng-meaning {
+      font-size: 13.5px;
+      color: #0e7490;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+    .eng-desc {
+      font-size: 14.5px;
+      color: #374151;
+      line-height: 1.75;
+      margin-top: 12px;
+    }
+    .eng-example {
+      background: white;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-top: 14px;
+      border: 1px solid #cffafe;
+    }
+    .eng-example .en {
+      font-size: 14px;
+      color: #0e7490;
+      font-style: italic;
+      line-height: 1.65;
+    }
+    .eng-example .ko {
+      font-size: 13.5px;
+      color: #4b5563;
+      margin-top: 8px;
+      line-height: 1.7;
+    }
+
+    /* 발음 버튼 */
+    .voice-btn {
+      background: white;
+      border: 1.5px solid #99f6e4;
+      border-radius: 10px;
+      padding: 4px 7px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      transition: transform 0.1s, box-shadow 0.15s, border-color 0.15s;
+    }
+    .voice-btn:hover { box-shadow: 0 1px 7px rgba(13,148,136,0.28); }
+    .voice-btn:active { transform: scale(0.92); }
+    .voice-btn svg { width: 24px; height: 24px; display: block; }
+    .voice-btn.playing { background: #fef3c7; border-color: #f59e0b; }
+
+    /* 문장 재생 버튼 */
+    .play-circle {
+      flex-shrink: 0;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #14b8a6;
+      color: white;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+    }
+    .play-circle:hover { background: #0d9488; }
+    .play-circle:active { transform: scale(0.94); }
+    .play-circle svg { width: 16px; height: 16px; margin-left: 1px; }
+    .play-circle.playing { background: #f59e0b; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+
+  <script>
+    let _enVoice = null;
+    function _loadVoice() {
+      if (!('speechSynthesis' in window)) return;
+      const voices = window.speechSynthesis.getVoices();
+      if (!voices.length) return;
+      const prefs = [
+        'Google US English',
+        'Microsoft Aria Online (Natural)', 'Microsoft Jenny Online (Natural)', 'Microsoft Michelle Online (Natural)',
+        'Samantha', 'Ava', 'Allison', 'Serena', 'Karen', 'Moira',
+        'Microsoft Aria', 'Microsoft Jenny'
+      ];
+      for (const p of prefs) {
+        const v = voices.find(v => v.name && v.name.includes(p));
+        if (v) { _enVoice = v; return; }
+      }
+      _enVoice = voices.find(v => v.lang === 'en-US')
+        || voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'))
+        || null;
+    }
+    if ('speechSynthesis' in window) {
+      _loadVoice();
+      window.speechSynthesis.onvoiceschanged = _loadVoice;
+    }
+    function _speak(text, btn) {
+      if (!('speechSynthesis' in window)) { alert('이 브라우저는 음성 재생을 지원하지 않습니다.'); return; }
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        document.querySelectorAll('.voice-btn.playing,.play-circle.playing').forEach(el => el.classList.remove('playing'));
+        if (btn && btn._wasSpeaking) { btn._wasSpeaking = false; return; }
+      }
+      const clean = text.replace(/["""'']/g, '').replace(/—/g, ', ').replace(/\s+/g, ' ').trim();
+      const utt = new SpeechSynthesisUtterance(clean);
+      utt.lang = 'en-US';
+      utt.rate = 0.95;
+      utt.pitch = 1.05;
+      if (_enVoice) utt.voice = _enVoice;
+      if (btn) {
+        btn._wasSpeaking = true;
+        btn.classList.add('playing');
+        utt.onend = () => { btn.classList.remove('playing'); btn._wasSpeaking = false; };
+        utt.onerror = () => { btn.classList.remove('playing'); btn._wasSpeaking = false; };
+      }
+      window.speechSynthesis.speak(utt);
+    }
+  </script>
+
+
+  <div class="max-w-[820px] mx-auto px-4 py-8">
+{{BODY}}
+  </div>
+</body>
+</html>

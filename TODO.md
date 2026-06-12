@@ -1,17 +1,21 @@
 # TODO — econ-radar
 
 ## 바로 다음
-- [ ] econ-radar HTML 디자인 추가 손질 (색 포인트·레이아웃 미세조정).
-- [ ] 블로그 글 + econ-radar 사이트 **push(공개)** — 확정 시. push 후 1~2분이면 GitHub Pages 빌드 완료.
-  - 링크: `/kr/2026/06/10/econ-radar-agent-harness/`, `/en/...`, `/econ-radar/`, `/econ-radar/2026-06-10.html`
+- [ ] econ-radar HTML 디자인 추가 손질 (색 포인트·레이아웃 미세조정) — 이제 `scripts/template.html`만 고치면 됨.
 - [ ] (선택) 링크드인 글 게시 — 본문은 영어 티저, **블로그 링크는 첫 댓글에**.
-- [ ] (선택) 데일리 푸시 메시지(`vault/push/2026-06-10.md`) 외부 발송 — 사람 승인 후.
+- [ ] 블로그 글: 2026-06-13 하네스 검토·개선(fact-checker, vault 추적, 템플릿 렌더, 주간 루틴) — 다음 작업과 엮어 발행 보류 중.
 
-## 매일 운영 (자동화 검토)
-- [ ] 데일리 발행 시: 렌더된 HTML을 `~/kakyungkim.github.io/econ-radar/`에 복사 + `index.html`에 한 줄 추가 + push. → 오케스트레이터에 "배포" 단계로 넣어 자동화.
-
-## 하네스 개선 (improvement-log 발췌)
+## 하네스 개선 (2026-06-13 검토에서 이관 — `vault/_meta/2026-06-13-harness-review.md`)
+- [ ] **MOC "현재 상태 요약" 구조** — topics/*.md 상단에 큐레이터가 매일 갱신하는 핵심 흐름 5줄, 날짜 타임라인은 아카이브로. append-only 로그화 방지.
+- [ ] **백로그 주간 트리아지** — 주 1회 "하네스 정비"로 이 목록에서 1~2개만 처리, 나머지는 의식적 won't-fix.
 - [ ] `투자테마` vs `투자전략` MOC 중복 정리(역할 분리 또는 통합).
 - [ ] `유망기업` vs `신약개발전략` 바이오 기업 서술 중첩 정리(기업 단위 vs R&D 관점).
 - [ ] 커리어 렌즈 중단 → '일의 미래' 테마를 3층 저술로 핸드오프하는 규칙 정의.
-- [ ] **수요 렌즈(Demand) (C) 본격화** — `demand-analyst`(수요 분석가) 에이전트 신설해 market-analyst와 **병렬**로 돌리고, 뉴스레터에 네 번째 렌즈로 편입. (A) 오버레이 운영해 보고 효과 있으면 승격. 기준선: `vault/_meta/demand-lens.md`. 파이프라인(daily-orchestrator 진행표)·문체 기준선·HTML 렌더(report-renderer)·newsletter-editor 통합 양식까지 손봐야 함.
+- [ ] **수요 렌즈(Demand) (C) 승격 판단** — 판단 기준 먼저 정의(예: Demand 단이 결론을 바꾼 사례 주 2회 이상이면 demand-analyst 신설). 기준선: `vault/_meta/demand-lens.md`.
+- [ ] fact-checker 첫 1주 운영 후 점검 — 수정 건수·토큰 비용 보고 검증 범위(최대 10개) 조정.
+- [ ] render_html.py 첫 클라우드 런 결과 확인 — 양식 어긋남 있으면 템플릿/계약 보정.
+
+## 완료 (기록)
+- [x] 2026-06-13 — 우선순위 4건: fact-checker(T4.7), vault 전체 추적(레포 private), 렌더 템플릿화, 주간 동향 루틴.
+- [x] 2026-06-12 — 데일리 자동 발행(deploy.sh 클라우드 편입) + 텔레그램 채널 알림.
+- [x] 2026-06-10 — 블로그 글 + econ-radar 사이트 공개.

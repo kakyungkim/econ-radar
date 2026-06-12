@@ -63,6 +63,7 @@ tools: Read, Write
 
 ## 출력
 - `vault/daily/YYYY-MM-DD.md` (= 일일 뉴스레터, 옵시디언 데일리노트)
+- **출력 md는 `scripts/NEWSLETTER-FORMAT.md` 계약을 따라야 한다**(report-renderer가 이 md를 결정적 스크립트로 HTML/푸시 렌더링한다. 섹션 헤더·콜아웃 토큰 `**Key Point**:`·`🙋 **Demand**:`·`💡 **Insight**:`·Top 5의 `### N. 제목`·`출처:` 줄의 `[[topics/…]]` 위키링크 등을 계약대로 지킬 것).
 - 형식:
   ```
   ---

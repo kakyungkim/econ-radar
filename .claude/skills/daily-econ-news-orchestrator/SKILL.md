@@ -20,28 +20,30 @@ description: econ-radar의 매일 뉴스 파이프라인 입구. "오늘 경제 
    - "이어서"/기간 한정 → 해당 범위로 수집·분석.
 
 ## 팀 구성 (Agent Team)
-news-scout, market-analyst, company-scout, newsletter-editor, style-critic, report-renderer, knowledge-curator.
+news-scout, market-analyst, company-scout, newsletter-editor, style-critic, fact-checker, report-renderer, knowledge-curator.
 
 ## 품질 기준선
 - `vault/_meta/benchmarks.md`의 "바로 반영할" 체크리스트를 품질 기준으로 삼는다(Why it matters 한 줄, 1차 자료 직접 링크, 양면 시각, 항목당 분량 상한, 재사용 전략 프레임). 이 파일이 없거나 오래됐으면 benchmark-scout를 먼저 돌릴 것을 제안한다.
 
 ## 실행 흐름
-1. `TeamCreate`로 위 7명을 팀으로 만든다.
+1. `TeamCreate`로 위 8명을 팀으로 만든다.
 2. `TaskCreate`로 단계·의존관계 등록:
    - T1 수집(news-scout) → `vault/raw/`
    - T2 산업·투자 분석(market-analyst, T1 의존) → `vault/analysis/market-*`
    - T3 유망 기업 분석(company-scout, T1 의존) → `vault/analysis/company-*`  ※ T2와 병렬
    - T4 통합(newsletter-editor, T2·T3 의존) → `vault/daily/*`
    - **T4.5 문체 검수(style-critic, T4 의존) → `vault/daily/*` 윤문** (발행 전 AI스러운 표현 제거)
-   - T5 렌더(report-renderer, T4.5 의존) → `vault/html/*.html`, `vault/push/*`
-   - T6 vault 정리(knowledge-curator, T4.5 의존) → `vault/topics/*` 갱신
+   - **T4.7 사실 검증(fact-checker, T4.5 의존) → `vault/daily/*` 수치·출처 검증** (자동 발행의 마지막 사실 방어선 — 핵심 수치 원문 대조, 출처 없는 수치 차단, 단일 소스 표기)
+   - T5 렌더(report-renderer, T4.7 의존) → `vault/html/*.html`, `vault/push/*`
+   - T6 vault 정리(knowledge-curator, T4.7 의존) → `vault/topics/*` 갱신
 3. 팀원은 `TaskUpdate`로 진행/차단/완료를 갱신하고, `SendMessage`로 발견·출처 보강 요청을 주고받는다.
 4. 팀장은 `TaskGet`으로 지연·차단을 확인하고, 막히면 재할당하거나 사람에게 알린다.
 5. 각 산출물은 파일로 남긴다(대화로만 끝내지 않는다).
 
-## 사람 승인 게이트
+## 발행 정책 (2026-06-12 자동 발행 전환)
 - 파일 생성(뉴스레터·HTML·푸시)은 자동.
-- **외부 발송(메일·메신저로 푸시 전송, 뉴스레터 발행)은 사람 승인 뒤**에만. 팀장은 "발송 준비됨 — 보낼까요?"로 확인을 받는다. 절대 자동 발송하지 않는다.
+- **데일리 발행(블로그 deploy.sh + 텔레그램 채널 @econradar 알림)은 자동** — 2026-06-12 사용자 승인으로 전환. 대신 T4.7 fact-checker가 발행 전 사실 검증을 맡는다.
+- 그 외 외부 발송(메일, 다른 메신저, 뉴스레터 서비스, 출판)은 여전히 **사람 승인 뒤**에만.
 
 ## 마무리
 - knowledge-curator까지 끝나면 `vault/_meta/improvement-log.md`에 오늘 실행 메모(빠진 소스, 약했던 분야)를 남긴다.

@@ -13,6 +13,15 @@ type: meta
 - 어떻게 고칠지: (news-collection 소스 목록에 추가 등)
 ```
 
+## 2026-06-13 (하네스 구조 검토 → 우선순위 4건 일괄 적용)
+- 무엇이: 발행 4호 시점 전체 구조 비판 검토(상세: `_meta/2026-06-13-harness-review.md`).
+- 적용한 것:
+  - **① 사실 검증 게이트**: `fact-checker` 에이전트 신설, T4.7(문체 검수 다음, 렌더 앞). 자동 발행 체제의 마지막 사실 방어선 — 핵심 수치 원문 대조(최대 10개), 출처 없는 수치 차단, 단일 소스 표기.
+  - **② vault 전체 git 추적**: 레포 private 전환 후 raw/analysis/daily/topics/reports gitignore 해제. 클라우드 루틴이 큐레이션·멀티위크 연속성 확보.
+  - **③ 렌더 템플릿화**: `scripts/render_html.py`(+ md 계약 `scripts/NEWSLETTER-FORMAT.md`)로 HTML·푸시 생성을 결정적 스크립트로 전환. report-renderer는 계약 점검+실행+검증으로 축소. 발행당 토큰 ~40% 절감 목표.
+  - **④ 3층 가동**: 주간 동향 리포트 클라우드 루틴 신설(일요일 21:00 KST, trig_01T6E6z5nnuxspGqov3PGJ9K) → `vault/reports/` 자동 생성.
+- 미적용(TODO 이관): MOC "현재 상태 요약" 구조(append-only 로그화 방지), 백로그 주간 트리아지, demand-analyst 승격 판단 기준 정의.
+
 ## 2026-06-11 (knowledge-curator 실행)
 - 오늘 한 일:
   - 신규 발행 큐레이션: daily/2026-06-11 + market/company 분석을 옵시디언 그래프에 누적. 5개 MOC에 `### 2026-06-11` 블록 추가 — `거시정책`(미 CPI 실제치 +4.2% 헤드라인 vs 근원 +2.9%·ECB 첫 인상 2.25%·이란발 유가/코스피 변동), `AI`(오라클 자금조달 쇼크로 화두가 6/10 임대 사업화→6/11 차입 리스크로 이동·오픈AI IPO+GPT-5.6·엔비디아 PC칩), `바이오제약`·`신약개발전략`·`유망기업`(에이비엘바이오 토베시미그 FDA ODD·OS 미충족 8.9 vs 9.4개월 사실 유지·ABL503 IND·알피바이오 FDA 실사 VAI).
