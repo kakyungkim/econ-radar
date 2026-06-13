@@ -1005,8 +1005,14 @@ def render_sources(doc):
 def render_footer(doc):
     date = esc(doc["date"] or "")
     return """    <!-- ===== FOOTER ===== -->
-    <footer class="border-t border-gray-200 pt-6 pb-10 text-center">
-      <p class="text-sm text-gray-500">econ-radar · {date}</p>
+    <footer class="border-t border-gray-200 pt-8 pb-10 text-center">
+      <a href="https://t.me/econradar" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-[15px] rounded-xl px-5 py-3 shadow-sm hover:shadow-md transition mb-2">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6 18.7 19.9c-.24 1.08-.88 1.34-1.79.84l-4.94-3.64-2.38 2.29c-.26.26-.48.48-.99.48l.35-5.03 9.15-8.27c.4-.35-.09-.55-.62-.2L4.55 13.37l-4.87-1.52c-1.06-.33-1.08-1.06.22-1.57L20.57 3.05c.88-.33 1.65.2 1.37 1.55z"/></svg>
+        매일 텔레그램으로 받기 <span class="text-indigo-200 font-normal text-sm">@econradar</span>
+      </a>
+      <p class="text-xs text-gray-400">매일 저녁(오후 6시 반 이후) 핵심 5건 요약 + 전체 링크.</p>
+      <p class="text-sm text-gray-500 mt-4">econ-radar · {date}</p>
       <p class="text-xs text-gray-400 mt-1">투자 참고용 정보입니다. 판단과 책임은 본인에게 있습니다.</p>
     </footer>""".format(date=date)
 
