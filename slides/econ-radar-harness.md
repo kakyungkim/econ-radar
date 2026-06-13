@@ -13,6 +13,8 @@ style: |
     --indigo-soft: #eef2ff;
     --line: #c7d2fe;
     --muted: #64748b;
+    --pop: #c026d3;
+    --pop-soft: #fae8ff;
     --amber: #b45309;
     --amber-soft: #fef3c7;
     --teal: #0f766e;
@@ -33,13 +35,13 @@ style: |
     letter-spacing: -0.01em;
     padding-bottom: 12px;
     margin-bottom: 24px;
-    background: linear-gradient(90deg, var(--indigo) 0 56px, var(--line) 56px 100%) bottom left / 100% 4px no-repeat;
+    background: linear-gradient(90deg, var(--indigo) 0, var(--pop) 56px, var(--line) 56px) bottom left / 100% 4px no-repeat;
   }
   strong { color: var(--indigo); font-weight: 700; }
   em { color: var(--muted); font-style: normal; }
   ul { margin-top: 6px; }
   li { margin: 9px 0; }
-  li::marker { color: var(--indigo); }
+  li::marker { color: var(--pop); }
   code {
     background: var(--indigo-soft);
     color: var(--indigo-deep);
@@ -47,16 +49,6 @@ style: |
     border-radius: 6px;
     font-size: 0.88em;
   }
-  pre {
-    background: #0f172a;
-    color: #e2e8f0;
-    border-radius: 14px;
-    padding: 22px 26px;
-    font-size: 19px;
-    line-height: 1.5;
-    box-shadow: 0 10px 30px rgba(15,23,42,0.18);
-  }
-  pre code { background: transparent; color: inherit; padding: 0; }
   table {
     font-size: 21px;
     border-collapse: separate;
@@ -67,7 +59,7 @@ style: |
     box-shadow: 0 4px 18px rgba(67,56,202,0.10);
   }
   th {
-    background: var(--indigo);
+    background: linear-gradient(90deg, var(--indigo) 0%, #6d28d9 100%);
     color: #fff;
     font-weight: 700;
     padding: 12px 16px;
@@ -76,8 +68,8 @@ style: |
   td { background: #fff; padding: 11px 16px; border-bottom: 1px solid #eef0f7; }
   tr:nth-child(even) td { background: #fafbff; }
   blockquote {
-    border-left: 5px solid var(--indigo);
-    background: var(--indigo-soft);
+    border-left: 5px solid var(--pop);
+    background: linear-gradient(90deg, var(--pop-soft) 0%, var(--indigo-soft) 100%);
     margin: 18px 0 0;
     padding: 14px 22px;
     border-radius: 0 12px 12px 0;
@@ -89,6 +81,7 @@ style: |
   footer { color: #94a3b8; font-size: 14px; }
   section::after { color: var(--indigo); font-weight: 700; text-shadow: none; }
   .small { font-size: 19px; color: var(--muted); }
+  a { color: var(--indigo); }
 
   /* 배지 */
   .tag {
@@ -97,7 +90,7 @@ style: |
     padding: 2px 12px; border-radius: 999px;
     vertical-align: 2px; margin-left: 8px;
   }
-  .tag.new { background: var(--amber-soft); color: var(--amber); }
+  .tag.new { background: var(--pop-soft); color: var(--pop); }
   .tag.auto { background: var(--teal-soft); color: var(--teal); }
 
   /* 파이프라인 플로우 */
@@ -111,7 +104,7 @@ style: |
   .node .role { display: block; font-size: 14.5px; font-weight: 500; color: var(--muted); }
   .node.gate { border-color: var(--amber); background: #fffbeb; color: var(--amber); }
   .node.script { border-color: var(--teal); background: #f0fdfa; color: var(--teal); }
-  .arr { color: var(--indigo); font-size: 15px; line-height: 1; }
+  .arr { color: var(--pop); font-size: 15px; line-height: 1; }
 
   /* 타임라인 */
   .tl { list-style: none; padding-left: 0; margin-top: 4px; }
@@ -119,38 +112,89 @@ style: |
   .tl li::before {
     content: ""; position: absolute; left: 4px; top: 12px;
     width: 11px; height: 11px; border-radius: 50%;
-    background: var(--indigo); box-shadow: 0 0 0 4px var(--indigo-soft);
+    background: linear-gradient(135deg, var(--indigo) 0%, var(--pop) 100%);
+    box-shadow: 0 0 0 4px var(--indigo-soft);
   }
   .tl .d { font-weight: 800; color: var(--indigo-deep); margin-right: 8px; }
 
+  /* 브라우저 목업 프레임 */
+  .browser {
+    background: #fff; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 18px 50px rgba(49,46,129,0.28), 0 2px 8px rgba(49,46,129,0.12);
+    border: 1px solid #e2e8f0;
+  }
+  .browser .bar {
+    display: flex; align-items: center; gap: 8px;
+    background: #f1f5f9; padding: 9px 14px; border-bottom: 1px solid #e2e8f0;
+  }
+  .browser .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .browser .dot.r { background: #f87171; } .browser .dot.y { background: #fbbf24; } .browser .dot.g { background: #34d399; }
+  .browser .url {
+    flex: 1; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px;
+    font-size: 13.5px; color: var(--muted); padding: 2px 12px; line-height: 1.6;
+    font-family: ui-monospace, "SF Mono", monospace;
+  }
+  .browser img { display: block; width: 100%; margin: 0; }
+  .shots { display: flex; gap: 26px; align-items: flex-start; }
+  .shots .browser { flex: 1; min-width: 0; }
+  .clickme { text-align: center; font-size: 17px; color: var(--pop); font-weight: 700; margin-top: 12px; }
+
+  /* 막대 차트 */
+  .bars { margin-top: 10px; }
+  .brow { display: flex; align-items: center; gap: 14px; margin: 9px 0; }
+  .brow .lbl { width: 270px; font-size: 19.5px; font-weight: 600; text-align: right; color: var(--ink); }
+  .brow .track { flex: 1; }
+  .brow .bar1 {
+    height: 24px; border-radius: 6px;
+    background: linear-gradient(90deg, var(--indigo) 0%, #7c3aed 100%);
+    color: #fff; font-size: 15.5px; font-weight: 700;
+    display: flex; align-items: center; justify-content: flex-end; padding-right: 10px;
+  }
+  .brow .bar1.dead { background: #e2e8f0; color: var(--muted); text-decoration: line-through; }
+  .brow .bar1.zero { background: var(--teal); width: 56px !important; text-decoration: none; }
+
   /* 표지·마무리 */
   section.lead {
-    background: radial-gradient(120% 120% at 0% 0%, #4f46e5 0%, #4338ca 45%, #312e81 100%);
+    background:
+      radial-gradient(90% 120% at 100% 0%, rgba(192,38,211,0.35) 0%, rgba(192,38,211,0) 55%),
+      radial-gradient(120% 120% at 0% 0%, #4f46e5 0%, #4338ca 45%, #1e1b4b 100%);
     color: #eef2ff;
     text-align: center;
     justify-content: center;
   }
-  section.lead h1 { color: #fff; font-size: 64px; margin-bottom: 6px; }
+  section.lead h1 {
+    font-size: 64px; margin-bottom: 6px;
+    background: linear-gradient(90deg, #ffffff 30%, #e9d5ff 70%, #f0abfc 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
   section.lead h2 {
     color: #c7d2fe; background: none; border: none;
-    font-weight: 600; font-size: 30px; margin: 0 0 30px; padding-bottom: 0;
+    font-weight: 600; font-size: 30px; margin: 0 0 26px; padding-bottom: 0;
   }
   section.lead strong { color: #fff; }
   section.lead .small { color: #c7d2fe; }
   section.lead::after { color: #c7d2fe; }
   section.lead header, section.lead footer { color: rgba(199,210,254,0.55); }
+  section.lead img.hero {
+    width: 460px; border-radius: 18px; margin: 0 auto 26px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.14);
+  }
+  section.lead img.qr {
+    width: 132px; border-radius: 12px; margin: 18px auto 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  }
 ---
 
 <!-- _class: lead -->
 
+<img class="hero" src="assets/cover.png" alt="econ-radar">
+
 # econ-radar
 ## 뉴스레터를 "매일 도는 팀"으로 만든 하네스
 
-경제 뉴스를 매일 **3렌즈**로 정리해 **자동 발행**하고
-그 누적을 **리포트 → 블로그 → 책**으로 키우는
-개인 지식 자산 시스템
+경제 뉴스를 매일 **3렌즈**로 정리해 **자동 발행**하고, 그 누적을 **리포트 → 블로그 → 책**으로 키우는 개인 지식 자산 시스템
 
-<span class="small">스터디 발표 · 2026-06-13 (v2 — 자동 발행·사실 검증·3층 가동 반영)</span>
+<span class="small">스터디 발표 · 2026-06-13 (v3)</span>
 
 ---
 
@@ -162,6 +206,19 @@ style: |
 - **운영**: 매일 **18:30 KST 클라우드가 생성→블로그 발행→텔레그램 알림까지 완전 자동**. 사람 승인 대신 **사실 검증(fact-check) 게이트**가 지킨다.
 
 > 핵심 아이디어: *"프롬프트 한 번"이 아니라 "역할·매뉴얼·검수·누적이 있는 작은 조직"을 설계한다.*
+
+---
+
+## 실제 발행본 — 매일 저녁 이렇게 나온다
+
+<a href="https://kakyungkim.github.io/econ-radar/2026-06-12.html">
+<div class="browser" style="width: 62%; margin: 0 auto;">
+  <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/2026-06-12.html</span></div>
+  <img src="assets/shot-issue.png" alt="econ-radar 2026-06-12 발행본">
+</div>
+</a>
+
+<p class="clickme">▲ 클릭하면 라이브 페이지로 이동</p>
 
 ---
 
@@ -228,20 +285,6 @@ style: |
 
 ---
 
-## 자연어로 부른다 — 스킬명을 몰라도 됨
-
-| 이렇게 말하면 | 이게 돈다 |
-| --- | --- |
-| "오늘 뉴스 정리해줘", "econ-radar 돌려줘" | `daily-econ-news-orchestrator` (1층 전체) |
-| "투자 파트만 다시", "HTML만 다시" | 해당 단계만 부분 재실행 |
-| "이번 주 동향 리포트", "이 주제로 블로그" | `content-studio-orchestrator` (3층) |
-
-<br>
-
-오케스트레이터(팀장)가 **진행표**를 들고 단계·의존관계를 챙긴다.
-
----
-
 ## 품질을 어떻게 지키나 — 기준선은 전부 파일
 
 - **문체 기준선** — `korean-style-samples.md`(실제 기사 표본) 의무 참조. *"A가 아니라 B", "~인 셈"* 같은 AI 상투구 금지.
@@ -300,20 +343,21 @@ style: |
 
 ## 운영 비용 — 계측해야 고친다
 
-`run-metrics.md`에 단계별 토큰·시간을 누적한다.
+1회 발행 ≈ **43만 토큰 / 벽시계 ~25분** (`run-metrics.md`에 단계별 누적)
 
-| 단계 | 토큰 | 비고 |
-| --- | --- | --- |
-| 수집(news-scout) | 62K | 19건 수집 |
-| 분석 2종(병렬) | 87K | market ∥ company |
-| 통합(editor) | 78K | |
-| 문체 검수(style-critic) | 51K | |
-| ~~렌더(report-renderer)~~ | ~~93K~~ → **≈0** | **스크립트로 대체** |
-| 큐레이션(curator) | 57K | |
+<div class="bars">
+  <div class="brow"><span class="lbl">렌더 report-renderer</span><div class="track"><div class="bar1 dead" style="width:100%">93K — 가장 비쌌던 단계</div></div></div>
+  <div class="brow"><span class="lbl">→ render_html.py</span><div class="track"><div class="bar1 zero">≈0</div></div></div>
+  <div class="brow"><span class="lbl">통합 editor</span><div class="track"><div class="bar1" style="width:84%">78K</div></div></div>
+  <div class="brow"><span class="lbl">수집 news-scout</span><div class="track"><div class="bar1" style="width:67%">62K</div></div></div>
+  <div class="brow"><span class="lbl">큐레이션 curator</span><div class="track"><div class="bar1" style="width:61%">57K</div></div></div>
+  <div class="brow"><span class="lbl">문체 검수 style-critic</span><div class="track"><div class="bar1" style="width:55%">51K</div></div></div>
+  <div class="brow"><span class="lbl">분석 2종 (병렬)</span><div class="track"><div class="bar1" style="width:94%">87K</div></div></div>
+</div>
 
 <br>
 
-<span class="small">1회 발행 ≈ 43만 토큰 / 벽시계 ~25분 → 렌더 스크립트화로 <strong>~22% 절감</strong>. 가장 비싼 단계가 가장 판단이 필요 없는 단계였다.</span>
+<span class="small">가장 비싼 단계가 가장 판단이 필요 없는 단계였다 → 스크립트로 대체해 <strong>발행당 ~22% 절감</strong>.</span>
 
 ---
 
@@ -341,10 +385,33 @@ style: |
 
 ---
 
+## 직접 보기 — 아카이브 · 설계 노트
+
+<div class="shots">
+  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/econ-radar/">
+  <div class="browser">
+    <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/</span></div>
+    <img src="assets/shot-archive.png" alt="econ-radar 아카이브">
+  </div>
+  </a>
+  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/kr/2026/06/10/econ-radar-agent-harness/">
+  <div class="browser">
+    <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">…/econ-radar-agent-harness/ (설계 노트 블로그)</span></div>
+    <img src="assets/shot-blog.png" alt="설계 노트 블로그 글">
+  </div>
+  </a>
+</div>
+
+<p class="clickme">▲ 클릭하면 각 페이지로 이동</p>
+
+---
+
 <!-- _class: lead -->
 
 # 감사합니다
 
 **econ-radar** = 매일 도는 3렌즈 뉴스 팀 + 이중 게이트 + 누적되는 지식 자산
 
-<span class="small">데모: 오늘자 HTML 리포트 · 텔레그램 채널 @econradar · vault 그래프</span>
+<a href="https://kakyungkim.github.io/econ-radar/"><img class="qr" src="assets/qr-archive.png" alt="QR — econ-radar 아카이브"></a>
+
+<span class="small">QR = 아카이브 · 텔레그램 @econradar · 데모: 오늘자 HTML 리포트</span>
