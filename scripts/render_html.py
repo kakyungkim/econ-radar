@@ -1018,8 +1018,10 @@ EMOJI_NUM = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "
 
 
 def render_push(doc):
+    # 텔레그램 채널 구독자가 채널만 보고도 그날 핵심을 파악할 수 있게
+    # 핵심 5건 제목까지 펼친다. 이 파일이 곧 텔레그램 메시지 본문이다.
     date = doc["date"] or ""
-    lines = ["📈 %s econ-radar" % date]
+    lines = ["📰 econ-radar %s" % date]
     if doc["topic"]:
         topic_line = "🗣 오늘의 화제: %s" % doc["topic"]["title"]
         if doc["topic"].get("summary"):
@@ -1030,18 +1032,21 @@ def render_push(doc):
     for idx, it in enumerate(doc["top5"][:5]):
         title = re.sub(r"\s+", " ", it["title"]).strip()
         lines.append("%s %s" % (EMOJI_NUM[idx], title))
-    # 핵심 링크 1개: Today's Topic 첫 출처 → 없으면 Top1 첫 출처
+    lines.append("")
+    # 전체 보기: 발행본 블로그 HTML(구독자가 풀 다이제스트로 이동)
+    if date:
+        lines.append("🔗 전체 보기: https://kakyungkim.github.io/econ-radar/%s.html" % date)
+    # 핵심 1차 출처 1개: Today's Topic 첫 출처 → 없으면 Top1 첫 출처
     key = None
     if doc["topic"] and doc["topic"]["links"]:
         n, u = doc["topic"]["links"][0]
-        label = "%s — %s" % (doc["topic"]["title"], n)
-        key = (label, u)
+        key = ("%s — %s" % (doc["topic"]["title"], n), u)
     elif doc["top5"] and doc["top5"][0]["links"]:
         n, u = doc["top5"][0]["links"][0]
         key = ("%s — %s" % (doc["top5"][0]["title"], n), u)
     if key:
-        lines.append("")
-        lines.append("🔗 핵심: [%s](%s)" % key)
+        # 텔레그램 평문에서 자동 링크되도록 맨 URL로(마크다운 [라벨](url) 미사용).
+        lines.append("🔗 핵심 원문: %s" % key[1])
     return "\n".join(lines) + "\n"
 
 

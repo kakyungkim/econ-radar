@@ -235,3 +235,16 @@ python3 scripts/render_html.py 2026-06-11 --out-suffix .test   # 2026-06-11.test
 ```
 
 - 입력 md 없음 → 비0 종료. 필수 섹션 전무 → 비0 종료. 섹션 누락 → 생략 + stderr 경고.
+
+## 13. 푸시 파일 = 텔레그램 채널 메시지
+`vault/push/DATE.md`는 텔레그램 채널 @econradar로 **그대로** 전송된다(클라우드 루틴 3단계). 구독자가 채널만 봐도 그날 핵심을 알 수 있게 **핵심 5건 제목까지 펼친다**. render_push 생성 형식:
+```
+📰 econ-radar YYYY-MM-DD
+🗣 오늘의 화제: {토픽} — {한 줄}
+
+1️⃣ {핵심1} … 5️⃣ {핵심5}
+
+🔗 전체 보기: https://kakyungkim.github.io/econ-radar/DATE.html
+🔗 핵심 원문: {URL}
+```
+텔레그램 평문 전송이라 맨 URL만 자동 링크된다(마크다운 `[]()` 미사용).
