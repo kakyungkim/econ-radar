@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-14
+- J&J Firefly Bio 10억달러 인수 — DAC 플랫폼 (KRAS undruggable 표적)
+- ECB 3년 만에 금리 인상 (2.00%→2.25%), 라가르드 추가 인상 시사
+- AZ EMERALD-3 HCC 3상 성공 (STRIDE+TACE, PFS HR 0.70, -30%)
+- 바이오젠-아펠리스 인수 완료 (56억달러, SYFOVRE GA 최초치료제)
+- 빅테크 AI CapEx 6,900억달러 (+77%) + 에이전트 플랫폼 전쟁
+
 ## 2026-06-13
 - KOSPI +4.63%(8,123.62p) 급반등 — 외국인 25거래일 만에 순매수 전환, 미-이란 MOU 임박·SOX +7.9%
 - FDA 벨주티판+펨브롤리주맙 ccRCC 보조치료 승인(LITESPARK-022 HR 0.72, 재발 28% 감소)
