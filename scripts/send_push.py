@@ -5,14 +5,14 @@
 DATE 생략 시 오늘 날짜(KST) 자동 사용.
 """
 import sys, json, urllib.request, urllib.parse
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import datetime, timezone, timedelta
 
 BOT_TOKEN = "8924227337:AAF83ZgmaYO4e6KXSzbtykodkYMo2VfoQWk"
 CHAT_ID   = "-1004408420486"
 API_URL   = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
-date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(ZoneInfo("Asia/Seoul")).strftime("%Y-%m-%d")
+KST = timezone(timedelta(hours=9))
+date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(KST).strftime("%Y-%m-%d")
 push_file = f"vault/push/{date}.md"
 
 try:
