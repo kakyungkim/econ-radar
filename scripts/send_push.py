@@ -4,12 +4,16 @@
 사용: python3 scripts/send_push.py [DATE]
 DATE 생략 시 오늘 날짜(KST) 자동 사용.
 """
-import sys, json, urllib.request, urllib.parse
+import sys, json, os, urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
 
-BOT_TOKEN = "8924227337:AAF83ZgmaYO4e6KXSzbtykodkYMo2VfoQWk"
-CHAT_ID   = "-1004408420486"
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "-1004408420486")
 API_URL   = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+
+if not BOT_TOKEN:
+    print("[ERROR] TELEGRAM_BOT_TOKEN 환경변수가 설정되지 않았습니다.")
+    sys.exit(1)
 
 KST = timezone(timedelta(hours=9))
 date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(KST).strftime("%Y-%m-%d")
