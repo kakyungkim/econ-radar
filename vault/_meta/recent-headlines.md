@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-16
+- ABL Bio, Eli Lilly와 BBB 셔틀 플랫폼 26억달러(약 3조6,000억원) 기술이전 — Grabody-B IGF1R 기반, K-바이오 최대급
+- 바이오 M&A 집중 — 이번 주 4건: GSK-Nuvalent $10.6B, J&J-Firefly $1B(KRAS DAC), Incyte-Vega $1.25B, ABL Bio-Lilly $2.6B
+- FOMC 6월 회의 — 동결 확실·내부 3명 이견 노출, 결과·점도표는 6/17 발표
+- Medicare GLP-1 Bridge 7월 시행 — 월 50달러(약 6만9,000원), 메디케어 수혜자 6,500만명 접근
+- OpenAI, 1조달러(약 138조8,000억원) 밸류에이션 기밀 IPO 신청 — Goldman·MS·JPMorgan 주관
+
 ## 2026-06-15
 - 미·이란 합의 완료 선언 — 호르무즈 즉각 개방, 6월 19일 스위스 서명식, 브렌트 80달러 초반
 - 노바티스 del-brax FSHD 임상 1/2상 바이오마커 성공 — AOC 플랫폼(Avidity 120억달러) 첫 외부 검증
