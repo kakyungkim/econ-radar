@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2   # HEAD~1 비교에 필요
+          fetch-depth: 0   # before..HEAD 전체 범위 비교에 필요
 
       - name: Detect date
         id: detect
@@ -31,10 +31,15 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             DATE="${{ github.event.inputs.date }}"
           else
-            DATE=$(git diff --name-only HEAD~1 HEAD \
+            BEFORE="${{ github.event.before }}"
+            # before가 000...0(새 브랜치)이면 HEAD~1로 대체
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              BEFORE="HEAD~1"
+            fi
+            DATE=$(git diff --name-only "$BEFORE" HEAD \
               | grep -E '^vault/push/[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$' \
               | sed 's|vault/push/||; s|\.md||' \
-              | head -1)
+              | sort -r | head -1)
           fi
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
           echo "Detected date: $DATE"
