@@ -49,4 +49,4 @@ tags: [AI]
 - 2026-06-09 — 앤트로픽 S-1 비공개 제출($965B) / GPT-5.5 공개 / 엔비디아 Vera 신규 / 반도체 급락·일부 반등 [[daily/2026-06-09]]
 
 ## 연결 주제
-- [[topics/반도체]] [[topics/투자테마]] [[topics/거시정책]] [[topics/신약개발전략]] [[topics/유망기업]]
+- [[topics/반도체]] [[topics/투자테마]] [[topics/거시정책]] [[topics/신약개발전략]] [[topics/유망기업]] [[topics/AI신약개발]]
