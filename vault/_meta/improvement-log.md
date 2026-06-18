@@ -13,6 +13,24 @@ type: meta
 - 어떻게 고칠지: (news-collection 소스 목록에 추가 등)
 ```
 
+## 2026-06-16~18 (GitHub Actions 버그 픽스 + 뉴스 신선도·중복 방지 시스템)
+
+### 6/16 — GitHub Actions 다중 커밋 push 감지 버그
+- **무엇이**: 텔레그램 알림이 자동 발행 후 오지 않음. 수동 workflow_dispatch로 대체.
+- **왜**: GitHub Actions 감지 로직이 `HEAD~1 HEAD`(마지막 커밋 하나)만 비교. CCR이 한 번의 push에 커밋 여러 개를 묶어 보낼 때(자동 생성 커밋 + knowledge-curator MOC 커밋들), vault/push 파일이 앞선 커밋에 있어 감지 누락. 워크플로는 "success"로 끝나지만 발송 step이 skip된 것.
+- **고친 것**: `.github/workflows/telegram-push.yml`에서 `HEAD~1 HEAD` → `github.event.before HEAD` 전체 push 범위로 변경. `fetch-depth: 2` → `fetch-depth: 0`. (커밋 6c7f12f)
+
+### 6/17 — 첫 정상 자동 발행
+- Fix 첫 검증 성공. 텔레그램 알림 자동 수신 확인.
+
+### 6/18 — 뉴스 신선도·중복 방지 시스템 도입
+- **무엇이**: 자동 생성된 뉴스레터의 Today's Topic이 이미 며칠 전 다뤘던 주제(tebipenem 항생제)로 나옴. 뉴스 신선도가 검증되지 않은 채 14일 이상 된 기사도 본문에 들어오는 문제.
+- **왜**: news-scout가 신선도 체크 없이 수집, newsletter-editor가 직전 발행물 중복 확인 없이 Today's Topic 선정.
+- **고친 것**:
+  - `news-scout`: 수집 시 기사 게재일 기준 **48시간(2일) 이상 지난 항목은 `[배경]` 태그** → "## 배경 맥락" 섹션 분리. 직전 뉴스레터에서 **새 전개 없이 이미 다룬 항목은 `[중복]` 태그** → 배경 맥락으로 분리. 새 전개 있으면 `[후속]` 태그로 짧게.
+  - `newsletter-editor`: `[배경]`·`[중복]` 항목을 Top 5·Today's Topic·Deep Dive·Companies 독립 항목으로 올리지 않음. Today's Topic 선정 전 직전 **3일** `vault/daily/` 파일에서 기존 Topic 제목 확인 → 같은 소재 반복 금지.
+- **결과**: 같은 약/기업이 Days에 걸쳐 반복 등장하는 "에이전트 관성" 현상 제거. 신선한 뉴스만 본문 승격.
+
 ## 2026-06-14 (미뤄둔 TODO 3건 처리)
 - **MOC append-only 방지**: knowledge-curator 에이전트에 "핵심 흐름=덮어쓰기, 타임라인=누적+10개 초과 시 아카이브" 규칙 명문화.
 - **투자테마/투자전략 범위 분리**: 두 MOC의 핵심 흐름 중복 해소. 투자테마=어떤 섹터에 돈이 몰리나(WHAT), 투자전략=거시·포지션·리스크 접근(HOW). 각 파일에 범위 노트 추가.
