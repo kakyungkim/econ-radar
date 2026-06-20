@@ -5,13 +5,18 @@ tags: [AI]
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Anthropic, Coefficient Bio 4억 달러(약 5,520억 원) 인수 — AI 파운데이션 기업의 첫 신약개발 밸류체인 직접 진입(6/18)**: 창업 8개월 스타트업을 전액 주식 거래로 인수. Anthropic 첫 M&A. Claude for Life Sciences에 통합, AstraZeneca·Sanofi·Novo Nordisk·Genmab 등 고객사 확보 완료.
-- **AI 신약 임상 200개+ 진입, FDA 최종 승인은 0건 — 실증 데이터 축적 단계**: 첫 AI 신약 FDA 승인이 플랫폼 가치 판단의 업계 기준점이 될 전망. Recursion·Insilico·Exscientia 등 기존 AI 신약 스타트업과의 경쟁 구도가 Anthropic 진입으로 재편.
-- **OpenAI IPO 비밀 신청 — 1조 달러(약 138조 8,000억 원) 목표, AI 밸류에이션 공개 기준선(6/16)**: 연환산 매출 250억 달러 vs 인프라 투자 2,000억 달러+ 구조가 처음 공개된다. Anthropic 병행 IPO 추진 중.
-- **빅테크 CapEx +77%, 에이전트 플랫폼 전쟁으로 전환(6/14)**: 5사 합계 6,600억~6,900억 달러(약 898조~938조 원). 경쟁 무게중심이 모델 성능에서 OS·플랫폼 생태계 락인으로 이동 중.
-- 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업, 에이전트 채택의 현실 장벽은 감사 추적(audit trail)·오류 책임 소재 불분명 문제다.
+- **Claude Fable 5·Gemini 3.5 Pro·GPT-5.6 역사상 최촉 일정 집중(6/20)**: Claude Fable 5(6/9 출시, 100만 토큰, $10/$50/MTok), Gemini 3.5 Pro(Vertex AI Preview 상태), GPT-5.6("iris-alpha" 코드명, Polymarket 6/22~28 출시 확률 90%대). 기업 AI 도입 계약 결정이 6월 말 비교 평가 이후로 지연되는 구조.
+- **안전 필터링 정책이 제약·R&D 도입 결정 변수로 부상(6/20)**: Claude Fable 5의 바이오·화학 민감 요청 하위 모델 라우팅 정책이 생명과학 분야 AI 도입 속도를 좌우할 기준선으로 부상.
+- **Anthropic, Coefficient Bio 4억 달러(약 5,520억 원) 인수 — AI 파운데이션 기업 첫 신약개발 밸류체인 직접 진입(6/18)**: Claude for Life Sciences에 AI 신약발견 플랫폼 통합.
+- **OpenAI IPO 비밀 신청 — 1조 달러(약 138조 8,000억 원) 목표(6/16)**: 연환산 매출 250억 달러 vs 인프라 투자 2,000억 달러+ 구조가 처음 공개된다.
+- 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업. 에이전트 채택의 현실 장벽은 감사 추적(audit trail)·오류 책임 소재 불분명 문제다.
 
 ## 타임라인
+### 2026-06-20 [[daily/2026-06-20]]
+- [[daily/2026-06-20]] — AI 모델 대전 6월 말 집중: Claude Fable 5(출시 완료)·Gemini 3.5 Pro(Preview)·GPT-5.6(iris-alpha, 출시 임박)
+  - Polymarket 기준 GPT-5.6 6/22~28 출시 확률 90%대(6/18 이후). 기업 도입 계약 결정이 비교 평가 완료까지 보류되는 구조
+  - Claude Fable 5 안전 필터링(바이오·화학 민감 요청 라우팅)이 제약·R&D 기업 도입 진입 장벽으로 거론
+
 ### 2026-06-18 [[daily/2026-06-18]]
 - Anthropic, Coefficient Bio 4억 달러(약 5,520억 원) 전액 주식 인수 — Anthropic 첫 M&A, 창업 8개월 AI 신약발견 스타트업. Claude for Life Sciences 통합 예정. → [[daily/2026-06-18]]
 - AI 신약 임상 200개+ 진입·FDA 승인 0건 현황 재확인 — 첫 AI 신약 FDA 승인이 플랫폼 가치 기준점. Recursion·Insilico·Exscientia 등과 경쟁 구도 변화. → [[daily/2026-06-18]]
