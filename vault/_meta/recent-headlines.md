@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-20
+- cytisinicline FDA CRL — 약효 데이터 건재, CMO cGMP OAI 판정이 허가 차단. 이미 Adare로 제조 이전 완료, Q4 2026 NDA 재제출·H1 2027 출시 예정
+- BIO USA 2026 D-2 — K바이오 51개사, 서울대병원 병원 첫 단독 부스, ABL Bio·삼성바이오 Rockville·Rznomics 파트너링
+- 유한양행 창립 100주년(6/20) — 'Great & Global' 비전, 렉라자 1Q 글로벌 $2.57억(+82.7%), 글로벌 톱 50 목표
+- AI 모델 대전 6월 말 집중 — Claude Fable 5(6/9 출시), Gemini 3.5 Pro(3주째 미출시), GPT-5.6(6/22~28 출시 확률 83~90%)
+- Moderna MFLUSIVA 주간 +28% + 브렌트유 $80.59 반등 — 이란 호르무즈 보험 의무 발언, 8/5 FDA 최종 결정 대기
+
 ## 2026-06-19
 - Moderna MFLUSIVA VRBPAC 9-0 만장일치 권고 — mRNA 독감 백신 FDA 최종 결정 8/5, 3상 표준 백신 대비 효능 26.6%·응급실·입원 예방 47.9%
 - Lilly Foundayo(orforglipron) 2형 당뇨 NDA Q2 2026 제출 예정 — 비만에 이어 두 번째 적응증, 식사 제한 없는 유일한 경구 GLP-1
@@ -54,12 +61,5 @@ tags: [운영, dedup]
 - AZ EMERALD-3 HCC 3상 성공 (STRIDE+TACE, PFS HR 0.70, -30%)
 - 바이오젠-아펠리스 인수 완료 (56억달러, SYFOVRE GA 최초치료제)
 - 빅테크 AI CapEx 6,900억달러 (+77%) + 에이전트 플랫폼 전쟁
-
-## 2026-06-13
-- KOSPI +4.63%(8,123.62p) 급반등 — 외국인 25거래일 만에 순매수 전환, 미-이란 MOU 임박·SOX +7.9%
-- FDA 벨주티판+펨브롤리주맙 ccRCC 보조치료 승인(LITESPARK-022 HR 0.72, 재발 28% 감소)
-- 화이자 베로베나타이드 월1회 GLP-1 2b상 성공(VESPER-1 15.9% 체중감소)
-- Parabilis Medicines IPO 6.7억달러(약 9,360억원) — 바이오텍 역대 최고, 나선형 펩타이드+리제네론 파트너십
-- Nvidia Vera Rubin 양산 + SK하이닉스 HBM4 60~70% 확정
 
 
