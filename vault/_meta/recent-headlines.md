@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-21
+- DATROWAY(Dato-DXd) FDA TNBC 1선 승인 — TROP2 ADC 최초 1선, mOS 23.7개월 vs 18.7개월, ORR 64% vs 30%, NCCN Category 1
+- Elicio ELI-002 7P 전이성 췌장암 완전반응 3명/3명 — KRAS mRNA 백신 + 면역관문억제제 순차 요법, AMPLIFY-7P 2상
+- Nvidia Vera CPU 양산 — AI 에이전트 전용, 88 Olympus 코어, x86 대비 1.8배, OpenAI·Anthropic 납품
+- 코스피 9,052 + 한국 5월 수출 877.5억달러 역대 최대 — 반도체 수출 169.4% 급증(371.6억달러)
+- BIO USA 2026 개막 D-1 + GPT-5.6 출시 83% 확률(Polymarket) — 내일(6/22) 동시 이벤트
+
 ## 2026-06-20
 - cytisinicline FDA CRL — 약효 데이터 건재, CMO cGMP OAI 판정이 허가 차단. 이미 Adare로 제조 이전 완료, Q4 2026 NDA 재제출·H1 2027 출시 예정
 - BIO USA 2026 D-2 — K바이오 51개사, 서울대병원 병원 첫 단독 부스, ABL Bio·삼성바이오 Rockville·Rznomics 파트너링
@@ -54,12 +61,5 @@ tags: [운영, dedup]
 - FOMC 6/16~17 — 워시 신임 의장 첫 회의, 동결 확률 99.6%, 스탠스 전환·점도표 주목
 - SK하이닉스 HBM4 60~70% 다년 계약 + 트럼프 H200 중국 10개사 부분 재개
 - Spero tebipenem PDUFA 6/18 + Kardigan IPO 6/18 — 바이오 카탈리스트 집중일
-
-## 2026-06-14
-- J&J Firefly Bio 10억달러 인수 — DAC 플랫폼 (KRAS undruggable 표적)
-- ECB 3년 만에 금리 인상 (2.00%→2.25%), 라가르드 추가 인상 시사
-- AZ EMERALD-3 HCC 3상 성공 (STRIDE+TACE, PFS HR 0.70, -30%)
-- 바이오젠-아펠리스 인수 완료 (56억달러, SYFOVRE GA 최초치료제)
-- 빅테크 AI CapEx 6,900억달러 (+77%) + 에이전트 플랫폼 전쟁
 
 
