@@ -15,6 +15,10 @@ tags: [바이오제약, GLP-1경구제, 투자테마]
 - **경쟁 구도 — 효능(retatrutide 28.3%) vs 편의(Foundayo 경구) vs 빈도(화이자 월 1회 주사)**: GLP-1 시장의 다음 경쟁축이 세 방향으로 분화하고 있다.
 
 ## 타임라인
+### 2026-06-22 [[daily/2026-06-22]]
+- **Lilly retatrutide TRIUMPH-1 최종 데이터 발표(ADA 2026)**: 28.3% 체중 감소(12mg 최고 용량), 45.3%가 30% 이상 감량. TRANSCEND-T2D-1 당뇨 HbA1c -1.9%p. 요로감염 7.5~8.4% vs 위약 5.3% 신호. NDA Q4 2026 목표 — 출처: [Managed Healthcare Executive](https://www.managedhealthcareexecutive.com/view/retatrutide-shows-substantial-weight-loss-glycemic-control-in-obesity-and-type-2-diabetes-ada-2026) — [[daily/2026-06-22]]
+- **CrossBridge Bio 인수(최대 3억달러) Q2 클로징**: TROP2 이중 페이로드 ADC CBB-120. Lilly 포트폴리오에 비만 + ADC 2.0 동시 추가 — 출처: [FierceBiotech](https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m) — [[daily/2026-06-22]]
+
 ### 2026-06-21 [[daily/2026-06-21]]
 - [[daily/2026-06-21]] — Lilly Foundayo 당뇨 NDA 접수 D-9: 6/30 이전 제출 계획, 공식 공시 미확인 상태
   - 비만 NDA는 4월 1일 허가 완료. 당뇨 NDA 접수 시 두 번째 블록버스터 적응증 추가
