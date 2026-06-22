@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-22
+- SK하이닉스 코스피 시총 1위 — 25년 7개월 만에 삼성전자 추월, 2,080조 vs 2,066조, HBM ~57% 점유, 당일 +5.61%
+- MoonLake sonelokimab VELA 3상 52주 — HiSCR75 67.2%·HiSCR100 33.1%, BLA 9월 제출, VELA-2 p=0.053 미달
+- Ionis olezarsen PDUFA 6/30 임박 — GalNAc-siRNA·APOC3 표적, 중성지방 -62.9%/-72.2%, RNA 치료제 만성질환 첫 관문
+- Lilly retatrutide NDA Q4 예정 + CrossBridge Bio 이중페이로드 ADC 인수 최대 $3억 — TRANSCEND-T2D-1, 28.3% 체중감소
+- BIO USA 2026 개막(K바이오 51개사·SNUH 단독 부스) + Claude Fable 5 6/23 유료 전환 — GPT-5.6 Polymarket 40% 재조정
+
 ## 2026-06-21
 - DATROWAY(Dato-DXd) FDA TNBC 1선 승인 — TROP2 ADC 최초 1선, mOS 23.7개월 vs 18.7개월, ORR 64% vs 30%, NCCN Category 1
 - Elicio ELI-002 7P 전이성 췌장암 완전반응 3명/3명 — KRAS mRNA 백신 + 면역관문억제제 순차 요법, AMPLIFY-7P 2상
@@ -54,12 +61,5 @@ tags: [운영, dedup]
 - FOMC 6월 회의 — 동결 확실·내부 3명 이견 노출, 결과·점도표는 6/17 발표
 - Medicare GLP-1 Bridge 7월 시행 — 월 50달러(약 6만9,000원), 메디케어 수혜자 6,500만명 접근
 - OpenAI, 1조달러(약 138조8,000억원) 밸류에이션 기밀 IPO 신청 — Goldman·MS·JPMorgan 주관
-
-## 2026-06-15
-- 미·이란 합의 완료 선언 — 호르무즈 즉각 개방, 6월 19일 스위스 서명식, 브렌트 80달러 초반
-- 노바티스 del-brax FSHD 임상 1/2상 바이오마커 성공 — AOC 플랫폼(Avidity 120억달러) 첫 외부 검증
-- FOMC 6/16~17 — 워시 신임 의장 첫 회의, 동결 확률 99.6%, 스탠스 전환·점도표 주목
-- SK하이닉스 HBM4 60~70% 다년 계약 + 트럼프 H200 중국 10개사 부분 재개
-- Spero tebipenem PDUFA 6/18 + Kardigan IPO 6/18 — 바이오 카탈리스트 집중일
 
 

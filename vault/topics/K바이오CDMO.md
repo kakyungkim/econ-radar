@@ -7,13 +7,16 @@ tags: [바이오제약, K바이오CDMO, 투자테마, 글로벌]
 > 범위: 한국 바이오텍·CDMO의 글로벌 기술이전·위탁생산 수주 동향. BIOSECURE Act 반사 수요, BIO USA 파트너링, 삼성바이오로직스·롯데바이오로직스·셀트리온 등 주요 플레이어.
 
 ## 핵심 흐름
-- **BIO USA 2026(6/22~25, 샌디에이고) 개막 D-1(6/21)**: 한국 기업 51개사 참가. 삼성바이오로직스·롯데바이오로직스·Celltrion·ABL Bio·Onconic Therapeutics가 BIOSECURE 반사 수요와 글로벌 기술이전 딜을 주요 메시지로.
-- **BIOSECURE Act 반사 수요 — 구조적 기회**: WuXi Biologics 공백을 채울 한국 CDMO 수요가 구조적으로 이어지고 있다. 미국 빅파마 CFO·공급망 담당자에게 규제 리스크 회피와 납기 안정성이 단가보다 우선순위.
-- **삼성바이오로직스 Rockville 거점**: 2025년 9월 인수(2억8,000만달러). "미국에서 생산한 약" 공급망 안보 논거로 단순 단가 경쟁에서 벗어난 포지셔닝. 노사 협상 결과가 수주 실현의 전제 조건.
-- **ABL Bio Grabody 플랫폼**: 릴리와 최대 26억달러(선불금 5,500만달러 수령 완료) 딜 이후 비만·근육 질환 적응 영역 확장 논의 중.
-- **파트너링 → 수주 전환 비율 낮음**: 테이블 미팅이 공시로 이어지는 비율이 업계 통설상 낮다. 이번 주 후반 실제 딜 공시 여부가 K바이오 주가 모멘텀 결정.
+- **BIO USA 2026(6/22~25, 샌디에이고) 개막**: 한국 기업 51개사 코리아 파빌리온 참가. 삼성바이오로직스(Rockville 미국 거점)·롯데바이오로직스(송도 플랜트1+시러큐스)·SNUH 최초 단독 부스(한국 의료 데이터 KHDP). 개막일 딜 공시 없음. 실질 성과는 6/25 종료 후 수주 계약 공시로 확인.
+- **BIOSECURE Act 반사 수요 — 구조적 기회 지속**: WuXi Biologics 공백을 채울 한국 CDMO 수요가 이어지고 있다. 규제 준수 + 미국 현지 거점 + 비용 경쟁력 세 가지를 동시에 충족하는 공급자 수요가 핵심. 삼성 Rockville이 "미국 내 생산" 요건을 충족하는 차별화 포인트.
+- **공급 과잉 리스크**: 삼성·롯데·셀트리온·SK바이오사이언스 동시 캐파 증설. 수주에서 매출 인식까지 시차가 크다. Lonza·Fujifilm Diosynth 등 유럽계 대형 CDMO와의 경쟁 심화.
+- **다음 관전 포인트**: BIO USA 종료(6/25) 후 신규 수주 계약 공시. Oscotec 라즈클루즈 로열티 기반 파트너링(OCT-648·ACART) 딜 성사 여부.
 
 ## 타임라인
+### 2026-06-22 [[daily/2026-06-22]]
+- **BIO USA 2026 개막(6/22~25, 샌디에이고)**: 한국 51개사 참가. 삼성바이오로직스 Rockville 거점·롯데바이오 송도 플랜트1(8월 완공 예정) 발표. SNUH 병원 최초 단독 부스(KHDP 소개). 개막일 딜 공시 없음 — 출처: [Korea BioMed](https://www.koreabiomed.com/news/articleView.html?idxno=32027) | [PRNewswire SNUH](https://www.prnewswire.com/news-releases/seoul-national-university-hospital-to-expand-global-k-bio-collaboration-at-bio-usa-2026-302804321.html) — [[daily/2026-06-22]]
+- **Oscotec BIO USA 파트너링**: 라즈클루즈 로열티 기반 OCT-648(NUAK1, 신장 섬유화)·ACART(항암 내성) 파트너십 추진. 전임상~초기 임상 단계 — 출처: [Seoul Economic Daily](https://en.sedaily.com/finance/2026/06/12/oscotec-to-join-bio-usa-2026-to-seek-global-partnerships) — [[daily/2026-06-22]]
+
 ### 2026-06-21 [[daily/2026-06-21]]
 - [[daily/2026-06-21]] — BIO USA 2026 개막 D-1: K바이오 51개사, BIOSECURE 반사 수요 딜 대기 국면
   - 삼성바이오로직스: Rockville 미국 거점(인수 2억8,000만달러)을 공급망 안보 논거로 수주 피치. 노사 협상 병행 추적 필요
