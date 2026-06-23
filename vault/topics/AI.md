@@ -5,13 +5,18 @@ tags: [AI]
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Claude Fable 5·Gemini 3.5 Pro·GPT-5.6 역사상 최촉 일정 집중(6/20)**: Claude Fable 5(6/9 출시, 100만 토큰, $10/$50/MTok), Gemini 3.5 Pro(Vertex AI Preview 상태), GPT-5.6("iris-alpha" 코드명, Polymarket 6/22~28 출시 확률 90%대). 기업 AI 도입 계약 결정이 6월 말 비교 평가 이후로 지연되는 구조.
-- **안전 필터링 정책이 제약·R&D 도입 결정 변수로 부상(6/20)**: Claude Fable 5의 바이오·화학 민감 요청 하위 모델 라우팅 정책이 생명과학 분야 AI 도입 속도를 좌우할 기준선으로 부상.
-- **Anthropic, Coefficient Bio 4억 달러(약 5,520억 원) 인수 — AI 파운데이션 기업 첫 신약개발 밸류체인 직접 진입(6/18)**: Claude for Life Sciences에 AI 신약발견 플랫폼 통합.
-- **OpenAI IPO 비밀 신청 — 1조 달러(약 138조 8,000억 원) 목표(6/16)**: 연환산 매출 250억 달러 vs 인프라 투자 2,000억 달러+ 구조가 처음 공개된다.
+- **Alphabet -7% 급락 — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀(6/23)**: 구글 딥마인드 핵심 AI 연구자 유출이 주가 직격. AlphaFold Jumper팀이 Anthropic으로 이동하며 AI-신약 경계선이 Anthropic 쪽으로 기울었다. Noam Shazeer의 OpenAI 복귀는 트랜스포머 원설계자가 경쟁 전선에 합류하는 의미.
+- **SpaceX $200억 채권 발행 — AI 자본지출 과열 경계심(6/23)**: AI 인프라 자금 조달이 채권 시장으로 확산되며 과열 경계 신호로 읽힌다. AI CapEx의 지속 가능성에 대한 시장 의구심이 가시화되는 국면.
+- **Anthropic, AlphaFold Jumper팀 영입 — AI-신약 경계가 Anthropic 쪽으로 이동**: Coefficient Bio 인수(6/18)에 이어 단백질 구조 예측 핵심 인재까지 확보. Claude for Life Sciences의 기술 심화 방향이 구체화.
+- **AI 자본 경쟁 구도 — 모델 성능보다 인재 보유·자본 조달이 단기 변수**: Alphabet 주가 급락이 보여주듯 인재 유출 리스크가 빅테크 AI 밸류에이션 직접 변수로 부상.
 - 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업. 에이전트 채택의 현실 장벽은 감사 추적(audit trail)·오류 책임 소재 불분명 문제다.
 
 ## 타임라인
+### 2026-06-23 [[daily/2026-06-23]]
+- Alphabet -7% — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀. AI 인재 이동이 빅테크 주가 직격
+- SpaceX $200억 채권 발행 — AI 자본지출 과열 경계심 시장 가시화. AI CapEx 지속 가능성 의구심 부상
+- Anthropic, AlphaFold Jumper팀 영입으로 AI-신약 역량 강화 — FDA TrailBlazer와 맞물려 AI-신약 경계 재설정 국면 진입 [[topics/신약개발전략]]
+
 ### 2026-06-20 [[daily/2026-06-20]]
 - [[daily/2026-06-20]] — AI 모델 대전 6월 말 집중: Claude Fable 5(출시 완료)·Gemini 3.5 Pro(Preview)·GPT-5.6(iris-alpha, 출시 임박)
   - Polymarket 기준 GPT-5.6 6/22~28 출시 확률 90%대(6/18 이후). 기업 도입 계약 결정이 비교 평가 완료까지 보류되는 구조

@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-23
+- 코스피 -9.99% 역대 최대 낙폭·서킷브레이커 발동 — 삼성전자·SK하이닉스 -12%, 외국인 4.67조 원 순매도, Fed Warsh 인상 편향 배경
+- Alphabet -7% (시총 $2,500억 증발) — AlphaFold Jumper→Anthropic, Transformer Shazeer→OpenAI 동주 이탈
+- Definium DT120 ODT 우울증 3상 성공 — MADRS 위약 대비 -8.1점(p<0.0001), LSD 기반 단회 투여 항우울제
+- FDA Operation TrailBlazer — 초기 임상 6~12개월 단축 파일럿, 중국 임상 주도권 대응
+- Ionis olezarsen PDUFA D-7(6/30 결정) — 중성지방 -72.2%, 췌장염 -85%, GalNAc-ASO 만성질환 관문
+
 ## 2026-06-22
 - SK하이닉스 코스피 시총 1위 — 25년 7개월 만에 삼성전자 추월, 2,080조 vs 2,066조, HBM ~57% 점유, 당일 +5.61%
 - MoonLake sonelokimab VELA 3상 52주 — HiSCR75 67.2%·HiSCR100 33.1%, BLA 9월 제출, VELA-2 p=0.053 미달
@@ -54,12 +61,5 @@ tags: [운영, dedup]
 - tebipenem PDUFA 6/18(내일) — 미국 최초 경구 카바페넴 첫 FDA 결정 임박
 - AI 신약발견 '비선택의 해' — 임상 200개+·FDA 승인 0건, Recursion-Exscientia 통합 파이프라인
 - K-바이오 BIO USA + 삼성바이오 록빌 거점 — 상반기 기술수출 13조 원, 첫 미국 생산기지 완료
-
-## 2026-06-16
-- ABL Bio, Eli Lilly와 BBB 셔틀 플랫폼 26억달러(약 3조6,000억원) 기술이전 — Grabody-B IGF1R 기반, K-바이오 최대급
-- 바이오 M&A 집중 — 이번 주 4건: GSK-Nuvalent $10.6B, J&J-Firefly $1B(KRAS DAC), Incyte-Vega $1.25B, ABL Bio-Lilly $2.6B
-- FOMC 6월 회의 — 동결 확실·내부 3명 이견 노출, 결과·점도표는 6/17 발표
-- Medicare GLP-1 Bridge 7월 시행 — 월 50달러(약 6만9,000원), 메디케어 수혜자 6,500만명 접근
-- OpenAI, 1조달러(약 138조8,000억원) 밸류에이션 기밀 IPO 신청 — Goldman·MS·JPMorgan 주관
 
 
