@@ -44,6 +44,22 @@ if not API_KEY:
     print("[ERROR] BUTTONDOWN_API_KEY 환경변수가 설정되지 않았습니다.")
     sys.exit(1)
 
+# 취소(삭제) 모드: python3 send_email.py --cancel <email_id>
+if len(sys.argv) > 2 and sys.argv[1] == "--cancel":
+    eid = sys.argv[2].strip()
+    req = urllib.request.Request(API_URL + "/" + eid, method="DELETE")
+    req.add_header("Authorization", "Token %s" % API_KEY)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print("✓ 취소(삭제) 완료 | id=%s | HTTP %s" % (eid, r.status))
+    except urllib.error.HTTPError as e:
+        if e.code in (204, 404):
+            print("✓ 이미 없음/취소됨 | id=%s | HTTP %s" % (eid, e.code))
+        else:
+            print("✗ 취소 실패 HTTP %s: %s" % (e.code, e.read().decode("utf-8", "replace")))
+            sys.exit(1)
+    sys.exit(0)
+
 KST = timezone(timedelta(hours=9))
 date = sys.argv[1] if len(sys.argv) > 1 else datetime.now(KST).strftime("%Y-%m-%d")
 

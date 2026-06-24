@@ -21,6 +21,10 @@ on:
         description: "발송 모드: 1(다음날 아침 예약) / now(즉시) / draft(강제 초안) / 비움(레포 변수 EMAIL_SEND 따름)."
         required: false
         default: 'draft'
+      cancel_id:
+        description: "예약/발송 취소할 Buttondown 이메일 id(em_...). 채우면 취소만 하고 끝."
+        required: false
+        default: ''
 
 jobs:
   send:
@@ -31,8 +35,15 @@ jobs:
         with:
           fetch-depth: 0   # before..HEAD 전체 범위 비교에 필요
 
+      - name: Cancel email (if cancel_id given)
+        if: github.event.inputs.cancel_id != ''
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: python3 scripts/send_email.py --cancel ${{ github.event.inputs.cancel_id }}
+
       - name: Detect date
         id: detect
+        if: github.event.inputs.cancel_id == ''
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             DATE="${{ github.event.inputs.date }}"
