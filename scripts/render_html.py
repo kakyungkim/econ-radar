@@ -419,18 +419,17 @@ def _parse_english(body, j, doc):
 
 
 def _split_english_head(head):
-    """'RPO (Remaining Performance Obligations, 잔여이행의무)' →
-       word=RPO, meaning=잔여이행의무, speak=Remaining Performance Obligations"""
+    """'long-acting antibody (half-life extended antibody, 장기지속형 항체)' →
+       word='long-acting antibody', meaning='장기지속형 항체', speak='long-acting antibody'.
+       발음은 항상 화면에 보이는 표제어(word)를 읽는다. 괄호 안 영어 설명·약자
+       풀이를 읽으면 화면 단어와 안 맞으므로(예: 약자는 철자 그대로 읽힘) 쓰지 않는다."""
     m = re.match(r"^(.+?)\s*\((.+)\)\s*$", head)
     if not m:
         return head, "", head
     word = m.group(1).strip()
     inside = [p.strip() for p in m.group(2).split(",")]
     meaning = inside[-1] if inside else ""
-    # 첫 세그먼트가 영문이면 발음 대상으로
-    speak = word
-    if inside and re.search(r"[A-Za-z]", inside[0]):
-        speak = inside[0]
+    speak = word  # 표제어를 그대로 발음 — 화면 단어와 항상 일치
     return word, meaning, speak
 
 
