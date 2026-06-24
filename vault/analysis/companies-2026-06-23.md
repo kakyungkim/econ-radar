@@ -3,7 +3,7 @@ date: 2026-06-23
 type: analysis
 lens: company
 tags: [유망기업, 주목플레이어, 바이오, AI, 건설, 제약, RNA치료제, 사이키델릭, 신약개발]
-links: ["[definium-therapeutics](/topics/definium-therapeutics.md)", "[ionis-pharmaceuticals](/topics/ionis-pharmaceuticals.md)", "[AI](/topics/AI.md)", "[astrazeneca](/topics/astrazeneca.md)", "[daewoo-engineering](/topics/daewoo-engineering.md)"]
+links: ["[definium-therapeutics](/topics/definium-therapeutics.md)", "[RNA치료제](/topics/RNA치료제.md)", "[AI](/topics/AI.md)", "[astrazeneca](/topics/astrazeneca.md)", "[daewoo-engineering](/topics/daewoo-engineering.md)"]
 timestamp: 2026-06-23T10:10:25+00:00
 publish: false
 ---
@@ -131,7 +131,7 @@ publish: false
 
 ## 이어지는 주제
 - [사이키델릭치료제](/topics/사이키델릭치료제.md)
-- [RNA치료제-APOC3](/topics/RNA치료제-APOC3.md)
+- [RNA치료제](/topics/RNA치료제.md)
 - [AI](/topics/AI.md)
 - [한국제약바이오](/topics/한국제약바이오.md)
 - [중동재건-한국건설](/topics/중동재건-한국건설.md)

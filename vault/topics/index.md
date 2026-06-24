@@ -14,6 +14,7 @@ publish: false
 - [GLP-1비만치료](./GLP-1비만치료.md)
 - [KRAS플랫폼](./KRAS플랫폼.md)
 - [K바이오CDMO](./K바이오CDMO.md)
+- [RNA치료제](./RNA치료제.md)
 - [K방산](./K방산.md)
 - [거시금리](./거시금리.md)
 - [거시정책](./거시정책.md)

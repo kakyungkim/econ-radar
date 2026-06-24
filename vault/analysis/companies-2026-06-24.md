@@ -4,7 +4,7 @@ type: analysis
 subtype: companies
 lens: company
 tags: [바이오파마M&A, AbbVie, Apogee, 장기지속형항체, 아토피, 천식, SK바이오팜, InsiliciMedicine, AI신약개발, CNS, Ionis, olezarsen, PDUFA, RNA치료제, Micron, HBM4, AI메모리, Anthropic, TPU, AI인프라]
-links: ["[바이오M&A](/topics/바이오M&A.md)", "[AI신약개발](/topics/AI신약개발.md)", "[rna-therapeutics](/topics/rna-therapeutics.md)", "[반도체HBM](/topics/반도체HBM.md)", "[AI인프라](/topics/AI인프라.md)"]
+links: ["[바이오M&A](/topics/바이오M&A.md)", "[AI신약개발](/topics/AI신약개발.md)", "[RNA치료제](/topics/RNA치료제.md)", "[반도체HBM](/topics/반도체HBM.md)", "[AI인프라](/topics/AI인프라.md)"]
 timestamp: 2026-06-24T10:12:12+00:00
 publish: false
 ---
@@ -98,6 +98,6 @@ publish: false
 
 - [바이오M&A](/topics/바이오M&A.md) — AbbVie·Apogee 딜, 2026년 $1,060억 누적 흐름
 - [AI신약개발](/topics/AI신약개발.md) — Insilico·SK바이오팜 협력, AI 신약 B2B 모델
-- [rna-therapeutics](/topics/rna-therapeutics.md) — Ionis olezarsen PDUFA, ASO·siRNA 대형 만성질환 확장
+- [RNA치료제](/topics/RNA치료제.md) — Ionis olezarsen PDUFA, ASO·siRNA 대형 만성질환 확장
 - [반도체HBM](/topics/반도체HBM.md) — Micron HBM4, AI 메모리 수요·마진 구조
 - [AI인프라](/topics/AI인프라.md) — Anthropic·Google·Broadcom TPU 컴퓨트 계약

@@ -142,4 +142,4 @@ publish: false
 - [반도체HBM](/topics/반도체HBM.md) — HBM4E 수율·점유율 경쟁
 - [한국제약바이오](/topics/한국제약바이오.md) — 유한양행 렉라자·한미약품 소네페글루타이드·오스코텍 세비도플레닙
 - [AI신약개발](/topics/AI신약개발.md) — Anthropic Coefficient Bio·임상 200개+ FDA 승인 0건 현황
-- [mRNA-platform](/topics/mRNA-platform.md) — Moderna MFLUSIVA VRBPAC·계절 백신 확장
+- [RNA치료제](/topics/RNA치료제.md) — Moderna MFLUSIVA VRBPAC·계절 백신 확장

@@ -137,4 +137,4 @@ publish: false
 - [반도체HBM](/topics/반도체HBM.md) — SK하이닉스 HBM4E 공급사 최종 선정, 삼성 수율 경쟁
 - [GLP-1경구제](/topics/GLP-1경구제.md) — Foundayo 당뇨 NDA 제출 공시(~6/30)
 - [K바이오CDMO](/topics/K바이오CDMO.md) — BIO USA 2026 딜 공시 여부(6/22~25)
-- [biotech-IPO-2026](/topics/biotech-IPO-2026.md) — Parabilis 이후 2026 하반기 IPO 창구 지속 여부
+- [투자테마](/topics/투자테마.md) — Parabilis 이후 2026 하반기 IPO 창구 지속 여부

@@ -2,7 +2,7 @@
 date: 2026-06-20
 type: analysis-companies
 tags: [바이오, 제약, FDA, CDMO, mRNA, 금연치료제, GLP-1, RNA편집, 항암제, BBB플랫폼]
-links: ["[cytisinicline](/topics/cytisinicline.md)", "[moderna-mflusiva](/topics/moderna-mflusiva.md)", "[abl-bio-grabody](/topics/abl-bio-grabody.md)", "[K바이오CDMO](/topics/K바이오CDMO.md)", "[rznomics](/topics/rznomics.md)", "[eli-lilly-glp1](/topics/eli-lilly-glp1.md)"]
+links: ["[cytisinicline](/topics/cytisinicline.md)", "[RNA치료제](/topics/RNA치료제.md)", "[abl-bio-grabody](/topics/abl-bio-grabody.md)", "[K바이오CDMO](/topics/K바이오CDMO.md)", "[GLP-1비만치료](/topics/GLP-1비만치료.md)"]
 timestamp: 2026-06-20T10:11:36+00:00
 publish: false
 ---
@@ -152,8 +152,7 @@ publish: false
 ## 이어지는 주제
 
 - [cytisinicline-smoking-cessation](/topics/cytisinicline-smoking-cessation.md)
-- [moderna-mflusiva-mrna-influenza](/topics/moderna-mflusiva-mrna-influenza.md)
+- [RNA치료제](/topics/RNA치료제.md)
 - [abl-bio-grabody-bbb](/topics/abl-bio-grabody-bbb.md)
 - [K바이오CDMO](/topics/K바이오CDMO.md)
-- [rznomics-rna-editing](/topics/rznomics-rna-editing.md)
 - [GLP-1경구제](/topics/GLP-1경구제.md)
