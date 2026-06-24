@@ -1174,18 +1174,18 @@ def render_email(doc):
             '<p style="margin:0;font-size:15px;line-height:1.65;color:#1f2937;">%s</p>'
             '</div></td></tr>' % inline_email(doc["topic"]["summary"]))
 
-    # 전체보기 CTA — 일부 메일 클라이언트가 <a>의 background 를 무시해 버튼이
-    # 평평한 링크 글씨로만 보이는 문제가 있다. 배경색을 td bgcolor 에 줘서
-    # 어디서나 채워진 버튼으로 보이게 하는 bulletproof 패턴.
-    # 에메랄드 배경 + 순백 굵은 글씨. 페이지의 인디고/보라 박스(At a Glance·
-    # 오늘의 화제)와 색 계열이 달라 버튼이 확실히 도드라진다(고대비·가독).
+    # 전체보기 CTA — bulletproof 버튼. 배경은 td bgcolor(어디서나 렌더).
+    # 글씨색: 메일 클라이언트/Buttondown 테마가 <a>의 링크 색을 자기 색(파란/인디고)
+    # 으로 덮어쓰는 일이 흔하다. 그래서 텍스트를 <span>으로 감싸고 color:!important 로
+    # 흰색을 강제해 덮어쓰기를 무력화한다(에메랄드 배경 + 순백 글씨).
     blocks.append(
         '<tr><td style="padding:26px 24px 8px;" align="center">'
         '<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">'
         '<tr><td bgcolor="#059669" style="border-radius:12px;" align="center">'
         '<a href="%s" target="_blank" style="display:inline-block;padding:16px 36px;'
-        'font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;'
-        'border-radius:12px;background:#059669;">전체 리포트 보기 &rarr;</a>'
+        'font-size:16px;font-weight:700;color:#ffffff !important;text-decoration:none;'
+        'border-radius:12px;background:#059669;">'
+        '<span style="color:#ffffff !important;">전체 리포트 보기 &rarr;</span></a>'
         '</td></tr></table>'
         '<p style="margin:14px 0 0;font-size:12px;color:#9ca3af;line-height:1.6;">'
         'Deep Dive · Demand · Investment · Companies · Sources 전체는 위 링크에서 보실 수 있습니다.</p>'
