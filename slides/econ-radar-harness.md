@@ -233,10 +233,10 @@ style: |
 
 ## 실제 발행본, 매일 저녁에 나간다
 
-<a href="https://kakyungkim.github.io/econ-radar/2026-06-12.html">
+<a href="https://kakyungkim.github.io/econ-radar/2026-06-24.html">
 <div class="browser" style="width: 62%; margin: 0 auto;">
-  <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/2026-06-12.html</span></div>
-  <img src="assets/shot-issue.png" alt="econ-radar 2026-06-12 발행본">
+  <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/2026-06-24.html</span></div>
+  <img src="assets/shot-issue.png" alt="econ-radar 2026-06-24 발행본">
 </div>
 </a>
 
