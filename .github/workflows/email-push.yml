@@ -18,9 +18,9 @@ on:
         required: false
         default: ''
       send:
-        description: "발송 모드: 1(다음날 아침 예약) / now(즉시) / 비움(초안)."
+        description: "발송 모드: 1(다음날 아침 예약) / now(즉시) / draft(강제 초안) / 비움(레포 변수 EMAIL_SEND 따름)."
         required: false
-        default: ''
+        default: 'draft'
 
 jobs:
   send:
