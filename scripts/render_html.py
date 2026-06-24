@@ -545,6 +545,7 @@ def _parse_threads(body, j, out):
             content = m.group(1).strip()
             badges = extract_topic_badges(content)
             text = WIKILINK_RE.sub("", content)
+            text = LINK_RE.sub(r"\1", text)  # /topics/*.md links → plain text (no 404 on blog)
             text = re.sub(r"^[\s—-]+", "", text).strip()
             out.append({"badges": badges or infer_badges(text, 1), "text": text})
         j += 1
