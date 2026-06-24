@@ -320,7 +320,7 @@ def _parse_top5(body, j, doc):
         # 출처
         m = re.match(r"^출처:\s*(.+)$", s)
         if m:
-            item["links"] = extract_links(m.group(1))
+            item["links"] = [(n, u) for n, u in extract_links(m.group(1)) if not u.startswith("/topics/")]
             item["badges"] = extract_topic_badges(m.group(1)) or infer_badges(
                 item["title"])
             j += 1
