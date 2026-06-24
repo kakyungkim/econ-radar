@@ -1,0 +1,57 @@
+name: Email Daily Push (Buttondown)
+
+# vault/email/YYYY-MM-DD.html 가 추가·변경될 때 자동 실행.
+# 기본은 초안(draft) 생성만 — 즉시 발송하려면 레포 Variable EMAIL_SEND=1 설정
+# (Settings → Secrets and variables → Actions → Variables), 또는 수동 실행 시 send=1.
+#
+# 수동 실행: Actions 탭 → Run workflow → date / send 입력.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vault/email/*.html'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '발송할 날짜 (YYYY-MM-DD). 비워두면 최신 email 파일 자동 감지.'
+        required: false
+        default: ''
+      send:
+        description: '즉시 발송하려면 1 (비우면 초안만 생성).'
+        required: false
+        default: ''
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # before..HEAD 전체 범위 비교에 필요
+
+      - name: Detect date
+        id: detect
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE="${{ github.event.inputs.date }}"
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              BEFORE="HEAD~1"
+            fi
+            DATE=$(git diff --name-only "$BEFORE" HEAD \
+              | grep -E '^vault/email/[0-9]{4}-[0-9]{2}-[0-9]{2}\.html$' \
+              | sed 's|vault/email/||; s|\.html||' \
+              | sort -r | head -1)
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Detected date: $DATE"
+
+      - name: Send email via Buttondown
+        if: steps.detect.outputs.date != ''
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          EMAIL_SEND: ${{ github.event.inputs.send || vars.EMAIL_SEND }}
+        run: |
+          python3 scripts/send_email.py ${{ steps.detect.outputs.date }}

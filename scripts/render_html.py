@@ -29,7 +29,9 @@ TEMPLATE = os.path.join(SCRIPT_DIR, "template.html")
 DAILY_DIR = os.path.join(ROOT, "vault", "daily")
 HTML_DIR = os.path.join(ROOT, "vault", "html")
 PUSH_DIR = os.path.join(ROOT, "vault", "push")
+EMAIL_DIR = os.path.join(ROOT, "vault", "email")
 HERO_IMG = os.path.join(ROOT, "vault", "assets", "econ-radar_logo-concept-16vs9.jpg")
+BLOG_BASE = "https://kakyungkim.github.io/econ-radar"
 
 # ----------------------------------------------------------------------------
 # 배지 매핑
@@ -1057,6 +1059,172 @@ def render_push(doc):
 
 
 # ----------------------------------------------------------------------------
+# 이메일(Buttondown) — 하이브리드: At a Glance + Top 5 + 전체보기 CTA
+# ----------------------------------------------------------------------------
+# 이메일 클라이언트는 JS·외부 CSS·@import를 거의 못 쓴다. 따라서 Tailwind 대신
+# 인라인 style 속성과 table 레이아웃만 쓰고, 깊이 있는 본문(Deep Dive 등)은
+# 블로그 전체 리포트 링크로 넘긴다. Gmail 102KB 클리핑을 피하려고 히어로
+# 이미지는 base64로 박지 않고 본문을 가볍게 유지한다.
+
+# 배지 클래스 → (배경, 글자) 인라인 색
+_CLASS_COLOR = {
+    "badge-macro": ("#dbeafe", "#1e40af"),
+    "badge-ai": ("#ede9fe", "#5b21b6"),
+    "badge-bio": ("#dcfce7", "#166534"),
+    "badge-market": ("#fef3c7", "#92400e"),
+    "badge-company": ("#fef3c7", "#92400e"),
+}
+
+
+def email_badge(name):
+    bg, fg = _CLASS_COLOR.get(BADGE_CLASS.get(name, "badge-macro"),
+                              ("#dbeafe", "#1e40af"))
+    return ('<span style="display:inline-block;background:%s;color:%s;'
+            'font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;'
+            'margin:0 6px 6px 0;">%s</span>' % (bg, fg, esc(name)))
+
+
+def inline_email(text):
+    """inline() 의 이메일판: 링크에 class 대신 인라인 style 을 단다."""
+    text = WIKILINK_RE.sub(" ", text)
+    out = []
+    pos = 0
+    for m in LINK_RE.finditer(text):
+        out.append(_bold(esc(text[pos:m.start()])))
+        url = m.group(2)
+        out.append('<a href="%s" style="color:#4338ca;text-decoration:underline;" '
+                   'target="_blank">%s</a>' % (url, esc(m.group(1))))
+        pos = m.end()
+    out.append(_bold(esc(text[pos:])))
+    return "".join(out).strip()
+
+
+def email_subject(doc):
+    date = doc["date"] or ""
+    hook = None
+    if doc["topic"] and doc["topic"].get("title"):
+        hook = doc["topic"]["title"]
+    elif doc["top5"]:
+        hook = doc["top5"][0]["title"]
+    if hook:
+        hook = WIKILINK_RE.sub(" ", hook)
+        hook = re.sub(r"\*\*([^*]+)\*\*", r"\1", hook)
+        hook = re.sub(r"\s+", " ", hook).strip()
+        return "📈 econ-radar %s · %s" % (date, hook)
+    return "📈 econ-radar %s" % date
+
+
+def render_email(doc):
+    """이메일용 단일 HTML 문서와 제목을 만든다. 반환: (subject, html)."""
+    date = esc(doc["date"] or "")
+    raw_date = doc["date"] or ""
+    subtitle = esc(doc["subtitle"] or "")
+    blog_url = "%s/%s.html" % (BLOG_BASE, raw_date)
+    subject = email_subject(doc)
+
+    blocks = []
+
+    # At a Glance
+    if doc["glance"]:
+        ps = "".join(
+            '<p style="margin:0 0 10px;font-size:15px;line-height:1.7;'
+            'color:#1f2937;">%s</p>' % inline_email(g) for g in doc["glance"])
+        blocks.append(
+            '<tr><td style="padding:18px 24px 0;">'
+            '<p style="margin:0 0 10px;font-size:12px;font-weight:700;'
+            'letter-spacing:1px;text-transform:uppercase;color:#4f46e5;">At a Glance</p>'
+            '<div style="background:#eef2ff;border:1px solid #c7d2fe;'
+            'border-radius:14px;padding:18px 20px;">%s</div></td></tr>' % ps)
+
+    # Today's Top 5
+    if doc["top5"]:
+        cards = []
+        for idx, it in enumerate(doc["top5"], 1):
+            badges = "".join(email_badge(b) for b in (it["badges"] or ["Market"]))
+            lead = ""
+            if it["lead"]:
+                lead = ('<p style="margin:8px 0 0;font-size:14.5px;line-height:1.65;'
+                        'color:#4b5563;">%s</p>' % inline_email(" ".join(it["lead"])))
+            src = ""
+            if it["links"]:
+                n, u = it["links"][0]
+                src = ('<p style="margin:10px 0 0;font-size:13px;">'
+                       '<a href="%s" style="color:#4f46e5;text-decoration:none;" '
+                       'target="_blank">↗ %s</a></p>' % (u, esc(n)))
+            cards.append(
+                '<div style="background:#ffffff;border:1px solid #eceef2;'
+                'border-radius:14px;padding:18px 20px;margin:0 0 14px;">'
+                '<div style="margin:0 0 8px;">%s</div>'
+                '<p style="margin:0;font-size:16px;font-weight:700;line-height:1.45;'
+                'color:#111827;"><span style="color:#9ca3af;">%d.</span> %s</p>%s%s'
+                '</div>' % (badges, idx, inline_email(it["title"]), lead, src))
+        blocks.append(
+            '<tr><td style="padding:18px 24px 0;">'
+            '<p style="margin:0 0 14px;font-size:19px;font-weight:700;color:#111827;'
+            'border-bottom:2px solid #e5e7eb;padding-bottom:8px;">Today&#39;s Top 5</p>'
+            '%s</td></tr>' % "".join(cards))
+
+    # 오늘의 화제 한 줄 요약(있으면)
+    if doc["topic"] and doc["topic"].get("summary"):
+        blocks.append(
+            '<tr><td style="padding:6px 24px 0;">'
+            '<div style="background:#f5f3ff;border:1px solid #ddd6fe;'
+            'border-radius:14px;padding:16px 20px;">'
+            '<p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#7c3aed;">'
+            '🗣 오늘의 화제</p>'
+            '<p style="margin:0;font-size:15px;line-height:1.65;color:#1f2937;">%s</p>'
+            '</div></td></tr>' % inline_email(doc["topic"]["summary"]))
+
+    # 전체보기 CTA
+    blocks.append(
+        '<tr><td style="padding:26px 24px 8px;" align="center">'
+        '<a href="%s" target="_blank" style="display:inline-block;background:#4f46e5;'
+        'color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;'
+        'padding:14px 30px;border-radius:12px;">전체 리포트 보기 &rarr;</a>'
+        '<p style="margin:12px 0 0;font-size:12px;color:#9ca3af;line-height:1.6;">'
+        'Deep Dive · Demand · Investment · Companies · Sources 전체는 위 링크에서 보실 수 있습니다.</p>'
+        '</td></tr>' % blog_url)
+
+    subtitle_html = ""
+    if subtitle:
+        subtitle_html = ('<p style="margin:8px 0 0;font-size:14px;line-height:1.6;'
+                         'color:#6b7280;">%s</p>' % subtitle)
+
+    html = """<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>{subject}</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:'Apple SD Gothic Neo','Malgun Gothic',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-text-size-adjust:100%;">
+<!-- SUBJECT: {subject} -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f3f4f6;">
+  <tr><td align="center" style="padding:24px 12px;">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background:#ffffff;border:1px solid #e5e7eb;border-radius:18px;overflow:hidden;">
+      <tr><td style="padding:28px 24px 4px;">
+        <p style="margin:0;font-size:22px;font-weight:800;color:#111827;">📈 econ-radar 데일리</p>
+        <p style="margin:4px 0 0;font-size:14px;color:#6b7280;">{date}</p>
+        {subtitle_html}
+      </td></tr>
+{blocks}
+      <tr><td style="padding:26px 24px 24px;border-top:1px solid #e5e7eb;text-align:center;">
+        <a href="https://t.me/econradar" target="_blank" style="color:#4f46e5;text-decoration:none;font-size:14px;font-weight:600;">텔레그램 @econradar 로도 받기</a>
+        <p style="margin:12px 0 0;font-size:12px;color:#9ca3af;">econ-radar · {date}</p>
+        <p style="margin:4px 0 0;font-size:12px;color:#9ca3af;">투자 참고용 정보입니다. 최종 판단과 책임은 본인에게 있습니다.</p>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+</body>
+</html>
+""".format(subject=esc(subject), date=date, subtitle_html=subtitle_html,
+           blocks="\n".join(blocks))
+    return subject, html
+
+
+# ----------------------------------------------------------------------------
 # 메인
 # ----------------------------------------------------------------------------
 def build_html(doc, hero_b64):
@@ -1125,20 +1293,26 @@ def main():
 
     html = build_html(doc, hero_b64)
     push = render_push(doc)
+    _, email_html = render_email(doc)
 
     suffix = args.out_suffix
     html_path = os.path.join(HTML_DIR, args.date + suffix + ".html")
     push_path = os.path.join(PUSH_DIR, args.date + suffix + ".md")
+    email_path = os.path.join(EMAIL_DIR, args.date + suffix + ".html")
     os.makedirs(HTML_DIR, exist_ok=True)
     os.makedirs(PUSH_DIR, exist_ok=True)
+    os.makedirs(EMAIL_DIR, exist_ok=True)
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
     with open(push_path, "w", encoding="utf-8") as f:
         f.write(push)
+    with open(email_path, "w", encoding="utf-8") as f:
+        f.write(email_html)
 
     sys.stderr.write("[render_html] 완료\n")
-    sys.stderr.write("  HTML: %s (%d bytes)\n" % (html_path, len(html.encode("utf-8"))))
-    sys.stderr.write("  PUSH: %s\n" % push_path)
+    sys.stderr.write("  HTML : %s (%d bytes)\n" % (html_path, len(html.encode("utf-8"))))
+    sys.stderr.write("  PUSH : %s\n" % push_path)
+    sys.stderr.write("  EMAIL: %s (%d bytes)\n" % (email_path, len(email_html.encode("utf-8"))))
     sys.stderr.write("  섹션: top5=%d, deepdive=%d, demand=%d, investment=%d, "
                      "companies=%d, english=%d, threads=%d, sources=%d\n" % (
                          len(doc["top5"]), sum(len(x[2]) for x in doc["deepdive"]),
