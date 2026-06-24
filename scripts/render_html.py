@@ -1177,13 +1177,13 @@ def render_email(doc):
     # 전체보기 CTA — 일부 메일 클라이언트가 <a>의 background 를 무시해 버튼이
     # 평평한 링크 글씨로만 보이는 문제가 있다. 배경색을 td bgcolor 에 줘서
     # 어디서나 채워진 버튼으로 보이게 하는 bulletproof 패턴.
-    # 인디고 배경 + 순백색 굵은 글씨(고대비, 브랜드색 유지).
+    # 인디고 배경 + 밝은 하늘색 굵은 글씨(파스텔 sky-200, 대비 충분·부드러운 톤).
     blocks.append(
         '<tr><td style="padding:26px 24px 8px;" align="center">'
         '<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">'
         '<tr><td bgcolor="#4f46e5" style="border-radius:12px;" align="center">'
         '<a href="%s" target="_blank" style="display:inline-block;padding:16px 36px;'
-        'font-size:16px;font-weight:700;color:#ffffff;text-decoration:none;'
+        'font-size:16px;font-weight:700;color:#bae6fd;text-decoration:none;'
         'border-radius:12px;background:#4f46e5;">전체 리포트 보기 &rarr;</a>'
         '</td></tr></table>'
         '<p style="margin:14px 0 0;font-size:12px;color:#9ca3af;line-height:1.6;">'
