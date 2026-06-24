@@ -167,6 +167,41 @@
     .play-circle:active { transform: scale(0.94); }
     .play-circle svg { width: 16px; height: 16px; margin-left: 1px; }
     .play-circle.playing { background: #f59e0b; }
+
+    /* 섹션 점프 목차 — 스크롤해도 상단 고정 */
+    html { scroll-behavior: smooth; }
+    section[id] { scroll-margin-top: 82px; }
+    .toc {
+      position: sticky; top: 8px; z-index: 40;
+      display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+      margin: 0 0 30px; padding: 12px 16px;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: saturate(180%) blur(6px);
+      border: 1.5px solid #c7d2fe; border-radius: 14px;
+      box-shadow: 0 6px 22px rgba(67,56,202,0.16);
+    }
+    .toc .toc-label {
+      font-size: 13px; font-weight: 800; color: #4338ca; margin-right: 4px;
+    }
+    .toc a {
+      font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px;
+      background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe;
+      text-decoration: none; transition: background 0.15s, color 0.15s;
+    }
+    .toc a:hover { background: #4338ca; color: #fff; }
+
+    /* 맨 위로 버튼 */
+    .to-top {
+      position: fixed; right: 18px; bottom: 18px;
+      width: 44px; height: 44px; border-radius: 50%;
+      background: #4338ca; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; font-size: 20px; line-height: 1;
+      box-shadow: 0 4px 16px rgba(67,56,202,0.42); z-index: 50;
+      transition: background 0.15s, transform 0.1s;
+    }
+    .to-top:hover { background: #3730a3; }
+    .to-top:active { transform: scale(0.92); }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen">

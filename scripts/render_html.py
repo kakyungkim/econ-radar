@@ -1231,24 +1231,63 @@ def render_email(doc):
 
 
 # ----------------------------------------------------------------------------
+# 섹션 점프 목차 (블로그 HTML 전용 — 이메일에는 없음)
+# ----------------------------------------------------------------------------
+TOC_ITEMS = [
+    ("glance", "At a Glance"),
+    ("top5", "Top 5"),
+    ("topic", "Today's Topic"),
+    ("english", "Business English"),
+    ("deepdive", "Deep Dive"),
+    ("demand", "Demand"),
+    ("investment", "Investment"),
+    ("companies", "Companies"),
+    ("threads", "Threads"),
+    ("sources", "Sources"),
+]
+
+
+def render_toc(doc):
+    """있는 섹션만 칩으로 묶어 점프 목차를 만든다. 섹션 3개 미만이면 생략."""
+    chips = ['<a href="#%s">%s</a>' % (key, esc(label))
+             for key, label in TOC_ITEMS if doc.get(key)]
+    if len(chips) < 3:
+        return ""
+    return ('    <nav class="toc" aria-label="섹션 바로가기">\n'
+            '      <span class="toc-label">📑 바로가기</span>\n      %s\n    </nav>'
+            % "\n      ".join(chips))
+
+
+def _with_id(html, sec_id):
+    """렌더된 섹션 블록의 첫 <section ...> 에 id 를 주입(점프 타깃)."""
+    if not html:
+        return html
+    return html.replace('<section ', '<section id="%s" ' % sec_id, 1)
+
+
+# ----------------------------------------------------------------------------
 # 메인
 # ----------------------------------------------------------------------------
 def build_html(doc, hero_b64):
+    header = render_header(doc, hero_b64).replace('<header ', '<header id="top" ', 1)
     sections = [
-        render_header(doc, hero_b64),
-        render_glance(doc),
-        render_top5(doc),
-        render_topic(doc),
-        render_english(doc),
-        render_deepdive(doc),
-        render_demand(doc),
-        render_investment(doc),
-        render_companies(doc),
-        render_threads(doc),
-        render_sources(doc),
+        header,
+        render_toc(doc),
+        _with_id(render_glance(doc), "glance"),
+        _with_id(render_top5(doc), "top5"),
+        _with_id(render_topic(doc), "topic"),
+        _with_id(render_english(doc), "english"),
+        _with_id(render_deepdive(doc), "deepdive"),
+        _with_id(render_demand(doc), "demand"),
+        _with_id(render_investment(doc), "investment"),
+        _with_id(render_companies(doc), "companies"),
+        _with_id(render_threads(doc), "threads"),
+        _with_id(render_sources(doc), "sources"),
         render_footer(doc),
     ]
     body = "\n\n".join(s for s in sections if s)
+    body += ('\n\n    <a href="#top" class="to-top" aria-label="맨 위로" '
+             'title="맨 위로">&uarr;</a>')
     with open(TEMPLATE, encoding="utf-8") as f:
         tmpl = f.read()
     return tmpl.replace("{{DATE}}", doc["date"] or "").replace("{{BODY}}", body)
