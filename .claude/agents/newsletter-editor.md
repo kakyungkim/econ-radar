@@ -92,6 +92,8 @@ tools: Read, Write
   - **term** (한국어 뜻): 짧은 설명
     - 📝 *영어 예문(오늘 사건을 비즈니스 영어로)* → 한국어 번역
 
+  **단어 선정 기준(중요):** 여러 맥락에서 **재사용되는 고활용 비즈니스·금융·산업 영어**를 고른다(예: share buyback, earnings beat, long-acting antibody, milestone payment). 한 기사에만 쓰이는 **일회성·초전문 용어나 고유명사식 표현은 피한다**(예: dot plot, 특정 약물 코드명). 기준: "독자가 다른 글·회의에서도 다시 만날 표현인가?" 약하면 빼고 더 범용적인 표현으로 교체. 표제어는 화면·발음이 일치하도록 **읽는 그대로** 적는다(약자는 약자, 일반어는 일반어 — 발음 버튼이 표제어를 그대로 읽는다). 괄호의 **마지막 항목은 항상 한국어 뜻**으로 끝낸다. 약자는 `**RPO** (Remaining Performance Obligations, 잔여이행의무)`처럼 영어 풀이를 앞에 둘 수 있으나, 일반 용어에는 영어 동의어를 굳이 넣지 말고 한국어 뜻만 둔다(예: `**long-acting antibody** (장기지속형 항체)`).
+
   ---
   # Deep Dive
   ## 🏭 Industry        (또는 주제별: Macro & Policy / AI & Infrastructure / Bio & Pharma. 소주제별 산문 + 링크)
