@@ -184,11 +184,31 @@
       font-size: 13px; font-weight: 800; color: #4338ca; margin-right: 4px;
     }
     .toc a {
+      position: relative;
       font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px;
       background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe;
       text-decoration: none; transition: background 0.15s, color 0.15s;
     }
     .toc a:hover { background: #4338ca; color: #fff; }
+    /* hover 툴팁 — 섹션 설명 */
+    .toc a[data-tip]::after {
+      content: attr(data-tip);
+      position: absolute; left: 0; top: calc(100% + 9px);
+      width: max-content; max-width: 260px; white-space: normal;
+      background: #1e293b; color: #fff;
+      font-size: 12px; font-weight: 500; line-height: 1.5; letter-spacing: 0;
+      padding: 8px 11px; border-radius: 9px;
+      box-shadow: 0 8px 22px rgba(15,23,42,0.28);
+      opacity: 0; visibility: hidden; transform: translateY(-4px);
+      transition: opacity 0.15s, transform 0.15s; pointer-events: none; z-index: 60;
+    }
+    .toc a[data-tip]::before {
+      content: ""; position: absolute; left: 16px; top: calc(100% + 3px);
+      border: 6px solid transparent; border-bottom-color: #1e293b;
+      opacity: 0; visibility: hidden; transition: opacity 0.15s; z-index: 60;
+    }
+    .toc a[data-tip]:hover::after,
+    .toc a[data-tip]:hover::before { opacity: 1; visibility: visible; transform: translateY(0); }
 
     /* 맨 위로 버튼 */
     .to-top {
@@ -273,16 +293,16 @@
 
     <nav class="toc" aria-label="섹션 바로가기">
       <span class="toc-label">📑 바로가기</span>
-      <a href="#glance">At a Glance</a>
-      <a href="#top5">Top 5</a>
-      <a href="#topic">Today's Topic</a>
-      <a href="#english">Business English</a>
-      <a href="#deepdive">Deep Dive</a>
-      <a href="#demand">Demand</a>
-      <a href="#investment">Investment</a>
-      <a href="#companies">Companies</a>
-      <a href="#threads">Threads</a>
-      <a href="#sources">Sources</a>
+      <a href="#glance" data-tip="오늘의 핵심 요약">At a Glance</a>
+      <a href="#top5" data-tip="오늘의 주요 뉴스 5건">Top 5</a>
+      <a href="#topic" data-tip="오늘의 핵심 주제 심층 분석">Today's Topic</a>
+      <a href="#english" data-tip="뉴스 속 비즈니스 영어">Business English</a>
+      <a href="#deepdive" data-tip="거시·AI·바이오 주제별 심층 분석">Deep Dive</a>
+      <a href="#demand" data-tip="환자·처방의·지불자 등 수요자 관점">Demand</a>
+      <a href="#investment" data-tip="투자 테마·종목·리스크 정리">Investment</a>
+      <a href="#companies" data-tip="주목할 만한 기업">Companies</a>
+      <a href="#threads" data-tip="앞으로 이어질 주요 흐름">Threads</a>
+      <a href="#sources" data-tip="오늘의 기사 원문 출처">Sources</a>
     </nav>
 
     <!-- ===== AT A GLANCE ===== -->

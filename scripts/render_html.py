@@ -1234,23 +1234,24 @@ def render_email(doc):
 # 섹션 점프 목차 (블로그 HTML 전용 — 이메일에는 없음)
 # ----------------------------------------------------------------------------
 TOC_ITEMS = [
-    ("glance", "At a Glance"),
-    ("top5", "Top 5"),
-    ("topic", "Today's Topic"),
-    ("english", "Business English"),
-    ("deepdive", "Deep Dive"),
-    ("demand", "Demand"),
-    ("investment", "Investment"),
-    ("companies", "Companies"),
-    ("threads", "Threads"),
-    ("sources", "Sources"),
+    ("glance", "At a Glance", "오늘의 핵심 요약"),
+    ("top5", "Top 5", "오늘의 주요 뉴스 5건"),
+    ("topic", "Today's Topic", "오늘의 핵심 주제 심층 분석"),
+    ("english", "Business English", "뉴스 속 비즈니스 영어"),
+    ("deepdive", "Deep Dive", "거시·AI·바이오 주제별 심층 분석"),
+    ("demand", "Demand", "환자·처방의·지불자 등 수요자 관점"),
+    ("investment", "Investment", "투자 테마·종목·리스크 정리"),
+    ("companies", "Companies", "주목할 만한 기업"),
+    ("threads", "Threads", "앞으로 이어질 주요 흐름"),
+    ("sources", "Sources", "오늘의 기사 원문 출처"),
 ]
 
 
 def render_toc(doc):
-    """있는 섹션만 칩으로 묶어 점프 목차를 만든다. 섹션 3개 미만이면 생략."""
-    chips = ['<a href="#%s">%s</a>' % (key, esc(label))
-             for key, label in TOC_ITEMS if doc.get(key)]
+    """있는 섹션만 칩으로 묶어 점프 목차를 만든다. 섹션 3개 미만이면 생략.
+    각 칩에 data-tip(섹션 설명)을 달아 hover 시 툴팁으로 보여준다."""
+    chips = ['<a href="#%s" data-tip="%s">%s</a>' % (key, esc(tip), esc(label))
+             for key, label, tip in TOC_ITEMS if doc.get(key)]
     if len(chips) < 3:
         return ""
     return ('    <nav class="toc" aria-label="섹션 바로가기">\n'
