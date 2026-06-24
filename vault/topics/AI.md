@@ -5,13 +5,17 @@ tags: [AI]
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Alphabet -7% 급락 — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀(6/23)**: 구글 딥마인드 핵심 AI 연구자 유출이 주가 직격. AlphaFold Jumper팀이 Anthropic으로 이동하며 AI-신약 경계선이 Anthropic 쪽으로 기울었다. Noam Shazeer의 OpenAI 복귀는 트랜스포머 원설계자가 경쟁 전선에 합류하는 의미.
-- **SpaceX $200억 채권 발행 — AI 자본지출 과열 경계심(6/23)**: AI 인프라 자금 조달이 채권 시장으로 확산되며 과열 경계 신호로 읽힌다. AI CapEx의 지속 가능성에 대한 시장 의구심이 가시화되는 국면.
-- **Anthropic, AlphaFold Jumper팀 영입 — AI-신약 경계가 Anthropic 쪽으로 이동**: Coefficient Bio 인수(6/18)에 이어 단백질 구조 예측 핵심 인재까지 확보. Claude for Life Sciences의 기술 심화 방향이 구체화.
-- **AI 자본 경쟁 구도 — 모델 성능보다 인재 보유·자본 조달이 단기 변수**: Alphabet 주가 급락이 보여주듯 인재 유출 리스크가 빅테크 AI 밸류에이션 직접 변수로 부상.
-- 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업. 에이전트 채택의 현실 장벽은 감사 추적(audit trail)·오류 책임 소재 불분명 문제다.
+- **Micron HBM4 첫 실적 분기(6/24) — 총마진 81.6% 컨센서스, AI 메모리 수요 강도 확인**: HBM4 양산이 재무에 처음 반영되는 분기. 2026년 전체 HBM 완판 상태. NVIDIA Vera Rubin 플랫폼 탑재·2027년 수요 가이던스가 삼성전자·SK하이닉스 밸류에이션에 직접 영향.
+- **Anthropic 연매출 run-rate $300억(약 46조3,000억 원), Google·Broadcom 3.5GW TPU 계약**: 2025년 말 $90억(약 13조9,000억 원) 대비 약 3.3배 성장. 비공개 기업의 API·엔터프라이즈 수익화 규모 확인. GPT-5.6·Gemini 3.5 Pro 경쟁 속 API 단가 압박이 성장 지속 가능성의 변수.
+- **GPT-5.6·Gemini 3.5 Pro 출시 임박 — 추론 컴퓨트 수요 자극 기대**: 예측 시장 출시 확률 각각 75%·50~55% 수준. 출시 후 LLM API 가격 경쟁 격화 가능성.
+- **Alphabet -7% 급락 — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀(6/23)**: 인재 유출이 빅테크 AI 밸류에이션 직접 변수로 확인됐다.
+- 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업. HBM 최종 수요자는 AI 가속기를 탑재한 데이터센터. 빅테크 5사 2026년 AI CapEx 합계 6,600억~6,900억 달러(약 1,018조~1,064조 원) 추정.
 
 ## 타임라인
+### 2026-06-24 [[daily/2026-06-24]]
+- [[daily/2026-06-24]] — Micron HBM4 첫 실적 분기, Anthropic run-rate $300억 확인
+  - 핵심: Micron Q3 FY2026 컨센서스 매출 $343.8억~$356억, 총마진 81.6% / Anthropic 연매출 run-rate $300억(약 46조3,000억 원), Broadcom 3.5GW TPU 계약 / GPT-5.6·Gemini 3.5 Pro 출시 임박
+
 ### 2026-06-23 [[daily/2026-06-23]]
 - Alphabet -7% — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀. AI 인재 이동이 빅테크 주가 직격
 - SpaceX $200억 채권 발행 — AI 자본지출 과열 경계심 시장 가시화. AI CapEx 지속 가능성 의구심 부상

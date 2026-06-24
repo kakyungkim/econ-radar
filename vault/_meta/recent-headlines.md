@@ -13,6 +13,13 @@ tags: [운영, dedup]
 
 ---
 
+## 2026-06-24
+- AbbVie, Apogee Therapeutics $109억(약 16조8,000억 원) 인수 — 투여 편의성(zumilokibart 3~6개월 1회)이 면역학 M&A의 새 축으로
+- 코스피 +3.26% 반등(8,471.02), 삼성전자 시총 1위 탈환 — 촉매는 자사주 90조 원 보도, 외국인 매도 지속
+- SK바이오팜 + Insilico Medicine CNS 신경면역 AI 신약 최대 $25.7억(약 3조9,700억 원) 협력 — K바이오 AI 신약 최대 딜
+- Micron Q3 FY2026 — HBM4 첫 분기 반영, 총마진 81.6% 컨센서스
+- Ionis olezarsen PDUFA D-6 — RNA 치료제 대형 만성질환 첫 관문 6월 30일
+
 ## 2026-06-23
 - 코스피 -9.99% 역대 최대 낙폭·서킷브레이커 발동 — 삼성전자·SK하이닉스 -12%, 외국인 4.67조 원 순매도, Fed Warsh 인상 편향 배경
 - Alphabet -7% (시총 $2,500억 증발) — AlphaFold Jumper→Anthropic, Transformer Shazeer→OpenAI 동주 이탈
@@ -54,12 +61,5 @@ tags: [운영, dedup]
 - Lilly retatrutide 80주 28.3% 체중 감소(triple-G ADA 2026) — 현재 허가 비만약 최고 수치
 - Anthropic, Coefficient Bio $4억 인수 — AI가 신약개발 밸류체인 내부로 직접 진입
 - Moderna mRNA-1010 VRBPAC 심의 개시 — mRNA 플랫폼 계절 독감 백신 첫 허가 시험대
-
-## 2026-06-17
-- FOMC 중립 전환 확인 — 완화 편향 삭제, 워시 의장 점도 미제출, 점도표 2026년 인하 0회(3월 1회→후퇴)
-- SK하이닉스 HBM4E 샘플 출하 6~7월로 조기 당김 — 주가 7% 급등, TSMC 3nm 베이스 다이 채택
-- tebipenem PDUFA 6/18(내일) — 미국 최초 경구 카바페넴 첫 FDA 결정 임박
-- AI 신약발견 '비선택의 해' — 임상 200개+·FDA 승인 0건, Recursion-Exscientia 통합 파이프라인
-- K-바이오 BIO USA + 삼성바이오 록빌 거점 — 상반기 기술수출 13조 원, 첫 미국 생산기지 완료
 
 
