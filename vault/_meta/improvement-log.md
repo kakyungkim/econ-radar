@@ -15,6 +15,30 @@ publish: false
 - 어떻게 고칠지: (news-collection 소스 목록에 추가 등)
 ```
 
+## 2026-06-24~25 (이메일 채널 + OKF 마이그레이션 + 블로그 점프 목차 + 중복 금지 + 발표덱 v4)
+
+### 6/24 — vault OKF 포맷 마이그레이션 (1·2층)
+- **무엇이**: 옵시디언 위키링크 vault를 OKF(Open Knowledge Format) 상위호환으로 전환. 로컬 OKF 작업(미푸시)과 클라우드 데일리(옛 포맷)가 갈라져 pull 충돌 상태였음.
+- **어떻게**: ① 1층 결정적 스크립트 — `[[path/X]]` → `[X](/path/X.md)` 1,228개 변환, 고신뢰 동의어 canonical 통합, frontmatter `type·timestamp·publish` 정규화, 디렉터리별 `index.md` 6개. ② 2층 knowledge-curator — 깨진 토픽 링크 43개 분류(매핑 8, 신규 MOC `RNA치료제`로 13 흡수, 일회성 엔티티 22 유지), 루트 `log.md` 신설.
+- **미해결(TODO)**: 레포 에이전트는 아직 `[[위키링크]]` 지시, OKF 스킬은 전역(`~/.claude`)에만 있어 **클라우드 데일리가 매일 옛 포맷으로 생성해 마이그레이션을 되돌린다.** 규약을 레포 `.claude/`로 이식해야 정착.
+
+### 6/25 — 이메일 채널 신설 (Buttondown)
+- **무엇이**: 구독자 대상 이메일 발행 추가(블로그·텔레그램에 이어 3번째 채널).
+- **어떻게**: `render_html.py`가 `vault/email/DATE.html`(하이브리드: At a Glance + Top 5 + 전체보기 CTA, 인라인 CSS·table, ~12KB로 Gmail 클리핑 회피) 생성. `scripts/send_email.py`(Buttondown `POST /v1/emails`) + `.github/workflows/email-push.yml`(`vault/email/*.html` push 트리거). 기본은 초안(draft), `EMAIL_SEND=1`이면 **다음날 오전 7시(KST) 예약 발송**(저녁 생성 → 아침 배달), `EMAIL_SEND=now`면 즉시. 텔레그램은 저녁 즉시 유지.
+
+### 6/25 — 프로덕션 버그·UX 다듬기 (채널 늘리며 부딪힌 벽)
+- **발음 버그**: Business English 발음 버튼이 표제어 대신 괄호 속 영어 설명을 읽음(`long-acting antibody` → "half-life extended antibody"). `_split_english_head`에서 `speak=표제어`로 고정. newsletter-editor에 단어 선정 기준(범용 표현 우선, `dot plot`류 회피)·"표제어=발음, 괄호 마지막은 한국어 뜻" 규칙 추가.
+- **이메일 CTA 버튼**: 메일 클라이언트/Buttondown 테마가 `<a>` 링크색을 덮어써 흰 글씨가 안 먹음 → 텍스트를 `<span>`+`color:!important`로 강제. 배경은 bulletproof `<td bgcolor>`. 색은 페이지 인디고 박스와 구분되는 에메랄드(#059669).
+- **배포 교훈**: "고쳤는데 라이브는 그대로" — GitHub Pages 배포 워크플로 지연(6분)에 브라우저/CDN 캐시까지. 라이브는 `curl`로 검증(캐시 의심). *로컬에서 됨 ≠ 배달 환경에서 됨.*
+
+### 6/25 — 블로그 리포트 섹션 점프 목차 + 뉴스레터 중복 금지
+- **무엇이**: 리포트가 길고 중복감 — 한 사건(AbbVie·Apogee 등)이 Top 5·Deep Dive·Investment·Companies에 걸쳐 12~18줄씩 반복 서술됨.
+- **어떻게**: ① 블로그 HTML에 **sticky 점프 목차**(있는 섹션만 칩, hover 툴팁, 섹션 id, 맨위로 버튼) — `render_html.py`/`template.html`. 이메일엔 미적용. ② newsletter-editor에 **"한 사건은 한 곳에서만 본문 서술, 다른 섹션은 각도만(Deep Dive 재요약 금지)"** 중복 금지 규칙.
+
+### 6/25 — 발표덱 v4 (다비코단 6/27, autobiox 사전 발표 가능)
+- **무엇이**: 하네스 스터디(다비코단) 발표용 덱 갱신. 한국어가 어색하다는 강한 지적(em-dash·가운뎃점 남발, "~다" 평탄 종결, 번역투).
+- **어떻게**: editor 에이전트로 전면 윤문(writing-style 규칙 준수), OKF 소개 슬라이드 신설, 목차·Part 구분·이메일 채널·진화 2~3주차·"프로덕션이 가르친 것" 추가(25슬라이드, HTML·PDF). **슬라이드 문체 규율을 `~/.claude/rules/writing-style.md`에 영구 추가**(재발 방지).
+
 ## 2026-06-16~18 (GitHub Actions 버그 픽스 + 뉴스 신선도·중복 방지 시스템)
 
 ### 6/16 — GitHub Actions 다중 커밋 push 감지 버그
