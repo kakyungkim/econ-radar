@@ -4,7 +4,9 @@ type: analysis
 lens: company
 analyst: company-scout
 tags: [MoonLake, sonelokimab, 화농성한선염, IL-17, Ionis, olezarsen, GalNAc-siRNA, 고중성지방혈증, Eli-Lilly, retatrutide, GLP-1, ADC, CrossBridge-Bio, SK하이닉스, HBM, 반도체, Anthropic, Claude, 삼성바이오로직스, 롯데바이오로직스, CDMO, K바이오, Oscotec, NUAK1, BIO-USA-2026]
-links: ["[[topics/moonlake-sonelokimab]]", "[[topics/ionis-olezarsen]]", "[[topics/eli-lilly-pipeline]]", "[[topics/SK하이닉스-HBM]]", "[[topics/anthropic-claude]]", "[[topics/K바이오-CDMO]]", "[[topics/oscotec]]"]
+links: ["[moonlake-sonelokimab](/topics/moonlake-sonelokimab.md)", "[ionis-olezarsen](/topics/ionis-olezarsen.md)", "[eli-lilly-pipeline](/topics/eli-lilly-pipeline.md)", "[반도체HBM](/topics/반도체HBM.md)", "[AI](/topics/AI.md)", "[K바이오CDMO](/topics/K바이오CDMO.md)", "[oscotec](/topics/oscotec.md)"]
+timestamp: 2026-06-22T10:18:47+00:00
+publish: false
 ---
 # 유망 기업·주목 플레이어 — 2026-06-22
 
@@ -156,13 +158,13 @@ links: ["[[topics/moonlake-sonelokimab]]", "[[topics/ionis-olezarsen]]", "[[topi
 
 ## 이어지는 주제
 
-- [[topics/moonlake-sonelokimab]]
-- [[topics/ionis-olezarsen]]
-- [[topics/eli-lilly-pipeline]]
-- [[topics/SK하이닉스-HBM]]
-- [[topics/anthropic-claude]]
-- [[topics/K바이오-CDMO]]
-- [[topics/oscotec]]
-- [[topics/ADC-경쟁구도]]
-- [[topics/GLP-1-비만치료제]]
-- [[topics/RNA치료제-대사질환]]
+- [moonlake-sonelokimab](/topics/moonlake-sonelokimab.md)
+- [ionis-olezarsen](/topics/ionis-olezarsen.md)
+- [eli-lilly-pipeline](/topics/eli-lilly-pipeline.md)
+- [반도체HBM](/topics/반도체HBM.md)
+- [AI](/topics/AI.md)
+- [K바이오CDMO](/topics/K바이오CDMO.md)
+- [oscotec](/topics/oscotec.md)
+- [ADC모달리티](/topics/ADC모달리티.md)
+- [GLP-1비만치료](/topics/GLP-1비만치료.md)
+- [RNA치료제-대사질환](/topics/RNA치료제-대사질환.md)

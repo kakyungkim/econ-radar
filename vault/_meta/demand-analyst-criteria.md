@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [에이전트설계, 수요렌즈]
+timestamp: 2026-06-14T12:22:02+09:00
+publish: false
 ---
 # demand-analyst 독립 에이전트 승격 기준
 

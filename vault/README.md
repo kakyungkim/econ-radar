@@ -1,5 +1,7 @@
 ---
 type: home
+timestamp: 2026-06-10T02:39:20+09:00
+publish: false
 ---
 # 🏠 econ-radar vault — 홈 노트
 
@@ -20,11 +22,11 @@ type: home
 | `_meta/` | 개선 기록 등 | 오케스트레이터 | 다음 실행 |
 
 ## 주제 MOC (자산이 자라는 곳)
-- [[topics/AI]]
-- [[topics/바이오제약]]
-- [[topics/신약개발전략]]
-- [[topics/투자테마]]
-- [[topics/커리어]]
+- [AI](/topics/AI.md)
+- [바이오제약](/topics/바이오제약.md)
+- [신약개발전략](/topics/신약개발전략.md)
+- [투자테마](/topics/투자테마.md)
+- [커리어](/topics/커리어.md)
 
 ## 전체 흐름
 ```

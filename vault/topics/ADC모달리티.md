@@ -1,6 +1,8 @@
 ---
 type: moc
 tags: [바이오제약, ADC모달리티, 신약개발전략, 투자테마]
+timestamp: 2026-06-21T10:20:47+00:00
+publish: true
 ---
 # 🗂 ADC 모달리티 — 주제 지도(MOC)
 
@@ -13,14 +15,14 @@ tags: [바이오제약, ADC모달리티, 신약개발전략, 투자테마]
 - **ADC 공통 리스크 — ILD + 임상 후기 진입 장벽**: DXd 계열 ILD 안전성 모니터링 지속. 이중 페이로드 ADC는 임상 독성 데이터가 1상 진입 전 검증 공백 상태.
 
 ## 타임라인
-### 2026-06-22 [[daily/2026-06-22]]
-- **Lilly CrossBridge Bio 인수(최대 3억달러) Q2 클로징 임박**: TROP2 표적 CBB-120(TOP1i+ATRi 이중 페이로드 ADC), 단일 페이로드 내성 극복 설계. 전임상 단계 — 출처: [FierceBiotech](https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m) | [BusinessWire](https://www.businesswire.com/news/home/20260414133394/en/CrossBridge-Bio-Enters-an-Agreement-to-be-Acquired-by-Eli-Lilly-to-Advance-Next-Generation-Dual-Payload-Antibody-Drug-Conjugates) — [[daily/2026-06-22]]
+### 2026-06-22 [2026-06-22](/daily/2026-06-22.md)
+- **Lilly CrossBridge Bio 인수(최대 3억달러) Q2 클로징 임박**: TROP2 표적 CBB-120(TOP1i+ATRi 이중 페이로드 ADC), 단일 페이로드 내성 극복 설계. 전임상 단계 — 출처: [FierceBiotech](https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m) | [BusinessWire](https://www.businesswire.com/news/home/20260414133394/en/CrossBridge-Bio-Enters-an-Agreement-to-be-Acquired-by-Eli-Lilly-to-Advance-Next-Generation-Dual-Payload-Antibody-Drug-Conjugates) — [2026-06-22](/daily/2026-06-22.md)
 
-### 2026-06-21 [[daily/2026-06-21]]
-- [[daily/2026-06-21]] — DATROWAY TNBC 1선 FDA 승인: TROP2 ADC 최초 1선, Gilead Trodelvy 앞서
+### 2026-06-21 [2026-06-21](/daily/2026-06-21.md)
+- [2026-06-21](/daily/2026-06-21.md) — DATROWAY TNBC 1선 FDA 승인: TROP2 ADC 최초 1선, Gilead Trodelvy 앞서
   - 아스트라제네카·다이이찌산쿄 공동 개발. TROPION-Breast02 3상 644명. mOS 23.7 vs 18.7개월, ORR 64% vs 30%
   - NCCN Category 1 Preferred 1선 즉시 등재. ILD 부작용 관리·IRA 약가 협상이 시장 확산 변수
   - DXd 후속 파이프라인(HER3·MET 등) 임상 성공 확률 기대치 상향
 
 ## 연결 주제
-- [[topics/신약개발전략]] [[topics/바이오제약]] [[topics/KRAS플랫폼]] [[topics/투자테마]] [[topics/유망기업]]
+- [신약개발전략](/topics/신약개발전략.md) [바이오제약](/topics/바이오제약.md) [KRAS플랫폼](/topics/KRAS플랫폼.md) [투자테마](/topics/투자테마.md) [유망기업](/topics/유망기업.md)

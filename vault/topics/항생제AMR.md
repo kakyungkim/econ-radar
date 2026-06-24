@@ -1,6 +1,8 @@
 ---
 type: moc
 tags: [바이오제약, 항생제AMR]
+timestamp: 2026-06-18T10:20:34+00:00
+publish: true
 ---
 # 🗂 항생제·AMR — 주제 지도(MOC)
 
@@ -13,9 +15,9 @@ tags: [바이오제약, 항생제AMR]
 - **GAIN Act 인센티브 실증**: AMR 신약에 특허 독점 기간 연장을 보장하는 GAIN Act가 실제 허가로 이어진 사례 중 하나. AMR 분야 후속 프로그램 자금 조달 논리를 강화하는 선례.
 
 ## 타임라인
-### 2026-06-18 [[daily/2026-06-18]]
-- Utebzi(tebipenem pivoxil) FDA 승인 — 6월 17일 GSK·Spero Therapeutics의 cUTI·신우신염 치료제 허가. 3상 PIVOT-PO 비열등성 충족(58.5% vs 60.2%). 미국 최초 경구 카바페넴. 시판 2026년 말 예정. → [[daily/2026-06-18]]
-- 상업화 변수: IDSA 가이드라인 반영 시점, 사전승인 조건, AMR 구독형 약가 모델 논의 진전. → [[daily/2026-06-18]]
+### 2026-06-18 [2026-06-18](/daily/2026-06-18.md)
+- Utebzi(tebipenem pivoxil) FDA 승인 — 6월 17일 GSK·Spero Therapeutics의 cUTI·신우신염 치료제 허가. 3상 PIVOT-PO 비열등성 충족(58.5% vs 60.2%). 미국 최초 경구 카바페넴. 시판 2026년 말 예정. → [2026-06-18](/daily/2026-06-18.md)
+- 상업화 변수: IDSA 가이드라인 반영 시점, 사전승인 조건, AMR 구독형 약가 모델 논의 진전. → [2026-06-18](/daily/2026-06-18.md)
 
 ## 연결 주제
-- [[topics/바이오제약]] [[topics/신약개발전략]] [[topics/투자테마]] [[topics/유망기업]]
+- [바이오제약](/topics/바이오제약.md) [신약개발전략](/topics/신약개발전략.md) [투자테마](/topics/투자테마.md) [유망기업](/topics/유망기업.md)

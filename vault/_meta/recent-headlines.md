@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [운영, dedup]
+timestamp: 2026-06-11T23:24:29+09:00
+publish: false
 ---
 # 최근 헤드라인 (recent-headlines) — 중복 회피 기준
 

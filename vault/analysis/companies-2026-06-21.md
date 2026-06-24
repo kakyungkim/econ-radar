@@ -3,7 +3,9 @@ date: 2026-06-21
 type: analysis
 analyst: company-scout
 tags: [ADC, TNBC, DATROWAY, KRAS, 췌장암, Elicio, SK하이닉스, HBM4E, GLP-1, Foundayo, Lilly, 삼성바이오로직스, 롯데바이오로직스, BIOSECURE, GSK, Nuvalent, NSCLC, Parabilis, 헬리콘펩타이드, BIO USA 2026]
-links: ["[[topics/ADC-oncology]]", "[[topics/HBM-memory]]", "[[topics/GLP1-oral]]", "[[topics/KRAS-platform]]", "[[topics/K-Bio-CDMO]]"]
+links: ["[ADC모달리티](/topics/ADC모달리티.md)", "[반도체HBM](/topics/반도체HBM.md)", "[GLP-1경구제](/topics/GLP-1경구제.md)", "[KRAS플랫폼](/topics/KRAS플랫폼.md)", "[K바이오CDMO](/topics/K바이오CDMO.md)"]
+timestamp: 2026-06-21T10:20:47+00:00
+publish: false
 ---
 
 # 유망 기업 분석 — 2026-06-21
@@ -130,9 +132,9 @@ links: ["[[topics/ADC-oncology]]", "[[topics/HBM-memory]]", "[[topics/GLP1-oral]
 
 ## 이어지는 주제
 
-- [[topics/ADC-oncology]] — DATROWAY TNBC 1선 승인, Gilead 반격 여부
-- [[topics/KRAS-platform]] — Elicio ELI-002 7P 2상 후속 데이터, 자금 조달 공시
-- [[topics/HBM-memory]] — SK하이닉스 HBM4E 공급사 최종 선정, 삼성 수율 경쟁
-- [[topics/GLP1-oral]] — Foundayo 당뇨 NDA 제출 공시(~6/30)
-- [[topics/K-Bio-CDMO]] — BIO USA 2026 딜 공시 여부(6/22~25)
-- [[topics/biotech-IPO-2026]] — Parabilis 이후 2026 하반기 IPO 창구 지속 여부
+- [ADC모달리티](/topics/ADC모달리티.md) — DATROWAY TNBC 1선 승인, Gilead 반격 여부
+- [KRAS플랫폼](/topics/KRAS플랫폼.md) — Elicio ELI-002 7P 2상 후속 데이터, 자금 조달 공시
+- [반도체HBM](/topics/반도체HBM.md) — SK하이닉스 HBM4E 공급사 최종 선정, 삼성 수율 경쟁
+- [GLP-1경구제](/topics/GLP-1경구제.md) — Foundayo 당뇨 NDA 제출 공시(~6/30)
+- [K바이오CDMO](/topics/K바이오CDMO.md) — BIO USA 2026 딜 공시 여부(6/22~25)
+- [biotech-IPO-2026](/topics/biotech-IPO-2026.md) — Parabilis 이후 2026 하반기 IPO 창구 지속 여부

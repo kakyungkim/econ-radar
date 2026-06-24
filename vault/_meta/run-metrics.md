@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [운영, 계측]
+timestamp: 2026-06-11T22:15:24+09:00
+publish: false
 ---
 # 실행 계측 (run-metrics)
 

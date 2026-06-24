@@ -3,7 +3,9 @@ date: 2026-06-15
 type: analysis-companies
 lens: company
 tags: [제약바이오, RNA치료제, AOC플랫폼, 근이영양증, 항생제, 내성균, 심혈관, IPO, 반도체, HBM4, AI칩, 수출규제]
-links: ["[[topics/novartis-avidity-aoc]]", "[[topics/RNA치료제]]", "[[topics/항생제-내성균]]", "[[topics/심혈관-바이오텍]]", "[[topics/SK하이닉스-HBM]]", "[[topics/엔비디아-수출규제]]"]
+links: ["[novartis-avidity-aoc](/topics/novartis-avidity-aoc.md)", "[RNA치료제](/topics/RNA치료제.md)", "[항생제AMR](/topics/항생제AMR.md)", "[심혈관-바이오텍](/topics/심혈관-바이오텍.md)", "[반도체HBM](/topics/반도체HBM.md)", "[엔비디아-수출규제](/topics/엔비디아-수출규제.md)"]
+timestamp: 2026-06-15T10:19:44+00:00
+publish: false
 ---
 # 유망 기업 분석 — 2026-06-15
 
@@ -108,12 +110,12 @@ links: ["[[topics/novartis-avidity-aoc]]", "[[topics/RNA치료제]]", "[[topics/
 
 ## 이어지는 주제
 
-- [[topics/novartis-avidity-aoc]] — AOC 플랫폼 임상 데이터 누적 (FSHD·DM1·DMD)
-- [[topics/RNA치료제]] — AOC·LNP·ASO 전달체 경쟁 구도
-- [[topics/항생제-내성균]] — AMR 경구화 파이프라인
-- [[topics/심혈관-바이오텍]] — Kardigan IPO·심장근육 표적 치료제
-- [[topics/SK하이닉스-HBM]] — HBM4 점유율·수율·다년 계약
-- [[topics/엔비디아-수출규제]] — 중국 AI칩 수출 완화 경로
+- [novartis-avidity-aoc](/topics/novartis-avidity-aoc.md) — AOC 플랫폼 임상 데이터 누적 (FSHD·DM1·DMD)
+- [RNA치료제](/topics/RNA치료제.md) — AOC·LNP·ASO 전달체 경쟁 구도
+- [항생제AMR](/topics/항생제AMR.md) — AMR 경구화 파이프라인
+- [심혈관-바이오텍](/topics/심혈관-바이오텍.md) — Kardigan IPO·심장근육 표적 치료제
+- [반도체HBM](/topics/반도체HBM.md) — HBM4 점유율·수율·다년 계약
+- [엔비디아-수출규제](/topics/엔비디아-수출규제.md) — 중국 AI칩 수출 완화 경로
 
 ---
 *이 분석은 정보·시나리오 제공 목적이며, 특정 종목 매수·매도 또는 특정 회사 입사를 권유하거나 보증하지 않는다. 최종 판단은 본인의 몫이다.*

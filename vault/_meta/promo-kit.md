@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [홍보, 운영]
+timestamp: 2026-06-13T11:44:33+09:00
+publish: false
 ---
 # 홍보 키트 (promo-kit)
 

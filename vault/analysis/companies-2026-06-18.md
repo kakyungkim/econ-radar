@@ -4,7 +4,9 @@ type: analysis
 subtype: companies
 lens: company
 tags: [제약바이오, AI신약, 항생제, AMR, GLP-1, 비만치료제, 심근병증, Anthropic, SK하이닉스, HBM4E, 유한양행, 렉라자, mRNA, 독감백신, IPO, 기술이전, 한미약품, 오스코텍]
-links: ["[[topics/GLP-1-obesity]]", "[[topics/HBM-semiconductor]]", "[[topics/AMR-antibiotics]]", "[[topics/AI-drug-discovery]]", "[[topics/Korea-biotech]]"]
+links: ["[GLP-1비만치료](/topics/GLP-1비만치료.md)", "[반도체HBM](/topics/반도체HBM.md)", "[항생제AMR](/topics/항생제AMR.md)", "[AI신약개발](/topics/AI신약개발.md)", "[한국제약바이오](/topics/한국제약바이오.md)"]
+timestamp: 2026-06-18T10:12:47+00:00
+publish: false
 ---
 
 # 유망 기업 — 2026-06-18
@@ -135,9 +137,9 @@ links: ["[[topics/GLP-1-obesity]]", "[[topics/HBM-semiconductor]]", "[[topics/AM
 
 ## 이어지는 주제
 
-- [[topics/AMR-antibiotics]] — 경구 카바페넴·구독형 약가 모델
-- [[topics/GLP-1-obesity]] — triple-G retatrutide vs CagriSema 타이밍 경쟁
-- [[topics/HBM-semiconductor]] — HBM4E 수율·점유율 경쟁
-- [[topics/Korea-biotech]] — 유한양행 렉라자·한미약품 소네페글루타이드·오스코텍 세비도플레닙
-- [[topics/AI-drug-discovery]] — Anthropic Coefficient Bio·임상 200개+ FDA 승인 0건 현황
-- [[topics/mRNA-platform]] — Moderna MFLUSIVA VRBPAC·계절 백신 확장
+- [항생제AMR](/topics/항생제AMR.md) — 경구 카바페넴·구독형 약가 모델
+- [GLP-1비만치료](/topics/GLP-1비만치료.md) — triple-G retatrutide vs CagriSema 타이밍 경쟁
+- [반도체HBM](/topics/반도체HBM.md) — HBM4E 수율·점유율 경쟁
+- [한국제약바이오](/topics/한국제약바이오.md) — 유한양행 렉라자·한미약품 소네페글루타이드·오스코텍 세비도플레닙
+- [AI신약개발](/topics/AI신약개발.md) — Anthropic Coefficient Bio·임상 200개+ FDA 승인 0건 현황
+- [mRNA-platform](/topics/mRNA-platform.md) — Moderna MFLUSIVA VRBPAC·계절 백신 확장

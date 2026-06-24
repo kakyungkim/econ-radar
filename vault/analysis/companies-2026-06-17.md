@@ -2,7 +2,9 @@
 date: 2026-06-17
 type: analysis-companies
 tags: [HBM4E, SK하이닉스, 삼성바이오로직스, CDMO, tebipenem, 경구카바페넴, 항생제내성, Kardigan, 심혈관, IPO, Recursion, Exscientia, AI신약, 파이프라인]
-links: ["[[topics/hbm]]", "[[topics/cdmo-korea]]", "[[topics/ai-drug-discovery]]", "[[topics/antimicrobial-resistance]]", "[[topics/biotech-ipo]]"]
+links: ["[반도체HBM](/topics/반도체HBM.md)", "[K바이오CDMO](/topics/K바이오CDMO.md)", "[AI신약개발](/topics/AI신약개발.md)", "[항생제AMR](/topics/항생제AMR.md)", "[biotech-ipo](/topics/biotech-ipo.md)"]
+timestamp: 2026-06-17T10:09:42+00:00
+publish: false
 ---
 # 유망 기업·주목 플레이어 — 2026-06-17
 
@@ -98,8 +100,8 @@ links: ["[[topics/hbm]]", "[[topics/cdmo-korea]]", "[[topics/ai-drug-discovery]]
 
 ## 이어지는 주제
 
-- [[topics/hbm]] — HBM4E 선점 경쟁, 마이크론 합류 시 3파전 전개 추적
-- [[topics/cdmo-korea]] — 삼성바이오 미국 거점 수주 현황, 생물보안법(Biosecure Act) 입법 동향
-- [[topics/antimicrobial-resistance]] — tebipenem 승인 후 경구 카바페넴 약가·급여 협상, PASTEUR Act 연계
-- [[topics/biotech-ipo]] — Kardigan 상장 첫날 성적, 2026년 바이오텍 IPO 누적 현황
-- [[topics/ai-drug-discovery]] — Recursion REC-1245 Phase 1 데이터, Insilico IPF Phase 2 비교
+- [반도체HBM](/topics/반도체HBM.md) — HBM4E 선점 경쟁, 마이크론 합류 시 3파전 전개 추적
+- [K바이오CDMO](/topics/K바이오CDMO.md) — 삼성바이오 미국 거점 수주 현황, 생물보안법(Biosecure Act) 입법 동향
+- [항생제AMR](/topics/항생제AMR.md) — tebipenem 승인 후 경구 카바페넴 약가·급여 협상, PASTEUR Act 연계
+- [biotech-ipo](/topics/biotech-ipo.md) — Kardigan 상장 첫날 성적, 2026년 바이오텍 IPO 누적 현황
+- [AI신약개발](/topics/AI신약개발.md) — Recursion REC-1245 Phase 1 데이터, Insilico IPF Phase 2 비교

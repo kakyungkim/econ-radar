@@ -1,6 +1,8 @@
 ---
 type: moc
 tags: [AI, 바이오제약, AI신약개발, 신약개발전략]
+timestamp: 2026-06-18T10:20:34+00:00
+publish: true
 ---
 # 🗂 AI 신약개발 — 주제 지도(MOC)
 
@@ -13,10 +15,10 @@ tags: [AI, 바이오제약, AI신약개발, 신약개발전략]
 - **Moderna MFLUSIVA VRBPAC 심의 개시 — mRNA 플랫폼 계절 백신 첫 시험대(6/18)**: mRNA 기술이 팬데믹 대응에서 계절 백신 시장으로 확장하는 첫 정규 허가 심의. FDA 결정 기한 8월 5일.
 
 ## 타임라인
-### 2026-06-18 [[daily/2026-06-18]]
-- Anthropic-Coefficient Bio 4억 달러(약 5,520억 원) 인수 발표 — AI 파운데이션 기업의 첫 신약개발 밸류체인 M&A. Claude for Life Sciences 통합 예정. Genentech Prescient Design 출신 창업팀. → [[daily/2026-06-18]]
-- Moderna MFLUSIVA(mRNA-1010) VRBPAC 심의 개시 — 50세 이상 대상. 기존 독감 백신 대비 약 27% 효능 우위. FDA 최종 결정 기한 8/5. ACIP 권고가 두 번째 관문. → [[daily/2026-06-18]]
-- AI 신약 임상 200개+ 현황 — FDA 승인 0건 재확인. Recursion REC-4881·REC-1245 임상 진행. → [[daily/2026-06-18]]
+### 2026-06-18 [2026-06-18](/daily/2026-06-18.md)
+- Anthropic-Coefficient Bio 4억 달러(약 5,520억 원) 인수 발표 — AI 파운데이션 기업의 첫 신약개발 밸류체인 M&A. Claude for Life Sciences 통합 예정. Genentech Prescient Design 출신 창업팀. → [2026-06-18](/daily/2026-06-18.md)
+- Moderna MFLUSIVA(mRNA-1010) VRBPAC 심의 개시 — 50세 이상 대상. 기존 독감 백신 대비 약 27% 효능 우위. FDA 최종 결정 기한 8/5. ACIP 권고가 두 번째 관문. → [2026-06-18](/daily/2026-06-18.md)
+- AI 신약 임상 200개+ 현황 — FDA 승인 0건 재확인. Recursion REC-4881·REC-1245 임상 진행. → [2026-06-18](/daily/2026-06-18.md)
 
 ## 연결 주제
-- [[topics/AI]] [[topics/바이오제약]] [[topics/신약개발전략]] [[topics/투자테마]] [[topics/유망기업]]
+- [AI](/topics/AI.md) [바이오제약](/topics/바이오제약.md) [신약개발전략](/topics/신약개발전략.md) [투자테마](/topics/투자테마.md) [유망기업](/topics/유망기업.md)

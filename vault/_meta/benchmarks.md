@@ -2,6 +2,8 @@
 type: meta
 tags: [벤치마크]
 created: 2026-06-10
+timestamp: 2026-06-10T02:39:20+09:00
+publish: false
 ---
 
 # econ-radar 벤치마킹 조사

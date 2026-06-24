@@ -3,7 +3,9 @@ date: 2026-06-14
 type: analysis-companies
 lens: company
 tags: [제약바이오, AI테크, ADC, DAC, 분자접착제, KRAS, HCC, 에이전트AI, 수요렌즈]
-links: ["[[topics/ADC-DAC-분해제항체접합체]]", "[[topics/분자접착제]]", "[[topics/간세포암-HCC]]", "[[topics/에이전트형AI]]"]
+links: ["[ADC모달리티](/topics/ADC모달리티.md)", "[분자접착제](/topics/분자접착제.md)", "[간세포암-HCC](/topics/간세포암-HCC.md)", "[AI](/topics/AI.md)"]
+timestamp: 2026-06-14T10:19:58+00:00
+publish: false
 ---
 # 주목 기업 분석 — 2026-06-14
 
@@ -130,8 +132,8 @@ links: ["[[topics/ADC-DAC-분해제항체접합체]]", "[[topics/분자접착제
 ---
 
 ## 이어지는 주제
-- [[topics/ADC-DAC-분해제항체접합체]] — DAC 모달리티 플랫폼 경쟁 구도
-- [[topics/분자접착제-PROTAC-단백질분해]] — 유도 근접(induced proximity) 기반 신약 생태계
-- [[topics/간세포암-HCC]] — 면역항암제 병용 전략 적용 범위 확장
-- [[topics/에이전트형AI-플랫폼]] — 구글·마이크로소프트 에이전트 인프라 경쟁
-- [[topics/글로벌바이오파마MA]] — 2026 상반기 딜 트래커 맥락
+- [ADC모달리티](/topics/ADC모달리티.md) — DAC 모달리티 플랫폼 경쟁 구도
+- [분자접착제-PROTAC-단백질분해](/topics/분자접착제-PROTAC-단백질분해.md) — 유도 근접(induced proximity) 기반 신약 생태계
+- [간세포암-HCC](/topics/간세포암-HCC.md) — 면역항암제 병용 전략 적용 범위 확장
+- [AI](/topics/AI.md) — 구글·마이크로소프트 에이전트 인프라 경쟁
+- [바이오M&A](/topics/바이오M&A.md) — 2026 상반기 딜 트래커 맥락

@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [문체, 표본]
+timestamp: 2026-06-10T23:59:47+09:00
+publish: false
 ---
 # 한국 경제기사 문체 표본 (실제 인용)
 

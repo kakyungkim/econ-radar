@@ -2,6 +2,8 @@
 type: meta
 tags: [케이스스터디, 하네스, 개선일지]
 created: 2026-06-10
+timestamp: 2026-06-10T23:59:47+09:00
+publish: false
 ---
 
 # econ-radar 하네스 — 구조 정리 & 개선 일지 (2026-06-10)

@@ -1,6 +1,8 @@
 ---
 type: meta
 tags: [방법론, 수요렌즈, demand-lens]
+timestamp: 2026-06-11T22:15:24+09:00
+publish: false
 ---
 # 수요 렌즈 (demand-lens / Demand) — 분석 기준선
 
