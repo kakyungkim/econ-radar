@@ -7,15 +7,18 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Micron HBM4 첫 실적 분기(6/24) — 총마진 81.6% 컨센서스, AI 메모리 수요 강도 확인**: HBM4 양산이 재무에 처음 반영되는 분기. 2026년 전체 HBM 완판 상태. NVIDIA Vera Rubin 플랫폼 탑재·2027년 수요 가이던스가 삼성전자·SK하이닉스 밸류에이션에 직접 영향.
-- **Anthropic 연매출 run-rate $300억(약 46조3,000억 원), Google·Broadcom 3.5GW TPU 계약**: 2025년 말 $90억(약 13조9,000억 원) 대비 약 3.3배 성장. 비공개 기업의 API·엔터프라이즈 수익화 규모 확인. GPT-5.6·Gemini 3.5 Pro 경쟁 속 API 단가 압박이 성장 지속 가능성의 변수.
-- **GPT-5.6·Gemini 3.5 Pro 출시 임박 — 추론 컴퓨트 수요 자극 기대**: 예측 시장 출시 확률 각각 75%·50~55% 수준. 출시 후 LLM API 가격 경쟁 격화 가능성.
-- **Alphabet -7% 급락 — AlphaFold Jumper팀 Anthropic 이직, Shazeer OpenAI 복귀(6/23)**: 인재 유출이 빅테크 AI 밸류에이션 직접 변수로 확인됐다.
-- 수요 렌즈: AI 인프라의 실수요자는 '직접 짓느냐 빌리느냐'를 따지는 도입 기업. HBM 최종 수요자는 AI 가속기를 탑재한 데이터센터. 빅테크 5사 2026년 AI CapEx 합계 6,600억~6,900억 달러(약 1,018조~1,064조 원) 추정.
+- **Qualcomm-Tenstorrent 인수 협상 $80~100억 — RISC-V AI칩 제3 세력 부상(6/25)**: Jim Keller(AMD Zen·Apple 실리콘 설계자) 이끄는 Tenstorrent를 밸류에이션 3배 프리미엄에 협상 중. Intel도 경쟁 입찰. RISC-V 오픈 아키텍처가 NVIDIA CUDA 독점에 대한 구조적 대안으로 주목받고 있으며, 하이퍼스케일러의 맞춤 칩 설계 수요가 배경.
+- **Micron 어닝서프라이즈 — AI 추론 수요 구조적 확인(6/25)**: Q3 FY2026 총마진 84.9%·Q4 가이던스 $500억. AI 추론(inference) 워크로드 확산이 훈련(training)을 넘어 메모리 수요를 확대하는 흐름이 재무 수치로 확인됐다. 빅테크 5사 2026년 AI CapEx 6,600억~6,900억 달러 추정 유지.
+- **수요 렌즈**: 하이퍼스케일러(AWS·Azure·Google)가 NVIDIA GPU 비용 절감과 맞춤 칩 설계 자유도를 원하는 구조. RISC-V 칩 전환 장벽은 CUDA에 묶인 ML 코드베이스. 국내 삼성 파운드리는 RISC-V 고객 다변화 간접 효과 가능.
+- **Anthropic 연매출 run-rate $300억 확인(6/24)·OpenAI·Anthropic IPO 경쟁**: 프런티어 AI 기업 수익화 규모 처음 공개. API·엔터프라이즈 수익화 경쟁 가열 중.
 
 ## 타임라인
-### 2026-06-24 [2026-06-24](/daily/2026-06-24.md)
-- [2026-06-24](/daily/2026-06-24.md) — Micron HBM4 첫 실적 분기, Anthropic run-rate $300억 확인
+### 2026-06-25 [[daily/2026-06-25]]
+- Qualcomm-Tenstorrent 인수 협상 $80~100억(약 11~14조 원) — RISC-V 기반 AI 가속기, Intel도 경쟁 입찰. 밸류에이션 32억달러의 약 3배 제안가. NVIDIA CUDA 독점에 대한 구조적 대안 경쟁 구도 형성. → [[daily/2026-06-25]]
+- Micron Q3 FY2026 어닝서프라이즈 — AI 추론 워크로드 확산으로 메모리 대역폭 수요 구조적 확대 재확인. HBM4 12단 매출 $10억 돌파. → [[daily/2026-06-25]] [[topics/반도체HBM]]
+
+### 2026-06-24 [[daily/2026-06-24]]
+- [[daily/2026-06-24]] — Micron HBM4 첫 실적 분기, Anthropic run-rate $300억 확인
   - 핵심: Micron Q3 FY2026 컨센서스 매출 $343.8억~$356억, 총마진 81.6% / Anthropic 연매출 run-rate $300억(약 46조3,000억 원), Broadcom 3.5GW TPU 계약 / GPT-5.6·Gemini 3.5 Pro 출시 임박
 
 ### 2026-06-23 [2026-06-23](/daily/2026-06-23.md)

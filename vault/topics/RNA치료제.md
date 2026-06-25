@@ -9,14 +9,18 @@ publish: true
 > 범위: ASO·siRNA·mRNA·RNA 편집(trans-splicing 리보자임)·AOC 등 RNA를 표적하거나 RNA로 작용하는 모달리티. 전달체(LNP·GalNAc·항체) 경쟁, 적응증 확장(희귀질환→대형 만성질환), 승인·파트너링 이정표를 추적한다.
 
 ## 핵심 흐름
-- **Ionis olezarsen sHTG PDUFA 6/30 임박 — RNA 치료제의 대형 만성질환 첫 관문**: GalNAc-ASO로 APOC3를 표적하는 중증 고중성지방혈증(sHTG) 적응증 확장 결정이 6월 말로 다가왔다. 희귀 FCS(Tryngolza, 2025년 미국 매출 약 1억 500만 달러)에서 환자 풀이 약 100배 큰 sHTG로 넓히는 시도다. 승인 시 RNA 만성질환 치료제가 대형 심혈관·대사 시장에 처음 진입하는 선례가 된다. 경쟁은 Arrowhead의 plozasiran(siRNA, 동일 APOC3 표적).
-- **mRNA 플랫폼 계절 백신 확장 — Moderna MFLUSIVA VRBPAC 9-0 만장일치(6/18~19)**: mRNA 독감 백신(mRNA-1010)이 자문위 만장일치 권고를 받아 8월 5일 FDA 최종 결정을 앞두고 있다. 표준 백신(GSK Fluarix) 대비 상대 효능 약 26.6%. 승인 시 코로나19를 넘어 연간 필수 접종 시장으로 mRNA가 확장되는 첫 사례. 보험 급여에서 효능 우위가 프리미엄 근거로 작동할지가 상업화 변수.
-- **RNA 편집 모달리티 부상 — Rznomics RZ-001 FDA RMAT 3관왕(6/19~20)**: trans-splicing 리보자임으로 간세포암 RNA를 치료 RNA로 교체하는 한국 바이오텍. ODD·Fast Track에 이어 RMAT 지정을 확보해 FDA 신속경로 3종을 완성. 1b/2a상 ORR 38.5~61.5%. DNA를 직접 편집하지 않는 안전성 프로파일이 차별점이며, BIO USA 2026 파트너링 성사가 다음 모멘텀.
-- **전달체 경쟁이 적용 범위를 가른다 — LNP·GalNAc·AOC**: RNA 치료제의 핵심 병목은 표적 조직 전달이다. GalNAc는 간, LNP는 백신·간, AOC(항체+siRNA)는 근육으로 도달 범위를 넓힌다. 노바티스가 Avidity 인수로 확보한 AOC 플랫폼이 FSHD에서 임상 검증되며 근육 특이 전달 문제를 처음 돌파했다.
+- **Ionis olezarsen(Tryngolza) FDA 조기 승인 — GalNAc-ASO 대형 만성질환 첫 진입(6/25)**: PDUFA 6/30보다 5일 앞선 6월 24일 sHTG 승인. FCS(3만~7만 명)에서 sHTG 약 300만 명으로 환자 풀 수십 배 확장. 3상에서 중성지방 최대 72.2% 감소·급성 췌장염 위험 85% 감소. FDA가 '급성 췌장염 위험 감소'를 명시한 최초 치료제. 7월 미국 시판 예정. 경쟁: AstraZeneca plozasiran(siRNA, 동일 APOC3 표적, 2027년 내 심사 예정).
+- **상업화 관문**: Ionis 독자 영업 인프라 첫 검증 케이스. 지불자는 췌장염 입원 비용 절감(1회 수만 달러) 논리로 ICER 평가 제출 가능성. FCS·sHTG 약가 차등이 급여 협상 핵심 쟁점. 결과가 RNA 모달리티 전체의 약가 협상 선례로 작용.
+- **mRNA 플랫폼 계절 백신 — Moderna MFLUSIVA 8월 5일 FDA 최종 결정**: VRBPAC 9-0 만장일치 권고(6/18~19). 코로나19를 넘어 연간 필수 접종 시장으로 확장되는 첫 시험대.
+- **전달체 경쟁**: GalNAc(간), LNP(백신·간), AOC(근육) 각 도달 범위. 노바티스 AOC 플랫폼이 FSHD에서 임상 검증으로 근육 특이 전달 첫 돌파.
 
 ## 타임라인
-### 2026-06-24 [2026-06-24](/daily/2026-06-24.md)
-- Ionis olezarsen PDUFA D-6 — GalNAc-ASO, APOC3 표적. sHTG 적응증 확장 결정(6/30)이 RNA 치료제의 대형 만성질환 첫 관문. 미국 sHTG 환자 약 300만 명, 고위험군 100만 명 이상. 승인 시 피크 매출 전망 FCS+sHTG 합산 20억 달러 이상으로 상향. 경쟁: Arrowhead plozasiran(siRNA). → [2026-06-24](/daily/2026-06-24.md)
+### 2026-06-25 [[daily/2026-06-25]]
+- Ionis olezarsen(Tryngolza) FDA 조기 승인(6/24) — GalNAc-ASO, APOC3 표적, sHTG 적응증. PDUFA 6/30보다 5일 앞당겨 승인. 급성 췌장염 위험 감소 최초 허가 치료제. 7월 미국 시판 예정. 환자 풀: FCS(3~7만) → sHTG(300만 명). → [[daily/2026-06-25]]
+- AstraZeneca plozasiran(siRNA, 동일 APOC3 표적) 2027년 내 심사 예정 — olezarsen 선점 기간 제한 변수. GalNAc-ASO vs siRNA APOC3 경쟁 구도 지속. → [[daily/2026-06-25]] [[topics/신약개발전략]]
+
+### 2026-06-24 [[daily/2026-06-24]]
+- Ionis olezarsen PDUFA D-6 — GalNAc-ASO, APOC3 표적. sHTG 적응증 확장 결정(6/30)이 RNA 치료제의 대형 만성질환 첫 관문. 미국 sHTG 환자 약 300만 명, 고위험군 100만 명 이상. 승인 시 피크 매출 전망 FCS+sHTG 합산 20억 달러 이상으로 상향. 경쟁: Arrowhead plozasiran(siRNA). → [[daily/2026-06-24]]
 
 ### 2026-06-23 [2026-06-23](/daily/2026-06-23.md)
 - Ionis olezarsen sHTG PDUFA D-7 재확인 — 3상 CORE 중성지방 -72.2%(80mg)·급성 췌장염 -85%. ASO vs siRNA(plozasiran) APOC3 경쟁 구도. RNA 기반 만성질환 치료제 모달리티 전체의 증명 사례로 업계 주시. → [2026-06-23](/daily/2026-06-23.md)

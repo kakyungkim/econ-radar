@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-06-25
+- SK하이닉스 Nasdaq ADR 최대 $294억(약 45조4,534억 원) 상장 확정(7월 10일) — 사상 최대급 해외 ADR, HBM 팹 증설 자금 조달
+- Micron Q3 FY2026 어닝서프라이즈 — 매출 $415억·마진 84.9%·Q4 가이던스 $500억, 코스피 이틀 연속 급등(+4.19%, 9,000 가시권)
+- Ionis olezarsen(Tryngolza) FDA 조기 승인(6/24, PDUFA 5일 앞당김) — sHTG 300만 명 GalNAc-ASO 대형 만성질환 첫 진입
+- Eli Lilly·Centessa 인수 완료 $78억 — OX2R 작용제 cleminorexton 기면증·수면장애 파이프라인
+- K바이오 상반기 라이선싱 ~13조 원($85억) — ABL Bio Grabody-B 견인(GSK 최대 $28억+Lilly $26억), 역대 최고 경신 가시권
+
 ## 2026-06-24
 - AbbVie, Apogee Therapeutics $109억(약 16조8,000억 원) 인수 — 투여 편의성(zumilokibart 3~6개월 1회)이 면역학 M&A의 새 축으로
 - 코스피 +3.26% 반등(8,471.02), 삼성전자 시총 1위 탈환 — 촉매는 자사주 90조 원 보도, 외국인 매도 지속
@@ -56,12 +63,5 @@ publish: false
 - 미·이란 MOU 전자 서명 발효·스위스 서명식 취소 — 브렌트유 $75(4월 고점 대비 -38%), 핵 문제 미결
 - K바이오 51개사 BIO USA 2026 출격 — Rznomics RNA 편집 FDA RMAT 3관왕(간세포암), 삼성바이오 Rockville 미국 생산시설 전면 부각
 - 유한양행 창립 100주년 D-1 — 렉라자 1Q 글로벌 매출 $2.57억(+82.7%), 2030 비전 발표 예정
-
-## 2026-06-18
-- 코스피 사상 첫 9,000 돌파(종가 9,063.84) — SK하이닉스 HBM4E 출하 공식화·주가 +6.98% 신고가
-- Utebzi(tebipenem) FDA 승인 — 미국 최초 경구 카바페넴, 30년 만에 입원 의존 구조에 균열
-- Lilly retatrutide 80주 28.3% 체중 감소(triple-G ADA 2026) — 현재 허가 비만약 최고 수치
-- Anthropic, Coefficient Bio $4억 인수 — AI가 신약개발 밸류체인 내부로 직접 진입
-- Moderna mRNA-1010 VRBPAC 심의 개시 — mRNA 플랫폼 계절 독감 백신 첫 허가 시험대
 
 
