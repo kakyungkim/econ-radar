@@ -39,6 +39,13 @@ publish: false
 - **무엇이**: 하네스 스터디(다비코단) 발표용 덱 갱신. 한국어가 어색하다는 강한 지적(em-dash·가운뎃점 남발, "~다" 평탄 종결, 번역투).
 - **어떻게**: editor 에이전트로 전면 윤문(writing-style 규칙 준수), OKF 소개 슬라이드 신설, 목차·Part 구분·이메일 채널·진화 2~3주차·"프로덕션이 가르친 것" 추가(25슬라이드, HTML·PDF). **슬라이드 문체 규율을 `~/.claude/rules/writing-style.md`에 영구 추가**(재발 방지).
 
+### 6/25 저녁 — 이메일 첫 자동 발송 실패 → API 헤더 누락 (즉시 발송 게이트)
+- **무엇이**: 저녁 데일리 push가 이메일 워크플로를 정상 트리거했지만 발송 step이 `HTTP 400`으로 실패. 텔레그램은 정상, 이메일만 안 나감.
+- **왜**: Buttondown은 `status=about_to_send`(즉시 발송) 이메일 생성에 **`X-Buttondown-Live-Dangerously` 헤더를 요구**한다("API 키당 한 번만 필요"). send_email.py가 이 헤더를 안 보냈음. 초안(draft)·예약(scheduled) 테스트만 해봐서 즉시 발송 경로에서 처음 드러난 실패.
+- **어떻게 고침**: `scripts/send_email.py`에서 `MODE=="now"`일 때 `X-Buttondown-Live-Dangerously: true` 헤더 추가(커밋 dfad33f). 수정 후 수동 재실행으로 6/25 이메일 정상 발송 확인(`status=about_to_send`). 발송 누락 없음.
+- **교훈**: 외부 발송 API의 안전장치는 **draft·schedule이 아니라 실제 즉시 발송에서만** 드러난다. 자동화는 "첫 실전"에서 깨진다. → "프로덕션이 가르친 것"에 추가.
+- 곁들여: 친구 피드백("바로가기 버튼이 커 보인다")으로 TOC를 640px 이하 모바일에서 축소(`template.html` 반응형). 출처·Threads의 `/topics/` 링크 404도 수정.
+
 ## 2026-06-16~18 (GitHub Actions 버그 픽스 + 뉴스 신선도·중복 방지 시스템)
 
 ### 6/16 — GitHub Actions 다중 커밋 push 감지 버그
