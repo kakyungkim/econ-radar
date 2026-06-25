@@ -102,6 +102,8 @@ data = json.dumps(payload).encode("utf-8")
 req = urllib.request.Request(API_URL, data=data, method="POST")
 req.add_header("Authorization", "Token %s" % API_KEY)
 req.add_header("Content-Type", "application/json")
+if MODE == "now":
+    req.add_header("X-Buttondown-Live-Dangerously", "true")
 
 try:
     with urllib.request.urlopen(req, timeout=30) as r:
