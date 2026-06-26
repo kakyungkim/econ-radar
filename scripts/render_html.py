@@ -636,8 +636,8 @@ def render_glance(doc):
 
 CALLOUT_META = {
     "KEY POINT": ("why-matters", "KEY POINT"),
-    "INSIGHT": ("insight", "💡 Insight"),
-    "DEMAND": ("customer", "🙋 Demand"),
+    "INSIGHT": ("insight", "💡 INSIGHT"),
+    "DEMAND": ("customer", "🙋 DEMAND"),
 }
 
 
@@ -797,7 +797,7 @@ def render_deepdive(doc):
               </div>""" % inline(it["frame"]))
             for dt, dtext in it["demand"]:
                 inner.append("""              <div class="customer mt-3">
-                <div class="label">🙋 Demand · %s</div>
+                <div class="label">🙋 DEMAND · %s</div>
                 <div class="text">%s</div>
               </div>""" % (esc(dt), inline(dtext)))
             if it["sources"]:
@@ -849,7 +849,7 @@ def render_demand(doc):
 {brow}
           <h3 class="text-[16px] font-bold text-gray-900 mb-3">{title}</h3>
           <div class="customer">
-            <div class="label">🙋 Demand</div>
+            <div class="label">🙋 DEMAND</div>
             <div class="text">{body}</div>
           </div>
         </div>""".format(brow=badges_row(badges), title=inline(d["title"]),
