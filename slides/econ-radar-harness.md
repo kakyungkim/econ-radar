@@ -213,7 +213,7 @@ style: |
 
 <ul class="tl">
 <li><span class="d">Part 1</span><strong>무엇을, 왜</strong> : 한 줄 정의, 실제 발행본, 3층 구조, 3렌즈</li>
-<li><span class="d">Part 2</span><strong>어떻게 만들었나</strong> : 8명의 에이전트 팀, 설계 4원칙, 파일로 둔 기준선, 자동화 3채널</li>
+<li><span class="d">Part 2</span><strong>어떻게 만들었나</strong> : 8명의 에이전트 팀, 설계 4원칙, 파일로 둔 기준선, 자동화 3채널, OKF 지식 자산화</li>
 <li><span class="d">Part 3</span><strong>진화</strong> : 17일간 운영과 배포가 설계를 고친 기록, 그리고 <em>프로덕션이 가르친 것</em></li>
 <li><span class="d">Part 4</span><strong>원칙, 교훈, 토의</strong> : 안전선, 배운 점, 로드맵, 데모</li>
 </ul>
@@ -342,16 +342,33 @@ style: |
 
 ---
 
-## OKF: 지식을 파일로 쌓는 표준
+## OKF: LLM이 읽는 지식 표준
 
-2층 vault를 옵시디언이자 OKF(Open Knowledge Format)로 함께 굴린다.
+마크다운과 링크로 지식을 쌓아 LLM이 읽게 하는 'LLM 위키' 패턴. Google Cloud가 2026년 6월 이걸 개방 표준 **OKF(Open Knowledge Format)**로 정리했고, econ-radar vault가 그 표준을 따른다.
 
-- **파일 경로가 곧 개념 ID다.** `topics/AI.md`는 개념 'AI'. 폴더만 열면 그래프와 백링크가 산다.
-- **모든 노트에 `type` 한 줄**(daily, moc, analysis)과 `publish` 게이트. 공개는 명시한 노트만 나간다.
-- **링크는 절대경로 마크다운** `[AI](/topics/AI.md)`로 통일한다. 위키링크와 달리 어디서 열어도 안 깨진다.
-- 디렉터리마다 `index.md`가 진입점, 변경 이력은 `log.md`.
+- **파일 경로가 곧 개념 ID.** `topics/AI.md`는 개념 'AI'. 폴더만 열면 옵시디언 그래프와 백링크가 산다.
+- 필수 항목은 **`type` 한 줄**뿐. 진입점은 `index.md`, 변경 이력은 `log.md`.
+- 링크는 **절대경로 마크다운** `[AI](/topics/AI.md)`. 위키링크와 달리 어디서 열어도 안 깨진다.
 
-> SDK도 DB도 없이 마크다운과 YAML만 쓴다. 사람도 에이전트도 `git clone` 하나로 읽는다.
+> SDK도 DB도 없다. 마크다운과 YAML만. 같은 폴더를 `cat`도, `git`도, 옵시디언도, LLM도 읽는다.
+
+---
+
+## 2층 자산화: 스트림에서 포트폴리오로
+
+- **프로젝트 vault는 스트림이다.** econ-radar의 daily, raw, analysis가 매일 흘러든다.
+- 쌓이기만 하면 자산이 아니라 노이즈. **큐레이터가 오래 쓸 주제만 골라 승격**한다.
+- 승격한 주제가 모이는 곳이 **knowledge-hub**, 프로젝트를 가로지르는 포트폴리오 위키다. econ-radar와 paper-radar가 같은 OKF 표준으로 한곳에 모인다.
+
+<div class="flow">
+  <div class="frow">
+    <div class="node">프로젝트 vault<span class="role">스트림 · daily, raw, analysis</span></div>
+    <div class="arr">승격 ▶</div>
+    <div class="node script">knowledge-hub<span class="role">자산 · MOCs, topics</span></div>
+  </div>
+</div>
+
+> 규약은 전역 한 곳, 자산은 허브, 변환은 자동. repo마다 규약을 복사하지 않는다.
 
 ---
 
@@ -435,7 +452,7 @@ style: |
 
 <br>
 
-<span class="small">가장 비싼 단계가 판단은 가장 필요 없는 단계였다. 스크립트로 갈아 <strong>발행당 약 22% 절감</strong>.</span>
+<span class="small">제일 비싼 단계가 정작 판단은 가장 덜 필요했다. 스크립트로 갈아 <strong>발행당 약 22% 절감</strong>.</span>
 
 ---
 
