@@ -7,12 +7,17 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Qualcomm-Tenstorrent 인수 협상 $80~100억 — RISC-V AI칩 제3 세력 부상(6/25)**: Jim Keller(AMD Zen·Apple 실리콘 설계자) 이끄는 Tenstorrent를 밸류에이션 3배 프리미엄에 협상 중. Intel도 경쟁 입찰. RISC-V 오픈 아키텍처가 NVIDIA CUDA 독점에 대한 구조적 대안으로 주목받고 있으며, 하이퍼스케일러의 맞춤 칩 설계 수요가 배경.
-- **Micron 어닝서프라이즈 — AI 추론 수요 구조적 확인(6/25)**: Q3 FY2026 총마진 84.9%·Q4 가이던스 $500억. AI 추론(inference) 워크로드 확산이 훈련(training)을 넘어 메모리 수요를 확대하는 흐름이 재무 수치로 확인됐다. 빅테크 5사 2026년 AI CapEx 6,600억~6,900억 달러 추정 유지.
-- **수요 렌즈**: 하이퍼스케일러(AWS·Azure·Google)가 NVIDIA GPU 비용 절감과 맞춤 칩 설계 자유도를 원하는 구조. RISC-V 칩 전환 장벽은 CUDA에 묶인 ML 코드베이스. 국내 삼성 파운드리는 RISC-V 고객 다변화 간접 효과 가능.
-- **Anthropic 연매출 run-rate $300억 확인(6/24)·OpenAI·Anthropic IPO 경쟁**: 프런티어 AI 기업 수익화 규모 처음 공개. API·엔터프라이즈 수익화 경쟁 가열 중.
+- **중국 2조 위안 AI 국가망 — 화웨이 어센드 80% 의무화, Nvidia 중국 매출 구조적 소멸(6/26)**: NDRC 5개년 계획, 신규 데이터센터 장비 80% 이상 국내 조달 의무화. Nvidia 분기 중국 DC 매출 0달러(전년 동기 $46억). 화웨이 AI 프로세서 매출 $120억(+60%) 전망. AI칩 시장이 "화웨이 어센드 생태계"와 "Nvidia CUDA 생태계"로 물리적으로 분단되는 양상.
+- **Microsoft MAI 모델 — OpenAI 의존 축소, AI 공급망 내재화(6/26)**: MAI-Code-1-Flash(코딩)·MAI-Thinking-1(추론). Azure 고객 원가 구조 개선 목적. 자체 모델 성능이 GPT·Claude 대비 어느 수준인지가 개발자 채택 속도를 결정.
+- **Qualcomm-Tenstorrent 인수 협상 $80~100억 — RISC-V AI칩 제3 세력 부상(6/25)**: RISC-V 오픈 아키텍처가 NVIDIA CUDA 독점에 대한 구조적 대안으로 주목. Intel도 경쟁 입찰.
+- **수요 렌즈**: 하이퍼스케일러는 NVIDIA GPU 비용 절감과 맞춤 칩 설계 자유도를 원한다. 중국은 화웨이 생태계로 강제 귀속. 비중국 시장에서 Nvidia 수요는 구조적으로 유지된다. SK하이닉스 HBM이 Nvidia 비중국 수주에 동반 상승하는 연결 고리도 유지.
 
 ## 타임라인
+### 2026-06-26 [[daily/2026-06-26]]
+- [[daily/2026-06-26]] — 중국 2조 위안 AI 국가망 법제화, Microsoft MAI 모델 공개
+  - 중국 NDRC AI 국가망: 장비 80% 국내 조달 의무화로 Nvidia 중국 시장 회복 경로 차단. 화웨이 어센드 수혜. SMIC 파운드리 병목·CANN 생태계 성숙도가 2028년 완성 제약 변수. → [[topics/반도체HBM]]
+  - Microsoft MAI-Code-1-Flash·MAI-Thinking-1 공개: OpenAI 의존 축소·Azure 원가 내재화 전략. AI 코드 도구 시장 2026년 $93억→2031년 $300억(CAGR +26%) 성장 전망 배경
+
 ### 2026-06-25 [[daily/2026-06-25]]
 - Qualcomm-Tenstorrent 인수 협상 $80~100억(약 11~14조 원) — RISC-V 기반 AI 가속기, Intel도 경쟁 입찰. 밸류에이션 32억달러의 약 3배 제안가. NVIDIA CUDA 독점에 대한 구조적 대안 경쟁 구도 형성. → [[daily/2026-06-25]]
 - Micron Q3 FY2026 어닝서프라이즈 — AI 추론 워크로드 확산으로 메모리 대역폭 수요 구조적 확대 재확인. HBM4 12단 매출 $10억 돌파. → [[daily/2026-06-25]] [[topics/반도체HBM]]
