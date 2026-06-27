@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-06-27
+- Revolution Medicines 졸돈라시브(zoldonrasib) 전이성 췌장암 1차 ORR 82% — KRAS G12D 공유 억제, ESMO GI 7/1~4 구연 발표
+- BofA 연준 75bp(3회) 인상 전망 전환 — 9·10·12월, 연말 기준금리 4.25~4.50%
+- Sobi NASP FDA CRL — PDUFA 하루 전 CMO 제조 결함 통보, 효능·안전성 FDA 공식 무결 인정
+- SK하이닉스·삼성·Micron Nvidia 16단 HBM4 수주 경쟁 + SK하이닉스 DDR5 마진 전략
+- Takeda 자소시티닙 3상 — 데우크라바시티닙 대비 PASI 100 달성률 2.5배
+
 ## 2026-06-26
 - 미국 5월 PCE 4.1% (3년 만에 4% 돌파) — Warsh 연준 금리 인상 논거 강화, 코스피 -3.39% 연동
 - Definium DT120(리서지드 LSD ODT) Phase 3 MDD 성공 — MADRS -13.3 vs -5.2, 사이키델릭 FDA 표준 경로 첫 3상 통과
@@ -56,12 +63,5 @@ publish: false
 - Nvidia Vera CPU 양산 — AI 에이전트 전용, 88 Olympus 코어, x86 대비 1.8배, OpenAI·Anthropic 납품
 - 코스피 9,052 + 한국 5월 수출 877.5억달러 역대 최대 — 반도체 수출 169.4% 급증(371.6억달러)
 - BIO USA 2026 개막 D-1 + GPT-5.6 출시 83% 확률(Polymarket) — 내일(6/22) 동시 이벤트
-
-## 2026-06-20
-- cytisinicline FDA CRL — 약효 데이터 건재, CMO cGMP OAI 판정이 허가 차단. 이미 Adare로 제조 이전 완료, Q4 2026 NDA 재제출·H1 2027 출시 예정
-- BIO USA 2026 D-2 — K바이오 51개사, 서울대병원 병원 첫 단독 부스, ABL Bio·삼성바이오 Rockville·Rznomics 파트너링
-- 유한양행 창립 100주년(6/20) — 'Great & Global' 비전, 렉라자 1Q 글로벌 $2.57억(+82.7%), 글로벌 톱 50 목표
-- AI 모델 대전 6월 말 집중 — Claude Fable 5(6/9 출시), Gemini 3.5 Pro(3주째 미출시), GPT-5.6(6/22~28 출시 확률 83~90%)
-- Moderna MFLUSIVA 주간 +28% + 브렌트유 $80.59 반등 — 이란 호르무즈 보험 의무 발언, 8/5 FDA 최종 결정 대기
 
 
