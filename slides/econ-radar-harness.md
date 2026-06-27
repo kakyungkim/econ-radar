@@ -229,7 +229,7 @@ style: |
 
 ## 실제 발행본, 매일 저녁에 나간다
 
-<a href="https://kakyungkim.github.io/econ-radar/2026-06-24.html">
+<a href="https://kakyungkim.github.io/econ-radar/2026-06-24.html" target="_blank" rel="noopener">
 <div class="browser" style="width: 62%; margin: 0 auto;">
   <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/2026-06-24.html</span></div>
   <img src="assets/shot-issue.png" alt="econ-radar 2026-06-24 발행본">
@@ -522,13 +522,13 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 
 
 <div class="shots">
-  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/econ-radar/">
+  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/econ-radar/" target="_blank" rel="noopener">
   <div class="browser">
     <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">kakyungkim.github.io/econ-radar/</span></div>
     <img src="assets/shot-archive.png" alt="econ-radar 아카이브">
   </div>
   </a>
-  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/kr/2026/06/10/econ-radar-agent-harness/">
+  <a style="flex:1; min-width:0;" href="https://kakyungkim.github.io/kr/2026/06/10/econ-radar-agent-harness/" target="_blank" rel="noopener">
   <div class="browser">
     <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="url">…/econ-radar-agent-harness/ (설계 노트 블로그)</span></div>
     <img src="assets/shot-blog.png" alt="설계 노트 블로그 글">
@@ -546,6 +546,6 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 
 **econ-radar** : 매일 돌아가는 3렌즈 뉴스 팀, 이중 게이트, 3채널 발행, 누적되는 지식 자산
 
-<a href="https://kakyungkim.github.io/econ-radar/"><img class="qr" src="assets/qr-archive.png" alt="QR: econ-radar 아카이브"></a>
+<a href="https://kakyungkim.github.io/econ-radar/" target="_blank" rel="noopener"><img class="qr" src="assets/qr-archive.png" alt="QR: econ-radar 아카이브"></a>
 
 <span class="small">QR은 econ-radar 아카이브. 발행 채널은 블로그, 텔레그램 @econradar, 이메일 셋. 데모는 오늘자 HTML 리포트.</span>
