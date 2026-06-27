@@ -228,6 +228,31 @@
     }
     .to-top:hover { background: #3730a3; }
     .to-top:active { transform: scale(0.92); }
+
+    /* 모바일 반응형 (≤640px) — 폰에서 카드·콜아웃·버튼·이미지 최적화 */
+    @media (max-width: 640px) {
+      body { font-size: 15px; line-height: 1.72; }
+      img, svg { max-width: 100%; height: auto; }
+      /* 본문 컨테이너 좌우 여백 살짝 좁힘 */
+      .max-w-\[820px\] { padding-left: 14px; padding-right: 14px; }
+      /* 경제 영어 카드 */
+      .eng-card { padding: 16px; border-radius: 13px; }
+      .eng-word { font-size: 21px; }
+      .eng-meaning { font-size: 12.5px; }
+      .eng-desc { font-size: 14px; }
+      .eng-example { padding: 12px 13px; }
+      .eng-example .en, .eng-example .ko { font-size: 13px; }
+      /* 콜아웃(Why it matters·Insight·Demand) */
+      .why-matters, .insight, .customer { padding: 9px 13px; }
+      .why-matters .text { font-size: 14.5px; }
+      .insight .text, .customer .text { font-size: 14px; }
+      /* 발음·재생 버튼 살짝 축소 */
+      .voice-btn svg { width: 20px; height: 20px; }
+      .play-circle { width: 30px; height: 30px; }
+      .play-circle svg { width: 14px; height: 14px; }
+      /* 맨 위로 버튼 — 엄지에 안 걸리게 */
+      .to-top { width: 40px; height: 40px; right: 12px; bottom: 12px; font-size: 18px; }
+    }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen">
