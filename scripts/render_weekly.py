@@ -10,7 +10,10 @@ import sys, os, re, html, argparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS = os.path.join(ROOT, "vault", "reports")
 HTML_DIR = os.path.join(ROOT, "vault", "html")
-BLOG_BASE = "/econ-radar"  # 블로그 내 econ-radar 경로
+PUSH_DIR = os.path.join(ROOT, "vault", "push")
+EMAIL_DIR = os.path.join(ROOT, "vault", "email")
+BLOG_BASE = "/econ-radar"  # 블로그 내 econ-radar 경로(HTML 리포트 내부 상대 링크)
+BLOG_FULL = "https://kakyungkim.github.io/econ-radar"  # 공개 절대 URL(push·email CTA용)
 
 
 def map_link(url):
@@ -49,12 +52,12 @@ def inline(text):
 
 # 위클리 섹션(## 헤더) → 짧은 칩 라벨 매핑(키워드 포함 검색, 순서대로). 점프 TOC용.
 TOC_LABELS = [
-    ("핵심 메시지", "핵심", "이번 주를 관통하는 핵심 메시지"),
-    ("이번 주 주요 흐름", "흐름", "이번 주 주요 흐름 4가지"),
+    ("핵심 메시지", "핵심", "지난 주를 관통한 핵심 메시지"),
+    ("주요 흐름", "흐름", "지난 주 주요 흐름 4가지"),
     ("투자 시사점", "투자", "투자 관점 시사점"),
     ("수요 시사점", "수요", "수요자 관점 시사점"),
     ("전략 노트", "전략", "R&D·전략 관점 노트"),
-    ("다음 주 관전", "다음 주", "다음 주 관전 포인트"),
+    ("관전 포인트", "관전 포인트", "이번 주 관전 포인트"),
 ]
 
 
@@ -212,6 +215,195 @@ hr{{border:none;border-top:1px solid var(--line);margin:26px 0;}}
 </body></html>"""
 
 
+# ----------------------------------------------------------------------------
+# 텍스트 헬퍼(push·email용) — 마크다운 장식·위키링크·링크를 평문/정돈된 형태로
+# ----------------------------------------------------------------------------
+def _plain(text):
+    """**굵게**·[라벨](url)·[[위키링크]] 등을 제거해 순수 텍스트로(텔레그램 평문용)."""
+    text = re.sub(r"\[\[[^\]]+\]\]", "", text)            # 위키링크 제거
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)  # [라벨](url) → 라벨
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)         # **굵게** → 굵게
+    text = re.sub(r"`([^`]+)`", r"\1", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _period_label(period):
+    """2026-W26 → '2026년 26주'."""
+    m = re.match(r"^(\d{4})-W(\d{2})$", period)
+    if not m:
+        return period
+    return "%s년 %d주" % (m.group(1), int(m.group(2)))
+
+
+def _short_range(daterange):
+    """'2026-06-22 ~ 2026-06-28' → '6/22~6/28'."""
+    ds = re.findall(r"(\d{4})-(\d{2})-(\d{2})", daterange or "")
+    if len(ds) >= 2:
+        a, b = ds[0], ds[-1]
+        return "%d/%d~%d/%d" % (int(a[1]), int(a[2]), int(b[1]), int(b[2]))
+    return daterange or ""
+
+
+def parse_weekly(fm, body, period):
+    """주간 md 에서 push·email 렌더에 필요한 조각을 뽑는다.
+    반환 dict: title, daterange, short_range, blog_url, key_msgs(list), flow_titles(list)."""
+    # 제목(H1)
+    h1m = re.search(r"^#\s+(.*)$", body, re.M)
+    title = _plain(h1m.group(1)) if h1m else (period + " 동향")
+    daterange = fm.get("date_range", "")
+    blog_url = "%s/%s-동향.html" % (BLOG_FULL, period)
+
+    # 핵심 메시지: '## 핵심 메시지' 섹션의 '1. 2. 3.' 항목. 굵게 표제(앞 부분)만 짧게.
+    key_msgs = []
+    km = re.search(r"^##\s+핵심 메시지[^\n]*\n(.*?)(?=^##\s)", body, re.M | re.S)
+    if km:
+        for m in re.finditer(r"^\d+\.\s+(.*)$", km.group(1), re.M):
+            raw = m.group(1).strip()
+            # '**표제**: 본문' 패턴이면 표제만, 아니면 첫 문장만 취해 짧게
+            bm = re.match(r"\*\*([^*]+)\*\*", raw)
+            msg = bm.group(1).strip() if bm else _plain(raw).split(":")[0].split(".")[0]
+            key_msgs.append(_plain(msg))
+
+    # 흐름 제목: '## ...주요 흐름' 아래 '### 흐름 N: 부제' 의 부제만.(지난/이번 접두 무관)
+    flow_titles = []
+    fl = re.search(r"^##\s+[^\n]*주요 흐름[^\n]*\n(.*?)(?=^##\s)", body, re.M | re.S)
+    if fl:
+        for m in re.finditer(r"^###\s+(.*)$", fl.group(1), re.M):
+            t = _plain(m.group(1))
+            t = re.sub(r"^흐름\s*\d+\s*[:：]\s*", "", t)  # '흐름 1: ' 접두 제거
+            flow_titles.append(t)
+
+    return {
+        "title": title, "daterange": daterange,
+        "short_range": _short_range(daterange),
+        "period_label": _period_label(period),
+        "blog_url": blog_url, "key_msgs": key_msgs, "flow_titles": flow_titles,
+    }
+
+
+# ----------------------------------------------------------------------------
+# 텔레그램 푸시(평문) — 데일리 render_push 패턴의 주간판. "주간/Weekly" 강조.
+# ----------------------------------------------------------------------------
+def render_weekly_push(meta):
+    KN = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+    lines = ["📅 econ-radar 주간 동향 (Weekly)"]
+    sub = meta["period_label"]
+    if meta["short_range"]:
+        sub += " · " + meta["short_range"]
+    lines.append(sub)
+    lines.append("")
+    if meta["key_msgs"]:
+        lines.append("지난 주 핵심 메시지")
+        for i, msg in enumerate(meta["key_msgs"][:3]):
+            lines.append("%s %s" % (KN[i], msg))
+        lines.append("")
+    lines.append("🔗 전체 보기: %s" % meta["blog_url"])
+    return "\n".join(lines) + "\n"
+
+
+# ----------------------------------------------------------------------------
+# 이메일(Buttondown) — 데일리 render_email 패턴의 주간판.
+# 인라인 style·table 레이아웃만, JS/외부 CSS/@import 없음. 본문은 가볍게(Gmail
+# 102KB 클리핑 회피). 헤더에 "주간 동향 · Weekly" 배지, SUBJECT 앞에 [주간].
+# ----------------------------------------------------------------------------
+def render_weekly_email(meta):
+    title = html.escape(meta["title"])
+    period_label = html.escape(meta["period_label"])
+    short_range = html.escape(meta["short_range"])
+    blog_url = meta["blog_url"]
+    subject = "[주간] econ-radar %s 동향 (%s)" % (
+        meta["period_label"], meta["short_range"] or meta["daterange"])
+
+    blocks = []
+
+    # 핵심 메시지 3가지
+    if meta["key_msgs"]:
+        items = "".join(
+            '<tr>'
+            '<td valign="top" style="padding:0 10px 12px 0;font-size:15px;'
+            'font-weight:800;color:#4f46e5;line-height:1.5;">%d</td>'
+            '<td valign="top" style="padding:0 0 12px;font-size:15px;'
+            'line-height:1.6;color:#1f2937;">%s</td></tr>'
+            % (i + 1, html.escape(msg)) for i, msg in enumerate(meta["key_msgs"][:3]))
+        blocks.append(
+            '<tr><td style="padding:20px 24px 0;">'
+            '<p style="margin:0 0 12px;font-size:12px;font-weight:700;'
+            'letter-spacing:1px;text-transform:uppercase;color:#4f46e5;">'
+            '지난 주 핵심 메시지 3가지</p>'
+            '<div style="background:#eef2ff;border:1px solid #c7d2fe;'
+            'border-radius:14px;padding:16px 20px;">'
+            '<table role="presentation" cellpadding="0" cellspacing="0" border="0" '
+            'width="100%%">%s</table></div></td></tr>' % items)
+
+    # 이번 주 주요 흐름(제목만)
+    if meta["flow_titles"]:
+        rows = "".join(
+            '<div style="background:#ffffff;border:1px solid #eceef2;'
+            'border-radius:12px;padding:13px 16px;margin:0 0 10px;font-size:14.5px;'
+            'line-height:1.55;color:#111827;">'
+            '<span style="color:#9ca3af;font-weight:700;">흐름 %d &middot;</span> '
+            '<span style="font-weight:600;">%s</span></div>'
+            % (i + 1, html.escape(t)) for i, t in enumerate(meta["flow_titles"]))
+        blocks.append(
+            '<tr><td style="padding:20px 24px 0;">'
+            '<p style="margin:0 0 14px;font-size:19px;font-weight:700;color:#111827;'
+            'border-bottom:2px solid #e5e7eb;padding-bottom:8px;">지난 주 주요 흐름</p>'
+            '%s</td></tr>' % rows)
+
+    # 전체 보기 CTA — bulletproof 버튼(데일리와 동일 패턴, 흰 글씨 강제).
+    blocks.append(
+        '<tr><td style="padding:26px 24px 8px;" align="center">'
+        '<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">'
+        '<tr><td bgcolor="#059669" style="border-radius:12px;" align="center">'
+        '<a href="%s" target="_blank" style="display:inline-block;padding:16px 36px;'
+        'font-size:16px;font-weight:700;color:#ffffff !important;text-decoration:none;'
+        'border-radius:12px;background:#059669;">'
+        '<span style="color:#ffffff !important;">전체 동향 리포트 보기 &rarr;</span></a>'
+        '</td></tr></table>'
+        '<p style="margin:14px 0 0;font-size:12px;color:#9ca3af;line-height:1.6;">'
+        '투자 시사점 &middot; 수요 시사점 &middot; 전략 노트 &middot; 이번 주 관전 포인트 '
+        '전체는 위 링크에서 보실 수 있습니다.</p>'
+        '</td></tr>' % blog_url)
+
+    range_html = ""
+    if short_range:
+        range_html = ('<p style="margin:6px 0 0;font-size:14px;color:#6b7280;">'
+                      '%s &middot; %s</p>' % (period_label, short_range))
+
+    doc = """<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>{subject}</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:'Apple SD Gothic Neo','Malgun Gothic',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-text-size-adjust:100%;">
+<!-- SUBJECT: {subject} -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f3f4f6;">
+  <tr><td align="center" style="padding:24px 12px;">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background:#ffffff;border:1px solid #e5e7eb;border-radius:18px;overflow:hidden;">
+      <tr><td style="padding:28px 24px 8px;">
+        <span style="display:inline-block;background:#4f46e5;color:#ffffff;font-size:12px;font-weight:700;letter-spacing:0.5px;padding:4px 12px;border-radius:999px;">📅 주간 동향 · Weekly</span>
+        <p style="margin:14px 0 0;font-size:21px;font-weight:800;color:#111827;line-height:1.4;">{title}</p>
+        {range_html}
+      </td></tr>
+{blocks}
+      <tr><td style="padding:26px 24px 24px;border-top:1px solid #e5e7eb;text-align:center;">
+        <a href="https://t.me/econradar" target="_blank" style="color:#4f46e5;text-decoration:none;font-size:14px;font-weight:600;">텔레그램 @econradar 로도 받기</a>
+        <p style="margin:12px 0 0;font-size:12px;color:#9ca3af;">econ-radar 주간 동향 · {period_label}</p>
+        <p style="margin:4px 0 0;font-size:12px;color:#9ca3af;">투자·기업 언급은 정보·시나리오이며 매수·매도 권유가 아닙니다.</p>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+</body>
+</html>
+""".format(subject=html.escape(subject), title=title, range_html=range_html,
+           period_label=period_label, blocks="\n".join(blocks))
+    return subject, doc
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("period", help="예: 2026-W26")
@@ -253,7 +445,23 @@ def main():
     os.makedirs(HTML_DIR, exist_ok=True)
     out = os.path.join(HTML_DIR, args.period + "-동향" + args.out_suffix + ".html")
     open(out, "w", encoding="utf-8").write(page)
-    sys.stderr.write("[render_weekly] 완료: %s (%d bytes)\n" % (out, len(page.encode("utf-8"))))
+    sys.stderr.write("[render_weekly] HTML : %s (%d bytes)\n" % (out, len(page.encode("utf-8"))))
+
+    # 텔레그램 푸시·이메일도 함께 산출(데일리 render_html.py 와 동일한 패턴)
+    meta = parse_weekly(fm, body, args.period)
+    push_text = render_weekly_push(meta)
+    _, email_html = render_weekly_email(meta)
+    os.makedirs(PUSH_DIR, exist_ok=True)
+    os.makedirs(EMAIL_DIR, exist_ok=True)
+    push_out = os.path.join(PUSH_DIR, args.period + "-동향" + args.out_suffix + ".md")
+    email_out = os.path.join(EMAIL_DIR, args.period + "-동향" + args.out_suffix + ".html")
+    open(push_out, "w", encoding="utf-8").write(push_text)
+    open(email_out, "w", encoding="utf-8").write(email_html)
+    sys.stderr.write("[render_weekly] PUSH : %s\n" % push_out)
+    sys.stderr.write("[render_weekly] EMAIL: %s (%d bytes)\n"
+                     % (email_out, len(email_html.encode("utf-8"))))
+    sys.stderr.write("[render_weekly] 파싱: 핵심메시지=%d, 흐름=%d, blog=%s\n"
+                     % (len(meta["key_msgs"]), len(meta["flow_titles"]), meta["blog_url"]))
 
 
 if __name__ == "__main__":

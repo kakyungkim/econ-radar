@@ -1,0 +1,139 @@
+name: Weekly Publish (Blog + Telegram + Email)
+
+# 주간 동향 리포트를 블로그·텔레그램·이메일 3채널로 발행한다.
+# 데일리 인프라(telegram-push.yml / email-push.yml / deploy.sh)의 주간판.
+#
+# 트리거:
+#   - schedule: 매주 월요일 08:00 KST = 일요일 23:00 UTC (cron '0 23 * * 0')
+#   - workflow_dispatch: 수동 실행(period / send 입력)
+#
+# 안전선: send 기본은 'draft'(이메일 미발송). 실제 발송은 수동/변수로만 켠다.
+#   - 이메일: send_email.py 가 EMAIL_SEND 에 따라 draft / 1(예약) / now(즉시).
+#   - 텔레그램: 채널 발송은 즉시이므로, send=draft 이면 텔레그램도 건너뛴다.
+#   - 블로그: 배포는 BLOG_DEPLOY_TOKEN 시크릿이 있을 때만 수행(없으면 건너뜀).
+on:
+  schedule:
+    - cron: '0 23 * * 0'   # 일 23:00 UTC = 월 08:00 KST
+  workflow_dispatch:
+    inputs:
+      period:
+        description: '발행할 주(YYYY-Wnn, 예 2026-W26). 비워두면 최신 vault/reports/*-동향.md 자동 감지.'
+        required: false
+        default: ''
+      send:
+        description: "발송 모드: draft(블로그만, 기본·안전) / 1(이메일 다음아침 예약+텔레그램) / now(이메일 즉시+텔레그램)."
+        required: false
+        default: 'draft'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect period
+        id: detect
+        run: |
+          if [ -n "${{ github.event.inputs.period }}" ]; then
+            PERIOD="${{ github.event.inputs.period }}"
+          else
+            # 최신 vault/reports/YYYY-Wnn-동향.md 자동 감지
+            PERIOD=$(ls vault/reports/ 2>/dev/null \
+              | grep -E '^[0-9]{4}-W[0-9]{2}-동향\.md$' \
+              | sed -E 's/-동향\.md$//' \
+              | sort -r | head -1)
+          fi
+          echo "period=$PERIOD" >> "$GITHUB_OUTPUT"
+          echo "Detected period: $PERIOD"
+
+      - name: Resolve send mode
+        id: mode
+        if: steps.detect.outputs.period != ''
+        run: |
+          SEND="${{ github.event.inputs.send }}"
+          # 스케줄 실행은 입력이 비므로 기본 draft(안전). 수동도 미입력이면 draft.
+          if [ -z "$SEND" ]; then SEND="draft"; fi
+          echo "send=$SEND" >> "$GITHUB_OUTPUT"
+          echo "Send mode: $SEND"
+
+      - name: Render weekly (HTML + push + email)
+        if: steps.detect.outputs.period != ''
+        run: |
+          if [ -f "vault/reports/${{ steps.detect.outputs.period }}-동향.md" ]; then
+            python3 scripts/render_weekly.py ${{ steps.detect.outputs.period }}
+          else
+            echo "주간 리포트 md 없음 — 렌더 생략"
+            exit 1
+          fi
+
+      # --- 블로그 배포: 주간 HTML 을 블로그 repo 로 복사, index 에 '주간' 라벨로 추가, push ---
+      # deploy.sh(데일리)와 같은 패턴이지만 CI 라서 블로그 repo 를 토큰으로 clone.
+      - name: Deploy to blog (GitHub Pages)
+        if: steps.detect.outputs.period != '' && env.BLOG_DEPLOY_TOKEN != ''
+        env:
+          BLOG_DEPLOY_TOKEN: ${{ secrets.BLOG_DEPLOY_TOKEN }}
+          PERIOD: ${{ steps.detect.outputs.period }}
+        run: |
+          set -e
+          SRC="vault/html/${PERIOD}-동향.html"
+          if [ ! -f "$SRC" ]; then echo "렌더 HTML 없음: $SRC"; exit 1; fi
+          git clone --depth 1 \
+            "https://x-access-token:${BLOG_DEPLOY_TOKEN}@github.com/kakyungkim/kakyungkim.github.io.git" blog
+          DST="blog/econ-radar/${PERIOD}-동향.html"
+          IDX="blog/econ-radar/index.html"
+          cp "$SRC" "$DST"
+          # 제목: 리포트 H1 에서 'econ-radar ... 동향 리포트' 추출(없으면 기본 라벨)
+          TITLE=$(grep -m1 '^# ' "vault/reports/${PERIOD}-동향.md" | sed 's/^#\s*//' | sed 's/[🧭📅📈]//g' | sed 's/^ *//;s/ *$//')
+          [ -n "$TITLE" ] || TITLE="econ-radar ${PERIOD} 주간 동향"
+          # 주간임을 한눈에: 라벨에 '📅 WEEKLY' 배지 텍스트 + 주차
+          if grep -q "${PERIOD}-동향.html" "$IDX"; then
+            echo "index 에 ${PERIOD} 이미 있음 — 목록 추가 건너뜀"
+          else
+            ENTRY="        <a href=\"${PERIOD}-동향.html\" class=\"block bg-indigo-50 border border-indigo-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-indigo-300 transition\"><p class=\"text-xs text-indigo-500 font-semibold mb-1\">📅 WEEKLY · ${PERIOD}</p><p class=\"font-bold text-gray-900 text-[16px] leading-snug\">${TITLE}</p></a>"
+            awk -v e="$ENTRY" '{print} /<!-- ENTRIES:INSERT_AFTER -->/{print e}' "$IDX" > "$IDX.tmp" && mv "$IDX.tmp" "$IDX"
+            echo "index 목록에 주간 ${PERIOD} 추가"
+          fi
+          cd blog
+          git config user.name "econ-radar bot"
+          git config user.email "bot@econ-radar.local"
+          git add "econ-radar/${PERIOD}-동향.html" "econ-radar/index.html"
+          if git diff --cached --quiet; then
+            echo "블로그 변경 없음 — push 생략"
+          else
+            git commit -q -m "econ-radar: ${PERIOD} 주간 동향 발행"
+            git push origin HEAD
+            echo "블로그 발행 완료"
+          fi
+
+      - name: Deploy skipped notice
+        if: steps.detect.outputs.period != '' && env.BLOG_DEPLOY_TOKEN == ''
+        env:
+          BLOG_DEPLOY_TOKEN: ${{ secrets.BLOG_DEPLOY_TOKEN }}
+        run: echo "BLOG_DEPLOY_TOKEN 시크릿 없음 — 블로그 배포 건너뜀(HTML 은 렌더됨)."
+
+      # --- 텔레그램: send 가 draft 가 아닐 때만(채널은 즉시 발송이므로) ---
+      - name: Send Telegram push
+        if: steps.detect.outputs.period != '' && steps.mode.outputs.send != 'draft'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 scripts/send_push.py ${{ steps.detect.outputs.period }}-동향
+
+      - name: Telegram skipped notice
+        if: steps.detect.outputs.period != '' && steps.mode.outputs.send == 'draft'
+        run: echo "send=draft — 텔레그램 발송 건너뜀(채널은 즉시 발송이므로 안전 기본값). push md 는 생성됨."
+
+      # --- 이메일: send_email.py 가 EMAIL_SEND 에 따라 draft / 예약 / 즉시 ---
+      - name: Send email via Buttondown
+        if: steps.detect.outputs.period != ''
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          EMAIL_SEND: ${{ steps.mode.outputs.send }}
+        run: |
+          if [ -f "vault/email/${{ steps.detect.outputs.period }}-동향.html" ]; then
+            python3 scripts/send_email.py ${{ steps.detect.outputs.period }}-동향
+          else
+            echo "email html 없음 — 발송 생략"
+          fi
