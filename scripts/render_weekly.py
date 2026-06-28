@@ -47,17 +47,51 @@ def inline(text):
     return re.sub(r"\x00(\d+)\x00", unstash, text)
 
 
-def md_to_html(body):
+# 위클리 섹션(## 헤더) → 짧은 칩 라벨 매핑(키워드 포함 검색, 순서대로). 점프 TOC용.
+TOC_LABELS = [
+    ("핵심 메시지", "핵심", "이번 주를 관통하는 핵심 메시지"),
+    ("이번 주 주요 흐름", "흐름", "이번 주 주요 흐름 4가지"),
+    ("투자 시사점", "투자", "투자 관점 시사점"),
+    ("수요 시사점", "수요", "수요자 관점 시사점"),
+    ("전략 노트", "전략", "R&D·전략 관점 노트"),
+    ("다음 주 관전", "다음 주", "다음 주 관전 포인트"),
+]
+
+
+def _toc_chip(idx, raw_label):
+    """## 섹션 본문(raw_label)에 맞는 짧은 칩 라벨·툴팁을 고른다. 없으면 본문 앞부분 사용."""
+    plain = re.sub(r"[#*`]", "", raw_label).strip()
+    for key, short, tip in TOC_LABELS:
+        if plain.startswith(key) or key in plain:
+            if tip is None:
+                # '흐름 N: 부제' → 툴팁은 부제 전체
+                tip = plain
+            return short, tip
+    return (plain[:6] or ("섹션 %d" % idx)), plain
+
+
+def md_to_html(body, collect_secs=None):
+    """collect_secs(리스트)를 주면 각 ## 섹션의 (id, 짧은라벨, 툴팁)을 채워 TOC 생성에 쓴다."""
     out, i = [], 0
     lines = body.split("\n")
     n = len(lines)
+    sec_no = 0
     while i < n:
         ln = lines[i]
         s = ln.strip()
         # 헤딩
         m = re.match(r"^(#{1,6})\s+(.*)$", s)
         if m:
-            lvl = len(m.group(1)); out.append("<h%d>%s</h%d>" % (lvl, inline(m.group(2)), lvl))
+            lvl = len(m.group(1))
+            if lvl == 2:
+                sec_no += 1
+                sec_id = "sec-%d" % sec_no
+                if collect_secs is not None:
+                    short, tip = _toc_chip(sec_no, m.group(2))
+                    collect_secs.append((sec_id, short, tip))
+                out.append('<h2 id="%s">%s</h2>' % (sec_id, inline(m.group(2))))
+            else:
+                out.append("<h%d>%s</h%d>" % (lvl, inline(m.group(2)), lvl))
             i += 1; continue
         # 수평선
         if re.match(r"^(-{3,}|\*{3,})$", s):
@@ -120,6 +154,7 @@ PAGE = """<!DOCTYPE html>
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 :root{{--ink:#1e293b;--indigo:#4338ca;--indigo-deep:#3730a3;--soft:#eef2ff;--line:#c7d2fe;--muted:#64748b;--pop:#c026d3;}}
 *{{box-sizing:border-box;}}
+html{{scroll-behavior:smooth;}}
 body{{font-family:'Pretendard',-apple-system,'Noto Sans KR',sans-serif;color:var(--ink);background:#f6f7fb;margin:0;line-height:1.78;font-size:16px;}}
 .wrap{{max-width:780px;margin:0 auto;padding:30px 20px 80px;}}
 .head{{background:linear-gradient(135deg,#4f46e5,#3730a3);color:#eef2ff;border-radius:18px;padding:26px 28px;margin-bottom:28px;box-shadow:0 12px 40px rgba(49,46,129,.28);}}
@@ -129,6 +164,7 @@ body{{font-family:'Pretendard',-apple-system,'Noto Sans KR',sans-serif;color:var
 .tags{{margin-top:12px;}}
 .tags span{{display:inline-block;font-size:12px;background:rgba(255,255,255,.14);color:#e9d5ff;border-radius:999px;padding:2px 11px;margin:3px 4px 0 0;}}
 h2{{color:var(--indigo);font-size:21px;margin:34px 0 12px;padding-bottom:8px;line-height:1.4;background:linear-gradient(90deg,var(--indigo) 0,var(--pop) 44px,var(--line) 44px) bottom left/100% 3px no-repeat;}}
+h2[id]{{scroll-margin-top:74px;}}
 h3{{color:var(--indigo-deep);font-size:17px;margin:22px 0 8px;}}
 p{{margin:10px 0;}}
 strong{{color:var(--indigo-deep);}}
@@ -144,15 +180,36 @@ td{{padding:10px 13px;border-bottom:1px solid #eef0f7;vertical-align:top;}}
 tr:nth-child(even) td{{background:#fafbff;}}
 hr{{border:none;border-top:1px solid var(--line);margin:26px 0;}}
 .back{{display:inline-block;margin-bottom:18px;font-size:14px;color:var(--indigo);border:none;}}
-.foot{{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}}
-@media(max-width:640px){{body{{font-size:15px;}}.wrap{{padding:18px 14px 60px;}}.head{{padding:20px;}}.head h1{{font-size:21px;}}h2{{font-size:19px;}}table{{font-size:13px;}}}}
+/* 섹션 점프 목차 — 스크롤해도 상단 고정(데일리와 동일 스타일) */
+.toc{{position:sticky;top:8px;z-index:40;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 30px;padding:12px 16px;background:rgba(255,255,255,0.96);backdrop-filter:saturate(180%) blur(6px);border:1.5px solid var(--line);border-radius:14px;box-shadow:0 6px 22px rgba(67,56,202,0.16);}}
+.toc .toc-label{{font-size:13px;font-weight:800;color:var(--indigo);margin-right:4px;}}
+.toc a{{position:relative;font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;background:#eef2ff;color:var(--indigo);border:1px solid var(--line);text-decoration:none;transition:background .15s,color .15s;}}
+.toc a:hover{{background:var(--indigo);color:#fff;}}
+.toc a[data-tip]::after{{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 9px);width:max-content;max-width:260px;white-space:normal;background:#1e293b;color:#fff;font-size:12px;font-weight:500;line-height:1.5;letter-spacing:0;padding:8px 11px;border-radius:9px;box-shadow:0 8px 22px rgba(15,23,42,0.28);opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .15s,transform .15s;pointer-events:none;z-index:60;}}
+.toc a[data-tip]::before{{content:"";position:absolute;left:16px;top:calc(100% + 3px);border:6px solid transparent;border-bottom-color:#1e293b;opacity:0;visibility:hidden;transition:opacity .15s;z-index:60;}}
+.toc a[data-tip]:hover::after,.toc a[data-tip]:hover::before{{opacity:1;visibility:visible;transform:translateY(0);}}
+/* 맨 위로 버튼 */
+.to-top{{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;background:var(--indigo);color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:20px;line-height:1;border:none;box-shadow:0 4px 16px rgba(67,56,202,0.42);z-index:50;transition:background .15s,transform .1s;}}
+.to-top:hover{{background:var(--indigo-deep);}}
+.to-top:active{{transform:scale(0.92);}}
+/* 본문 끝 태그(footer 위) */
+.foottags{{margin-top:34px;}}
+.foottags span{{display:inline-block;font-size:12px;background:var(--soft);color:var(--indigo-deep);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:4px 5px 0 0;}}
+.foot{{margin-top:18px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}}
+@media(max-width:640px){{body{{font-size:15px;}}.wrap{{padding:18px 14px 60px;}}.head{{padding:20px;}}.head h1{{font-size:21px;}}h2{{font-size:19px;}}h2[id]{{scroll-margin-top:64px;}}table{{font-size:13px;}}
+.toc{{padding:8px 10px;gap:6px;margin:0 0 20px;}}.toc .toc-label{{font-size:11px;}}.toc a{{font-size:11px;padding:4px 10px;}}.toc a[data-tip]::after,.toc a[data-tip]::before{{display:none;}}
+.to-top{{width:40px;height:40px;right:12px;bottom:12px;font-size:18px;}}}}
 </style></head>
-<body><div class="wrap">
+<body><div class="wrap" id="top">
 <a class="back" href="{blog}/">← econ-radar 아카이브</a>
-<div class="head"><div class="kicker">WEEKLY · 주간 동향</div><h1>{h1}</h1><div class="range">{range}</div>{tags}</div>
+<div class="head"><div class="kicker">WEEKLY · 주간 동향</div><h1>{h1}</h1><div class="range">{range}</div></div>
+{toc}
 {body}
+{foottags}
 <div class="foot">econ-radar 주간 동향 · 매일의 분석을 한 주 흐름으로 엮은 리포트. 투자·기업 언급은 정보·시나리오이며 매수·매도 권유가 아닙니다.</div>
-</div></body></html>"""
+</div>
+<a href="#top" class="to-top" aria-label="맨 위로" title="맨 위로">&uarr;</a>
+</body></html>"""
 
 
 def main():
@@ -171,14 +228,28 @@ def main():
     h1 = h1m.group(1) if h1m else (args.period + " 동향")
     if h1m:
         body = body[:h1m.start()] + body[h1m.end():]
-    tags_html = ""
+    # 태그는 본문 끝(footer 위)로 이동
+    foottags_html = ""
     if fm.get("tags"):
         ts = re.findall(r"[\w가-힣A-Za-z0-9.\-]+", fm["tags"])
-        tags_html = '<div class="tags">' + "".join("<span>#%s</span>" % t for t in ts) + "</div>"
+        foottags_html = '<div class="foottags">' + "".join("<span>#%s</span>" % t for t in ts) + "</div>"
+    # 본문 렌더하며 ## 섹션 수집 → 점프 TOC 생성
+    secs = []
+    body_html = md_to_html(body, collect_secs=secs)
+    toc_html = ""
+    if len(secs) >= 3:
+        chips = []
+        for sec_id, short, tip in secs:
+            tipattr = ' data-tip="%s"' % html.escape(tip, quote=True) if tip else ""
+            chips.append('<a href="#%s"%s>%s</a>' % (sec_id, tipattr, html.escape(short)))
+        toc_html = ('<nav class="toc" aria-label="섹션 바로가기">'
+                    '<span class="toc-label">📑 바로가기</span>'
+                    + "".join(chips) + "</nav>")
     page = PAGE.format(
         title=html.escape(h1), h1=inline(h1), blog=BLOG_BASE,
-        range=html.escape(fm.get("date_range", "")), tags=tags_html,
-        body=md_to_html(body))
+        range=html.escape(fm.get("date_range", "")),
+        toc=toc_html, foottags=foottags_html,
+        body=body_html)
     os.makedirs(HTML_DIR, exist_ok=True)
     out = os.path.join(HTML_DIR, args.period + "-동향" + args.out_suffix + ".html")
     open(out, "w", encoding="utf-8").write(page)
