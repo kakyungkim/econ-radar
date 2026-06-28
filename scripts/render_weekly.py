@@ -251,7 +251,7 @@ def parse_weekly(fm, body, period):
     h1m = re.search(r"^#\s+(.*)$", body, re.M)
     title = _plain(h1m.group(1)) if h1m else (period + " 동향")
     daterange = fm.get("date_range", "")
-    blog_url = "%s/%s-동향.html" % (BLOG_FULL, period)
+    blog_url = "%s/%s.html" % (BLOG_FULL, period)  # 공개 URL은 한글 없이(클라이언트 인코딩 깨짐 방지)
 
     # 핵심 메시지: '## 핵심 메시지' 섹션의 '1. 2. 3.' 항목. 굵게 표제(앞 부분)만 짧게.
     key_msgs = []

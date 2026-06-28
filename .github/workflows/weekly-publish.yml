@@ -87,24 +87,25 @@ jobs:
           if [ ! -f "$SRC" ]; then echo "렌더 HTML 없음: $SRC"; exit 1; fi
           git clone --depth 1 \
             "https://x-access-token:${BLOG_DEPLOY_TOKEN}@github.com/kakyungkim/kakyungkim.github.io.git" blog
-          DST="blog/econ-radar/${PERIOD}-동향.html"
+          # 공개 파일명은 한글 없이(클라이언트 URL 인코딩 깨짐 방지). 내부 SRC만 -동향.
+          DST="blog/econ-radar/${PERIOD}.html"
           IDX="blog/econ-radar/index.html"
           cp "$SRC" "$DST"
           # 제목: 리포트 H1 에서 'econ-radar ... 동향 리포트' 추출(없으면 기본 라벨)
           TITLE=$(grep -m1 '^# ' "vault/reports/${PERIOD}-동향.md" | sed 's/^#\s*//' | sed 's/[🧭📅📈]//g' | sed 's/^ *//;s/ *$//')
           [ -n "$TITLE" ] || TITLE="econ-radar ${PERIOD} 주간 동향"
           # 주간임을 한눈에: 라벨에 '📅 WEEKLY' 배지 텍스트 + 주차
-          if grep -q "${PERIOD}-동향.html" "$IDX"; then
+          if grep -q "\"${PERIOD}.html\"" "$IDX"; then
             echo "index 에 ${PERIOD} 이미 있음 — 목록 추가 건너뜀"
           else
-            ENTRY="        <a href=\"${PERIOD}-동향.html\" class=\"block bg-indigo-50 border border-indigo-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-indigo-300 transition\"><p class=\"text-xs text-indigo-500 font-semibold mb-1\">📅 WEEKLY · ${PERIOD}</p><p class=\"font-bold text-gray-900 text-[16px] leading-snug\">${TITLE}</p></a>"
+            ENTRY="        <a href=\"${PERIOD}.html\" class=\"block bg-indigo-50 border border-indigo-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-indigo-300 transition\"><p class=\"text-xs text-indigo-500 font-semibold mb-1\">📅 WEEKLY · ${PERIOD}</p><p class=\"font-bold text-gray-900 text-[16px] leading-snug\">${TITLE}</p></a>"
             awk -v e="$ENTRY" '{print} /<!-- ENTRIES:INSERT_AFTER -->/{print e}' "$IDX" > "$IDX.tmp" && mv "$IDX.tmp" "$IDX"
             echo "index 목록에 주간 ${PERIOD} 추가"
           fi
           cd blog
           git config user.name "econ-radar bot"
           git config user.email "bot@econ-radar.local"
-          git add "econ-radar/${PERIOD}-동향.html" "econ-radar/index.html"
+          git add "econ-radar/${PERIOD}.html" "econ-radar/index.html"
           if git diff --cached --quiet; then
             echo "블로그 변경 없음 — push 생략"
           else
