@@ -54,10 +54,12 @@ jobs:
         if: steps.detect.outputs.period != ''
         run: |
           SEND="${{ github.event.inputs.send }}"
-          # 스케줄 실행은 입력이 비므로 기본 draft(안전). 수동도 미입력이면 draft.
-          if [ -z "$SEND" ]; then SEND="draft"; fi
+          # 스케줄(월 08:00 KST)은 자동 발송(now). 수동 dispatch 미입력은 draft(안전·테스트용).
+          if [ -z "$SEND" ]; then
+            if [ "${{ github.event_name }}" = "schedule" ]; then SEND="now"; else SEND="draft"; fi
+          fi
           echo "send=$SEND" >> "$GITHUB_OUTPUT"
-          echo "Send mode: $SEND"
+          echo "Send mode: $SEND (event=${{ github.event_name }})"
 
       - name: Render weekly (HTML + push + email)
         if: steps.detect.outputs.period != ''
@@ -72,12 +74,15 @@ jobs:
       # --- 블로그 배포: 주간 HTML 을 블로그 repo 로 복사, index 에 '주간' 라벨로 추가, push ---
       # deploy.sh(데일리)와 같은 패턴이지만 CI 라서 블로그 repo 를 토큰으로 clone.
       - name: Deploy to blog (GitHub Pages)
-        if: steps.detect.outputs.period != '' && env.BLOG_DEPLOY_TOKEN != ''
+        if: steps.detect.outputs.period != '' && steps.mode.outputs.send != 'draft'
         env:
           BLOG_DEPLOY_TOKEN: ${{ secrets.BLOG_DEPLOY_TOKEN }}
           PERIOD: ${{ steps.detect.outputs.period }}
         run: |
           set -e
+          if [ -z "$BLOG_DEPLOY_TOKEN" ]; then
+            echo "BLOG_DEPLOY_TOKEN 시크릿 없음 — 블로그 배포 건너뜀(HTML 은 렌더됨)."; exit 0
+          fi
           SRC="vault/html/${PERIOD}-동향.html"
           if [ ! -f "$SRC" ]; then echo "렌더 HTML 없음: $SRC"; exit 1; fi
           git clone --depth 1 \
@@ -107,12 +112,6 @@ jobs:
             git push origin HEAD
             echo "블로그 발행 완료"
           fi
-
-      - name: Deploy skipped notice
-        if: steps.detect.outputs.period != '' && env.BLOG_DEPLOY_TOKEN == ''
-        env:
-          BLOG_DEPLOY_TOKEN: ${{ secrets.BLOG_DEPLOY_TOKEN }}
-        run: echo "BLOG_DEPLOY_TOKEN 시크릿 없음 — 블로그 배포 건너뜀(HTML 은 렌더됨)."
 
       # --- 텔레그램: send 가 draft 가 아닐 때만(채널은 즉시 발송이므로) ---
       - name: Send Telegram push
