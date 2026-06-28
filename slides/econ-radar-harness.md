@@ -299,6 +299,11 @@ style: |
   </div>
 </div>
 
+<div class="frow" style="margin-top:12px;">
+  <div class="node ondemand">newsletter-designer <span class="role">발행물 시각·반응형 UI · 필요할 때만 ✦new</span></div>
+</div>
+<p class="small" style="text-align:center; margin-top:6px;">매일 도는 8명에, 손볼 때만 부르는 <strong>on-demand 디자이너</strong> 1명을 더했다</p>
+
 ---
 
 ## 설계의 핵심 4가지
