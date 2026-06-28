@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-06-28
+- Sangamo Therapeutics Chapter 11 파산 — Lilly AAV·ZFP·MINT 플랫폼 $5,000만+부채, Astellas 파브리병 ST-920 $2,500만+마일스톤 스토킹호스 입찰
+- Merck KGaA + Bio-Techne $113억(약 15조6,000억 원) — 공간생물학·세포/유전자치료 도구, Sigma-Aldrich 이후 최대 딜, 36% 프리미엄
+- Isomorphic Labs(DeepMind 스핀오프) AI 설계 항암 신약 인간 임상 2026년 내 예고 — IsoDDE AlphaFold 3 대비 2배 정확도, Lilly·Novartis 파트너십
+- Qualcomm + Tenstorrent 인수 협상 $80~100억 — RISC-V AI 칩, Nvidia 포위 구도(미확정)
+- Lantheus LNTH-2501 FDA CRL — 6월 세 번째 CMO 제조 결함 불승인, 효능·안전성 무결 인정
+
 ## 2026-06-27
 - Revolution Medicines 졸돈라시브(zoldonrasib) 전이성 췌장암 1차 ORR 82% — KRAS G12D 공유 억제, ESMO GI 7/1~4 구연 발표
 - BofA 연준 75bp(3회) 인상 전망 전환 — 9·10·12월, 연말 기준금리 4.25~4.50%
@@ -56,12 +63,5 @@ publish: false
 - Ionis olezarsen PDUFA 6/30 임박 — GalNAc-siRNA·APOC3 표적, 중성지방 -62.9%/-72.2%, RNA 치료제 만성질환 첫 관문
 - Lilly retatrutide NDA Q4 예정 + CrossBridge Bio 이중페이로드 ADC 인수 최대 $3억 — TRANSCEND-T2D-1, 28.3% 체중감소
 - BIO USA 2026 개막(K바이오 51개사·SNUH 단독 부스) + Claude Fable 5 6/23 유료 전환 — GPT-5.6 Polymarket 40% 재조정
-
-## 2026-06-21
-- DATROWAY(Dato-DXd) FDA TNBC 1선 승인 — TROP2 ADC 최초 1선, mOS 23.7개월 vs 18.7개월, ORR 64% vs 30%, NCCN Category 1
-- Elicio ELI-002 7P 전이성 췌장암 완전반응 3명/3명 — KRAS mRNA 백신 + 면역관문억제제 순차 요법, AMPLIFY-7P 2상
-- Nvidia Vera CPU 양산 — AI 에이전트 전용, 88 Olympus 코어, x86 대비 1.8배, OpenAI·Anthropic 납품
-- 코스피 9,052 + 한국 5월 수출 877.5억달러 역대 최대 — 반도체 수출 169.4% 급증(371.6억달러)
-- BIO USA 2026 개막 D-1 + GPT-5.6 출시 83% 확률(Polymarket) — 내일(6/22) 동시 이벤트
 
 
