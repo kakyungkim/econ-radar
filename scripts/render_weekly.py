@@ -420,11 +420,8 @@ def main():
     h1 = h1m.group(1) if h1m else (args.period + " 동향")
     if h1m:
         body = body[:h1m.start()] + body[h1m.end():]
-    # 태그는 본문 끝(footer 위)로 이동
+    # 공개 위클리엔 태그 미표시(장식적·태그 페이지 없음). frontmatter 태그는 내부 분류용으로만 유지.
     foottags_html = ""
-    if fm.get("tags"):
-        ts = re.findall(r"[\w가-힣A-Za-z0-9.\-]+", fm["tags"])
-        foottags_html = '<div class="foottags">' + "".join("<span>#%s</span>" % t for t in ts) + "</div>"
     # 본문 렌더하며 ## 섹션 수집 → 점프 TOC 생성
     secs = []
     body_html = md_to_html(body, collect_secs=secs)
