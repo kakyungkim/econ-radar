@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-06-29
+- 삼성·SK하이닉스 10년 2,000조 원 AI·반도체 투자 선언 — 발표 당일 삼성 −4.7%, SK −3.1% 하락
+- OpenAI GPT-5.6 Sol·Terra·Luna 3종 발표 — 미 정부 사전 심사 후 ~20개 기관 한정 출시, 정부 게이트 공식화
+- Viridian Lumvoa FDA 승인 — TED 활성기+만성기 광범위 라벨, Amgen Tepezza 독점 시장 첫 경쟁자
+- 코스피 6/26 서킷브레이커 재발동 — 장 중 8,198.33, 주간 시총 550조 원 증발
+- Larimar nomlabofusp BLA 롤링 제출 — 프리드라이히 실조증 가속 승인 경로, CMC 하반기 제출 예정
+
 ## 2026-06-28
 - Sangamo Therapeutics Chapter 11 파산 — Lilly AAV·ZFP·MINT 플랫폼 $5,000만+부채, Astellas 파브리병 ST-920 $2,500만+마일스톤 스토킹호스 입찰
 - Merck KGaA + Bio-Techne $113억(약 15조6,000억 원) — 공간생물학·세포/유전자치료 도구, Sigma-Aldrich 이후 최대 딜, 36% 프리미엄
@@ -56,12 +63,5 @@ publish: false
 - Definium DT120 ODT 우울증 3상 성공 — MADRS 위약 대비 -8.1점(p<0.0001), LSD 기반 단회 투여 항우울제
 - FDA Operation TrailBlazer — 초기 임상 6~12개월 단축 파일럿, 중국 임상 주도권 대응
 - Ionis olezarsen PDUFA D-7(6/30 결정) — 중성지방 -72.2%, 췌장염 -85%, GalNAc-ASO 만성질환 관문
-
-## 2026-06-22
-- SK하이닉스 코스피 시총 1위 — 25년 7개월 만에 삼성전자 추월, 2,080조 vs 2,066조, HBM ~57% 점유, 당일 +5.61%
-- MoonLake sonelokimab VELA 3상 52주 — HiSCR75 67.2%·HiSCR100 33.1%, BLA 9월 제출, VELA-2 p=0.053 미달
-- Ionis olezarsen PDUFA 6/30 임박 — GalNAc-siRNA·APOC3 표적, 중성지방 -62.9%/-72.2%, RNA 치료제 만성질환 첫 관문
-- Lilly retatrutide NDA Q4 예정 + CrossBridge Bio 이중페이로드 ADC 인수 최대 $3억 — TRANSCEND-T2D-1, 28.3% 체중감소
-- BIO USA 2026 개막(K바이오 51개사·SNUH 단독 부스) + Claude Fable 5 6/23 유료 전환 — GPT-5.6 Polymarket 40% 재조정
 
 
