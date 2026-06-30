@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-06-30
+- Vera Therapeutics 아타시셉트 PDUFA 7/7 — IgA 신증 BAFF+APRIL 이중 억제 최초, ORIGIN 3 UPCR −46%, Breakthrough+Priority Review
+- Revolution Medicines 졸돈라시브 ESMO GI 7/1 발표 — 췌장암 1차 ORR 82%, 2차 ORR 50%, 학회 공식 발표 D-1
+- OpenAI·Broadcom Jalapeño ASIC 공개 — LLM 추론 전용 칩 9개월 설계, 2026년 말 기가와트 배포 목표
+- Amazon 자체 칩 $20B 런레이트 — CEO "독립 기업이면 $50B", Trainium 3세대 매진·외부 판매 검토
+- 한미약품 소네페글루타이드 Eli Lilly 라이선스 최대 $12.6억(약 1조8,950억 원) — GLP-2 단장증후군, 선급금 $7,500만
+
 ## 2026-06-29
 - 삼성·SK하이닉스 10년 2,000조 원 AI·반도체 투자 선언 — 발표 당일 삼성 −4.7%, SK −3.1% 하락
 - OpenAI GPT-5.6 Sol·Terra·Luna 3종 발표 — 미 정부 사전 심사 후 ~20개 기관 한정 출시, 정부 게이트 공식화
@@ -56,12 +63,5 @@ publish: false
 - SK바이오팜 + Insilico Medicine CNS 신경면역 AI 신약 최대 $25.7억(약 3조9,700억 원) 협력 — K바이오 AI 신약 최대 딜
 - Micron Q3 FY2026 — HBM4 첫 분기 반영, 총마진 81.6% 컨센서스
 - Ionis olezarsen PDUFA D-6 — RNA 치료제 대형 만성질환 첫 관문 6월 30일
-
-## 2026-06-23
-- 코스피 -9.99% 역대 최대 낙폭·서킷브레이커 발동 — 삼성전자·SK하이닉스 -12%, 외국인 4.67조 원 순매도, Fed Warsh 인상 편향 배경
-- Alphabet -7% (시총 $2,500억 증발) — AlphaFold Jumper→Anthropic, Transformer Shazeer→OpenAI 동주 이탈
-- Definium DT120 ODT 우울증 3상 성공 — MADRS 위약 대비 -8.1점(p<0.0001), LSD 기반 단회 투여 항우울제
-- FDA Operation TrailBlazer — 초기 임상 6~12개월 단축 파일럿, 중국 임상 주도권 대응
-- Ionis olezarsen PDUFA D-7(6/30 결정) — 중성지방 -72.2%, 췌장염 -85%, GalNAc-ASO 만성질환 관문
 
 
