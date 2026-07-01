@@ -17,8 +17,15 @@ send_email.py — econ-radar 일일 이메일을 Buttondown으로 발송(또는 
   BUTTONDOWN_API_KEY   (필수) Buttondown API 키. 절대 코드/깃에 넣지 말 것.
   EMAIL_SEND           미설정→초안 / "1"·"true"·"yes"→다음 아침 예약 / "now"→즉시.
   EMAIL_SEND_HOUR      예약 발송 시각(KST, 0~23). 기본 7(오전 7시).
+  EMAIL_TAG            (선택) 지정 시 해당 태그를 가진 구독자에게만 발송(subscriber.tags contains).
+                       한 Buttondown 계정에서 econ-radar와 paper-radar를 태그로 나눠 굴릴 때 사용.
+                       예: EMAIL_TAG=econ-radar. 미설정이면 리스트 전체로 발송(기존 동작).
+                       ★주의: 켜기 전에 기존 구독자에게 이 태그를 먼저 백필해야 한다
+                       (안 하면 태그 없는 구독자에게 아무도 안 나감). tag_subscribers.py 참고.
 
 Buttondown 예약: status="scheduled" + publish_date(미래 UTC, YYYY-MM-DDTHH:MM:SSZ).
+태그 발송: filters={"filters":[{"field":"subscriber.tags","operator":"contains","value":TAG}],
+          "groups":[],"predicate":"and"} (Buttondown OpenAPI EmailFilterGroup).
 외부 의존성 없음(Python 3 표준 라이브러리만).
 """
 import sys
@@ -38,6 +45,7 @@ elif _send in ("1", "true", "yes", "schedule", "scheduled"):
 else:
     MODE = "draft"
 SEND_HOUR = int(os.environ.get("EMAIL_SEND_HOUR", "7"))
+EMAIL_TAG = os.environ.get("EMAIL_TAG", "").strip()
 API_URL = "https://api.buttondown.email/v1/emails"
 
 if not API_KEY:
@@ -97,6 +105,15 @@ elif MODE == "schedule":
     sched_kst = target.strftime("%Y-%m-%d %H:%M KST")
 else:
     payload["status"] = "draft"
+
+# 태그 필터: 지정 시 해당 태그를 가진 구독자에게만 발송(한 계정에서 여러 레이더를 태그로 분리).
+if EMAIL_TAG:
+    payload["filters"] = {
+        "filters": [{"field": "subscriber.tags", "operator": "contains", "value": EMAIL_TAG}],
+        "groups": [],
+        "predicate": "and",
+    }
+
 data = json.dumps(payload).encode("utf-8")
 
 req = urllib.request.Request(API_URL, data=data, method="POST")
@@ -120,6 +137,8 @@ label = {"now": "즉시 발송", "schedule": "예약 발송", "draft": "초안 �
 print("✓ %s 완료 | id=%s | status=%s | %s"
       % (label, res.get("id", "?"), res.get("status", "?"), date))
 print("  subject: %s" % subject)
+if EMAIL_TAG:
+    print("  대상: '%s' 태그 구독자만 (filters.subscriber.tags contains)" % EMAIL_TAG)
 if MODE == "schedule":
     print("  → 예약 시각: %s (publish_date=%s)" % (sched_kst, payload["publish_date"]))
 elif MODE == "draft":

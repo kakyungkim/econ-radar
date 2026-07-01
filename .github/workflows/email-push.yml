@@ -75,6 +75,7 @@ jobs:
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           EMAIL_SEND: ${{ github.event.inputs.send || vars.EMAIL_SEND }}
+          EMAIL_TAG: ${{ vars.EMAIL_TAG }}
         run: |
           if [ -f "vault/email/${{ steps.detect.outputs.date }}.html" ]; then
             python3 scripts/send_email.py ${{ steps.detect.outputs.date }}

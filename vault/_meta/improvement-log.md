@@ -35,13 +35,15 @@ publish: false
 
 ## 2026-06-27 (코드 수집 레이어 A/B/C 실험 + Buttondown 구독자 한도)
 
-### 수집 레이어(RSS) A/B/C 비교 실험
-- **무엇이**: news-scout의 토큰·속도·커버리지 개선안 검증. `collect_news.py`(stdlib RSS 수집·결정적 중복제거)를 만들어 오늘자 발행을 세 방식으로 끝까지 만들어 비교.
+### 수집 레이어(RSS) A/B/C/D 비교 실험
+- **무엇이**: news-scout의 토큰·속도·커버리지 개선안 검증. `collect_news.py`(stdlib RSS 수집·결정적 중복제거)를 만들어 오늘자 발행을 네 방식으로 끝까지 만들어 비교.
   - **A(기존, 웹검색)**: 클라우드 발행본. 바이오 빅뉴스(Revolution Medicines 췌장암 ORR 82%·Sobi CRL·Takeda 3상) 폭넓게.
   - **B(RSS만, 대체)**: 1.1초 수집·결정적 중복제거는 좋으나, **A의 빅뉴스가 후보 279건에 0건** — 7개 RSS 소스의 커버리지 구멍(바이오 핵심 Endpoints 등 Cloudflare 차단). 토큰 절감도 미발생(RSS 요약이 얇아 결국 본문 WebFetch + 차단 소스는 웹검색 fallback).
   - **C(웹검색+RSS 보완, 합집합)**: 웹검색 빅뉴스 + RSS가 국내·전문지 보강(리가켐 국민성장펀드 1조·SMIC·LG-엔비디아). 바이오/AI 비중 ~72%, 커버리지 최선.
-- **결론**: B(대체)는 커버리지 구멍 + 절감 미발생으로 부적합. **C(보완)가 합리적** — A 대비 국내·전문지 소스를 일관되게 보강(토큰 절감은 포기). 채택 시 `collect_news`를 news-scout 보조 입력으로 정식 편입 검토. RSS 노이즈([부고]·[인사]·[금주핫템])는 코드로 선제거.
-- **산출물**: `html/compare/2026-06-27-{A,B,C}.html` (비교용, 미발행).
+  - **D(C + 신선도 가드)**: C에 24h 신선도 + 최근 4일 발행 URL 제외 가드를 더함. 재탕 0, 바이오 비중 ~76%. 커버리지·신선도는 최선이나 비용 이득은 없음.
+- **비용 환산(대화에서 계산, 수치는 미저장)**: 수집 방식을 갈아타도 **발행당 비용 절감은 거의 없었다.** RSS는 요약이 얇아 결국 본문 WebFetch와 웹검색 fallback이 따라붙어, B·C·D 모두 토큰이 안 줄고 **오히려 늘거나 품질(커버리지)이 나빠진 경우도 있었다.** 절감 기대는 기각.
+- **결론**: B(대체)는 커버리지 구멍 + 절감 미발생으로 부적합. 비용 이득이 없으니 **대체는 무의미, 보완만 의미** — D(C+신선도가드)가 신선도·커버리지에서 최선이라 "갈아타기보다 보완"의 후보. **발행은 현행 A 유지**, 채택 시 `collect_news`를 news-scout 보조 입력으로 편입(비용 증가를 감수할 만큼 신선도·커버리지 이득이 있는지 며칠 A vs D로 재검증). RSS 노이즈([부고]·[인사]·[금주핫템])는 코드로 선제거.
+- **산출물**: `html/compare/2026-06-27-{A,B,C,D}.html` + `A-before.html` (비교용, 미발행). 수집 스크립트 `scripts/collect_news.py`(커밋 d528fd7).
 
 ### Buttondown 구독자 수동 추가 일일 한도
 - **무엇이**: 대시보드 수동 구독자 추가는 **하루 10명까지**(UTC 자정 리셋). 사용자는 9명째에 막힘(경계가 빡빡하거나 다른 경로 1명 선카운트).
@@ -199,3 +201,19 @@ publish: false
   - `유망기업`과 `신약개발전략`의 바이오 기업 서술이 일부 겹침(뉴밸런트·알테오젠·비오미아). 기업 단위는 유망기업, R&D 의사결정 관점은 신약개발전략으로 역할을 더 분리할 필요.
   - 비오미아 퓨전 Phase 2 단일 소스 신호의 경쟁군(Novo·Lilly) 병행 모니터링은 이번에도 부재 — 지난 메모에서 이어진 미해결 과제.
   - 커리어 렌즈 교체로 '일의 미래' 누적이 1층에서 중단됨 — 3층 저술 파이프라인에서 이 테마를 어떻게 이어받을지 명시적 핸드오프 규칙이 아직 없음.
+
+## 2026-07-01~02 (블로그 후속 발행 준비 + 이메일 구독 페이지 + 멀티 레이더 태그)
+- 무엇이: 6/19 블로그 글의 후속으로 "20일 진화기" 공개 글을 준비하고, 6/27 발표 슬라이드를 본문에 싣고, LinkedIn 유입 글과 이메일 구독 경로까지 묶었다.
+- 블로그(kakyungkim.github.io, 발행 전 초안):
+  - `_posts/{kr,en}/2026-07-01-econ-radar-20-day-evolution.md` 신규(한/영 쌍, ref=econ-radar-20-day-evolution). 검수 통과 초안(`vault/blog-drafts/2026-06-29-econ-radar-evolution.md`)을 블로그 형식으로 옮기고 시리즈 브리지 + 이전 글 3편(6/10·6/12·6/19) 백링크 추가.
+  - 발표 슬라이드 임베드: 인터랙티브 덱 `assets/decks/econ-radar-harness/`(HTML+assets 통째 호스팅) + PDF, 커버 썸네일 링크, 본문 인라인 4장(3층 구조·운영 비용·프로덕션 교훈·8명 팀). 슬라이드 PNG는 pdftoppm로 추출해 `assets/images/econ-radar/`에 배치.
+  - Jekyll 빌드 통과, 한↔영 lang-switch·이미지 경로·가로 넘침 없음(390px scrollWidth==clientWidth) 검증.
+- LinkedIn 초안: `vault/blog-drafts/2026-07-01-linkedin-econ-radar.md`(6월 성과 소개 + 블로그 유입 + 텔레그램·이메일 구독 유인, 교훈 3가지 압축).
+- 이메일 구독 페이지: 공개 구독 페이지가 없어(그동안 개인 수집) 아카이브 랜딩 `econ-radar/index.html`에 **Buttondown 임베드 폼**을 텔레그램 CTA 옆에 추가(데스크톱 나란히·모바일 스택). 폼에 hidden `embed=1`, `tag=econ-radar`. 구독 페이지 URL `https://buttondown.com/kakyungkim`(200 확인). deploy.sh는 마커에 항목만 삽입하므로 헤더 CTA는 보존됨.
+- 멀티 레이더 운영(econ-radar + paper-radar): Buttondown은 한 계정에서 **태그(무료)** vs **별도 뉴스레터(유료)** 두 방식. 사용자 결정 = **태그 방식(A)**. econ-radar는 현 계정 유지, paper-radar만 태그로 분리.
+  - `scripts/send_email.py`: `EMAIL_TAG` 환경변수 추가. 지정 시 `filters={"filters":[{"field":"subscriber.tags","operator":"contains","value":TAG}],"groups":[],"predicate":"and"}`로 해당 태그 구독자에게만 발송(Buttondown OpenAPI EmailFilterGroup 확인). **기본 OFF**(백필 전에 켜면 0명 발송 방지).
+  - `scripts/tag_subscribers.py` 신규: 기존 구독자에게 태그 백필(드라이런 기본, `--apply`로 적용, 건수 보고). API 키로 사용자가 1회 실행.
+- 미결(다음 할 일):
+  - ① 사용자가 `tag_subscribers.py econ-radar --apply`로 기존 구독자 백필 → ② 레포 Variable `EMAIL_TAG=econ-radar` 설정해 필터 활성화. 순서 지켜야 함.
+  - paper-radar: 랜딩 폼에 `tag=paper-radar` + 발송에 `EMAIL_TAG=paper-radar` 동일 적용. 리스트가 커지거나 브랜딩 분리가 필요하면 유료 별도 뉴스레터(B)로 승격 검토.
+  - 블로그·LinkedIn·랜딩 폼 모두 발행은 사람 승인 뒤(외부 발송 안전선).

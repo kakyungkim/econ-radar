@@ -131,6 +131,7 @@ jobs:
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           EMAIL_SEND: ${{ steps.mode.outputs.send }}
+          EMAIL_TAG: ${{ vars.EMAIL_TAG }}
         run: |
           if [ -f "vault/email/${{ steps.detect.outputs.period }}-동향.html" ]; then
             python3 scripts/send_email.py ${{ steps.detect.outputs.period }}-동향
