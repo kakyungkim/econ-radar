@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-01
+- 한국 6월 수출 사상 첫 1,000억 달러 돌파 — 반도체 $448.2억(+199.5% YoY), 무역흑자 $361.5억 역대 최대, 세계 4번째
+- Ipsen, Kartos Therapeutics 인수 합의 — MDM2 억제제 나브테마들린, 최대 $17.5억(약 2조 4,150억 원), Q3 2026 종결 목표
+- OpenAI GeneBench-Pro + Microsoft MAI-Thinking-1 — 최고 AI 계산생물학 통과율 31.5%, AI 신약 개발 한계 수치화
+- 알테오젠 ALT-B4 사노피 공개($13.7억 비독점·파트너 8곳) + 유한양행 렉라자 유럽 마일스톤 $3,000만(누적 $3억)
+- 코스피 Q3 첫 거래일 차익 실현 — 수출 신기록에도 삼성전자 -4.27%·SK하이닉스 -2.54%, SK하이닉스 시총 1위 26년 만의 역전
+
 ## 2026-06-30
 - Vera Therapeutics 아타시셉트 PDUFA 7/7 — IgA 신증 BAFF+APRIL 이중 억제 최초, ORIGIN 3 UPCR −46%, Breakthrough+Priority Review
 - Revolution Medicines 졸돈라시브 ESMO GI 7/1 발표 — 췌장암 1차 ORR 82%, 2차 ORR 50%, 학회 공식 발표 D-1
@@ -56,12 +63,5 @@ publish: false
 - Ionis olezarsen(Tryngolza) FDA 조기 승인(6/24, PDUFA 5일 앞당김) — sHTG 300만 명 GalNAc-ASO 대형 만성질환 첫 진입
 - Eli Lilly·Centessa 인수 완료 $78억 — OX2R 작용제 cleminorexton 기면증·수면장애 파이프라인
 - K바이오 상반기 라이선싱 ~13조 원($85억) — ABL Bio Grabody-B 견인(GSK 최대 $28억+Lilly $26억), 역대 최고 경신 가시권
-
-## 2026-06-24
-- AbbVie, Apogee Therapeutics $109억(약 16조8,000억 원) 인수 — 투여 편의성(zumilokibart 3~6개월 1회)이 면역학 M&A의 새 축으로
-- 코스피 +3.26% 반등(8,471.02), 삼성전자 시총 1위 탈환 — 촉매는 자사주 90조 원 보도, 외국인 매도 지속
-- SK바이오팜 + Insilico Medicine CNS 신경면역 AI 신약 최대 $25.7억(약 3조9,700억 원) 협력 — K바이오 AI 신약 최대 딜
-- Micron Q3 FY2026 — HBM4 첫 분기 반영, 총마진 81.6% 컨센서스
-- Ionis olezarsen PDUFA D-6 — RNA 치료제 대형 만성질환 첫 관문 6월 30일
 
 

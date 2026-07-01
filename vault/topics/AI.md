@@ -13,6 +13,10 @@ publish: true
 - 수요 렌즈: 엔터프라이즈·개발자는 Terra($2.50 입력/1M 토큰) 비용 구조로 AI 도입 TCO 계산이 달라졌다. 정부 심사 게이트는 개발 일정이 촉박한 기업에 채택 장벽으로 작용한다. 비미국 기업의 접근 제한이 글로벌 AI 플랫폼 경쟁에 변수로 부상했다.
 
 ## 타임라인
+### 2026-07-01 [[daily/2026-07-01]]
+- [[daily/2026-07-01]] OpenAI GeneBench-Pro 공개 — 계산생물학 129문제, GPT-5.6 Sol Pro 31.5%·Claude Opus 4.8 16.0% 통과율, AI 신약 개발 한계선 최초 수치화·생물학 특화 AI 기업 벤치마크 경쟁 무대 마련
+- [[daily/2026-07-01]] Microsoft MAI-Thinking-1(MoE 활성 350억·총 1조 파라미터, AIME 2025 97.0%)·MAI-Code-1-Flash 공개 — OpenAI 의존도 축소·Azure 원가 내재화 전략 공식화, GitHub Copilot·VS Code 통합
+
 ### 2026-06-30 [[daily/2026-06-30]]
 [[daily/2026-06-30]] — OpenAI·Amazon 추론 칩 내재화 실행 단계 진입 — 빅테크 AI 칩 자급 전략이 선언에서 기가와트 배포로 전환
 - OpenAI·Broadcom Jalapeño ASIC 공개 — LLM 추론 전용, 9개월 설계·2026년 말 기가와트 배포 목표. 추론 레이어 원가 절감이 목적, Nvidia 전면 대체 아님 → [[topics/유망기업]] [[topics/투자테마]]
