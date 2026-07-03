@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-03
+- 미국 6월 NFP 5만 7,000명(컨센서스 11만 명 절반) — 10년물 금리 역설적 상승, 스태그플레이션 우려 부상
+- KOSPI +5.76%(8,088p) V자 반등 — 삼성전자 +8.22%·SK하이닉스 +10.88%, 소버린AI 5조원 수요 내러티브
+- Roche 디바라시브 Krascendo 1 Phase III — KRAS G12C NSCLC, 소토라시브·아다그라시브 head-to-head PFS·OS 모두 우위
+- AstraZeneca EMERALD-3 HCC — STRIDE+lenvatinib+TACE, PFS 13.0 vs 9.8개월(HR 0.70, p=0.0007)
+- 한국 소버린 AI 5조원 Rubin GPU 단일팀 + Google-Anthropic $32억 TPU 임대 CaaS 모델 가동
+
 ## 2026-07-02
 - KOSPI -6.25%(7,784) 서킷브레이커 — 삼성전자 -9.06%·SK하이닉스 -14.57%, 외국인 3.17조 순매도, Meta Compute·애플 중국메모리·NPS 삼중 악재
 - Meta Compute 잉여 AI 컴퓨팅 외부 판매 선언 — AWS·Azure 직접 경쟁, Meta +8.8%, Micron -10.6%·AMD -6.9%·Intel -9%
@@ -56,12 +63,4 @@ publish: false
 - Sobi NASP FDA CRL — PDUFA 하루 전 CMO 제조 결함 통보, 효능·안전성 FDA 공식 무결 인정
 - SK하이닉스·삼성·Micron Nvidia 16단 HBM4 수주 경쟁 + SK하이닉스 DDR5 마진 전략
 - Takeda 자소시티닙 3상 — 데우크라바시티닙 대비 PASI 100 달성률 2.5배
-
-## 2026-06-26
-- 미국 5월 PCE 4.1% (3년 만에 4% 돌파) — Warsh 연준 금리 인상 논거 강화, 코스피 -3.39% 연동
-- Definium DT120(리서지드 LSD ODT) Phase 3 MDD 성공 — MADRS -13.3 vs -5.2, 사이키델릭 FDA 표준 경로 첫 3상 통과
-- 중국 2조 위안($295억) AI 국가망 — 화웨이 어센드 80% 의무화, Nvidia 중국 매출 구조적 배제 확정
-- Moderna mFLUSIVA FDA 자문위 9-0 — 8/5 최종 결정, mRNA 독감백신 첫 승인 가시권
-- 한국 MSCI 신흥국 유지(선진국 재탈락) — 원화 역외 비전달성·FX 접근 제한, 2027년 이후 재심사
-
 
