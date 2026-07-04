@@ -33,6 +33,9 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write   # 실패 시 진단 Issue 자동 생성(notify_failure.py)
 
     steps:
       - uses: actions/checkout@v4
@@ -67,11 +70,12 @@ jobs:
       - name: Render email HTML (CI)
         if: steps.detect.outputs.date != ''
         run: |
+          set -o pipefail
           # vault/daily/DATE.md 가 있어야 렌더 가능. 없으면(부분 발행 등) 조용히 건너뜀.
           if [ -f "vault/daily/${{ steps.detect.outputs.date }}.md" ]; then
-            python3 scripts/render_html.py ${{ steps.detect.outputs.date }}
+            python3 scripts/render_html.py ${{ steps.detect.outputs.date }} 2>&1 | tee -a run_output.log
           else
-            echo "daily md 없음 — 이메일 생략"
+            echo "daily md 없음 — 이메일 생략" | tee -a run_output.log
           fi
 
       - name: Send email via Buttondown
@@ -82,8 +86,21 @@ jobs:
           EMAIL_TAG: ${{ vars.EMAIL_TAG }}
           EMAIL_NOTICE: ${{ github.event.inputs.notice }}
         run: |
+          set -o pipefail
           if [ -f "vault/email/${{ steps.detect.outputs.date }}.html" ]; then
-            python3 scripts/send_email.py ${{ steps.detect.outputs.date }}
+            python3 scripts/send_email.py ${{ steps.detect.outputs.date }} 2>&1 | tee -a run_output.log
           else
-            echo "email html 없음 — 발송 생략"
+            echo "email html 없음 — 발송 생략" | tee -a run_output.log
           fi
+
+      # 실패 시: 런북 진단을 붙여 GitHub Issue 생성 + 텔레그램 DM(TELEGRAM_ALERT_CHAT_ID 설정 시)
+      - name: Notify failure (진단 → Issue + Telegram DM)
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WORKFLOW_NAME: ${{ github.workflow }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          FAIL_TARGET: ${{ steps.detect.outputs.date }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ vars.TELEGRAM_ALERT_CHAT_ID }}
+        run: python3 scripts/notify_failure.py run_output.log

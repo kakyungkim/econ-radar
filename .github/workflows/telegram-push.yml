@@ -17,6 +17,9 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write   # 실패 시 진단 Issue 자동 생성(notify_failure.py)
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -49,4 +52,17 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          python3 scripts/send_push.py ${{ steps.detect.outputs.date }}
+          set -o pipefail
+          python3 scripts/send_push.py ${{ steps.detect.outputs.date }} 2>&1 | tee -a run_output.log
+
+      # 실패 시: 런북 진단을 붙여 GitHub Issue 생성 + 텔레그램 DM(TELEGRAM_ALERT_CHAT_ID 설정 시)
+      - name: Notify failure (진단 → Issue + Telegram DM)
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WORKFLOW_NAME: ${{ github.workflow }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          FAIL_TARGET: ${{ steps.detect.outputs.date }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ vars.TELEGRAM_ALERT_CHAT_ID }}
+        run: python3 scripts/notify_failure.py run_output.log
