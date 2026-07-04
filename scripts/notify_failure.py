@@ -132,7 +132,13 @@ def main():
             )
             print("✓ 텔레그램 DM 발송 (chat_id=%s)" % TG_CHAT)
         except Exception as e:  # noqa: BLE001
-            print("✗ 텔레그램 DM 실패(무시하고 계속): %s" % e)
+            detail = ""
+            if hasattr(e, "read"):
+                try:
+                    detail = e.read().decode("utf-8", "replace")[:300]
+                except Exception:  # noqa: BLE001
+                    pass
+            print("✗ 텔레그램 DM 실패(무시하고 계속): %s %s" % (e, detail))
     elif not TG_CHAT:
         print("ℹ TELEGRAM_ALERT_CHAT_ID 변수 미설정 — DM 생략(Issue만). "
               "설정: 봇에게 /start 후 `gh variable set TELEGRAM_ALERT_CHAT_ID --body <내 chat id>`")
