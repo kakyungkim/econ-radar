@@ -18,10 +18,13 @@ send_email.py — econ-radar 일일 이메일을 Buttondown으로 발송(또는 
   EMAIL_SEND           미설정→초안 / "1"·"true"·"yes"→다음 아침 예약 / "now"→즉시.
   EMAIL_SEND_HOUR      예약 발송 시각(KST, 0~23). 기본 7(오전 7시).
   EMAIL_TAG            (선택) 지정 시 해당 태그를 가진 구독자에게만 발송(subscriber.tags contains).
-                       한 Buttondown 계정에서 econ-radar와 paper-radar를 태그로 나눠 굴릴 때 사용.
-                       예: EMAIL_TAG=econ-radar. 미설정이면 리스트 전체로 발송(기존 동작).
-                       ★주의: 켜기 전에 기존 구독자에게 이 태그를 먼저 백필해야 한다
-                       (안 하면 태그 없는 구독자에게 아무도 안 나감). tag_subscribers.py 참고.
+                       미설정이면 리스트 전체로 발송(기존 동작).
+                       ★★유료 플랜 전용. Buttondown 무료 플랜은 태그 기능 자체가 없어
+                       어떤 값을 넣어도 HTTP 422("Tag filters must be valid tag identifiers")로
+                       실패한다. 2026-07-02~04 사흘 발송 실패의 원인이었고, 2026-07-05에
+                       레포 Variable EMAIL_TAG를 삭제해 전체 발송으로 되돌렸다.
+                       무료 플랜에서 paper-radar 분리가 필요하면 별도 Buttondown 계정을 쓴다.
+                       유료 전환 시에만: tag_subscribers.py로 기존 구독자 백필 후 켤 것.
 
 Buttondown 예약: status="scheduled" + publish_date(미래 UTC, YYYY-MM-DDTHH:MM:SSZ).
 태그 발송: filters={"filters":[{"field":"subscriber.tags","operator":"contains","value":TAG}],

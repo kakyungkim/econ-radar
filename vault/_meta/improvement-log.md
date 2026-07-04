@@ -217,3 +217,18 @@ publish: false
   - ① 사용자가 `tag_subscribers.py econ-radar --apply`로 기존 구독자 백필 → ② 레포 Variable `EMAIL_TAG=econ-radar` 설정해 필터 활성화. 순서 지켜야 함.
   - paper-radar: 랜딩 폼에 `tag=paper-radar` + 발송에 `EMAIL_TAG=paper-radar` 동일 적용. 리스트가 커지거나 브랜딩 분리가 필요하면 유료 별도 뉴스레터(B)로 승격 검토.
   - 블로그·LinkedIn·랜딩 폼 모두 발행은 사람 승인 뒤(외부 발송 안전선).
+
+## 2026-07-05 (이메일 사흘 결송 사후 분석: EMAIL_TAG는 무료 플랜에서 불가)
+- 무엇이: 7/2~7/4 데일리 이메일 3건이 전부 HTTP 422("Tag filters must be valid tag identifiers")로 실패(텔레그램은 정상). 원인 추적과 복구.
+- 경과:
+  - 7/2 `EMAIL_TAG=econ-radar` 활성화와 함께 발송 실패 시작. 7/4 클라우드 세션이 하이픈을 원인으로 보고 두 차례 수정(언더스코어 치환 74d9276 → 비영숫자 제거 befbb4f, 변수도 `econradar`로 변경)했으나, 수정 후 수동 실행 3건도 동일 422.
+  - 진짜 원인: **Buttondown 무료 플랜에는 태그 기능 자체가 없다**(buttondown.com/tags 목록 비어 있고 무료 미지원 안내). 7/2의 "한 계정 태그 분리(무료)" 설계가 성립하지 않았고, 태그값 형식은 무관했다. 백필(tag_subscribers.py) 미실행 여부와도 무관 — 백필했어도 실패.
+- 복구(2026-07-05):
+  - 레포 Variable `EMAIL_TAG` 삭제 → 필터 없이 전체 발송으로 복귀(현 구독자는 전원 econ-radar라 동작상 올바름).
+  - workflow_dispatch(send=draft, 2026-07-04)로 검증: 422 없이 초안 생성 성공(em_6xer2zq9n59crbjnex2rc8nk58). 7/4치는 초안으로 대기, 대시보드에서 수동 발송 가능. 일요일 주간 발행(weekly-publish)도 같은 변수를 쓰므로 함께 복구됨.
+  - `send_email.py` docstring에 "EMAIL_TAG는 유료 플랜 전용" 명시(클라우드 세션이 다시 켜는 것 방지).
+- 교훈:
+  - 외부 서비스 기능을 "무료"로 단정하기 전에 플랜 게이팅을 실측으로 확인할 것. API 스키마(OpenAPI)에 필드가 있어도 플랜에 따라 거부될 수 있다.
+  - 새 발송 경로·필터는 켜기 전에 draft 모드로 끝까지 한 번 돌려 검증(422는 첫 실행에서 바로 드러났을 것).
+  - 에러 문구 표면(하이픈/식별자 형식)에 맞춘 수정이 두 번 반복됐다 — 수정 후 같은 에러면 가설 자체를 의심할 것.
+- paper-radar 분리(미결): 무료 유지 시 **별도 Buttondown 계정**(계정당 구독자 100명 무료)으로 분리하고 paper-radar 레포에 그 계정 API 키를 등록. 유료 전환 시에만 태그 방식 재고려.
