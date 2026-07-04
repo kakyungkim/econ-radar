@@ -10,12 +10,16 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **프론티어 모델 3종 동시 출시 경쟁 국면(6/22)**: GPT-5.6 출시 창문(6/22) 개막, Polymarket 확률 ~40%로 재조정(미출시 58% 선두). Claude Fable 5는 6/23부터 크레딧 과금 전환(1M 토큰 컨텍스트, 입력 $10/출력 $50). Gemini 3.5 Pro는 6/30 자기부과 기한을 앞두고 Vertex AI 기업 Preview 지속 중. 기업 AI 계약 결정이 7월 초에 집중될 전망.
-- **SK하이닉스 HBM4E 12단 샘플 조기 출하(6/21)**: 엔비디아 Rubin Ultra 플랫폼 HBM 공급 경쟁 선두 유지. AI 인프라 CapEx 사이클(빅테크 5사 합계 6,600억~6,900억달러, +77% YoY)이 HBM 수요로 직결되는 구조 유지.
-- **Nvidia Vera CPU 양산 시작(6/21)**: AI 에이전트 전용 CPU. 88코어 Olympus, x86 대비 에이전트 태스크 1.8배 처리. GPU·네트워크·소프트웨어에 이어 CPU까지 수직통합.
-- **API 미들레이어·SI 업체가 모델 경쟁의 수혜자**: 3종 모델의 동시 출시 구도에서 모델 선택을 유보해 온 기업들의 계약이 7월 초에 집중될 것으로 보인다. 전환 비용이 낮은 기업은 먼저 표준화를 결정하는 쪽이 이득이다.
+- **Google AI 전력 +37% YoY(7/4)**: 2019년 대비 누적 +250%. AI 인프라 확장이 전력망 탈탄소화 속도를 공식 추월했다고 인정한 첫 빅테크 데이터다. 수요 대응(DR) 1GW 통합·AI 워크로드 피크 이동 자동화 소프트웨어 가동 중. AI 전력 수요 급증이 공식화되면 데이터센터 전력 공급·냉각 인프라 사업자의 구조적 수혜 논거가 강해진다.
+- **AI 하드웨어 자립화 경쟁 — OpenAI Jalapeño → Anthropic-Samsung 2nm(7/4)**: AI 랩의 커스텀 추론 칩 경쟁이 본격화됐다. Anthropic이 Samsung 2nm GAA 공정 기반 커스텀 AI 추론 칩을 탐색 중이다. 추론 원가 절감이 AI 서비스 가격 경쟁력의 핵심 전장이다.
+- **Google-Anthropic $32억 TPU 임대 CaaS 모델 정착(7/3)**: Apollo·Blackstone $350억 채무 패키지가 5개 미국 거점을 뒷받침한다. Anthropic-Samsung 자체 칩 협상과 병행 진행 중이어서, AI 컴퓨팅 조달 구조가 임대에서 자체 생산으로 이동하는 중간 단계를 보여준다.
+- **GPT-5.6 Sol Cerebras 750 tok/s 배포 지속(7/3)**: 20개 파트너 한정 프리뷰. AI 추론 속도 경쟁이 하드웨어(Cerebras) 특화 클러스터로 가속됐다.
 
 ## 타임라인
+### 2026-07-04 [[daily/2026-07-04]]
+- [[daily/2026-07-04]] Google AI 전력 +37% YoY, 2019년 대비 +250% — AI 인프라 확장이 전력망 탈탄소화 속도 공식 추월. DR 1GW 통합·AI 워크로드 피크 이동 자동화 소프트웨어 가동. 역대 최대 연간 증가폭. 데이터센터 전력·냉각 인프라 구조적 수혜 논거 강화
+- [[daily/2026-07-04]] Anthropic-Samsung 2nm AI 추론 칩 협상 — AI 하드웨어 자립화 경쟁(OpenAI Jalapeño → Anthropic-Samsung 2nm) 본격화. 추론 원가 절감이 AI 서비스 가격 경쟁력 핵심 전장으로 부상
+
 ### 2026-06-22 [2026-06-22](/daily/2026-06-22.md)
 - **GPT-5.6 출시 창문 개막, Polymarket 확률 ~40%로 재조정**: 미출시 58% 선두. 1.5M 토큰 컨텍스트 + 정렬 재설계. 공식 발표 없음 — 출처: [TechTimes](https://www.techtimes.com/articles/318799/20260621/gpt-56-launch-window-starts-monday-alignment-fix-15m-token-context-inside.htm) | [Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released) — [2026-06-22](/daily/2026-06-22.md)
 - **Claude Fable 5 6/23 크레딧 과금 전환**: 1M 토큰 컨텍스트, 입력 $10/출력 $50(백만 토큰). GPT-5.6·Gemini 3.5 Pro 미출시 상태에서 최상위 공개 모델 상업화 전환 — 출처: [Anthropic 공식](https://www.anthropic.com/news/claude-fable-5-mythos-5) — [2026-06-22](/daily/2026-06-22.md)

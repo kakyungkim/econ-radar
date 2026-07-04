@@ -7,12 +7,18 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Google-Anthropic $32억 TPU 임대 — AI 인프라 CaaS 모델 정착(7/3)**: Apollo·Blackstone $350억 채무 패키지가 5개 미국 거점을 뒷받침하는 구조로 본격 가동됐다. Nvidia 직판 대신 하이퍼스케일러가 칩을 임대해 반복 수익을 확보하는 첫 대형 사례다. AI 컴퓨팅이 부동산처럼 자산화되는 구조 변화다.
-- **GPT-5.6 Sol — Cerebras 750 tok/s 에이전틱 AI 속도 경쟁 본격화(7/3)**: Sol/Terra/Luna 3계층 가격 구조로 기업 수요를 공략했다. 현재 미국 정부 승인 20개 파트너 한정 프리뷰. 수 주 내 일반 공개 예정.
-- **한국 소버린AI 5조원 — 국가가 AI를 전략 자산으로 직접 소유(7/3)**: 분산 지원에서 단일팀 집중으로 패러다임 이동. 국가(소버린AI)와 민간(CaaS) 두 경로가 같은 날 AI 인프라 자산화를 선언했다.
-- **Meta Compute — AI 컴퓨팅 임대 자산 전환(7/2)**: AI 인프라 최대 투자자 중 하나가 "잉여가 생겼다"고 인정한 첫 사례. AI 인프라 수요 내러티브가 공급사와 플랫폼 사업자 사이에서 처음으로 분기됐다.
+- **Anthropic-Samsung 2nm 커스텀 AI 추론 칩 협상 착수(7/4)**: AI 하드웨어 자립화 경쟁이 OpenAI Jalapeño에 이어 Anthropic까지 번졌다. Samsung 2nm GAA 공정 기반 탐색 단계. Clive Chan(전 OpenAI 칩팀 2.5년) 영입이 실행 의지의 신호다. Samsung이 이미 Series H 전략 투자자로 참여해 자본→기술 협력 심화 구조다.
+- **OpenAI CEO Altman 미국 정부 5% 지분($426억) 기부 제안(7/4)**: 알래스카 영구기금 모델. Google·Anthropic·Meta·xAI 동참 구상 포함. 개념적 단계. 규제 기관이 피규제 기업 지분 보유 시 AI 안전 감독 독립성 훼손 우려가 즉각 제기됐다.
+- **Google AI 전력 +37% YoY(7/4)**: 2019년 대비 누적 +250%. AI 인프라 확장이 전력망 탈탄소화를 앞질렀다고 공식 인정한 첫 빅테크 사례다. AI 전력 수요의 구조적 성장이 공식 데이터로 처음 정량화됐다.
+- **Google-Anthropic $32억 TPU 임대 CaaS 모델 정착(7/3)**: Apollo·Blackstone $350억 채무 패키지가 5개 미국 거점을 뒷받침하는 구조로 가동됐다. Anthropic-Samsung 자체 칩 협상과 병행 진행 중이어서, 중기적으로 임대 의존도 감소 경로가 탐색 중이다.
+- **GPT-5.6 Sol Cerebras 배포 지속(7/3)**: 20개 파트너 한정 프리뷰 유지. Sol/Terra/Luna 3계층 가격 구조. 수 주 내 일반 공개 예정.
 
 ## 타임라인
+### 2026-07-04 [[daily/2026-07-04]]
+- [[daily/2026-07-04]] Anthropic-Samsung 2nm 커스텀 AI 추론 칩 협상 착수 — Claude 전용 추론 가속기, Samsung 2nm GAA 공정 기반. Clive Chan(전 OpenAI 칩팀 2.5년) 영입. 탐색적 단계. Samsung Series H $650억 전략 투자자로 자본→기술 협력 심화
+- [[daily/2026-07-04]] OpenAI CEO Altman 미국 정부 5% 지분($426억) 기부 제안 — 알래스카 영구기금 모델, Google·Anthropic·Meta·xAI 확장 구상. 개념적 단계. 이해충돌·AI 안전 감독 독립성 훼손 우려 즉각 제기
+- [[daily/2026-07-04]] Google AI 전력 +37% YoY, 2019년 대비 +250% — AI 인프라 확장이 전력망 탈탄소화 속도 공식 추월. DR 1GW 통합·AI 워크로드 피크 이동 자동화 가동. 역대 최대 연간 증가폭
+
 ### 2026-07-03 [[daily/2026-07-03]]
 - [[daily/2026-07-03]] Google-Anthropic $32억 TPU 임대 — Apollo·Blackstone $350억 채무 패키지 클로즈. Nvidia 판매 대신 임대 반복 수익 구조(CaaS) 첫 대형 사례. 뉴욕 5개 거점 확장
 - [[daily/2026-07-03]] GPT-5.6 Sol — Cerebras 클러스터 750 tok/s 목표, 미국 정부 승인 20개 파트너 프리뷰 시작. Sol($5/$30)·Terra($2.50/$15)·Luna($1/$6) 3계층 가격 구조
