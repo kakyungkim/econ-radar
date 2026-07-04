@@ -25,6 +25,10 @@ on:
         description: "예약/발송 취소할 Buttondown 이메일 id(em_...). 채우면 취소만 하고 끝."
         required: false
         default: ''
+      notice:
+        description: "본문 맨 위에 넣을 1회성 안내 문구(예: 밀린 발송 사과). 비우면 없음."
+        required: false
+        default: ''
 
 jobs:
   send:
@@ -76,6 +80,7 @@ jobs:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           EMAIL_SEND: ${{ github.event.inputs.send || vars.EMAIL_SEND }}
           EMAIL_TAG: ${{ vars.EMAIL_TAG }}
+          EMAIL_NOTICE: ${{ github.event.inputs.notice }}
         run: |
           if [ -f "vault/email/${{ steps.detect.outputs.date }}.html" ]; then
             python3 scripts/send_email.py ${{ steps.detect.outputs.date }}

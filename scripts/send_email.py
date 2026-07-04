@@ -17,6 +17,8 @@ send_email.py — econ-radar 일일 이메일을 Buttondown으로 발송(또는 
   BUTTONDOWN_API_KEY   (필수) Buttondown API 키. 절대 코드/깃에 넣지 말 것.
   EMAIL_SEND           미설정→초안 / "1"·"true"·"yes"→다음 아침 예약 / "now"→즉시.
   EMAIL_SEND_HOUR      예약 발송 시각(KST, 0~23). 기본 7(오전 7시).
+  EMAIL_NOTICE         (선택) 본문 맨 위에 넣을 안내 문구(1회성 공지, 예: 밀린 발송 사과).
+                       지정 시 <body> 바로 뒤에 옅은 노란 배너로 삽입된다.
   EMAIL_TAG            (선택) 지정 시 해당 태그를 가진 구독자에게만 발송(subscriber.tags contains).
                        미설정이면 리스트 전체로 발송(기존 동작).
                        ★★유료 플랜 전용. Buttondown 무료 플랜은 태그 기능 자체가 없어
@@ -49,6 +51,7 @@ else:
     MODE = "draft"
 SEND_HOUR = int(os.environ.get("EMAIL_SEND_HOUR", "7"))
 EMAIL_TAG = re.sub(r"[^a-zA-Z0-9]", "", os.environ.get("EMAIL_TAG", "").strip())
+EMAIL_NOTICE = os.environ.get("EMAIL_NOTICE", "").strip()
 API_URL = "https://api.buttondown.email/v1/emails"
 
 if not API_KEY:
@@ -92,6 +95,18 @@ try:
 except FileNotFoundError:
     print("[ERROR] 파일 없음: %s  (먼저 데일리를 렌더하세요)" % email_file)
     sys.exit(1)
+
+# 안내 배너(1회성 공지): <body> 바로 뒤에 컨테이너(600px)와 같은 폭으로 삽입.
+if EMAIL_NOTICE:
+    banner = (
+        '<div style="max-width:600px;margin:0 auto;padding:12px 20px;'
+        'background:#fef3c7;border:1px solid #fde68a;border-radius:0 0 8px 8px;'
+        'color:#92400e;font-size:13px;line-height:1.6;box-sizing:border-box;">'
+        "%s</div>" % EMAIL_NOTICE
+    )
+    html, n = re.subn(r"<body[^>]*>", lambda m: m.group(0) + banner, html, count=1)
+    if n == 0:
+        html = banner + html
 
 # 제목: render_html.py 가 본문에 박아둔 <!-- SUBJECT: ... --> 에서 추출.
 m = re.search(r"<!--\s*SUBJECT:\s*(.+?)\s*-->", html)
