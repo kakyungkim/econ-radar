@@ -12,8 +12,8 @@ tag_subscribers.py — 기존 Buttondown 구독자 전체에 태그 하나를 �
        PATCH /v1/subscribers/{id} 로 기존 tags에 태그를 추가한다(기존 태그 보존).
        기본은 드라이런(무엇을 바꿀지 건수만 출력). 실제 적용은 --apply.
 
-사용 : BUTTONDOWN_API_KEY=... python3 scripts/tag_subscribers.py econ-radar          # 드라이런
-       BUTTONDOWN_API_KEY=... python3 scripts/tag_subscribers.py econ-radar --apply  # 적용
+사용 : BUTTONDOWN_API_KEY=... python3 scripts/tag_subscribers.py econradar          # 드라이런
+       BUTTONDOWN_API_KEY=... python3 scripts/tag_subscribers.py econradar --apply  # 적용
 
 환경변수:
   BUTTONDOWN_API_KEY   (필수) Buttondown API 키. 절대 코드/깃에 넣지 말 것.

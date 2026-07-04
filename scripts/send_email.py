@@ -45,7 +45,7 @@ elif _send in ("1", "true", "yes", "schedule", "scheduled"):
 else:
     MODE = "draft"
 SEND_HOUR = int(os.environ.get("EMAIL_SEND_HOUR", "7"))
-EMAIL_TAG = re.sub(r"[^a-zA-Z0-9_]", "_", os.environ.get("EMAIL_TAG", "").strip())
+EMAIL_TAG = re.sub(r"[^a-zA-Z0-9]", "", os.environ.get("EMAIL_TAG", "").strip())
 API_URL = "https://api.buttondown.email/v1/emails"
 
 if not API_KEY:
