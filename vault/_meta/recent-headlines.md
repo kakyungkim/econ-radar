@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-04
+- Anthropic, Samsung Electronics와 2nm 커스텀 AI 추론 칩 협상 착수 — 탈클라우드 AI 추론 독립 전략, 양산 일정 미정
+- Vera Therapeutics 아타시셉트 PDUFA D-3(7/7) — IgAN 최초 BAFF·APRIL 이중 억제제, 가속 승인 조건부
+- 졸돈라시브 ESMO GI 수치 확정 — 전이성 PDAC 1차 ORR 82%, DCR 96%, RASolute 305 3상 진행 중
+- Google 데이터센터 전력 소비 +37% YoY — AI가 전력망 탈탄소화 속도를 추월
+- OpenAI CEO Altman, 미국 정부 지분 5% 기부 제안 — $426억(기업가치 $8,520억), 알래스카 영구기금 모델
+
 ## 2026-07-03
 - 미국 6월 NFP 5만 7,000명(컨센서스 11만 명 절반) — 10년물 금리 역설적 상승, 스태그플레이션 우려 부상
 - KOSPI +5.76%(8,088p) V자 반등 — 삼성전자 +8.22%·SK하이닉스 +10.88%, 소버린AI 5조원 수요 내러티브
@@ -57,10 +64,4 @@ publish: false
 - Qualcomm + Tenstorrent 인수 협상 $80~100억 — RISC-V AI 칩, Nvidia 포위 구도(미확정)
 - Lantheus LNTH-2501 FDA CRL — 6월 세 번째 CMO 제조 결함 불승인, 효능·안전성 무결 인정
 
-## 2026-06-27
-- Revolution Medicines 졸돈라시브(zoldonrasib) 전이성 췌장암 1차 ORR 82% — KRAS G12D 공유 억제, ESMO GI 7/1~4 구연 발표
-- BofA 연준 75bp(3회) 인상 전망 전환 — 9·10·12월, 연말 기준금리 4.25~4.50%
-- Sobi NASP FDA CRL — PDUFA 하루 전 CMO 제조 결함 통보, 효능·안전성 FDA 공식 무결 인정
-- SK하이닉스·삼성·Micron Nvidia 16단 HBM4 수주 경쟁 + SK하이닉스 DDR5 마진 전략
-- Takeda 자소시티닙 3상 — 데우크라바시티닙 대비 PASI 100 달성률 2.5배
 
