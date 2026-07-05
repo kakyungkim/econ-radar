@@ -15,6 +15,14 @@ publish: false
 - 어떻게 고칠지: (news-collection 소스 목록에 추가 등)
 ```
 
+## 2026-07-05 (블로그 detached HEAD → 사일런트 "up-to-date" 함정)
+
+### 블로그 레포 detached HEAD + force-with-lease 연쇄 사고
+- **무엇이**: 블로그 레포(`kakyungkim.github.io`)가 detached HEAD 상태인 채 `git push --force-with-lease`를 실행해, remote가 `df0e258`(2026-06-29)로 되돌아갔다. 이후 `git push`가 "Everything up-to-date"를 반환해 이미 복원된 줄 알고 방치됨.
+- **왜**: force-with-lease가 실제로는 remote를 reset했고, 동시에 HEAD가 브랜치에 붙지 않은 채(detached)여서 이후의 `git push`가 브랜치를 추적하지 않아 아무것도 안 보냄. "Everything up-to-date"는 detached HEAD일 때 브랜치 비교 불가 → 항상 반환되는 false-positive.
+- **어떻게 고침**: `git checkout -B main <sha>`로 main 브랜치를 현재 커밋에 재부착 → `git push -u origin main` 성공. 블로그 remote가 `44429dd`(2026-07-05)로 복원됨. 누락 파일 6개(`2026-06-30` ~ `2026-07-05`) + paper-radar/2026-W27 + 기타 자산 모두 GitHub API로 복원 확인.
+- **교훈**: ① force-with-lease 전에 `git branch` 확인 필수 — detached 상태면 절대 실행 금지. ② "Everything up-to-date"가 뜨면 `git log --decorate`로 HEAD가 브랜치에 붙어 있는지 먼저 확인. ③ push 직후 GitHub MCP API로 원격 파일 존재 확인하는 검증 스텝 추가(이번에 잡은 방식 그대로).
+
 ## 2026-06-28~29 (3층 주간 발행 시스템 가동 + 에이전트 팀 층별 확장 + 윤문 규칙 production화) — ★블로그 소재
 
 ### 3층 주간 동향, 공개 발행 시스템 가동 (핵심)
