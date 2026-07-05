@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-05
+- Wegovy 영국 MASH 조건부 승인 — GLP-1 계열 간질환 적응증 첫 영국 허가, NHS 급여 협상 별도 진행
+- Vera Therapeutics 아타시셉트 PDUFA D-2(7/7) — IgAN BAFF·APRIL 이중 억제제, UPCR -46%
+- Anthropic, Alibaba 관련자 가짜 계정 2만 5,000개·2,880만 건 모델 지식 추출 의회 서한 제출
+- 한국 6월 수출 월간 첫 $100B 돌파 — 반도체 $448.2억(+199.5% YoY), 무역흑자 $361.5억 역대 최대
+- H1 2026 글로벌 VC $5,100억 역대 최대 — OpenAI+Anthropic 43%($2,170억) 독식, MGX $490억 클로징
+
 ## 2026-07-04
 - Anthropic, Samsung Electronics와 2nm 커스텀 AI 추론 칩 협상 착수 — 탈클라우드 AI 추론 독립 전략, 양산 일정 미정
 - Vera Therapeutics 아타시셉트 PDUFA D-3(7/7) — IgAN 최초 BAFF·APRIL 이중 억제제, 가속 승인 조건부
@@ -56,12 +63,5 @@ publish: false
 - Viridian Lumvoa FDA 승인 — TED 활성기+만성기 광범위 라벨, Amgen Tepezza 독점 시장 첫 경쟁자
 - 코스피 6/26 서킷브레이커 재발동 — 장 중 8,198.33, 주간 시총 550조 원 증발
 - Larimar nomlabofusp BLA 롤링 제출 — 프리드라이히 실조증 가속 승인 경로, CMC 하반기 제출 예정
-
-## 2026-06-28
-- Sangamo Therapeutics Chapter 11 파산 — Lilly AAV·ZFP·MINT 플랫폼 $5,000만+부채, Astellas 파브리병 ST-920 $2,500만+마일스톤 스토킹호스 입찰
-- Merck KGaA + Bio-Techne $113억(약 15조6,000억 원) — 공간생물학·세포/유전자치료 도구, Sigma-Aldrich 이후 최대 딜, 36% 프리미엄
-- Isomorphic Labs(DeepMind 스핀오프) AI 설계 항암 신약 인간 임상 2026년 내 예고 — IsoDDE AlphaFold 3 대비 2배 정확도, Lilly·Novartis 파트너십
-- Qualcomm + Tenstorrent 인수 협상 $80~100억 — RISC-V AI 칩, Nvidia 포위 구도(미확정)
-- Lantheus LNTH-2501 FDA CRL — 6월 세 번째 CMO 제조 결함 불승인, 효능·안전성 무결 인정
 
 
