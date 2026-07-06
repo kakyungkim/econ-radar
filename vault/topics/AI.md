@@ -7,13 +7,17 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Anthropic-Alibaba 모델 증류 분쟁 의회 서한(7/5)**: 가짜 계정 2.5만 개·2,880만 건 교신으로 Claude 지식 추출 시도. Anthropic이 기술 차단과 함께 의회 서한을 제출해 AI 지식재산 보호 입법 논의를 공식 의회 기록으로 올렸다. Alibaba는 직원 Claude Code 사용을 전면 금지했다. 서방-중국 AI 생태계 분절 가속의 첫 의회 기록.
-- **Microsoft Frontier Company $25억 출범(7/5)**: AI 배포 전문 자회사, 6,000명 엔지니어 대기업 상주 모델. Amazon·OpenAI·Anthropic도 같은 시기 동종 조직 출범. AI 수익화의 무게가 모델 경쟁에서 배포 레이어로 이동하는 구조 변화.
-- **H1 2026 글로벌 VC $5,100억 역대 최고 — OpenAI·Anthropic 43% 독식(7/5)**: UAE 국부펀드 MGX $490억 AI 전용 펀드 클로징. 2026년 상반기 투자액이 2025년 전체를 초과. '소수 플랫폼·다수 애플리케이션' 구조 고착 신호로 분석된다.
-- **Anthropic-Samsung 2nm 커스텀 AI 추론 칩 협상 착수(7/4)**: Claude 전용 추론 가속기, Samsung 2nm GAA 공정 기반 탐색 단계. TSMC 독점 AI 파운드리 구도에 처음으로 균열을 낼 수 있는 공개 사례. 모델 증류 분쟁과 맞물려 자체 인프라 자립화 의지 강화.
-- **OpenAI CEO Altman 미국 정부 5% 지분($426억) 기부 제안(7/4)**: 개념적 단계. 규제 기관이 피규제 기업 지분 보유 시 AI 안전 감독 독립성 훼손 우려 즉각 제기. AI 기업-정부 협력 모델 새 실험.
+- **OpenAI Dean Ball 영입 — Strategic Futures 팀 출범(7/6)**: 전 트럼프 행정부 OSTP AI 보좌관. 7/6 첫 출근. IPO·PBC 전환을 앞두고 현 정부 AI 규제 형성 과정에 선제 개입하는 행보다. 경쟁사(Anthropic·Google)의 유사 정책 영입 확산 가능성.
+- **AI 모델 7월 대격돌 — Gemini 3.5 Pro·GPT-5.6·Grok 4.5(7/6)**: 3종 모델 7월 집중 출시. 성능 격차 축소로 차별화 경쟁이 API 가격·에코시스템·엔터프라이즈 계약으로 이동. Grok 4.5(X 실시간 데이터)·Gemini 3.5 Pro(Google Workspace 번들)·GPT-5.6(엔터프라이즈 계약) 수익화 경로 분리.
+- **Anthropic-Alibaba 모델 증류 분쟁 의회 서한(7/5)**: 가짜 계정 2.5만 개·2,880만 건 교신으로 Claude 지식 추출 시도. AI 지식재산 보호 입법 논의 의회 진입. 서방-중국 AI 생태계 분절 가속의 첫 의회 기록.
+- **Microsoft Frontier Company $25억 출범(7/5)**: AI 배포 전문 자회사, 6,000명 엔지니어 대기업 상주 모델. AI 수익화의 무게가 모델 경쟁에서 배포 레이어로 이동하는 구조 변화.
+- **H1 2026 글로벌 VC $5,100억 역대 최고 — OpenAI·Anthropic 43% 독식(7/5)**: 2026년 상반기 투자액이 2025년 전체를 초과. '소수 플랫폼·다수 애플리케이션' 구조 고착 신호.
 
 ## 타임라인
+### 2026-07-06 [[daily/2026-07-06]]
+- [[daily/2026-07-06]] OpenAI Dean Ball(전 OSTP AI 보좌관) 영입, Strategic Futures 팀장 취임 — 7/6 첫 출근. CSO Jason Kwon 산하. 파국적 위험·프론티어 AI-정부 관계 담당. IPO·PBC 전환을 앞둔 규제 포지셔닝 강화. Anthropic·Google 유사 정책 영입 확산 가능성
+- [[daily/2026-07-06]] AI 모델 7월 대격돌 — Gemini 3.5 Pro(Google GA 준비)·GPT-5.6(정부기관 20곳 프리뷰 후 광범위 배포)·Grok 4.5(유료 구독자 공개 유력) 동시 진입. 성능 격차 축소→API 가격·에코시스템·엔터프라이즈 계약 경쟁으로 이동. 동시 출시 압박이 AI 안전 검증 속도를 앞질러 가는 리스크
+
 ### 2026-07-05 [[daily/2026-07-05]]
 - [[daily/2026-07-05]] Anthropic-Alibaba 모델 증류 분쟁 의회 서한 — 가짜 계정 2.5만 개·2,880만 건 교신으로 Claude 지식 조직적 추출. Anthropic이 중국 접근 전면 차단. Alibaba 직원 Claude Code 사용 금지. AI 지식재산 보호 입법 논의 의회 진입. 서방-중국 AI 생태계 분절 가속
 - [[daily/2026-07-05]] Microsoft Frontier Company $25억(약 3조 5,000억 원) 출범 — AI 배포 전문 자회사, 6,000명 엔지니어 대기업 상주 모델. Amazon·OpenAI·Anthropic 동시 진출. AI 수익화가 모델 경쟁에서 배포 레이어로 무게 이동하는 흐름의 첫 대규모 집행
