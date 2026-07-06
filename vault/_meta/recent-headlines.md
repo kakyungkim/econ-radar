@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-06
+- KOSPI 8,000 이탈 + USTR Section 301 강제노동 관세 공청회(7/7) — 반도체 수출 최고에도 관세 프레임 전환 압력
+- OpenAI, 전 트럼프 AI 보좌관 Dean Ball Strategic Futures 팀장 영입 — AI 정책·IPO 포지셔닝
+- [후속] Vera 아타시셉트 PDUFA D-1(7/7) — IgAN BAFF·APRIL 이중 억제제, 내일 FDA 결정
+- AI 모델 7월 대격돌 — Gemini 3.5 Pro·GPT-5.6·Grok 4.5 동시 경쟁 진입
+- 미국 6월 NFP 5만 7,000명 — S&P +0.49% 강보합, 연준 고용 둔화 vs PCE 3.6% 교착
+
 ## 2026-07-05
 - Wegovy 영국 MASH 조건부 승인 — GLP-1 계열 간질환 적응증 첫 영국 허가, NHS 급여 협상 별도 진행
 - Vera Therapeutics 아타시셉트 PDUFA D-2(7/7) — IgAN BAFF·APRIL 이중 억제제, UPCR -46%
@@ -57,11 +64,5 @@ publish: false
 - Amazon 자체 칩 $20B 런레이트 — CEO "독립 기업이면 $50B", Trainium 3세대 매진·외부 판매 검토
 - 한미약품 소네페글루타이드 Eli Lilly 라이선스 최대 $12.6억(약 1조8,950억 원) — GLP-2 단장증후군, 선급금 $7,500만
 
-## 2026-06-29
-- 삼성·SK하이닉스 10년 2,000조 원 AI·반도체 투자 선언 — 발표 당일 삼성 −4.7%, SK −3.1% 하락
-- OpenAI GPT-5.6 Sol·Terra·Luna 3종 발표 — 미 정부 사전 심사 후 ~20개 기관 한정 출시, 정부 게이트 공식화
-- Viridian Lumvoa FDA 승인 — TED 활성기+만성기 광범위 라벨, Amgen Tepezza 독점 시장 첫 경쟁자
-- 코스피 6/26 서킷브레이커 재발동 — 장 중 8,198.33, 주간 시총 550조 원 증발
-- Larimar nomlabofusp BLA 롤링 제출 — 프리드라이히 실조증 가속 승인 경로, CMC 하반기 제출 예정
 
 
