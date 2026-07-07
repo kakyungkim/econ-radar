@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-07
+- 삼성전자 Q2 영업이익 89.4조원(+1,810% YoY) 역대 최대 — KOSPI 사이드카·-4.9% 동시 발동(실적 역설)
+- Novartis, Myricx Bio 인수 최대 $1.5B — NMTi 기반 차세대 ADC 페이로드 플랫폼(ADC 페이로드 전쟁)
+- [후속] Vera 아타시셉트 PDUFA 당일(7/7) — SEC 8-K 제출 확인, 결과 미확정
+- SpaceX Nasdaq 100 편입(7/7) — JPM 추산 $4.3B 패시브 매수 집중
+- White House AI 자발적 표준 프레임워크 이번 주 발표 예상 — NSA 30일 사전 심사
+
 ## 2026-07-06
 - KOSPI 8,000 이탈 + USTR Section 301 강제노동 관세 공청회(7/7) — 반도체 수출 최고에도 관세 프레임 전환 압력
 - OpenAI, 전 트럼프 AI 보좌관 Dean Ball Strategic Futures 팀장 영입 — AI 정책·IPO 포지셔닝
@@ -57,12 +64,6 @@ publish: false
 - 알테오젠 ALT-B4 사노피 공개($13.7억 비독점·파트너 8곳) + 유한양행 렉라자 유럽 마일스톤 $3,000만(누적 $3억)
 - 코스피 Q3 첫 거래일 차익 실현 — 수출 신기록에도 삼성전자 -4.27%·SK하이닉스 -2.54%, SK하이닉스 시총 1위 26년 만의 역전
 
-## 2026-06-30
-- Vera Therapeutics 아타시셉트 PDUFA 7/7 — IgA 신증 BAFF+APRIL 이중 억제 최초, ORIGIN 3 UPCR −46%, Breakthrough+Priority Review
-- Revolution Medicines 졸돈라시브 ESMO GI 7/1 발표 — 췌장암 1차 ORR 82%, 2차 ORR 50%, 학회 공식 발표 D-1
-- OpenAI·Broadcom Jalapeño ASIC 공개 — LLM 추론 전용 칩 9개월 설계, 2026년 말 기가와트 배포 목표
-- Amazon 자체 칩 $20B 런레이트 — CEO "독립 기업이면 $50B", Trainium 3세대 매진·외부 판매 검토
-- 한미약품 소네페글루타이드 Eli Lilly 라이선스 최대 $12.6억(약 1조8,950억 원) — GLP-2 단장증후군, 선급금 $7,500만
 
 
 
