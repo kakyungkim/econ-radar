@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-09
+- OpenAI GPT-5.6 Sol·Terra·Luna 전체 공개(7/9) — 3단계 가격 체계(Sol $5/$30·Terra $2.5/$15·Luna $1/$6), CAIS 사전 검토 선례
+- [후속] KOSPI 7/9 +0.62%·7,292 반등 — 장중 7,063 급락 후 AI 반도체(SK하이닉스 +5.83%)만 회복, ADB 한국 성장률 2.6% 상향
+- SK하이닉스 ADR SKHY 7배 초과청약(D-1, 7/10 Nasdaq 상장) — 280억달러(약 42조4,480억원) 역대 최대 해외기업 ADR
+- FOMC 6월 의사록 9:8 금리인상 지지·PCE 3.6% + Brent +5.06%·$77.92 — 스태그플레이션 리스크 복합
+- HLB 리보세라닙+캄렐리주맙 PDUFA D-14(7/23) — K바이오 간암 1차 치료 3수, mOS 23.8 vs 15.2개월(HR 0.64), 제조 실사가 관건
+
 ## 2026-07-08
 - KOSPI 이틀 연속 -5.35% — 기술적 베어마켓 진입·역사 12번째 서킷브레이커(7/7 발동, 7/8 사이드카)
 - [후속] Vera Therapeutics TRUTAKNA FDA 가속승인 확정 — IgAN 최초 BAFF/APRIL 이중 억제제
@@ -57,12 +64,6 @@ publish: false
 - AstraZeneca EMERALD-3 HCC — STRIDE+lenvatinib+TACE, PFS 13.0 vs 9.8개월(HR 0.70, p=0.0007)
 - 한국 소버린 AI 5조원 Rubin GPU 단일팀 + Google-Anthropic $32억 TPU 임대 CaaS 모델 가동
 
-## 2026-07-02
-- KOSPI -6.25%(7,784) 서킷브레이커 — 삼성전자 -9.06%·SK하이닉스 -14.57%, 외국인 3.17조 순매도, Meta Compute·애플 중국메모리·NPS 삼중 악재
-- Meta Compute 잉여 AI 컴퓨팅 외부 판매 선언 — AWS·Azure 직접 경쟁, Meta +8.8%, Micron -10.6%·AMD -6.9%·Intel -9%
-- Orca Bio Tregzi FDA 승인(6/30) — 최초 Treg 세포치료제, 혈액암 이식 1년 무GVHD 생존율 78% vs 38%
-- 한국 6월 CPI 3.2%(30개월 최고) + 미국 ADP 6월 민간고용 9.8만(컨센서스 11.8만 하회)
-- [후속] 졸돈라시브 ESMO GI 구두 발표 완료 — 1차 ORR 82%·2차 50% 재확인, RASolute 305 3상 첫 환자 투여
 
 
 
