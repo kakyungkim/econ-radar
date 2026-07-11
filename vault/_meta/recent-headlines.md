@@ -15,9 +15,16 @@ publish: false
 
 ---
 
+## 2026-07-11
+- 중국 AI OpenRouter 역전 — 샤오미 MiMo-V2-Pro 21.1%·전체 1위, 미국 모델 70%→30%(18개월), MiMo API $0.435/M vs GPT $5/M
+- Intel -20%·AMD -10% 7월 급락 + BoA "AI 칩 버블" 경보 — NVIDIA P/E 22배 상대 방어
+- Replimune RP1 3차 BLA 수리 + AdCom 7월 말·PDUFA 8/2 — 종양용해 바이러스+니볼루맙, ORR 33.6%, DOR 24.8개월
+- 코오롱티슈진 TG-C(인보사) 미국 3상(1,066명) 톱라인 이달 발표 임박 — BLA 제출 로드맵, K-바이오 유전자치료제 최선봉
+- Pharvaris 듀크릭티반트 경구 HAE NDA 수리 (PDUFA 2027-04-23) — 세계 최초 경구형 발작 치료제 도전
+
 ## 2026-07-10
 - HLB 리보세라닙+캄렐리주맙 FDA 3차 CRL (7/10) — Hengrui cGMP Form 483 반복, 연내 4수 도전 예고. 3수 모두 제조 문제, 임상 유효성(mOS 23.8개월 HR 0.64) 유효
-- [후속] SK하이닉스 SKHYV 나스닥 첫날 $158.14(+6.1%) + KOSPI +4.60%·7,627 기술적 베어마켓 탈출 — $26.5B(약 40.1조원) 역대 최대 해외 ADR
+- [수정] SK하이닉스 SKHYV 나스닥 첫날 실제 $168.01(+12.8%) + KOSPI 실제 7,475.94(+2.52%) — $26.5B(약 40.1조원) 역대 최대 해외 ADR
 - SpaceXAI Grok 4.5 공개 — Cursor $60B 인수 후 첫 공동 모델, $2/$6/M 코딩 특화, SWE-Bench Pro 64.7%
 - 미국 6월 CPI 예측 3.92%(Cleveland Fed Nowcast), 7/14 발표 — FOMC 9:8 분열 국면 결정 변수
 - 마이크론 $30억(약 4.5조원) 미국 공급망 투자 — GlobalWafers 텍사스 웨이퍼 공장 $5억, 10년 계약. MU 7/9 +7%
@@ -57,19 +64,6 @@ publish: false
 - 한국 6월 수출 월간 첫 $100B 돌파 — 반도체 $448.2억(+199.5% YoY), 무역흑자 $361.5억 역대 최대
 - H1 2026 글로벌 VC $5,100억 역대 최대 — OpenAI+Anthropic 43%($2,170억) 독식, MGX $490억 클로징
 
-## 2026-07-04
-- Anthropic, Samsung Electronics와 2nm 커스텀 AI 추론 칩 협상 착수 — 탈클라우드 AI 추론 독립 전략, 양산 일정 미정
-- Vera Therapeutics 아타시셉트 PDUFA D-3(7/7) — IgAN 최초 BAFF·APRIL 이중 억제제, 가속 승인 조건부
-- 졸돈라시브 ESMO GI 수치 확정 — 전이성 PDAC 1차 ORR 82%, DCR 96%, RASolute 305 3상 진행 중
-- Google 데이터센터 전력 소비 +37% YoY — AI가 전력망 탈탄소화 속도를 추월
-- OpenAI CEO Altman, 미국 정부 지분 5% 기부 제안 — $426억(기업가치 $8,520억), 알래스카 영구기금 모델
-
-## 2026-07-03
-- 미국 6월 NFP 5만 7,000명(컨센서스 11만 명 절반) — 10년물 금리 역설적 상승, 스태그플레이션 우려 부상
-- KOSPI +5.76%(8,088p) V자 반등 — 삼성전자 +8.22%·SK하이닉스 +10.88%, 소버린AI 5조원 수요 내러티브
-- Roche 디바라시브 Krascendo 1 Phase III — KRAS G12C NSCLC, 소토라시브·아다그라시브 head-to-head PFS·OS 모두 우위
-- AstraZeneca EMERALD-3 HCC — STRIDE+lenvatinib+TACE, PFS 13.0 vs 9.8개월(HR 0.70, p=0.0007)
-- 한국 소버린 AI 5조원 Rubin GPU 단일팀 + Google-Anthropic $32억 TPU 임대 CaaS 모델 가동
 
 
 
