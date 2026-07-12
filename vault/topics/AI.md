@@ -7,13 +7,17 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **중국 AI OpenRouter 역전(7/11)**: 샤오미 MiMo-V2-Pro 21.1%(전체 1위), DeepSeek 16.3%, Claude 13.3%. 미국 모델 70%→30% 붕괴. API 단가 11배 차이($0.435/M vs $5/M)가 18개월 만의 구조적 이동 동력. 개발자 트래픽이 에코시스템 고착화 첫 신호.
-- **AI 칩 버블 경보·Intel·AMD 급락(7/1~7/11)**: BoA 경보(7/1) 후 Intel -20%·AMD -10%. 포워드 P/E Intel 137배·AMD 73.5배 vs NVIDIA 22.2배. 실적 성장으로 P/E를 낮춰온 NVIDIA가 역설적 방어.
-- **이재용 선밸리·젠슨황 HBM4 협력 확인(7/7)**: 삼성전자 HBM4 양산 개시(2월) 후 NVIDIA와 첫 공식 협력 확인. 2공급자 체계 전환 시나리오 본격화. UBS: 2027년 SK하이닉스 동등 점유율 전망.
-- **로봇 섹터 자본시장 진입**: Agility Robotics SPAC $2.5B(나스닥 AGLT), Unitree STAR Market IPO 승인, Tesla Optimus Gen3 생산 개시. AI 인프라 이후 다음 테마 가시화.
-- **7월 AI 모델 대격돌 지속**: Gemini 3.5 Pro(D-6, 7/17)·DeepSeek V4 레거시 종료(D-13, 7/24). 성능 격차 축소로 API 가격·에코시스템 경쟁으로 무게중심 이동.
+- **Apple-OpenAI 영업비밀 소송(7/10)**: Tang Tan(전 Apple VP of Product Design·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 수직 통합 경쟁이 법정 분쟁으로 비화. OpenAI IPO(기업가치 $852B) 직전 법적 불확실성 추가. IPO 일정 2027년 연기 검토 가능성.
+- **Google Gemini 3.5 Flash AI 검색 전면 도입**: AI Mode 월 이용자 10억 명 돌파·분기 2배 성장. 25년 파란 링크 검색 모델 실질 종언. 7/17 Gemini 3.5 Pro 출시 목표(업계 보도, 미공식). 광고 수익 모델 이행이 구조적 과제.
+- **AI 하드웨어 내재화 경쟁 법제화 국면 진입**: OpenAI 자체 칩·디바이스 개발 vs Apple 영업비밀 방어. Google TPU·Meta MTIA 이미 같은 방향. 칩 내재화 가속 흐름은 소송 결과와 무관하게 지속.
+- **중국 AI OpenRouter 역전(7/11)**: 샤오미 MiMo-V2-Pro 21.1%(전체 1위), DeepSeek 16.3%, Claude 13.3%. 미국 모델 70%→30% 붕괴. API 단가 11배 차이가 구조적 이동 동력.
+- **7월 AI 모델 대격돌**: Gemini 3.5 Pro(D-5, 7/17)·DeepSeek V4 레거시 종료(D-12, 7/24). 성능 격차 축소로 API 가격·에코시스템 경쟁으로 무게중심 이동.
 
 ## 타임라인
+### 2026-07-12 [[daily/2026-07-12]]
+- [[daily/2026-07-12]] Apple, OpenAI 영업비밀 탈취 소송(7/10) — Tang Tan(전 Apple VP of Product Design·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 인재 전쟁이 법정으로 비화. OpenAI IPO(기업가치 $852B·약 1,181조원) 직전 법적 불확실성 추가 → [[topics/반도체HBM]]
+- [[daily/2026-07-12]] Google Gemini 3.5 Flash AI 검색 전면 도입 — AI Mode 10억 사용자·분기 2배 성장. 25년 파란 링크 검색 모델 실질 종언. 광고 수익 모델 이행이 디지털 광고 시장 재편의 핵심 변수. 7/17 Gemini 3.5 Pro 출시 목표(업계 보도, 미공식)
+
 ### 2026-07-11 [[daily/2026-07-11]]
 - [[daily/2026-07-11]] 중국 AI OpenRouter 역전 — 샤오미 MiMo-V2-Pro 21.1%(전체 1위), DeepSeek 16.3%, Claude 13.3%. 미국 모델 70%→30% 붕괴. API 단가 11배 차이($0.435/M vs $5/M) 구조적 이동 → [[topics/반도체HBM]]
 - [[daily/2026-07-11]] Intel -20%·AMD -10%(7월 누적) — BoA "AI 칩 버블" 경보(7/1). 포워드 P/E Intel 137배·AMD 73.5배 vs NVIDIA 22.2배. NVIDIA 역설적 방어
