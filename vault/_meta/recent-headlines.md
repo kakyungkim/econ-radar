@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-12
+- 한국은행 7/16 기준금리 인상 유력 — 14개월 만에 2.50%→2.75%(+25bp), BNP파리바 연말 3.00% 시나리오
+- Apple, OpenAI 영업비밀 탈취 소송 — 전직 직원 400명+, Tang Tan(전 VP of Product Design·현 CHO) 피고, OpenAI IPO 리스크
+- Sanofi Sarclisa Escena FDA 승인(7/9) — 세계 최초 온바디 인젝터(OBI) 항암제, 다발성골수종 3개 적응증
+- Google Gemini 3.5 Flash 검색 전면 도입 — AI Mode 10억 사용자 돌파, 25년 파란 링크 시대 전환
+- PADCEV+Keytruda 근침윤성 방광암 전체 환자 FDA 승인 확대 — EFS 위험 47% 감소
+
 ## 2026-07-11
 - 중국 AI OpenRouter 역전 — 샤오미 MiMo-V2-Pro 21.1%·전체 1위, 미국 모델 70%→30%(18개월), MiMo API $0.435/M vs GPT $5/M
 - Intel -20%·AMD -10% 7월 급락 + BoA "AI 칩 버블" 경보 — NVIDIA P/E 22배 상대 방어
@@ -57,12 +64,6 @@ publish: false
 - AI 모델 7월 대격돌 — Gemini 3.5 Pro·GPT-5.6·Grok 4.5 동시 경쟁 진입
 - 미국 6월 NFP 5만 7,000명 — S&P +0.49% 강보합, 연준 고용 둔화 vs PCE 3.6% 교착
 
-## 2026-07-05
-- Wegovy 영국 MASH 조건부 승인 — GLP-1 계열 간질환 적응증 첫 영국 허가, NHS 급여 협상 별도 진행
-- Vera Therapeutics 아타시셉트 PDUFA D-2(7/7) — IgAN BAFF·APRIL 이중 억제제, UPCR -46%
-- Anthropic, Alibaba 관련자 가짜 계정 2만 5,000개·2,880만 건 모델 지식 추출 의회 서한 제출
-- 한국 6월 수출 월간 첫 $100B 돌파 — 반도체 $448.2억(+199.5% YoY), 무역흑자 $361.5억 역대 최대
-- H1 2026 글로벌 VC $5,100억 역대 최대 — OpenAI+Anthropic 43%($2,170억) 독식, MGX $490억 클로징
 
 
 
