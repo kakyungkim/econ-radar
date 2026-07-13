@@ -7,13 +7,17 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Apple-OpenAI 영업비밀 소송(7/10)**: Tang Tan(전 Apple VP of Product Design·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 수직 통합 경쟁이 법정 분쟁으로 비화. OpenAI IPO(기업가치 $852B) 직전 법적 불확실성 추가. IPO 일정 2027년 연기 검토 가능성.
-- **Google Gemini 3.5 Flash AI 검색 전면 도입**: AI Mode 월 이용자 10억 명 돌파·분기 2배 성장. 25년 파란 링크 검색 모델 실질 종언. 7/17 Gemini 3.5 Pro 출시 목표(업계 보도, 미공식). 광고 수익 모델 이행이 구조적 과제.
-- **AI 하드웨어 내재화 경쟁 법제화 국면 진입**: OpenAI 자체 칩·디바이스 개발 vs Apple 영업비밀 방어. Google TPU·Meta MTIA 이미 같은 방향. 칩 내재화 가속 흐름은 소송 결과와 무관하게 지속.
-- **중국 AI OpenRouter 역전(7/11)**: 샤오미 MiMo-V2-Pro 21.1%(전체 1위), DeepSeek 16.3%, Claude 13.3%. 미국 모델 70%→30% 붕괴. API 단가 11배 차이가 구조적 이동 동력.
-- **7월 AI 모델 대격돌**: Gemini 3.5 Pro(D-5, 7/17)·DeepSeek V4 레거시 종료(D-12, 7/24). 성능 격차 축소로 API 가격·에코시스템 경쟁으로 무게중심 이동.
+- **Anthropic $47B ARR(약 70조8,000억원), OpenAI 역전(7/13)**: 2024년 12월 $10억에서 17개월 만에 47배 급증. 기업가치 $9,650억(약 1,454조원). Fortune 100 기업 70% 채택·기업 경쟁 승률 70%. Claude Code 별도 ARR $25억. 안전성·규제 적합성·비용 대비 성능 포지셔닝의 성과.
+- **GPT-5.6 Sol·Terra·Luna 전면 배포**: Sol Agents Last Exam 53.6점(Claude Fable 5 대비 +13.1p), Fable 5 대비 1/3 비용($5/$30/M). CAISNI 심사 통과 후 전면 배포. 성능·비용·안전성 세 축이 동시에 경쟁하는 국면 진입.
+- **AI 모델 경쟁 구도 이동**: 단일 성능 경쟁에서 성능·비용·안전성 포트폴리오 경쟁으로 무게중심 이동. 기업 도입 결정에서 가격 대비 성능이 결정 변수로 올라섬. 중국 모델(샤오미 MiMo) 11배 가격 차이가 하단 압박.
+- **Gemini 3.5 Pro 7/17 출시 예정(미공식)**: 2M 토큰 컨텍스트·Deep Think 추론. GPT-5.6 Sol과 Anthropic 사이 세 번째 주요 릴리스 예정.
+- **Apple-OpenAI 영업비밀 소송(7/10)**: Tang Tan(전 Apple VP·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 수직 통합 경쟁 법정 비화. OpenAI IPO 직전 법적 불확실성 추가.
 
 ## 타임라인
+### 2026-07-13 [[daily/2026-07-13]]
+- [[daily/2026-07-13]] Anthropic $47B ARR(약 70조8,000억원), OpenAI 역전 — 2024년 12월 $10억에서 17개월 만에 47배 급증. 기업가치 $9,650억(약 1,454조원). Fortune 100 기업 70% 채택·기업 경쟁 승률 70%. Claude Code 별도 ARR $25억 → [[topics/유망기업]]
+- [[daily/2026-07-13]] GPT-5.6 Sol·Terra·Luna 전면 배포 — Sol($5/$30/M, Agents Last Exam 53.6점), Fable 5 대비 1/3 비용·에이전트 성능 1위. CAISNI 심사 통과. 비용·성능·안전성 세 축 동시 경쟁 국면 시작
+
 ### 2026-07-12 [[daily/2026-07-12]]
 - [[daily/2026-07-12]] Apple, OpenAI 영업비밀 탈취 소송(7/10) — Tang Tan(전 Apple VP of Product Design·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 인재 전쟁이 법정으로 비화. OpenAI IPO(기업가치 $852B·약 1,181조원) 직전 법적 불확실성 추가 → [[topics/반도체HBM]]
 - [[daily/2026-07-12]] Google Gemini 3.5 Flash AI 검색 전면 도입 — AI Mode 10억 사용자·분기 2배 성장. 25년 파란 링크 검색 모델 실질 종언. 광고 수익 모델 이행이 디지털 광고 시장 재편의 핵심 변수. 7/17 Gemini 3.5 Pro 출시 목표(업계 보도, 미공식)
