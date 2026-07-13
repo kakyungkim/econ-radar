@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-13
+- KOSPI 블랙먼데이 — 6,806.93(-8.95%), 서킷브레이커 올해 7번째, SK하이닉스 -15.37% 역대 최대 낙폭
+- 미-이란 호르무즈 충돌 격화 — 브렌트유 +4.2% $79.22/배럴, 통과 선박 6척으로 급감
+- Anthropic $47B ARR, OpenAI 역전 — 기업가치 $9,650억달러, Fortune 100 70% 채택
+- 한국 7월 상순 수출 298억달러 역대 최고 — 반도체 +193%($112억), 실물 vs 금융 단절
+- Q32 Bio bempikibart SIGNAL-AA Part B 36주 결과 발표 — anti-IL-7Rα Phase 3 논의 진입 여부
+
 ## 2026-07-12
 - 한국은행 7/16 기준금리 인상 유력 — 14개월 만에 2.50%→2.75%(+25bp), BNP파리바 연말 3.00% 시나리오
 - Apple, OpenAI 영업비밀 탈취 소송 — 전직 직원 400명+, Tang Tan(전 VP of Product Design·현 CHO) 피고, OpenAI IPO 리스크
@@ -56,18 +63,3 @@ publish: false
 - [후속] Vera 아타시셉트 PDUFA 당일(7/7) — SEC 8-K 제출 확인, 결과 미확정
 - SpaceX Nasdaq 100 편입(7/7) — JPM 추산 $4.3B 패시브 매수 집중
 - White House AI 자발적 표준 프레임워크 이번 주 발표 예상 — NSA 30일 사전 심사
-
-## 2026-07-06
-- KOSPI 8,000 이탈 + USTR Section 301 강제노동 관세 공청회(7/7) — 반도체 수출 최고에도 관세 프레임 전환 압력
-- OpenAI, 전 트럼프 AI 보좌관 Dean Ball Strategic Futures 팀장 영입 — AI 정책·IPO 포지셔닝
-- [후속] Vera 아타시셉트 PDUFA D-1(7/7) — IgAN BAFF·APRIL 이중 억제제, 내일 FDA 결정
-- AI 모델 7월 대격돌 — Gemini 3.5 Pro·GPT-5.6·Grok 4.5 동시 경쟁 진입
-- 미국 6월 NFP 5만 7,000명 — S&P +0.49% 강보합, 연준 고용 둔화 vs PCE 3.6% 교착
-
-
-
-
-
-
-
-
