@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-14
+- 이란 UAE 유조선 2척 공격·브렌트 $86.27·트럼프 20% 통행료 — 호르무즈 에스컬레이션 2일차, IMO 법적 근거 없음 반발
+- 올릭스 OLX501A R&D Day — ALK7 siRNA 영장류 84% mRNA 억제·GLP-1 1/10 병용 효과·L'Oréal 1,108억 납입 완료
+- Biogen diranersen CELIA Phase 2 — 1차 평가변수 미달, tau 감소·인지 신호 동시 확인, 개발 지속 결정
+- Google·MS·Salesforce A2A 연합 + Microsoft MAI 자체 모델 — Anthropic MCP 대항 에이전트 인프라 표준 전쟁 공식화
+- 미국 6월 CPI 컨센서스 YoY 3.8% 발표 + 워시 의회 증언(매파) + 한국은행 D-2 전문가 10인 전원 25bp 인상 전망
+
 ## 2026-07-13
 - KOSPI 블랙먼데이 — 6,806.93(-8.95%), 서킷브레이커 올해 7번째, SK하이닉스 -15.37% 역대 최대 낙폭
 - 미-이란 호르무즈 충돌 격화 — 브렌트유 +4.2% $79.22/배럴, 통과 선박 6척으로 급감
@@ -57,9 +64,3 @@ publish: false
 - Gemini 3.5 Pro 7/17 vs DeepSeek V4 7/24 — 개발자 AI 플랫폼 이중 마이그레이션 압박
 - Vertex 포베타시셉트 PDUFA 2026-11-30 — IgAN 동일 기전 내 직접 경쟁
 
-## 2026-07-07
-- 삼성전자 Q2 영업이익 89.4조원(+1,810% YoY) 역대 최대 — KOSPI 사이드카·-4.9% 동시 발동(실적 역설)
-- Novartis, Myricx Bio 인수 최대 $1.5B — NMTi 기반 차세대 ADC 페이로드 플랫폼(ADC 페이로드 전쟁)
-- [후속] Vera 아타시셉트 PDUFA 당일(7/7) — SEC 8-K 제출 확인, 결과 미확정
-- SpaceX Nasdaq 100 편입(7/7) — JPM 추산 $4.3B 패시브 매수 집중
-- White House AI 자발적 표준 프레임워크 이번 주 발표 예상 — NSA 30일 사전 심사
