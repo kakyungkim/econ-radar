@@ -14,6 +14,10 @@ publish: true
 - **Apple-OpenAI 영업비밀 소송(7/10)**: Tang Tan(전 Apple VP·현 OpenAI CHO)·전직 직원 400명+. AI 하드웨어 수직 통합 경쟁 법정 비화. OpenAI IPO 직전 법적 불확실성 추가.
 
 ## 타임라인
+### 2026-07-14 [[daily/2026-07-14]]
+- [[daily/2026-07-14]] Google·MS·Salesforce·스노우플레이크·서비스나우 A2A 연합 선언 — Anthropic MCP de facto 표준 지위에 5사 공동 대응. Google Cloud Next 2026 production 등급 A2A 발표. 엔터프라이즈 AI 에이전트 인프라 표준 전쟁 공식화
+- [[daily/2026-07-14]] Microsoft MAI 자체 모델로 일부 제품에서 OpenAI·Anthropic 대체 착수 — 비용 절감·외부 의존도 축소 목적. Azure 외부 모델 접근은 유지. Anthropic·OpenAI API 수익 구조에 장기 하방 리스크 추가
+
 ### 2026-07-13 [[daily/2026-07-13]]
 - [[daily/2026-07-13]] Anthropic $47B ARR(약 70조8,000억원), OpenAI 역전 — 2024년 12월 $10억에서 17개월 만에 47배 급증. 기업가치 $9,650억(약 1,454조원). Fortune 100 기업 70% 채택·기업 경쟁 승률 70%. Claude Code 별도 ARR $25억 → [[topics/유망기업]]
 - [[daily/2026-07-13]] GPT-5.6 Sol·Terra·Luna 전면 배포 — Sol($5/$30/M, Agents Last Exam 53.6점), Fable 5 대비 1/3 비용·에이전트 성능 1위. CAISNI 심사 통과. 비용·성능·안전성 세 축 동시 경쟁 국면 시작
