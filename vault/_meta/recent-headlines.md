@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-15
+- KOSPI +6.24%·7,284.41 — SK하이닉스 HBM4 12단 Vera Rubin 납품 확정, ADR +27%·바클레이즈 $330 촉매
+- 미국 6월 CPI 3.5% 실제치(컨센서스 3.8% 하회) — 에너지 -5.7% MoM, 근원 2.6%·7/29 FOMC 인상 16%, 9월 44.5%
+- AstraZeneca-Dizal Zegfrovy 라이선스 최대 $15억 — 계약금 $6억, EGFR Exon 20 삽입 NSCLC 글로벌 독점권
+- OpenAI 첫 하드웨어: 이동형 스크린리스 AI 스피커 — 2027 목표, Apple 출신 엔지니어 주도(Bloomberg 보도, 공식 미발표)
+- EU AI Act GPAI 8/2 발효 D-18 — 위반 시 €1,500만 또는 매출 3%, 대서양 AI 규제 체계 공식 분기
+
 ## 2026-07-14
 - 이란 UAE 유조선 2척 공격·브렌트 $86.27·트럼프 20% 통행료 — 호르무즈 에스컬레이션 2일차, IMO 법적 근거 없음 반발
 - 올릭스 OLX501A R&D Day — ALK7 siRNA 영장류 84% mRNA 억제·GLP-1 1/10 병용 효과·L'Oréal 1,108억 납입 완료
@@ -57,10 +64,4 @@ publish: false
 - FOMC 6월 의사록 9:8 금리인상 지지·PCE 3.6% + Brent +5.06%·$77.92 — 스태그플레이션 리스크 복합
 - HLB 리보세라닙+캄렐리주맙 PDUFA D-14(7/23) — K바이오 간암 1차 치료 3수, mOS 23.8 vs 15.2개월(HR 0.64), 제조 실사가 관건
 
-## 2026-07-08
-- KOSPI 이틀 연속 -5.35% — 기술적 베어마켓 진입·역사 12번째 서킷브레이커(7/7 발동, 7/8 사이드카)
-- [후속] Vera Therapeutics TRUTAKNA FDA 가속승인 확정 — IgAN 최초 BAFF/APRIL 이중 억제제
-- SK하이닉스 Nasdaq ADR 상장 D-2 — 역대 최대 해외기업 ADR 290억달러(약 44조원)
-- Gemini 3.5 Pro 7/17 vs DeepSeek V4 7/24 — 개발자 AI 플랫폼 이중 마이그레이션 압박
-- Vertex 포베타시셉트 PDUFA 2026-11-30 — IgAN 동일 기전 내 직접 경쟁
 
