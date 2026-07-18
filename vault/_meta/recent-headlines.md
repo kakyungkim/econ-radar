@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-18
+- Moonshot AI Kimi K3 공개 — 2.8조 파라미터 오픈웨이트 MoE, EDA 없이 48h 칩 설계 시연. SOX -5.7%(베어마켓, 6월 고점 대비 -20%), Cadence·Synopsys 각 -9%
+- Google Gemini 3.5 Pro 3차 지연 — 조직 중복 구조 문제, Alphabet -4.4%/-$200B, DeepMind 고참 4명 Anthropic 이직
+- 코스피 7/20 재개장 경계 — 제헌절 3일 공백 후 반도체·유가·AI 3중 충격, 분석가 전망 7,800~9,200포인트
+- 코오롱티슈진 TG-C 3상 1,066명 결과 7/20 전후 발표 임박 [후속] — 통증·기능·환자전반평가 복합 1차 엔드포인트
+- Otsuka centanafadine PDUFA D-6(7/24) — ADHD NDSRI 계열 첫 신약, 4건 3상+불안 동반 3b상 긍정
+
 ## 2026-07-17
 - TSMC Q2 매출 $40.2B(+36% YoY)·순이익 +77.4%·HPC 66%·애리조나 $100B 추가(누계 $265B) — AI 인프라 수요·공급 역전 수치 확인, 연간 성장 >40% 상향
 - 한은 통방문 "인상 기조 지속 필요" 첫 명시 — 긴축 사이클 공식화, 컨센서스 8월 동결·10월 3.0%
@@ -57,12 +64,6 @@ publish: false
 - Google Gemini 3.5 Flash 검색 전면 도입 — AI Mode 10억 사용자 돌파, 25년 파란 링크 시대 전환
 - PADCEV+Keytruda 근침윤성 방광암 전체 환자 FDA 승인 확대 — EFS 위험 47% 감소
 
-## 2026-07-11
-- 중국 AI OpenRouter 역전 — 샤오미 MiMo-V2-Pro 21.1%·전체 1위, 미국 모델 70%→30%(18개월), MiMo API $0.435/M vs GPT $5/M
-- Intel -20%·AMD -10% 7월 급락 + BoA "AI 칩 버블" 경보 — NVIDIA P/E 22배 상대 방어
-- Replimune RP1 3차 BLA 수리 + AdCom 7월 말·PDUFA 8/2 — 종양용해 바이러스+니볼루맙, ORR 33.6%, DOR 24.8개월
-- 코오롱티슈진 TG-C(인보사) 미국 3상(1,066명) 톱라인 이달 발표 임박 — BLA 제출 로드맵, K-바이오 유전자치료제 최선봉
-- Pharvaris 듀크릭티반트 경구 HAE NDA 수리 (PDUFA 2027-04-23) — 세계 최초 경구형 발작 치료제 도전
 
 
 
