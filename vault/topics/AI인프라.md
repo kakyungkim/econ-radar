@@ -10,12 +10,16 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **TSMC Q2 AI 인프라 수요 실증(7/17)**: 순매출 $40.2B(+36%), HPC 66%, capex $60~64B. CEO "수요>공급" 직접 확인. 애리조나 2nm 팹 추가 $100B·미국 내 누계 $265B. TSMC 단일 capex 결정이 장비·소재 업체(ASML·TEL·Lam Research·Applied Materials) 2~3년 수주 가시성을 고정하는 구조.
-- **capex 상향 후 반도체 섹터 하락**: 2~3년 후 공급 과잉을 시장이 선반영하기 시작한 신호일 수 있다. AI 칩 설계사보다 장비·소재 공급사의 수주 가시성이 더 안정적으로 유지될 수 있는 구간.
-- **AI 하드웨어 자립화 경쟁 — OpenAI Jalapeño → Anthropic-Samsung 2nm(7/4)**: 추론 원가 절감이 AI 서비스 가격 경쟁력의 핵심 전장.
-- **Google-Anthropic $32억 TPU 임대 CaaS 모델 정착(7/3)**: AI 컴퓨팅 조달 구조가 임대에서 자체 생산으로 이동하는 중간 단계.
+- **Kimi K3 독립 벤치마크 57점(7/17) — 오픈소스 MoE 프런티어 진입**: Moonshot AI의 2.8조 파라미터 MoE가 Artificial Analysis 인텔리전스 인덱스에서 Claude Opus 4.8(약 56점)·GPT-5.6 Terra(약 55점)를 상회. 클로즈드 API 모델의 성능 프리미엄 논거가 약해지고 있다. 7/27 전체 가중치 공개 후 EDA 시연 독립 재현이 충격 지속 여부를 결정.
+- **SOX 기술적 베어마켓(-20%+, 7/17)**: Kimi K3 EDA 시연 충격으로 Cadence·Synopsys 각 -9%. 7/22 SK하이닉스 Q2 실적이 AI 인프라 수요 실증의 첫 반론 무대.
+- **Meta Compute 출범(7/1) — 클라우드 4강 체제**: AWS·Azure·Google Cloud에 이은 4번째 GPU 컴퓨팅 온디맨드 공급자. Llama·Muse Spark 번들. 약 3,000억달러(약 414조원) 시장 진입으로 GPU 컴퓨팅 단가 하락 압력 가속.
+- **TSMC Q2 AI 인프라 수요 실증(7/17)**: HPC 66%·capex $60~64B·CEO "수요>공급" 직접 확인. 장비·소재 업체(ASML·TEL·Lam Research·Applied Materials) 2~3년 수주 가시성 고정.
 
 ## 타임라인
+### 2026-07-19 [[daily/2026-07-19]]
+- [[daily/2026-07-19]] Kimi K3 Artificial Analysis 인텔리전스 인덱스 57점 확인 — Claude Opus 4.8(약 56점)·GPT-5.6 Terra(약 55점) 상회. 오픈소스 MoE 독립 측정 기관 최초 클로즈드 프런티어 동급 이상 기록. 7/27 전체 가중치 공개·EDA 기술보고서 병행 예정. 가중치 공개 후 커뮤니티 독립 재현이 완전 확정 단계 → [[topics/반도체AI인프라]]
+- [[daily/2026-07-19]] Meta Compute 출범 후속 정리 — AWS·Azure·Google Cloud에 이은 4번째 GPU 온디맨드 공급자. Llama·Muse Spark 번들 형태로 약 3,000억달러(약 414조원) 클라우드 시장 진입. 기업 고객 신뢰·글로벌 데이터센터 커버리지·SOC2·HIPAA 인증에서 3강 열위 잔존 → [[topics/AI]]
+
 ### 2026-07-17 [[daily/2026-07-17]]
 - [[daily/2026-07-17]] TSMC Q2 2026 실적 확인 — 순매출 $40.2B(YoY +36%), 순이익 +77.4%, HPC 66%, capex $60~64B, CEO "수요>공급" 발언, 2026 연간 성장 40%+ 상향. 애리조나 팹 추가 $100B·미국 내 누계 $265B. 5분기 연속 분기 최고치
 - [[daily/2026-07-17]] capex 상향 직후 반도체 섹터 하락 — 2~3년 후 공급 과잉을 시장이 선반영하기 시작한 신호. AI 칩 설계사보다 장비·소재(ASML·TEL·Lam·Applied Materials) 수주 가시성이 더 안정적일 수 있는 구간 진입 → [[topics/반도체HBM]]
