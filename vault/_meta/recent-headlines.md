@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-19
+- 코스피 7/20 재개장 D-1 — SOX 베어마켓(-20%)·Brent $88·Kimi K3 AI 인프라 충격 3중 누적, TG-C 발표 미확정
+- Kimi K3 독립 벤치마크 57점(Artificial Analysis) — Claude Opus 4.8(56점)·GPT-5.6 Terra(55점) 상회, 7/27 전체 가중치 공개 예정
+- Padcev+Keytruda MIBC 수술 전후 platinum-free 첫 FDA 승인 — ADC+ICI perioperative 표준 첫 사례, 시스플라틴 적합성 무관
+- GLP-1 경구제(Lilly Foundayo) 신규 처방 2/3가 주사제 미경험자 — 전환 아닌 시장 순증 확인, Goldman 2030 Lilly 60% 점유
+- Sarclisa Escena 피하주사(Sanofi) FDA 승인 — 항암제 최초 온바디 인젝터(OBI) 투여 방식, 7/9 승인
+
 ## 2026-07-18
 - Moonshot AI Kimi K3 공개 — 2.8조 파라미터 오픈웨이트 MoE, EDA 없이 48h 칩 설계 시연. SOX -5.7%(베어마켓, 6월 고점 대비 -20%), Cadence·Synopsys 각 -9%
 - Google Gemini 3.5 Pro 3차 지연 — 조직 중복 구조 문제, Alphabet -4.4%/-$200B, DeepMind 고참 4명 Anthropic 이직
@@ -57,12 +64,6 @@ publish: false
 - 한국 7월 상순 수출 298억달러 역대 최고 — 반도체 +193%($112억), 실물 vs 금융 단절
 - Q32 Bio bempikibart SIGNAL-AA Part B 36주 결과 발표 — anti-IL-7Rα Phase 3 논의 진입 여부
 
-## 2026-07-12
-- 한국은행 7/16 기준금리 인상 유력 — 14개월 만에 2.50%→2.75%(+25bp), BNP파리바 연말 3.00% 시나리오
-- Apple, OpenAI 영업비밀 탈취 소송 — 전직 직원 400명+, Tang Tan(전 VP of Product Design·현 CHO) 피고, OpenAI IPO 리스크
-- Sanofi Sarclisa Escena FDA 승인(7/9) — 세계 최초 온바디 인젝터(OBI) 항암제, 다발성골수종 3개 적응증
-- Google Gemini 3.5 Flash 검색 전면 도입 — AI Mode 10억 사용자 돌파, 25년 파란 링크 시대 전환
-- PADCEV+Keytruda 근침윤성 방광암 전체 환자 FDA 승인 확대 — EFS 위험 47% 감소
 
 
 
