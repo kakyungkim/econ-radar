@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-20
+- KOSPI 7/20 재개장 -4.46%(6,516포인트), 쌍사이드카 발동 — SOX·Brent $90·Kimi K3 3중 충격 압축 소화, KOSDAQ 바이오 동반 급락
+- 코오롱티슈진 TG-C Study 1 1차 지표 유의성 미달 — 위약 반응 과잉, TKR 비율 0.6% vs 5.3% 긍정 이차지표, 10월 Study 2가 DMOAD 최종 분기점
+- 한국 ADC 3사 — LigaChem LCB71 ORR 77%, ABL Bio ABL209 FDA IND, Genome&Company 신규 타겟 ADC 기술이전 2026~2027 목표
+- 원화 국제화 로드맵 — MOEF·BOK 7/20 공동 발표, 2027년 24시간 역외 원화 결제, MSCI 선진국 편입 선결 조건 첫 단계
+- HLB 리보세라닙 3차 CRL — 효능 아닌 CMC 이슈, 항서제약 VAI 분류, CAPA 7/24 제출·8~9월 FDA 결론 예상
+
 ## 2026-07-19
 - 코스피 7/20 재개장 D-1 — SOX 베어마켓(-20%)·Brent $88·Kimi K3 AI 인프라 충격 3중 누적, TG-C 발표 미확정
 - Kimi K3 독립 벤치마크 57점(Artificial Analysis) — Claude Opus 4.8(56점)·GPT-5.6 Terra(55점) 상회, 7/27 전체 가중치 공개 예정
@@ -56,14 +63,6 @@ publish: false
 - Biogen diranersen CELIA Phase 2 — 1차 평가변수 미달, tau 감소·인지 신호 동시 확인, 개발 지속 결정
 - Google·MS·Salesforce A2A 연합 + Microsoft MAI 자체 모델 — Anthropic MCP 대항 에이전트 인프라 표준 전쟁 공식화
 - 미국 6월 CPI 컨센서스 YoY 3.8% 발표 + 워시 의회 증언(매파) + 한국은행 D-2 전문가 10인 전원 25bp 인상 전망
-
-## 2026-07-13
-- KOSPI 블랙먼데이 — 6,806.93(-8.95%), 서킷브레이커 올해 7번째, SK하이닉스 -15.37% 역대 최대 낙폭
-- 미-이란 호르무즈 충돌 격화 — 브렌트유 +4.2% $79.22/배럴, 통과 선박 6척으로 급감
-- Anthropic $47B ARR, OpenAI 역전 — 기업가치 $9,650억달러, Fortune 100 70% 채택
-- 한국 7월 상순 수출 298억달러 역대 최고 — 반도체 +193%($112억), 실물 vs 금융 단절
-- Q32 Bio bempikibart SIGNAL-AA Part B 36주 결과 발표 — anti-IL-7Rα Phase 3 논의 진입 여부
-
 
 
 
