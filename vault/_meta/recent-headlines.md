@@ -1,7 +1,7 @@
 ---
 type: meta
 tags: [운영, dedup]
-timestamp: 2026-06-11T23:24:29+09:00
+timestamp: 2026-07-21T18:00:00+09:00
 publish: false
 ---
 # 최근 헤드라인 (recent-headlines) — 중복 회피 기준
@@ -14,6 +14,13 @@ publish: false
 > 사람이 손으로 만든 발행본도 여기 반영한다(아래 6/10·6/11은 수작업 발행분).
 
 ---
+
+## 2026-07-21
+- 코스피 V자 반등 +3.56%(6,747.95) — 반도체 수출 역대 최고·삼성 RX 로봇 이중 촉매, 외국인+기관 약 2.2조 순매수
+- 코오롱 그룹주 4종 하한가(-29.9~30%) — TG-C Study 1 실패 시장 반응, 코오롱티슈진 42,900원, 10월 Study 2가 분기점
+- 삼성전자 RX(Robotics eXperience) 사업부 CEO 직속 신설 — 전현대차 이동건 수석, 물리 AI 가속, 주가 +7.6%
+- 한국 7월 1~20일 수출 549억 달러 역대 최고 (+52.3%) — 반도체 221억 달러 +180.6%, 7월 중순 역대 최대
+- Dyne Therapeutics z-rostudirsen BLA FDA 우선심사 수락 — DMD 엑손 51, PDUFA 2027-01-21, 출시 목표 2027 Q1
 
 ## 2026-07-20
 - KOSPI 7/20 재개장 -4.46%(6,516포인트), 쌍사이드카 발동 — SOX·Brent $90·Kimi K3 3중 충격 압축 소화, KOSDAQ 바이오 동반 급락
@@ -56,15 +63,3 @@ publish: false
 - AstraZeneca-Dizal Zegfrovy 라이선스 최대 $15억 — 계약금 $6억, EGFR Exon 20 삽입 NSCLC 글로벌 독점권
 - OpenAI 첫 하드웨어: 이동형 스크린리스 AI 스피커 — 2027 목표, Apple 출신 엔지니어 주도(Bloomberg 보도, 공식 미발표)
 - EU AI Act GPAI 8/2 발효 D-18 — 위반 시 €1,500만 또는 매출 3%, 대서양 AI 규제 체계 공식 분기
-
-## 2026-07-14
-- 이란 UAE 유조선 2척 공격·브렌트 $86.27·트럼프 20% 통행료 — 호르무즈 에스컬레이션 2일차, IMO 법적 근거 없음 반발
-- 올릭스 OLX501A R&D Day — ALK7 siRNA 영장류 84% mRNA 억제·GLP-1 1/10 병용 효과·L'Oréal 1,108억 납입 완료
-- Biogen diranersen CELIA Phase 2 — 1차 평가변수 미달, tau 감소·인지 신호 동시 확인, 개발 지속 결정
-- Google·MS·Salesforce A2A 연합 + Microsoft MAI 자체 모델 — Anthropic MCP 대항 에이전트 인프라 표준 전쟁 공식화
-- 미국 6월 CPI 컨센서스 YoY 3.8% 발표 + 워시 의회 증언(매파) + 한국은행 D-2 전문가 10인 전원 25bp 인상 전망
-
-
-
-
-
