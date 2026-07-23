@@ -7,13 +7,16 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **삼성전자 CEO 직속 RX 사업부 신설(7/21)**: 물리 AI(Physical AI)·로보틱스를 네 번째 성장 동력으로 공식화. 현대차그룹 출신 이동건 영입. 수직 통합(반도체·디스플레이·가전 제조) 차별화 전략. Tesla Optimus·Figure AI·Boston Dynamics와 경쟁 구도 진입. 첫 제품 로드맵 발표가 다음 체크포인트.
-- **Kimi K3 EDA 충격 여진(7/18)**: SOX 주간 -11% 기술적 베어마켓(6월 고점 대비 -20%+). AI 패권·EDA 해자·AI 인프라 투자 논리 세 가지 가정 동시 의문. 7/27 가중치 공개·독립 벤치마크가 첫 검증. 한국 반도체 수출 +180.6%(7/21) 실물 데이터가 사이클 지속 반론.
-- **Google Gemini 3.5 Pro 3차 지연(7/16)**: Alphabet -$200B(약 276조원). DeepMind 고참 4명 Anthropic 이직. GPT-5.6·Grok 4.5·Kimi K3 출시 완료 속 Google만 플래그십 공백 지속. 7/22 Q2 실적(Cloud 매출)이 다음 확인 포인트.
-- **EU AI Act GPAI 8/2 발효 D-12(7/21 기준)**: 범용AI 의무 집행 임박. 합성물 기계 가독 표시(Article 50)·기술 문서화·데이터 정책 공개. 미국 탈규제 기조와 제도적 양극화 확정.
-- **SK하이닉스 Q2 실적(7/22) — AI 인프라 사이클 첫 실적 검증**: 영업이익 컨센서스 65조원(+606% YoY). HBM4 고객 인도 일정·단가 방향 가이던스가 주가 반응 결정.
+- **Google Gemini 3.6 Flash 출시(7/21) — 출력 $7.50/M(-17%), DeepSWE 37%→49%**: 지식 기한 2026년 3월. GitHub Copilot 즉시 통합. OpenAI GPT-5.6 출시 2주 만에 Google이 가격·성능 동시 반격. 사이버보안 특화(3.5 Flash Cyber)·최저가(3.5 Flash-Lite) 동시 출시.
+- **Nvidia SIGGRAPH 2026 — Cosmos 3 Edge(엣지 물리 AI 월드 모델) 공개**: Agent Toolkit+Omniverse 통합. 물리 AI 인프라를 데이터센터 밖 엣지·로봇 환경으로 확장. 삼성전자 RX 사업부 등 경쟁자와 물리 AI 시장 경쟁 격화.
+- **EU AI Act GPAI 집행 D-10(8/2 발동 임박)**: AI 오피스 집행권 발동 예정. 위반 시 전 세계 매출 3% 또는 €1,500만. 미국 탈규제와 제도적 양극화 확정 → [[topics/AI규제]]
+- **AI 추론 레이어 범용화 가속**: 모델 제공자 API 수익성 압박. 빅테크는 클라우드·광고·구독에서 투자 회수. 하위 애플리케이션 기업 마진 개선 구조.
 
 ## 타임라인
+### 2026-07-23 [[daily/2026-07-23]]
+- [[daily/2026-07-23]] Google Gemini 3.6 Flash 출시 — 출력 $7.50/M(-17%), DeepSWE 37%→49%, 지식기한 Mar 2026. GitHub Copilot 즉시 통합. GPT-5.6 출시 2주 만에 가격·성능 동시 반격 → [[topics/AI규제]]
+- [[daily/2026-07-23]] Nvidia SIGGRAPH 2026 — Cosmos 3 Edge(엣지 물리 AI 월드 모델), Agent Toolkit+Omniverse. 물리 AI 인프라를 데이터센터 밖 엣지·로봇으로 확장. 삼성전자 RX 사업부 등과 물리 AI 경쟁 격화
+
 ### 2026-07-21 [[daily/2026-07-21]]
 - [[daily/2026-07-21]] 삼성전자 CEO 직속 RX 사업부 신설 — 물리 AI(Physical AI)·로보틱스 공식화. 수직 통합(반도체·디스플레이·가전) 차별화 전략. 현대차그룹 출신 이동건 임원 영입. Tesla Optimus·Figure AI·Boston Dynamics와 경쟁 구도 진입. 첫 제품 로드맵 발표가 다음 체크포인트 → [[topics/반도체]] [[topics/한국증시]]
 
