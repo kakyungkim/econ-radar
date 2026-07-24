@@ -7,12 +7,16 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Google Gemini 3.6 Flash 출시(7/21) — 출력 $7.50/M(-17%), DeepSWE 37%→49%**: 지식 기한 2026년 3월. GitHub Copilot 즉시 통합. OpenAI GPT-5.6 출시 2주 만에 Google이 가격·성능 동시 반격. 사이버보안 특화(3.5 Flash Cyber)·최저가(3.5 Flash-Lite) 동시 출시.
-- **Nvidia SIGGRAPH 2026 — Cosmos 3 Edge(엣지 물리 AI 월드 모델) 공개**: Agent Toolkit+Omniverse 통합. 물리 AI 인프라를 데이터센터 밖 엣지·로봇 환경으로 확장. 삼성전자 RX 사업부 등 경쟁자와 물리 AI 시장 경쟁 격화.
-- **EU AI Act GPAI 집행 D-10(8/2 발동 임박)**: AI 오피스 집행권 발동 예정. 위반 시 전 세계 매출 3% 또는 €1,500만. 미국 탈규제와 제도적 양극화 확정 → [[topics/AI규제]]
+- **Alphabet Q2 Google Cloud +82% $24.8B, capex $205B 상향(7/24)**: AI 인프라 수익화 가시화. 빅4 하이퍼스케일러 합산 AI 인프라 $6,500억(+80% YoY). Cloud +82%가 일회성 수요 집중인지, 기업 AI 도입의 구조적 성장 추세인지가 실질 물음.
+- **Kimi K3(2.8T, MIT) 7/27 공개 예정 + DeepSeek V4 GA 완료(7/24)**: 역대 최대 오픈소스 AI. DeepSeek V4 SWE-bench 80.6%, Fable 5 대비 1/57 가격. 오픈 웨이트 생태계가 독점 API와 실질적으로 경쟁하는 파라미터 규모에 도달. 파운데이션 모델 레이어 상품화 가속.
+- **EU AI Act GPAI 집행 D-9(8/2 발동 임박)**: AI 오피스 집행권 발동 예정. 위반 시 전 세계 매출 3% 또는 €1,500만. 미국 탈규제와 제도적 양극화 확정 → [[topics/AI규제]]
 - **AI 추론 레이어 범용화 가속**: 모델 제공자 API 수익성 압박. 빅테크는 클라우드·광고·구독에서 투자 회수. 하위 애플리케이션 기업 마진 개선 구조.
 
 ## 타임라인
+### 2026-07-24 [[daily/2026-07-24]]
+- [[daily/2026-07-24]] Alphabet Q2 Google Cloud +82% $24.8B, capex $205B 상향 — AI 인프라 수익화 가시화. EPS $9.11, GOOGL AH -7%. 빅4 AI 인프라 합산 $6,500억 → [[topics/반도체]]
+- [[daily/2026-07-24]] Kimi K3 2.8T MIT 7/27 공개 예정 + DeepSeek V4 GA 완료 — 역대 최대 오픈소스 AI. SWE-bench 80.6%, 1/57 가격. 파운데이션 모델 레이어 상품화 가속 → [[topics/AI규제]]
+
 ### 2026-07-23 [[daily/2026-07-23]]
 - [[daily/2026-07-23]] Google Gemini 3.6 Flash 출시 — 출력 $7.50/M(-17%), DeepSWE 37%→49%, 지식기한 Mar 2026. GitHub Copilot 즉시 통합. GPT-5.6 출시 2주 만에 가격·성능 동시 반격 → [[topics/AI규제]]
 - [[daily/2026-07-23]] Nvidia SIGGRAPH 2026 — Cosmos 3 Edge(엣지 물리 AI 월드 모델), Agent Toolkit+Omniverse. 물리 AI 인프라를 데이터센터 밖 엣지·로봇으로 확장. 삼성전자 RX 사업부 등과 물리 AI 경쟁 격화
