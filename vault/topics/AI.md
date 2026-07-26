@@ -7,12 +7,16 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Claude Opus 5 출시(7/25) — FrontierBench 43.3% SOTA, Fable 5 절반 가격**: Fable 5(33.7%)·GPT-5.6 Sol(37.5%) 동시 상회. 입력 $5/출력 $25, Effort Control로 추론 깊이 조절 가능. "성능=프리미엄" 공식 해체 신호.
-- **Kimi K3(2.8T, MIT) 7/27 공개 D-2**: 역대 최대 오픈 웨이트 모델. MXFP4 자체 호스팅에 1.4TB 고속 메모리 필요. 할루시네이션 평가 지표 미공개가 엔터프라이즈 채택 실질 장벽.
-- **엔터프라이즈 AI 수익화 분화**: ServiceNow Q2 AI ACV $1B 돌파(에이전틱 배포 9개월 9배) vs IBM 매출 컨센서스 하회. 기존 워크플로 위에 AI 업셀을 얹는 플랫폼과 레거시 인프라 교체 압박 기업의 분화 선명.
-- **EU AI Act GPAI 집행 D-8(8/2 발동 임박)**: AI 오피스 집행권 발동 예정. 위반 시 전 세계 매출 3% 또는 €1,500만. 미국 탈규제와 제도적 양극화 확정 → [[topics/AI규제]]
+- **Kimi K3(2.8T MoE, Modified MIT) 오늘 밤 공개(7/26 20:00 ET)**: MXFP4 자체 호스팅 1.4TB 고속 메모리 요건. "중국 모델을 자사 서버에서 실행해 중국 데이터 리스크 차단"이라는 역설적 논리 등장. 의료·금융·법무 규제 산업 자체 호스팅 수요 자극 가능성.
+- **EU AI Act GPAI 집행 D-7(8/2 발동)**: Anthropic·Google·Meta·OpenAI 등 주요 제공자 전부 대상. 위반 시 전 세계 매출 3% 또는 €1,500만. 첫 집행 사례 기업·위반 유형이 업계 컴플라이언스 투자 방향 결정. 미국 탈규제와 AI 규제 지정학적 양극화 제도적 고착.
+- **빅테크 어닝즈 주 — AI 수익화 검증 타이밍**: 7/29 FOMC 직후 Microsoft·Meta 실적, 7/30 Apple·Amazon. Alphabet Google Cloud +82% 기대치 높인 상태. Azure AI·Meta AI 수익화 수치가 컨센서스 상회 여부가 금리 충격 흡수 가능성 결정.
+- **Claude Opus 5(7/25 출시) — FrontierBench 43.3% SOTA**: Fable 5·GPT-5.6 Sol 동시 상회. 입력 $5/출력 $25, Effort Control 추론 깊이 조절. 프론티어 모델 "성능=프리미엄" 공식 해체 신호 지속.
 
 ## 타임라인
+### 2026-07-26 [[daily/2026-07-26]]
+- [[daily/2026-07-26]] Kimi K3(2.8T MoE, Modified MIT) 오늘 밤 공개(HuggingFace) — MXFP4 자체 호스팅 1.4TB 요건. "중국 모델 자사 서버 실행으로 데이터 주권 확보" 역설적 논리 등장. 의료·금융·법무 규제 산업 자체 호스팅 수요 자극 가능성 → [[topics/거시정책]]
+- [[daily/2026-07-26]] EU AI Act GPAI 8/2 집행권 발동 D-7 — 벌금 상한 전 세계 매출 3% 또는 €1,500만. Anthropic·Google·Meta·OpenAI 등 주요 제공자 전부 대상. 첫 집행 사례가 업계 컴플라이언스 투자 방향 결정
+
 ### 2026-07-25 [[daily/2026-07-25]]
 - [[daily/2026-07-25]] Claude Opus 5 출시 — FrontierBench 43.3%, Fable 5 절반 가격($5/$25). Effort Control 도입. 에이전틱 성능 Opus 4.8 대비 2.3배, 가격 동결. 프론티어 모델 가격 해체 신호 → [[topics/투자테마]]
 - [[daily/2026-07-25]] Kimi K3 오픈 웨이트 7/27 공개 D-2 — MXFP4 자체 호스팅에 1.4TB 고속 메모리 요건. 할루시네이션 평가 지표 미공개가 엔터프라이즈 채택 실질 장벽

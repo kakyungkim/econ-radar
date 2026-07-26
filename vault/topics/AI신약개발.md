@@ -9,12 +9,15 @@ publish: true
 > 범위: AI·기계학습 기반 후보물질 발굴·임상 설계·규제 전략. 파운데이션 모델 기업의 제약·바이오 수직 시장 진입. 첫 FDA 승인까지의 경로 추적.
 
 ## 핵심 흐름
-- **Anthropic, Coefficient Bio 4억 달러(약 5,520억 원) 인수 — AI 파운데이션 기업 첫 신약개발 직접 진입(6/18)**: 창업 8개월 AI 신약발견 스타트업을 전액 주식 거래로 인수한 Anthropic의 첫 M&A. Claude for Life Sciences에 Benchling·PubMed·10x Genomics 통합 플랫폼 편입. AstraZeneca·Sanofi·Novo Nordisk·Genmab 등 고객사 확보 완료.
-- **AI 신약 임상 200개+ 진입, FDA 최종 승인 0건 — 실증 데이터 축적 단계**: 임상 진입 속도와 임상 성공률 간 격차가 표준 신약개발 방법론과 어떻게 다른지 첫 실증 데이터가 쌓이는 단계. 첫 AI 신약 FDA 승인이 업계 전체의 기준점이 된다.
-- **Recursion-Exscientia 통합 후 REC-4881·REC-1245 임상 진행**: AI 설계→임상 전환 속도가 플랫폼 가치 지표.
-- **Moderna MFLUSIVA VRBPAC 심의 개시 — mRNA 플랫폼 계절 백신 첫 시험대(6/18)**: mRNA 기술이 팬데믹 대응에서 계절 백신 시장으로 확장하는 첫 정규 허가 심의. FDA 결정 기한 8월 5일.
+- **Chai Discovery $400M Series C($3.8B 기업가치, 7/14)**: Eli Lilly·Pfizer·Novartis 3사가 Chai-3를 실제 사용 중. AI 플랫폼 가치 검증의 진짜 기준은 전임상→임상 1상 전환 분자 수 축적 시점. 2026년 AI 신약개발 투자 급증(70% 개발 타임라인 단축 주장 등장).
+- **AI 신약 임상 200개+ 진입, FDA 최종 승인 0건**: 첫 AI 설계 신약 FDA 승인이 업계 전체의 플랫폼 가치 기준점. Recursion·Exscientia 통합 후 REC-4881·REC-1245 임상 진행 중. AI 설계→임상 전환 속도가 플랫폼 간 차별화 지표.
+- **Anthropic, Coefficient Bio 4억 달러 인수(6/18) — AI 파운데이션 기업 첫 신약개발 직접 진입**: Claude for Life Sciences에 Benchling·PubMed·10x Genomics 통합. AstraZeneca·Sanofi·Novo Nordisk·Genmab 등 고객사 확보 완료.
+- **빅파마 AI 플랫폼 파트너십 심화**: Eli Lilly·Pfizer·Novartis 등이 단순 탐색이 아닌 실사용 단계로 진입. 파트너십 수에서 임상 전환 실적으로 밸류에이션 검증 기준이 이동 중.
 
 ## 타임라인
+### 2026-07-26 [[daily/2026-07-26]]
+- [[daily/2026-07-26]] Chai Discovery $400M Series C($3.8B 기업가치) — Eli Lilly·Pfizer·Novartis 3사 Chai-3 실사용 확인. 전임상→임상 1상 전환 분자 수 축적이 플랫폼 밸류에이션 실증 기준선 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-06-18 [2026-06-18](/daily/2026-06-18.md)
 - Anthropic-Coefficient Bio 4억 달러(약 5,520억 원) 인수 발표 — AI 파운데이션 기업의 첫 신약개발 밸류체인 M&A. Claude for Life Sciences 통합 예정. Genentech Prescient Design 출신 창업팀. → [2026-06-18](/daily/2026-06-18.md)
 - Moderna MFLUSIVA(mRNA-1010) VRBPAC 심의 개시 — 50세 이상 대상. 기존 독감 백신 대비 약 27% 효능 우위. FDA 최종 결정 기한 8/5. ACIP 권고가 두 번째 관문. → [2026-06-18](/daily/2026-06-18.md)
