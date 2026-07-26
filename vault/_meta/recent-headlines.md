@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-26
+- FOMC D-3 + 빅테크 어닝즈 주 — 인상 확률 35% 급등, 7/29 MS·Meta·Q2 GDP·Apple·Amazon 72시간 밀집
+- centanafadine SIMTRIYO FDA 승인 — 최초 NDSRI 계열 ADHD 신약, 6세 이상 전 연령, 24년 만의 새 기전
+- Capricor deramiocel + Replimune RP1 AdCom 7/29 D-3 — DMD 세포치료·흑색종 OV 이진 이벤트 동시 밀집
+- Kimi K3 오픈웨이트 공개 임박 — 7/27 00:00 UTC, 2.8T MoE, 데이터 주권 논점 부상
+- Brent $97~100 고착 + 코스피 7/27 재개 — CENTCOM 14연속 이란 공습, 7월 누적 -23% 베어마켓
+
 ## 2026-07-25
 - Claude Opus 5 출시 — FrontierBench SOTA 43.3%, Fable 5 절반 가격, 에이전틱 AI 가격전쟁 본격화
 - 코스피 약 +5.8% 급반등 — 반도체 쇼트 스퀴즈, 외국인 연속 매수, FOMC D-4
@@ -56,12 +63,5 @@ publish: false
 - Padcev+Keytruda MIBC 수술 전후 platinum-free 첫 FDA 승인 — ADC+ICI perioperative 표준 첫 사례, 시스플라틴 적합성 무관
 - GLP-1 경구제(Lilly Foundayo) 신규 처방 2/3가 주사제 미경험자 — 전환 아닌 시장 순증 확인, Goldman 2030 Lilly 60% 점유
 - Sarclisa Escena 피하주사(Sanofi) FDA 승인 — 항암제 최초 온바디 인젝터(OBI) 투여 방식, 7/9 승인
-
-## 2026-07-18
-- Moonshot AI Kimi K3 공개 — 2.8조 파라미터 오픈웨이트 MoE, EDA 없이 48h 칩 설계 시연. SOX -5.7%(베어마켓, 6월 고점 대비 -20%), Cadence·Synopsys 각 -9%
-- Google Gemini 3.5 Pro 3차 지연 — 조직 중복 구조 문제, Alphabet -4.4%/-$200B, DeepMind 고참 4명 Anthropic 이직
-- 코스피 7/20 재개장 경계 — 제헌절 3일 공백 후 반도체·유가·AI 3중 충격, 분석가 전망 7,800~9,200포인트
-- 코오롱티슈진 TG-C 3상 1,066명 결과 7/20 전후 발표 임박 [후속] — 통증·기능·환자전반평가 복합 1차 엔드포인트
-- Otsuka centanafadine PDUFA D-6(7/24) — ADHD NDSRI 계열 첫 신약, 4건 3상+불안 동반 3b상 긍정
 
 
