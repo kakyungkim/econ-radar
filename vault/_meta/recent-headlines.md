@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-27
+- 한-미 $950B AI 칩 협약 + Nvidia-Naver $1B 전략 지분(4.5%, 204,500원/주, 납입 10/30), Naver +7.71%
+- CXMT 상하이 STAR마켓 상장 — 시총 125조원 추정, DRAM 4위 7.67%, 코스피 장중 6,557 급락 후 +0.97% 6,755.75 마감
+- Brent -6% $90.88 / WTI -5.6% $84.19 — 미-이란 공습 상호 중단, 지정학 리스크 프리미엄 급락
+- Kimi K3 2.8T MoE 오픈웨이트 공개 확인(HuggingFace, Modified MIT) — 역대 최대, 코딩 벤치마크 1위
+- Moderna mRNA-1010 PDUFA 8/5 — VRBPAC 9:0 만장일치, mRNA 플랫폼 독감 분야 최초 진입 분수령
+
 ## 2026-07-26
 - FOMC D-3 + 빅테크 어닝즈 주 — 인상 확률 35% 급등, 7/29 MS·Meta·Q2 GDP·Apple·Amazon 72시간 밀집
 - centanafadine SIMTRIYO FDA 승인 — 최초 NDSRI 계열 ADHD 신약, 6세 이상 전 연령, 24년 만의 새 기전
@@ -49,19 +56,5 @@ publish: false
 - 삼성전자 RX(Robotics eXperience) 사업부 CEO 직속 신설 — 전현대차 이동건 수석, 물리 AI 가속, 주가 +7.6%
 - 한국 7월 1~20일 수출 549억 달러 역대 최고 (+52.3%) — 반도체 221억 달러 +180.6%, 7월 중순 역대 최대
 - Dyne Therapeutics z-rostudirsen BLA FDA 우선심사 수락 — DMD 엑손 51, PDUFA 2027-01-21, 출시 목표 2027 Q1
-
-## 2026-07-20
-- KOSPI 7/20 재개장 -4.46%(6,516포인트), 쌍사이드카 발동 — SOX·Brent $90·Kimi K3 3중 충격 압축 소화, KOSDAQ 바이오 동반 급락
-- 코오롱티슈진 TG-C Study 1 1차 지표 유의성 미달 — 위약 반응 과잉, TKR 비율 0.6% vs 5.3% 긍정 이차지표, 10월 Study 2가 DMOAD 최종 분기점
-- 한국 ADC 3사 — LigaChem LCB71 ORR 77%, ABL Bio ABL209 FDA IND, Genome&Company 신규 타겟 ADC 기술이전 2026~2027 목표
-- 원화 국제화 로드맵 — MOEF·BOK 7/20 공동 발표, 2027년 24시간 역외 원화 결제, MSCI 선진국 편입 선결 조건 첫 단계
-- HLB 리보세라닙 3차 CRL — 효능 아닌 CMC 이슈, 항서제약 VAI 분류, CAPA 7/24 제출·8~9월 FDA 결론 예상
-
-## 2026-07-19
-- 코스피 7/20 재개장 D-1 — SOX 베어마켓(-20%)·Brent $88·Kimi K3 AI 인프라 충격 3중 누적, TG-C 발표 미확정
-- Kimi K3 독립 벤치마크 57점(Artificial Analysis) — Claude Opus 4.8(56점)·GPT-5.6 Terra(55점) 상회, 7/27 전체 가중치 공개 예정
-- Padcev+Keytruda MIBC 수술 전후 platinum-free 첫 FDA 승인 — ADC+ICI perioperative 표준 첫 사례, 시스플라틴 적합성 무관
-- GLP-1 경구제(Lilly Foundayo) 신규 처방 2/3가 주사제 미경험자 — 전환 아닌 시장 순증 확인, Goldman 2030 Lilly 60% 점유
-- Sarclisa Escena 피하주사(Sanofi) FDA 승인 — 항암제 최초 온바디 인젝터(OBI) 투여 방식, 7/9 승인
 
 
