@@ -3,7 +3,7 @@ date: 2026-07-27
 type: analysis
 analyst: company-scout
 tags: [유망기업, 바이오제약, AI테크, RP1AdComD2, deramiocelAdComD2, 모더나mRNA1010, NvidiaNaver투자, KimiK3공개확인, PDUFA, AdCom, mRNA, 세포치료, OV종양용해바이러스, 오픈웨이트]
-links: ["[[topics/바이오제약]]", "[[topics/AI]]", "[[topics/신약개발전략]]", "[[topics/유망기업]]", "[[topics/한국증시]]"]
+links: ["[[topics/바이오제약]]", "[[topics/AI]]", "[[topics/신약개발전략]]", "[[topics/유망기업]]", "[[topics/한국증시]]", "[[topics/FDA규제]]"]
 ---
 # 유망 기업·주목 플레이어 — 2026-07-27
 

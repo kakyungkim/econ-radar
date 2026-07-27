@@ -7,12 +7,18 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Kimi K3(2.8T MoE, Modified MIT) 오늘 밤 공개(7/26 20:00 ET)**: MXFP4 자체 호스팅 1.4TB 고속 메모리 요건. "중국 모델을 자사 서버에서 실행해 중국 데이터 리스크 차단"이라는 역설적 논리 등장. 의료·금융·법무 규제 산업 자체 호스팅 수요 자극 가능성.
-- **EU AI Act GPAI 집행 D-7(8/2 발동)**: Anthropic·Google·Meta·OpenAI 등 주요 제공자 전부 대상. 위반 시 전 세계 매출 3% 또는 €1,500만. 첫 집행 사례 기업·위반 유형이 업계 컴플라이언스 투자 방향 결정. 미국 탈규제와 AI 규제 지정학적 양극화 제도적 고착.
-- **빅테크 어닝즈 주 — AI 수익화 검증 타이밍**: 7/29 FOMC 직후 Microsoft·Meta 실적, 7/30 Apple·Amazon. Alphabet Google Cloud +82% 기대치 높인 상태. Azure AI·Meta AI 수익화 수치가 컨센서스 상회 여부가 금리 충격 흡수 가능성 결정.
-- **Claude Opus 5(7/25 출시) — FrontierBench 43.3% SOTA**: Fable 5·GPT-5.6 Sol 동시 상회. 입력 $5/출력 $25, Effort Control 추론 깊이 조절. 프론티어 모델 "성능=프리미엄" 공식 해체 신호 지속.
+- **Kimi K3(2.8T MoE, Modified MIT) 오늘(7/27) 공개 완료**: HuggingFace에 가중치 공개. Program Bench·SWE Marathon 등 코딩 벤치마크 1위, 독립 평가(Artificial Analysis)에서는 프론티어 근접(Claude Fable 5·GPT-5.6 Sol 다음). MXFP4 기준 1.4TB 고속 메모리 요건으로 대형 클라우드 수준 인프라 필요.
+- **Nvidia-Naver $10억 전략 지분 투자 확정**: 4.5% 지분, 납입 10월 30일. 한국 국가 AI 팩토리(1단계 200MW, Brookfield $90억 조달, 최종 1GW) 구축 허브. 국내 AI 컴퓨트 인프라 국산화의 첫 구체적 형태.
+- **Nvidia-OpenAI $250B 데이터센터 파이낸싱 협상(협상 초기·확정 아님)**: WSJ 7/26 보도. Nvidia 사업 모델이 칩 판매자→AI 인프라 금융 보증자로 이동하는 가능성. 결렬 시 단기 역풍.
+- **백악관 AI 프레임워크 8/1 + EU AI Act GPAI 8/2 — 24시간 복합 컴플라이언스**: 신규 프론티어 모델 공개 전 최대 30일 연방 검토(미국)·위반 시 전 세계 매출 3%(EU). 중국 Kimi K3 오픈웨이트는 두 규제 밖에서 서방 생태계를 먼저 선점하는 지정학 비대칭 전략.
 
 ## 타임라인
+### 2026-07-27 [[daily/2026-07-27]]
+- [[daily/2026-07-27]] Kimi K3 2.8T MoE 오픈웨이트 공개 확인 — Modified MIT 라이선스, MXFP4 기준 1.4TB 메모리 요건. 코딩·소프트웨어 벤치마크 1위, 독립 평가 프론티어 근접. 중국 모델 서방 엔터프라이즈 채택 지정학·보안 장벽 상존 → [[topics/거시정책]]
+- [[daily/2026-07-27]] Nvidia-Naver $10억 전략 지분 투자 확정 — 4.5%, 납입 10/30. 한국 AI 팩토리 1단계 200MW, Brookfield $90억 조달 구조. 국내 AI 컴퓨트 인프라 국산화 첫 구체화 → [[topics/한국증시]]
+- [[daily/2026-07-27]] Nvidia-OpenAI $250B 데이터센터 파이낸싱 협상(협상 초기, 확정 아님) — 칩 판매자→AI 인프라 금융 보증자 사업 모델 전환 가능성. 결렬 시 Nvidia 단기 역풍 → [[topics/반도체HBM]]
+- [[daily/2026-07-27]] 백악관 AI 프레임워크 8/1 + EU AI Act GPAI 8/2 임박 — 24시간 차이 복합 컴플라이언스. Kimi K3 오픈웨이트는 두 규제 밖에서 서방 생태계 선점하는 비대칭 전략으로 작동 → [[topics/거시정책]]
+
 ### 2026-07-26 [[daily/2026-07-26]]
 - [[daily/2026-07-26]] Kimi K3(2.8T MoE, Modified MIT) 오늘 밤 공개(HuggingFace) — MXFP4 자체 호스팅 1.4TB 요건. "중국 모델 자사 서버 실행으로 데이터 주권 확보" 역설적 논리 등장. 의료·금융·법무 규제 산업 자체 호스팅 수요 자극 가능성 → [[topics/거시정책]]
 - [[daily/2026-07-26]] EU AI Act GPAI 8/2 집행권 발동 D-7 — 벌금 상한 전 세계 매출 3% 또는 €1,500만. Anthropic·Google·Meta·OpenAI 등 주요 제공자 전부 대상. 첫 집행 사례가 업계 컴플라이언스 투자 방향 결정
