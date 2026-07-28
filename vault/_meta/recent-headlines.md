@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-28
+- 코스피 '검은 화요일' -10.84% — 중국 DUV 양산·CXMT 400% 급등 이중 충격, 서킷브레이커 1단계 발동
+- 중국 DUV 노광장비 양산 착수 — 위량성(SiCarrier·화웨이 연계) 2026년 5대 납품, ASML -7%
+- Capricor deramiocel AdCom D-1 — FDA 브리핑 "Hope-3 유효성 없음", 주가 -67%
+- FOMC D-1(7/29) + SK하이닉스·MS·Meta 실적 + RP1·deramiocel AdCom — 이벤트 집중
+- argenx, Forte Biosciences 22억 달러(약 3조 500억원) 인수 — 최초 항-CD122 항체 FB102
+
 ## 2026-07-27
 - 한-미 $950B AI 칩 협약 + Nvidia-Naver $1B 전략 지분(4.5%, 204,500원/주, 납입 10/30), Naver +7.71%
 - CXMT 상하이 STAR마켓 상장 — 시총 125조원 추정, DRAM 4위 7.67%, 코스피 장중 6,557 급락 후 +0.97% 6,755.75 마감
@@ -49,12 +56,4 @@ publish: false
 - 삼성바이오에피스-인투셀 SBE303 ADC 상업화 본계약 — Nectin-4 표적, OHPAS 링커, 글로벌 1상 149명 진행 중
 - BridgeBio encaleret NDA FDA 수락 — ADH1 최초 표적치료제 후보, PDUFA 2027-05-08, AdCom 없음
 - Google Gemini 3.6 Flash 출시 — 출력 단가 $7.50/M(-17%), DeepSWE 49%, GitHub Copilot 통합
-
-## 2026-07-21
-- 코스피 V자 반등 +3.56%(6,747.95) — 반도체 수출 역대 최고·삼성 RX 로봇 이중 촉매, 외국인+기관 약 2.2조 순매수
-- 코오롱 그룹주 4종 하한가(-29.9~30%) — TG-C Study 1 실패 시장 반응, 코오롱티슈진 42,900원, 10월 Study 2가 분기점
-- 삼성전자 RX(Robotics eXperience) 사업부 CEO 직속 신설 — 전현대차 이동건 수석, 물리 AI 가속, 주가 +7.6%
-- 한국 7월 1~20일 수출 549억 달러 역대 최고 (+52.3%) — 반도체 221억 달러 +180.6%, 7월 중순 역대 최대
-- Dyne Therapeutics z-rostudirsen BLA FDA 우선심사 수락 — DMD 엑손 51, PDUFA 2027-01-21, 출시 목표 2027 Q1
-
 
