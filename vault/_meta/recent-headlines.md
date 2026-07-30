@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-30
+- Microsoft Azure $100B 돌파(FY2026·+43% YoY) vs Meta Q2 EPS -13.4% 미스 — AI 투자 수익화 경로 분기
+- Capricor deramiocel AdCom 9:3 부결 — SAP 버전 충돌(v1.1 vs v3.0), PDUFA 8/22
+- 삼성전자 Q2 영업이익 89.5조원·OPM 52% 서프라이즈 + KOSPI 3일 연속 하락(-1.23%, 5,593.56)
+- Moderna mRNA-1010 PDUFA 8/5 D-6 — AdCom 9:0 만장일치, 미 최초 mRNA 독감 백신 분수령
+- FOMC 3명 인상 이탈표·9월 확률 75~82% + EU AI Act 8/2 GPAI 감독 발효 D-2
+
 ## 2026-07-29
 - KOSPI 2일 연속 서킷브레이커 — 6,000선 붕괴, 이틀 낙폭 합산 18%+, 시총 소멸 역대 최대
 - FOMC 5회 연속 동결 + Warsh 매파 기자회견 — 9월 인상 확률 62%→77% 급등
@@ -57,10 +64,4 @@ publish: false
 - centanafadine PDUFA 오늘(7/24) — NDSRI 최초 ADHD 신약, FDA 결정 대기 중
 - Alphabet Q2 Google Cloud +82% $24.8B — capex $205B 상향
 
-## 2026-07-23
-- 한국 Q2 GDP +0.6% QoQ(전망치 3배), 코스피 7,096.89(+4.40%) 7,000선 재탈환 — GDI +15.6% YoY 38년 최고, 외국인 2.1조 순매수
-- Brent $96.24(+2.37%) 5일 연속 상승 — 후티 사우디 유조선 Encelia·Layla 미사일·드론 공격, 7/21 대비 +$7.68
-- 삼성바이오에피스-인투셀 SBE303 ADC 상업화 본계약 — Nectin-4 표적, OHPAS 링커, 글로벌 1상 149명 진행 중
-- BridgeBio encaleret NDA FDA 수락 — ADH1 최초 표적치료제 후보, PDUFA 2027-05-08, AdCom 없음
-- Google Gemini 3.6 Flash 출시 — 출력 단가 $7.50/M(-17%), DeepSWE 49%, GitHub Copilot 통합
 
