@@ -2,6 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
+updated: 2026-07-30
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -10,12 +11,16 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Kimi K3 독립 벤치마크 57점(7/17) — 오픈소스 MoE 프런티어 진입**: Moonshot AI의 2.8조 파라미터 MoE가 Artificial Analysis 인텔리전스 인덱스에서 Claude Opus 4.8(약 56점)·GPT-5.6 Terra(약 55점)를 상회. 클로즈드 API 모델의 성능 프리미엄 논거가 약해지고 있다. 7/27 전체 가중치 공개 후 EDA 시연 독립 재현이 충격 지속 여부를 결정.
-- **SOX 기술적 베어마켓(-20%+, 7/17)**: Kimi K3 EDA 시연 충격으로 Cadence·Synopsys 각 -9%. 7/22 SK하이닉스 Q2 실적이 AI 인프라 수요 실증의 첫 반론 무대.
-- **Meta Compute 출범(7/1) — 클라우드 4강 체제**: AWS·Azure·Google Cloud에 이은 4번째 GPU 컴퓨팅 온디맨드 공급자. Llama·Muse Spark 번들. 약 3,000억달러(약 414조원) 시장 진입으로 GPU 컴퓨팅 단가 하락 압력 가속.
-- **TSMC Q2 AI 인프라 수요 실증(7/17)**: HPC 66%·capex $60~64B·CEO "수요>공급" 직접 확인. 장비·소재 업체(ASML·TEL·Lam Research·Applied Materials) 2~3년 수주 가시성 고정.
+- **Microsoft Azure FY2026 연간 $100B 돌파(+43%), Copilot 3,000만 유료 시트(7/30)**: AI 클라우드 수익화가 대규모로 첫 확인됐다. Satya Nadella CEO "수요가 공급 능력을 앞선다" 직접 발언. FY2027 capex $255~260B(+35% 전년비) 가이던스 제시.
+- **Meta Q2 EPS -13.4% 미스, FCF $784M 급감**: AI 인프라 직접 구축(capex $311B) 전략이 단기 수익에 먼저 압박으로 작용. 같은 AI 투자 사이클에서도 임대 모델(수익화 선행) vs 직접 구축 모델(비용 선행)의 성과가 이날 극명히 갈렸다.
+- **SOX 베어마켓(-20%+) 지속, 섹터 시총 $3.3조 소각**: 삼성전자 Q2 OPM 52% 서프라이즈도 섹터 반등을 이끌지 못했다. 개별 기업 실적과 섹터 주가의 괴리 심화. 중국 DUV 자립화·CXMT 상장 우려가 지속 배경.
+- **EU AI Act 8/2 GPAI 감독·벌금 권한 발효 D-2**: 준비 완료 기업 22%뿐. 벌금 상한 전 세계 매출 3% 또는 €1,500만 중 높은 쪽. AI 컴플라이언스 솔루션 수요가 즉각 개막하는 구조.
 
 ## 타임라인
+### 2026-07-30 [[daily/2026-07-30]]
+- [[daily/2026-07-30]] Microsoft Azure FY2026 연간 $100B 돌파(+43%), Copilot 3,000만 유료 시트 — AI 클라우드 수익화 대규모 첫 확인. FY2027 capex $255~260B(+35% 전년비) 가이던스. Meta Q2 EPS -13.4% 미스·FCF $784M 급감으로 AI 직접 구축 비용 선행 압박 확인 → 임대 모델 vs 구축 모델 수익화 경로 분기 → [[topics/반도체HBM]]
+- [[daily/2026-07-30]] EU AI Act 8/2 GPAI 감독·벌금 발효 D-2 — 준비 완료 기업 22%, 벌금 매출 3%·€1,500만 중 높은 쪽. AI 컴플라이언스 솔루션 즉각 수요 개막 → [[topics/거시금리]]
+
 ### 2026-07-19 [[daily/2026-07-19]]
 - [[daily/2026-07-19]] Kimi K3 Artificial Analysis 인텔리전스 인덱스 57점 확인 — Claude Opus 4.8(약 56점)·GPT-5.6 Terra(약 55점) 상회. 오픈소스 MoE 독립 측정 기관 최초 클로즈드 프런티어 동급 이상 기록. 7/27 전체 가중치 공개·EDA 기술보고서 병행 예정. 가중치 공개 후 커뮤니티 독립 재현이 완전 확정 단계 → [[topics/반도체AI인프라]]
 - [[daily/2026-07-19]] Meta Compute 출범 후속 정리 — AWS·Azure·Google Cloud에 이은 4번째 GPU 온디맨드 공급자. Llama·Muse Spark 번들 형태로 약 3,000억달러(약 414조원) 클라우드 시장 진입. 기업 고객 신뢰·글로벌 데이터센터 커버리지·SOC2·HIPAA 인증에서 3강 열위 잔존 → [[topics/AI]]
