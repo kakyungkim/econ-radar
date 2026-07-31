@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-07-31
+- 코스피 +17.91% 역대 최대 단일일 폭등(6,595.45) — 외국인 7.25조원 순매수, Amazon AWS·Microsoft Azure AI 실수요 확인
+- Replimune RP1 AdCom 10:3 찬성 — 항PD-1 불응 흑색종 OV 병용, PDUFA 8/2, REPL AH +127%
+- Amazon Q2 AWS +37% 18분기 최고·$200.6B 첫 돌파 + Apple 메모리 "100년 홍수" 경고 AH -7%
+- 미 Q2 GDP +1.5%(컨센 하회)·PCE +5.1% 가속 — 스태그플레이션 패턴, 9월 인상 72~82%
+- OpenAI GPT-5.6 Luna 80% 인하 + EU AI Act GPAI 감독 D-1(8/2 발효)
+
 ## 2026-07-30
 - Microsoft Azure $100B 돌파(FY2026·+43% YoY) vs Meta Q2 EPS -13.4% 미스 — AI 투자 수익화 경로 분기
 - Capricor deramiocel AdCom 9:3 부결 — SAP 버전 충돌(v1.1 vs v3.0), PDUFA 8/22
@@ -56,12 +63,5 @@ publish: false
 - Replimune RP1 AdCom D-4(7/29) — PDUFA 8/2, 반응군 OS 83.5%, 브리핑 서류 7/27~28 공개
 - Brent $97~100 구간 + FOMC 7/29 — 유가 고착이 연준 선택지를 좁힌다, CME FedWatch 동결 ~63-65%
 - HLB 리보세라닙 완제공장 CAPA 7/25 제출 — DS VAI 해소 후 마지막 제조 관문
-
-## 2026-07-24
-- Brent $100.69 돌파 — 이란 IRGC 호르무즈 "완전 통제" 선언, Goldman $120 경보
-- 코스피 -5.72% 6,690 매도 사이드카 — 유가·관세·금리 3중 충격, 외국인 1.75조 이탈
-- HLB 리라퓨그라티닙 LCM 완료 "이견 없음" — PDUFA 9/25 순항, FGFR2 담관암
-- centanafadine PDUFA 오늘(7/24) — NDSRI 최초 ADHD 신약, FDA 결정 대기 중
-- Alphabet Q2 Google Cloud +82% $24.8B — capex $205B 상향
 
 
