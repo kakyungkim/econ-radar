@@ -8,12 +8,15 @@ updated: 2026-07-30
 > 범위: 미국 FDA 신약 심사 프로세스(AdCom·PDUFA·CRL·가속승인), 주요 허가·불허가 사례, 모달리티별 규제 선례.
 
 ## 핵심 흐름
-- **Capricor deramiocel AdCom 9:3 부결(7/29)**: 쟁점은 임상 데이터 품질이 아닌 SAP 버전 충돌(v1.1 vs v3.0). FDA 내부 초안 기준 12개월 종점 유의성 없음으로 판정. PDUFA 8/22까지 최종 결정. 알로제닉 세포치료 모달리티 자체의 부정적 선례가 아니라 분석 프로토콜 무결성 실패 사례로 분류된다.
-- **Replimune RP1 AdCom(7/30, 결과 미확인)**: IGNYTE 단일군 2상 OS 분석을 FDA가 "해석 불가(not interpretable)"로 판정한 상태에서 심의 진행. Capricor 부결 다음 날이라 단일군 설계에 불리한 분위기. PDUFA 8/2(영업일 기준 8/3).
-- **Moderna mRNA-1010 PDUFA 8/5 D-6**: VRBPAC 9:0 만장일치. mRNA 기반 계절 독감 백신 미국 최초 허가 분수령. 50~64세 완전승인·65세 이상 가속승인 이원 경로. 라벨에 붙는 단서 조건이 상업화 범위를 결정한다.
-- **8월 허가 이벤트 3연속**: RP1 PDUFA(8/2~3) → mRNA-1010 PDUFA(8/5) → Capricor PDUFA(8/22). 3주 안에 세 이진 이벤트가 집중된다.
+- **Replimune RP1 AdCom 10:3 찬성(7/30)·PDUFA 8/2(내일)**: FDA가 "해석 불가(not interpretable)"로 판정한 단일군 OS 데이터에도 불구하고 자문위는 10:3으로 찬성했다. 항PD-1 불응 흑색종 미충족 수요가 설계 결함을 넘어섰다. 8/2 최종 결정.
+- **Capricor deramiocel AdCom 9:3 부결(7/29)·PDUFA 8/22**: SAP 버전 충돌(v1.1 vs v3.0)이 임상 데이터를 덮었다. 알로제닉 세포치료 모달리티 자체의 부정 선례가 아닌 분석 프로토콜 문서화 실패 사례.
+- **Moderna mRNA-1010 PDUFA 8/5 D-5**: VRBPAC 9:0. 미국 최초 mRNA 독감 백신 분수령. 50~64세 완전승인·65세 이상 가속승인 이원 경로.
+- **8월 허가 이벤트 3연속**: RP1(8/2) → mRNA-1010(8/5) → deramiocel(8/22). 3주 안에 OV·mRNA·세포치료 세 모달리티가 동시 심사 결론을 낸다.
 
 ## 타임라인
+### 2026-07-31 [[daily/2026-07-31]]
+- [[daily/2026-07-31]] RP1 AdCom 10:3 찬성(7/30)·PDUFA 8/2 내일 — FDA "해석 불가" 판정 불구 자문위 다수 찬성. Capricor deramiocel 9:3 부결(7/29) 바로 다음 날 반전. Moderna mRNA-1010 PDUFA 8/5 D-5. 8/2→8/5→8/22 이진 이벤트 3연속 진입 → [[analysis/market-2026-07-31]] [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-07-30 [[daily/2026-07-30]]
 - [[daily/2026-07-30]] Capricor deramiocel AdCom 9:3 부결(7/29) — SAP 버전 충돌(v1.1 vs v3.0) 원인. 임상 데이터 품질 문제 아닌 분석 프로토콜 무결성 실패. PDUFA 8/22. Replimune RP1 AdCom 오늘(7/30) 진행, 결과 미확인, PDUFA 8/2~3. Moderna mRNA-1010 PDUFA D-6(8/5), AdCom 9:0 만장일치 → [[topics/신약개발전략]] [[topics/mRNA플랫폼]]
 
