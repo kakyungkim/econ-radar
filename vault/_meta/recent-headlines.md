@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-02
+- Replimune RP1 PDUFA 8/2 당일 — AdCom 10:3 통과, FDA 최종 결정 대기(수집 시점 미확인), OV+ICI 최초 허가 가능성
+- 한국 7월 수출 $98.9B 역대 2위 — 반도체 $41B·+179% YoY, 무역흑자 $30.3B, 2개월 연속 $40B 돌파
+- EU AI Act GPAI 집행 발효 + 캘리포니아 SB 942 동시 시행 — 과징금 3%, 챗봇 고지·딥페이크 레이블 즉시 집행
+- 빅테크 Q2 CapEx 양극화 — MS/Amazon '수요 연결' 보상(+8%/+10%), Meta/Alphabet '증거 부재' 징벌(-10%/-15%)
+- GLP-1 경구제 양강(Lilly Foundayo + Novo 경구 Wegovy) + Medicare $50/월 급여 7/1 시행
+
 ## 2026-07-31
 - 코스피 +17.91% 역대 최대 단일일 폭등(6,595.45) — 외국인 7.25조원 순매수, Amazon AWS·Microsoft Azure AI 실수요 확인
 - Replimune RP1 AdCom 10:3 찬성 — 항PD-1 불응 흑색종 OV 병용, PDUFA 8/2, REPL AH +127%
@@ -56,12 +63,5 @@ publish: false
 - Capricor deramiocel + Replimune RP1 AdCom 7/29 D-3 — DMD 세포치료·흑색종 OV 이진 이벤트 동시 밀집
 - Kimi K3 오픈웨이트 공개 임박 — 7/27 00:00 UTC, 2.8T MoE, 데이터 주권 논점 부상
 - Brent $97~100 고착 + 코스피 7/27 재개 — CENTCOM 14연속 이란 공습, 7월 누적 -23% 베어마켓
-
-## 2026-07-25
-- Claude Opus 5 출시 — FrontierBench SOTA 43.3%, Fable 5 절반 가격, 에이전틱 AI 가격전쟁 본격화
-- 코스피 약 +5.8% 급반등 — 반도체 쇼트 스퀴즈, 외국인 연속 매수, FOMC D-4
-- Replimune RP1 AdCom D-4(7/29) — PDUFA 8/2, 반응군 OS 83.5%, 브리핑 서류 7/27~28 공개
-- Brent $97~100 구간 + FOMC 7/29 — 유가 고착이 연준 선택지를 좁힌다, CME FedWatch 동결 ~63-65%
-- HLB 리보세라닙 완제공장 CAPA 7/25 제출 — DS VAI 해소 후 마지막 제조 관문
 
 
