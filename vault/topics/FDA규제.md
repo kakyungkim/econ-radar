@@ -8,12 +8,17 @@ updated: 2026-07-30
 > 범위: 미국 FDA 신약 심사 프로세스(AdCom·PDUFA·CRL·가속승인), 주요 허가·불허가 사례, 모달리티별 규제 선례.
 
 ## 핵심 흐름
-- **Replimune RP1 AdCom 10:3 찬성(7/30)·PDUFA 8/2(내일)**: FDA가 "해석 불가(not interpretable)"로 판정한 단일군 OS 데이터에도 불구하고 자문위는 10:3으로 찬성했다. 항PD-1 불응 흑색종 미충족 수요가 설계 결함을 넘어섰다. 8/2 최종 결정.
-- **Capricor deramiocel AdCom 9:3 부결(7/29)·PDUFA 8/22**: SAP 버전 충돌(v1.1 vs v3.0)이 임상 데이터를 덮었다. 알로제닉 세포치료 모달리티 자체의 부정 선례가 아닌 분석 프로토콜 문서화 실패 사례.
-- **Moderna mRNA-1010 PDUFA 8/5 D-5**: VRBPAC 9:0. 미국 최초 mRNA 독감 백신 분수령. 50~64세 완전승인·65세 이상 가속승인 이원 경로.
-- **8월 허가 이벤트 3연속**: RP1(8/2) → mRNA-1010(8/5) → deramiocel(8/22). 3주 안에 OV·mRNA·세포치료 세 모달리티가 동시 심사 결론을 낸다.
+- **Replimune RP1 FDA 결정 8/3 당일(수집 시점 미확인)**: AdCom 10:3(7/30) 통과 후 PDUFA 8/2 목표일 넘어 오늘 결정 예상. 수집 시점 최종 결과 미확인. 세 번째 BLA 재심사. 승인 시 OV+ICI 단독군 임상 설계의 최초 허가 선례 확립.
+- **Regeneron garetosmab FOP Priority Review·Breakthrough 지정 — 8월 목표일**: Phase 3 OPTIMA 이소성 골화 병변 수 -94%(3mg/kg)·부피 >-99%. 세계 최초 FOP 근본 치료제 결정 임박. 초희귀 질환(900명 미만) 첫 승인 선례.
+- **Moderna mRNA-1010 PDUFA 8/5 D-2**: VRBPAC 9:0 만장일치. mRNA 플랫폼 독감 첫 진입. 50~64세 완전승인·65세 이상 가속승인 이원 경로 예상.
+- **8월 FDA 이벤트 클러스터**: RP1(8/3 결정 대기)→mRNA-1010(8/5)→이베르도마이드(8/17)→deramiocel(8/22)→DTX401(8/23). 5건이 3주 내 집중. OV·mRNA·세포치료·CELMoD·유전자치료 5개 모달리티 동시 심사 결론.
 
 ## 타임라인
+### 2026-08-03 [[daily/2026-08-03]]
+- [[daily/2026-08-03]] Replimune RP1 FDA 결정 당일(수집 시점 미확인) — AdCom 10:3(7/30) 후 PDUFA 8/2 목표일 넘어 오늘 결정 예상. 수집 시점 최종 결과 미확인. 세 번째 BLA 재심사. OV+ICI 단독군 최초 허가 여부가 이 모달리티 전체 규제 선례 결정 → [[topics/바이오제약]] [[topics/신약개발전략]]
+- [[daily/2026-08-03]] Regeneron garetosmab FOP Priority Review 8월 목표일 — 이소성 골화 병변 수 -94%·부피 >-99%(3mg/kg). Breakthrough Therapy 지정. 세계 최초 FOP 근본 치료제 결정 임박. 초희귀 질환 급여 저항 낮은 구조(환자 수 적어 지불자 총비용 부담 제한) → [[topics/바이오제약]] [[topics/신약개발전략]]
+- [[daily/2026-08-03]] J&J Rybrevant FASPRO HNSCC Priority Review 수락(7/30) — EGFR/MET 피하주사 이중 표적 HNSCC sBLA 우선심사. OrigAMI-4 ORR 42%. 6개월 심사 기간 단축 → [[topics/바이오제약]]
+
 ### 2026-07-31 [[daily/2026-07-31]]
 - [[daily/2026-07-31]] RP1 AdCom 10:3 찬성(7/30)·PDUFA 8/2 내일 — FDA "해석 불가" 판정 불구 자문위 다수 찬성. Capricor deramiocel 9:3 부결(7/29) 바로 다음 날 반전. Moderna mRNA-1010 PDUFA 8/5 D-5. 8/2→8/5→8/22 이진 이벤트 3연속 진입 → [[analysis/market-2026-07-31]] [[topics/바이오제약]] [[topics/신약개발전략]]
 
