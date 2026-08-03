@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-03
+- KOSPI -5.12%(6,257.45) vs KOSDAQ +2.44% — 7/31 역대 폭등 직후 차익 실현, 삼성전자 -8.76%·SK하이닉스 -8.79%, 바이오 섹터 로테이션
+- Replimune RP1 FDA 최종 결정 오늘 대기 — AdCom 10:3, SEC 공모 준비 포착, 수집 시점 결과 미확인
+- Anthropic 10월 나스닥 IPO 추진 — $965B 밸류, ARR $47B, Claude Code 코딩 점유 54%
+- Regeneron garetosmab — FOP 최초 치료제 후보, 8월 FDA 결정 임박, HO 병변 최대 94% 감소
+- BOK 8/27 금통위 D-24 — 2연속 인상론(신한·씨티·JP모간) vs 10월 연기론 팽팽
+
 ## 2026-08-02
 - Replimune RP1 PDUFA 8/2 당일 — AdCom 10:3 통과, FDA 최종 결정 대기(수집 시점 미확인), OV+ICI 최초 허가 가능성
 - 한국 7월 수출 $98.9B 역대 2위 — 반도체 $41B·+179% YoY, 무역흑자 $30.3B, 2개월 연속 $40B 돌파
@@ -56,12 +63,5 @@ publish: false
 - Brent -6% $90.88 / WTI -5.6% $84.19 — 미-이란 공습 상호 중단, 지정학 리스크 프리미엄 급락
 - Kimi K3 2.8T MoE 오픈웨이트 공개 확인(HuggingFace, Modified MIT) — 역대 최대, 코딩 벤치마크 1위
 - Moderna mRNA-1010 PDUFA 8/5 — VRBPAC 9:0 만장일치, mRNA 플랫폼 독감 분야 최초 진입 분수령
-
-## 2026-07-26
-- FOMC D-3 + 빅테크 어닝즈 주 — 인상 확률 35% 급등, 7/29 MS·Meta·Q2 GDP·Apple·Amazon 72시간 밀집
-- centanafadine SIMTRIYO FDA 승인 — 최초 NDSRI 계열 ADHD 신약, 6세 이상 전 연령, 24년 만의 새 기전
-- Capricor deramiocel + Replimune RP1 AdCom 7/29 D-3 — DMD 세포치료·흑색종 OV 이진 이벤트 동시 밀집
-- Kimi K3 오픈웨이트 공개 임박 — 7/27 00:00 UTC, 2.8T MoE, 데이터 주권 논점 부상
-- Brent $97~100 고착 + 코스피 7/27 재개 — CENTCOM 14연속 이란 공습, 7월 누적 -23% 베어마켓
 
 
