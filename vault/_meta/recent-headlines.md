@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-04
+- Moderna mFLUSIVA(mRNA-1010) PDUFA D-1 — 내일(8/5) 미국 최초 mRNA 독감백신 결판, AdCom 9:0
+- 미-이란 평화협상 재개 → WTI -5.97%·Brent -4.68% 급락, 이란 즉각 부인으로 불확실성 잔존
+- Amazon 시총 $3T(약 4,170조원 추정) 첫 돌파, Nasdaq +2.1% 빅테크 랠리, Ai4 컨퍼런스 거버넌스 화두
+- KOSPI +1.62%(6,358.95) 반등·KOSDAQ +5.88% 3연속 사이드카, 바이오·소부장 투심 이동 지속
+- ISM 제조업 PMI 7월 55.6%(예상 54.0 상회), 4년 최고·고용 33개월 만에 확장
+
 ## 2026-08-03
 - KOSPI -5.12%(6,257.45) vs KOSDAQ +2.44% — 7/31 역대 폭등 직후 차익 실현, 삼성전자 -8.76%·SK하이닉스 -8.79%, 바이오 섹터 로테이션
 - Replimune RP1 FDA 최종 결정 오늘 대기 — AdCom 10:3, SEC 공모 준비 포착, 수집 시점 결과 미확인
@@ -56,12 +63,5 @@ publish: false
 - Capricor deramiocel AdCom D-1 — FDA 브리핑 "Hope-3 유효성 없음", 주가 -67%
 - FOMC D-1(7/29) + SK하이닉스·MS·Meta 실적 + RP1·deramiocel AdCom — 이벤트 집중
 - argenx, Forte Biosciences 22억 달러(약 3조 500억원) 인수 — 최초 항-CD122 항체 FB102
-
-## 2026-07-27
-- 한-미 $950B AI 칩 협약 + Nvidia-Naver $1B 전략 지분(4.5%, 204,500원/주, 납입 10/30), Naver +7.71%
-- CXMT 상하이 STAR마켓 상장 — 시총 125조원 추정, DRAM 4위 7.67%, 코스피 장중 6,557 급락 후 +0.97% 6,755.75 마감
-- Brent -6% $90.88 / WTI -5.6% $84.19 — 미-이란 공습 상호 중단, 지정학 리스크 프리미엄 급락
-- Kimi K3 2.8T MoE 오픈웨이트 공개 확인(HuggingFace, Modified MIT) — 역대 최대, 코딩 벤치마크 1위
-- Moderna mRNA-1010 PDUFA 8/5 — VRBPAC 9:0 만장일치, mRNA 플랫폼 독감 분야 최초 진입 분수령
 
 
