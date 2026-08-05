@@ -10,12 +10,15 @@ publish: false
 > GLP-1 외 적응증 확장(MASH 등)은 [[topics/GLP-1비만치료]] 참조.
 
 ## 핵심 흐름
-- **GLP-1 경구제 — 시장 확장 데이터 확인(7/19)**: Lilly Foundayo 신규 처방의 약 2/3가 기존 GLP-1 주사제 미경험자. 주사제 시장 잠식이 아닌 시장 확장. 주사 거부감으로 치료를 시작하지 못하던 환자층이 유입되며 총 유병 시장(TAM) 재산정 필요 신호.
-- **Goldman Sachs 2030 경구 GLP-1 추정**: Lilly 약 60%(약 136억달러·약 18조8,000억원)·Novo Nordisk 약 21%(약 40억달러·약 5조5,000억원). 소분자 경구 GLP-1에서 Lilly 선점 반영.
-- **경구 GLP-1 2강 구도**: Lilly Foundayo(오르플로르글리프론·소분자·비펩타이드) vs Novo Nordisk 경구 Wegovy(세마글루타이드·펩타이드 경구 제형). Novo 경구 Wegovy 출시 3주 내 주간 처방 5만 건 돌파.
+- **Pfizer 경구 GLP-1 2건 드롭 — Novo·Lilly·Roche 3강 구도 확정**: MET-224o(Phase 1, 100억달러 Metsera 인수 핵심 자산)·GIPR 길항제 PF-07976016(Phase 2) 동시 중단. 경구 GLP-1 경쟁에서 Pfizer가 물러서며 기존 선도 3사 구도가 더 선명해졌다.
+- **Pfizer 잔존 비만 전략 — berobenatide 단일 트랙**: 월 1회 주사형, Phase 3(10개 스터디). 결과는 2027~2028년. 주 1회 투여 세마글루타이드 대비 투여 빈도 절반 차별화 가설. Phase 3 실패 시 Pfizer 비만 전략 전체 재검토 필요.
+- **경구 GLP-1 2강 구도 유지**: Lilly Foundayo(오르플로르글리프론·소분자) vs Novo Nordisk 경구 Wegovy(세마글루타이드 펩타이드 경구 제형). Foundayo 신규 처방 2/3가 주사제 미경험자 — 시장 확장 구조 실증.
 - **지불자 장벽**: 경구제 급여 확대 시 적격 환자 급증으로 보험 재정 부담 직선 증가. 장기 심혈관·신장 결과 데이터 부재가 지불자의 광범위 급여 지연 명분.
 
 ## 타임라인
+### 2026-08-05 [[daily/2026-08-05]]
+- [[daily/2026-08-05]] Pfizer GLP-1 경구 2건 드롭(MET-224o Phase 1·PF-07976016 Phase 2) — 100억달러 인수 핵심 자산 조기 정리. berobenatide(월 1회 주사, Phase 3) 단일 트랙. 경구 GLP-1 Novo·Lilly·Roche 3강 구도 확정 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-07-19 [[daily/2026-07-19]]
 - [[daily/2026-07-19]] Foundayo(오르플로르글리프론) 신규 처방 2/3 주사제 미경험자 확인 — 경구 GLP-1 4월 출시 후 첫 처방 패턴 데이터. 시장 확장 구조 실증. 경구 Wegovy(Novo)와 2강 경쟁 본격화. Goldman 2030 Lilly 60%·Novo 21% 경구 세그먼트 추정. 지불자 급여 속도가 TAM 실현 규모 결정 → [[topics/바이오제약]] [[topics/GLP-1경구제]]
 

@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-05
+- Moderna mFLUSIVA PDUFA 당일 — 미국 최초 mRNA 독감백신 FDA 결정, 한국 시간 수집 기준 결과 미확인
+- KOSPI +3.76%(6,598) · S&P 500 신고가 7,736 — SoftBank Cloud+AI +31% 아시아 랠리 파급
+- AMD Q2 데이터센터 +107% · EPS 서프라이즈, 시간 외 -8% — 기대 격차 패턴 재확인
+- Pfizer Q2 $15.03B 가이던스 상향 + GLP-1 경구제 2건 중단, berobenatide 단일 트랙 수렴
+- BMS iberdomide PDUFA D-12(8/17) — 최초 CELMoD 제제 허가 임박, Replimune RP1 결정 지연·8-K 2건
+
 ## 2026-08-04
 - Moderna mFLUSIVA(mRNA-1010) PDUFA D-1 — 내일(8/5) 미국 최초 mRNA 독감백신 결판, AdCom 9:0
 - 미-이란 평화협상 재개 → WTI -5.97%·Brent -4.68% 급락, 이란 즉각 부인으로 불확실성 잔존
@@ -50,18 +57,5 @@ publish: false
 - Moderna mRNA-1010 PDUFA 8/5 D-6 — AdCom 9:0 만장일치, 미 최초 mRNA 독감 백신 분수령
 - FOMC 3명 인상 이탈표·9월 확률 75~82% + EU AI Act 8/2 GPAI 감독 발효 D-2
 
-## 2026-07-29
-- KOSPI 2일 연속 서킷브레이커 — 6,000선 붕괴, 이틀 낙폭 합산 18%+, 시총 소멸 역대 최대
-- FOMC 5회 연속 동결 + Warsh 매파 기자회견 — 9월 인상 확률 62%→77% 급등
-- SK하이닉스 Q2 역대 최고 실적(OP 60.5조원·OPM 76%) — 컨센서스(64.1조원) 5.4% 하회, HBM4 양산 공식 시작
-- Replimune RP1 FDA "데이터 해석 불가" — REPL -32%, AdCom 7/30(내일), PDUFA 8/2
-- EU AI Act 8/2 시행 D-4 — 미준비 기업 78%, GPAI 벌금 권한(매출 3%) 발효
-
-## 2026-07-28
-- 코스피 '검은 화요일' -10.84% — 중국 DUV 양산·CXMT 400% 급등 이중 충격, 서킷브레이커 1단계 발동
-- 중국 DUV 노광장비 양산 착수 — 위량성(SiCarrier·화웨이 연계) 2026년 5대 납품, ASML -7%
-- Capricor deramiocel AdCom D-1 — FDA 브리핑 "Hope-3 유효성 없음", 주가 -67%
-- FOMC D-1(7/29) + SK하이닉스·MS·Meta 실적 + RP1·deramiocel AdCom — 이벤트 집중
-- argenx, Forte Biosciences 22억 달러(약 3조 500억원) 인수 — 최초 항-CD122 항체 FB102
 
 
