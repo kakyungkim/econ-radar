@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-06
+- Moderna mFLUSIVA FDA 승인 — 미국 최초 mRNA 독감백신, 50세+ 대상(50~64 정식·65+ 가속), 독감 시장 구도 변화 시작
+- Eli Lilly Q2 +48% $23B, Mounjaro $9.9B · Foundayo 경구 GLP-1 첫 분기 $98M, 연간 가이던스 $85~87B 상향
+- KOSPI -4.58% 6,296.38, KRX 매도 사이드카 — AMD 마진 미스(-8% 시간 외) 여파, SK하이닉스 -10.37%·삼성전자 -6.3%
+- ADP 7월 민간 고용 44K(컨센서스 70K 대폭 하회) — NFP 8/7 D-1, 연준 9월 인하 기대 가열
+- Pathos AI + Alphamab JSKN016 TROP2/HER3 이중특이성 ADC 글로벌 라이선스 $22억 — AI 플랫폼이 중국 3상 에셋 직접 인라이선스
+
 ## 2026-08-05
 - Moderna mFLUSIVA PDUFA 당일 — 미국 최초 mRNA 독감백신 FDA 결정, 한국 시간 수집 기준 결과 미확인
 - KOSPI +3.76%(6,598) · S&P 500 신고가 7,736 — SoftBank Cloud+AI +31% 아시아 랠리 파급
@@ -49,13 +56,6 @@ publish: false
 - Amazon Q2 AWS +37% 18분기 최고·$200.6B 첫 돌파 + Apple 메모리 "100년 홍수" 경고 AH -7%
 - 미 Q2 GDP +1.5%(컨센 하회)·PCE +5.1% 가속 — 스태그플레이션 패턴, 9월 인상 72~82%
 - OpenAI GPT-5.6 Luna 80% 인하 + EU AI Act GPAI 감독 D-1(8/2 발효)
-
-## 2026-07-30
-- Microsoft Azure $100B 돌파(FY2026·+43% YoY) vs Meta Q2 EPS -13.4% 미스 — AI 투자 수익화 경로 분기
-- Capricor deramiocel AdCom 9:3 부결 — SAP 버전 충돌(v1.1 vs v3.0), PDUFA 8/22
-- 삼성전자 Q2 영업이익 89.5조원·OPM 52% 서프라이즈 + KOSPI 3일 연속 하락(-1.23%, 5,593.56)
-- Moderna mRNA-1010 PDUFA 8/5 D-6 — AdCom 9:0 만장일치, 미 최초 mRNA 독감 백신 분수령
-- FOMC 3명 인상 이탈표·9월 확률 75~82% + EU AI Act 8/2 GPAI 감독 발효 D-2
 
 
 
