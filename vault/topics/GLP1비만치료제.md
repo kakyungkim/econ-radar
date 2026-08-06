@@ -16,6 +16,9 @@ publish: false
 - **지불자 장벽**: 경구제 급여 확대 시 적격 환자 급증으로 보험 재정 부담 직선 증가. 장기 심혈관·신장 결과 데이터 부재가 지불자의 광범위 급여 지연 명분.
 
 ## 타임라인
+### 2026-08-06 [[daily/2026-08-06]]
+- [[daily/2026-08-06]] Eli Lilly Q2 +48% $23B — Mounjaro $9.9B(+91%)·Foundayo 첫 분기 $98M. 연간 가이던스 $85~87B 상향. Novo Nordisk 주가 -5%: CagriSema 비열등성 실패 지속 할인. GLP-1 경구제 경쟁 격차 가시화 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-08-05 [[daily/2026-08-05]]
 - [[daily/2026-08-05]] Pfizer GLP-1 경구 2건 드롭(MET-224o Phase 1·PF-07976016 Phase 2) — 100억달러 인수 핵심 자산 조기 정리. berobenatide(월 1회 주사, Phase 3) 단일 트랙. 경구 GLP-1 Novo·Lilly·Roche 3강 구도 확정 → [[topics/바이오제약]] [[topics/신약개발전략]]
 
