@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-08
+- [수정] 미 7월 NFP BLS 실제치 -23,000명 — 전일 SIA 추정치(+73K) 방향 반전, S&P 500 신고가 7,757.64(주간 +3.58%) 역방향 랠리
+- AMD Taalas 인수(8/6) — AI 추론 특화 칩 스타트업, NVIDIA 범용 GPU 대항 포석, Q4 규제 승인 예정
+- Ultragenyx DTX401 PDUFA 8/23 — GSDIa 최초 유전자치료제(AAV8) FDA 결정 임박, Priority Review·BT 지정
+- 호르무즈 협상 진전 — 이란-오만 수로 방향 잠정 합의, 공동 성명 최종 초안 단계, 최종 미결
+- Mediar Therapeutics-Ono Pharmaceutical 섬유증 항체 공동개발(8/6) — 일본 대형사+미국 바이오텍 발굴 파트너십
+
 ## 2026-08-07
 - 미 7월 NFP +73K — 컨센서스(FactSet 97.5K) 하회, 2개월 연속 고용 냉각, 연준 9월 25bp 인하 기대 강화
 - Replimune TUDRIQEV(RP1+니볼루맙) FDA 가속 승인 — 두 차례 CRL 역전, OV+ICI 최초 병용 허가, ORR 24.2% mDOR 14.1개월
@@ -56,13 +63,5 @@ publish: false
 - EU AI Act GPAI 집행 발효 + 캘리포니아 SB 942 동시 시행 — 과징금 3%, 챗봇 고지·딥페이크 레이블 즉시 집행
 - 빅테크 Q2 CapEx 양극화 — MS/Amazon '수요 연결' 보상(+8%/+10%), Meta/Alphabet '증거 부재' 징벌(-10%/-15%)
 - GLP-1 경구제 양강(Lilly Foundayo + Novo 경구 Wegovy) + Medicare $50/월 급여 7/1 시행
-
-## 2026-07-31
-- 코스피 +17.91% 역대 최대 단일일 폭등(6,595.45) — 외국인 7.25조원 순매수, Amazon AWS·Microsoft Azure AI 실수요 확인
-- Replimune RP1 AdCom 10:3 찬성 — 항PD-1 불응 흑색종 OV 병용, PDUFA 8/2, REPL AH +127%
-- Amazon Q2 AWS +37% 18분기 최고·$200.6B 첫 돌파 + Apple 메모리 "100년 홍수" 경고 AH -7%
-- 미 Q2 GDP +1.5%(컨센 하회)·PCE +5.1% 가속 — 스태그플레이션 패턴, 9월 인상 72~82%
-- OpenAI GPT-5.6 Luna 80% 인하 + EU AI Act GPAI 감독 D-1(8/2 발효)
-
 
 
