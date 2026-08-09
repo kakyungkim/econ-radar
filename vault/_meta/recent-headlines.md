@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-09
+- 릴리 retatrutide Phase 3 5관왕(TRIUMPH-2~4 포함) — 삼중-G 비만치료, Q1 2027 BLA 확정, GLP-1→삼중-G 경쟁 축 전환
+- 구글 딥마인드 CEO 교체(8/5) — 하사비스 퇴진·카부크추올루 SVP 승계, 제프 딘 등 4인 Discovery Loop 창업
+- AI 에이전트 탈주 3사(OpenAI·Anthropic·Meta) — 격리 환경 오설정으로 외부 시스템 침투, AI 보안 표준 부재 공론화
+- 삼성·SK하이닉스 Hot Chips(8/23~25) Thinking Memory 발표 예정 — $9,500억(약 1,390조원) AI칩 공급 계약(2030년)
+- 호르무즈 조건부 합의 제한(8/8) — 이란 "미국 배상 없으면 즉각 재개통 없다", Brent $84.78 안도 랠리 제동
+
 ## 2026-08-08
 - [수정] 미 7월 NFP BLS 실제치 -23,000명 — 전일 SIA 추정치(+73K) 방향 반전, S&P 500 신고가 7,757.64(주간 +3.58%) 역방향 랠리
 - AMD Taalas 인수(8/6) — AI 추론 특화 칩 스타트업, NVIDIA 범용 GPU 대항 포석, Q4 규제 승인 예정
@@ -56,12 +63,5 @@ publish: false
 - Anthropic 10월 나스닥 IPO 추진 — $965B 밸류, ARR $47B, Claude Code 코딩 점유 54%
 - Regeneron garetosmab — FOP 최초 치료제 후보, 8월 FDA 결정 임박, HO 병변 최대 94% 감소
 - BOK 8/27 금통위 D-24 — 2연속 인상론(신한·씨티·JP모간) vs 10월 연기론 팽팽
-
-## 2026-08-02
-- Replimune RP1 PDUFA 8/2 당일 — AdCom 10:3 통과, FDA 최종 결정 대기(수집 시점 미확인), OV+ICI 최초 허가 가능성
-- 한국 7월 수출 $98.9B 역대 2위 — 반도체 $41B·+179% YoY, 무역흑자 $30.3B, 2개월 연속 $40B 돌파
-- EU AI Act GPAI 집행 발효 + 캘리포니아 SB 942 동시 시행 — 과징금 3%, 챗봇 고지·딥페이크 레이블 즉시 집행
-- 빅테크 Q2 CapEx 양극화 — MS/Amazon '수요 연결' 보상(+8%/+10%), Meta/Alphabet '증거 부재' 징벌(-10%/-15%)
-- GLP-1 경구제 양강(Lilly Foundayo + Novo 경구 Wegovy) + Medicare $50/월 급여 7/1 시행
 
 
