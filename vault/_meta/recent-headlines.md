@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-10
+- 알테오젠 +14%(348,000원) — BlackRock 5.03% 지분 공시 + 상반기 순이익 +108%(1,013억원), Hybrozyme 로열티 모델 본격 수익화
+- BOJ 7월 회의록 서머리 — 위원 3명 "더 빠른 인상" 주장, 9월 25bp 인상 기정사실화 분위기, 엔 캐리 청산 리스크 재점화
+- 미중 관세 90일 재연장(8/11 US 서명) + 코스닥 +7% 급등·매수 사이드카 — 미국 반도체 반등 선반영
+- Merck sac-TMT TroFuse-005 Phase 3 OS·PFS 달성 — TROP2 ADC 자궁내막암 최초 생존기간 개선, 빅파마 ADC 흐름 지속 신호
+- 8월 바이오 FDA 달력 집중 — Capricor deramiocel D-12(8/22 DMD 심근병증, 자문위 3-9 부결), Regeneron garetosmab ~D-21(FOP 최초 치료제)
+
 ## 2026-08-09
 - 릴리 retatrutide Phase 3 5관왕(TRIUMPH-2~4 포함) — 삼중-G 비만치료, Q1 2027 BLA 확정, GLP-1→삼중-G 경쟁 축 전환
 - 구글 딥마인드 CEO 교체(8/5) — 하사비스 퇴진·카부크추올루 SVP 승계, 제프 딘 등 4인 Discovery Loop 창업
@@ -56,12 +63,5 @@ publish: false
 - Amazon 시총 $3T(약 4,170조원 추정) 첫 돌파, Nasdaq +2.1% 빅테크 랠리, Ai4 컨퍼런스 거버넌스 화두
 - KOSPI +1.62%(6,358.95) 반등·KOSDAQ +5.88% 3연속 사이드카, 바이오·소부장 투심 이동 지속
 - ISM 제조업 PMI 7월 55.6%(예상 54.0 상회), 4년 최고·고용 33개월 만에 확장
-
-## 2026-08-03
-- KOSPI -5.12%(6,257.45) vs KOSDAQ +2.44% — 7/31 역대 폭등 직후 차익 실현, 삼성전자 -8.76%·SK하이닉스 -8.79%, 바이오 섹터 로테이션
-- Replimune RP1 FDA 최종 결정 오늘 대기 — AdCom 10:3, SEC 공모 준비 포착, 수집 시점 결과 미확인
-- Anthropic 10월 나스닥 IPO 추진 — $965B 밸류, ARR $47B, Claude Code 코딩 점유 54%
-- Regeneron garetosmab — FOP 최초 치료제 후보, 8월 FDA 결정 임박, HO 병변 최대 94% 감소
-- BOK 8/27 금통위 D-24 — 2연속 인상론(신한·씨티·JP모간) vs 10월 연기론 팽팽
 
 
