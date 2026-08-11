@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-11
+- 한국 8월 1~10일 수출 역대 최고 $212.9억 — 반도체 +155% YoY $99.5억, 삼성전자 +4.13% KOSPI 2연속 상승
+- Anthropic "Theseus Infrastructure" JV(Macquarie·GIC) — 미국 AI 전용 데이터센터, 앵커 테넌트 장기 임차 구조
+- 미 7월 CPI D-1(8/12 BLS 발표) — 헤드라인 3.4% 컨센서스, FOMC 9-3 매파 표결(Hammack·Kashkari·Logan), Brent $87.69(+4.95%)
+- Replimune Tudriqev FDA 가속 승인(8/6) — 2015년 이후 최초 OV+ICI 흑색종, ORR 24.2%, 두 차례 CRL 역전
+- Moderna mFLUSIVA + Takeda Orzeyful FDA 승인(8/5) — 최초 mRNA 독감백신(50세+) + 최초 OX2R NT1 원인 치료제
+
 ## 2026-08-10
 - 알테오젠 +14%(348,000원) — BlackRock 5.03% 지분 공시 + 상반기 순이익 +108%(1,013억원), Hybrozyme 로열티 모델 본격 수익화
 - BOJ 7월 회의록 서머리 — 위원 3명 "더 빠른 인상" 주장, 9월 25bp 인상 기정사실화 분위기, 엔 캐리 청산 리스크 재점화
@@ -56,12 +63,5 @@ publish: false
 - AMD Q2 데이터센터 +107% · EPS 서프라이즈, 시간 외 -8% — 기대 격차 패턴 재확인
 - Pfizer Q2 $15.03B 가이던스 상향 + GLP-1 경구제 2건 중단, berobenatide 단일 트랙 수렴
 - BMS iberdomide PDUFA D-12(8/17) — 최초 CELMoD 제제 허가 임박, Replimune RP1 결정 지연·8-K 2건
-
-## 2026-08-04
-- Moderna mFLUSIVA(mRNA-1010) PDUFA D-1 — 내일(8/5) 미국 최초 mRNA 독감백신 결판, AdCom 9:0
-- 미-이란 평화협상 재개 → WTI -5.97%·Brent -4.68% 급락, 이란 즉각 부인으로 불확실성 잔존
-- Amazon 시총 $3T(약 4,170조원 추정) 첫 돌파, Nasdaq +2.1% 빅테크 랠리, Ai4 컨퍼런스 거버넌스 화두
-- KOSPI +1.62%(6,358.95) 반등·KOSDAQ +5.88% 3연속 사이드카, 바이오·소부장 투심 이동 지속
-- ISM 제조업 PMI 7월 55.6%(예상 54.0 상회), 4년 최고·고용 33개월 만에 확장
 
 
