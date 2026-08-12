@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-12
+- Temasek 삼성전자·SK하이닉스 최초 직접 투자 추진 — KOSPI +3.68%(6,579.04p), 삼성 +6.68%(255,500원), SK하이닉스 +5.54%(1,504,000원)
+- 미 7월 CPI 3.5% YoY(컨센서스 상회·본문 확인 필요) — 9월 FOMC 인상 논의 재부상, 코어 수치 미확인
+- BMS iberdomide PDUFA D-5(8/17) — CELMoD 계열 최초, 재발·불응 다발성골수종, 피크세일즈 $1~5B
+- 바이오 PDUFA 3연발 — Capricor deramiocel D-10(8/22·자문위 3-9 부결 후 FDA 재심), Ultragenyx DTX401 D-11(8/23·GSDIa 유전자치료 최초), Regeneron garetosmab ~D-19(~8/31·FOP 최초)
+- 삼성·SK하이닉스 Hot Chips 2026(8/23~25) — HBM5·HBM4 In-Memory Computing '생각하는 메모리' 세계 첫 공개 예고
+
 ## 2026-08-11
 - 한국 8월 1~10일 수출 역대 최고 $212.9억 — 반도체 +155% YoY $99.5억, 삼성전자 +4.13% KOSPI 2연속 상승
 - Anthropic "Theseus Infrastructure" JV(Macquarie·GIC) — 미국 AI 전용 데이터센터, 앵커 테넌트 장기 임차 구조
@@ -56,12 +63,5 @@ publish: false
 - KOSPI -4.58% 6,296.38, KRX 매도 사이드카 — AMD 마진 미스(-8% 시간 외) 여파, SK하이닉스 -10.37%·삼성전자 -6.3%
 - ADP 7월 민간 고용 44K(컨센서스 70K 대폭 하회) — NFP 8/7 D-1, 연준 9월 인하 기대 가열
 - Pathos AI + Alphamab JSKN016 TROP2/HER3 이중특이성 ADC 글로벌 라이선스 $22억 — AI 플랫폼이 중국 3상 에셋 직접 인라이선스
-
-## 2026-08-05
-- Moderna mFLUSIVA PDUFA 당일 — 미국 최초 mRNA 독감백신 FDA 결정, 한국 시간 수집 기준 결과 미확인
-- KOSPI +3.76%(6,598) · S&P 500 신고가 7,736 — SoftBank Cloud+AI +31% 아시아 랠리 파급
-- AMD Q2 데이터센터 +107% · EPS 서프라이즈, 시간 외 -8% — 기대 격차 패턴 재확인
-- Pfizer Q2 $15.03B 가이던스 상향 + GLP-1 경구제 2건 중단, berobenatide 단일 트랙 수렴
-- BMS iberdomide PDUFA D-12(8/17) — 최초 CELMoD 제제 허가 임박, Replimune RP1 결정 지연·8-K 2건
 
 
