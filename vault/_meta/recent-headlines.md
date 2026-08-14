@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-14
+- 미 7월 PPI 0.0%(MoM, 예상 +0.2% 하회), YoY 4.7% — CPI에 이어 2주 연속 물가 완화, 9월 FOMC 동결 기대 강화
+- BMS ZENBEXUS(iberdomide) FDA 가속승인(8/13) — CELMoD 계열 최초 상업화, MRD 음성 CR 41% vs 21%, 가속승인 조건부
+- KOSPI 6,977.94p(+2.42%), 장중 7,010p 돌파 — 외국인 5거래일 연속 순매수 3.15조원, SK하이닉스 +5.84%(1,640,000원)
+- Z.ai GLM-5.3 출시(코딩 +50%, CyberGym 84.5%) + 영국 AI 안전법 하원 통과(8/14) — 글로벌 AI 규제 4분화 구도
+- 삼성바이오로직스 AbbVie zumilokibart CMO 수주 + SK하이닉스 NVIDIA Vera Rubin HBM4 60~70% 공급 선점
+
 ## 2026-08-13
 - 미 7월 CPI 확정(SA 3.4%·코어 2.5%, 컨센서스 일치) — 9월 FOMC 동결 확률 61.9%로 상승, 인상론 후퇴
 - KOSPI 6,813.34p(+3.56%), 4거래일 연속 상승 — 7/30 저점 대비 +22% 기술적 강세장, 삼성 268,000원·SK하이닉스 1,590,000원
@@ -56,12 +63,5 @@ publish: false
 - Ultragenyx DTX401 PDUFA 8/23 — GSDIa 최초 유전자치료제(AAV8) FDA 결정 임박, Priority Review·BT 지정
 - 호르무즈 협상 진전 — 이란-오만 수로 방향 잠정 합의, 공동 성명 최종 초안 단계, 최종 미결
 - Mediar Therapeutics-Ono Pharmaceutical 섬유증 항체 공동개발(8/6) — 일본 대형사+미국 바이오텍 발굴 파트너십
-
-## 2026-08-07
-- 미 7월 NFP +73K — 컨센서스(FactSet 97.5K) 하회, 2개월 연속 고용 냉각, 연준 9월 25bp 인하 기대 강화
-- Replimune TUDRIQEV(RP1+니볼루맙) FDA 가속 승인 — 두 차례 CRL 역전, OV+ICI 최초 병용 허가, ORR 24.2% mDOR 14.1개월
-- xAI Grok 4.6 출시 + 수 주 내 Grok 4.7(2.1T) 예고 — ARR 5억달러, 2026년 목표 20억달러
-- 이란 호르무즈 봉쇄 초안 — Brent +3.8% $82.49, WTI +2.8% $77.29, 미·이란·오만 3자 협의
-- KOSPI 6,258.77(-0.6%) 이틀 연속 하락, SK하이닉스 -4.88%, 주간 -5.0% 7주 연속 하락
 
 
