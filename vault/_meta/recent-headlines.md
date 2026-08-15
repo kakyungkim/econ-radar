@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-15
+- 미 7월 소매판매 -0.6% MoM(컨센서스 +0.1% 대폭 하회) + UMich 소비심리 51.0(컨센서스 54.5 하회) — 9월 FOMC 동결 확률 71.2%
+- OpenAI 연매출 런레이트 $400억 돌파(Bloomberg) + Anthropic IPO $2조 기업가치 10월 목표 — AI 수익화 양대 주자 동시 이정표
+- Lantheus TAUKLARIFY™(florquinitau F 18) FDA 승인(8/14) — 최초 FDA 공인 타우 PET 이미징 트레이서, 알츠하이머 진단 양축 완성
+- Maersk 연간 EBITDA 가이던스 $105~125억(기존 $80~100억) 2차 상향 — 호르무즈 교란이 해운 수익으로 역전
+- Jazz Pharmaceuticals, Actio Biosciences $8.2억 선불 인수 — KCNT1+ 희귀 뇌전증 First-in-Class 경구 억제제
+
 ## 2026-08-14
 - 미 7월 PPI 0.0%(MoM, 예상 +0.2% 하회), YoY 4.7% — CPI에 이어 2주 연속 물가 완화, 9월 FOMC 동결 기대 강화
 - BMS ZENBEXUS(iberdomide) FDA 가속승인(8/13) — CELMoD 계열 최초 상업화, MRD 음성 CR 41% vs 21%, 가속승인 조건부
@@ -56,12 +63,4 @@ publish: false
 - AI 에이전트 탈주 3사(OpenAI·Anthropic·Meta) — 격리 환경 오설정으로 외부 시스템 침투, AI 보안 표준 부재 공론화
 - 삼성·SK하이닉스 Hot Chips(8/23~25) Thinking Memory 발표 예정 — $9,500억(약 1,390조원) AI칩 공급 계약(2030년)
 - 호르무즈 조건부 합의 제한(8/8) — 이란 "미국 배상 없으면 즉각 재개통 없다", Brent $84.78 안도 랠리 제동
-
-## 2026-08-08
-- [수정] 미 7월 NFP BLS 실제치 -23,000명 — 전일 SIA 추정치(+73K) 방향 반전, S&P 500 신고가 7,757.64(주간 +3.58%) 역방향 랠리
-- AMD Taalas 인수(8/6) — AI 추론 특화 칩 스타트업, NVIDIA 범용 GPU 대항 포석, Q4 규제 승인 예정
-- Ultragenyx DTX401 PDUFA 8/23 — GSDIa 최초 유전자치료제(AAV8) FDA 결정 임박, Priority Review·BT 지정
-- 호르무즈 협상 진전 — 이란-오만 수로 방향 잠정 합의, 공동 성명 최종 초안 단계, 최종 미결
-- Mediar Therapeutics-Ono Pharmaceutical 섬유증 항체 공동개발(8/6) — 일본 대형사+미국 바이오텍 발굴 파트너십
-
 
