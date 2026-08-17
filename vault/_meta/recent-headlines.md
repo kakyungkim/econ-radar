@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-17
+- Stripe, OpenRouter 인수 $70억+(약 9조5,000억원) 확정(8/16) — AI 모델 라우팅-결제 수직 통합, 결제 인프라 미들레이어 선점
+- Leqembi IQLIK(lecanemab 피하주사) 8월 말 미국 출시 — 자가주사 첫 알츠하이머 치료제, SC 전환이 처방·급여 구조 변화
+- 미 Empire State 11.9(예상 상회)·NAHB 32(예상 하회) — 제조업 선방 vs 주택 2연속 하락, 달러 약세·9월 FOMC 동결 60%
+- PTC Therapeutics, 파브리병 유전자치료 ST-920 경매 낙찰 최대 2억1,100만달러(현금 $1.11억 + 마일스톤)
+- 이번 주 소비 바로미터 — Home Depot(화)·Target(수)·Walmart(목) 실적 + FOMC 7월 의사록(8/20)
+
 ## 2026-08-16
 - 잭슨홀(8/27~29) D-11 — Warsh 취임 후 첫 기조연설, 9월 FOMC 동결(71.2%) vs 인상(28.8%) 19일 전 방향타(직전 파일 개막일 8/21 표기 오류 → 실제 8/27 교정)
 - NVIDIA 실적 D-10(8/26) — 가이던스 $910억 ±2%, 컨센서스 $930~950억, Blackwell 램프업 첫 공식 수치
@@ -57,11 +64,5 @@ publish: false
 - Replimune Tudriqev FDA 가속 승인(8/6) — 2015년 이후 최초 OV+ICI 흑색종, ORR 24.2%, 두 차례 CRL 역전
 - Moderna mFLUSIVA + Takeda Orzeyful FDA 승인(8/5) — 최초 mRNA 독감백신(50세+) + 최초 OX2R NT1 원인 치료제
 
-## 2026-08-10
-- 알테오젠 +14%(348,000원) — BlackRock 5.03% 지분 공시 + 상반기 순이익 +108%(1,013억원), Hybrozyme 로열티 모델 본격 수익화
-- BOJ 7월 회의록 서머리 — 위원 3명 "더 빠른 인상" 주장, 9월 25bp 인상 기정사실화 분위기, 엔 캐리 청산 리스크 재점화
-- 미중 관세 90일 재연장(8/11 US 서명) + 코스닥 +7% 급등·매수 사이드카 — 미국 반도체 반등 선반영
-- Merck sac-TMT TroFuse-005 Phase 3 OS·PFS 달성 — TROP2 ADC 자궁내막암 최초 생존기간 개선, 빅파마 ADC 흐름 지속 신호
-- 8월 바이오 FDA 달력 집중 — Capricor deramiocel D-12(8/22 DMD 심근병증, 자문위 3-9 부결), Regeneron garetosmab ~D-21(FOP 최초 치료제)
 
 
