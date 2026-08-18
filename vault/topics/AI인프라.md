@@ -17,6 +17,10 @@ publish: true
 - **AI 인프라 전력 수요 구조화**: Google AI 전력 +37% YoY, 데이터센터 전력·냉각 인프라 수요가 구조적 확대 단계로 진입.
 
 ## 타임라인
+### 2026-08-18 [[daily/2026-08-18]]
+- [[daily/2026-08-18]] Hot Chips 2026(8/23~25) D-5 — NVIDIA Rubin GPU·AMD MI400 아키텍처 + 삼성 HBM5·SK하이닉스 HBM4E 동시 공개 예정. 기술 청사진(8/23~25) → 수요 수치(8/26 NVIDIA 실적) 2단계 확인 구조 → [[topics/반도체HBM]] [[topics/유망기업]]
+- [[daily/2026-08-18]] GPT-5.6 Sol 업데이트 — 오답률 68% 감소(GPT-5.5 Instant 대비, 자체 평가). 응답 노력 슬라이더 추가. 독립 벤치마크 검증 대기 → [[topics/AI]]
+
 ### 2026-08-11 [[daily/2026-08-11]]
 - [[daily/2026-08-11]] Anthropic Theseus Infrastructure JV — Macquarie(인프라 자본)·GIC(싱가포르 국부펀드) 참여, AI 전용 데이터센터 건설. AI 소프트웨어 기업의 물리 인프라 직접 소유 모델 확산. 퍼블릭 클라우드 임대 의존에서 전용 설비 소유 구조로 이동하는 분기점 → [[topics/AI]]
 
