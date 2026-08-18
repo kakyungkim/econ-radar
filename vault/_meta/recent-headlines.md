@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-18
+- 미·이란 휴전 60일 만료(8/17) → Brent $91+·30년 국채 5.3146%(2004년래 최고)·달러인덱스 99.5 — 지정학 충격이 유가·채권·달러 동시 이동으로 번졌다
+- KOSPI 재개장 +2.15%(7,127.77) 후 종가 -1.55%(6,869.83) 반전 — 외국인 5거래일 연속 순매수, 이번 주 누적 7조8,000억원(확인 필요)
+- Hot Chips 2026 D-5(8/23~25, Stanford) — NVIDIA Rubin GPU·AMD MI400·삼성 HBM5·SK하이닉스 HBM4E 발표 예정, 8/26 NVIDIA 실적 연동
+- Capricor deramiocel PDUFA D-4(8/22) — AdCom 3-9 부결(7/29) 후 FDA 독자 결정, DMD 심근병증 최초 세포치료제 기로
+- Eli Lilly retatrutide 소송 6건(8/12~13) GLP-1 블랙마켓 정화 + GPT-5.6 Sol 오답률 68% 감소(GPT-5.5 Instant 대비)
+
 ## 2026-08-17
 - Stripe, OpenRouter 인수 $70억+(약 9조5,000억원) 확정(8/16) — AI 모델 라우팅-결제 수직 통합, 결제 인프라 미들레이어 선점
 - Leqembi IQLIK(lecanemab 피하주사) 8월 말 미국 출시 — 자가주사 첫 알츠하이머 치료제, SC 전환이 처방·급여 구조 변화
@@ -56,13 +63,5 @@ publish: false
 - BMS iberdomide PDUFA D-5(8/17) — CELMoD 계열 최초, 재발·불응 다발성골수종, 피크세일즈 $1~5B
 - 바이오 PDUFA 3연발 — Capricor deramiocel D-10(8/22·자문위 3-9 부결 후 FDA 재심), Ultragenyx DTX401 D-11(8/23·GSDIa 유전자치료 최초), Regeneron garetosmab ~D-19(~8/31·FOP 최초)
 - 삼성·SK하이닉스 Hot Chips 2026(8/23~25) — HBM5·HBM4 In-Memory Computing '생각하는 메모리' 세계 첫 공개 예고
-
-## 2026-08-11
-- 한국 8월 1~10일 수출 역대 최고 $212.9억 — 반도체 +155% YoY $99.5억, 삼성전자 +4.13% KOSPI 2연속 상승
-- Anthropic "Theseus Infrastructure" JV(Macquarie·GIC) — 미국 AI 전용 데이터센터, 앵커 테넌트 장기 임차 구조
-- 미 7월 CPI D-1(8/12 BLS 발표) — 헤드라인 3.4% 컨센서스, FOMC 9-3 매파 표결(Hammack·Kashkari·Logan), Brent $87.69(+4.95%)
-- Replimune Tudriqev FDA 가속 승인(8/6) — 2015년 이후 최초 OV+ICI 흑색종, ORR 24.2%, 두 차례 CRL 역전
-- Moderna mFLUSIVA + Takeda Orzeyful FDA 승인(8/5) — 최초 mRNA 독감백신(50세+) + 최초 OX2R NT1 원인 치료제
-
 
 
