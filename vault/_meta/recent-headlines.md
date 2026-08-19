@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-19
+- UAE-이란 충돌 격화(UAE 무기한 무역금수·이란 미사일 공격) → KOSPI 6.45% 폭락·사이드카 발동(올해 48번째), 삼성전자 -7.5%·SK하이닉스 -8.8%, Brent $91.52 4일 연속 상승
+- Regeneron garetosmab PDUFA ~D-12(~8/31) — FOP 최초 치료제 BLA 우선심사, OPTIMA 52주 신규 HO 병변 -94%/-90%(p값 확인)
+- Capricor deramiocel PDUFA D-3(8/22) — FDA 72시간 이내 독자 결정, DMD 심근병증 최초 세포치료제 기로
+- Home Depot Q2: EPS $4.92(예상 $4.73 상회)·매출 $47.9B(예상 $47.2B 상회)·FY2026 가이던스 재확인 — 잠김 효과(lock-in effect) 리모델링 수요 견고
+- Chai Discovery 시리즈 C $4억(기업가치 $38억) + Pfizer·Lilly·Novartis 동시 AI 항체 설계 제휴 — 빅파마 AI 플랫폼 표준화 변곡점
+
 ## 2026-08-18
 - 미·이란 휴전 60일 만료(8/17) → Brent $91+·30년 국채 5.3146%(2004년래 최고)·달러인덱스 99.5 — 지정학 충격이 유가·채권·달러 동시 이동으로 번졌다
 - KOSPI 재개장 +2.15%(7,127.77) 후 종가 -1.55%(6,869.83) 반전 — 외국인 5거래일 연속 순매수, 이번 주 누적 7조8,000억원(확인 필요)
@@ -57,11 +64,5 @@ publish: false
 - AI 병목 GPU→전력·냉각: Super Micro 공식 선언 + Lovable AI 133억달러 데카콘(Series C 4억달러)
 - Lantheus MK-6240 알츠하이머 타우 PET PDUFA 오늘(8/13) — BMS iberdomide CELMoD D-4(8/17 월)
 
-## 2026-08-12
-- Temasek 삼성전자·SK하이닉스 최초 직접 투자 추진 — KOSPI +3.68%(6,579.04p), 삼성 +6.68%(255,500원), SK하이닉스 +5.54%(1,504,000원)
-- 미 7월 CPI 3.5% YoY(컨센서스 상회·본문 확인 필요) — 9월 FOMC 인상 논의 재부상, 코어 수치 미확인
-- BMS iberdomide PDUFA D-5(8/17) — CELMoD 계열 최초, 재발·불응 다발성골수종, 피크세일즈 $1~5B
-- 바이오 PDUFA 3연발 — Capricor deramiocel D-10(8/22·자문위 3-9 부결 후 FDA 재심), Ultragenyx DTX401 D-11(8/23·GSDIa 유전자치료 최초), Regeneron garetosmab ~D-19(~8/31·FOP 최초)
-- 삼성·SK하이닉스 Hot Chips 2026(8/23~25) — HBM5·HBM4 In-Memory Computing '생각하는 메모리' 세계 첫 공개 예고
 
 
