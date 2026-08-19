@@ -2,7 +2,7 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-08-17
+updated: 2026-08-19
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)

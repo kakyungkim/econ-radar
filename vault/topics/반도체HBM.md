@@ -2,7 +2,7 @@
 type: moc
 tags: [반도체, AI, 투자테마, 반도체HBM]
 timestamp: 2026-06-18T10:20:34+00:00
-updated: 2026-08-16
+updated: 2026-08-19
 publish: true
 ---
 # 🗂 반도체 HBM — 주제 지도(MOC)
