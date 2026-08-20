@@ -2,18 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-08-19
+updated: 2026-08-20
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Hot Chips 2026(8/23~25) D-4 — NVIDIA Rubin·AMD MI400·HBM5/HBM4E 로드맵 공개 임박**: AI 하드웨어 로드맵의 연간 최대 공개 무대. 전력·추론 병목 세션이 최초 신설됐다. Rubin 아키텍처와 MI400 포지셔닝이 2027년 AI 인프라 수요 방향을 결정한다.
-- **NVIDIA Q2(8/26) D-7 — Blackwell HBM 수요 첫 공식 수치화**: 가이던스 $910억 ±2% vs BofA 컨센서스 $940~950억. 잭슨홀(8/27)과 동시 이벤트 주간. 간격 이상이면 가이던스 재조정 리스크.
+- **Hot Chips 2026(8/23~25) D-3 — AMD Helios vs NVIDIA Vera Rubin 랙스케일 대결**: AI 하드웨어 로드맵의 연간 최대 공개 무대. AMD Helios(MI400 클러스터)와 NVIDIA Vera Rubin(랙스케일 배치) 포지셔닝이 2027년 AI 인프라 수요 방향을 결정한다. 랙 단위 발주가 표준으로 전환되는 신호.
+- **NVIDIA Q2(8/26) D-6 — Blackwell HBM 수요 첫 공식 수치화**: 가이던스 $910억 ±2% vs BofA 컨센서스 $940~950억. 잭슨홀(8/27)과 동시 이벤트 주간. 간격 이상이면 가이던스 재조정 리스크.
 - **Chai Discovery AI 항체 $4억+빅파마 3사 동시 제휴·기업가치 $38억**: AI 항체 설계가 빅파마 R&D 표준 워크플로로 진입하는 첫 다중 제휴 신호. 도입 속도와 초기 임상 성과가 AI 신약개발 플랫폼 가치의 다음 기준점을 결정한다.
 - **AI 전력 병목 구조화 지속**: Bloomberg 1,066GW 신청 중 28%만 현실 공급 가능. Core Scientific-AMD 1.1GW 15년 계약이 수요자 직접 인프라 확보 전략을 실증.
 
 ## 타임라인
+### 2026-08-20 [[daily/2026-08-20]]
+- [[daily/2026-08-20]] Hot Chips 2026(8/23~25) D-3 — AMD Helios vs NVIDIA Vera Rubin 랙스케일 대결. AI 인프라 조달 단위 랙스케일 전환 신호 가시화 → [[topics/반도체HBM]] [[topics/유망기업]]
+- [[daily/2026-08-20]] NVIDIA Q2(8/26) D-6 — Blackwell HBM 수요 공식 수치화 D-6. BofA $940~950억 vs 가이던스 $910억 간격 → [[topics/반도체HBM]] [[topics/유망기업]]
+
 ### 2026-08-19 [[daily/2026-08-19]]
 - [[daily/2026-08-19]] Hot Chips 2026(8/23~25) D-4 — NVIDIA Rubin·AMD MI400·HBM5/HBM4E 로드맵 공개 임박. AI 전력·추론 병목 세션 최초 신설 → [[topics/반도체HBM]] [[topics/유망기업]]
 - [[daily/2026-08-19]] Chai Discovery $4억 조달+빅파마 3사 동시 제휴·기업가치 $38억 — AI 항체 설계 빅파마 R&D 표준 워크플로 진입 신호 → [[topics/신약개발전략]] [[topics/유망기업]]
