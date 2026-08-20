@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-20
+- SK Hynix ₩40조($28.6B) 자사주 전량 소각(한국 역대 최대) + FCF 50%+ 환원 정책 명문화 → KOSPI +5.9%·SK하이닉스 +14%·삼성전자 +10% 급반등
+- FOMC 7월 의사록 광범위 매파(추가 긴축 가능 논거 다수) + Bessent 재무부 바이백 배증($2B→$4B+) → 30년물 5.26%→5.18%, 연준 vs 재무부 정책 분리 구도
+- Capricor deramiocel PDUFA D-2(8/22) — AdCom 3-9 부결 후 FDA 독자 결정 72시간 이내, DMD 심근병증 최초 세포치료제 기로
+- Ultragenyx DTX401 PDUFA D-3(8/23) + Regeneron garetosmab 8/19 FDA 승인(브랜드명 Pasatru) — GSDIa·FOP 최초 치료제 결정 클러스터
+- Target Q2 EPS $4.11(컨센 $2.33 대폭 상회, 관세 환급 $752M 포함·제외 시 +20%)·매출 $26.5B·연간 가이던스 상향
+
 ## 2026-08-19
 - UAE-이란 충돌 격화(UAE 무기한 무역금수·이란 미사일 공격) → KOSPI 6.45% 폭락·사이드카 발동(올해 48번째), 삼성전자 -7.5%·SK하이닉스 -8.8%, Brent $91.52 4일 연속 상승
 - Regeneron garetosmab PDUFA ~D-12(~8/31) — FOP 최초 치료제 BLA 우선심사, OPTIMA 52주 신규 HO 병변 -94%/-90%(p값 확인)
@@ -57,12 +64,6 @@ publish: false
 - Z.ai GLM-5.3 출시(코딩 +50%, CyberGym 84.5%) + 영국 AI 안전법 하원 통과(8/14) — 글로벌 AI 규제 4분화 구도
 - 삼성바이오로직스 AbbVie zumilokibart CMO 수주 + SK하이닉스 NVIDIA Vera Rubin HBM4 60~70% 공급 선점
 
-## 2026-08-13
-- 미 7월 CPI 확정(SA 3.4%·코어 2.5%, 컨센서스 일치) — 9월 FOMC 동결 확률 61.9%로 상승, 인상론 후퇴
-- KOSPI 6,813.34p(+3.56%), 4거래일 연속 상승 — 7/30 저점 대비 +22% 기술적 강세장, 삼성 268,000원·SK하이닉스 1,590,000원
-- CoreWeave Q2 매출 26억달러(+112%), 백로그 1,040억달러 — AI 인프라 장기 계약 구조 수치로 확인
-- AI 병목 GPU→전력·냉각: Super Micro 공식 선언 + Lovable AI 133억달러 데카콘(Series C 4억달러)
-- Lantheus MK-6240 알츠하이머 타우 PET PDUFA 오늘(8/13) — BMS iberdomide CELMoD D-4(8/17 월)
 
 
 
