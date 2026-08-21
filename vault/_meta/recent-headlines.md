@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-21
+- 삼성전자 Q2 영업이익 ₩89.5조(YoY +1,814% 사상 최대) + ₩100조 주주환원 이사회 월말 의결 임박 → KOSPI +0.88%(6,912.95), 삼성 +3.87%
+- Walmart Q2 미국 동일점포 +2.6%(예상 +3.5% 하회) → 주가 -9%, 미 3대 지수 하락 + 이란 제재로 Brent $93+(주간 +5%, 3.5년래 최고)
+- Jackson Hole D-6(8/27~29) — Warsh 첫 기조연설 8/28, 30년물 5.25% 재반등(Bessent 바이백 효과 희석)
+- GENGLYCOS(DTX401/Ultragenyx) 8/19 FDA 가속 승인 확정(GSDIa 최초 유전자치료제) + Capricor deramiocel PDUFA D-1(8/22)
+- AMD Helios Hot Chips D-2(8/23~25) — Microsoft 고객 확보, 컴퓨트 +15%·HBM +50% vs NVIDIA Vera Rubin + NVIDIA 실적 D-5(8/26)
+
 ## 2026-08-20
 - SK Hynix ₩40조($28.6B) 자사주 전량 소각(한국 역대 최대) + FCF 50%+ 환원 정책 명문화 → KOSPI +5.9%·SK하이닉스 +14%·삼성전자 +10% 급반등
 - FOMC 7월 의사록 광범위 매파(추가 긴축 가능 논거 다수) + Bessent 재무부 바이백 배증($2B→$4B+) → 30년물 5.26%→5.18%, 연준 vs 재무부 정책 분리 구도
@@ -57,12 +64,6 @@ publish: false
 - Maersk 연간 EBITDA 가이던스 $105~125억(기존 $80~100억) 2차 상향 — 호르무즈 교란이 해운 수익으로 역전
 - Jazz Pharmaceuticals, Actio Biosciences $8.2억 선불 인수 — KCNT1+ 희귀 뇌전증 First-in-Class 경구 억제제
 
-## 2026-08-14
-- 미 7월 PPI 0.0%(MoM, 예상 +0.2% 하회), YoY 4.7% — CPI에 이어 2주 연속 물가 완화, 9월 FOMC 동결 기대 강화
-- BMS ZENBEXUS(iberdomide) FDA 가속승인(8/13) — CELMoD 계열 최초 상업화, MRD 음성 CR 41% vs 21%, 가속승인 조건부
-- KOSPI 6,977.94p(+2.42%), 장중 7,010p 돌파 — 외국인 5거래일 연속 순매수 3.15조원, SK하이닉스 +5.84%(1,640,000원)
-- Z.ai GLM-5.3 출시(코딩 +50%, CyberGym 84.5%) + 영국 AI 안전법 하원 통과(8/14) — 글로벌 AI 규제 4분화 구도
-- 삼성바이오로직스 AbbVie zumilokibart CMO 수주 + SK하이닉스 NVIDIA Vera Rubin HBM4 60~70% 공급 선점
 
 
 
