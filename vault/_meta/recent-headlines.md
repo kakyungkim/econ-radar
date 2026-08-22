@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-22
+- 삼성전자 KRW 90~110조 주주환원 이사회 공식 의결(한국 역대 최대·자사 최고 5배) — Q3 현금배당 ~30조 + 나머지 2027년 1월 결정
+- Hot Chips 2026 내일 개막(8/23~25) — NVIDIA Vera Rubin(336B 트랜지스터·HBM4 288GB·22TB/s) vs AMD MI400(MI455X·MI430X) 첫 공식 스펙 대결 + NVIDIA 실적 D-4(8/26)
+- Capricor deramiocel PDUFA 오늘 결과 없음 — BLA 수정(DMD 심근병증→상지 근기능 + 24개월 OLE) + PDUFA 연장 예정
+- Trump "경제 D-Day" 이란 2차 제재 Bessent 8/24 세부 발표 예고 — Brent $93~94(주간 +5~6%), 30년물 5.273%, DXY ~98.8
+- Jazz Ziihera PDUFA D-3(8/25·HER2+ GEA 1차·OS 26.4개월) + ESC Congress 2026 D-6(8/28, 핫라인 59개·CARDIO-TTRansform 최대 주목)
+
 ## 2026-08-21
 - 삼성전자 Q2 영업이익 ₩89.5조(YoY +1,814% 사상 최대) + ₩100조 주주환원 이사회 월말 의결 임박 → KOSPI +0.88%(6,912.95), 삼성 +3.87%
 - Walmart Q2 미국 동일점포 +2.6%(예상 +3.5% 하회) → 주가 -9%, 미 3대 지수 하락 + 이란 제재로 Brent $93+(주간 +5%, 3.5년래 최고)
@@ -56,15 +63,6 @@ publish: false
 - Definium DT120(리세르자이드) GAD Phase 3 VOYAGE 양성(8/12) — HAM-A 위약 대비 -5.4p(p<0.0001, Cohen's d=0.81), 사이키델릭 신약 역사상 첫 연속 3상 성공
 - Capricor deramiocel BLA 피벗 — 적응증 DMD 심근병증(LVEF)→상지 골격근으로 변경, PDUFA 8/22 연장 예정
 - 바이오 PDUFA 클러스터 — DTX401(GSDIa 최초 유전자치료 8/23)·garetosmab(FOP 최초 치료제 8/31) 연속 관문
-
-## 2026-08-15
-- 미 7월 소매판매 -0.6% MoM(컨센서스 +0.1% 대폭 하회) + UMich 소비심리 51.0(컨센서스 54.5 하회) — 9월 FOMC 동결 확률 71.2%
-- OpenAI 연매출 런레이트 $400억 돌파(Bloomberg) + Anthropic IPO $2조 기업가치 10월 목표 — AI 수익화 양대 주자 동시 이정표
-- Lantheus TAUKLARIFY™(florquinitau F 18) FDA 승인(8/14) — 최초 FDA 공인 타우 PET 이미징 트레이서, 알츠하이머 진단 양축 완성
-- Maersk 연간 EBITDA 가이던스 $105~125억(기존 $80~100억) 2차 상향 — 호르무즈 교란이 해운 수익으로 역전
-- Jazz Pharmaceuticals, Actio Biosciences $8.2억 선불 인수 — KCNT1+ 희귀 뇌전증 First-in-Class 경구 억제제
-
-
 
 
 

@@ -8,12 +8,16 @@ publish: true
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **AMD Helios Hot Chips(8/23~25) D-2 — NVIDIA Vera Rubin과 처음으로 랙스케일 단위 대결**: Instinct MI450X 기반 랙스케일 시스템, Microsoft 고객 확정. 컴퓨트 +15%·HBM +50%(vs Vera Rubin NVL72) 내세워 랙 단위 발주가 실질 표준으로 전환되는 첫 경쟁 신호.
-- **NVIDIA 실적(8/26) D-5 — Blackwell HBM 수요 가이던스 최종 확인**: 컨센서스 $918~950억. Hot Chips 발표(8/23) → NVIDIA 실적(8/26) → Jackson Hole(8/28) 6일 이벤트 시퀀스의 두 번째 관문.
+- **Hot Chips 2026(8/23~25) D-1 — NVIDIA Vera Rubin vs AMD Helios MI450X 랙스케일 대결 내일 개막**: 랙 단위 AI 인프라 조달 표준 전환 첫 경쟁 무대. AMD Helios Microsoft 고객 확정, 컴퓨트 +15%·HBM +50%(vs Vera Rubin NVL72) 내세워.
+- **NVIDIA 실적(8/26) D-4 — Blackwell HBM 수요 가이던스 컨센서스 $918~950억**: Hot Chips(8/23) → NVIDIA 실적(8/26) → Jackson Hole(8/28) 6일 이벤트 시퀀스의 두 번째 관문. AI 인프라 수요 공식 수치화.
 - **Chai Discovery AI 항체 $4억+빅파마 3사 동시 제휴·기업가치 $38억**: AI 항체 설계가 빅파마 R&D 표준 워크플로로 진입하는 첫 다중 제휴 신호. 초기 IND 제출 일정이 플랫폼 가치의 다음 기준점.
 - **AI 전력 병목 구조화 지속**: Bloomberg 1,066GW 신청 중 28%만 현실 공급 가능. Core Scientific-AMD 1.1GW 15년 계약이 수요자 직접 인프라 확보 전략을 실증.
 
 ## 타임라인
+### 2026-08-22 [[daily/2026-08-22]]
+- [[daily/2026-08-22]] Hot Chips 2026 개막 D-1(내일 8/23) — NVIDIA Vera Rubin·AMD Helios MI450X 랙스케일 대결. 삼성 HBM5·SK Hynix HBM4E 로드맵 공개 임박 → [[topics/반도체HBM]] [[topics/유망기업]]
+- [[daily/2026-08-22]] NVIDIA 실적(8/26) D-4 — Blackwell HBM 수요 가이던스 컨센서스 $918~950억. AI 인프라 수요 공식 수치화 → [[topics/반도체HBM]] [[topics/유망기업]]
+
 ### 2026-08-21 [[daily/2026-08-21]]
 - [[daily/2026-08-21]] AMD Helios Hot Chips(8/23~25) D-2 — Instinct MI450X 랙스케일 시스템·Microsoft 고객 확정. NVIDIA Vera Rubin과 처음으로 랙 단위 경쟁. 컴퓨트 +15%·HBM +50%(vs NVL72) → [[topics/반도체HBM]] [[topics/유망기업]]
 - [[daily/2026-08-21]] NVIDIA 실적(8/26) D-5 — Blackwell HBM 수요 가이던스 컨센서스 $918~950억. Hot Chips 발표 이후 5일 내 AI 인프라 수요 공식 수치화 → [[topics/반도체HBM]] [[topics/유망기업]]
