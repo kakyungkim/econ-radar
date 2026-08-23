@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-23
+- Hot Chips 2026 Day 1 — NVIDIA Vera Rubin R100 공식(HBM4 대역폭 목표 22TB/s→초기 출하 ~20TB/s 미달, SK하이닉스 70%·삼성 30%) + AMD MI455X(CDNA 5·HBM4 432GB·23.3TB/s) 첫 공식 스펙 대결 + NVIDIA 실적 D-3(8/26·컨센서스 $92B)
+- eplontersen CARDIO-TTRansform 1차 종점 미충족 — 스타빌라이저(tafamidis 등) 병용 환자군에서 효과 없음, 단일요법 서브그룹 HR 0.71, ESC 2026 핫라인(8/28) 전체 데이터 공개 예정
+- Jazz Ziihera PDUFA D-2(8/25·HER2+ GEA 1차·zanidatamab·OS 26.4개월·HR 0.72)
+- Bessent 이란 2차 제재 D-1 — 내일(8/24) 기자회견 "역사상 가장 강력한 제재", Brent ~$94/배럴, 30년물 5.25%+, DXY ~98.8
+- 이번 주 5대 이벤트 집중 — NVIDIA 실적(8/26)·BOK 금리(8/27·25bp 인상 vs 동결+10월 시사)·Jackson Hole(8/27~29)·SK하이닉스 인디애나 착공(8/27)
+
 ## 2026-08-22
 - 삼성전자 KRW 90~110조 주주환원 이사회 공식 의결(한국 역대 최대·자사 최고 5배) — Q3 현금배당 ~30조 + 나머지 2027년 1월 결정
 - Hot Chips 2026 내일 개막(8/23~25) — NVIDIA Vera Rubin(336B 트랜지스터·HBM4 288GB·22TB/s) vs AMD MI400(MI455X·MI430X) 첫 공식 스펙 대결 + NVIDIA 실적 D-4(8/26)
@@ -56,13 +63,5 @@ publish: false
 - 미 Empire State 11.9(예상 상회)·NAHB 32(예상 하회) — 제조업 선방 vs 주택 2연속 하락, 달러 약세·9월 FOMC 동결 60%
 - PTC Therapeutics, 파브리병 유전자치료 ST-920 경매 낙찰 최대 2억1,100만달러(현금 $1.11억 + 마일스톤)
 - 이번 주 소비 바로미터 — Home Depot(화)·Target(수)·Walmart(목) 실적 + FOMC 7월 의사록(8/20)
-
-## 2026-08-16
-- 잭슨홀(8/27~29) D-11 — Warsh 취임 후 첫 기조연설, 9월 FOMC 동결(71.2%) vs 인상(28.8%) 19일 전 방향타(직전 파일 개막일 8/21 표기 오류 → 실제 8/27 교정)
-- NVIDIA 실적 D-10(8/26) — 가이던스 $910억 ±2%, 컨센서스 $930~950억, Blackwell 램프업 첫 공식 수치
-- Definium DT120(리세르자이드) GAD Phase 3 VOYAGE 양성(8/12) — HAM-A 위약 대비 -5.4p(p<0.0001, Cohen's d=0.81), 사이키델릭 신약 역사상 첫 연속 3상 성공
-- Capricor deramiocel BLA 피벗 — 적응증 DMD 심근병증(LVEF)→상지 골격근으로 변경, PDUFA 8/22 연장 예정
-- 바이오 PDUFA 클러스터 — DTX401(GSDIa 최초 유전자치료 8/23)·garetosmab(FOP 최초 치료제 8/31) 연속 관문
-
 
 
