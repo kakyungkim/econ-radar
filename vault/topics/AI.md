@@ -2,18 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-08-21
+updated: 2026-08-23
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Hot Chips 2026(8/23~25) D-1 — NVIDIA Vera Rubin vs AMD Helios MI450X 랙스케일 대결 내일 개막**: 랙 단위 AI 인프라 조달 표준 전환 첫 경쟁 무대. AMD Helios Microsoft 고객 확정, 컴퓨트 +15%·HBM +50%(vs Vera Rubin NVL72) 내세워.
-- **NVIDIA 실적(8/26) D-4 — Blackwell HBM 수요 가이던스 컨센서스 $918~950억**: Hot Chips(8/23) → NVIDIA 실적(8/26) → Jackson Hole(8/28) 6일 이벤트 시퀀스의 두 번째 관문. AI 인프라 수요 공식 수치화.
-- **Chai Discovery AI 항체 $4억+빅파마 3사 동시 제휴·기업가치 $38억**: AI 항체 설계가 빅파마 R&D 표준 워크플로로 진입하는 첫 다중 제휴 신호. 초기 IND 제출 일정이 플랫폼 가치의 다음 기준점.
+- **Hot Chips 2026 Day 1(8/23) 완료 — NVIDIA Vera Rubin R100 vs AMD MI455X 공식 스펙 공개**: NVIDIA HBM4 대역폭 목표 22 TB/s → 실제 ~20 TB/s 미달. AMD 메모리 용량 50% 우위(432GB vs 288GB) 수치로 확인. 공급망 수율이 칩 설계사 로드맵을 제약하는 구조가 공식화됐다.
+- **NVIDIA 실적 D-3(8/26) — 컨센서스 매출 약 920억달러·EPS $2.09**: 3분기 가이던스(950억~1,000억달러)가 AI 인프라 사이클 지속 여부의 첫 공식 수치화. Warsh 연설(8/28)과 동주 집중으로 AI 성장주 밸류에이션 방향이 72시간 안에 결정된다.
+- **하이퍼스케일러 TCO 재산정 국면**: HBM4 대역폭 미달로 동일 추론 처리량에 칩 수가 더 필요. AMD의 메모리 용량 논거가 포트폴리오 분산 채택 논의를 확대. CUDA 생태계 전환 비용이 당장의 대규모 이탈을 막지만 분산 가능성은 증가.
 - **AI 전력 병목 구조화 지속**: Bloomberg 1,066GW 신청 중 28%만 현실 공급 가능. Core Scientific-AMD 1.1GW 15년 계약이 수요자 직접 인프라 확보 전략을 실증.
 
 ## 타임라인
+### 2026-08-23 [[daily/2026-08-23]]
+- [[daily/2026-08-23]] Hot Chips 2026 Day 1 — NVIDIA Vera Rubin R100(HBM4 288GB·~20 TB/s·NVFP4 50PFLOPS) 공식 스펙·대역폭 목표 미달 동시 공개. AMD MI455X(HBM4 432GB·23.3 TB/s·FP4 40PFLOPS) 정면 대결. 하이퍼스케일러 TCO 재산정 국면 → [[topics/AI반도체]] [[topics/반도체HBM]]
+- [[daily/2026-08-23]] NVIDIA FY2027 Q2 실적 D-3(8/26) — 컨센서스 매출 약 920억달러·EPS $2.09. Vera Rubin 수주·3분기 가이던스가 AI 인프라 사이클 지속 여부 첫 공식 수치화 → [[topics/NVIDIAEarnings]] [[topics/유망기업]]
+
 ### 2026-08-22 [[daily/2026-08-22]]
 - [[daily/2026-08-22]] Hot Chips 2026 개막 D-1(내일 8/23) — NVIDIA Vera Rubin·AMD Helios MI450X 랙스케일 대결. 삼성 HBM5·SK Hynix HBM4E 로드맵 공개 임박 → [[topics/반도체HBM]] [[topics/유망기업]]
 - [[daily/2026-08-22]] NVIDIA 실적(8/26) D-4 — Blackwell HBM 수요 가이던스 컨센서스 $918~950억. AI 인프라 수요 공식 수치화 → [[topics/반도체HBM]] [[topics/유망기업]]
