@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-08-11
+updated: 2026-08-24
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -11,12 +11,17 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Anthropic Theseus Infrastructure JV — Macquarie·GIC 참여, AI 전용 데이터센터 직접 건설**: AI 소프트웨어 기업이 전용 물리 인프라를 직접 확보하는 방향으로 전환. 클라우드 임대 모델 의존도를 낮추고 추론 원가 구조를 고정하려는 전략. Macquarie의 인프라 금융이 Anthropic에 대규모 CapEx 없이 물리 자산 확보 경로를 제공하는 구조.
-- **Microsoft Azure FY2026 연간 $100B 돌파(+43%), Copilot 3,000만 유료 시트**: AI 클라우드 수익화가 대규모로 첫 확인됐다. FY2027 capex $255~260B(+35% 전년비) 가이던스 제시.
-- **Meta Q2 EPS -13.4% 미스, FCF $784M 급감**: AI 인프라 직접 구축(capex $311B) 전략이 단기 수익에 먼저 압박으로 작용. 임대 모델(수익화 선행) vs 직접 구축 모델(비용 선행) 성과 분기.
-- **AI 인프라 전력 수요 구조화**: Google AI 전력 +37% YoY, 데이터센터 전력·냉각 인프라 수요가 구조적 확대 단계로 진입.
+- **Google TPU 8t/8i 공개(Hot Chips 2026, 8/24)** — 훈련용 TPU 8t(Sunfish·Broadcom 설계, 칩당 FP4 12.6PFLOPS·HBM 216GB·6.5 TB/s)·추론용 TPU 8i(Zebrafish·MediaTek 설계, HBM 288GB). TSMC 2나노. 2027년 말 외부 공급 목표. NVIDIA 단일 GPU 체제에 첫 현실적 대안.
+- **Intel Diamond Rapids 발표(Hot Chips 2026, 8/24)** — P코어 192개·하이퍼스레딩 전면 제거·Intel 18A 공정·2027년 출시. AI 추론 서버 CPU 오케스트레이션 효율 특화.
+- **Anthropic Theseus Infrastructure JV** — Macquarie·GIC 참여, AI 전용 데이터센터 직접 건설. 클라우드 임대 탈피·추론 원가 고정 전략.
+- **Microsoft Azure FY2026 $100B 돌파(+43%), FY2027 capex $255~260B(+35%)** — AI 클라우드 수익화 대규모 첫 확인.
+- **2027년 AI 칩 경쟁 구도** — TSMC 2나노 수요처에 NVIDIA VR200·AMD MI455X·Google TPU 8t/8i 추가. 삼성·SK하이닉스의 HBM 공급 협상 상대 다극화 진행 중.
 
 ## 타임라인
+### 2026-08-24 [[daily/2026-08-24]]
+- [[daily/2026-08-24]] Google TPU 8t(훈련·Broadcom·121 ExaFLOPS)·8i(추론·MediaTek·HBM 288GB) Hot Chips 2026 공개 — TSMC 2나노, 2027년 말 외부 공급 목표. NVIDIA 단일 GPU 체제에 첫 현실적 대안 → [[topics/반도체HBM]] [[topics/유망기업]]
+- [[daily/2026-08-24]] Intel Diamond Rapids(192코어·하이퍼스레딩 제거·Intel 18A·2027년) — AI 추론 서버 CPU 오케스트레이션 효율 특화 → [[topics/반도체]]
+
 ### 2026-08-18 [[daily/2026-08-18]]
 - [[daily/2026-08-18]] Hot Chips 2026(8/23~25) D-5 — NVIDIA Rubin GPU·AMD MI400 아키텍처 + 삼성 HBM5·SK하이닉스 HBM4E 동시 공개 예정. 기술 청사진(8/23~25) → 수요 수치(8/26 NVIDIA 실적) 2단계 확인 구조 → [[topics/반도체HBM]] [[topics/유망기업]]
 - [[daily/2026-08-18]] GPT-5.6 Sol 업데이트 — 오답률 68% 감소(GPT-5.5 Instant 대비, 자체 평가). 응답 노력 슬라이더 추가. 독립 벤치마크 검증 대기 → [[topics/AI]]

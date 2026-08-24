@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-24
+- LEQEMBI IQLIK(lecanemab SC) FDA 승인 — 알츠하이머 피하주사 개시용량(주 1회 500mg), 격주 IV → 자가주사 처방 채널 첫 전환. 8월 말 미국 출시 예정
+- KOSPI -3.12%(6,696.96) — 삼성전자 -8.35% 폭락(주주환원 실망 매물) vs SK하이닉스 +2.4% 역행(HBM4 독점 구도 재확인). KOSDAQ +2.2%
+- Bessent 이란 제재 세부안 발표 — 그림자 선단·중국·마샬아일랜드 선사 직격, 2차 제재 활성화. Brent $93.09(-1.38%) "선반영 완료"
+- Google TPU 8t/8i Hot Chips Day 2 공개 — 훈련·추론 분리 아키텍처, 121 ExaFLOPS, TSMC 2nm, 2027년 말 외부 공급 예고
+- 경구 GLP-1 Lilly Foundayo 점유율 56.7% vs Novo 37.1% — 경구 시장에서 브랜드 우위 역전 고착
+
 ## 2026-08-23
 - Hot Chips 2026 Day 1 — NVIDIA Vera Rubin R100 공식(HBM4 대역폭 목표 22TB/s→초기 출하 ~20TB/s 미달, SK하이닉스 70%·삼성 30%) + AMD MI455X(CDNA 5·HBM4 432GB·23.3TB/s) 첫 공식 스펙 대결 + NVIDIA 실적 D-3(8/26·컨센서스 $92B)
 - eplontersen CARDIO-TTRansform 1차 종점 미충족 — 스타빌라이저(tafamidis 등) 병용 환자군에서 효과 없음, 단일요법 서브그룹 HR 0.71, ESC 2026 핫라인(8/28) 전체 데이터 공개 예정
@@ -56,12 +63,5 @@ publish: false
 - Hot Chips 2026 D-5(8/23~25, Stanford) — NVIDIA Rubin GPU·AMD MI400·삼성 HBM5·SK하이닉스 HBM4E 발표 예정, 8/26 NVIDIA 실적 연동
 - Capricor deramiocel PDUFA D-4(8/22) — AdCom 3-9 부결(7/29) 후 FDA 독자 결정, DMD 심근병증 최초 세포치료제 기로
 - Eli Lilly retatrutide 소송 6건(8/12~13) GLP-1 블랙마켓 정화 + GPT-5.6 Sol 오답률 68% 감소(GPT-5.5 Instant 대비)
-
-## 2026-08-17
-- Stripe, OpenRouter 인수 $70억+(약 9조5,000억원) 확정(8/16) — AI 모델 라우팅-결제 수직 통합, 결제 인프라 미들레이어 선점
-- Leqembi IQLIK(lecanemab 피하주사) 8월 말 미국 출시 — 자가주사 첫 알츠하이머 치료제, SC 전환이 처방·급여 구조 변화
-- 미 Empire State 11.9(예상 상회)·NAHB 32(예상 하회) — 제조업 선방 vs 주택 2연속 하락, 달러 약세·9월 FOMC 동결 60%
-- PTC Therapeutics, 파브리병 유전자치료 ST-920 경매 낙찰 최대 2억1,100만달러(현금 $1.11억 + 마일스톤)
-- 이번 주 소비 바로미터 — Home Depot(화)·Target(수)·Walmart(목) 실적 + FOMC 7월 의사록(8/20)
 
 

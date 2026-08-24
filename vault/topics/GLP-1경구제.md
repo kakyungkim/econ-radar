@@ -10,13 +10,16 @@ publish: true
 > GLP-1 전반(주사 포함, 효능·적응증 확장)은 [GLP-1비만치료](/topics/GLP-1비만치료.md) 참조.
 
 ## 핵심 흐름
-- **retatrutide 28.3% 체중 감소 — GLP-1 3세대 기준 재설정(6/22)**: TRIUMPH-1 최종 데이터. 45.3%가 30% 이상 감량. Wegovy(15~17%) 대비 현격한 우위. 비만 수술(25~30%) 수준에 근접. NDA Q4 2026 제출 목표. 요로감염 발생률(7.5~8.4% vs 위약 5.3%)이 레이블 협상 변수.
-- **CrossBridge ADC 인수가 GLP-1 다음을 시사**: Lilly가 retatrutide 포트폴리오 업그레이드와 ADC 2.0을 동시 진행. 비만 시장의 경쟁이 효능에서 투약 편의(경구·주사 빈도)·안전성 프로파일로 이동하고 있다.
-- **Medicare GLP-1 Bridge(7/1 시행)**: 월 $50 상한으로 기존 GLP-1 접근성 확대. retatrutide는 2027~2028년 승인 이후에야 편입 예정.
-- **Lilly Foundayo(orforglipron) 당뇨 NDA Q2 제출 임박**: 비만 4월 허가에 이어 당뇨 NDA 접수 공시가 다음 촉매. 음식·물 제한 없는 경구 방식으로 Rybelsus 대비 실세계 순응도 차별화.
-- **경쟁 구도 — 효능(retatrutide 28.3%) vs 편의(Foundayo 경구) vs 빈도(화이자 월 1회 주사)**: GLP-1 시장의 다음 경쟁축이 세 방향으로 분화하고 있다.
+- **Lilly Foundayo 56.7% vs Novo Wegovy 37.1% 점유율(8/21 기준 주간 처방)** — 처방 절대량은 Novo 176,000건으로 Lilly 36,620건 대비 4배 이상이지만, 신규 처방 비중은 Foundayo가 우위. 주사 브랜드가 경구 시장에서 자동으로 점유율 우위로 이어지지 않는다는 사실이 확인됐다.
+- **Q2 2026 매출** — Novo 경구 Wegovy DKK 32억2,000만(컨센서스 DKK 36억 하회)·Lilly Foundayo 9,800만달러. Novo 주가 5% 하락.
+- **retatrutide 28.3% 체중 감소(TRIUMPH-1 최종)** — NDA Q4 2026 제출 목표. GLP-1 3중 작용 효능 기준 재설정. 요로감염 발생률(7.5~8.4% vs 위약 5.3%)이 레이블 협상 변수.
+- **경쟁축 3방향 분화** — 효능(retatrutide)·편의(Foundayo 경구)·빈도(화이자 월 1회 주사)로 분화.
+- **PBM 급여 목록 등재 협상** — 미국 고용주 보험·민간보험의 급여 포함 여부가 처방 절대량을 결정하는 가장 큰 단일 변수.
 
 ## 타임라인
+### 2026-08-24 [[daily/2026-08-24]]
+- [[daily/2026-08-24]] Lilly Foundayo 56.7% vs Novo Wegovy 37.1% 점유율 — 처방 절대량은 Novo가 4배 이상 많으나 신규 처방 비중은 Foundayo 우위 확인. Novo 주가 Q2 실적 발표 후 5% 하락 → [[topics/바이오제약]] [[topics/투자테마]]
+
 ### 2026-06-22 [2026-06-22](/daily/2026-06-22.md)
 - **Lilly retatrutide TRIUMPH-1 최종 데이터 발표(ADA 2026)**: 28.3% 체중 감소(12mg 최고 용량), 45.3%가 30% 이상 감량. TRANSCEND-T2D-1 당뇨 HbA1c -1.9%p. 요로감염 7.5~8.4% vs 위약 5.3% 신호. NDA Q4 2026 목표 — 출처: [Managed Healthcare Executive](https://www.managedhealthcareexecutive.com/view/retatrutide-shows-substantial-weight-loss-glycemic-control-in-obesity-and-type-2-diabetes-ada-2026) — [2026-06-22](/daily/2026-06-22.md)
 - **CrossBridge Bio 인수(최대 3억달러) Q2 클로징**: TROP2 이중 페이로드 ADC CBB-120. Lilly 포트폴리오에 비만 + ADC 2.0 동시 추가 — 출처: [FierceBiotech](https://www.fiercebiotech.com/biotech/eli-lilly-lassoes-texas-adc-specialist-crossbridge-bio-300m) — [2026-06-22](/daily/2026-06-22.md)
