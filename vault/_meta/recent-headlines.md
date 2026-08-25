@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-25
+- NVIDIA 실적 D-1 + 3중 이벤트 — 반도체 섹터 시총 $1조 증발 후 KOSPI 장중 -4% → 종가 +0.68%(6,742.74) 반전. 내일 FY27 Q2 실적(컨센 $93.63B)·PCE·BLS 고용 대수정 동시 발표
+- Jazz Ziihera(zanidatamab) HER2+ GEA 1차 FDA PDUFA 오늘 결과 미확인 — HERIZON-GEA-01 mOS 26.4개월(OS HR 0.72, PFS HR 0.63)
+- BOK 금리결정 D-2 + Jackson Hole D-2 — 인상 51.4%(18명) vs 동결 48.6%(17명) 사실상 동수. Warsh 8/28 첫 기조연설
+- Capricor deramiocel PDUFA 11/22로 연장 — 자문위 9대3 부결 후 FDA 적응증 정제(상지 기능) 재검토. DMD 심근병증 세포치료제 적응증 정제 전략 선례
+- SK하이닉스 인디애나 착공 D-2(8/27) — $3.87B(약 5조4,000억원), CHIPS Act $450M. ESC 2026 D-3(CARDIO-TTRansform 전체 데이터 8/28)
+
 ## 2026-08-24
 - LEQEMBI IQLIK(lecanemab SC) FDA 승인 — 알츠하이머 피하주사 개시용량(주 1회 500mg), 격주 IV → 자가주사 처방 채널 첫 전환. 8월 말 미국 출시 예정
 - KOSPI -3.12%(6,696.96) — 삼성전자 -8.35% 폭락(주주환원 실망 매물) vs SK하이닉스 +2.4% 역행(HBM4 독점 구도 재확인). KOSDAQ +2.2%
@@ -56,12 +63,5 @@ publish: false
 - Capricor deramiocel PDUFA D-3(8/22) — FDA 72시간 이내 독자 결정, DMD 심근병증 최초 세포치료제 기로
 - Home Depot Q2: EPS $4.92(예상 $4.73 상회)·매출 $47.9B(예상 $47.2B 상회)·FY2026 가이던스 재확인 — 잠김 효과(lock-in effect) 리모델링 수요 견고
 - Chai Discovery 시리즈 C $4억(기업가치 $38억) + Pfizer·Lilly·Novartis 동시 AI 항체 설계 제휴 — 빅파마 AI 플랫폼 표준화 변곡점
-
-## 2026-08-18
-- 미·이란 휴전 60일 만료(8/17) → Brent $91+·30년 국채 5.3146%(2004년래 최고)·달러인덱스 99.5 — 지정학 충격이 유가·채권·달러 동시 이동으로 번졌다
-- KOSPI 재개장 +2.15%(7,127.77) 후 종가 -1.55%(6,869.83) 반전 — 외국인 5거래일 연속 순매수, 이번 주 누적 7조8,000억원(확인 필요)
-- Hot Chips 2026 D-5(8/23~25, Stanford) — NVIDIA Rubin GPU·AMD MI400·삼성 HBM5·SK하이닉스 HBM4E 발표 예정, 8/26 NVIDIA 실적 연동
-- Capricor deramiocel PDUFA D-4(8/22) — AdCom 3-9 부결(7/29) 후 FDA 독자 결정, DMD 심근병증 최초 세포치료제 기로
-- Eli Lilly retatrutide 소송 6건(8/12~13) GLP-1 블랙마켓 정화 + GPT-5.6 Sol 오답률 68% 감소(GPT-5.5 Instant 대비)
 
 
