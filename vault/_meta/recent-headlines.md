@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-26
+- Jazz Ziihera(zanidatamab) FDA 정규 승인 — HER2+ GEA 1차 치료, PD-L1 무관 비스페시픽 HER2 × PD-1 복합요법 최초 정규 승인. mOS 26.4개월, HERIZON-GEA-01(n=914). 2011년 트라스투주맙 이후 1차 표준 첫 교체
+- NVIDIA FY27 Q2 실적 D-0 — 컨센서스 $91.85B(YoY +97%), EPS $2.08, Q3 가이던스 $95~104B 전망. 오늘 장 마감 후 발표, KOSPI +1.69% 선반영(삼성 +2.53%, SK하이닉스 1,689,000원 +0.66%)
+- PCE 오늘 발표(Core MoM 컨센서스 +0.18%/YoY 3.2%) + BOK D-1(인상 67%, Reuters 35인 18:17) + Jackson Hole D-1(Warsh 8/28 10:00 EDT) + BLS 대수정 8/28(어제 8/26 예고 정정)
+- SK하이닉스 인디애나 착공 D-1($3.87B, CHIPS Act $458M+$500M, Jensen Huang 미확인) + ESC 2026 D-2(CARDIO-TTRansform n=1,432 전체 데이터 8/28 핫라인)
+- GBC 2026 서울 개막(식약처 주최, 5,000명·70개국, AI·세포유전자치료 규제 의제) + LG화학 Genuv GNV205 항체-사이토카인 융합 고형암 전임상 착수
+
 ## 2026-08-25
 - NVIDIA 실적 D-1 + 3중 이벤트 — 반도체 섹터 시총 $1조 증발 후 KOSPI 장중 -4% → 종가 +0.68%(6,742.74) 반전. 내일 FY27 Q2 실적(컨센 $93.63B)·PCE·BLS 고용 대수정 동시 발표
 - Jazz Ziihera(zanidatamab) HER2+ GEA 1차 FDA PDUFA 오늘 결과 미확인 — HERIZON-GEA-01 mOS 26.4개월(OS HR 0.72, PFS HR 0.63)
@@ -57,11 +64,5 @@ publish: false
 - Ultragenyx DTX401 PDUFA D-3(8/23) + Regeneron garetosmab 8/19 FDA 승인(브랜드명 Pasatru) — GSDIa·FOP 최초 치료제 결정 클러스터
 - Target Q2 EPS $4.11(컨센 $2.33 대폭 상회, 관세 환급 $752M 포함·제외 시 +20%)·매출 $26.5B·연간 가이던스 상향
 
-## 2026-08-19
-- UAE-이란 충돌 격화(UAE 무기한 무역금수·이란 미사일 공격) → KOSPI 6.45% 폭락·사이드카 발동(올해 48번째), 삼성전자 -7.5%·SK하이닉스 -8.8%, Brent $91.52 4일 연속 상승
-- Regeneron garetosmab PDUFA ~D-12(~8/31) — FOP 최초 치료제 BLA 우선심사, OPTIMA 52주 신규 HO 병변 -94%/-90%(p값 확인)
-- Capricor deramiocel PDUFA D-3(8/22) — FDA 72시간 이내 독자 결정, DMD 심근병증 최초 세포치료제 기로
-- Home Depot Q2: EPS $4.92(예상 $4.73 상회)·매출 $47.9B(예상 $47.2B 상회)·FY2026 가이던스 재확인 — 잠김 효과(lock-in effect) 리모델링 수요 견고
-- Chai Discovery 시리즈 C $4억(기업가치 $38억) + Pfizer·Lilly·Novartis 동시 AI 항체 설계 제휴 — 빅파마 AI 플랫폼 표준화 변곡점
 
 
