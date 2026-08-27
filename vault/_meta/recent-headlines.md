@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-27
+- NVIDIA Q2 FY27 $96.2B 어닝서프라이즈(+106% YoY), EPS $2.22, Q3 가이던스 $108B — KOSPI +1.53%(삼성 +3.25%·270,000원, SK하이닉스 +5.45%·1,780,000원). "FY28까지 메모리 부족" 발언
+- BOK 기준금리 2.75%→3.0%(+25bp) — 2회 연속 인상. 점도표 10명/21명(47.6%)이 3.25% 추가 인상 지지. 3년 7개월 만의 연속 긴축
+- daraxonrasib(Rasonque) FDA 승인 — 전이성 췌장 선암 최초 RAS 억제제(Revolution Medicines). mOS 13.2개월 vs SOC 6.7개월(RASolute 302, n=500). 30년 "표적화 불가" 통념 돌파
+- SK하이닉스 인디애나 착공 완료 — $3.87B HBM4 후공정 팹, CHIPS Act 보조금 $450M+대출 $500M. 최태원·곽노정 참석, Jensen Huang 미확인. 양산 2028년 하반기
+- SK바이오팜 + Biohaven opakalim 계약 최대 $795M(선불 $350M) — Kv7.2/7.3 뇌전증 플랫폼, RISE3 탑라인 2H 2026. Biohaven +13%
+
 ## 2026-08-26
 - Jazz Ziihera(zanidatamab) FDA 정규 승인 — HER2+ GEA 1차 치료, PD-L1 무관 비스페시픽 HER2 × PD-1 복합요법 최초 정규 승인. mOS 26.4개월, HERIZON-GEA-01(n=914). 2011년 트라스투주맙 이후 1차 표준 첫 교체
 - NVIDIA FY27 Q2 실적 D-0 — 컨센서스 $91.85B(YoY +97%), EPS $2.08, Q3 가이던스 $95~104B 전망. 오늘 장 마감 후 발표, KOSPI +1.69% 선반영(삼성 +2.53%, SK하이닉스 1,689,000원 +0.66%)
@@ -56,13 +63,5 @@ publish: false
 - Jackson Hole D-6(8/27~29) — Warsh 첫 기조연설 8/28, 30년물 5.25% 재반등(Bessent 바이백 효과 희석)
 - GENGLYCOS(DTX401/Ultragenyx) 8/19 FDA 가속 승인 확정(GSDIa 최초 유전자치료제) + Capricor deramiocel PDUFA D-1(8/22)
 - AMD Helios Hot Chips D-2(8/23~25) — Microsoft 고객 확보, 컴퓨트 +15%·HBM +50% vs NVIDIA Vera Rubin + NVIDIA 실적 D-5(8/26)
-
-## 2026-08-20
-- SK Hynix ₩40조($28.6B) 자사주 전량 소각(한국 역대 최대) + FCF 50%+ 환원 정책 명문화 → KOSPI +5.9%·SK하이닉스 +14%·삼성전자 +10% 급반등
-- FOMC 7월 의사록 광범위 매파(추가 긴축 가능 논거 다수) + Bessent 재무부 바이백 배증($2B→$4B+) → 30년물 5.26%→5.18%, 연준 vs 재무부 정책 분리 구도
-- Capricor deramiocel PDUFA D-2(8/22) — AdCom 3-9 부결 후 FDA 독자 결정 72시간 이내, DMD 심근병증 최초 세포치료제 기로
-- Ultragenyx DTX401 PDUFA D-3(8/23) + Regeneron garetosmab 8/19 FDA 승인(브랜드명 Pasatru) — GSDIa·FOP 최초 치료제 결정 클러스터
-- Target Q2 EPS $4.11(컨센 $2.33 대폭 상회, 관세 환급 $752M 포함·제외 시 +20%)·매출 $26.5B·연간 가이던스 상향
-
 
 
