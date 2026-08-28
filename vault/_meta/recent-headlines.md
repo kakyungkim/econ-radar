@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-28
+- OpenAI·Broadcom Jalapeño 추론칩 공개 — TSMC 3nm, HBM4 216GiB·15.4TB/s, GB200·GB300 대비 와트당 1.5~1.9배 효율, 9개월 설계. NVDA 본장 +8.74%($226.15, 약 31만2,000원)
+- Cytokinetics aficamten ACACIA-HCM Ph3 성공 — 비폐쇄성 HCM 역대 최초: KCCQ +3.0점(p=0.021), pVO2 +0.67 mL/kg/min(p=0.003), n=516. HCM 전체 스펙트럼 단일 약물 커버 가시화
+- CARDIO-TTRansform 전체 데이터 — eplontersen(Ionis/AZ) ATTR-CM 1차 종점 미달 확정, 병용군 이득 없음(n=1,432). vutrisiran·tafamidis·acoramidis 반사이익 구도
+- Warsh 잭슨홀 기조연설 오늘 23:00 KST 예정(수집 시점 미발표) — Core PCE 3.3%, 30Y 5.31%, 9월 인상 ~1/3 확률. BLS 고용 대수정 동시 발표
+- NVIDIA AI 서버 15% 인상 예고(2027년 초)·KOSPI -0.95% 역행 — HBM 공급 부족. 삼성 HBM4·OpenAI Jalapeño 공급 경로 미확인
+
 ## 2026-08-27
 - NVIDIA Q2 FY27 $96.2B 어닝서프라이즈(+106% YoY), EPS $2.22, Q3 가이던스 $108B — KOSPI +1.53%(삼성 +3.25%·270,000원, SK하이닉스 +5.45%·1,780,000원). "FY28까지 메모리 부족" 발언
 - BOK 기준금리 2.75%→3.0%(+25bp) — 2회 연속 인상. 점도표 10명/21명(47.6%)이 3.25% 추가 인상 지지. 3년 7개월 만의 연속 긴축
@@ -56,12 +63,5 @@ publish: false
 - Capricor deramiocel PDUFA 오늘 결과 없음 — BLA 수정(DMD 심근병증→상지 근기능 + 24개월 OLE) + PDUFA 연장 예정
 - Trump "경제 D-Day" 이란 2차 제재 Bessent 8/24 세부 발표 예고 — Brent $93~94(주간 +5~6%), 30년물 5.273%, DXY ~98.8
 - Jazz Ziihera PDUFA D-3(8/25·HER2+ GEA 1차·OS 26.4개월) + ESC Congress 2026 D-6(8/28, 핫라인 59개·CARDIO-TTRansform 최대 주목)
-
-## 2026-08-21
-- 삼성전자 Q2 영업이익 ₩89.5조(YoY +1,814% 사상 최대) + ₩100조 주주환원 이사회 월말 의결 임박 → KOSPI +0.88%(6,912.95), 삼성 +3.87%
-- Walmart Q2 미국 동일점포 +2.6%(예상 +3.5% 하회) → 주가 -9%, 미 3대 지수 하락 + 이란 제재로 Brent $93+(주간 +5%, 3.5년래 최고)
-- Jackson Hole D-6(8/27~29) — Warsh 첫 기조연설 8/28, 30년물 5.25% 재반등(Bessent 바이백 효과 희석)
-- GENGLYCOS(DTX401/Ultragenyx) 8/19 FDA 가속 승인 확정(GSDIa 최초 유전자치료제) + Capricor deramiocel PDUFA D-1(8/22)
-- AMD Helios Hot Chips D-2(8/23~25) — Microsoft 고객 확보, 컴퓨트 +15%·HBM +50% vs NVIDIA Vera Rubin + NVIDIA 실적 D-5(8/26)
 
 
