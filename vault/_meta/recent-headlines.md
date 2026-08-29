@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-29
+- Warsh 잭슨홀 '조용한 연준' 선언 — 9월 FOMC 인상 확률 55.7%(CME FedWatch, 전일 35.4%→), PCE 구성 요소 54% 연환산 3% 이상. 9/1(월) KOSPI 반응 분기점
+- ESC 2026 STAREE — 70세+ 아토르바스타틴 1차 예방 최초 대규모 RCT: CV 이벤트 -30%, 장애 없는 생존 HR 0.94(95% CI 0.84~1.05, 미달). NEJM 동시 게재
+- ESC 2026 ENRICH-AF — 뇌출혈 후 AF 에독사반: 대출혈 11.6% vs 5.2%(HR 2.23), 처방 공백 재확인
+- Cytokinetics aficamten 후속 — ESC 추가 발표, 장중 52주 신고가 $74.35·종가 $74.23, RBC PT $87
+- Roche Vabysmo SALWEEN 2년 — PCV형 nAMD BCVA +7.3글자, 20주 간격 61%
+
 ## 2026-08-28
 - OpenAI·Broadcom Jalapeño 추론칩 공개 — TSMC 3nm, HBM4 216GiB·15.4TB/s, GB200·GB300 대비 와트당 1.5~1.9배 효율, 9개월 설계. NVDA 본장 +8.74%($226.15, 약 31만2,000원)
 - Cytokinetics aficamten ACACIA-HCM Ph3 성공 — 비폐쇄성 HCM 역대 최초: KCCQ +3.0점(p=0.021), pVO2 +0.67 mL/kg/min(p=0.003), n=516. HCM 전체 스펙트럼 단일 약물 커버 가시화
@@ -56,12 +63,5 @@ publish: false
 - Jazz Ziihera PDUFA D-2(8/25·HER2+ GEA 1차·zanidatamab·OS 26.4개월·HR 0.72)
 - Bessent 이란 2차 제재 D-1 — 내일(8/24) 기자회견 "역사상 가장 강력한 제재", Brent ~$94/배럴, 30년물 5.25%+, DXY ~98.8
 - 이번 주 5대 이벤트 집중 — NVIDIA 실적(8/26)·BOK 금리(8/27·25bp 인상 vs 동결+10월 시사)·Jackson Hole(8/27~29)·SK하이닉스 인디애나 착공(8/27)
-
-## 2026-08-22
-- 삼성전자 KRW 90~110조 주주환원 이사회 공식 의결(한국 역대 최대·자사 최고 5배) — Q3 현금배당 ~30조 + 나머지 2027년 1월 결정
-- Hot Chips 2026 내일 개막(8/23~25) — NVIDIA Vera Rubin(336B 트랜지스터·HBM4 288GB·22TB/s) vs AMD MI400(MI455X·MI430X) 첫 공식 스펙 대결 + NVIDIA 실적 D-4(8/26)
-- Capricor deramiocel PDUFA 오늘 결과 없음 — BLA 수정(DMD 심근병증→상지 근기능 + 24개월 OLE) + PDUFA 연장 예정
-- Trump "경제 D-Day" 이란 2차 제재 Bessent 8/24 세부 발표 예고 — Brent $93~94(주간 +5~6%), 30년물 5.273%, DXY ~98.8
-- Jazz Ziihera PDUFA D-3(8/25·HER2+ GEA 1차·OS 26.4개월) + ESC Congress 2026 D-6(8/28, 핫라인 59개·CARDIO-TTRansform 최대 주목)
 
 
