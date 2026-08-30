@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-30
+- ESC 2026 Hot Line 6 LUMINARA — AZD5462(경구 릴렉신) HFpEF 1차 달성·HFrEF 미달, 경구 RXFP1 계열 최초 양성 신호
+- Takeda MIMRYLO(rusfertide) FDA 승인 — PV 최초 헤프시딘 유사체, 사혈 불필요 76.9% vs 32.9%(VERIFY Ph3, n=293)
+- BioNTech autogene cevumeran Phase 2 종료 — 생존 불균형, BNTX -8%·Moderna -6%, mRNA 단독 암치료 한계 확인
+- Meta Hatch — Anthropic Claude 기반 에이전트 슈퍼앱 수주 내 출시, $199.99/월 프리미엄 검토
+- Warsh 잭슨홀 여파 — KOSPI 7,000선 미회복 첫 정규 반영일, 9월 FOMC 인상 확률 55~59%(CME FedWatch)
+
 ## 2026-08-29
 - Warsh 잭슨홀 '조용한 연준' 선언 — 9월 FOMC 인상 확률 55.7%(CME FedWatch, 전일 35.4%→), PCE 구성 요소 54% 연환산 3% 이상. 9/1(월) KOSPI 반응 분기점
 - ESC 2026 STAREE — 70세+ 아토르바스타틴 1차 예방 최초 대규모 RCT: CV 이벤트 -30%, 장애 없는 생존 HR 0.94(95% CI 0.84~1.05, 미달). NEJM 동시 게재
@@ -56,12 +63,4 @@ publish: false
 - Bessent 이란 제재 세부안 발표 — 그림자 선단·중국·마샬아일랜드 선사 직격, 2차 제재 활성화. Brent $93.09(-1.38%) "선반영 완료"
 - Google TPU 8t/8i Hot Chips Day 2 공개 — 훈련·추론 분리 아키텍처, 121 ExaFLOPS, TSMC 2nm, 2027년 말 외부 공급 예고
 - 경구 GLP-1 Lilly Foundayo 점유율 56.7% vs Novo 37.1% — 경구 시장에서 브랜드 우위 역전 고착
-
-## 2026-08-23
-- Hot Chips 2026 Day 1 — NVIDIA Vera Rubin R100 공식(HBM4 대역폭 목표 22TB/s→초기 출하 ~20TB/s 미달, SK하이닉스 70%·삼성 30%) + AMD MI455X(CDNA 5·HBM4 432GB·23.3TB/s) 첫 공식 스펙 대결 + NVIDIA 실적 D-3(8/26·컨센서스 $92B)
-- eplontersen CARDIO-TTRansform 1차 종점 미충족 — 스타빌라이저(tafamidis 등) 병용 환자군에서 효과 없음, 단일요법 서브그룹 HR 0.71, ESC 2026 핫라인(8/28) 전체 데이터 공개 예정
-- Jazz Ziihera PDUFA D-2(8/25·HER2+ GEA 1차·zanidatamab·OS 26.4개월·HR 0.72)
-- Bessent 이란 2차 제재 D-1 — 내일(8/24) 기자회견 "역사상 가장 강력한 제재", Brent ~$94/배럴, 30년물 5.25%+, DXY ~98.8
-- 이번 주 5대 이벤트 집중 — NVIDIA 실적(8/26)·BOK 금리(8/27·25bp 인상 vs 동결+10월 시사)·Jackson Hole(8/27~29)·SK하이닉스 인디애나 착공(8/27)
-
 
