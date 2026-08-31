@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-08-31
+- 삼성바이오로직스 PolyPeptide $1.84B(약 2조5,200억원) 공개매수 개시(9/15~10/12) — 한국 바이오 해외 인수 사상 최대, GLP-1 펩타이드 CDMO 진입
+- Medera SRD-002(AAV1/SERCA2a) ESC 2026 최종일 — HFpEF 유전자치료 12개월 PCWP 정상화 80%(n=10), 중대 이상반응 0건
+- DeepSeek 첫 외부 펀딩 $7.4B·기업가치 $74B — 텐센트·CATL 참여, 2027 STAR 상장 준비
+- 미국-이란 교전 재개 — 브렌트유 $90.32, 호르무즈해협 리스크 부활
+- KOSPI 장중 -2.58%→종가 +0.46% V자 반등, 브로드컴 9/2 어닝(AI ASIC $16B 달성 여부) 주간 체크포인트
+
 ## 2026-08-30
 - ESC 2026 Hot Line 6 LUMINARA — AZD5462(경구 릴렉신) HFpEF 1차 달성·HFrEF 미달, 경구 RXFP1 계열 최초 양성 신호
 - Takeda MIMRYLO(rusfertide) FDA 승인 — PV 최초 헤프시딘 유사체, 사혈 불필요 76.9% vs 32.9%(VERIFY Ph3, n=293)
@@ -57,10 +64,4 @@ publish: false
 - Capricor deramiocel PDUFA 11/22로 연장 — 자문위 9대3 부결 후 FDA 적응증 정제(상지 기능) 재검토. DMD 심근병증 세포치료제 적응증 정제 전략 선례
 - SK하이닉스 인디애나 착공 D-2(8/27) — $3.87B(약 5조4,000억원), CHIPS Act $450M. ESC 2026 D-3(CARDIO-TTRansform 전체 데이터 8/28)
 
-## 2026-08-24
-- LEQEMBI IQLIK(lecanemab SC) FDA 승인 — 알츠하이머 피하주사 개시용량(주 1회 500mg), 격주 IV → 자가주사 처방 채널 첫 전환. 8월 말 미국 출시 예정
-- KOSPI -3.12%(6,696.96) — 삼성전자 -8.35% 폭락(주주환원 실망 매물) vs SK하이닉스 +2.4% 역행(HBM4 독점 구도 재확인). KOSDAQ +2.2%
-- Bessent 이란 제재 세부안 발표 — 그림자 선단·중국·마샬아일랜드 선사 직격, 2차 제재 활성화. Brent $93.09(-1.38%) "선반영 완료"
-- Google TPU 8t/8i Hot Chips Day 2 공개 — 훈련·추론 분리 아키텍처, 121 ExaFLOPS, TSMC 2nm, 2027년 말 외부 공급 예고
-- 경구 GLP-1 Lilly Foundayo 점유율 56.7% vs Novo 37.1% — 경구 시장에서 브랜드 우위 역전 고착
 
