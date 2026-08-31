@@ -2,18 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-08-30
+updated: 2026-08-31
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Meta Hatch — 소비자 AI 에이전트 수익화 첫 대형 실험**: Claude 기반 지속형 에이전트, 인스타그램·왓츠앱 30억+ 사용자 기반, $199.99/월 프리미엄 티어 검토. Anthropic API 수요 급증과 IPO 밸류에이션 논거 강화가 동시에 작동한다.
-- **Cisco·NVIDIA Secure AI Factory 랙 스케일 번들**: Supermicro 통합, 10월 공급 시작. 기업·네오클라우드·국가 클라우드 타깃. AI 인프라 설계·통합·보안 복잡성 축소 수요를 겨냥한 턴키 솔루션.
-- **Warsh 매파 여파 국내 첫 정규 반영**: KOSPI 7,000선 아래 정체·외국인 관망. 9월 FOMC(9/16) 인상 확률 55~59%. AI 성장주 할인율 상승 압력 구조 지속. 이번 주 PCE 지표가 단기 방향 체크포인트.
-- **AI 에이전트 신뢰 문제 부상**: 에이전트에 계정·결제 접근 허용 시 오작동 책임 귀속이 채택 속도를 좌우하는 구조적 변수. Meta Hatch 출시 초기 사례가 업계 기준선 역할을 할 전망.
+- **DeepSeek 50B CNY 펀딩·2027 STAR IPO — 중국 AI 독립 자본 체계 완성**: $7.4B(약 101조원) 밸류에이션, Tencent 10B·CATL 5B·창업자 20B CNY. 미국 투자 차단 구조에서 중국 AI 생태계가 자체 자본 루프를 닫는 첫 대형 사례. 2027 STAR 상장 추진.
+- **AWS Bedrock MiniMax 4M 토큰 컨텍스트 — 롱 컨텍스트 상용화**: 법률·R&D·멀티위크 에이전트 사용처 개방. Anthropic Claude·Google Gemini와 컨텍스트 길이 경쟁이 엔터프라이즈 API 전환 비용을 결정하는 국면으로 이동.
+- **Broadcom FY3Q AI 반도체 $16B 가이던스(QoQ +48%) — xPU 수요 가속**: FY2Q $10.8B(전체 $22B 중 49%)에서 추가 도약. 하이퍼스케일러 맞춤 xPU 설계가 NVIDIA ASIC 대안으로 비용·통제권 두 이유에서 구조적 채택 진행.
 
 ## 타임라인
+### 2026-08-31 [[daily/2026-08-31]]
+- DeepSeek 50B CNY($7.4B) 펀딩 라운드 확정 — Tencent 10B·CATL 5B·창업자 20B CNY. 밸류에이션 $74B(약 101조원). 2027 STAR 상장 추진. 미-중 AI 자본 분리 구조에서 중국 독립 자본 루프 완성 → [[topics/유망기업]] [[topics/거시정책]]
+- AWS Bedrock MiniMax 4M 토큰 컨텍스트 출시 — 롱 컨텍스트 실용화. 법률·R&D·멀티위크 에이전트 사용처 개방. 엔터프라이즈 API 컨텍스트 길이 경쟁 국면 진입 → [[topics/유망기업]]
+- Broadcom FY3Q AI 반도체 $16B 가이던스(QoQ +48%) — FY2Q $10.8B에서 도약. xPU(하이퍼스케일러 맞춤 ASIC) 수요 가속 실물 확인 → [[topics/반도체]] [[topics/투자테마]]
+
 ### 2026-08-30 [[daily/2026-08-30]]
 - Meta Hatch 출시 임박 — Claude 기반 지속형 에이전트, $199.99/월 프리미엄 검토. 30억+ 사용자 기반 소비자 AI 에이전트 수익화 첫 실험. Anthropic API 수요 급증·IPO 논거 강화 → [[topics/유망기업]] [[topics/AI-agent-platform]]
 - Cisco·NVIDIA·Supermicro Secure AI Factory — 랙 스케일 턴키 번들. 10월 공급 시작. 기업·네오클라우드·국가 클라우드 타깃 → [[topics/유망기업]]
