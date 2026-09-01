@@ -2,17 +2,23 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-08-31
+updated: 2026-09-01
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **DeepSeek 50B CNY 펀딩·2027 STAR IPO — 중국 AI 독립 자본 체계 완성**: $7.4B(약 101조원) 밸류에이션, Tencent 10B·CATL 5B·창업자 20B CNY. 미국 투자 차단 구조에서 중국 AI 생태계가 자체 자본 루프를 닫는 첫 대형 사례. 2027 STAR 상장 추진.
-- **AWS Bedrock MiniMax 4M 토큰 컨텍스트 — 롱 컨텍스트 상용화**: 법률·R&D·멀티위크 에이전트 사용처 개방. Anthropic Claude·Google Gemini와 컨텍스트 길이 경쟁이 엔터프라이즈 API 전환 비용을 결정하는 국면으로 이동.
-- **Broadcom FY3Q AI 반도체 $16B 가이던스(QoQ +48%) — xPU 수요 가속**: FY2Q $10.8B(전체 $22B 중 49%)에서 추가 도약. 하이퍼스케일러 맞춤 xPU 설계가 NVIDIA ASIC 대안으로 비용·통제권 두 이유에서 구조적 채택 진행.
+- **Broadcom(AVGO) FY3Q AI ASIC 수주 실적 확인 분기 — $100B 누적 달성 여부 첫 공식 수치 검증**: xPU(하이퍼스케일러 맞춤 ASIC) 장기 수주가 NVIDIA GPU 대안 구도에서 구조적 채택을 얼마나 확장했는지 공식 수치화. Google·Meta·Apple 복수 고객 구조가 독점 리스크 완화.
+- **OpenAI S-1 공개 — $1T 밸류에이션 대비 실제 매출·비용 구조 첫 공개**: ARR $400억+ vs 연간 인프라 투자 $200B+ 격차가 AI 소프트웨어 수익성 경로의 핵심 변수. 기밀 제출에서 공개 S-1 전환으로 투자자 검증 시작. Anthropic IPO와 동시 창구 경쟁.
+- **EU LUMI-AI(AMD MI300X) 가동 + DoD GenAI.mil 지정 — 미국 기술 기반 지정학 AI 인프라 양극 확장**: 유럽 주권 AI(AMD 기반)와 미국 국방 AI(GenAI.mil)가 같은 날 부각. 화웨이 Ascend 기반 중국 AI 국가망과 기술·자본 분화 구도 고착.
 
 ## 타임라인
+### 2026-09-01 [[daily/2026-09-01]]
+- Broadcom(AVGO) FY3Q AI 수주 실적 확인 — $16B 가이던스 대비 결과. xPU 장기 수주 $100B 누적 달성 여부가 AI ASIC vs GPU 경쟁 구도 첫 공식 수치 검증 → [[topics/유망기업]] [[topics/반도체]]
+- OpenAI S-1 공개 — $1T 밸류에이션 목표 대비 실제 매출·비용 구조 공개. AI 소프트웨어 수익성 공개 기준점 형성 → [[topics/유망기업]] [[topics/투자테마]]
+- EU LUMI-AI(AMD MI300X) 가동 — 미국산 GPU 기반 유럽 주권 AI 인프라 첫 가동. 화웨이 Ascend 기반 중국 AI 국가망과 기술 분화 구도 → [[topics/거시정책]] [[topics/유망기업]]
+- DoD GenAI.mil 플랫폼 지정 — 미국 국방 AI 공식 지정. 군사 AI 표준화가 민간 AI 공급사 신규 수주 경쟁 전선으로 부상 → [[topics/거시정책]]
+
 ### 2026-08-31 [[daily/2026-08-31]]
 - DeepSeek 50B CNY($7.4B) 펀딩 라운드 확정 — Tencent 10B·CATL 5B·창업자 20B CNY. 밸류에이션 $74B(약 101조원). 2027 STAR 상장 추진. 미-중 AI 자본 분리 구조에서 중국 독립 자본 루프 완성 → [[topics/유망기업]] [[topics/거시정책]]
 - AWS Bedrock MiniMax 4M 토큰 컨텍스트 출시 — 롱 컨텍스트 실용화. 법률·R&D·멀티위크 에이전트 사용처 개방. 엔터프라이즈 API 컨텍스트 길이 경쟁 국면 진입 → [[topics/유망기업]]

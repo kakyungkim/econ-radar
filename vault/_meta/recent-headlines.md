@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-01
+- 브로드컴 FY3Q 어닝 D-1 & OpenAI IPO S-1 기밀 제출 — AI ASIC $16B·FY27 $100B 가이던스 재확인과 생성 AI 수익 구조 최초 공개 동시 임박
+- Besremi(ropeginterferon alfa-2b) ET FDA 승인 — PharmaEssentia, 30년 만의 ET 신약, SURPASS-ET 42.9% vs 6.0%(p=0.0001)
+- 9월 FOMC 25bp 인상 확률 60.4%·호르무즈 탱커 기뢰 피격 — 브렌트유 $91.28(+0.87%), 유가·금리 이중 압박 정착
+- zilurgisertib FOP PDUFA 9/26 — Mirum/Incyte, 전 세계 최초 경구 ALK2 억제제·FOP 첫 승인 약물 후보
+- 한미약품-Genentech HM17321(UCN2) 최대 $2.3B(약 3조1,600억원) — 비GLP-1 비만 기전 첫 빅파마 글로벌 베팅, Phase 1 진행 중
+
 ## 2026-08-31
 - 삼성바이오로직스 PolyPeptide $1.84B(약 2조5,200억원) 공개매수 개시(9/15~10/12) — 한국 바이오 해외 인수 사상 최대, GLP-1 펩타이드 CDMO 진입
 - Medera SRD-002(AAV1/SERCA2a) ESC 2026 최종일 — HFpEF 유전자치료 12개월 PCWP 정상화 80%(n=10), 중대 이상반응 0건
@@ -56,12 +63,5 @@ publish: false
 - PCE 오늘 발표(Core MoM 컨센서스 +0.18%/YoY 3.2%) + BOK D-1(인상 67%, Reuters 35인 18:17) + Jackson Hole D-1(Warsh 8/28 10:00 EDT) + BLS 대수정 8/28(어제 8/26 예고 정정)
 - SK하이닉스 인디애나 착공 D-1($3.87B, CHIPS Act $458M+$500M, Jensen Huang 미확인) + ESC 2026 D-2(CARDIO-TTRansform n=1,432 전체 데이터 8/28 핫라인)
 - GBC 2026 서울 개막(식약처 주최, 5,000명·70개국, AI·세포유전자치료 규제 의제) + LG화학 Genuv GNV205 항체-사이토카인 융합 고형암 전임상 착수
-
-## 2026-08-25
-- NVIDIA 실적 D-1 + 3중 이벤트 — 반도체 섹터 시총 $1조 증발 후 KOSPI 장중 -4% → 종가 +0.68%(6,742.74) 반전. 내일 FY27 Q2 실적(컨센 $93.63B)·PCE·BLS 고용 대수정 동시 발표
-- Jazz Ziihera(zanidatamab) HER2+ GEA 1차 FDA PDUFA 오늘 결과 미확인 — HERIZON-GEA-01 mOS 26.4개월(OS HR 0.72, PFS HR 0.63)
-- BOK 금리결정 D-2 + Jackson Hole D-2 — 인상 51.4%(18명) vs 동결 48.6%(17명) 사실상 동수. Warsh 8/28 첫 기조연설
-- Capricor deramiocel PDUFA 11/22로 연장 — 자문위 9대3 부결 후 FDA 적응증 정제(상지 기능) 재검토. DMD 심근병증 세포치료제 적응증 정제 전략 선례
-- SK하이닉스 인디애나 착공 D-2(8/27) — $3.87B(약 5조4,000억원), CHIPS Act $450M. ESC 2026 D-3(CARDIO-TTRansform 전체 데이터 8/28)
 
 
