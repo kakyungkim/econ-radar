@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-02
+- KOSPI -3.99%(6,562.72·-273pt)·브렌트유 $94.86/bbl — 미군 이란 탱커 보복 공습('탱커 for 탱커'), 외인 1.9조 순매도, 9월 FOMC 25bp 확률 66%
+- Eli Lilly → Merida Biosciences 최대 $2.875B(약 3조9,350억원) — 자가항체 선택적 분해 플랫폼, MER511(그레이브스병·TED) Phase 1, 2026년 13번째 인수
+- CXMT HBM3E 소량 생산 개시 — 알리바바·캠브리콘 테스트 공급, 한국 업체 대비 기술 격차(업계 추정, 본문 확인 필요)
+- Runway Solaris — AI가 실시간으로 소프트웨어 인터페이스를 생성하는 월드 모델, 코드 없는 UI 생성 데모
+- OpenAI IPO 2027년 연기 확인 — 공개 S-1 미제출, 순손실 $38.5B·흑자 전환 2030년·ARR $40B+(Bloomberg 2026-08-13)
+
 ## 2026-09-01
 - 브로드컴 FY3Q 어닝 D-1 & OpenAI IPO S-1 기밀 제출 — AI ASIC $16B·FY27 $100B 가이던스 재확인과 생성 AI 수익 구조 최초 공개 동시 임박
 - Besremi(ropeginterferon alfa-2b) ET FDA 승인 — PharmaEssentia, 30년 만의 ET 신약, SURPASS-ET 42.9% vs 6.0%(p=0.0001)
@@ -56,12 +63,5 @@ publish: false
 - daraxonrasib(Rasonque) FDA 승인 — 전이성 췌장 선암 최초 RAS 억제제(Revolution Medicines). mOS 13.2개월 vs SOC 6.7개월(RASolute 302, n=500). 30년 "표적화 불가" 통념 돌파
 - SK하이닉스 인디애나 착공 완료 — $3.87B HBM4 후공정 팹, CHIPS Act 보조금 $450M+대출 $500M. 최태원·곽노정 참석, Jensen Huang 미확인. 양산 2028년 하반기
 - SK바이오팜 + Biohaven opakalim 계약 최대 $795M(선불 $350M) — Kv7.2/7.3 뇌전증 플랫폼, RISE3 탑라인 2H 2026. Biohaven +13%
-
-## 2026-08-26
-- Jazz Ziihera(zanidatamab) FDA 정규 승인 — HER2+ GEA 1차 치료, PD-L1 무관 비스페시픽 HER2 × PD-1 복합요법 최초 정규 승인. mOS 26.4개월, HERIZON-GEA-01(n=914). 2011년 트라스투주맙 이후 1차 표준 첫 교체
-- NVIDIA FY27 Q2 실적 D-0 — 컨센서스 $91.85B(YoY +97%), EPS $2.08, Q3 가이던스 $95~104B 전망. 오늘 장 마감 후 발표, KOSPI +1.69% 선반영(삼성 +2.53%, SK하이닉스 1,689,000원 +0.66%)
-- PCE 오늘 발표(Core MoM 컨센서스 +0.18%/YoY 3.2%) + BOK D-1(인상 67%, Reuters 35인 18:17) + Jackson Hole D-1(Warsh 8/28 10:00 EDT) + BLS 대수정 8/28(어제 8/26 예고 정정)
-- SK하이닉스 인디애나 착공 D-1($3.87B, CHIPS Act $458M+$500M, Jensen Huang 미확인) + ESC 2026 D-2(CARDIO-TTRansform n=1,432 전체 데이터 8/28 핫라인)
-- GBC 2026 서울 개막(식약처 주최, 5,000명·70개국, AI·세포유전자치료 규제 의제) + LG화학 Genuv GNV205 항체-사이토카인 융합 고형암 전임상 착수
 
 
