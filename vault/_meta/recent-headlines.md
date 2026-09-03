@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-03
+- 이란 IRGC 5개국 미군기지 드론·미사일 반격 — 브렌트유 $95.25/bbl 2일 연속, KOSPI +0.26%(6,579.48), 9/4 NFP → 9/16 FOMC 25bp 확률 66%
+- Broadcom FY3Q: AI 매출 $16.7B(+221%)·전체 $29.6B(+86%), Q4 가이던스 $34.8B 컨센서스 하회 → 시간외 -4.04%, FY27 AI $115B 로드맵 첫 공개
+- BioMarin-Alesta 인수 완료($490M max) — HPP 첫 경구 소분자 ALE1, Phase 1/2a
+- zilurgisertib FOP PDUFA 9/26 + ENDO 2026 피봇 데이터 발표 임박 — Mirum/Incyte, 경구 ALK2 억제제
+- KOSDAQ 바이오 3사 동반 상장(Organoid Sciences·AimedBio·Mezoo) — Mint Venture 1호, KOSDAQ -1.71%(790.21)
+
 ## 2026-09-02
 - KOSPI -3.99%(6,562.72·-273pt)·브렌트유 $94.86/bbl — 미군 이란 탱커 보복 공습('탱커 for 탱커'), 외인 1.9조 순매도, 9월 FOMC 25bp 확률 66%
 - Eli Lilly → Merida Biosciences 최대 $2.875B(약 3조9,350억원) — 자가항체 선택적 분해 플랫폼, MER511(그레이브스병·TED) Phase 1, 2026년 13번째 인수
@@ -56,12 +63,5 @@ publish: false
 - CARDIO-TTRansform 전체 데이터 — eplontersen(Ionis/AZ) ATTR-CM 1차 종점 미달 확정, 병용군 이득 없음(n=1,432). vutrisiran·tafamidis·acoramidis 반사이익 구도
 - Warsh 잭슨홀 기조연설 오늘 23:00 KST 예정(수집 시점 미발표) — Core PCE 3.3%, 30Y 5.31%, 9월 인상 ~1/3 확률. BLS 고용 대수정 동시 발표
 - NVIDIA AI 서버 15% 인상 예고(2027년 초)·KOSPI -0.95% 역행 — HBM 공급 부족. 삼성 HBM4·OpenAI Jalapeño 공급 경로 미확인
-
-## 2026-08-27
-- NVIDIA Q2 FY27 $96.2B 어닝서프라이즈(+106% YoY), EPS $2.22, Q3 가이던스 $108B — KOSPI +1.53%(삼성 +3.25%·270,000원, SK하이닉스 +5.45%·1,780,000원). "FY28까지 메모리 부족" 발언
-- BOK 기준금리 2.75%→3.0%(+25bp) — 2회 연속 인상. 점도표 10명/21명(47.6%)이 3.25% 추가 인상 지지. 3년 7개월 만의 연속 긴축
-- daraxonrasib(Rasonque) FDA 승인 — 전이성 췌장 선암 최초 RAS 억제제(Revolution Medicines). mOS 13.2개월 vs SOC 6.7개월(RASolute 302, n=500). 30년 "표적화 불가" 통념 돌파
-- SK하이닉스 인디애나 착공 완료 — $3.87B HBM4 후공정 팹, CHIPS Act 보조금 $450M+대출 $500M. 최태원·곽노정 참석, Jensen Huang 미확인. 양산 2028년 하반기
-- SK바이오팜 + Biohaven opakalim 계약 최대 $795M(선불 $350M) — Kv7.2/7.3 뇌전증 플랫폼, RISE3 탑라인 2H 2026. Biohaven +13%
 
 
