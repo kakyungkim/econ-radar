@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-04
+- 미 8월 NFP +22,000명(컨센서스 +55K 하회) — FOMC 인상 확률 66%→38%, KOSPI +1.64%(6,687.21)·KOSDAQ +2.95%(813.50), 9/11 CPI 최종 변수
+- OpenAI GPT-6 Astra 제한 출시 — 사이버 Critical 등급 최초, FrontierMath Tier4 97.6%, 9/5 전면 출시 예정
+- Eli Lilly + Orna Therapeutics 최대 $2.4B(약 3조2,880억원) — In Vivo CAR-T 자가면역 플랫폼, 세포치료 적응증 암→자가면역 확장 첫 대형 베팅
+- Capricor deramiocel(DMD) PDUFA 11/22로 연장 — adcomm 3:9 부결 후 주요 수정안 제출, DMD 세포치료 최초 허가 재도전
+- WCLC 2026 서울 9/12~15 D-8 개막 — ADC·T세포이중항체·AI 정밀의학 피봇 데이터 공개 예정, 알테오젠 SC→AOC 플랫폼 확장 시그널
+
 ## 2026-09-03
 - 이란 IRGC 5개국 미군기지 드론·미사일 반격 — 브렌트유 $95.25/bbl 2일 연속, KOSPI +0.26%(6,579.48), 9/4 NFP → 9/16 FOMC 25bp 확률 66%
 - Broadcom FY3Q: AI 매출 $16.7B(+221%)·전체 $29.6B(+86%), Q4 가이던스 $34.8B 컨센서스 하회 → 시간외 -4.04%, FY27 AI $115B 로드맵 첫 공개
@@ -57,11 +64,5 @@ publish: false
 - Cytokinetics aficamten 후속 — ESC 추가 발표, 장중 52주 신고가 $74.35·종가 $74.23, RBC PT $87
 - Roche Vabysmo SALWEEN 2년 — PCV형 nAMD BCVA +7.3글자, 20주 간격 61%
 
-## 2026-08-28
-- OpenAI·Broadcom Jalapeño 추론칩 공개 — TSMC 3nm, HBM4 216GiB·15.4TB/s, GB200·GB300 대비 와트당 1.5~1.9배 효율, 9개월 설계. NVDA 본장 +8.74%($226.15, 약 31만2,000원)
-- Cytokinetics aficamten ACACIA-HCM Ph3 성공 — 비폐쇄성 HCM 역대 최초: KCCQ +3.0점(p=0.021), pVO2 +0.67 mL/kg/min(p=0.003), n=516. HCM 전체 스펙트럼 단일 약물 커버 가시화
-- CARDIO-TTRansform 전체 데이터 — eplontersen(Ionis/AZ) ATTR-CM 1차 종점 미달 확정, 병용군 이득 없음(n=1,432). vutrisiran·tafamidis·acoramidis 반사이익 구도
-- Warsh 잭슨홀 기조연설 오늘 23:00 KST 예정(수집 시점 미발표) — Core PCE 3.3%, 30Y 5.31%, 9월 인상 ~1/3 확률. BLS 고용 대수정 동시 발표
-- NVIDIA AI 서버 15% 인상 예고(2027년 초)·KOSPI -0.95% 역행 — HBM 공급 부족. 삼성 HBM4·OpenAI Jalapeño 공급 경로 미확인
 
 
