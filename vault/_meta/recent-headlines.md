@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-05
+- Ionis Zanvastro(Alexander병) FDA 조기 승인 — ASO 독자 상업화 첫 검증, RPD-PRV 수여
+- GPT-6 Astra 일반 공개(9/5) + Microsoft MAI-Transcribe-2($0.10/시간) — AI 인프라 가격 파괴
+- SK하이닉스 HBM 2026 전량 sold out + 삼성·SK H1 시설투자 43.2조(+35%)
+- 알테오젠 노바티스 최대 4.4조원 SC 플랫폼 4연속 빅파마 메가딜, 목표주가 54만원
+- 9월 PDUFA 집중기: UX111(9/19)·relutrigine(9/27)·Camzyos 소아(9/30)
+
 ## 2026-09-04
 - 미 8월 NFP +22,000명(컨센서스 +55K 하회) — FOMC 인상 확률 66%→38%, KOSPI +1.64%(6,687.21)·KOSDAQ +2.95%(813.50), 9/11 CPI 최종 변수
 - OpenAI GPT-6 Astra 제한 출시 — 사이버 Critical 등급 최초, FrontierMath Tier4 97.6%, 9/5 전면 출시 예정
@@ -56,13 +63,5 @@ publish: false
 - BioNTech autogene cevumeran Phase 2 종료 — 생존 불균형, BNTX -8%·Moderna -6%, mRNA 단독 암치료 한계 확인
 - Meta Hatch — Anthropic Claude 기반 에이전트 슈퍼앱 수주 내 출시, $199.99/월 프리미엄 검토
 - Warsh 잭슨홀 여파 — KOSPI 7,000선 미회복 첫 정규 반영일, 9월 FOMC 인상 확률 55~59%(CME FedWatch)
-
-## 2026-08-29
-- Warsh 잭슨홀 '조용한 연준' 선언 — 9월 FOMC 인상 확률 55.7%(CME FedWatch, 전일 35.4%→), PCE 구성 요소 54% 연환산 3% 이상. 9/1(월) KOSPI 반응 분기점
-- ESC 2026 STAREE — 70세+ 아토르바스타틴 1차 예방 최초 대규모 RCT: CV 이벤트 -30%, 장애 없는 생존 HR 0.94(95% CI 0.84~1.05, 미달). NEJM 동시 게재
-- ESC 2026 ENRICH-AF — 뇌출혈 후 AF 에독사반: 대출혈 11.6% vs 5.2%(HR 2.23), 처방 공백 재확인
-- Cytokinetics aficamten 후속 — ESC 추가 발표, 장중 52주 신고가 $74.35·종가 $74.23, RBC PT $87
-- Roche Vabysmo SALWEEN 2년 — PCV형 nAMD BCVA +7.3글자, 20주 간격 61%
-
 
 
