@@ -13,6 +13,10 @@ publish: true
 - **OpenAI IPO 2027년으로 연기 확정 — 순손실 $38.5B·ARR $400억+·흑자 전환 2030**: 공개 S-1 미제출로 9월 상장 규정상 불가. $1T 밸류에이션 vs 적자 구조 공개 시장 검증 지연.
 
 ## 타임라인
+### 2026-09-06 [[daily/2026-09-06]]
+- GPT-6 Astra 일반 배포 첫 주말(Plus·Pro·Business·Enterprise) — 코딩·에이전트 채택 지표에서 Claude Fable 5.1 우위 유지. 경쟁 기준이 벤치마크 점수→캐시 비용·컴플라이언스 인증·인프라 통합 편의성으로 전환 → [[topics/유망기업]] [[topics/투자테마]]
+- Claude Fable 5.1 캐시 리드 $0.25/M(75% 인하)·에이전트 워크로드 비용 최대 45% 절감 — Anthropic 워크플로 고착(lock-in) 전략의 핵심 레버. Astra Preparedness 'Critical' 등급이 금융·의료 규제 산업 도입 장벽 변수 → [[topics/유망기업]]
+
 ### 2026-09-04 [[daily/2026-09-04]]
 - GPT-6 Astra '사이버 Critical' 등급(역대 최초) — 9/5 전면 공개. 입력 $10/M·출력 $50/M. OpenAI Preparedness Framework 첫 Critical. AI 안전 거버넌스 기준선 상향 → [[topics/AI에이전트]] [[topics/유망기업]]
 - Gemini 3.8 Flash 정식 출시 — 입력 $0.75/M(GPT-6 Astra 약 1/13). 에이전트·멀티모달 특화. AI 모델 경쟁 척도가 벤치마크→보안·에이전트 실행·비용 효율로 이동 → [[topics/AI에이전트]] [[topics/유망기업]]

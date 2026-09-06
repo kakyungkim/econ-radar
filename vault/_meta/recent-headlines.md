@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-06
+- WCLC 2026 서울 D-6 — BioNTech ADC×IO(pumitamig+elfetabart drozuntecan) 글로벌 첫 인체 데이터·AbbVie 폐암 3종 발표(9/12~15)
+- UX111(산필리포 B) PDUFA D-13 — Ultragenyx AAV9 유전자치료제, 9/19 심사 결론
+- LLM 3파전 — GPT-6 Astra 일반 롤아웃·Claude Fable 5.1·Gemini 3.8 Flash, 벤치마크→기업 채택 경쟁 전환
+- 9/11 CPI D-5·9/16 FOMC D-10 — 인상·동결 분기점, 이란 유조선 피격 유가 변수
+- 리가켐바이오 SOT106 패스트트랙 + 국민성장펀드 5,000억 — 한국 ADC 플랫폼 글로벌 궤도
+
 ## 2026-09-05
 - Ionis Zanvastro(Alexander병) FDA 조기 승인 — ASO 독자 상업화 첫 검증, RPD-PRV 수여
 - GPT-6 Astra 일반 공개(9/5) + Microsoft MAI-Transcribe-2($0.10/시간) — AI 인프라 가격 파괴
@@ -56,12 +63,5 @@ publish: false
 - DeepSeek 첫 외부 펀딩 $7.4B·기업가치 $74B — 텐센트·CATL 참여, 2027 STAR 상장 준비
 - 미국-이란 교전 재개 — 브렌트유 $90.32, 호르무즈해협 리스크 부활
 - KOSPI 장중 -2.58%→종가 +0.46% V자 반등, 브로드컴 9/2 어닝(AI ASIC $16B 달성 여부) 주간 체크포인트
-
-## 2026-08-30
-- ESC 2026 Hot Line 6 LUMINARA — AZD5462(경구 릴렉신) HFpEF 1차 달성·HFrEF 미달, 경구 RXFP1 계열 최초 양성 신호
-- Takeda MIMRYLO(rusfertide) FDA 승인 — PV 최초 헤프시딘 유사체, 사혈 불필요 76.9% vs 32.9%(VERIFY Ph3, n=293)
-- BioNTech autogene cevumeran Phase 2 종료 — 생존 불균형, BNTX -8%·Moderna -6%, mRNA 단독 암치료 한계 확인
-- Meta Hatch — Anthropic Claude 기반 에이전트 슈퍼앱 수주 내 출시, $199.99/월 프리미엄 검토
-- Warsh 잭슨홀 여파 — KOSPI 7,000선 미회복 첫 정규 반영일, 9월 FOMC 인상 확률 55~59%(CME FedWatch)
 
 
