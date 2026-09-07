@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 신약개발전략, 투자테마]
-updated: 2026-08-27
+updated: 2026-09-07
 ---
 # 🗂 RAS 억제제 — 주제 지도(MOC)
 
@@ -14,6 +14,9 @@ updated: 2026-08-27
 - **빅파마 M&A·라이선스 가능성**: Revolution Medicines는 차세대 파이프라인 RMC-6236(KRAS G12D 선택적 억제)도 보유. daraxonrasib 상업화 첫 분기 실적과 1차 치료 임상 착수가 플랫폼 전체 가치 평가의 기준점이 된다.
 
 ## 타임라인
+### 2026-09-07 [[daily/2026-09-07]]
+- pan-RAS 억제 기전 심층 분석 — RAS ON-state·switch II pocket 비공유결합. 췌장암 90% KRAS 변이 중 G12D·G12V 중심, 동반진단 없이 처방 가능한 이유. 내성 기전(RAS 증폭·2차 변이) 처음부터 3상 설계에 내장. 약가 협상·NGS 인프라 확산이 처방 확산 병목. 결장직장암·폐암 G12D 확장 임상이 다음 관전 → [[topics/KRAS플랫폼]] [[topics/신약개발전략]]
+
 ### 2026-08-27 [[daily/2026-08-27]]
 - daraxonrasib(Rasonque) FDA 승인 확정 — RAS GTPase 억제제 계열 최초. 전이성 췌장 선암 mOS 13.2 vs 6.7개월(SOC). 동반진단 불필요 라벨. 약가 협상·1차 치료 확장 임상이 상업화 속도 관문 → [[topics/신약개발전략]] [[topics/바이오제약]]
 

@@ -9,12 +9,14 @@ publish: true
 > 범위: KRAS 돌연변이 표적 전략 전체 — 저분자 억제제(G12C·G12D), mRNA 암 백신, DAC(분해제-항체 접합체), 면역 시퀀스 조합 전략.
 
 ## 핵심 흐름
-- **졸돈라시브 ESMO GI 공식 수치 확정 — KRAS G12D PDAC 1차 ORR 82%(7/4)**: mFFX 병용 n=41. DCR 96%. 2차 daraxonrasib 이중 RAS 억제 ORR 50%, 중앙 PFS 9.6개월. 현재 PDAC 표준치료(FOLFIRINOX ORR ~30~40%)를 두 배 이상 상회. Phase 3 RASolute 305(1차)·309(이중 억제) 근거 공고화. PDAC에서 첫 RAS 표적 공유결합 억제제 실질 ORR 사례가 된다.
-- **G12C vs G12D 변이 아형별 경쟁 구도(7/4)**: G12C는 Roche divarasib 2세대가 Krascendo 1에서 1세대(sotorasib·adagrasib)를 공식 추월(7/3). G12D는 ORR 82% 신호에서 Phase 3 대규모 검증으로 전환. 두 아형 모두 2027~2028년 핵심 3상 데이터 공개가 집중된다.
-- **G12D 이중 RAS 억제 전략(RASolute 309)(7/4)**: 졸돈라시브(G12D 선택적) + daraxonrasib(범-RAS 억제제) 이중 병용. 단독 억제 내성 극복 접근. G12C 시장에서 SOS1 병용 전략이 탐색되는 흐름과 평행한다. 2차 ORR 50%·중앙 PFS 9.6개월이 안전성·독성 데이터와 함께 Phase 3 근거를 구성한다.
-- **Roche divarasib Krascendo 1 — KRAS G12C 2세대 공식 서막(7/3)**: Head-to-head 3상 PFS·OS 동시 달성. 모달리티 흐름: 1세대 OFF-state 공유결합 → 내성 극복 2세대(divarasib) → SOS1 병용(Krascendo-Lung) → PROTAC degrader. NDA 2027년 목표.
+- **daraxonrasib(Rasonque) 상업화 진입(8/26 승인) — pan-RAS ON-state 억제 첫 상업화**: RAS G12D·G12V·G12R·G13D 등 다수 변이 포괄, 동반진단 불필요. 약가 협상·NGS 인프라 확산이 처방 확산의 실질 병목. 1차 치료(SHP2 RMC-4630 병용) 임상·결장직장암·폐암 적응증 확장이 다음 촉매.
+- **G12D 이중 RAS 억제 전략(daraxonrasib + 졸돈라시브 병용) — RASolute 309**: 2차 ORR 50%·중앙 PFS 9.6개월. G12D 선택적(졸돈라시브) + pan-RAS(daraxonrasib) 이중 병용으로 단독 억제 내성 극복 접근. G12C SOS1 병용과 평행 구조.
+- **G12C 2세대 Roche divarasib Krascendo 1 — Head-to-head 3상 PFS·OS 동시 달성**: 1세대(sotorasib·adagrasib) 공식 추월. NDA 2027년 목표. OFF-state→내성 극복 2세대→SOS1 병용→PROTAC degrader 모달리티 흐름 진행 중.
 
 ## 타임라인
+### 2026-09-07 [[daily/2026-09-07]]
+- daraxonrasib 상업화 첫 주 — pan-RAS 억제 Today's Topic 심층 분석. RAS ON-state·switch II pocket 비공유결합 기전. 내성 기전(RAS 증폭·2차 변이)·SHP2 병용을 처음부터 3상 설계에 내장한 첫 사례. 결장직장암·폐암 G12D 확장 임상 착수 여부가 다음 관전 포인트 → [[topics/RAS억제제]] [[topics/신약개발전략]]
+
 ### 2026-07-04 [[daily/2026-07-04]]
 - [[daily/2026-07-04]] 졸돈라시브 ESMO GI 공식 수치 확정 — KRAS G12D PDAC 1차 ORR 82%, DCR 96%(mFFX 병용, n=41). 2차 daraxonrasib 이중 RAS 억제 ORR 50%, 중앙 PFS 9.6개월. Phase 3 RASolute 305(1차)·309(이중 억제) 근거 공고화
 
