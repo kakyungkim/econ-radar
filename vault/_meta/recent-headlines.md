@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-07
+- Revolution Medicines Rasonque(daraxonrasib) FDA 승인(8/26) — 세계 최초 pan-RAS GTPase 억제제, 전이성 췌장선암(KRAS G12X 등 전 변이), NGS 동반진단 불필요
+- BMS Zenbexus(iberdomide) FDA 가속 승인 — 첫 CELMoD 계열, RRMM, MRD 음성 CR 대리지표 최초 채택
+- Nvidia Hugging Face $12.93B 인수 — GPU 공급자→AI 플랫폼 운영자, 1.8M+ 개발자·모델·데이터셋 생태계
+- FOMC 인상 확률 38%→56~66% + CPI D-4(9/11) — Warsh 강경론(8/28), 이란 탄도미사일 발사·WTI $90+ 유가 변수 동시
+- WCLC 2026 D-5(9/12개막) + AZ-Dizal EGFR $1.5B + zilurgisertib PDUFA D-19(9/26)
+
 ## 2026-09-06
 - WCLC 2026 서울 D-6 — BioNTech ADC×IO(pumitamig+elfetabart drozuntecan) 글로벌 첫 인체 데이터·AbbVie 폐암 3종 발표(9/12~15)
 - UX111(산필리포 B) PDUFA D-13 — Ultragenyx AAV9 유전자치료제, 9/19 심사 결론
@@ -56,12 +63,4 @@ publish: false
 - 9월 FOMC 25bp 인상 확률 60.4%·호르무즈 탱커 기뢰 피격 — 브렌트유 $91.28(+0.87%), 유가·금리 이중 압박 정착
 - zilurgisertib FOP PDUFA 9/26 — Mirum/Incyte, 전 세계 최초 경구 ALK2 억제제·FOP 첫 승인 약물 후보
 - 한미약품-Genentech HM17321(UCN2) 최대 $2.3B(약 3조1,600억원) — 비GLP-1 비만 기전 첫 빅파마 글로벌 베팅, Phase 1 진행 중
-
-## 2026-08-31
-- 삼성바이오로직스 PolyPeptide $1.84B(약 2조5,200억원) 공개매수 개시(9/15~10/12) — 한국 바이오 해외 인수 사상 최대, GLP-1 펩타이드 CDMO 진입
-- Medera SRD-002(AAV1/SERCA2a) ESC 2026 최종일 — HFpEF 유전자치료 12개월 PCWP 정상화 80%(n=10), 중대 이상반응 0건
-- DeepSeek 첫 외부 펀딩 $7.4B·기업가치 $74B — 텐센트·CATL 참여, 2027 STAR 상장 준비
-- 미국-이란 교전 재개 — 브렌트유 $90.32, 호르무즈해협 리스크 부활
-- KOSPI 장중 -2.58%→종가 +0.46% V자 반등, 브로드컴 9/2 어닝(AI ASIC $16B 달성 여부) 주간 체크포인트
-
 
