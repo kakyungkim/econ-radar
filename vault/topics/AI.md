@@ -2,17 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-04
+updated: 2026-09-08
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **GPT-6 Astra '사이버 Critical' 등급(역대 최초) — 9/5 전면 공개, 입력 $10/M·출력 $50/M**: OpenAI Preparedness Framework 기준선 상향. 충분한 도구와 권한 시 실동 익스플로잇 코드 자율 개발 가능 평가. AI 안전 거버넌스 논의 전환점.
-- **Gemini 3.8 Flash 정식 출시 — 입력 $0.75/M(GPT-6 Astra 약 1/13), 에이전트·멀티모달 특화**: AI 모델 경쟁 척도가 벤치마크 점수에서 보안 등급·에이전트 실행·비용 효율로 이동. 고부가 B2B vs 범용 에이전트 시장 분화.
-- **OpenAI IPO 2027년으로 연기 확정 — 순손실 $38.5B·ARR $400억+·흑자 전환 2030**: 공개 S-1 미제출로 9월 상장 규정상 불가. $1T 밸류에이션 vs 적자 구조 공개 시장 검증 지연.
+- **AI 모델 공급 과잉 구조화 — 9/1~7 한 주 사이 4개 랩 주요 모델 동시 갱신**: Anthropic(Claude Fable 5.1), Meta(Muse Spark 1.3), Google(Gemini 3.8 Flash), OpenAI(GPT-6 Astra)가 일제히 갱신. 기업 선택 피로가 쌓이면서 오케스트레이션·통합 레이어로 무게중심이 이동 중이다.
+- **EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 본격 시행**: Meta만 자발적 행동 강령 서명 거부. EU 소재 기업 벤더 선택에서 규제 준수 여부가 필터 기준으로 올라섰다.
+- **AI 지출 구조적 확대 + 인프라 병목 이동 — Gartner 2026 AI 지출 총액 $2.59T(+47% YoY)**: 모델 공급 과잉이 역설적으로 추론·인프라(GPU·데이터센터) 수요를 키운다. 병목이 GPU에서 전력·냉각·부지로 이동하는 구조가 가시화됐다.
 
 ## 타임라인
+### 2026-09-08 [[daily/2026-09-08]]
+- 9/1~7 한 주 4개 AI 랩 주요 모델 동시 갱신 — Anthropic(Claude Fable 5.1·Mythos 5.1), Meta(Muse Spark 1.3), Google(Gemini 3.8 Flash), OpenAI(GPT-6 Astra). 기업 선택 피로로 오케스트레이션·통합 레이어 수요 부상 → [[topics/유망기업]]
+- EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 시행. Meta 자발적 행동 강령 서명 거부로 EU 엔터프라이즈 채택 장벽 생성. 규제 준수 내장 사업자 유리 구도 → [[topics/거시정책]]
+- Gartner 2026 AI 지출 $2.59T(+47% YoY) 전망 — 모델 공급 과잉이 추론·인프라 수요를 역설적으로 키우는 구조 확인 → [[topics/투자테마]]
+
 ### 2026-09-06 [[daily/2026-09-06]]
 - GPT-6 Astra 일반 배포 첫 주말(Plus·Pro·Business·Enterprise) — 코딩·에이전트 채택 지표에서 Claude Fable 5.1 우위 유지. 경쟁 기준이 벤치마크 점수→캐시 비용·컴플라이언스 인증·인프라 통합 편의성으로 전환 → [[topics/유망기업]] [[topics/투자테마]]
 - Claude Fable 5.1 캐시 리드 $0.25/M(75% 인하)·에이전트 워크로드 비용 최대 45% 절감 — Anthropic 워크플로 고착(lock-in) 전략의 핵심 레버. Astra Preparedness 'Critical' 등급이 금융·의료 규제 산업 도입 장벽 변수 → [[topics/유망기업]]

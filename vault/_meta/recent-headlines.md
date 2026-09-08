@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-08
+- WCLC 2026 서울 D-4 — AZ Tagrisso 8년 OS vs J&J MARIPOSA HR 0.75(42개월 OS 56% vs 44%), EGFR 1차 치료 표준 대결
+- MSD+Gilead KEYNOTE-D46/EVOKE-03 중단 — TROP2 ADC+PD-1 병용, NSCLC 1차 치료 Phase 3 실패, ADC+IO 전략 첫 대형 벽
+- Ultragenyx UX111 PDUFA D-11(9/19) — 산필리포 A형(MPS IIIA) 최초 AAV9 유전자치료제, BLA 재제출 수락
+- BOJ 9/17~18 25bp 인상 유력 — 엔 캐리 언와인딩·KOSPI 선물 만기(1.7조) 수급 변동성, Goldman KOSPI 12,000 유지
+- Daiichi Sankyo+MSD I-DXd(ifinatamab deruxtecan) — SCLC 2차 치료 B7-H3 ADC, PDUFA 10/10, WCLC 데이터 공개
+
 ## 2026-09-07
 - Revolution Medicines Rasonque(daraxonrasib) FDA 승인(8/26) — 세계 최초 pan-RAS GTPase 억제제, 전이성 췌장선암(KRAS G12X 등 전 변이), NGS 동반진단 불필요
 - BMS Zenbexus(iberdomide) FDA 가속 승인 — 첫 CELMoD 계열, RRMM, MRD 음성 CR 대리지표 최초 채택
@@ -57,10 +64,4 @@ publish: false
 - Runway Solaris — AI가 실시간으로 소프트웨어 인터페이스를 생성하는 월드 모델, 코드 없는 UI 생성 데모
 - OpenAI IPO 2027년 연기 확인 — 공개 S-1 미제출, 순손실 $38.5B·흑자 전환 2030년·ARR $40B+(Bloomberg 2026-08-13)
 
-## 2026-09-01
-- 브로드컴 FY3Q 어닝 D-1 & OpenAI IPO S-1 기밀 제출 — AI ASIC $16B·FY27 $100B 가이던스 재확인과 생성 AI 수익 구조 최초 공개 동시 임박
-- Besremi(ropeginterferon alfa-2b) ET FDA 승인 — PharmaEssentia, 30년 만의 ET 신약, SURPASS-ET 42.9% vs 6.0%(p=0.0001)
-- 9월 FOMC 25bp 인상 확률 60.4%·호르무즈 탱커 기뢰 피격 — 브렌트유 $91.28(+0.87%), 유가·금리 이중 압박 정착
-- zilurgisertib FOP PDUFA 9/26 — Mirum/Incyte, 전 세계 최초 경구 ALK2 억제제·FOP 첫 승인 약물 후보
-- 한미약품-Genentech HM17321(UCN2) 최대 $2.3B(약 3조1,600억원) — 비GLP-1 비만 기전 첫 빅파마 글로벌 베팅, Phase 1 진행 중
 
