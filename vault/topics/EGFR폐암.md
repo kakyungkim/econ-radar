@@ -1,16 +1,19 @@
 ---
 type: moc
 tags: [바이오제약, EGFR폐암]
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 # 🗂 EGFR 폐암 — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **EGFR 변이 NSCLC 1차 치료 표준 전쟁(WCLC 2026, 9/12~15) — Tagrisso(AZ) 8년 OS vs MARIPOSA(J&J) amivantamab+lazertinib HR 0.75**: 동아시아 폐암 환자 30~40%가 EGFR 변이 양성. 어느 데이터가 처방의를 설득하느냐에 따라 가이드라인 개정 방향과 수백만 명 처방 흐름이 달라진다.
-- **병용 요법의 현실적 제약 — 독성·투여 복잡도가 데이터만큼 처방 전환을 결정**: Rybrevant 정맥주사 주입 반응·혈전색전증 관리가 처방 현장 전환의 실질 억제 요인. 가이드라인 개정 후 실제 전환은 6~12개월 뒤처지는 패턴.
-- **EGFR 엑손 20 삽입 — AZ sunvozertinib $1.5B 글로벌 라이선스(9/7)**: AZ가 sunvozertinib으로 EGFR 전체 변이 커버리지 완성. amivantamab(J&J)과 엑손 20 처방 경쟁 구도 확정.
+- **WCLC 서울 2026(9/12~15) D-3 — 유한양행 YH42946 HER2+EGFR 엑손20 이중 경구 TKI 첫 임상 데이터 공개**: 1/2상 ORR·안전성 초기 결과. EGFR 엑손20 삽입 커버리지가 AZ sunvozertinib·amivantamab(J&J)과의 차별화 포인트.
+- **EGFR 변이 NSCLC 1차 치료 표준 전쟁 — Tagrisso(AZ) 8년 OS vs MARIPOSA(J&J) amivantamab+lazertinib HR 0.75**: WCLC 2026이 첫 학술 정면 대결 무대. 가이드라인 개정 방향과 수백만 명 처방 흐름이 연동.
+- **AZ sunvozertinib $1.5B 라이선스(9/7)** — EGFR 엑손20 삽입 1차 치료 Phase 3 데이터 WCLC 공개. amivantamab(J&J)과 엑손20 처방 경쟁 구도 확정.
 
 ## 타임라인
+### 2026-09-09 [[daily/2026-09-09]]
+- 유한양행 YH42946 WCLC D-3(9/12~15) — HER2·EGFR 엑손20 이중 경구 TKI 첫 1/2상 ORR 데이터 공개. EGFR 엑손20 삽입 커버 기전이 AZ sunvozertinib·amivantamab(J&J)과의 차별화 포인트 → [[topics/한국바이오]] [[topics/HER2표적치료]] [[topics/바이오제약]]
+
 ### 2026-09-08 [[daily/2026-09-08]]
 - WCLC 2026 서울 9/12~15 D-4 — AZ Tagrisso 8년 OS 발표 vs J&J MARIPOSA 42개월 HR 0.75 데이터 첫 학술 정면 대결. NCCN·ESMO 가이드라인 개정 압력 측정 시작 → [[topics/바이오제약]] [[topics/신약개발전략]]
 

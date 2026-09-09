@@ -9,12 +9,15 @@ publish: true
 > 범위: ASO·siRNA·mRNA·RNA 편집(trans-splicing 리보자임)·AOC 등 RNA를 표적하거나 RNA로 작용하는 모달리티. 전달체(LNP·GalNAc·항체) 경쟁, 적응증 확장(희귀질환→대형 만성질환), 승인·파트너링 이정표를 추적한다.
 
 ## 핵심 흐름
-- **Ionis olezarsen(Tryngolza) FDA 조기 승인 — GalNAc-ASO 대형 만성질환 첫 진입(6/25)**: PDUFA 6/30보다 5일 앞선 6월 24일 sHTG 승인. FCS(3만~7만 명)에서 sHTG 약 300만 명으로 환자 풀 수십 배 확장. 3상에서 중성지방 최대 72.2% 감소·급성 췌장염 위험 85% 감소. FDA가 '급성 췌장염 위험 감소'를 명시한 최초 치료제. 7월 미국 시판 예정. 경쟁: AstraZeneca plozasiran(siRNA, 동일 APOC3 표적, 2027년 내 심사 예정).
-- **상업화 관문**: Ionis 독자 영업 인프라 첫 검증 케이스. 지불자는 췌장염 입원 비용 절감(1회 수만 달러) 논리로 ICER 평가 제출 가능성. FCS·sHTG 약가 차등이 급여 협상 핵심 쟁점. 결과가 RNA 모달리티 전체의 약가 협상 선례로 작용.
-- **mRNA 플랫폼 계절 백신 — Moderna MFLUSIVA 8월 5일 FDA 최종 결정**: VRBPAC 9-0 만장일치 권고(6/18~19). 코로나19를 넘어 연간 필수 접종 시장으로 확장되는 첫 시험대.
-- **전달체 경쟁**: GalNAc(간), LNP(백신·간), AOC(근육) 각 도달 범위. 노바티스 AOC 플랫폼이 FSHD에서 임상 검증으로 근육 특이 전달 첫 돌파.
+- **ZANVASTRO(zilganersen, Ionis) 9/3 FDA 승인 — ASO 희귀 CNS 두 번째 상업 허가**: Alexander disease(AxD) 첫 질환 수정 치료제. GFAP mRNA 억제, 척수강내 분기 1회 투여. PRV 수여. nusinersen(SMA)에 이어 Ionis ASO 플랫폼의 CNS 희귀질환 확장 경로 재확인.
+- **Ionis olezarsen(Tryngolza) — GalNAc-ASO 대형 만성질환 첫 진입(6/24 승인)**: sHTG 독자 상업화 진행 중. FCS(3만~7만 명) → sHTG(약 300만 명) 환자 풀 확장. 급여 협상이 RNA 모달리티 전체 약가 선례.
+- **Moderna MFLUSIVA(mRNA-1010) FDA 승인(8/5)** — mRNA 계절 독감 백신, 연간 필수 접종 시장 첫 진입. 코로나19 이후 mRNA 플랫폼 상업화 2단계.
+- **전달체 경쟁**: GalNAc(간)·LNP(백신·간)·AOC(근육) 3트랙. 노바티스 AOC 플랫폼 FSHD 임상 검증으로 근육 특이 전달 첫 돌파.
 
 ## 타임라인
+### 2026-09-09 [[daily/2026-09-09]]
+- ZANVASTRO(zilganersen, Ionis) 9/3 FDA 승인 — ASO, CNS 희귀질환(Alexander disease) 두 번째 상업 허가. GFAP mRNA 억제 기전, 척수강내 분기 1회 투여. PRV 수여. Ionis 독자 상업화 두 번째 검증 → [[topics/희귀질환신약]] [[topics/신약개발전략]]
+
 ### 2026-06-25 [[daily/2026-06-25]]
 - Ionis olezarsen(Tryngolza) FDA 조기 승인(6/24) — GalNAc-ASO, APOC3 표적, sHTG 적응증. PDUFA 6/30보다 5일 앞당겨 승인. 급성 췌장염 위험 감소 최초 허가 치료제. 7월 미국 시판 예정. 환자 풀: FCS(3~7만) → sHTG(300만 명). → [[daily/2026-06-25]]
 - AstraZeneca plozasiran(siRNA, 동일 APOC3 표적) 2027년 내 심사 예정 — olezarsen 선점 기간 제한 변수. GalNAc-ASO vs siRNA APOC3 경쟁 구도 지속. → [[daily/2026-06-25]] [[topics/신약개발전략]]
