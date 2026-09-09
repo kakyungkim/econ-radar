@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-09
+- KOSPI 7,051.64 (+1.40%) — 배터리·석화 동반 급등으로 33거래일 만에 7,000 탈환
+- Mistral AI €3B(약 3조3,000억원) 삼성전자 주도 시리즈 D — 유럽 기술 역대 최대 에퀴티 라운드, 소버린 AI 테마
+- Merck Winrevair PDUFA D-12(9/21) — HYPERION 새로 진단된 WHO FC II~III PAH 1차 치료 확장 카운트다운
+- Ionis ZANVASTRO(zilganersen) 9/3 FDA 승인 — Alexander disease 첫 질환 수정 치료제, ASO 플랫폼 희귀신경질환 첫 상업화
+- 유한양행 YH42946 WCLC 2026 서울 D-3 — HER2·EGFR 엑손20 이중 경구 TKI 첫 임상 데이터
+
 ## 2026-09-08
 - WCLC 2026 서울 D-4 — AZ Tagrisso 8년 OS vs J&J MARIPOSA HR 0.75(42개월 OS 56% vs 44%), EGFR 1차 치료 표준 대결
 - MSD+Gilead KEYNOTE-D46/EVOKE-03 중단 — TROP2 ADC+PD-1 병용, NSCLC 1차 치료 Phase 3 실패, ADC+IO 전략 첫 대형 벽
@@ -56,12 +63,4 @@ publish: false
 - BioMarin-Alesta 인수 완료($490M max) — HPP 첫 경구 소분자 ALE1, Phase 1/2a
 - zilurgisertib FOP PDUFA 9/26 + ENDO 2026 피봇 데이터 발표 임박 — Mirum/Incyte, 경구 ALK2 억제제
 - KOSDAQ 바이오 3사 동반 상장(Organoid Sciences·AimedBio·Mezoo) — Mint Venture 1호, KOSDAQ -1.71%(790.21)
-
-## 2026-09-02
-- KOSPI -3.99%(6,562.72·-273pt)·브렌트유 $94.86/bbl — 미군 이란 탱커 보복 공습('탱커 for 탱커'), 외인 1.9조 순매도, 9월 FOMC 25bp 확률 66%
-- Eli Lilly → Merida Biosciences 최대 $2.875B(약 3조9,350억원) — 자가항체 선택적 분해 플랫폼, MER511(그레이브스병·TED) Phase 1, 2026년 13번째 인수
-- CXMT HBM3E 소량 생산 개시 — 알리바바·캠브리콘 테스트 공급, 한국 업체 대비 기술 격차(업계 추정, 본문 확인 필요)
-- Runway Solaris — AI가 실시간으로 소프트웨어 인터페이스를 생성하는 월드 모델, 코드 없는 UI 생성 데모
-- OpenAI IPO 2027년 연기 확인 — 공개 S-1 미제출, 순손실 $38.5B·흑자 전환 2030년·ARR $40B+(Bloomberg 2026-08-13)
-
 
