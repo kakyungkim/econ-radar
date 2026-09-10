@@ -2,17 +2,21 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-08
+updated: 2026-09-10
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **AI 모델 공급 과잉 구조화 — 9/1~7 한 주 사이 4개 랩 주요 모델 동시 갱신**: Anthropic(Claude Fable 5.1), Meta(Muse Spark 1.3), Google(Gemini 3.8 Flash), OpenAI(GPT-6 Astra)가 일제히 갱신. 기업 선택 피로가 쌓이면서 오케스트레이션·통합 레이어로 무게중심이 이동 중이다.
-- **EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 본격 시행**: Meta만 자발적 행동 강령 서명 거부. EU 소재 기업 벤더 선택에서 규제 준수 여부가 필터 기준으로 올라섰다.
-- **AI 지출 구조적 확대 + 인프라 병목 이동 — Gartner 2026 AI 지출 총액 $2.59T(+47% YoY)**: 모델 공급 과잉이 역설적으로 추론·인프라(GPU·데이터센터) 수요를 키운다. 병목이 GPU에서 전력·냉각·부지로 이동하는 구조가 가시화됐다.
+- **Nvidia Vera Rubin CSP 5개사 납품 시작(9/10) — 데이터센터 플랫폼 전환 실행 단계 진입**: CoreWeave·Google Cloud·Microsoft Azure·Oracle Cloud·Nebius에 랙 납품 개시. Q3 데이터센터 매출 20% 기여 전망. Blackwell 이후 세대 교체가 공급 데이터로 확인된 첫날.
+- **AI 모델 공급 과잉 구조화 — 9/1~7 4개 랩 주요 모델 동시 갱신**: 기업 선택 피로가 쌓이면서 오케스트레이션·통합 레이어로 무게중심이 이동 중이다.
+- **EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 본격 시행**: EU 소재 기업 벤더 선택에서 규제 준수 여부가 필터 기준으로 올라섰다.
+- **AI 지출 구조적 확대 — Gartner 2026 AI 지출 $2.59T(+47% YoY)**: 병목이 GPU에서 전력·냉각·부지로 이동하는 구조가 가시화됐다.
 
 ## 타임라인
+### 2026-09-10 [[daily/2026-09-10]]
+- Nvidia Vera Rubin — CSP 5개사(CoreWeave·Google Cloud·MS Azure·Oracle Cloud·Nebius) 랙 납품 시작. Goldman Sachs Communacopia+Technology 컨퍼런스 발표. Q3 데이터센터 매출 20% 기여 전망. Blackwell 이후 세대 교체 첫 공식 실납품 확인 → [[topics/반도체AI인프라]] [[topics/유망기업]]
+
 ### 2026-09-08 [[daily/2026-09-08]]
 - 9/1~7 한 주 4개 AI 랩 주요 모델 동시 갱신 — Anthropic(Claude Fable 5.1·Mythos 5.1), Meta(Muse Spark 1.3), Google(Gemini 3.8 Flash), OpenAI(GPT-6 Astra). 기업 선택 피로로 오케스트레이션·통합 레이어 수요 부상 → [[topics/유망기업]]
 - EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 시행. Meta 자발적 행동 강령 서명 거부로 EU 엔터프라이즈 채택 장벽 생성. 규제 준수 내장 사업자 유리 구도 → [[topics/거시정책]]
