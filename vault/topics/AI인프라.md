@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-08-24
+updated: 2026-09-11
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -11,13 +11,15 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Google TPU 8t/8i 공개(Hot Chips 2026, 8/24)** — 훈련용 TPU 8t(Sunfish·Broadcom 설계, 칩당 FP4 12.6PFLOPS·HBM 216GB·6.5 TB/s)·추론용 TPU 8i(Zebrafish·MediaTek 설계, HBM 288GB). TSMC 2나노. 2027년 말 외부 공급 목표. NVIDIA 단일 GPU 체제에 첫 현실적 대안.
-- **Intel Diamond Rapids 발표(Hot Chips 2026, 8/24)** — P코어 192개·하이퍼스레딩 전면 제거·Intel 18A 공정·2027년 출시. AI 추론 서버 CPU 오케스트레이션 효율 특화.
+- **Microsoft 38GW 데이터센터 계획(Bloomberg 소식통)** — 현재 12GW→2032년 38GW, 3분의 1이 AI 전용 칩 인프라. 2026 CY CapEx 1,750억달러 예상(Bloomberg, 회계처리 변경 반영). 전력 조달이 반도체보다 먼저 공급 병목. Amy Hood CFO: "2026년 내내 용량 제약 지속". [[topics/AI반도체]] 참조.
+- **Google TPU 8t/8i 공개(Hot Chips 2026, 8/24)** — 훈련용 TPU 8t(Sunfish·Broadcom 설계, 칩당 FP4 12.6PFLOPS·HBM 216GB·6.5 TB/s)·추론용 TPU 8i(Zebrafish·MediaTek 설계, HBM 288GB). TSMC 2나노. NVIDIA 단일 GPU 체제에 첫 현실적 대안.
 - **Anthropic Theseus Infrastructure JV** — Macquarie·GIC 참여, AI 전용 데이터센터 직접 건설. 클라우드 임대 탈피·추론 원가 고정 전략.
 - **Microsoft Azure FY2026 $100B 돌파(+43%), FY2027 capex $255~260B(+35%)** — AI 클라우드 수익화 대규모 첫 확인.
-- **2027년 AI 칩 경쟁 구도** — TSMC 2나노 수요처에 NVIDIA VR200·AMD MI455X·Google TPU 8t/8i 추가. 삼성·SK하이닉스의 HBM 공급 협상 상대 다극화 진행 중.
 
 ## 타임라인
+### 2026-09-11 [[daily/2026-09-11]]
+- Microsoft 38GW 데이터센터 계획(Bloomberg 소식통, 공식 미확인) — 현재 12GW→2032년 38GW. 2026 CY CapEx 1,750억달러. 전력·냉각·데이터센터 REIT·HBM 밸류체인 구조적 수요. 전력 조달 지연·인허가 차질 시 일정 리스크 → [[topics/AI반도체]] [[topics/반도체HBM]]
+
 ### 2026-08-24 [[daily/2026-08-24]]
 - [[daily/2026-08-24]] Google TPU 8t(훈련·Broadcom·121 ExaFLOPS)·8i(추론·MediaTek·HBM 288GB) Hot Chips 2026 공개 — TSMC 2나노, 2027년 말 외부 공급 목표. NVIDIA 단일 GPU 체제에 첫 현실적 대안 → [[topics/반도체HBM]] [[topics/유망기업]]
 - [[daily/2026-08-24]] Intel Diamond Rapids(192코어·하이퍼스레딩 제거·Intel 18A·2027년) — AI 추론 서버 CPU 오케스트레이션 효율 특화 → [[topics/반도체]]

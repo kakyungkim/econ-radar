@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-11
+- 미국 8월 CPI 2.5% YoY (컨센서스 2.9~3.4% 대폭 하회) — FOMC 9/16 25bp 인하 기대 급등
+- 유가 Brent $108 고점 — 사우디 산유량 급감 + 이란 확전, $120 꼬리 리스크 부상
+- Telix Pixclara FDA PDUFA D-0 (9/11) — glioma PET 이미징 미국 첫 진단제 결정
+- OpenAI Agents API 공개 베타 + Microsoft 38GW 데이터센터 계획 — AI 인프라 플랫폼 경쟁
+- Merck Winrevair HYPERION 76% + WCLC 2026 서울 D-1 — PAH·폐암 데이터 맞춤발
+
 ## 2026-09-10
 - WCLC 2026 D-2 — MAVERICK SCLC OS 첫 공개(9/12), Tagrisso 8년 OS vs MARIPOSA EGFR 1차 치료 구도 본격화
 - Brent $101.25 돌파 — 미군 이란 유조선 5척 격침, CPI D-1 전날 에너지 충격
@@ -56,12 +63,5 @@ publish: false
 - SK하이닉스 HBM 2026 전량 sold out + 삼성·SK H1 시설투자 43.2조(+35%)
 - 알테오젠 노바티스 최대 4.4조원 SC 플랫폼 4연속 빅파마 메가딜, 목표주가 54만원
 - 9월 PDUFA 집중기: UX111(9/19)·relutrigine(9/27)·Camzyos 소아(9/30)
-
-## 2026-09-04
-- 미 8월 NFP +22,000명(컨센서스 +55K 하회) — FOMC 인상 확률 66%→38%, KOSPI +1.64%(6,687.21)·KOSDAQ +2.95%(813.50), 9/11 CPI 최종 변수
-- OpenAI GPT-6 Astra 제한 출시 — 사이버 Critical 등급 최초, FrontierMath Tier4 97.6%, 9/5 전면 출시 예정
-- Eli Lilly + Orna Therapeutics 최대 $2.4B(약 3조2,880억원) — In Vivo CAR-T 자가면역 플랫폼, 세포치료 적응증 암→자가면역 확장 첫 대형 베팅
-- Capricor deramiocel(DMD) PDUFA 11/22로 연장 — adcomm 3:9 부결 후 주요 수정안 제출, DMD 세포치료 최초 허가 재도전
-- WCLC 2026 서울 9/12~15 D-8 개막 — ADC·T세포이중항체·AI 정밀의학 피봇 데이터 공개 예정, 알테오젠 SC→AOC 플랫폼 확장 시그널
 
 
