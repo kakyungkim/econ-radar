@@ -2,18 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-10
+updated: 2026-09-12
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Nvidia Vera Rubin CSP 5개사 납품 시작(9/10) — 데이터센터 플랫폼 전환 실행 단계 진입**: CoreWeave·Google Cloud·Microsoft Azure·Oracle Cloud·Nebius에 랙 납품 개시. Q3 데이터센터 매출 20% 기여 전망. Blackwell 이후 세대 교체가 공급 데이터로 확인된 첫날.
-- **AI 모델 공급 과잉 구조화 — 9/1~7 4개 랩 주요 모델 동시 갱신**: 기업 선택 피로가 쌓이면서 오케스트레이션·통합 레이어로 무게중심이 이동 중이다.
-- **EU AI Act GPAI 집행 8/2 발효 — 범용 AI 공급자 투명성·안전 의무 본격 시행**: EU 소재 기업 벤더 선택에서 규제 준수 여부가 필터 기준으로 올라섰다.
-- **AI 지출 구조적 확대 — Gartner 2026 AI 지출 $2.59T(+47% YoY)**: 병목이 GPU에서 전력·냉각·부지로 이동하는 구조가 가시화됐다.
+- **빅테크 AI CapEx 7,240억달러(가이던스 합산 추산) — Microsoft·Amazon·Google·Meta 합산**: 2025년 대비 +77%. 2027년 9,500억달러 전망. HBM 수요 구조화의 직접 원인이며 한국 반도체 수출 +270%로 실물화됐다.
+- **FOMC 9/16 긴축 리스크 — 25bp 인상 확률 71%로 반전**: CPI 2.5% 발표 후 인하 기대에서 PPI 5.4%·Warsh 매파 발언으로 하루 만에 역전. 성장주·AI 고밸류 섹터 할인율 상승 압박.
+- **AI 모델 공급 과잉 구조화 — 9/1~7 4개 랩 주요 모델 동시 갱신**: 기업 선택 피로가 쌓이면서 오케스트레이션·통합 레이어로 무게중심이 이동 중.
+- **Nvidia Vera Rubin CSP 5개사 납품 진행 중**: Blackwell 이후 세대 교체가 공급 데이터로 확인됐다. Q3 데이터센터 매출 20% 기여 전망.
 
 ## 타임라인
+### 2026-09-12 [[daily/2026-09-12]]
+- 빅테크 AI CapEx 7,240억달러(가이던스 합산 추산) — Microsoft·Amazon·Google·Meta 합산. 2025년 대비 +77%. HBM 수요 구조화 원인. 한국 반도체 수출 +270% YoY 실물화 재확인 → [[topics/반도체]] [[topics/투자테마]]
+- FOMC 9/16 D-4 긴축 리스크 — 25bp 인상 확률 71%로 반전. CPI 2.5% 인하 기대→PPI 5.4%·Warsh 매파 발언으로 즉각 역전. AI 고밸류 섹터 할인율 상승 압박 구조 → [[topics/거시정책]] [[topics/투자테마]]
+
 ### 2026-09-10 [[daily/2026-09-10]]
 - Nvidia Vera Rubin — CSP 5개사(CoreWeave·Google Cloud·MS Azure·Oracle Cloud·Nebius) 랙 납품 시작. Goldman Sachs Communacopia+Technology 컨퍼런스 발표. Q3 데이터센터 매출 20% 기여 전망. Blackwell 이후 세대 교체 첫 공식 실납품 확인 → [[topics/반도체AI인프라]] [[topics/유망기업]]
 

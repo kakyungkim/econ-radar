@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-12
+- WCLC 2026 개막 — J&J MARIPOSA 3년 OS 60% vs osimertinib 51%, EGFR+ NSCLC 1차 치료 OS 우위 첫 공식 확인
+- FOMC D-4 — CPI 2.5% 이후 PPI+코어로 인상 확률 71% 재전환, 미 10년물 4.96%
+- 한국 9월 초순 수출 $350억 +83% YoY — 반도체 $165억 +270%, 역대 최고, AI CapEx $7,240억 직접 수혜
+- Telix Pixclara FDA 2차 CRL — 교모세포종 PET 진단제 연속 거절, 테라노스틱스 규제 리스크 재부각
+- WCLC 2026 ADC 파이프라인 — BioNTech ADC×IO 첫 글로벌 데이터, 유한양행 YH42946 최초 임상 공개
+
 ## 2026-09-11
 - 미국 8월 CPI 2.5% YoY (컨센서스 2.9~3.4% 대폭 하회) — FOMC 9/16 25bp 인하 기대 급등
 - 유가 Brent $108 고점 — 사우디 산유량 급감 + 이란 확전, $120 꼬리 리스크 부상
@@ -56,12 +63,5 @@ publish: false
 - LLM 3파전 — GPT-6 Astra 일반 롤아웃·Claude Fable 5.1·Gemini 3.8 Flash, 벤치마크→기업 채택 경쟁 전환
 - 9/11 CPI D-5·9/16 FOMC D-10 — 인상·동결 분기점, 이란 유조선 피격 유가 변수
 - 리가켐바이오 SOT106 패스트트랙 + 국민성장펀드 5,000억 — 한국 ADC 플랫폼 글로벌 궤도
-
-## 2026-09-05
-- Ionis Zanvastro(Alexander병) FDA 조기 승인 — ASO 독자 상업화 첫 검증, RPD-PRV 수여
-- GPT-6 Astra 일반 공개(9/5) + Microsoft MAI-Transcribe-2($0.10/시간) — AI 인프라 가격 파괴
-- SK하이닉스 HBM 2026 전량 sold out + 삼성·SK H1 시설투자 43.2조(+35%)
-- 알테오젠 노바티스 최대 4.4조원 SC 플랫폼 4연속 빅파마 메가딜, 목표주가 54만원
-- 9월 PDUFA 집중기: UX111(9/19)·relutrigine(9/27)·Camzyos 소아(9/30)
 
 
