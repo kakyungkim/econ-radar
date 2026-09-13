@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-13
+- FOMC D-3: 미·영 국채 수십 년래 최고(미 10년물 4.96%, 영국 30년물 5.89%) — '더 오래 높게' 구조 재진입 신호
+- WCLC 2026 MAVERICK 3상 — PCI 40년 SCLC 표준 종식, MRI 단독 OS 비열등+인지력 손상 없이 생존 HR 0.60
+- AbbVie WCLC 2026 — 편평 NSCLC 이중특이항체 ABBV-1480 ORR 90%, SCLC ADC ABBV-706 ORR 82% 동시 공개
+- AriBio AR1001 — 한국 주도 글로벌 알츠하이머 3상 탑라인 9~10월 공개, 경구 GLP-1RA 계열 PoC 기로
+- K-뷰티 APR·Silicon2 -20% 급락 vs 한국 GDP 3.0% 상향 — 수출 통계 오류+원화 강세 기술적 충격
+
 ## 2026-09-12
 - WCLC 2026 개막 — J&J MARIPOSA 3년 OS 60% vs osimertinib 51%, EGFR+ NSCLC 1차 치료 OS 우위 첫 공식 확인
 - FOMC D-4 — CPI 2.5% 이후 PPI+코어로 인상 확률 71% 재전환, 미 10년물 4.96%
@@ -56,12 +63,5 @@ publish: false
 - Nvidia Hugging Face $12.93B 인수 — GPU 공급자→AI 플랫폼 운영자, 1.8M+ 개발자·모델·데이터셋 생태계
 - FOMC 인상 확률 38%→56~66% + CPI D-4(9/11) — Warsh 강경론(8/28), 이란 탄도미사일 발사·WTI $90+ 유가 변수 동시
 - WCLC 2026 D-5(9/12개막) + AZ-Dizal EGFR $1.5B + zilurgisertib PDUFA D-19(9/26)
-
-## 2026-09-06
-- WCLC 2026 서울 D-6 — BioNTech ADC×IO(pumitamig+elfetabart drozuntecan) 글로벌 첫 인체 데이터·AbbVie 폐암 3종 발표(9/12~15)
-- UX111(산필리포 B) PDUFA D-13 — Ultragenyx AAV9 유전자치료제, 9/19 심사 결론
-- LLM 3파전 — GPT-6 Astra 일반 롤아웃·Claude Fable 5.1·Gemini 3.8 Flash, 벤치마크→기업 채택 경쟁 전환
-- 9/11 CPI D-5·9/16 FOMC D-10 — 인상·동결 분기점, 이란 유조선 피격 유가 변수
-- 리가켐바이오 SOT106 패스트트랙 + 국민성장펀드 5,000억 — 한국 ADC 플랫폼 글로벌 궤도
 
 
