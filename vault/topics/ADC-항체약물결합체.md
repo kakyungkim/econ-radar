@@ -1,19 +1,23 @@
 ---
 type: moc
 tags: [바이오제약, ADC, 신약개발전략]
-updated: 2026-09-13
+updated: 2026-09-14
 ---
 # 🗂 ADC (항체-약물 결합체) — 주제 지도(MOC)
 
 > 범위: 항체-약물 결합체(Antibody-Drug Conjugate, ADC) 계열의 임상·규제·경쟁 구도 전반. 표적(TROP2·HER2·B7-H3 등)·페이로드(TOPO-1 억제제·MMAE·MAYTANSINOID 등)·빅파마 딜 구조를 추적한다.
 
 ## 핵심 흐름
-- **AbbVie ABBV-706 SEZ6 ADC — 백금 불응 SCLC ORR 82%(WCLC 2026)**: SEZ6 표적은 TROP2·HER2와 다른 경로로 차별화. Phase 3 단독+아테졸리주맙 IO 병용 병행 설계. EVOKE-03 단순 병용 실패 이후 기전 조합 ADC 설계로 진화하는 흐름의 구체 사례.
-- **BioNTech elfetabart drozuntecan(B7H3 ADC)×pumitamig 조합 — ADC×IO 멀티모달 전략**: pumitamig ROSETTA Lung-02 Phase 2 데이터와 함께 ADC·이중특이항체 조합의 글로벌 첫 데이터. PD-L1 전 범위 일관 반응이 핵심 차별화.
-- **TROP2 ADC 자궁내막암 OS·PFS 동시 달성(Merck sac-TMT TroFuse-005) — 계열 최초**: 17개 Phase 3 중 첫 번째 생존 지표 성공. AZ Dato-DXd와 TROP2 ADC 경쟁이 자궁내막암으로 확장 중.
-- **수요 렌즈**: SEZ6 발현 검사 표준화가 ABBV-706 채택의 선행 과제. ADC×IO 조합은 독성 프로파일(ILD·irAE 중첩) 관리 체계 구축이 처방 확산의 실질 관문이다.
+- **DESTINY-Lung04 T-DXd — ADC 플랫폼이 HER2 변이 NSCLC 1차까지 확장**: PFS 14.3 vs 8.3개월로 pembro+화학요법 대비 통계·임상적으로 압도. ADC 단일 약제가 면역항암제+화학요법 표준을 1차 치료에서 처음 앞선 3상 선례. 유방→위→폐 1차로의 연속 확장이 오늘로 확정됐다.
+- **T-DXd 병목 — OS 미성숙·ILD 독성**: FDA 풀 레이블 신청의 병목은 OS 데이터 성숙 시점. 간질성 폐질환(ILD)이 처방 경계 요인으로 남아 있다. HER2 동반진단 루틴화가 실제 채택 속도를 결정한다.
+- **AbbVie ABBV-706 SEZ6 ADC — 백금 불응 SCLC ORR 82%(WCLC 2026 Day 2)**: SEZ6 표적은 TROP2·HER2와 다른 경로. Phase 3 단독+아테졸리주맙 병용 병행 설계.
+- **수요 렌즈**: HER2 변이 NSCLC 유병률이 낮아(NSCLC 약 3%) 전체 시장 규모는 제한적. 그러나 동반진단 루틴화 후 진단 양성 환자가 T-DXd로 빠르게 연결된다. 진단→처방 경로 구축 속도가 상업화 속도를 좌우한다.
 
 ## 타임라인
+### 2026-09-14 [[daily/2026-09-14]]
+- DESTINY-Lung04 — T-DXd HER2 변이(exon 19/20) 비편평 NSCLC 1차 PFS 14.3 vs 8.3개월. 1차 평가변수 충족. pembro+화학요법 표준 교체 근거 확보. OS 미성숙. HER2 동반진단 루틴화가 채택 병목 → [[topics/NSCLC치료제경쟁]] [[topics/신약개발전략]]
+- ADC 플랫폼 확장 확정 — T-DXd 유방→위→폐 1차까지 연속. AZ·Daiichi Sankyo 양사 자산가치 추가 → [[topics/바이오제약]]
+
 ### 2026-09-13 [[daily/2026-09-13]]
 - AbbVie ABBV-706 SEZ6 ADC — 백금 불응 SCLC 단독 ORR 82%(Phase 1b). TROP2와 다른 표적 경로로 차별화. Phase 3 단독+아테졸리주맙 병용 병행(WCLC 2026) → [[topics/신약개발전략]] [[topics/NSCLC치료제경쟁]]
 - BioNTech elfetabart drozuntecan(B7H3 ADC)×pumitamig(PD-L1×VEGF-A) — ADC×IO 조합 Phase 2 데이터 WCLC 공개. ADC·이중특이항체 멀티모달 조합 글로벌 첫 데이터 → [[topics/신약개발전략]] [[topics/NSCLC치료제경쟁]]
