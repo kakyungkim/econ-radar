@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-14
+- J&J MARIPOSA 아시아 OS — amivantamab+lazertinib 사망위험 26% 감소(HR 0.74), EGFR 변이 NSCLC 이중표적 최초 OS 통계 유의 우위
+- DESTINY-Lung04 — T-DXd HER2 변이 NSCLC 1차 PFS 14.3 vs 8.3개월, ADC가 면역항암제+화학요법 압도한 첫 Phase 3
+- 유가 Brent $107 + FOMC D-2 인상 확률 80~87% — 사우디 파이프라인 드론 피격·호르무즈 협상 연기, 에너지-물가-긴축 삼각 루프
+- KOSPI -3.26%(6,684) + 원화 1,347원 — 외국인 3.3조 순매도, 시총 한달 212조 소멸
+- Scholar Rock apitegromab PDUFA D-16(9/30) + Merck Winrevair PDUFA D-7(9/21) — 두 PDUFA 정상 심사 궤도
+
 ## 2026-09-13
 - FOMC D-3: 미·영 국채 수십 년래 최고(미 10년물 4.96%, 영국 30년물 5.89%) — '더 오래 높게' 구조 재진입 신호
 - WCLC 2026 MAVERICK 3상 — PCI 40년 SCLC 표준 종식, MRI 단독 OS 비열등+인지력 손상 없이 생존 HR 0.60
@@ -56,12 +63,5 @@ publish: false
 - Ultragenyx UX111 PDUFA D-11(9/19) — 산필리포 A형(MPS IIIA) 최초 AAV9 유전자치료제, BLA 재제출 수락
 - BOJ 9/17~18 25bp 인상 유력 — 엔 캐리 언와인딩·KOSPI 선물 만기(1.7조) 수급 변동성, Goldman KOSPI 12,000 유지
 - Daiichi Sankyo+MSD I-DXd(ifinatamab deruxtecan) — SCLC 2차 치료 B7-H3 ADC, PDUFA 10/10, WCLC 데이터 공개
-
-## 2026-09-07
-- Revolution Medicines Rasonque(daraxonrasib) FDA 승인(8/26) — 세계 최초 pan-RAS GTPase 억제제, 전이성 췌장선암(KRAS G12X 등 전 변이), NGS 동반진단 불필요
-- BMS Zenbexus(iberdomide) FDA 가속 승인 — 첫 CELMoD 계열, RRMM, MRD 음성 CR 대리지표 최초 채택
-- Nvidia Hugging Face $12.93B 인수 — GPU 공급자→AI 플랫폼 운영자, 1.8M+ 개발자·모델·데이터셋 생태계
-- FOMC 인상 확률 38%→56~66% + CPI D-4(9/11) — Warsh 강경론(8/28), 이란 탄도미사일 발사·WTI $90+ 유가 변수 동시
-- WCLC 2026 D-5(9/12개막) + AZ-Dizal EGFR $1.5B + zilurgisertib PDUFA D-19(9/26)
 
 
