@@ -15,53 +15,52 @@ publish: false
 
 ---
 
-## 2026-09-08
-- WCLC 2026 서울 D-4 — AZ Tagrisso 8년 OS vs J&J MARIPOSA HR 0.75(42개월 OS 56% vs 44%), EGFR 1차 치료 표준 대결
-- MSD+Gilead KEYNOTE-D46/EVOKE-03 중단 — TROP2 ADC+PD-1 병용, NSCLC 1차 치료 Phase 3 실패, ADC+IO 전략 첫 대형 벽
-- Ultragenyx UX111 PDUFA D-11(9/19) — 산필리포 A형(MPS IIIA) 최초 AAV9 유전자치료제, BLA 재제출 수락
-- BOJ 9/17~18 25bp 인상 유력 — 엔 캐리 언와인딩·KOSPI 선물 만기(1.7조) 수급 변동성, Goldman KOSPI 12,000 유지
-- Daiichi Sankyo+MSD I-DXd(ifinatamab deruxtecan) — SCLC 2차 치료 B7-H3 ADC, PDUFA 10/10, WCLC 데이터 공개
+## 2026-09-15
+- WCLC 2026 최종일 — B7H3 ADC 2종(ARTEMIS-008·TAISHAN-302) 재발 SCLC 3상 OS HR 0.46 동시 달성, 수십 년 토포테칸 표준 교체 근거
+- ADAURA 8년 OS — osimertinib 조기 NSCLC 보조요법 79% vs 위약 64%(HR 0.52), 역대 최장 추적 생존 이득 확인
+- FOMC D-1 + BOJ 대기 — 미 10년물 5.02%(2007년 이후 최고), KOSPI -0.85%(6,627), 원화 1,359원, 48시간 내 이중 금리 결정
+- REZILIENT3 — zipalertinib EGFR exon 20 삽입변이 NSCLC 1차 PFS HR 0.50 (P=0.00015), 경구 TKI 3상 근거 확립
+- ARROS-1 — zidesamtinib ROS1+ NSCLC TKI-naive ORR 94%·두개 내 ORR 100%, ROS1 분자아형 표준 선점
 
-## 2026-09-07
-- Revolution Medicines Rasonque(daraxonrasib) FDA 승인(8/26) — 세계 최초 pan-RAS GTPase 억제제, 전이성 췌장선암(KRAS G12X 등 전 변이), NGS 동반진단 불필요
-- BMS Zenbexus(iberdomide) FDA 가속 승인 — 첫 CELMoD 계열, RRMM, MRD 음성 CR 대리지표 최초 채택
-- Nvidia Hugging Face $12.93B 인수 — GPU 공급자→AI 플랫폼 운영자, 1.8M+ 개발자·모델·데이터셋 생태계
-- FOMC 인상 확률 38%→56~66% + CPI D-4(9/11) — Warsh 강경론(8/28), 이란 탄도미사일 발사·WTI $90+ 유가 변수 동시
-- WCLC 2026 D-5(9/12개막) + AZ-Dizal EGFR $1.5B + zilurgisertib PDUFA D-19(9/26)
+## 2026-09-14
+- J&J MARIPOSA 아시아 OS — amivantamab+lazertinib 사망위험 26% 감소(HR 0.74), EGFR 변이 NSCLC 이중표적 최초 OS 통계 유의 우위
+- DESTINY-Lung04 — T-DXd HER2 변이 NSCLC 1차 PFS 14.3 vs 8.3개월, ADC가 면역항암제+화학요법 압도한 첫 Phase 3
+- 유가 Brent $107 + FOMC D-2 인상 확률 80~87% — 사우디 파이프라인 드론 피격·호르무즈 협상 연기, 에너지-물가-긴축 삼각 루프
+- KOSPI -3.26%(6,684) + 원화 1,347원 — 외국인 3.3조 순매도, 시총 한달 212조 소멸
+- Scholar Rock apitegromab PDUFA D-16(9/30) + Merck Winrevair PDUFA D-7(9/21) — 두 PDUFA 정상 심사 궤도
 
-## 2026-09-06
-- WCLC 2026 서울 D-6 — BioNTech ADC×IO(pumitamig+elfetabart drozuntecan) 글로벌 첫 인체 데이터·AbbVie 폐암 3종 발표(9/12~15)
-- UX111(산필리포 B) PDUFA D-13 — Ultragenyx AAV9 유전자치료제, 9/19 심사 결론
-- LLM 3파전 — GPT-6 Astra 일반 롤아웃·Claude Fable 5.1·Gemini 3.8 Flash, 벤치마크→기업 채택 경쟁 전환
-- 9/11 CPI D-5·9/16 FOMC D-10 — 인상·동결 분기점, 이란 유조선 피격 유가 변수
-- 리가켐바이오 SOT106 패스트트랙 + 국민성장펀드 5,000억 — 한국 ADC 플랫폼 글로벌 궤도
+## 2026-09-13
+- FOMC D-3: 미·영 국채 수십 년래 최고(미 10년물 4.96%, 영국 30년물 5.89%) — '더 오래 높게' 구조 재진입 신호
+- WCLC 2026 MAVERICK 3상 — PCI 40년 SCLC 표준 종식, MRI 단독 OS 비열등+인지력 손상 없이 생존 HR 0.60
+- AbbVie WCLC 2026 — 편평 NSCLC 이중특이항체 ABBV-1480 ORR 90%, SCLC ADC ABBV-706 ORR 82% 동시 공개
+- AriBio AR1001 — 한국 주도 글로벌 알츠하이머 3상 탑라인 9~10월 공개, 경구 GLP-1RA 계열 PoC 기로
+- K-뷰티 APR·Silicon2 -20% 급락 vs 한국 GDP 3.0% 상향 — 수출 통계 오류+원화 강세 기술적 충격
 
-## 2026-09-05
-- Ionis Zanvastro(Alexander병) FDA 조기 승인 — ASO 독자 상업화 첫 검증, RPD-PRV 수여
-- GPT-6 Astra 일반 공개(9/5) + Microsoft MAI-Transcribe-2($0.10/시간) — AI 인프라 가격 파괴
-- SK하이닉스 HBM 2026 전량 sold out + 삼성·SK H1 시설투자 43.2조(+35%)
-- 알테오젠 노바티스 최대 4.4조원 SC 플랫폼 4연속 빅파마 메가딜, 목표주가 54만원
-- 9월 PDUFA 집중기: UX111(9/19)·relutrigine(9/27)·Camzyos 소아(9/30)
+## 2026-09-12
+- WCLC 2026 개막 — J&J MARIPOSA 3년 OS 60% vs osimertinib 51%, EGFR+ NSCLC 1차 치료 OS 우위 첫 공식 확인
+- FOMC D-4 — CPI 2.5% 이후 PPI+코어로 인상 확률 71% 재전환, 미 10년물 4.96%
+- 한국 9월 초순 수출 $350억 +83% YoY — 반도체 $165억 +270%, 역대 최고, AI CapEx $7,240억 직접 수혜
+- Telix Pixclara FDA 2차 CRL — 교모세포종 PET 진단제 연속 거절, 테라노스틱스 규제 리스크 재부각
+- WCLC 2026 ADC 파이프라인 — BioNTech ADC×IO 첫 글로벌 데이터, 유한양행 YH42946 최초 임상 공개
 
-## 2026-09-04
-- 미 8월 NFP +22,000명(컨센서스 +55K 하회) — FOMC 인상 확률 66%→38%, KOSPI +1.64%(6,687.21)·KOSDAQ +2.95%(813.50), 9/11 CPI 최종 변수
-- OpenAI GPT-6 Astra 제한 출시 — 사이버 Critical 등급 최초, FrontierMath Tier4 97.6%, 9/5 전면 출시 예정
-- Eli Lilly + Orna Therapeutics 최대 $2.4B(약 3조2,880억원) — In Vivo CAR-T 자가면역 플랫폼, 세포치료 적응증 암→자가면역 확장 첫 대형 베팅
-- Capricor deramiocel(DMD) PDUFA 11/22로 연장 — adcomm 3:9 부결 후 주요 수정안 제출, DMD 세포치료 최초 허가 재도전
-- WCLC 2026 서울 9/12~15 D-8 개막 — ADC·T세포이중항체·AI 정밀의학 피봇 데이터 공개 예정, 알테오젠 SC→AOC 플랫폼 확장 시그널
+## 2026-09-11
+- 미국 8월 CPI 2.5% YoY (컨센서스 2.9~3.4% 대폭 하회) — FOMC 9/16 25bp 인하 기대 급등
+- 유가 Brent $108 고점 — 사우디 산유량 급감 + 이란 확전, $120 꼬리 리스크 부상
+- Telix Pixclara FDA PDUFA D-0 (9/11) — glioma PET 이미징 미국 첫 진단제 결정
+- OpenAI Agents API 공개 베타 + Microsoft 38GW 데이터센터 계획 — AI 인프라 플랫폼 경쟁
+- Merck Winrevair HYPERION 76% + WCLC 2026 서울 D-1 — PAH·폐암 데이터 맞춤발
 
-## 2026-09-03
-- 이란 IRGC 5개국 미군기지 드론·미사일 반격 — 브렌트유 $95.25/bbl 2일 연속, KOSPI +0.26%(6,579.48), 9/4 NFP → 9/16 FOMC 25bp 확률 66%
-- Broadcom FY3Q: AI 매출 $16.7B(+221%)·전체 $29.6B(+86%), Q4 가이던스 $34.8B 컨센서스 하회 → 시간외 -4.04%, FY27 AI $115B 로드맵 첫 공개
-- BioMarin-Alesta 인수 완료($490M max) — HPP 첫 경구 소분자 ALE1, Phase 1/2a
-- zilurgisertib FOP PDUFA 9/26 + ENDO 2026 피봇 데이터 발표 임박 — Mirum/Incyte, 경구 ALK2 억제제
-- KOSDAQ 바이오 3사 동반 상장(Organoid Sciences·AimedBio·Mezoo) — Mint Venture 1호, KOSDAQ -1.71%(790.21)
+## 2026-09-10
+- WCLC 2026 D-2 — MAVERICK SCLC OS 첫 공개(9/12), Tagrisso 8년 OS vs MARIPOSA EGFR 1차 치료 구도 본격화
+- Brent $101.25 돌파 — 미군 이란 유조선 5척 격침, CPI D-1 전날 에너지 충격
+- Scholar Rock apitegromab PDUFA D-20(9/30) — 9/9 CMC(Catalent OAI) 이슈 해소, SMA 근육 표적 심사 재개
+- Nvidia Vera Rubin Goldman 컨퍼런스 — CSP 5개사 납품 시작, Q3 데이터센터 매출 20% 기여 전망
+- K바이오 딜 써밋 2026 + 알테오젠 Novartis $3.22B(약 4조3,000억원) — 빅파마 23개사 특허절벽 수혜 탐색
 
-## 2026-09-02
-- KOSPI -3.99%(6,562.72·-273pt)·브렌트유 $94.86/bbl — 미군 이란 탱커 보복 공습('탱커 for 탱커'), 외인 1.9조 순매도, 9월 FOMC 25bp 확률 66%
-- Eli Lilly → Merida Biosciences 최대 $2.875B(약 3조9,350억원) — 자가항체 선택적 분해 플랫폼, MER511(그레이브스병·TED) Phase 1, 2026년 13번째 인수
-- CXMT HBM3E 소량 생산 개시 — 알리바바·캠브리콘 테스트 공급, 한국 업체 대비 기술 격차(업계 추정, 본문 확인 필요)
-- Runway Solaris — AI가 실시간으로 소프트웨어 인터페이스를 생성하는 월드 모델, 코드 없는 UI 생성 데모
-- OpenAI IPO 2027년 연기 확인 — 공개 S-1 미제출, 순손실 $38.5B·흑자 전환 2030년·ARR $40B+(Bloomberg 2026-08-13)
-
+## 2026-09-09
+- KOSPI 7,051.64 (+1.40%) — 배터리·석화 동반 급등으로 33거래일 만에 7,000 탈환
+- Mistral AI €3B(약 3조3,000억원) 삼성전자 주도 시리즈 D — 유럽 기술 역대 최대 에퀴티 라운드, 소버린 AI 테마
+- Merck Winrevair PDUFA D-12(9/21) — HYPERION 새로 진단된 WHO FC II~III PAH 1차 치료 확장 카운트다운
+- Ionis ZANVASTRO(zilganersen) 9/3 FDA 승인 — Alexander disease 첫 질환 수정 치료제, ASO 플랫폼 희귀신경질환 첫 상업화
+- 유한양행 YH42946 WCLC 2026 서울 D-3 — HER2·EGFR 엑손20 이중 경구 TKI 첫 임상 데이터
 
