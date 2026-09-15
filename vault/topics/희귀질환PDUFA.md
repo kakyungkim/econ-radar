@@ -1,16 +1,19 @@
 ---
 type: moc
 tags: [바이오제약, 희귀질환PDUFA]
-updated: 2026-09-08
+updated: 2026-09-15
 ---
 # 🗂 희귀질환 PDUFA — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **9월 희귀질환 PDUFA 연속 — UX111(MPS IIIA, 9/19) + apitegromab(SMA, 9/30)**: 두 건 모두 CMC·시설 이슈 해소 후 재심사 재제출로 PDUFA를 맞는다. 희귀질환 신약에서 제조 품질이 규제 통과의 실질 관문임을 확인하는 연속 사례.
-- **고가 단회 치료제 지불자 관문 — 성과 연동(outcome-based) 계약 구조가 상업화 속도를 결정**: FDA 승인 이후 약가·급여 협상이 환자 실질 접근성을 결정한다. 두 사례 모두 수백만 달러 단회 또는 고가 지속 투여 모델로 지불자 급여 결정이 시장 진입 속도의 진짜 관문.
-- **희귀질환 심사 패턴 — AdCom 없이 장기 추적 데이터·미충족 수요 논거로 승인 경로**: UX111은 자문위 미소집·8년 추적. 경쟁 약 없는 시장에서 FDA가 제조 품질만 확인하면 임상 데이터 자체 논거는 충분한 구조.
+- **9월 PDUFA 삼연발 D-4 — UX111(9/19)·Winrevair(9/21)·apitegromab(9/30)**: UX111은 Bedford·Andelyn 두 시설 확보 후 재신청이 정상 진행 중이다. Winrevair는 조기 PAH 76% 악화 감소 레이블 확장 sBLA 심사. apitegromab은 Catalent OAI 해소 후 정상 궤도. 세 건 모두 CMC 이슈 해소 후 재심사 구조.
+- **CMO 단일 의존이 규제 일정 전체를 흔든다**: UX111(Bedford 단일→Andelyn 추가), apitegromab(Catalent OAI→대안 시설)이 이번 사이클에서 대체 시설 2곳 확보가 실무 표준임을 재확인했다.
+- **고가 단회 치료제 지불자 관문 — 성과 연동(outcome-based) 계약이 환자 도달 속도 결정**: 유전자치료(UX111)·항체(Winrevair, apitegromab) 세 건 모두 FDA 승인 이후 약가·급여 협상이 환자 실질 접근성의 진짜 관문이다.
 
 ## 타임라인
+### 2026-09-15 [[daily/2026-09-15]]
+- UX111(Ultragenyx) MPS IIIA PDUFA 9/19 D-4 — Bedford·Andelyn 두 시설 기반 재신청 정상 진행. 승인 시 MPS IIIA 역대 최초 치료제. CMC 대체 시설 확보 전략 규제 선례 → [[topics/유전자치료AAV]] [[topics/바이오제약]]
+
 ### 2026-09-08 [[daily/2026-09-08]]
 - UX111(Ultragenyx) MPS IIIA PDUFA 9/19 D-11 — AAV9 유전자치료, CMC 이슈 해소 후 Priority Review 재심사. 8년 장기 추적·AdCom 없음. 성과 연동 계약 선례 예정 → [[topics/바이오제약]] [[topics/유전자치료AAV]]
 - apitegromab(Scholar Rock) SMA PDUFA 9/30 — 근육 표적(myostatin 억제) 첫 SMA 병용 후보. SMN 치료제 위에 추가 급여 수용 여부가 지불자 관문. Phase 3 TOPAZ 임상 데이터 뒷받침 → [[topics/바이오제약]]
