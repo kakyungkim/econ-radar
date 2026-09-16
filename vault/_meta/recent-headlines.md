@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-16
+- ivonescimab HARMONi-2 OS — pembrolizumab 대비 OS HR=0.73(30.8 vs 22.6개월), PD-L1+ 1차 NSCLC 키트루다 직접 비교 첫 3상 OS 성공
+- Scholar Rock ISEMBYLD FDA 승인 — SMA 최초 근육 표적 치료제(apitegromab-mstn), PDUFA 2주 조기, 연간 약가 $310,000
+- FOMC D-0 — 25bp 인상 확률 93%(→3.75~4.00%), 점도표·워시 기자회견 오늘 오후 2시(ET), BOJ 내일(9/17) 25bp 인상 확률 61%
+- Vera TRUTAKNA ORIGIN 3 최종 2년 — IgAN eGFR +5.6 보존(p<0.0001), 4Q ssBLA 제출 예고
+- Anthropic Claude 엔터프라이즈 — Smart Reports·Inference Hooks 베타 출시, 엔터프라이즈 AI 보안·거버넌스 레이어 강화
+
 ## 2026-09-15
 - WCLC 2026 최종일 — B7H3 ADC 2종(ARTEMIS-008·TAISHAN-302) 재발 SCLC 3상 OS HR 0.46 동시 달성, 수십 년 토포테칸 표준 교체 근거
 - ADAURA 8년 OS — osimertinib 조기 NSCLC 보조요법 79% vs 위약 64%(HR 0.52), 역대 최장 추적 생존 이득 확인
@@ -57,10 +64,4 @@ publish: false
 - Nvidia Vera Rubin Goldman 컨퍼런스 — CSP 5개사 납품 시작, Q3 데이터센터 매출 20% 기여 전망
 - K바이오 딜 써밋 2026 + 알테오젠 Novartis $3.22B(약 4조3,000억원) — 빅파마 23개사 특허절벽 수혜 탐색
 
-## 2026-09-09
-- KOSPI 7,051.64 (+1.40%) — 배터리·석화 동반 급등으로 33거래일 만에 7,000 탈환
-- Mistral AI €3B(약 3조3,000억원) 삼성전자 주도 시리즈 D — 유럽 기술 역대 최대 에퀴티 라운드, 소버린 AI 테마
-- Merck Winrevair PDUFA D-12(9/21) — HYPERION 새로 진단된 WHO FC II~III PAH 1차 치료 확장 카운트다운
-- Ionis ZANVASTRO(zilganersen) 9/3 FDA 승인 — Alexander disease 첫 질환 수정 치료제, ASO 플랫폼 희귀신경질환 첫 상업화
-- 유한양행 YH42946 WCLC 2026 서울 D-3 — HER2·EGFR 엑손20 이중 경구 TKI 첫 임상 데이터
 

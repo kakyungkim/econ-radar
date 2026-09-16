@@ -1,16 +1,21 @@
 ---
 type: moc
 tags: [바이오제약, 희귀질환PDUFA]
-updated: 2026-09-15
+updated: 2026-09-16
 ---
 # 🗂 희귀질환 PDUFA — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **9월 PDUFA 삼연발 D-4 — UX111(9/19)·Winrevair(9/21)·apitegromab(9/30)**: UX111은 Bedford·Andelyn 두 시설 확보 후 재신청이 정상 진행 중이다. Winrevair는 조기 PAH 76% 악화 감소 레이블 확장 sBLA 심사. apitegromab은 Catalent OAI 해소 후 정상 궤도. 세 건 모두 CMC 이슈 해소 후 재심사 구조.
-- **CMO 단일 의존이 규제 일정 전체를 흔든다**: UX111(Bedford 단일→Andelyn 추가), apitegromab(Catalent OAI→대안 시설)이 이번 사이클에서 대체 시설 2곳 확보가 실무 표준임을 재확인했다.
-- **고가 단회 치료제 지불자 관문 — 성과 연동(outcome-based) 계약이 환자 도달 속도 결정**: 유전자치료(UX111)·항체(Winrevair, apitegromab) 세 건 모두 FDA 승인 이후 약가·급여 협상이 환자 실질 접근성의 진짜 관문이다.
+- **ISEMBYLD(apitegromab-mstn) 9/15 FDA 승인 — SMA 최초 근육 표적 치료제**: PDUFA(9/30) 2주 조기 결정. SAPPHIRE 3상 HFMSE 3점 이상 개선 34.2% vs 13.5%. 연간 약가 약 31만 달러(약 4억2,800만 원). SMN2 단독 체제에서 신경 보호+근육 기능 회복 2축 병용 체제로 전환됐다.
+- **Winrevair(sotatercept) HYPERION sBLA PDUFA 9/21(D-5) — 초기 PAH 라벨 확장**: 최초 진단 12개월 이내 PAH 환자까지 처방 범위가 당겨진다. ZENITH 기반 라벨 업데이트(2025/10) 이후 두 번째 확장.
+- **UX111(Ultragenyx) MPS IIIA PDUFA 9/19(D-3)**: Bedford·Andelyn 두 시설 기반 재신청 정상 진행. 승인 시 MPS IIIA 역대 최초 치료제.
+- **CMO 대체 시설 확보가 이번 사이클의 실무 표준으로 정착**: UX111·apitegromab 모두 단일 시설 의존 리스크를 대체 시설 확보로 완화한 구조를 택했다.
 
 ## 타임라인
+### 2026-09-16 [[daily/2026-09-16]]
+- ISEMBYLD(apitegromab-mstn) FDA 승인(9/15) — SMA 최초 근육 표적 치료제, PDUFA(9/30) 대비 2주 조기. SAPPHIRE 3상 HFMSE 3점 이상 개선 34.2% vs 13.5%. 연간 약가 약 31만 달러(약 4억2,800만 원). add-on 포지셔닝으로 SMA 치료 구조 2축 전환 → [[topics/바이오제약]] [[topics/신약개발전략]]
+- Winrevair HYPERION sBLA PDUFA D-5(9/21) — 초기 PAH 라벨 확장 심사 기준일 접근 → [[topics/바이오제약]]
+
 ### 2026-09-15 [[daily/2026-09-15]]
 - UX111(Ultragenyx) MPS IIIA PDUFA 9/19 D-4 — Bedford·Andelyn 두 시설 기반 재신청 정상 진행. 승인 시 MPS IIIA 역대 최초 치료제. CMC 대체 시설 확보 전략 규제 선례 → [[topics/유전자치료AAV]] [[topics/바이오제약]]
 
