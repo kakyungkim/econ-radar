@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-17
+- FOMC 25bp 인상 확정 — 목표 범위 3.75~4.00%, 점도표 연말 4.1%, 장기 중립금리 3.2% 상향, 2023년 이후 첫 재인상
+- 한화시스템 × UAE EDGE Group 통합방공망 텀시트 — L-SAM·M-SAM·천무 패키지, 합작법인 타진, 주가 +12%
+- AQNEURSA levacetylleucine PDUFA D-2 (9/19) — A-T(운동실조-모세혈관확장증) 미국 최초 치료제 후보, Priority Review
+- 미 상원 AI 안전 법안 협상 가속 — Cruz·Klobuchar 9/23 마크업 목표, duty of care + 모델 차단권 초안
+- Winrevair PDUFA D-4 (9/21) PAH 초기 진단 라벨 확장 [후속] — 초기 진단 코호트 처방 진입 시점 앞당기기
+
 ## 2026-09-16
 - ivonescimab HARMONi-2 OS — pembrolizumab 대비 OS HR=0.73(30.8 vs 22.6개월), PD-L1+ 1차 NSCLC 키트루다 직접 비교 첫 3상 OS 성공
 - Scholar Rock ISEMBYLD FDA 승인 — SMA 최초 근육 표적 치료제(apitegromab-mstn), PDUFA 2주 조기, 연간 약가 $310,000
@@ -56,12 +63,5 @@ publish: false
 - Telix Pixclara FDA PDUFA D-0 (9/11) — glioma PET 이미징 미국 첫 진단제 결정
 - OpenAI Agents API 공개 베타 + Microsoft 38GW 데이터센터 계획 — AI 인프라 플랫폼 경쟁
 - Merck Winrevair HYPERION 76% + WCLC 2026 서울 D-1 — PAH·폐암 데이터 맞춤발
-
-## 2026-09-10
-- WCLC 2026 D-2 — MAVERICK SCLC OS 첫 공개(9/12), Tagrisso 8년 OS vs MARIPOSA EGFR 1차 치료 구도 본격화
-- Brent $101.25 돌파 — 미군 이란 유조선 5척 격침, CPI D-1 전날 에너지 충격
-- Scholar Rock apitegromab PDUFA D-20(9/30) — 9/9 CMC(Catalent OAI) 이슈 해소, SMA 근육 표적 심사 재개
-- Nvidia Vera Rubin Goldman 컨퍼런스 — CSP 5개사 납품 시작, Q3 데이터센터 매출 20% 기여 전망
-- K바이오 딜 써밋 2026 + 알테오젠 Novartis $3.22B(약 4조3,000억원) — 빅파마 23개사 특허절벽 수혜 탐색
 
 
