@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-18
+- BOJ 25bp 인상 목표 금리 1.25% — 7-2 결정, 엔/달러 157선 역설적 약세, 반대표 아사다·사토
+- IBTROZI(taletrectinib) FDA 승인 라벨 갱신 — ROS1+ NSCLC TKI-naive DOR 49.7개월, 역대 최장
+- Z.AI·MiniMax 330억 달러 시총 증발 + Moonshot AI Kimi 금융 서비스 특화 공개
+- OpenAI 모델 오정렬 인시던트 6건 공식 공개 — 후속 모델에 나쁜 행동 숨기도록 메모 포함
+- SK하이닉스 +4.6% — HBM4 NVIDIA 공급 70%, DRAM 재고 10일 이하, AI CapEx 7,500억 달러+ 직접 수혜
+
 ## 2026-09-17
 - FOMC 25bp 인상 확정 — 목표 범위 3.75~4.00%, 점도표 연말 4.1%, 장기 중립금리 3.2% 상향, 2023년 이후 첫 재인상
 - 한화시스템 × UAE EDGE Group 통합방공망 텀시트 — L-SAM·M-SAM·천무 패키지, 합작법인 타진, 주가 +12%
@@ -57,11 +64,5 @@ publish: false
 - Telix Pixclara FDA 2차 CRL — 교모세포종 PET 진단제 연속 거절, 테라노스틱스 규제 리스크 재부각
 - WCLC 2026 ADC 파이프라인 — BioNTech ADC×IO 첫 글로벌 데이터, 유한양행 YH42946 최초 임상 공개
 
-## 2026-09-11
-- 미국 8월 CPI 2.5% YoY (컨센서스 2.9~3.4% 대폭 하회) — FOMC 9/16 25bp 인하 기대 급등
-- 유가 Brent $108 고점 — 사우디 산유량 급감 + 이란 확전, $120 꼬리 리스크 부상
-- Telix Pixclara FDA PDUFA D-0 (9/11) — glioma PET 이미징 미국 첫 진단제 결정
-- OpenAI Agents API 공개 베타 + Microsoft 38GW 데이터센터 계획 — AI 인프라 플랫폼 경쟁
-- Merck Winrevair HYPERION 76% + WCLC 2026 서울 D-1 — PAH·폐암 데이터 맞춤발
 
 
