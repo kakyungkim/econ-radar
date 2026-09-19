@@ -1,17 +1,22 @@
 ---
 type: moc
 tags: [바이오제약, 희귀질환PDUFA]
-updated: 2026-09-16
+updated: 2026-09-19
 ---
 # 🗂 희귀질환 PDUFA — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **ISEMBYLD(apitegromab-mstn) 9/15 FDA 승인 — SMA 최초 근육 표적 치료제**: PDUFA(9/30) 2주 조기 결정. SAPPHIRE 3상 HFMSE 3점 이상 개선 34.2% vs 13.5%. 연간 약가 약 31만 달러(약 4억2,800만 원). SMN2 단독 체제에서 신경 보호+근육 기능 회복 2축 병용 체제로 전환됐다.
-- **Winrevair(sotatercept) HYPERION sBLA PDUFA 9/21(D-5) — 초기 PAH 라벨 확장**: 최초 진단 12개월 이내 PAH 환자까지 처방 범위가 당겨진다. ZENITH 기반 라벨 업데이트(2025/10) 이후 두 번째 확장.
-- **UX111(Ultragenyx) MPS IIIA PDUFA 9/19(D-3)**: Bedford·Andelyn 두 시설 기반 재신청 정상 진행. 승인 시 MPS IIIA 역대 최초 치료제.
-- **CMO 대체 시설 확보가 이번 사이클의 실무 표준으로 정착**: UX111·apitegromab 모두 단일 시설 의존 리스크를 대체 시설 확보로 완화한 구조를 택했다.
+- **FAYUVI(rebisufligene etisparvovec-hopf) FDA 완전 승인(9/17) — MPS IIIA 세계 최초 치료제**: 9월 PDUFA 첫 결과. AAV9 단회 뇌조 내 투여 395만달러, PRV 수령. 8월 DTX401 이후 Ultragenyx 두 번째 AAV 연속 승인.
+- **AQNEURSA(levacetylleucine) FDA 승인(9/19) — A-T 최초 치료제**: FAYUVI와 같은 날 두 개의 "최초 치료제"가 동시 승인. NPC 이어 같은 분자로 두 번째 적응증을 확장한 비상장 IntraBio 모델 주목.
+- **Winrevair(sotatercept) HYPERION sBLA PDUFA 9/21(D-2)**: 신규 진단 PAH 76% 임상 악화 감소. 승인 시 처방 진입 시점이 진단 직후로 앞당겨져 대상 환자 풀이 크게 확대된다.
+- **9월 다음 PDUFA 일정**: apitegromab(SMA) 9/30, I-DXd(SCLC 2차) 10/10.
 
 ## 타임라인
+### 2026-09-19 [[daily/2026-09-19]]
+- **[FAYUVI MPS IIIA FDA 승인](../daily/2026-09-19.md)** — 세계 최초 치료제. AAV9 단회 투여 395만달러. PRV 수령. 성과연동 급여 협상이 실질 접근성 관문 → [[topics/바이오제약]] [[topics/신약개발전략]]
+- **[AQNEURSA A-T FDA 승인](../daily/2026-09-19.md)** — A-T 최초 치료제. 같은 분자 NPC→A-T 두 번째 적응증. 9/19 두 건 동시 승인 → [[topics/바이오제약]] [[topics/신약개발전략]]
+- **[Winrevair HYPERION sBLA PDUFA D-2(9/21)](../daily/2026-09-19.md)** — 신규 진단 PAH 라벨 확장 이틀 앞. 라벨 문구 "1차 치료" 명시 여부가 처방 알고리즘 반영 속도 결정 → [[topics/바이오제약]]
+
 ### 2026-09-16 [[daily/2026-09-16]]
 - ISEMBYLD(apitegromab-mstn) FDA 승인(9/15) — SMA 최초 근육 표적 치료제, PDUFA(9/30) 대비 2주 조기. SAPPHIRE 3상 HFMSE 3점 이상 개선 34.2% vs 13.5%. 연간 약가 약 31만 달러(약 4억2,800만 원). add-on 포지셔닝으로 SMA 치료 구조 2축 전환 → [[topics/바이오제약]] [[topics/신약개발전략]]
 - Winrevair HYPERION sBLA PDUFA D-5(9/21) — 초기 PAH 라벨 확장 심사 기준일 접근 → [[topics/바이오제약]]
