@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-19
+- FAYUVI FDA 승인 — MPS IIIA 세계 최초 AAV9 유전자치료제, 395만달러 단회 투여, Ultragenyx(RARE)
+- AQNEURSA FDA 승인 — A-T(운동실조-모세혈관확장증) 최초 치료제, levacetylleucine sNDA, IntraBio
+- Winrevair HYPERION PDUFA D-2 — 신규 진단 PAH 76% TTCW 감소, 9/21 라벨 확장 결정
+- 미 10년물 5.0% 재돌파 + KOSPI +2.66% — 한국 반도체 수출 +209% YoY, GDP 전망 3.0% 상향
+- 미 상원 AI 안전 법안 교착 — Cantwell 이탈, Cruz-Klobuchar 9/23 마크업 불투명
+
 ## 2026-09-18
 - BOJ 25bp 인상 목표 금리 1.25% — 7-2 결정, 엔/달러 157선 역설적 약세, 반대표 아사다·사토
 - IBTROZI(taletrectinib) FDA 승인 라벨 갱신 — ROS1+ NSCLC TKI-naive DOR 49.7개월, 역대 최장
@@ -57,12 +64,6 @@ publish: false
 - AriBio AR1001 — 한국 주도 글로벌 알츠하이머 3상 탑라인 9~10월 공개, 경구 GLP-1RA 계열 PoC 기로
 - K-뷰티 APR·Silicon2 -20% 급락 vs 한국 GDP 3.0% 상향 — 수출 통계 오류+원화 강세 기술적 충격
 
-## 2026-09-12
-- WCLC 2026 개막 — J&J MARIPOSA 3년 OS 60% vs osimertinib 51%, EGFR+ NSCLC 1차 치료 OS 우위 첫 공식 확인
-- FOMC D-4 — CPI 2.5% 이후 PPI+코어로 인상 확률 71% 재전환, 미 10년물 4.96%
-- 한국 9월 초순 수출 $350억 +83% YoY — 반도체 $165억 +270%, 역대 최고, AI CapEx $7,240억 직접 수혜
-- Telix Pixclara FDA 2차 CRL — 교모세포종 PET 진단제 연속 거절, 테라노스틱스 규제 리스크 재부각
-- WCLC 2026 ADC 파이프라인 — BioNTech ADC×IO 첫 글로벌 데이터, 유한양행 YH42946 최초 임상 공개
 
 
 
