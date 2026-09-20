@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-20
+- 미-중 Bessent·He·Greer 실무협의 — AI 가드레일 처음 외교 테이블 등재, 9/24 Trump-Xi D-4
+- Winrevair HYPERION PDUFA D-1 — 신규 진단 PAH 76% TTCW 감소, 9/21 라벨 확장 결정
+- NVIDIA RTX Spark 10/7 출시 확정 — GB10 Grace Blackwell, 128GB, 1 Petaflop
+- FOMC 점도표 세부 — core PCE 3.4%, FFR 4.10%, 2029년까지 2% 목표 미달
+- Roche × Dualitas 이중특이항체 — DualScreen 선급금 $3,650만/최대 $10억, I&I
+
 ## 2026-09-19
 - FAYUVI FDA 승인 — MPS IIIA 세계 최초 AAV9 유전자치료제, 395만달러 단회 투여, Ultragenyx(RARE)
 - AQNEURSA FDA 승인 — A-T(운동실조-모세혈관확장증) 최초 치료제, levacetylleucine sNDA, IntraBio
@@ -57,12 +64,6 @@ publish: false
 - KOSPI -3.26%(6,684) + 원화 1,347원 — 외국인 3.3조 순매도, 시총 한달 212조 소멸
 - Scholar Rock apitegromab PDUFA D-16(9/30) + Merck Winrevair PDUFA D-7(9/21) — 두 PDUFA 정상 심사 궤도
 
-## 2026-09-13
-- FOMC D-3: 미·영 국채 수십 년래 최고(미 10년물 4.96%, 영국 30년물 5.89%) — '더 오래 높게' 구조 재진입 신호
-- WCLC 2026 MAVERICK 3상 — PCI 40년 SCLC 표준 종식, MRI 단독 OS 비열등+인지력 손상 없이 생존 HR 0.60
-- AbbVie WCLC 2026 — 편평 NSCLC 이중특이항체 ABBV-1480 ORR 90%, SCLC ADC ABBV-706 ORR 82% 동시 공개
-- AriBio AR1001 — 한국 주도 글로벌 알츠하이머 3상 탑라인 9~10월 공개, 경구 GLP-1RA 계열 PoC 기로
-- K-뷰티 APR·Silicon2 -20% 급락 vs 한국 GDP 3.0% 상향 — 수출 통계 오류+원화 강세 기술적 충격
 
 
 
