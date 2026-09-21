@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-21
+- Winrevair(sotatercept) HYPERION FDA 승인 — PAH 신규 진단 세 번째 라벨, TTCW 76% 위험 감소, HR 0.24
+- Bessent-He "매우 성공적" + 미중 AI 사고 통보 메커니즘 공식 제안
+- KOSPI 7,000 탈환 + 한국 반도체 수출 $341억(+259%) 역대 최고
+- Trump-Xi 정상회담 D-3 (9/24) — 무역휴전·AI·희토류 패키지
+- Broadcom Q3 AI 칩 $167억(+221%) — ASIC 맞춤칩 모델 구조적 성장 확인
+
 ## 2026-09-20
 - 미-중 Bessent·He·Greer 실무협의 — AI 가드레일 처음 외교 테이블 등재, 9/24 Trump-Xi D-4
 - Winrevair HYPERION PDUFA D-1 — 신규 진단 PAH 76% TTCW 감소, 9/21 라벨 확장 결정
@@ -57,12 +64,6 @@ publish: false
 - REZILIENT3 — zipalertinib EGFR exon 20 삽입변이 NSCLC 1차 PFS HR 0.50 (P=0.00015), 경구 TKI 3상 근거 확립
 - ARROS-1 — zidesamtinib ROS1+ NSCLC TKI-naive ORR 94%·두개 내 ORR 100%, ROS1 분자아형 표준 선점
 
-## 2026-09-14
-- J&J MARIPOSA 아시아 OS — amivantamab+lazertinib 사망위험 26% 감소(HR 0.74), EGFR 변이 NSCLC 이중표적 최초 OS 통계 유의 우위
-- DESTINY-Lung04 — T-DXd HER2 변이 NSCLC 1차 PFS 14.3 vs 8.3개월, ADC가 면역항암제+화학요법 압도한 첫 Phase 3
-- 유가 Brent $107 + FOMC D-2 인상 확률 80~87% — 사우디 파이프라인 드론 피격·호르무즈 협상 연기, 에너지-물가-긴축 삼각 루프
-- KOSPI -3.26%(6,684) + 원화 1,347원 — 외국인 3.3조 순매도, 시총 한달 212조 소멸
-- Scholar Rock apitegromab PDUFA D-16(9/30) + Merck Winrevair PDUFA D-7(9/21) — 두 PDUFA 정상 심사 궤도
 
 
 
