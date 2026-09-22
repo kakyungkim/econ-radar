@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-22
+- AMD × OpenAI 6GW GPU 딜 MI450 — NVIDIA 대항 공급망 다변화, ROCm 생태계 첫 대규모 실배포
+- 중국 희토류 수출 급감 + Trump-Xi D-2 — 협상 구도 역전, 9/24 정상회담 희토류 이행 조건 분기점
+- KOSPI 7,161 (+2.20%) + 삼성·SK하이닉스 800조원($5,200억) 반도체 투자 공약
+- UNGA AI 거버넌스 고위급 + DeepSeek UN 안보리 브리핑 — 미·중 불참 속 AI 규범 파편화 우려
+- BMS Mavacamten(Camzyos) 청소년 oHCM PDUFA D-8 (9/30) — SCOUT-HCM n=44 근거
+
 ## 2026-09-21
 - Winrevair(sotatercept) HYPERION FDA 승인 — PAH 신규 진단 세 번째 라벨, TTCW 76% 위험 감소, HR 0.24
 - Bessent-He "매우 성공적" + 미중 AI 사고 통보 메커니즘 공식 제안
@@ -56,15 +63,6 @@ publish: false
 - FOMC D-0 — 25bp 인상 확률 93%(→3.75~4.00%), 점도표·워시 기자회견 오늘 오후 2시(ET), BOJ 내일(9/17) 25bp 인상 확률 61%
 - Vera TRUTAKNA ORIGIN 3 최종 2년 — IgAN eGFR +5.6 보존(p<0.0001), 4Q ssBLA 제출 예고
 - Anthropic Claude 엔터프라이즈 — Smart Reports·Inference Hooks 베타 출시, 엔터프라이즈 AI 보안·거버넌스 레이어 강화
-
-## 2026-09-15
-- WCLC 2026 최종일 — B7H3 ADC 2종(ARTEMIS-008·TAISHAN-302) 재발 SCLC 3상 OS HR 0.46 동시 달성, 수십 년 토포테칸 표준 교체 근거
-- ADAURA 8년 OS — osimertinib 조기 NSCLC 보조요법 79% vs 위약 64%(HR 0.52), 역대 최장 추적 생존 이득 확인
-- FOMC D-1 + BOJ 대기 — 미 10년물 5.02%(2007년 이후 최고), KOSPI -0.85%(6,627), 원화 1,359원, 48시간 내 이중 금리 결정
-- REZILIENT3 — zipalertinib EGFR exon 20 삽입변이 NSCLC 1차 PFS HR 0.50 (P=0.00015), 경구 TKI 3상 근거 확립
-- ARROS-1 — zidesamtinib ROS1+ NSCLC TKI-naive ORR 94%·두개 내 ORR 100%, ROS1 분자아형 표준 선점
-
-
 
 
 
