@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-23
+- Claude Opus 5.5 + GPT-6 Sol·Luna 동시 출시 — AI 가격 전쟁 본격화, 토큰 비용 50~80% 인하
+- 미·이란 UNGA 3시간 회동 — Trump "11월 딜 가능", Brent $98.55 하락, 사우디 파이프라인 9/26 재가동
+- Trump-Xi 정상회담 D-1 (9/24) — 무역 휴전·희토류·AI 3대 의제
+- [후속] Merck Winrevair HYPERION 라벨 업데이트 — PAH 신환 조기 치료 근거 공식화 (9/22 승인)
+- UN 안보리 AI 세션 — DeepSeek·Altman·Amodei 미중 동석, 미 상원 AI 법안 마크업 9/23
+
 ## 2026-09-22
 - AMD × OpenAI 6GW GPU 딜 MI450 — NVIDIA 대항 공급망 다변화, ROCm 생태계 첫 대규모 실배포
 - 중국 희토류 수출 급감 + Trump-Xi D-2 — 협상 구도 역전, 9/24 정상회담 희토류 이행 조건 분기점
@@ -57,12 +64,6 @@ publish: false
 - 미 상원 AI 안전 법안 협상 가속 — Cruz·Klobuchar 9/23 마크업 목표, duty of care + 모델 차단권 초안
 - Winrevair PDUFA D-4 (9/21) PAH 초기 진단 라벨 확장 [후속] — 초기 진단 코호트 처방 진입 시점 앞당기기
 
-## 2026-09-16
-- ivonescimab HARMONi-2 OS — pembrolizumab 대비 OS HR=0.73(30.8 vs 22.6개월), PD-L1+ 1차 NSCLC 키트루다 직접 비교 첫 3상 OS 성공
-- Scholar Rock ISEMBYLD FDA 승인 — SMA 최초 근육 표적 치료제(apitegromab-mstn), PDUFA 2주 조기, 연간 약가 $310,000
-- FOMC D-0 — 25bp 인상 확률 93%(→3.75~4.00%), 점도표·워시 기자회견 오늘 오후 2시(ET), BOJ 내일(9/17) 25bp 인상 확률 61%
-- Vera TRUTAKNA ORIGIN 3 최종 2년 — IgAN eGFR +5.6 보존(p<0.0001), 4Q ssBLA 제출 예고
-- Anthropic Claude 엔터프라이즈 — Smart Reports·Inference Hooks 베타 출시, 엔터프라이즈 AI 보안·거버넌스 레이어 강화
 
 
 
