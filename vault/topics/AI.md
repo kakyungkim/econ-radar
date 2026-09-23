@@ -2,18 +2,22 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-22
+updated: 2026-09-23
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **AMD × OpenAI 6GW GPU 계약 — CUDA 락인 균열 첫 신호**: MI450 기반 1GW 첫 배포 2026년 하반기 예정. OpenAI가 ROCm 최적화 비용을 직접 부담하기로 결정한 것이 핵심 변화. 배포 실적이 실제 균열인지 확인되는 기준은 2027년.
-- **UNGA AI 거버넌스 — DeepSeek UN 안보리 등장, 미·EU 자국 프레임 고수**: 서방·중국 AI 기업 첫 안보리 동시 등장. 미·EU가 UN 기반 규제를 거부하면서 중국이 "다자주의 AI" 서사를 선점할 여지가 생겼다. 9/23 상원 AI 안전법안 마크업이 미국 국제 프레임 방향을 결정.
-- **AI CapEx 사이클 지속 — 반도체 수출 $341억(+259.4% YoY), KOSPI 7,161**: AMD-OpenAI 딜이 하이퍼스케일러 GPU 조달 다변화가 실수요로 전환되는 신호로 해석되면서 반도체 섹터 모멘텀 유지.
-- **Broadcom Q3 AI $167억(+221% YoY) — ASIC 사이클 병렬 성장 구조**: FY2027 AI $115B·FY2028 $230B 로드맵 유지. NVIDIA GPU와 ASIC 수요가 병렬로 커지는 구조 확인.
+- **Claude Opus 5.5 + GPT-6 Sol/Luna 동시 출시 — AI API 범용화 궤도 진입**: 1년 새 주요 모델 토큰 비용 80~90% 하락. Anthropic 출력 20% 인하·캐시 리드 60% 인하, OpenAI Luna $0.10/$0.50. 소프트웨어 레이어 범용화(commoditization)가 인프라 수혜 구조로 수렴하고 있다.
+- **AI 인프라 vs 소프트웨어 마진 분리 구조**: API 가격 하락 → 기업 AI 채택 가속 → GPU·HBM 수요 증가(NVIDIA·SK하이닉스). 반면 SaaS·API 재판매 사업 부문은 마진 압박. AMD × OpenAI 6GW 딜이 GPU 조달 다변화 실수요 신호로 해석.
+- **UN 안보리 AI 세션 — 미중 AI 기업 첫 동시 등장**: Anthropic·OpenAI·DeepSeek·중국 Moonshot AI가 같은 테이블에. 강제력 없이도 미중 AI 대화 채널 외교 라인 공식화 첫 장면. 9/23 상원 AI 법안 마크업 결과가 규제 지형 다음 기준점.
+- **Broadcom Q3 AI $167억(+221% YoY) — ASIC 사이클 병렬 성장 구조**: FY2027 AI $115B·FY2028 $230B 로드맵. NVIDIA GPU와 ASIC 수요가 병렬 성장하는 구조 확인.
 
 ## 타임라인
+### 2026-09-23 [[daily/2026-09-23]]
+- **[Claude Opus 5.5 + GPT-6 Sol/Luna 동시 출시 — AI 가격 전쟁 본격화](../daily/2026-09-23.md)** — 출력 토큰 20% 인하·캐시 리드 60% 인하(Anthropic), Luna $0.10/$0.50·Sol $2/$10(OpenAI). 1년 새 80~90% 비용 하락. 소프트웨어 레이어 범용화 궤도 진입. 수혜는 인프라(칩·데이터센터) 레이어로 이동하는 구조 → [[topics/유망기업]] [[topics/반도체]]
+- **[UN 안보리 AI 세션 — 미중 AI 기업 첫 동석](../daily/2026-09-23.md)** — Amodei·Altman·DeepSeek·중국 Moonshot AI 동시 참석. 강제력 없으나 미중 AI 대화 채널 외교 라인 공식화 첫 자리. 9/23 상원 Cruz-Klobuchar 마크업 결과 추적 → [[topics/거시정책]]
+
 ### 2026-09-22 [[daily/2026-09-22]]
 - **[AMD × OpenAI 6GW GPU 계약 — CUDA 락인 균열 첫 신호](../daily/2026-09-22.md)** — MI450 기반 1GW 첫 배포 2026년 하반기. OpenAI ROCm 최적화 비용 직접 부담 결정. 배포 실적이 실제 균열인지는 2027년 확인 → [[topics/반도체]] [[topics/유망기업]]
 - **[UNGA AI 거버넌스 — DeepSeek UN 안보리 등장](../daily/2026-09-22.md)** — 서방·중국 AI 기업 첫 안보리 동시 등장. 미·EU 자국 프레임 고수. 9/23 상원 AI 안전법안 마크업이 미국 국제 프레임 방향 결정 → [[topics/거시정책]]
