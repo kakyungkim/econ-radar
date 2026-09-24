@@ -2,18 +2,21 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-23
+updated: 2026-09-24
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Claude Opus 5.5 + GPT-6 Sol/Luna 동시 출시 — AI API 범용화 궤도 진입**: 1년 새 주요 모델 토큰 비용 80~90% 하락. Anthropic 출력 20% 인하·캐시 리드 60% 인하, OpenAI Luna $0.10/$0.50. 소프트웨어 레이어 범용화(commoditization)가 인프라 수혜 구조로 수렴하고 있다.
-- **AI 인프라 vs 소프트웨어 마진 분리 구조**: API 가격 하락 → 기업 AI 채택 가속 → GPU·HBM 수요 증가(NVIDIA·SK하이닉스). 반면 SaaS·API 재판매 사업 부문은 마진 압박. AMD × OpenAI 6GW 딜이 GPU 조달 다변화 실수요 신호로 해석.
-- **UN 안보리 AI 세션 — 미중 AI 기업 첫 동시 등장**: Anthropic·OpenAI·DeepSeek·중국 Moonshot AI가 같은 테이블에. 강제력 없이도 미중 AI 대화 채널 외교 라인 공식화 첫 장면. 9/23 상원 AI 법안 마크업 결과가 규제 지형 다음 기준점.
+- **AI 가격 전쟁 D+2 — Google Gemini 3.7 Flash 50% 인하·Grok 4.6 합류, 엔터프라이즈 재협상 압력 가시화**: 9월에만 DeepSeek V4 Pro·Grok 4.6·Gemini 3.7 Flash 포함 4개+ 신모델 등장. 토큰 비용 12개월 대비 80~90% 하락. CFO 재협상 명분 확보. Gemini Flash 2027년 가격 복귀 예고가 중장기 불확실성.
+- **API 마진 압박 vs 인프라 수요 확장 분리 구조**: 소프트웨어 레이어 범용화가 진행되는 동안 GPU·HBM 수요는 추론 트랜잭션 증가로 확장. NVIDIA Q2 FY27 데이터센터 $890억(+117% YoY)·AMD 데이터센터 GPU $67억(+107% YoY) 실물 확인.
+- **미중 AI 대화 채널 공식화 시도 — AI 핫라인 원칙 합의(9/24 Trump-Xi)**: UN 안보리 AI 세션(9/23) 미중 AI 기업 첫 동석. 9/24 정상회담에서 72시간 내 상호 통보 체계 원칙 합의. 세부 협상 추가 진행 예정.
 - **Broadcom Q3 AI $167억(+221% YoY) — ASIC 사이클 병렬 성장 구조**: FY2027 AI $115B·FY2028 $230B 로드맵. NVIDIA GPU와 ASIC 수요가 병렬 성장하는 구조 확인.
 
 ## 타임라인
+### 2026-09-24 [[daily/2026-09-24]]
+- **[AI 가격 전쟁 D+2 — Google Gemini 3.7 Flash 50% 인하, Grok 4.6 합류, 엔터프라이즈 재협상 본격화](../daily/2026-09-24.md)** — 9월에만 4개+ 신모델 등장. 토큰 비용 12개월 대비 80~90% 하락으로 CFO 재협상 명분 확보. Gemini Flash 2027년 가격 복귀 예고가 AI 예산 중장기 불확실성. API 마진 압박 vs 인프라(GPU·HBM) 수요 확장 분리 구조 심화. 3Q 실적 시즌에서 엔터프라이즈 재협상 결과 가시화 예상 → [[topics/반도체]] [[topics/유망기업]]
+
 ### 2026-09-23 [[daily/2026-09-23]]
 - **[Claude Opus 5.5 + GPT-6 Sol/Luna 동시 출시 — AI 가격 전쟁 본격화](../daily/2026-09-23.md)** — 출력 토큰 20% 인하·캐시 리드 60% 인하(Anthropic), Luna $0.10/$0.50·Sol $2/$10(OpenAI). 1년 새 80~90% 비용 하락. 소프트웨어 레이어 범용화 궤도 진입. 수혜는 인프라(칩·데이터센터) 레이어로 이동하는 구조 → [[topics/유망기업]] [[topics/반도체]]
 - **[UN 안보리 AI 세션 — 미중 AI 기업 첫 동석](../daily/2026-09-23.md)** — Amodei·Altman·DeepSeek·중국 Moonshot AI 동시 참석. 강제력 없으나 미중 AI 대화 채널 외교 라인 공식화 첫 자리. 9/23 상원 Cruz-Klobuchar 마크업 결과 추적 → [[topics/거시정책]]
