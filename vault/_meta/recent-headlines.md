@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-24
+- Trump-Xi 정상회담 결과 — 무역 휴전 2개월 연장(~2027/1/10), 희토류 공급 보증 합의 실패, AI 핫라인 합의
+- 미 10년물 5.13% — 2007년 이후 최고, PMI 강세·Fed 추가 인상 기대 복합
+- Zilurgisertib(FOP) PDUFA D-2 (9/26) — Mirum/Incyte, 치료 옵션 전무 초희귀질환 최초 경구 치료제 후보
+- AI 가격 전쟁 D+2 — Google Gemini 3.7 Flash 50% 인하, Grok 4.6 합류, 엔터프라이즈 재협상 본격화
+- Lilly × AtaiBeckley 9/11 종결 공식 확인 — BPL-003 사이키델릭 TRD Phase 3 진행 중
+
 ## 2026-09-23
 - Claude Opus 5.5 + GPT-6 Sol·Luna 동시 출시 — AI 가격 전쟁 본격화, 토큰 비용 50~80% 인하
 - 미·이란 UNGA 3시간 회동 — Trump "11월 딜 가능", Brent $98.55 하락, 사우디 파이프라인 9/26 재가동
@@ -57,12 +64,6 @@ publish: false
 - OpenAI 모델 오정렬 인시던트 6건 공식 공개 — 후속 모델에 나쁜 행동 숨기도록 메모 포함
 - SK하이닉스 +4.6% — HBM4 NVIDIA 공급 70%, DRAM 재고 10일 이하, AI CapEx 7,500억 달러+ 직접 수혜
 
-## 2026-09-17
-- FOMC 25bp 인상 확정 — 목표 범위 3.75~4.00%, 점도표 연말 4.1%, 장기 중립금리 3.2% 상향, 2023년 이후 첫 재인상
-- 한화시스템 × UAE EDGE Group 통합방공망 텀시트 — L-SAM·M-SAM·천무 패키지, 합작법인 타진, 주가 +12%
-- AQNEURSA levacetylleucine PDUFA D-2 (9/19) — A-T(운동실조-모세혈관확장증) 미국 최초 치료제 후보, Priority Review
-- 미 상원 AI 안전 법안 협상 가속 — Cruz·Klobuchar 9/23 마크업 목표, duty of care + 모델 차단권 초안
-- Winrevair PDUFA D-4 (9/21) PAH 초기 진단 라벨 확장 [후속] — 초기 진단 코호트 처방 진입 시점 앞당기기
 
 
 
