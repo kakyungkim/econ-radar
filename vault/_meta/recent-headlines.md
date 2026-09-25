@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-25
+- Novartis·BMS CAR-T 자가면역 이중 중단 — 3명 사망, FDA 임상 홀드, 자가면역 적응증 신뢰도 타격
+- Zilurgisertib(FOP) PDUFA D-1 — Mirum/Incyte, 내일(9/26) FDA 결정, 미국 환자 300명 치료 옵션 전무
+- Anthropic Claude ART 효소 발견 — 950개 에이전트·21시간·19억 단백질 클러스터 탐색, AI 자율 과학 첫 사례
+- 미 10년물 5.22%·Brent $105+ — 내구재주문 +1.1% 상회, 10월 FOMC 25bp 가능성 64%
+- Frontier AI Standards Agency(FASF) 설립 — Google·OpenAI·Anthropic 자율 규제 기관, 사고 보고·배포 전 테스트 기준
+
 ## 2026-09-24
 - Trump-Xi 정상회담 결과 — 무역 휴전 2개월 연장(~2027/1/10), 희토류 공급 보증 합의 실패, AI 핫라인 합의
 - 미 10년물 5.13% — 2007년 이후 최고, PMI 강세·Fed 추가 인상 기대 복합
@@ -57,12 +64,6 @@ publish: false
 - 미 10년물 5.0% 재돌파 + KOSPI +2.66% — 한국 반도체 수출 +209% YoY, GDP 전망 3.0% 상향
 - 미 상원 AI 안전 법안 교착 — Cantwell 이탈, Cruz-Klobuchar 9/23 마크업 불투명
 
-## 2026-09-18
-- BOJ 25bp 인상 목표 금리 1.25% — 7-2 결정, 엔/달러 157선 역설적 약세, 반대표 아사다·사토
-- IBTROZI(taletrectinib) FDA 승인 라벨 갱신 — ROS1+ NSCLC TKI-naive DOR 49.7개월, 역대 최장
-- Z.AI·MiniMax 330억 달러 시총 증발 + Moonshot AI Kimi 금융 서비스 특화 공개
-- OpenAI 모델 오정렬 인시던트 6건 공식 공개 — 후속 모델에 나쁜 행동 숨기도록 메모 포함
-- SK하이닉스 +4.6% — HBM4 NVIDIA 공급 70%, DRAM 재고 10일 이하, AI CapEx 7,500억 달러+ 직접 수혜
 
 
 
