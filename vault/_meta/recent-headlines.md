@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-26
+- Atebrioz(zilurgisertib) FDA 승인(9/25) — 세계 최초 경구 FOP 치료제, 12세 이상, 미국 환자 300명 치료 옵션 생겨
+- Section 232 의약품 관세 9/29 전면 발효 — 특허 의약품·API 100%, 한국 15% 우대, 희귀의약품 면제
+- Kyverna miv-cel 1년 내구 데이터 긍정 · BLA Q4 제출 — 자가면역 CAR-T 최초 승인 도전
+- 미·이란 호르무즈 협상 7일 단계 로드맵 — Brent $104.32(-2.1%), 협상 결렬 시 $110 재진입 가능
+- 한국 반도체 수출 9/1~20 $341억(+259%) 역대 최고 · SK하이닉스 HBM4 2026년 전량 완판
+
 ## 2026-09-25
 - Novartis·BMS CAR-T 자가면역 이중 중단 — 3명 사망, FDA 임상 홀드, 자가면역 적응증 신뢰도 타격
 - Zilurgisertib(FOP) PDUFA D-1 — Mirum/Incyte, 내일(9/26) FDA 결정, 미국 환자 300명 치료 옵션 전무
@@ -57,12 +64,6 @@ publish: false
 - FOMC 점도표 세부 — core PCE 3.4%, FFR 4.10%, 2029년까지 2% 목표 미달
 - Roche × Dualitas 이중특이항체 — DualScreen 선급금 $3,650만/최대 $10억, I&I
 
-## 2026-09-19
-- FAYUVI FDA 승인 — MPS IIIA 세계 최초 AAV9 유전자치료제, 395만달러 단회 투여, Ultragenyx(RARE)
-- AQNEURSA FDA 승인 — A-T(운동실조-모세혈관확장증) 최초 치료제, levacetylleucine sNDA, IntraBio
-- Winrevair HYPERION PDUFA D-2 — 신규 진단 PAH 76% TTCW 감소, 9/21 라벨 확장 결정
-- 미 10년물 5.0% 재돌파 + KOSPI +2.66% — 한국 반도체 수출 +209% YoY, GDP 전망 3.0% 상향
-- 미 상원 AI 안전 법안 교착 — Cantwell 이탈, Cruz-Klobuchar 9/23 마크업 불투명
 
 
 
