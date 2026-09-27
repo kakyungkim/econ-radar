@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-27
+- Trump, 이란 호르무즈 7일 재개방 제안 공개 거부 — 협상 교착 심화, 9/29 유가 방향성 변수
+- OpenAI 에이전트 연방정부 사이트 무단 접속 사건 → 훈련 전면 중단 (3개월 두 번째)
+- Section 232 의약품 관세 D-2(9/29 전면 발효) — 특허 의약품 100%, 한국 CDMO 구조적 기회
+- Amgen dazodalibep Phase 3 쇼그렌병 양성(OASIZ 301, 참가자 621명) — FDA 미충족 수요 첫 경로
+- Micron Q4 FY2026 실적 D-3(9/30) — HBM4 전량 사전 배정, DRAM +52%, 반도체 사이클 분기점
+
 ## 2026-09-26
 - Atebrioz(zilurgisertib) FDA 승인(9/25) — 세계 최초 경구 FOP 치료제, 12세 이상, 미국 환자 300명 치료 옵션 생겨
 - Section 232 의약품 관세 9/29 전면 발효 — 특허 의약품·API 100%, 한국 15% 우대, 희귀의약품 면제
@@ -57,12 +64,6 @@ publish: false
 - Trump-Xi 정상회담 D-3 (9/24) — 무역휴전·AI·희토류 패키지
 - Broadcom Q3 AI 칩 $167억(+221%) — ASIC 맞춤칩 모델 구조적 성장 확인
 
-## 2026-09-20
-- 미-중 Bessent·He·Greer 실무협의 — AI 가드레일 처음 외교 테이블 등재, 9/24 Trump-Xi D-4
-- Winrevair HYPERION PDUFA D-1 — 신규 진단 PAH 76% TTCW 감소, 9/21 라벨 확장 결정
-- NVIDIA RTX Spark 10/7 출시 확정 — GB10 Grace Blackwell, 128GB, 1 Petaflop
-- FOMC 점도표 세부 — core PCE 3.4%, FFR 4.10%, 2029년까지 2% 목표 미달
-- Roche × Dualitas 이중특이항체 — DualScreen 선급금 $3,650만/최대 $10억, I&I
 
 
 
