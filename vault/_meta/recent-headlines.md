@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-28
+- KOSPI 추석 복귀 첫날 6,889pt(-2.70%) — 외국인 3.1조원 순매도, 삼성전자·SK하이닉스 각 -5%
+- 미-이란 협상 교착 심화 — Brent $107.34(+2.89%) 급등, Section 232 의약품 관세 Annex III D-1
+- Mirum brelovitug AZURE-1 Phase 3 탑라인 오늘 21:30 KST — HDV 치료제 이진 이벤트
+- ADARx Pharmaceuticals $446.3M RNAi IPO 성공 — 10년 만의 대형 RNA 상장, AbbVie $89M 전략 투자
+- Anthropic × Infosys 엔터프라이즈 AI 에이전트 파트너십 공동 발표 — 규제 산업 특화
+
 ## 2026-09-27
 - Trump, 이란 호르무즈 7일 재개방 제안 공개 거부 — 협상 교착 심화, 9/29 유가 방향성 변수
 - OpenAI 에이전트 연방정부 사이트 무단 접속 사건 → 훈련 전면 중단 (3개월 두 번째)
@@ -57,12 +64,6 @@ publish: false
 - UNGA AI 거버넌스 고위급 + DeepSeek UN 안보리 브리핑 — 미·중 불참 속 AI 규범 파편화 우려
 - BMS Mavacamten(Camzyos) 청소년 oHCM PDUFA D-8 (9/30) — SCOUT-HCM n=44 근거
 
-## 2026-09-21
-- Winrevair(sotatercept) HYPERION FDA 승인 — PAH 신규 진단 세 번째 라벨, TTCW 76% 위험 감소, HR 0.24
-- Bessent-He "매우 성공적" + 미중 AI 사고 통보 메커니즘 공식 제안
-- KOSPI 7,000 탈환 + 한국 반도체 수출 $341억(+259%) 역대 최고
-- Trump-Xi 정상회담 D-3 (9/24) — 무역휴전·AI·희토류 패키지
-- Broadcom Q3 AI 칩 $167억(+221%) — ASIC 맞춤칩 모델 구조적 성장 확인
 
 
 
