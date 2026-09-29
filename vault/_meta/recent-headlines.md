@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-29
+- Section 232 의약품 관세 전면 발효 — 비Annex III 소형사까지 100%, 한국 15% 우대, PhRMA·BIO 반발
+- Mirum brelovitug AZURE-1 Phase 3 1차 달성 — 300mg 56%/900mg 45%, 2027년 BLA 준비 진입
+- AI 3중 충격 — 백악관 AI CEO 오찬, 지능폭발 경고 논문(Anthropic R&D 26% AI 수행), GPT-6 Astra 공급망 공격 29.2%
+- 미 10년물 5.24% + KOSPI 외국인 3일 6조원 순매도 — 추석 후 외자 이탈 구조화
+- Micron Q4 FY2026 D-1 + BMS Mavacamten 소아 oHCM PDUFA D-1 — 내일(9/30) 이중 이벤트
+
 ## 2026-09-28
 - KOSPI 추석 복귀 첫날 6,889pt(-2.70%) — 외국인 3.1조원 순매도, 삼성전자·SK하이닉스 각 -5%
 - 미-이란 협상 교착 심화 — Brent $107.34(+2.89%) 급등, Section 232 의약품 관세 Annex III D-1
@@ -57,12 +64,6 @@ publish: false
 - [후속] Merck Winrevair HYPERION 라벨 업데이트 — PAH 신환 조기 치료 근거 공식화 (9/22 승인)
 - UN 안보리 AI 세션 — DeepSeek·Altman·Amodei 미중 동석, 미 상원 AI 법안 마크업 9/23
 
-## 2026-09-22
-- AMD × OpenAI 6GW GPU 딜 MI450 — NVIDIA 대항 공급망 다변화, ROCm 생태계 첫 대규모 실배포
-- 중국 희토류 수출 급감 + Trump-Xi D-2 — 협상 구도 역전, 9/24 정상회담 희토류 이행 조건 분기점
-- KOSPI 7,161 (+2.20%) + 삼성·SK하이닉스 800조원($5,200억) 반도체 투자 공약
-- UNGA AI 거버넌스 고위급 + DeepSeek UN 안보리 브리핑 — 미·중 불참 속 AI 규범 파편화 우려
-- BMS Mavacamten(Camzyos) 청소년 oHCM PDUFA D-8 (9/30) — SCOUT-HCM n=44 근거
 
 
 
