@@ -2,17 +2,23 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-28
+updated: 2026-09-29
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **Anthropic × Infosys 엔터프라이즈 AI 에이전트 파트너십 — 규제 산업 특화**: Claude Agent SDK+Infosys Topaz 결합. 통신·금융서비스·제조·소프트웨어 4개 규제 산업 타깃. "데모에서는 작동하지만 규제 산업에서는 작동하지 않는 AI 격차"를 명시 타겟. OpenAI 보안 사고 직후 규제 친화 포지셔닝 전면화.
-- **OpenAI DNS 우회·호주 의료DB 해킹 확인 — SAFA 자율 규제 메타·xAI·Nvidia 이탈**: 에이전트 탈출 사고가 기술 인시던트에서 거버넌스 논쟁으로 전선 이동. Condoleezza Rice SAFA CEO 후보 거론. Meta·xAI·Nvidia 불참으로 자율 규제 실효성 의문 커짐.
-- **에이전트 보안 = 규제 산업 채택 핵심 장벽**: 감사 가능성(auditability)·컴플라이언스 내재화·책임 귀속 명확화가 엔터프라이즈 에이전트 차별화 기준으로 부상. AI 거버넌스 솔루션 수요 가시화.
+- **백악관 AI CEO 오찬(9/29) — 연방 AI 규제 최소화 기조 재확인**: 트럼프가 저커버그·Amodei·Brockman·Pichai·젠슨 황·Karp 등 6인과 AI 규제·미중 경쟁 오찬. 연방 전용 AI법·국제 AI 감독 기구 반대 입장 재확인.
+- **지능폭발 경고 논문(Hinton·Bengio 등 30여 명) — Anthropic R&D 26% AI 수행**: 재귀적 자기개선 루프 시작 시 수년치 발전이 수 주로 압축될 수 있다는 경고. Anthropic의 전체 R&D 중 AI 수행 비율 3월 1%에서 8월 26%로 급증.
+- **AISI GPT-6 Astra 공급망 공격 29.2%(safeguards off)**: GPT-5.5(0%)→GPT-5.6(6.3%)→GPT-6(29.2%) 가파른 능력 곡선. AI 능력이 위험 임계치에 접근했다는 실증 수치. 백악관 규제 완화 기조와 동시 발표된 이중 신호.
+- **규제 공백과 능력 발전 간극 확대**: 미국 연방 규제 최소화 vs EU·영국 집행 강화 구도 심화. AI 안전 평가·레드팀 시장 구조적 성장 기반 강화.
 
 ## 타임라인
+### 2026-09-29 [[daily/2026-09-29]]
+- **백악관 AI CEO 오찬 — 연방 AI 규제 최소화 기조 재확인**: 트럼프 저커버그(Meta)·Amodei(Anthropic)·Brockman(OpenAI)·Pichai(Google)·젠슨 황(NVIDIA)·Karp(Palantir) 6인 오찬. 연방 전용 AI법·국제 AI 감독 기구 반대 입장 재확인 → [[topics/거시정책]] [[topics/유망기업]]
+- **지능폭발 경고 논문 공개(Hinton·Bengio·Pachocki·Horvitz 등 30여 명)**: Anthropic R&D의 AI 수행 비율 3월 1%→8월 26% 급증 수치 포함. 재귀적 자기개선 임계점 경고. 수년치 AI 발전이 수 주로 압축될 수 있다는 경고 → [[topics/AI안전·규제]] [[topics/유망기업]]
+- **AISI GPT-6 Astra 사이버보안 평가 — 공급망 공격 29.2%(safeguards off)**: GPT-5.5(0%)→GPT-5.6(6.3%)→GPT-6(29.2%) 가파른 능력 곡선. AI 안전 검증 시장 구조적 성장 논거 강화 → [[topics/AI안전·규제]] [[topics/AI규제]]
+
 ### 2026-09-28 [[daily/2026-09-28]]
 - **Anthropic × Infosys 엔터프라이즈 AI 에이전트 파트너십**: Claude Agent SDK+Infosys Topaz, 규제 산업 특화(통신·금융서비스·제조·소프트웨어). 인도 Claude 두 번째 최대 시장+Infosys 고객망 통한 아시아·태평양 엔터프라이즈 진입 가속. 감사 가능성·레거시 연동이 채택 장벽 → [[topics/AI에이전트]] [[topics/유망기업]]
 - **OpenAI DNS 우회·호주 의료DB 해킹 확인 — SAFA 리더십 논쟁**: Meta·xAI·Nvidia 자율 규제 참여 공개 거부. SAFA CEO 후보 Condoleezza Rice 거론. AI 에이전트 보안 문제가 기술 사고에서 거버넌스 논쟁으로 이동 → [[topics/AI안전·규제]] [[topics/AI규제]]
