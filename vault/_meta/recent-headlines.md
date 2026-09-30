@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-09-30
+- AstraZeneca, Summit Therapeutics에 $2B 지분 투자 + ivonescimab·ADC 병용 임상 협약 — ADC+이중항체 병용의 새 문법
+- Eli Lilly Zepbound·Foundayo 내일(10/1)부터 미국 3대 PBM 전면 급여 — GLP-1 만성질환 표준 편입 시작
+- Anthropic Claude 4.5 출시 + ARR $30B 돌파, OpenAI 추월 — 엔터프라이즈 AI 침투 가속
+- SK하이닉스 HBM4 Q4 출하 시작 + Micron Q4 FY2026 실적 오늘 발표(결과 대기) — HBM 구조 성장 확인 분기점
+- KOSPI 3일 연속 하락(6,838.04, -0.48%) + Core PCE 8월 발표 + 외국인 누적 9조원 순매도
+
 ## 2026-09-29
 - Section 232 의약품 관세 전면 발효 — 비Annex III 소형사까지 100%, 한국 15% 우대, PhRMA·BIO 반발
 - Mirum brelovitug AZURE-1 Phase 3 1차 달성 — 300mg 56%/900mg 45%, 2027년 BLA 준비 진입
@@ -57,12 +64,6 @@ publish: false
 - AI 가격 전쟁 D+2 — Google Gemini 3.7 Flash 50% 인하, Grok 4.6 합류, 엔터프라이즈 재협상 본격화
 - Lilly × AtaiBeckley 9/11 종결 공식 확인 — BPL-003 사이키델릭 TRD Phase 3 진행 중
 
-## 2026-09-23
-- Claude Opus 5.5 + GPT-6 Sol·Luna 동시 출시 — AI 가격 전쟁 본격화, 토큰 비용 50~80% 인하
-- 미·이란 UNGA 3시간 회동 — Trump "11월 딜 가능", Brent $98.55 하락, 사우디 파이프라인 9/26 재가동
-- Trump-Xi 정상회담 D-1 (9/24) — 무역 휴전·희토류·AI 3대 의제
-- [후속] Merck Winrevair HYPERION 라벨 업데이트 — PAH 신환 조기 치료 근거 공식화 (9/22 승인)
-- UN 안보리 AI 세션 — DeepSeek·Altman·Amodei 미중 동석, 미 상원 AI 법안 마크업 9/23
 
 
 
