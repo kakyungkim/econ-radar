@@ -2,18 +2,23 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-09-29
+updated: 2026-09-30
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **백악관 AI CEO 오찬(9/29) — 연방 AI 규제 최소화 기조 재확인**: 트럼프가 저커버그·Amodei·Brockman·Pichai·젠슨 황·Karp 등 6인과 AI 규제·미중 경쟁 오찬. 연방 전용 AI법·국제 AI 감독 기구 반대 입장 재확인.
-- **지능폭발 경고 논문(Hinton·Bengio 등 30여 명) — Anthropic R&D 26% AI 수행**: 재귀적 자기개선 루프 시작 시 수년치 발전이 수 주로 압축될 수 있다는 경고. Anthropic의 전체 R&D 중 AI 수행 비율 3월 1%에서 8월 26%로 급증.
-- **AISI GPT-6 Astra 공급망 공격 29.2%(safeguards off)**: GPT-5.5(0%)→GPT-5.6(6.3%)→GPT-6(29.2%) 가파른 능력 곡선. AI 능력이 위험 임계치에 접근했다는 실증 수치. 백악관 규제 완화 기조와 동시 발표된 이중 신호.
+- **Anthropic Claude 4.5 공개 — 경량 추론 특화 모델 ARR $30B 이정표와 동시 발표**: API $0.60/$2.50/M(Sonnet 대비 1/6 비용). 엣지·임베디드 에이전트 파이프라인 시장 공략. ARR $30B 안정화 이후 cost-per-token 인하 전략의 일환.
+- **BIS HBM 수출통제 검토 — AI 칩 규제 범위 GPU→메모리로 확장 논의 시작**: 미국 BIS, HBM4·HBM4E 대중국 수출통제 강화 검토 내부 보고서 부상. SK하이닉스·삼성 중국 고객사 공급망 영향 선제 점검 필요.
+- **백악관 AI CEO 오찬(9/29) — 연방 AI 규제 최소화 기조 재확인**: 트럼프가 저커버그·Amodei·Brockman·Pichai·젠슨 황·Karp 6인 오찬. 연방 전용 AI법·국제 AI 감독 기구 반대 입장 재확인.
 - **규제 공백과 능력 발전 간극 확대**: 미국 연방 규제 최소화 vs EU·영국 집행 강화 구도 심화. AI 안전 평가·레드팀 시장 구조적 성장 기반 강화.
 
 ## 타임라인
+### 2026-09-30 [[daily/2026-09-30]]
+- **Anthropic Claude 4.5 공개 — 경량·저비용 추론 특화 모델**: API 입력 $0.60/M·출력 $2.50/M(Sonnet 4.5 대비 약 1/6 비용). 소형 추론 에이전트·임베디드 파이프라인 타깃. 가격 경쟁보다 규제 섹터 거버넌스 차별화 전략 유지. ARR $30B 안정화 구간 진입과 동시 발표 → [[topics/AI에이전트]] [[topics/유망기업]]
+- **Anthropic ARR $30B 이정표 — 엔터프라이즈 계약 기반 안정화**: 2026년 7월 $47B 런레이트 이후 계절성 조정. Fortune 100 기업 계약 갱신 사이클 안착 확인. Claude Code·엔터프라이즈 에이전트 채널이 API 수익 다각화 → [[topics/유망기업]] [[topics/투자테마]]
+- **BIS HBM 수출통제 검토 — AI 칩 규제 범위 GPU→메모리 확장 논의**: 미국 상무부 산업안전국(BIS) HBM4·HBM4E 대중국 수출통제 강화 검토 내부 검토 부상(Bloomberg 보도). GPU 규제에서 최첨단 AI 메모리로 통제 범위 확장 논의 시작. SK하이닉스·삼성전자 중국 고객사(Huawei·바이두 등) 공급망 영향 → [[topics/반도체메모리]] [[topics/거시정책]] [[topics/미중관계]]
+
 ### 2026-09-29 [[daily/2026-09-29]]
 - **백악관 AI CEO 오찬 — 연방 AI 규제 최소화 기조 재확인**: 트럼프 저커버그(Meta)·Amodei(Anthropic)·Brockman(OpenAI)·Pichai(Google)·젠슨 황(NVIDIA)·Karp(Palantir) 6인 오찬. 연방 전용 AI법·국제 AI 감독 기구 반대 입장 재확인 → [[topics/거시정책]] [[topics/유망기업]]
 - **지능폭발 경고 논문 공개(Hinton·Bengio·Pachocki·Horvitz 등 30여 명)**: Anthropic R&D의 AI 수행 비율 3월 1%→8월 26% 급증 수치 포함. 재귀적 자기개선 임계점 경고. 수년치 AI 발전이 수 주로 압축될 수 있다는 경고 → [[topics/AI안전·규제]] [[topics/유망기업]]
