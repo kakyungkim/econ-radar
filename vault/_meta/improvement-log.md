@@ -278,3 +278,9 @@ publish: false
   - 채팅 봇의 역할 구분: 봇=보내는 쪽(토큰으로 지정), chat id=받는 주소(사람 계정). 봇은 사용자가 먼저 /start 해야 DM 가능.
   - 터미널 명령을 사용자가 메신저에서 복붙하면 따옴표 변형·변수명 오타가 섞이기 쉽다. 설정 등록은 세션(에이전트)이 직접 수행하고 사용자는 값만 전달하는 편이 안전.
 - 최종 상태: `TELEGRAM_ALERT_CHAT_ID`=사용자 개인 ID로 등록, 가짜 날짜 실패 주입으로 Issue 생성 + DM 도착까지 확인. 테스트 이슈 6건은 모두 닫음.
+
+## 2026-10-02 블로그 deploy.sh 차단 기록
+- **상황**: 일일 루틴 자동화(18:42 KST) 중 `deploy.sh 2026-10-02` 실행이 CCR 자동 분류기(Stage 2 classifier)에서 차단됨.
+- **원인**: 자동 모드에서 외부 스크립트 실행이 "transient classifier error"로 분류됨. 이전 세션에서는 동일 명령이 통과됐음.
+- **조치**: econ-radar 커밋·푸시(49d153d)는 완료. 블로그 발행만 미완.
+- **미결**: 사용자가 수동으로 `cd /home/user/econ-radar && BLOG="/home/user/kakyungkim.github.io" CONFIRM=0 ./deploy.sh 2026-10-02 "Micron 어닝스 빅 비트·BMS Camzyos 소아 승인·GSK bepirovirsen PDUFA 10/26"` 를 실행하거나, 다음 루틴 실행 시 재시도 필요.

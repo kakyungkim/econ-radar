@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-09-11
+updated: 2026-10-02
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -11,12 +11,15 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Microsoft 38GW 데이터센터 계획(Bloomberg 소식통)** — 현재 12GW→2032년 38GW, 3분의 1이 AI 전용 칩 인프라. 2026 CY CapEx 1,750억달러 예상(Bloomberg, 회계처리 변경 반영). 전력 조달이 반도체보다 먼저 공급 병목. Amy Hood CFO: "2026년 내내 용량 제약 지속". [[topics/AI반도체]] 참조.
-- **Google TPU 8t/8i 공개(Hot Chips 2026, 8/24)** — 훈련용 TPU 8t(Sunfish·Broadcom 설계, 칩당 FP4 12.6PFLOPS·HBM 216GB·6.5 TB/s)·추론용 TPU 8i(Zebrafish·MediaTek 설계, HBM 288GB). TSMC 2나노. NVIDIA 단일 GPU 체제에 첫 현실적 대안.
-- **Anthropic Theseus Infrastructure JV** — Macquarie·GIC 참여, AI 전용 데이터센터 직접 건설. 클라우드 임대 탈피·추론 원가 고정 전략.
-- **Microsoft Azure FY2026 $100B 돌파(+43%), FY2027 capex $255~260B(+35%)** — AI 클라우드 수익화 대규모 첫 확인.
+- **Micron Q4 FY2026 데이터센터 $11.5B·전년 동기 7.5배** — AI HBM 슈퍼사이클 수치 재확인. Non-GAAP EPS $32.87, 장외 +14~17% 급등. SK하이닉스 Q3 실적(10/27)이 다음 확인 지점.
+- **Google Gemini 2.5 Deep Think 멀티에이전트 아키텍처 공개** — 단일 쿼리에 여러 AI 에이전트 병렬 배치. Anthropic·OpenAI와 에이전트 경쟁 본격화. EU AI Act GPAI 투명성 의무 8/2 발효.
+- **Microsoft 38GW 데이터센터 계획(Bloomberg 소식통)** — 현재 12GW→2032년 38GW. 2026 CY CapEx 1,750억달러. 전력 조달이 반도체보다 먼저 공급 병목.
+- **미 10년물 5.20% 2007년 이후 최고(9/24)** — 고금리 환경이 AI 인프라 고밸류에이션 테크주에 할인 압력. 10월 FOMC 25bp 인상 경로가 오늘 고용보고서에 달려 있다.
 
 ## 타임라인
+### 2026-10-02 [[daily/2026-10-02]]
+- Micron Q4 FY2026 데이터센터 매출 $11.5B·전년 동기 7.5배 급증 확인 — AI HBM 슈퍼사이클 구조 재확인, Q1 FY2027 컨센서스 $56.27B. Google Gemini 2.5 Deep Think 멀티에이전트 공개로 에이전트 경쟁 가속 → [[topics/반도체HBM]] [[topics/AI]]
+
 ### 2026-09-11 [[daily/2026-09-11]]
 - Microsoft 38GW 데이터센터 계획(Bloomberg 소식통, 공식 미확인) — 현재 12GW→2032년 38GW. 2026 CY CapEx 1,750억달러. 전력·냉각·데이터센터 REIT·HBM 밸류체인 구조적 수요. 전력 조달 지연·인허가 차질 시 일정 리스크 → [[topics/AI반도체]] [[topics/반도체HBM]]
 
@@ -47,17 +50,12 @@ publish: true
 - [[daily/2026-07-04]] Google AI 전력 +37% YoY, 2019년 대비 +250% — AI 인프라 확장이 전력망 탈탄소화 속도 공식 추월. DR 1GW 통합·AI 워크로드 피크 이동 자동화 소프트웨어 가동. 역대 최대 연간 증가폭. 데이터센터 전력·냉각 인프라 구조적 수혜 논거 강화
 - [[daily/2026-07-04]] Anthropic-Samsung 2nm AI 추론 칩 협상 — AI 하드웨어 자립화 경쟁(OpenAI Jalapeño → Anthropic-Samsung 2nm) 본격화. 추론 원가 절감이 AI 서비스 가격 경쟁력 핵심 전장으로 부상
 
-### 2026-06-22 [2026-06-22](/daily/2026-06-22.md)
-- **GPT-5.6 출시 창문 개막, Polymarket 확률 ~40%로 재조정**: 미출시 58% 선두. 1.5M 토큰 컨텍스트 + 정렬 재설계. 공식 발표 없음 — 출처: [TechTimes](https://www.techtimes.com/articles/318799/20260621/gpt-56-launch-window-starts-monday-alignment-fix-15m-token-context-inside.htm) | [Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released) — [2026-06-22](/daily/2026-06-22.md)
-- **Claude Fable 5 6/23 크레딧 과금 전환**: 1M 토큰 컨텍스트, 입력 $10/출력 $50(백만 토큰). GPT-5.6·Gemini 3.5 Pro 미출시 상태에서 최상위 공개 모델 상업화 전환 — 출처: [Anthropic 공식](https://www.anthropic.com/news/claude-fable-5-mythos-5) — [2026-06-22](/daily/2026-06-22.md)
-- **Gemini 3.5 Pro 6/30 자기부과 기한 대기**: 구글 I/O "6월 중 공개" 약속 대비 Vertex AI 기업 Preview 지속 — 출처: [GrowwingAssistant](https://growwingassistant.com/ai-news/gemini-3-5-pro-release-date-june-2026-every-confirmed-spec-pricing-when-it-drops/) — [2026-06-22](/daily/2026-06-22.md)
+## 아카이브
+### 2026-06-22 [[daily/2026-06-22]]
+- GPT-5.6 출시 창문 개막(Polymarket ~40%), Claude Fable 5 크레딧 과금 전환, Gemini 3.5 Pro 6/30 기한 대기 — AI 모델 경쟁 초기 구도
 
-### 2026-06-21 [2026-06-21](/daily/2026-06-21.md)
-- [2026-06-21](/daily/2026-06-21.md) — Nvidia Vera CPU 양산: AI 에이전트 전용 프로세서, 수직통합 가속
-  - 88코어 Olympus, x86 대비 에이전트 태스크 1.8배. OpenAI·Anthropic·SpaceX·Dell 초기 고객
-  - SK하이닉스 HBM4E 12단 샘플 조기 출하: 1분기 가이던스 앞당김, 엔비디아 Rubin Ultra 공급 경쟁 선두
-  - GPT-5.6 6/22 출시 확률 83%(Polymarket). Gemini 3.5 Pro는 6/30 최후 기한 Preview 상태 지속
-  - 한국 5월 반도체 수출 169.4% 급증(371.6억달러): AI 인프라 HBM 수요가 코스피 9,000대 지지
+### 2026-06-21 [[daily/2026-06-21]]
+- Nvidia Vera CPU 양산(에이전트 태스크 1.8배), SK하이닉스 HBM4E 12단 조기 출하, 한국 5월 반도체 수출 +169.4% — AI 인프라 HBM 수요 구조 형성 초기
 
 ## 연결 주제
 - [AI](/topics/AI.md) [반도체HBM](/topics/반도체HBM.md) [반도체](/topics/반도체.md) [한국거시](/topics/한국거시.md) [투자테마](/topics/투자테마.md) [유망기업](/topics/유망기업.md)
