@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-02
+- Micron Q4 FY2026 데이터센터 $11.5B·전년 동기 7.5배 어닝스 빅 비트 — AI 메모리 사이클 FY2027 연장 확인
+- 9월 고용보고서 오늘(10/2) 발표 — ADP 선행 +90K, BLS 컨센 +93~98K, Fed 10월 인상 경로 분수령
+- Lilly Zepbound·Foundayo 미국 3대 PBM 전면 급여 10/1 발효 — GLP-1 보험 장벽 해소, 수요 병목 이동
+- BMS Camzyos 소아 oHCM FDA 승인(9/30) — 심근 미오신 억제제(CMI) 최초 소아 적응증 획득
+- GSK·Ionis bepirovirsen PDUFA 10/26 — 전 세계 2억4,000만 만성 B형 간염 환자 대상 기능적 완치 후보
+
 ## 2026-09-30
 - AstraZeneca, Summit Therapeutics에 $2B 지분 투자 + ivonescimab·ADC 병용 임상 협약 — ADC+이중항체 병용의 새 문법
 - Eli Lilly Zepbound·Foundayo 내일(10/1)부터 미국 3대 PBM 전면 급여 — GLP-1 만성질환 표준 편입 시작
@@ -57,12 +64,6 @@ publish: false
 - 미 10년물 5.22%·Brent $105+ — 내구재주문 +1.1% 상회, 10월 FOMC 25bp 가능성 64%
 - Frontier AI Standards Agency(FASF) 설립 — Google·OpenAI·Anthropic 자율 규제 기관, 사고 보고·배포 전 테스트 기준
 
-## 2026-09-24
-- Trump-Xi 정상회담 결과 — 무역 휴전 2개월 연장(~2027/1/10), 희토류 공급 보증 합의 실패, AI 핫라인 합의
-- 미 10년물 5.13% — 2007년 이후 최고, PMI 강세·Fed 추가 인상 기대 복합
-- Zilurgisertib(FOP) PDUFA D-2 (9/26) — Mirum/Incyte, 치료 옵션 전무 초희귀질환 최초 경구 치료제 후보
-- AI 가격 전쟁 D+2 — Google Gemini 3.7 Flash 50% 인하, Grok 4.6 합류, 엔터프라이즈 재협상 본격화
-- Lilly × AtaiBeckley 9/11 종결 공식 확인 — BPL-003 사이키델릭 TRD Phase 3 진행 중
 
 
 
