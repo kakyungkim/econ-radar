@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-10-02
+updated: 2026-10-03
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)

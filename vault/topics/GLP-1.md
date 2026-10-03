@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, GLP-1, 투자테마]
-updated: 2026-10-02
+updated: 2026-10-03
 ---
 # 🗂 GLP-1 — 주제 지도(MOC)
 
