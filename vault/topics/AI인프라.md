@@ -11,12 +11,15 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Micron Q4 FY2026 데이터센터 $11.5B·전년 동기 7.5배** — AI HBM 슈퍼사이클 수치 재확인. Non-GAAP EPS $32.87, 장외 +14~17% 급등. SK하이닉스 Q3 실적(10/27)이 다음 확인 지점.
-- **Google Gemini 2.5 Deep Think 멀티에이전트 아키텍처 공개** — 단일 쿼리에 여러 AI 에이전트 병렬 배치. Anthropic·OpenAI와 에이전트 경쟁 본격화. EU AI Act GPAI 투명성 의무 8/2 발효.
-- **Microsoft 38GW 데이터센터 계획(Bloomberg 소식통)** — 현재 12GW→2032년 38GW. 2026 CY CapEx 1,750억달러. 전력 조달이 반도체보다 먼저 공급 병목.
-- **미 10년물 5.20% 2007년 이후 최고(9/24)** — 고금리 환경이 AI 인프라 고밸류에이션 테크주에 할인 압력. 10월 FOMC 25bp 인상 경로가 오늘 고용보고서에 달려 있다.
+- **Anthropic 비공개 IPO 신청 — $965B 밸류에이션, Goldman·JPM·MS 주관**: 연매출 런레이트 $47B(약 72조원). 순수 AI 소프트웨어 기업 최초 대형 공모. 세계 10대 기업 진입 거론. AI 인프라 기업이 기간산업 지위 획득 사건으로 해석.
+- **Andrej Karpathy Anthropic 합류 — 사전훈련(pre-training) 연구**: 전 OpenAI 공동창업자, 전 Tesla AI 디렉터. Anthropic 모델 경쟁력 강화 신호.
+- **Micron Q4 FY2026 데이터센터 $11.5B·전년 동기 7.5배** — AI HBM 슈퍼사이클 수치 재확인. SK하이닉스 Q3 실적(10/27)이 다음 확인 지점.
 
 ## 타임라인
+### 2026-10-03 [[daily/2026-10-03]]
+- [[daily/2026-10-03]] — Anthropic 비공개 IPO 신청($965B 밸류에이션, 연매출 런레이트 $47B), Andrej Karpathy 사전훈련 연구 합류
+- 핵심 이슈: Anthropic IPO(Goldman·JPM·MS 주관, 10월 상장 목표), Karpathy 합류(사전훈련 R&D), 순수 AI 소프트웨어 기업 최초 대형 공모 → [[topics/AI]] [[topics/유망기업]]
+
 ### 2026-10-02 [[daily/2026-10-02]]
 - Micron Q4 FY2026 데이터센터 매출 $11.5B·전년 동기 7.5배 급증 확인 — AI HBM 슈퍼사이클 구조 재확인, Q1 FY2027 컨센서스 $56.27B. Google Gemini 2.5 Deep Think 멀티에이전트 공개로 에이전트 경쟁 가속 → [[topics/반도체HBM]] [[topics/AI]]
 
