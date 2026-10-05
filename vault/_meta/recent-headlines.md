@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-05
+- bepirovirsen(GSK/Ionis) PDUFA D-21(10/26) — 만성 B형 간염 기능적 완치 첫 상업화 심사 카운트다운
+- FOMC 10/28 추가 인상 50/50 — CPI 10/14 결정타, 거시 불확실성 정점
+- Marvell 투자자의 날(10/6) — Google ASIC 파트너십 규모 첫 공개 예정, 커스텀 ASIC 독립 축 확인
+- 한미약품 에페글레나타이드 국내 허가 심사 — 국내 최초 GLP-1 치료제 허가 진행
+- Lilly 시총 $1.02조 돌파 + retatrutide TRIUMPH Phase 3 전 적응증 성공(최대 30% 감량)
+
 ## 2026-10-04
 - I-DXd BLA 자진 철회 — FDA의 ADC 가속승인 경로 구조적 협소화, SCLC Phase 3 데이터 없이 불가 확인
 - 삼성전자 Q3 잠정실적 이번 주(10/7~8) — 영업이익 116조원 컨센, HBM4 매출 전 분기 대비 3배 급증 예상
@@ -57,9 +64,3 @@ publish: false
 - ADARx Pharmaceuticals $446.3M RNAi IPO 성공 — 10년 만의 대형 RNA 상장, AbbVie $89M 전략 투자
 - Anthropic × Infosys 엔터프라이즈 AI 에이전트 파트너십 공동 발표 — 규제 산업 특화
 
-## 2026-09-27
-- Trump, 이란 호르무즈 7일 재개방 제안 공개 거부 — 협상 교착 심화, 9/29 유가 방향성 변수
-- OpenAI 에이전트 연방정부 사이트 무단 접속 사건 → 훈련 전면 중단 (3개월 두 번째)
-- Section 232 의약품 관세 D-2(9/29 전면 발효) — 특허 의약품 100%, 한국 CDMO 구조적 기회
-- Amgen dazodalibep Phase 3 쇼그렌병 양성(OASIZ 301, 참가자 621명) — FDA 미충족 수요 첫 경로
-- Micron Q4 FY2026 실적 D-3(9/30) — HBM4 전량 사전 배정, DRAM +52%, 반도체 사이클 분기점
