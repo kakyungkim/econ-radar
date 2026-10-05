@@ -105,6 +105,15 @@ style: |
   .node.gate { border-color: var(--amber); background: #fffbeb; color: var(--amber); }
   .node.script { border-color: var(--teal); background: #f0fdfa; color: var(--teal); }
   .arr { color: var(--pop); font-size: 15px; line-height: 1; }
+  .node.ondemand {
+    border-style: dashed; border-color: #cbd5e1; color: var(--muted);
+    box-shadow: none; padding: 6px 14px; font-size: 16.5px; font-weight: 700;
+  }
+  .node.ondemand .role { font-size: 12.5px; }
+  .ondemand-label {
+    text-align: center; font-size: 14.5px; font-weight: 700; color: var(--muted);
+    margin-top: 14px; letter-spacing: 0.03em;
+  }
 
   /* 타임라인 */
   .tl { list-style: none; padding-left: 0; margin-top: 4px; }
@@ -116,6 +125,11 @@ style: |
     box-shadow: 0 0 0 4px var(--indigo-soft);
   }
   .tl .d { font-weight: 800; color: var(--indigo-deep); margin-right: 8px; }
+  /* 항목 많은 타임라인 슬라이드용 조밀 레이아웃 */
+  section.dense h2 { margin-bottom: 14px; padding-bottom: 9px; }
+  section.dense .tl li { margin: 7px 0; font-size: 21px; }
+  section.dense .tl li::before { top: 9px; }
+  section.dense blockquote { font-size: 19px; margin-top: 10px; padding: 9px 18px; }
 
   /* 브라우저 목업 프레임 */
   .browser {
@@ -214,7 +228,7 @@ style: |
 <ul class="tl">
 <li><span class="d">Part 1</span><strong>무엇을, 왜</strong> : 한 줄 정의, 실제 발행본, 3층 구조, 3렌즈</li>
 <li><span class="d">Part 2</span><strong>어떻게 만들었나</strong> : 8명의 에이전트 팀, 설계 4원칙, 파일로 둔 기준선, 자동화 3채널, OKF 지식 자산화</li>
-<li><span class="d">Part 3</span><strong>진화</strong> : 17일간 운영과 배포가 설계를 고친 기록, <em>프로덕션이 가르친 것</em></li>
+<li><span class="d">Part 3</span><strong>진화</strong> : 20일간 운영과 배포가 설계를 고친 기록, <em>프로덕션이 가르친 것</em></li>
 <li><span class="d">Part 4</span><strong>원칙, 교훈, 토의</strong> : 안전선, 배운 점, 로드맵, 데모</li>
 </ul>
 
@@ -299,10 +313,14 @@ style: |
   </div>
 </div>
 
-<div class="frow" style="margin-top:12px;">
-  <div class="node ondemand">newsletter-designer <span class="role">발행물 시각·반응형 UI · 필요할 때만 ✦new</span></div>
+<div class="ondemand-label">┄ 필요할 때만 · on-demand 전문가 ✦new ┄</div>
+<div class="frow" style="margin-top:6px;">
+  <div class="node ondemand">newsletter-designer <span class="role">발행물 시각·UI (1층)</span></div>
+  <div class="node ondemand">vault-architect <span class="role">지식 그래프 정비 (2층)</span></div>
+  <div class="node ondemand">longform-critic <span class="role">저술 검수 (3층)</span></div>
+  <div class="node ondemand">social-repurposer <span class="role">소셜 재가공 (3층)</span></div>
 </div>
-<p class="small" style="text-align:center; margin-top:6px;">매일 도는 8명에, 손볼 때만 부르는 <strong>on-demand 전문가</strong>(디자이너, 그래프 정비, 저술 검수, 소셜 재가공)를 층별로 더했다</p>
+<p class="small" style="text-align:center; margin-top:8px;">매일 도는 8명은 가볍게 두고, 깊게 손볼 때만 전문가를 부른다</p>
 
 ---
 
@@ -348,7 +366,7 @@ style: |
 
 ## OKF: LLM이 읽는 지식 표준
 
-마크다운과 링크로 지식을 쌓아 LLM이 읽게 하는 'LLM 위키' 패턴. Google Cloud가 2026년 6월 이걸 개방 표준 OKF(Open Knowledge Format)로 정리했고, econ-radar vault가 그 표준을 따른다.
+마크다운과 링크로 지식을 쌓아 LLM이 읽게 하는 'LLM 위키' 패턴. Google Cloud가 2026년 6월 이걸 개방 규격 OKF(Open Knowledge Format, v0.1)로 정리했고, econ-radar vault가 그 규격을 따른다.
 
 - **파일 경로가 곧 개념 ID.** `topics/AI.md`는 개념 'AI'. 폴더만 열면 옵시디언 그래프와 백링크가 산다.
 - 필수 항목은 **`type` 한 줄**만 두고, 진입점은 `index.md`에, 변경 이력은 `log.md`에 담는다.
@@ -426,6 +444,8 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 
 ---
 
+<!-- _class: dense -->
+
 ## 2주차~3주차: 채널 확장과 3층 가동 (6/14 → 6/29)
 
 <ul class="tl">
@@ -433,9 +453,9 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 <li><span class="d">6/15</span>텔레그램 직접 발송이 네트워크에 막혀 <strong>GitHub Actions(push 감지)로 발송을 옮겼다</strong></li>
 <li><span class="d">6/16–18</span>Actions 다중커밋 감지 버그를 고치고 <strong>뉴스 신선도와 중복 방지</strong> 추가. 같은 약과 기업이 며칠씩 반복되던 에이전트 관성을 걷어냈다</li>
 <li><span class="d">6/24</span>옵시디언에서 <strong>OKF 포맷으로 마이그레이션했다</strong>. 위키링크 1,228개를 변환하고 frontmatter와 index/log를 정리했다</li>
-<li><span class="d">6/25</span><strong>이메일 채널을 가동했다</strong>(Buttondown). 저녁에 텔레그램과 동시 발송한다. 첫 자동 발송이 API 헤더 누락으로 막혀 바로 고쳤다. 발음, 버튼, 섹션 목차도 함께 다듬었다</li>
-<li><span class="d">6/27</span>발표 피드백을 반영해 한국어 문체를 전면 다듬고, 수집 레이어(RSS) A/B/C/D를 실험해 <strong>"보완이 대체보다 낫다"</strong>를 데이터로 확인했다(RSS만 쓰면 커버리지 구멍과 재탕이 생긴다)</li>
-<li><span class="d">6/28–29</span><strong>3층을 공개 발행으로 가동했다</strong>. 주간 동향을 블로그·텔레그램·이메일 3채널로 월요일 아침 자동 발송. 발송 전 CI 테스트로 한글 URL 깨짐을 미리 잡았다. on-demand 전문가 4명(디자이너, 그래프 정비, 저술 검수, 소셜 재가공)도 더했다</li>
+<li><span class="d">6/25</span><strong>이메일 채널을 가동했다</strong>(Buttondown). 텔레그램과 저녁 동시 발송. 첫 자동 발송이 API 헤더 누락으로 막혀 바로 고쳤다</li>
+<li><span class="d">6/27</span>발표 피드백으로 한국어 문체를 전면 다듬고, 수집 레이어를 A/B/C/D로 실험해 <strong>"보완이 대체보다 낫다"</strong>를 데이터로 확인했다</li>
+<li><span class="d">6/28–29</span><strong>3층을 공개 발행으로 가동했다</strong>. 주간 동향을 3채널로 월요일 아침 자동 발송, 발송 전 CI로 한글 URL 깨짐을 미리 잡았다. on-demand 전문가 4명도 더했다</li>
 </ul>
 
 > 1주차 패턴이 그대로 이어진다. *운영과 배포가 새 실패 모드를 드러내면, 그게 규칙과 게이트, 채널로 바뀐다.*
@@ -472,7 +492,9 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 
 <br>
 
-<span class="small">제일 비싼 단계가 정작 판단은 가장 덜 필요했다. 스크립트로 갈아 <strong>발행당 약 22% 절감</strong>.</span>
+<span class="small">제일 비싼 단계가 정작 판단은 가장 덜 필요했다. 스크립트로 갈아 <strong>이 몫(전체의 약 22%)을 덜어냈다</strong>. (애초 목표는 약 40%.)</span>
+
+<span class="small">돈으로 보면, 정액 구독으로 돌려 <strong>발행당 추가 비용은 사실상 0원</strong>. 토큰은 청구서가 아니라 <strong>시간·병목</strong>의 지표로 읽는다.</span>
 
 ---
 
@@ -485,7 +507,7 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 
 ## 안전선: 하지 않는 것
 
-- **자동 발행은 데일리에만** : 블로그 발행과 텔레그램 알림만 승인된 자동 동작이다. 메일과 메신저 대량 전송, 출판은 여전히 사람이 승인해야 나간다.
+- **자동 발행은 정기 발행물에만** : 데일리와 주간 동향은 블로그, 텔레그램, 이메일 3채널로 자동 나간다. 저술(블로그 글, 책)은 여전히 사람이 승인해야 발행된다.
 - **매수·매도 권유 금지** : 투자와 유망기업은 정보, 시나리오, 리스크로만 다룬다.
 - **출처 없는 수치 생성 금지** : fact-checker가 출처 없는 수치를 발행 전에 막는다. 추정은 "추정"이라 밝힌다.
 
@@ -499,7 +521,7 @@ OKF로 맞추면 vault 폴더 하나가 충돌 없이 세 가지로 동시에 �
 - **지식은 파일에 둔다** : 기준선과 표본, 계약을 파일에 두면 품질이 사람에게 묶이지 않는다.
 - **게이트는 실패 모드별로** : 문체 게이트는 어색함을, 사실 게이트는 오류를 막는다. 자동 발행일수록 사실 게이트가 먼저다.
 - **판단과 기계 작업을 가른다** : 판단 없는 단계(렌더)는 스크립트로 고정하고, 판단하는 단계만 LLM에 맡긴다.
-- **운영이 설계를 고친다** : 17일간 거의 매일 구조가 바뀌었다. 모두 운영하다 나온 불만에서 출발했다.
+- **운영이 설계를 고친다** : 20일간 거의 매일 구조가 바뀌었다. 모두 운영하다 나온 불만에서 출발했다.
 - **배달 환경마다 다시 검증한다** : 로컬 성공이 전부가 아니다. 이메일, 클라우드, 캐시는 저마다 다른 런타임이다.
 
 <br>
