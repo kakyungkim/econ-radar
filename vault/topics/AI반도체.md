@@ -8,11 +8,17 @@ updated: 2026-09-11
 > 범위: AI 가속기(GPU·ASIC·NPU) 설계사 경쟁 구도, NVIDIA·AMD·인텔·커스텀 ASIC. HBM 공급망과의 연동은 [[topics/HBM공급망]] 참조. AI 데이터센터·CapEx 인프라는 [[topics/AI인프라]] 참조.
 
 ## 핵심 흐름
-- **Microsoft 38GW 데이터센터 계획(Bloomberg) — AI 인프라 밸류체인 구조적 수요 재확인**: 현재 12GW→2032년 38GW. 2026 CY CapEx 1,750억달러 예상(Bloomberg 소식통, 공식 미확인). 전력·냉각이 반도체보다 먼저 공급 병목으로 부상. [[topics/AI인프라]] 참조.
-- **OpenAI Agents API 공개 베타(9/10) — 에이전트 오케스트레이션 레이어 플랫폼 경쟁**: Codex 에이전트 하네스를 API 한 번으로 개방. Anthropic·Google·AWS와 개발자 표준 선점 경쟁 본격화. 추가 요금 없이 개방해 생태계 선점 전략. [[topics/AI에이전트]] 참조.
-- **HBM4 공급 점유율 윤곽 — SK하이닉스 60~70% vs 삼성전자 25~30%**: NVIDIA Vera Rubin(HBM4 288GB·~20 TB/s) 양산 일정 확정 후 공급사 지분율 가시화. 삼성 HBM3E 인증 지연이 HBM4 점유율 회복의 구조적 제약.
+- **Marvell FY2028 $18B 가이던스·Google 워런트 7% — 커스텀 ASIC 다년 구조 성장 수치 확인**: 하이퍼스케일러가 Marvell·Broadcom 양강에 자체 AI 칩 발주를 집중하는 구조가 수치로 재확인됐다. Google은 워런트로 Marvell 성장 업사이드를 포획하면서 TPU 주도권도 유지하는 이중 구조.
+- **AMD MI450 × OpenAI 1GW 배포 실행 진입 — AI 가속기 NVIDIA 대안 실납품 첫 사례**: 2025년 10월 파트너십이 2026년 하반기 실행으로 전환. NVIDIA 80% 독점 구도에서 AMD 실납품 실적이 처음 쌓이는 대형 사례. ROCm 소프트웨어 성숙도가 다음 변수.
+- **NVIDIA Vera Rubin HBM4 공급 병목 2027년 중반까지 지속 — 수요 초과 구조**: SK하이닉스·삼성·마이크론 합산 HBM4 생산이 수요를 충족하는 시점을 2027년 중반 이후로 추산. 삼성 Q3 잠정실적(10/7)에서 HBM4 QoQ 3배 성장 확인 여부가 SK하이닉스 독주 구도 변화 신호로 읽힐지 분기점.
 
 ## 타임라인
+### 2026-10-06 [[daily/2026-10-06]]
+- Marvell FY2028 $18B 가이던스 + Google 워런트 7% 공개 — 커스텀 ASIC 수요가 단기 사이클이 아닌 구조적 성장임을 투자자의 날에서 수치로 확인. Google의 이해관계 정렬 구조(워런트·장기 발주) 공식화 → [[topics/유망기업]] [[topics/투자테마]]
+- AMD MI450 × OpenAI 1GW 배포 실행 단계 진입 — 2025년 10월 6GW 파트너십 발표 후 1년 만에 실납품 실행. NVIDIA 80% 점유 구도에서 AMD 첫 대형 실납품 사례 → [[topics/유망기업]]
+- NVIDIA Vera Rubin HBM4 병목 2027년 중반까지 수요 초과 — Blackwell Ultra 12개월 선주문 대기. 젠슨 황 SK하이닉스 증산 촉구 공개. 병목 환경에서도 GPU 가격·마진 방어 가능 → [[topics/반도체HBM]] [[topics/HBM공급망]]
+- 삼성전자 Q3 잠정실적 D-1(내일 10/7~8 발표) — HBM4 QoQ 3배 성장 확인 여부가 SK하이닉스 독주 구도 변화의 첫 공개 데이터 포인트. 컨센서스 108.5~116조원 격차 → [[topics/KOSPI반도체]]
+
 ### 2026-09-11 [[daily/2026-09-11]]
 - OpenAI Agents API 공개 베타(9/10) — Codex 에이전트 하네스 외부 개방. Agent·Environment·Session·Events 4객체·MCP 지원. LangChain·AutoGen 담당 오케스트레이션 레이어 플랫폼 흡수. 데이터 레지던시 미국 한정이 의료·금융 채택 당면 장벽 → [[topics/AI에이전트]] [[topics/AI]]
 - Microsoft 38GW 데이터센터 계획(Bloomberg 소식통) — 현재 12GW→2032년 38GW, 3분의 1 AI 전용. 2026 CY CapEx 1,750억달러. 전력·냉각·데이터센터 REIT·HBM 밸류체인 구조적 수요 장기 확인 → [[topics/AI인프라]] [[topics/반도체HBM]]
