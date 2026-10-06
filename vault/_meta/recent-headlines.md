@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-06
+- Marvell 투자자의 날 결과 — FY2028 $18B 가이던스·Google ASIC 워런트 최대 7% 구조 공개
+- ifinatamab deruxtecan PDUFA D-4(10/10) — B7-H3 ADC, ES-SCLC 최초 ADC 허가 가능성
+- Vaxcyte VAX-31 OPUS-1 Phase 3 성공 — 31가 폐렴구균 백신 도전자 등장, 주가 +32%
+- Alector–Genentech BBB 딜 $100M+$1.17B — CNS GCase 효소 대체요법, ABC 플랫폼 권리 보유
+- 삼성전자 Q3 잠정실척 D-1(10/7) — HBM4 매출 QoQ 3배 성장 검증 관건
+
 ## 2026-10-05
 - bepirovirsen(GSK/Ionis) PDUFA D-21(10/26) — 만성 B형 간염 기능적 완치 첫 상업화 심사 카운트다운
 - FOMC 10/28 추가 인상 50/50 — CPI 10/14 결정타, 거시 불확실성 정점
@@ -57,10 +64,4 @@ publish: false
 - 미 10년물 5.24% + KOSPI 외국인 3일 6조원 순매도 — 추석 후 외자 이탈 구조화
 - Micron Q4 FY2026 D-1 + BMS Mavacamten 소아 oHCM PDUFA D-1 — 내일(9/30) 이중 이벤트
 
-## 2026-09-28
-- KOSPI 추석 복귀 첫날 6,889pt(-2.70%) — 외국인 3.1조원 순매도, 삼성전자·SK하이닉스 각 -5%
-- 미-이란 협상 교착 심화 — Brent $107.34(+2.89%) 급등, Section 232 의약품 관세 Annex III D-1
-- Mirum brelovitug AZURE-1 Phase 3 탑라인 오늘 21:30 KST — HDV 치료제 이진 이벤트
-- ADARx Pharmaceuticals $446.3M RNAi IPO 성공 — 10년 만의 대형 RNA 상장, AbbVie $89M 전략 투자
-- Anthropic × Infosys 엔터프라이즈 AI 에이전트 파트너십 공동 발표 — 규제 산업 특화
 
