@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-07
+- Genmab·AbbVie epcoritamab EPCORE DLBCL-2 Phase 3 성공 — bispecific 최초 frontline DLBCL PFS 입증 (HR=0.49, R-CHOP 대비 진행·사망 위험 51% 감소)
+- 삼성전자 Q3 잠정실적 D-0 — 내일(10/8) 영업익 컨센 106.1조원·분기 최초 100조원 돌파 여부
+- Q3 S&P 500 어닝스 시즌 D-6 — FactSet EPS +29.5% YoY, JPMorgan 10/13 개막
+- NVIDIA Blackwell Ultra — 2026년 740만 유닛·CoWoS +40%, H2 공급 병목 지속
+- INOVIO INO-3107 PDUFA D-23(10/30) — DNA 치료제 플랫폼 첫 상업화 관문
+
 ## 2026-10-06
 - Marvell 투자자의 날 결과 — FY2028 $18B 가이던스·Google ASIC 워런트 최대 7% 구조 공개
 - ifinatamab deruxtecan PDUFA D-4(10/10) — B7-H3 ADC, ES-SCLC 최초 ADC 허가 가능성
@@ -56,12 +63,5 @@ publish: false
 - Anthropic Claude 4.5 출시 + ARR $30B 돌파, OpenAI 추월 — 엔터프라이즈 AI 침투 가속
 - SK하이닉스 HBM4 Q4 출하 시작 + Micron Q4 FY2026 실적 오늘 발표(결과 대기) — HBM 구조 성장 확인 분기점
 - KOSPI 3일 연속 하락(6,838.04, -0.48%) + Core PCE 8월 발표 + 외국인 누적 9조원 순매도
-
-## 2026-09-29
-- Section 232 의약품 관세 전면 발효 — 비Annex III 소형사까지 100%, 한국 15% 우대, PhRMA·BIO 반발
-- Mirum brelovitug AZURE-1 Phase 3 1차 달성 — 300mg 56%/900mg 45%, 2027년 BLA 준비 진입
-- AI 3중 충격 — 백악관 AI CEO 오찬, 지능폭발 경고 논문(Anthropic R&D 26% AI 수행), GPT-6 Astra 공급망 공격 29.2%
-- 미 10년물 5.24% + KOSPI 외국인 3일 6조원 순매도 — 추석 후 외자 이탈 구조화
-- Micron Q4 FY2026 D-1 + BMS Mavacamten 소아 oHCM PDUFA D-1 — 내일(9/30) 이중 이벤트
 
 
