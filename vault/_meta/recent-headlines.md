@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-08
+- 삼성전자 Q3 2026 영업이익 107.4조원·매출 195조원 — 한국 기업 분기 최초 100조원 돌파, YoY +782.5%, DS(반도체) HBM4 주도
+- FOMC 9월 의사록: r* 3.25%로 상향(기존 3.06%) — 장기 중립금리 구조적 상승 공식화, 10/28 추가 인상 확률 ~38~46%
+- Shionogi IntraBio $2B 인수 — Aqneursa(NPC·A-T) 희귀질환, 2026년 합산 희귀질환 투자 $4.5B
+- ifinatamab deruxtecan PDUFA D-2(10/10) — B7-H3 ADC ES-SCLC 최초 ADC 허가 이틀 전
+- PepsiCo Q3 실적 발표 — 매출 $25.27B(컨센 $24.97B 상회)·코어 EPS $2.34·유기성장 +3.1%, 어닝스 시즌 개막
+
 ## 2026-10-07
 - Genmab·AbbVie epcoritamab EPCORE DLBCL-2 Phase 3 성공 — bispecific 최초 frontline DLBCL PFS 입증 (HR=0.49, R-CHOP 대비 진행·사망 위험 51% 감소)
 - 삼성전자 Q3 잠정실적 D-0 — 내일(10/8) 영업익 컨센 106.1조원·분기 최초 100조원 돌파 여부
@@ -56,12 +63,5 @@ publish: false
 - Lilly Zepbound·Foundayo 미국 3대 PBM 전면 급여 10/1 발효 — GLP-1 보험 장벽 해소, 수요 병목 이동
 - BMS Camzyos 소아 oHCM FDA 승인(9/30) — 심근 미오신 억제제(CMI) 최초 소아 적응증 획득
 - GSK·Ionis bepirovirsen PDUFA 10/26 — 전 세계 2억4,000만 만성 B형 간염 환자 대상 기능적 완치 후보
-
-## 2026-09-30
-- AstraZeneca, Summit Therapeutics에 $2B 지분 투자 + ivonescimab·ADC 병용 임상 협약 — ADC+이중항체 병용의 새 문법
-- Eli Lilly Zepbound·Foundayo 내일(10/1)부터 미국 3대 PBM 전면 급여 — GLP-1 만성질환 표준 편입 시작
-- Anthropic Claude 4.5 출시 + ARR $30B 돌파, OpenAI 추월 — 엔터프라이즈 AI 침투 가속
-- SK하이닉스 HBM4 Q4 출하 시작 + Micron Q4 FY2026 실적 오늘 발표(결과 대기) — HBM 구조 성장 확인 분기점
-- KOSPI 3일 연속 하락(6,838.04, -0.48%) + Core PCE 8월 발표 + 외국인 누적 9조원 순매도
 
 

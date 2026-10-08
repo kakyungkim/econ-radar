@@ -1,6 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 투자테마]
+updated: 2026-10-08
 publish: false
 ---
 # 🗂 ADC 항체약물접합체 — 주제 지도(MOC)
@@ -15,6 +16,9 @@ publish: false
 - **한국 ADC 3사 전략 분화(7/20)**: 리가켐바이오(LCB71 ORR 77%·LCB84 얀센 기술이전 약 2.2조원·KDB 5,000억원), ABL Bio(ABL209 EGFR×MUC1 이중항체 ADC FDA IND·1상 착수), 지놈앤컴퍼니(신규 타겟 ADC 3종 비임상). 임상 데이터 선점이 L/O·M&A 프리미엄의 선결 조건.
 
 ## 타임라인
+### 2026-10-08 [[daily/2026-10-08]]
+- ifinatamab deruxtecan PDUFA D-2(10/10) — B7-H3 ADC ES-SCLC 2차 치료 허가 결정 48시간 전. 허가 시 DXd 플랫폼 세 번째 적응증(B7-H3) 완성, Daiichi Sankyo·Merck(최대 $22B 파트너십) 플랫폼 전체 재평가. CDx 라벨 요건이 처방 확산 속도 결정 변수 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-10-07 [[daily/2026-10-07]]
 - [[daily/2026-10-07]] — ifinatamab deruxtecan PDUFA D-3(10/10): B7-H3 ADC ES-SCLC 허가 결정 72시간 전
 - [[daily/2026-10-07]] — Genmab epcoritamab DLBCL-2 성공: bispecific(비ADC) vs ADC 플랫폼 대비 1차 치료 입증 비교점
