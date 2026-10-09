@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 투자테마]
-updated: 2026-09-30
+updated: 2026-10-09
 publish: false
 ---
 # 🗂 GLP-1 비만치료제 — 주제 지도(MOC)
@@ -11,11 +11,14 @@ publish: false
 > GLP-1 외 적응증 확장(MASH 등)은 [[topics/GLP-1비만치료]] 참조.
 
 ## 핵심 흐름
-- **Zepbound PBM 급여 합의 — GLP-1 지불자 장벽 구조 완화 첫 신호(9/30)**: OptumRx·ESI 급여 확정. 연간 2억 명 접근성 확보. 급여 확대 후 처방 3~6개월 내 급증 패턴 예상. 경구 제형 병행 급여 논의가 다음 쟁점.
-- **Pfizer 경구 GLP-1 2건 드롭 — Novo·Lilly·Roche 3강 구도 확정**: MET-224o·GIPR 길항제 PF-07976016 동시 중단. Pfizer 잔존 전략은 berobenatide(월 1회 주사) 단일 트랙.
-- **경구 GLP-1 2강 구도 유지**: Lilly Foundayo(오르플로르글리프론·소분자) vs Novo Nordisk 경구 Wegovy. Foundayo 신규 처방 2/3가 주사제 미경험자 — 시장 확장 구조 실증.
+- **한미약품 efpeglenatide 식약처 허가 — 국내 최초 주 1회 GLP-1 비만치료제(10/7)**: GLP-1 수용체 작용제 계열 국내 최초 허가 신약. 노보 노디스크·일라이 릴리 과점 글로벌 시장에 K-GLP-1 진입. HIRA 급여 등재와 아시아 라이선스아웃이 상업화 실질 관문.
+- **Zepbound PBM 급여 합의 이후 — 접근성 확대 국면 진행 중**: OptumRx·ESI 급여 확정, 연간 2억 명 접근성. 급여 확대 후 처방 3~6개월 내 급증 예상. 경구 GLP-1(Lilly Foundayo vs Novo 경구 Wegovy) 2강 구도 병행.
+- **고금리 5.35% 환경의 바이오텍 밸류에이션 압박**: efpeglenatide는 국내 허가 이정표이나 Ozempic·Mounjaro와 직접 비교 데이터 없는 상태에서 처방 전환에는 가격 우위·공급 안정성이 필수 조건.
 
 ## 타임라인
+### 2026-10-09 [[daily/2026-10-09]]
+- [[daily/2026-10-09]] — 한미약품 efpeglenatide 식약처 허가 확정(10/7): 국내 최초 주 1회 GLP-1 비만치료제. 사노피 2021년 반환 자산 단독 활용. 코스피 휴장(한글날)으로 주가 반응은 10/10 재개장 시 확인. 급여 등재 협상과 아시아 파트너십 소식이 다음 모멘텀 → [[topics/K-바이오]] [[topics/바이오제약]]
+
 ### 2026-09-30 [[daily/2026-09-30]]
 - **Eli Lilly Zepbound OptumRx·ESI PBM 급여 합의 — GLP-1 지불자 장벽 구조 완화 시작**: BMI 30+ 또는 27+ 동반질환(고혈압·제2형 당뇨·수면무호흡 등) 기준 급여 적용. 연간 2억 명 규모 접근성 확대. Wegovy 대비 비교 전환 절차 간소화. 급여 확대 후 처방 접수 3~6개월 시차로 급증 예상. 경구 제형(Foundayo·경구 Wegovy) 동반 급여 확대 논의가 다음 지불자 협상 쟁점 → [[topics/바이오제약]] [[topics/신약개발전략]] [[topics/투자테마]]
 

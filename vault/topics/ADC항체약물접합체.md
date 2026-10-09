@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 투자테마]
-updated: 2026-10-08
+updated: 2026-10-09
 publish: false
 ---
 # 🗂 ADC 항체약물접합체 — 주제 지도(MOC)
@@ -10,12 +10,15 @@ publish: false
 > ADC 플랫폼·페이로드 기술·딜 구조는 [[topics/ADC모달리티]] 참조.
 
 ## 핵심 흐름
-- **ifinatamab deruxtecan(I-DXd) PDUFA 10/10 D-3 — B7-H3 ADC ES-SCLC 허가 결정 72시간 앞**: Daiichi Sankyo·Merck 공동 개발. BTD·RTOR·Project Orbis 3중 가속 심사. SCLC 2차 치료 ORR 20% 미만 극도의 미충족 수요. Phase 2 단일 근거 BLA라는 리스크 요인 존재.
+- **ifinatamab deruxtecan(I-DXd) PDUFA 10/10 D-1 — B7-H3 ADC ES-SCLC 허가 결정 24시간 앞**: Daiichi Sankyo·Merck 공동 개발. ORR 48.2%(Phase 2 IDeate-Lung01, n=137). BTD·RTOR·Project Orbis 3중 가속 심사. Phase 2 단일 근거 BLA 리스크. 승인 시 B7-H3 표적이 고형암 전반 확장 경로 개방.
 - **DXd 플랫폼 세 번째 적응증 이정표(HER2→TROP2→B7-H3)**: 승인 시 Daiichi Sankyo DXd 페이로드 ADC 플랫폼이 고형암 전방위 확장 모달리티로 포지션을 굳힌다. Merck Keytruda 병용 임상 설계 가치도 올라간다.
 - **epcoritamab DLBCL frontline Phase 3 성공 — bispecific vs ADC 비교 데이터 포인트 등장**: HR=0.49 DLBCL 1차 치료 성공으로 비ADC 모달리티(bispecific)가 ADC 플랫폼 대비 1차 치료 세팅에서의 경쟁 좌표를 명확히 했다.
 - **한국 ADC 3사 전략 분화(7/20)**: 리가켐바이오(LCB71 ORR 77%·LCB84 얀센 기술이전 약 2.2조원·KDB 5,000억원), ABL Bio(ABL209 EGFR×MUC1 이중항체 ADC FDA IND·1상 착수), 지놈앤컴퍼니(신규 타겟 ADC 3종 비임상). 임상 데이터 선점이 L/O·M&A 프리미엄의 선결 조건.
 
 ## 타임라인
+### 2026-10-09 [[daily/2026-10-09]]
+- [[daily/2026-10-09]] — ifinatamab deruxtecan PDUFA D-1(내일 10/10): B7-H3 ADC ES-SCLC 2차 치료 허가 결정 24시간 전. 승인 시 DXd 플랫폼 세 번째 적응증(HER2→TROP2→B7-H3) 완성, Daiichi-Merck $22B 파트너십 첫 상업적 검증. CRL 시 Phase 2 단독 허가 경로 신뢰 타격 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-10-08 [[daily/2026-10-08]]
 - ifinatamab deruxtecan PDUFA D-2(10/10) — B7-H3 ADC ES-SCLC 2차 치료 허가 결정 48시간 전. 허가 시 DXd 플랫폼 세 번째 적응증(B7-H3) 완성, Daiichi Sankyo·Merck(최대 $22B 파트너십) 플랫폼 전체 재평가. CDx 라벨 요건이 처방 확산 속도 결정 변수 → [[topics/바이오제약]] [[topics/신약개발전략]]
 
