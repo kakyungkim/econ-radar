@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-10
+- I-DXd BLA PDUFA D-0 경과 — BLA 9/25 이미 철회됨(10/4 수록 교정), Phase 3 IDeate-Lung02 등록 마감 단계, MRK $148.74
+- 미국 S&P 500 주간 마감 7,812pts +0.59%, 10년물 5.24% — 주중 5.35% 고점에서 후퇴, 어닝스 D-3
+- TSMC Q3 2026 매출 NT$1.49조/$46.7B +50% YoY 사상 최대 (10/8 발표) — AI 수요·모바일 재고, 10/15 상세 콜
+- Roche Tecentriq(atezolizumab) FDA 승인 — dMMR/MSI-H Stage III 결장암 보조요법, ATOMIC -50% 재발 위험
+- Alteogen-Novartis ALT-B4(Hybrozyme) 최대 $3.22B — K-바이오 SC 전환 플랫폼 연내 4번째 빅파마 딜, 한국 이중 가격 제도 병행
+
 ## 2026-10-09
 - 미 10년물 국채 5.35% 돌파 — 2002년 이후 24년 만의 최고, DXY 102.50·30년물 동반 고점
 - Brent 원유 $100 재진입 — 이란 호르무즈 해협 봉쇄 재개, 10/14 CPI 분기점
@@ -56,12 +63,4 @@ publish: false
 - Q3 어닝스 시즌 D-9 — JPMorgan·Goldman·J&J 10월 13일 개막, S&P 500 Q3 EPS 성장 +23% 기대
 - BMS Cobenfy ADEPT-1 탑라인 2027 초 재연기 — 알츠하이머 정신증 이벤트 축적 지연
 - Apple iOS 27.2 한국어 Siri AI 10월 배포 — 카카오·네이버·삼성 갤럭시 AI와 경쟁 구도 본격화
-
-## 2026-10-03
-- 9월 NFP +29,000 고용 쇼크 — 컨센서스 +84,000 대폭 하회, Fed 10월 동결 기대 강화
-- Anthropic 기업공개(IPO) 비공개 신청 — $965B 밸류에이션, 연매출 런레이트 $47B, 10월 상장 목표
-- Novo Nordisk 2026 매출 최대 -13% 전망 — CagriSema 티르제파타이드 대비 열세(23% vs 25.5%), 경구 Wegovy 호조
-- bepirovirsen(GSK/Ionis) PDUFA D-23(10/26) — 만성 B형 간염 최초 기능적 완치 후보, 결정 임박
-- 바이오테크 M&A 2026 1분기 $840억 — 전년 $444억 대비 89% 급증, ADC·비만·면역종양 3축
-
 
