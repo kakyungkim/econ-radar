@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 투자테마]
-updated: 2026-10-09
+updated: 2026-10-10
 publish: false
 ---
 # 🗂 ADC 항체약물접합체 — 주제 지도(MOC)
@@ -10,12 +10,14 @@ publish: false
 > ADC 플랫폼·페이로드 기술·딜 구조는 [[topics/ADC모달리티]] 참조.
 
 ## 핵심 흐름
-- **ifinatamab deruxtecan(I-DXd) PDUFA 10/10 D-1 — B7-H3 ADC ES-SCLC 허가 결정 24시간 앞**: Daiichi Sankyo·Merck 공동 개발. ORR 48.2%(Phase 2 IDeate-Lung01, n=137). BTD·RTOR·Project Orbis 3중 가속 심사. Phase 2 단일 근거 BLA 리스크. 승인 시 B7-H3 표적이 고형암 전반 확장 경로 개방.
-- **DXd 플랫폼 세 번째 적응증 이정표(HER2→TROP2→B7-H3)**: 승인 시 Daiichi Sankyo DXd 페이로드 ADC 플랫폼이 고형암 전방위 확장 모달리티로 포지션을 굳힌다. Merck Keytruda 병용 임상 설계 가치도 올라간다.
-- **epcoritamab DLBCL frontline Phase 3 성공 — bispecific vs ADC 비교 데이터 포인트 등장**: HR=0.49 DLBCL 1차 치료 성공으로 비ADC 모달리티(bispecific)가 ADC 플랫폼 대비 1차 치료 세팅에서의 경쟁 좌표를 명확히 했다.
-- **한국 ADC 3사 전략 분화(7/20)**: 리가켐바이오(LCB71 ORR 77%·LCB84 얀센 기술이전 약 2.2조원·KDB 5,000억원), ABL Bio(ABL209 EGFR×MUC1 이중항체 ADC FDA IND·1상 착수), 지놈앤컴퍼니(신규 타겟 ADC 3종 비임상). 임상 데이터 선점이 L/O·M&A 프리미엄의 선결 조건.
+- **I-DXd BLA 자진 철회 교정(9/25) — FDA 가속승인 경로 협소화 패턴 재확인**: Phase 2 IDeate-Lung01(ORR 48.2%, n=187)이 가속승인 기준 미충족으로 BLA 자진 철회. Phase 3 IDeate-Lung02(ES-SCLC 화학요법 대비 확증적 임상) 등록 마감 단계. ADC 개발사들의 Phase 3 우선 전략 전환이 가속된다.
+- **Omnibus Appropriations Act(2023) 이후 FDA 가속승인 강화 — ADC 영역까지 확장**: Phase 2 ORR 단독으로 가속승인을 노리던 ADC 파이프라인들은 Phase 3 우선 설계와 FDA Type B meeting 조기 협의가 불가피해졌다. 이는 개발 비용·기간을 늘리지만, 확증 이후 더 강한 레이블 확보의 트레이드오프다.
+- **ADC+IO 병용(Padcev+Keytruda MIBC) — perioperative 설정 표준 자리잡기 중**: 확증 3상 기반 ADC 승인은 처방 확산과 지불자 급여 등재 협상 양면에서 가속승인 이후 철수 리스크 없이 안정적인 경로다.
 
 ## 타임라인
+### 2026-10-10 [[daily/2026-10-10]]
+- [[daily/2026-10-10]] — I-DXd(ifinatamab deruxtecan) BLA 자진 철회 교정: 오늘이 원래 PDUFA 목표일이나 BLA는 9/25 이미 철회됨. FDA가 Phase 2 ORR 48.2%(n=187) 단독으로 가속승인 기준 미충족 판단. Phase 3 IDeate-Lung02 등록 마감 단계. ADC 가속승인 경로 협소화 패턴 재확인 → [[topics/ADC모달리티]] [[topics/신약개발전략]]
+
 ### 2026-10-09 [[daily/2026-10-09]]
 - [[daily/2026-10-09]] — ifinatamab deruxtecan PDUFA D-1(내일 10/10): B7-H3 ADC ES-SCLC 2차 치료 허가 결정 24시간 전. 승인 시 DXd 플랫폼 세 번째 적응증(HER2→TROP2→B7-H3) 완성, Daiichi-Merck $22B 파트너십 첫 상업적 검증. CRL 시 Phase 2 단독 허가 경로 신뢰 타격 → [[topics/바이오제약]] [[topics/신약개발전략]]
 
