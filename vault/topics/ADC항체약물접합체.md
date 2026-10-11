@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 투자테마]
-updated: 2026-10-10
+updated: 2026-10-11
 publish: false
 ---
 # 🗂 ADC 항체약물접합체 — 주제 지도(MOC)
@@ -10,11 +10,14 @@ publish: false
 > ADC 플랫폼·페이로드 기술·딜 구조는 [[topics/ADC모달리티]] 참조.
 
 ## 핵심 흐름
-- **I-DXd BLA 자진 철회 교정(9/25) — FDA 가속승인 경로 협소화 패턴 재확인**: Phase 2 IDeate-Lung01(ORR 48.2%, n=187)이 가속승인 기준 미충족으로 BLA 자진 철회. Phase 3 IDeate-Lung02(ES-SCLC 화학요법 대비 확증적 임상) 등록 마감 단계. ADC 개발사들의 Phase 3 우선 전략 전환이 가속된다.
-- **Omnibus Appropriations Act(2023) 이후 FDA 가속승인 강화 — ADC 영역까지 확장**: Phase 2 ORR 단독으로 가속승인을 노리던 ADC 파이프라인들은 Phase 3 우선 설계와 FDA Type B meeting 조기 협의가 불가피해졌다. 이는 개발 비용·기간을 늘리지만, 확증 이후 더 강한 레이블 확보의 트레이드오프다.
-- **ADC+IO 병용(Padcev+Keytruda MIBC) — perioperative 설정 표준 자리잡기 중**: 확증 3상 기반 ADC 승인은 처방 확산과 지불자 급여 등재 협상 양면에서 가속승인 이후 철수 리스크 없이 안정적인 경로다.
+- **Pfizer sigvotatug vedotin ESMO LBA68(10/25) — integrin αvβ6 ADC Phase 3 전체 데이터 공개**: 2L 비편평 NSCLC vs 도세탁셀. 탑라인(2026년 6월)에서 전체 집단 OS 우월성 미충족. ESMO에서 2L 하위군 분석·1차 병용 확장 임상 설계 발표 여부가 다음 단계 신호. I-DXd BLA 자진 철회(9/25) 이후 ADC 확증 3상 데이터가 드문 시점에서 나오는 결과다.
+- **integrin β6 표적 — HER2·TROP2와 달리 상대적으로 덜 검증된 표적**: NSCLC 이후 위장관·난소암 확장 가능성이 있으나, 바이오마커 검사 표준화와 도세탁셀(제네릭·저가) 대비 ADC 약가 정당화에 더 강한 OS 데이터가 필요하다.
+- **I-DXd BLA 자진 철회(9/25) — FDA 가속승인 경로 협소화 패턴 지속**: Phase 2 ORR 단독으로 가속승인을 노리던 ADC 파이프라인들은 Phase 3 우선 설계로 전환이 가속되고 있다.
 
 ## 타임라인
+### 2026-10-11 [[daily/2026-10-11]]
+- [[daily/2026-10-11]] — Pfizer sigvotatug vedotin(integrin αvβ6 ADC) Phase 3 SigVie-002 전체 데이터 ESMO LBA68(10/25) 공개 예정(D-14). 탑라인(6월)에서 전체 집단 OS 우월성 미충족. 2L NSCLC 하위군 분석·1차 병용 확장 설계 발표 여부 관전 → [[topics/ESMO2026]] [[topics/신약개발전략]]
+
 ### 2026-10-10 [[daily/2026-10-10]]
 - [[daily/2026-10-10]] — I-DXd(ifinatamab deruxtecan) BLA 자진 철회 교정: 오늘이 원래 PDUFA 목표일이나 BLA는 9/25 이미 철회됨. FDA가 Phase 2 ORR 48.2%(n=187) 단독으로 가속승인 기준 미충족 판단. Phase 3 IDeate-Lung02 등록 마감 단계. ADC 가속승인 경로 협소화 패턴 재확인 → [[topics/ADC모달리티]] [[topics/신약개발전략]]
 

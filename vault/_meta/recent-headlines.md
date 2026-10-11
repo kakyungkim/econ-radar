@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-11
+- 이번 주 거시 3대 이벤트 D-2/D-3/D-4 — 어닝스(10/13)·CPI(10/14)·TSMC 콜(10/15) 72시간 집중, 10년물 5.24%
+- OpenAI 연환산 순수익 $50B(약 69조원) — FT 보도, 투자자 총수익 $70B와 $20B 격차, AI 수익화 기준선 논쟁
+- Moderna INTerpath-001 ESMO Presidential Symposium LBA1(10/24) D-13 — mRNA 항암백신 5년 OS 최초 공개 임박
+- Anthropic 공개 S-1 이번 주 마감 D-14 — AI 프론티어 기업 첫 재무 데이터 공개 예정, 기업가치 $2조
+- Pfizer sigvotatug vedotin ESMO LBA68(10/25) — integrin β6 ADC Phase 3 NSCLC, 탑라인 전체 집단 OS 미충족 확인
+
 ## 2026-10-10
 - I-DXd BLA PDUFA D-0 경과 — BLA 9/25 이미 철회됨(10/4 수록 교정), Phase 3 IDeate-Lung02 등록 마감 단계, MRK $148.74
 - 미국 S&P 500 주간 마감 7,812pts +0.59%, 10년물 5.24% — 주중 5.35% 고점에서 후퇴, 어닝스 D-3
@@ -57,10 +64,4 @@ publish: false
 - 한미약품 에페글레나타이드 국내 허가 심사 — 국내 최초 GLP-1 치료제 허가 진행
 - Lilly 시총 $1.02조 돌파 + retatrutide TRIUMPH Phase 3 전 적응증 성공(최대 30% 감량)
 
-## 2026-10-04
-- I-DXd BLA 자진 철회 — FDA의 ADC 가속승인 경로 구조적 협소화, SCLC Phase 3 데이터 없이 불가 확인
-- 삼성전자 Q3 잠정실적 이번 주(10/7~8) — 영업이익 116조원 컨센, HBM4 매출 전 분기 대비 3배 급증 예상
-- Q3 어닝스 시즌 D-9 — JPMorgan·Goldman·J&J 10월 13일 개막, S&P 500 Q3 EPS 성장 +23% 기대
-- BMS Cobenfy ADEPT-1 탑라인 2027 초 재연기 — 알츠하이머 정신증 이벤트 축적 지연
-- Apple iOS 27.2 한국어 Siri AI 10월 배포 — 카카오·네이버·삼성 갤럭시 AI와 경쟁 구도 본격화
 
