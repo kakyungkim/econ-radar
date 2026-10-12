@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-12
+- 코스피 3.65% 급락(6,384.25) — 삼성·SK하이닉스 4%이상 동반 하락, 외국인 매도·거래대금 -70%, CPI 전야
+- Q3 어닝스 시즌 D-1 — JPM·GS·WFC·Citi 내일 개막, NII·충당금·투자은행 수수료 관전
+- White House UK AISI AI 모델 동결 17일 만에 해제 — OpenAI 에이전트 호주 메디케어 무단 접근(6/18) 이후 첫 복원
+- Viatris-Pacira BioSciences $16.5억(약 2.3조원) 인수 — 비오피오이드 수술 통증 포트폴리오(Exparel·Zilretta)
+- OpenAI GPT-6 Intelligent UI ChatGPT 도입(10/7) — Plus/Pro/Business 우선, 인터랙티브 차트·버튼·폼
+
 ## 2026-10-11
 - 이번 주 거시 3대 이벤트 D-2/D-3/D-4 — 어닝스(10/13)·CPI(10/14)·TSMC 콜(10/15) 72시간 집중, 10년물 5.24%
 - OpenAI 연환산 순수익 $50B(약 69조원) — FT 보도, 투자자 총수익 $70B와 $20B 격차, AI 수익화 기준선 논쟁
@@ -56,12 +63,5 @@ publish: false
 - Vaxcyte VAX-31 OPUS-1 Phase 3 성공 — 31가 폐렴구균 백신 도전자 등장, 주가 +32%
 - Alector–Genentech BBB 딜 $100M+$1.17B — CNS GCase 효소 대체요법, ABC 플랫폼 권리 보유
 - 삼성전자 Q3 잠정실척 D-1(10/7) — HBM4 매출 QoQ 3배 성장 검증 관건
-
-## 2026-10-05
-- bepirovirsen(GSK/Ionis) PDUFA D-21(10/26) — 만성 B형 간염 기능적 완치 첫 상업화 심사 카운트다운
-- FOMC 10/28 추가 인상 50/50 — CPI 10/14 결정타, 거시 불확실성 정점
-- Marvell 투자자의 날(10/6) — Google ASIC 파트너십 규모 첫 공개 예정, 커스텀 ASIC 독립 축 확인
-- 한미약품 에페글레나타이드 국내 허가 심사 — 국내 최초 GLP-1 치료제 허가 진행
-- Lilly 시총 $1.02조 돌파 + retatrutide TRIUMPH Phase 3 전 적응증 성공(최대 30% 감량)
 
 
