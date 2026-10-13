@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-13
+- CXMT 4F² DRAM 발표 — 코스피 "블랙 튜즈데이" 5.46% 급락(6,035.35), 삼성 –7.39%·SK하이닉스 –10.09%, 이틀 누적 –8.9%
+- 빅4 은행(JPM·GS·WFC·C) Q3 2026 실적 컨센서스 상회(추정) — 다이먼 "갈수록 복잡해지는 리스크" 경고, 내일 CPI D-1
+- Anthropic 10/14 기관 IR데이 + 11월 나스닥 IPO 로드맵 확인 — 목표 밸류에이션 ~$2T(본문 확인 필요), GS·MS·JPM 주관
+- ifinatamab deruxtecan(I-DXd) BLA 자진 철회(9/25) — FDA 가속 승인 기준 미충족, ES-SCLC 3L 치료 공백 지속
+- 미국 9월 CPI D-1 — 내일(10/14) 08:30 ET 발표, 헤드라인 컨센 3.7% YoY·코어 2.4%
+
 ## 2026-10-12
 - 코스피 3.65% 급락(6,384.25) — 삼성·SK하이닉스 4%이상 동반 하락, 외국인 매도·거래대금 -70%, CPI 전야
 - Q3 어닝스 시즌 D-1 — JPM·GS·WFC·Citi 내일 개막, NII·충당금·투자은행 수수료 관전
@@ -56,12 +63,5 @@ publish: false
 - Q3 S&P 500 어닝스 시즌 D-6 — FactSet EPS +29.5% YoY, JPMorgan 10/13 개막
 - NVIDIA Blackwell Ultra — 2026년 740만 유닛·CoWoS +40%, H2 공급 병목 지속
 - INOVIO INO-3107 PDUFA D-23(10/30) — DNA 치료제 플랫폼 첫 상업화 관문
-
-## 2026-10-06
-- Marvell 투자자의 날 결과 — FY2028 $18B 가이던스·Google ASIC 워런트 최대 7% 구조 공개
-- ifinatamab deruxtecan PDUFA D-4(10/10) — B7-H3 ADC, ES-SCLC 최초 ADC 허가 가능성
-- Vaxcyte VAX-31 OPUS-1 Phase 3 성공 — 31가 폐렴구균 백신 도전자 등장, 주가 +32%
-- Alector–Genentech BBB 딜 $100M+$1.17B — CNS GCase 효소 대체요법, ABC 플랫폼 권리 보유
-- 삼성전자 Q3 잠정실척 D-1(10/7) — HBM4 매출 QoQ 3배 성장 검증 관건
 
 
