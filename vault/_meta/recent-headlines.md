@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-14
+- daraxonrasib(Revolution Medicines) RASolute 302 Phase 3 OS 달성 — mOS 13.2 vs 6.6개월(HR=0.40), FDA NDA 수리, 췌장암 KRAS 억제제 표준 교체 신호
+- ASML Q3 2026 순매출 €11.7B·순이익 €5.0B·GM 57.5% 대폭 상회 — 주가 –1.86%, Q4 가이던스 €14.2~15.2B 상향
+- 미국 9월 CPI 발표일 — 수집 시점 실제치 미확인, 컨센서스 헤드라인 3.6~3.7%·코어 2.4~2.5%, 10년 국채 5.364% 고점
+- Google Gemini 4 Argon 기업·개발자 광범 공개 + Anthropic IR데이 SF 진행 — AI 3파전(GPT-6·Gemini 4·Claude) 구도, 목표 밸류 $1.8~2T
+- Kelun-Biotech sac-TMT ESMO 2026 LBA 2건 선정(OptiTROP-Lung04·06) — TROP-2 ADC 3파전 재점화, TSMC Q3 콜 D-1
+
 ## 2026-10-13
 - CXMT 4F² DRAM 발표 — 코스피 "블랙 튜즈데이" 5.46% 급락(6,035.35), 삼성 –7.39%·SK하이닉스 –10.09%, 이틀 누적 –8.9%
 - 빅4 은행(JPM·GS·WFC·C) Q3 2026 실적 컨센서스 상회(추정) — 다이먼 "갈수록 복잡해지는 리스크" 경고, 내일 CPI D-1
@@ -57,11 +64,5 @@ publish: false
 - ifinatamab deruxtecan PDUFA D-2(10/10) — B7-H3 ADC ES-SCLC 최초 ADC 허가 이틀 전
 - PepsiCo Q3 실적 발표 — 매출 $25.27B(컨센 $24.97B 상회)·코어 EPS $2.34·유기성장 +3.1%, 어닝스 시즌 개막
 
-## 2026-10-07
-- Genmab·AbbVie epcoritamab EPCORE DLBCL-2 Phase 3 성공 — bispecific 최초 frontline DLBCL PFS 입증 (HR=0.49, R-CHOP 대비 진행·사망 위험 51% 감소)
-- 삼성전자 Q3 잠정실적 D-0 — 내일(10/8) 영업익 컨센 106.1조원·분기 최초 100조원 돌파 여부
-- Q3 S&P 500 어닝스 시즌 D-6 — FactSet EPS +29.5% YoY, JPMorgan 10/13 개막
-- NVIDIA Blackwell Ultra — 2026년 740만 유닛·CoWoS +40%, H2 공급 병목 지속
-- INOVIO INO-3107 PDUFA D-23(10/30) — DNA 치료제 플랫폼 첫 상업화 관문
 
 
