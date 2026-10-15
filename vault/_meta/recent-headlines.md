@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-15
+- TSMC Q3 2026 매출 $46.7B(약 64조4,000억원) 약 50% YoY 성장, Q4 가이던스 $52.3~54.3B(+58%) — CC Wei "AI 수요 공급 능력 초과", 6분기 연속 최고 실적
+- Moderna-Merck INTerpath-001 Phase 3 전체 데이터 ESMO 2026(10/24) Presidential Symposium 첫 공개 예정 — mRNA 개인맞춤 암 백신 첫 3상 성공 검증
+- 미국 9월 CPI 헤드라인 3.7%(컨센서스 상회), 코어 2.6% YoY로 가속 — FOMC 10월 인상 확률 ~33% 재점화
+- Gilead-Vir PRO-XTEN 이중 차폐 TCE 파트너십 체결 — 고형암 3개 후보, 계약 규모 $1.87B(공식 미확인)
+- Anthropic IR데이 후속 — Q2 2026 매출 $11.5B+(14배 YoY), 조정 영업이익 첫 흑자(공식 미확인), 로드쇼 11월 목표
+
 ## 2026-10-14
 - daraxonrasib(Revolution Medicines) RASolute 302 Phase 3 OS 달성 — mOS 13.2 vs 6.6개월(HR=0.40), FDA NDA 수리, 췌장암 KRAS 억제제 표준 교체 신호
 - ASML Q3 2026 순매출 €11.7B·순이익 €5.0B·GM 57.5% 대폭 상회 — 주가 –1.86%, Q4 가이던스 €14.2~15.2B 상향
@@ -57,12 +64,6 @@ publish: false
 - 한미약품 efpeglenatide 식약처 승인 — 국내 최초 주 1회 GLP-1 비만치료제
 - Anthropic IPO 11월 9일 주로 연기 — Series H $965M, 기업가치 목표 $2조
 
-## 2026-10-08
-- 삼성전자 Q3 2026 영업이익 107.4조원·매출 195조원 — 한국 기업 분기 최초 100조원 돌파, YoY +782.5%, DS(반도체) HBM4 주도
-- FOMC 9월 의사록: r* 3.25%로 상향(기존 3.06%) — 장기 중립금리 구조적 상승 공식화, 10/28 추가 인상 확률 ~38~46%
-- Shionogi IntraBio $2B 인수 — Aqneursa(NPC·A-T) 희귀질환, 2026년 합산 희귀질환 투자 $4.5B
-- ifinatamab deruxtecan PDUFA D-2(10/10) — B7-H3 ADC ES-SCLC 최초 ADC 허가 이틀 전
-- PepsiCo Q3 실적 발표 — 매출 $25.27B(컨센 $24.97B 상회)·코어 EPS $2.34·유기성장 +3.1%, 어닝스 시즌 개막
 
 
 
