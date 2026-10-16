@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-16
+- Warsh 연준 의장 IMF 방콕 발언 — 10월 인상 확률 33%→15% 하락, S&P +0.33% ~7,744pt, 10년물 5.08% 안정
+- Arrowhead ARO-MAPT Phase 1 — 피하 RNAi BBB 투과 PoC 최초 확인, CSF 타우 -73%(건강인, 105일)
+- ImmunityBio Anktiva(N-803) — 방광암 유두종성 NMIBC 확대 FDA 조기 승인(원 PDUFA 2027-01-06보다 3개월 앞)
+- ESMO 2026 마드리드 D-8 — Innovent IBI343(CLDN18.2 ADC) LBA77 위암 Phase 3 전체 데이터 10/23, 한국 Ligachem LCB02A도 동일 표적 발표
+- 미국 8개 주 AG OpenAI 집단 고소(2026-10-14) — 아동 안전·소비자 기만, AI 기업 상대 최대 규모 주 공동 소송
+
 ## 2026-10-15
 - TSMC Q3 2026 매출 $46.7B(약 64조4,000억원) 약 50% YoY 성장, Q4 가이던스 $52.3~54.3B(+58%) — CC Wei "AI 수요 공급 능력 초과", 6분기 연속 최고 실적
 - Moderna-Merck INTerpath-001 Phase 3 전체 데이터 ESMO 2026(10/24) Presidential Symposium 첫 공개 예정 — mRNA 개인맞춤 암 백신 첫 3상 성공 검증
@@ -56,14 +63,6 @@ publish: false
 - TSMC Q3 2026 매출 NT$1.49조/$46.7B +50% YoY 사상 최대 (10/8 발표) — AI 수요·모바일 재고, 10/15 상세 콜
 - Roche Tecentriq(atezolizumab) FDA 승인 — dMMR/MSI-H Stage III 결장암 보조요법, ATOMIC -50% 재발 위험
 - Alteogen-Novartis ALT-B4(Hybrozyme) 최대 $3.22B — K-바이오 SC 전환 플랫폼 연내 4번째 빅파마 딜, 한국 이중 가격 제도 병행
-
-## 2026-10-09
-- 미 10년물 국채 5.35% 돌파 — 2002년 이후 24년 만의 최고, DXY 102.50·30년물 동반 고점
-- Brent 원유 $100 재진입 — 이란 호르무즈 해협 봉쇄 재개, 10/14 CPI 분기점
-- ifinatamab deruxtecan PDUFA D-1(10/10) — ES-SCLC 최초 B7-H3 ADC 허가, ORR 48.2%
-- 한미약품 efpeglenatide 식약처 승인 — 국내 최초 주 1회 GLP-1 비만치료제
-- Anthropic IPO 11월 9일 주로 연기 — Series H $965M, 기업가치 목표 $2조
-
 
 
 
