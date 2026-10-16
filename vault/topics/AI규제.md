@@ -1,6 +1,7 @@
 ---
 type: moc
 tags: [AI규제, AI, 거시정책]
+updated: 2026-10-16
 ---
 # 🗂 AI 규제 — 주제 지도(MOC)
 

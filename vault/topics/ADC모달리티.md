@@ -2,6 +2,7 @@
 type: moc
 tags: [바이오제약, ADC모달리티, 신약개발전략, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
+updated: 2026-10-16
 publish: true
 ---
 # 🗂 ADC 모달리티 — 주제 지도(MOC)
@@ -9,12 +10,15 @@ publish: true
 > 범위: 항체-약물 접합체(Antibody-Drug Conjugate, ADC) 플랫폼 경쟁, 주요 페이로드·링커 기술, 임상 승인 동향, 빅파마 딜 구조.
 
 ## 핵심 흐름
-- **ADC 경쟁 구도 이동 — 페이로드 플랫폼 내재화 경쟁(7/7)**: Novartis가 NMTi(N-미리스토일전이효소 억제제) 기반 Myricx Bio를 최대 $1.5B에 인수. TOPO-1·MMAE·DM1과 완전히 다른 기전(단백질 세포막 결합 차단). 임상 전 단계에 선불금 11억달러(73%)는 기전 확신의 지표. ADC 빅파마 전략이 "어떤 표적"에서 "어떤 페이로드를 내재화하나"로 무게 이동. AbbVie-ImmunoGen($101억)·Pfizer-Seagen($430억)·Lilly-CrossBridge($3억)와 같은 논리의 임상 전 단계 판.
-- **ADC 2.0 시대 — 이중 페이로드 설계 진입(6/22)**: Eli Lilly CrossBridge Bio 인수(최대 3억달러). CBB-120은 TROP2에 TOP1i+ATRi를 동시 탑재. 단일 페이로드 ADC 내성 극복 설계.
-- **DATROWAY(Dato-DXd) TNBC 1선 FDA 승인(6/21)**: TROP2 표적 ADC 최초 1선 허가. mOS 23.7 vs 18.7개월. DXd 플랫폼 "페이로드·링커 고정 + 항체 교환" 설계 두 번 연속 검증.
-- **ADC 공통 리스크**: DXd 계열 ILD 안전성 모니터링 지속. NMTi 기반 ADC는 임상 독성·안전성 데이터가 전무한 단계.
+- **IBI343(CLDN18.2 ADC, Innovent) ESMO LBA77(10/23) D-8 — 세계 최초 Phase 3 전체 데이터**: 마드리드. 3차 이상 위암·GEJ 선암 G-HOPE-001. OS·PFS 전체 데이터 공개. NMPA NDA 우선심사 수리 완료. 리가켐바이오사이언스 LCB02A 2스터디 동시 발표. CLDN18.2 ADC 다자 경쟁 기준선 설정.
+- **ADC 표적 다변화 가속 — CLDN18.2·TROP-2·B7-H3·HER2 동시 규제 심사**: 각 표적에서 페이로드·링커·항체 조합 차별화 경쟁. FDA 가속 승인 협소화(I-DXd BLA 철회 9/25)로 Phase 3 확증 패키지 표준화 수렴.
+- **ADC 페이로드 내재화 경쟁 — Novartis Myricx Bio(NMTi ADC)**: TOPO-1·MMAE·DM1과 다른 기전(단백질 세포막 결합 차단). 임상 전 단계. 빅파마 전략이 "어떤 표적"에서 "어떤 페이로드를 내재화하나"로 이동.
+- **DATROWAY(Dato-DXd) TNBC 1선 FDA 승인(6/21)**: TROP2 ADC 최초 1선 허가. mOS 23.7 vs 18.7개월. DXd 플랫폼 "페이로드·링커 고정+항체 교환" 설계 반복 검증.
 
 ## 타임라인
+### 2026-10-16 [[daily/2026-10-16]]
+- [[daily/2026-10-16]] — IBI343(arcotatug tavatecan, Innovent) ESMO LBA77 D-8(10/23): CLDN18.2 ADC G-HOPE-001 Phase 3 전체 데이터 세계 최초 공개. 3차 이상 위암·GEJ 선암. NMPA NDA 우선심사 수리. 리가켐 LCB02A 2스터디 동시 발표 → [[topics/ESMO2026]] [[topics/바이오제약]]
+
 ### 2026-07-07 [[daily/2026-07-07]]
 - [[daily/2026-07-07]] Novartis Myricx Bio 인수 최대 $1.5B — NMTi 기반 ADC 새 기전 범주 진입. B7-H3·HER2 표적 ADC 개발 중. 선불금 11억달러(73%). 임상 전 단계. 기존 TOPO-1·MMAE·DM1 교차 내성 극복 가설. ADC 페이로드 경쟁 2막 개막 신호 → [[topics/신약개발전략]] [[topics/바이오제약]]
 
