@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-17
+- ESMO 2026 D-6 — INTerpath-001(Merck+Moderna mRNA 흑색종 백신) HR 수치 10/24 LBA1 첫 공개
+- Legend Biotech LB2501 — 세계 최초 이중타깃(CD19/CD20) 체내(in vivo) CAR-T FDA IND 승인
+- AstraZeneca-insitro AI 신약 발견 딜 — 선급금 $4,000만, 마일스톤 최대 $14.6억(MASH+심근병증)
+- 삼성바이오로직스-PolyPeptide 공개매수 87.9% 응모 완료 — 국내 제약바이오 최대 해외 M&A 연말 종결 목표
+- Anthropic 나스닥 IPO 11월 중순 로드쇼 목표 — 밸류에이션 $1.8~2조(복수 매체 보도, 공식 미확인)
+
 ## 2026-10-16
 - Warsh 연준 의장 IMF 방콕 발언 — 10월 인상 확률 33%→15% 하락, S&P +0.33% ~7,744pt, 10년물 5.08% 안정
 - Arrowhead ARO-MAPT Phase 1 — 피하 RNAi BBB 투과 PoC 최초 확인, CSF 타우 -73%(건강인, 105일)
@@ -57,12 +64,6 @@ publish: false
 - Anthropic 공개 S-1 이번 주 마감 D-14 — AI 프론티어 기업 첫 재무 데이터 공개 예정, 기업가치 $2조
 - Pfizer sigvotatug vedotin ESMO LBA68(10/25) — integrin β6 ADC Phase 3 NSCLC, 탑라인 전체 집단 OS 미충족 확인
 
-## 2026-10-10
-- I-DXd BLA PDUFA D-0 경과 — BLA 9/25 이미 철회됨(10/4 수록 교정), Phase 3 IDeate-Lung02 등록 마감 단계, MRK $148.74
-- 미국 S&P 500 주간 마감 7,812pts +0.59%, 10년물 5.24% — 주중 5.35% 고점에서 후퇴, 어닝스 D-3
-- TSMC Q3 2026 매출 NT$1.49조/$46.7B +50% YoY 사상 최대 (10/8 발표) — AI 수요·모바일 재고, 10/15 상세 콜
-- Roche Tecentriq(atezolizumab) FDA 승인 — dMMR/MSI-H Stage III 결장암 보조요법, ATOMIC -50% 재발 위험
-- Alteogen-Novartis ALT-B4(Hybrozyme) 최대 $3.22B — K-바이오 SC 전환 플랫폼 연내 4번째 빅파마 딜, 한국 이중 가격 제도 병행
 
 
 
