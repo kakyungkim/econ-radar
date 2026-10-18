@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-18
+- HUTCHMED SAFFRON Phase 3 — ESMO D-5, MET+EGFR 내성 NSCLC 첫 글로벌 3상 프레지덴셜 심포지엄 10/24(CICC 목표가 HK$26, NDA 9/29)
+- Incyte INCB161734 — 경구 KRAS G12D 억제제, 대장암(10/25 #1007RO)·췌장암(10/26 #3137RO) ESMO 2건 발표
+- SK하이닉스 Q3 실적 임박 — HBM4 수익화 첫 공식 확인 시점, 영업이익 추정 70.1~77.9조 원(하나·DS 범위)
+- 중국 Q3 GDP — 10/19 오전 발표 예정, 컨센서스 +4.4% YoY(Reuters), 정부 목표 4.5~5.0% 하단 미달 우려
+- Iambic Therapeutics(IAM) IPO 첫날 +18% — 공모가 $16→종가 $18.91(단일소스), AI 신약 플랫폼 기관 수요 확인
+
 ## 2026-10-17
 - ESMO 2026 D-6 — INTerpath-001(Merck+Moderna mRNA 흑색종 백신) HR 수치 10/24 LBA1 첫 공개
 - Legend Biotech LB2501 — 세계 최초 이중타깃(CD19/CD20) 체내(in vivo) CAR-T FDA IND 승인
@@ -57,12 +64,6 @@ publish: false
 - Viatris-Pacira BioSciences $16.5억(약 2.3조원) 인수 — 비오피오이드 수술 통증 포트폴리오(Exparel·Zilretta)
 - OpenAI GPT-6 Intelligent UI ChatGPT 도입(10/7) — Plus/Pro/Business 우선, 인터랙티브 차트·버튼·폼
 
-## 2026-10-11
-- 이번 주 거시 3대 이벤트 D-2/D-3/D-4 — 어닝스(10/13)·CPI(10/14)·TSMC 콜(10/15) 72시간 집중, 10년물 5.24%
-- OpenAI 연환산 순수익 $50B(약 69조원) — FT 보도, 투자자 총수익 $70B와 $20B 격차, AI 수익화 기준선 논쟁
-- Moderna INTerpath-001 ESMO Presidential Symposium LBA1(10/24) D-13 — mRNA 항암백신 5년 OS 최초 공개 임박
-- Anthropic 공개 S-1 이번 주 마감 D-14 — AI 프론티어 기업 첫 재무 데이터 공개 예정, 기업가치 $2조
-- Pfizer sigvotatug vedotin ESMO LBA68(10/25) — integrin β6 ADC Phase 3 NSCLC, 탑라인 전체 집단 OS 미충족 확인
 
 
 
