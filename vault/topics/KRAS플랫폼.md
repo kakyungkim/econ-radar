@@ -9,11 +9,15 @@ publish: true
 > 범위: KRAS 돌연변이 표적 전략 전체 — 저분자 억제제(G12C·G12D), mRNA 암 백신, DAC(분해제-항체 접합체), 면역 시퀀스 조합 전략.
 
 ## 핵심 흐름
-- **daraxonrasib(Rasonque) 상업화 진입(8/26 승인) — pan-RAS ON-state 억제 첫 상업화**: RAS G12D·G12V·G12R·G13D 등 다수 변이 포괄, 동반진단 불필요. 약가 협상·NGS 인프라 확산이 처방 확산의 실질 병목. 1차 치료(SHP2 RMC-4630 병용) 임상·결장직장암·폐암 적응증 확장이 다음 촉매.
-- **G12D 이중 RAS 억제 전략(daraxonrasib + 졸돈라시브 병용) — RASolute 309**: 2차 ORR 50%·중앙 PFS 9.6개월. G12D 선택적(졸돈라시브) + pan-RAS(daraxonrasib) 이중 병용으로 단독 억제 내성 극복 접근. G12C SOS1 병용과 평행 구조.
-- **G12C 2세대 Roche divarasib Krascendo 1 — Head-to-head 3상 PFS·OS 동시 달성**: 1세대(sotorasib·adagrasib) 공식 추월. NDA 2027년 목표. OFF-state→내성 극복 2세대→SOS1 병용→PROTAC degrader 모달리티 흐름 진행 중.
+- **ESMO 2026 D-5 — Incyte INCB161734(KRAS G12D 경구 억제제) 대장암(10/25)·췌장암(10/26) 초기 임상 데이터 최초 공개**: G12D 비공유결합 소분자 임상 신호 첫 확인 시점. 대장암 세툭시맙·췌장암 화학요법 병용. 안전성 프로파일과 ORR 신호 유무가 G12D 공간의 상업화 가능성 첫 판단 기준.
+- **daraxonrasib(Rasonque) 상업화 진입(8/26 승인) — pan-RAS G12D·G12V 첫 상업화**: 동반진단 불필요. 약가·NGS 인프라 확산이 처방 확산 실질 병목. 결장직장암·폐암 G12D 확장 임상이 다음 촉매.
+- **G12D 이중 억제(daraxonrasib + 졸돈라시브) RASolute 309 — ORR 50%·중앙 PFS 9.6개월**: G12D 선택적 + pan-RAS 이중 병용으로 단독 억제 내성 극복. G12C SOS1 병용과 평행 구조.
+- **G12C 2세대 Roche divarasib PFS·OS 동시 달성**: 1세대(sotorasib·adagrasib) 공식 추월. G12C 선도 데이터가 G12D 임상 설계 비교 기준선.
 
 ## 타임라인
+### 2026-10-18 [[daily/2026-10-18]]
+- [[daily/2026-10-18]] — Incyte INCB161734(KRAS G12D 경구 억제제) ESMO 2026 Rapid Oral 2건(10/25 대장암·10/26 췌장암): KRAS G12D 억제제 임상 데이터 세계 최초 공개. 비공유결합 소분자·병용 설계. Revolution Medicines(ERAS-4)·Mirati/BMS와 경쟁 구도에서 첫 공개 데이터 → [[topics/ESMO2026]] [[topics/바이오제약]]
+
 ### 2026-09-07 [[daily/2026-09-07]]
 - daraxonrasib 상업화 첫 주 — pan-RAS 억제 Today's Topic 심층 분석. RAS ON-state·switch II pocket 비공유결합 기전. 내성 기전(RAS 증폭·2차 변이)·SHP2 병용을 처음부터 3상 설계에 내장한 첫 사례. 결장직장암·폐암 G12D 확장 임상 착수 여부가 다음 관전 포인트 → [[topics/RAS억제제]] [[topics/신약개발전략]]
 
