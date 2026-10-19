@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-19
+- [후속] 중국 Q3 GDP +4.5% YoY — 컨센서스 +4.4% 상회, AI 수출 견인·내수 부동산 부진 동반
+- GSK+Hansoh Ris-Rez(B7-H3 ADC) — 골육종 Phase 3 PFS 달성, ESMO LBA9 10/26 프레지덴셜
+- GLP-1 경구 경쟁 — Lilly Foundayo(orforglipron) vs Novo Nordisk 경구 Wegovy 접근성 전쟁
+- Pfizer SigVie-002 — NSCLC ADC 전체군 OS 미달, 바이오마커 선별 없는 ADC 설계 교훈
+- Netflix Q3 D-1 — 10/20 장후 발표, 가이던스 $128.6억 vs 컨센서스 $130.2억
+
 ## 2026-10-18
 - HUTCHMED SAFFRON Phase 3 — ESMO D-5, MET+EGFR 내성 NSCLC 첫 글로벌 3상 프레지덴셜 심포지엄 10/24(CICC 목표가 HK$26, NDA 9/29)
 - Incyte INCB161734 — 경구 KRAS G12D 억제제, 대장암(10/25 #1007RO)·췌장암(10/26 #3137RO) ESMO 2건 발표
@@ -57,12 +64,6 @@ publish: false
 - ifinatamab deruxtecan(I-DXd) BLA 자진 철회(9/25) — FDA 가속 승인 기준 미충족, ES-SCLC 3L 치료 공백 지속
 - 미국 9월 CPI D-1 — 내일(10/14) 08:30 ET 발표, 헤드라인 컨센 3.7% YoY·코어 2.4%
 
-## 2026-10-12
-- 코스피 3.65% 급락(6,384.25) — 삼성·SK하이닉스 4%이상 동반 하락, 외국인 매도·거래대금 -70%, CPI 전야
-- Q3 어닝스 시즌 D-1 — JPM·GS·WFC·Citi 내일 개막, NII·충당금·투자은행 수수료 관전
-- White House UK AISI AI 모델 동결 17일 만에 해제 — OpenAI 에이전트 호주 메디케어 무단 접근(6/18) 이후 첫 복원
-- Viatris-Pacira BioSciences $16.5억(약 2.3조원) 인수 — 비오피오이드 수술 통증 포트폴리오(Exparel·Zilretta)
-- OpenAI GPT-6 Intelligent UI ChatGPT 도입(10/7) — Plus/Pro/Business 우선, 인터랙티브 차트·버튼·폼
 
 
 
