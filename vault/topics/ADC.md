@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [ADC, 바이오제약, 한국바이오, 신약개발전략]
-updated: 2026-09-30
+updated: 2026-10-19
 ---
 # 🗂 ADC — 주제 지도(MOC)
 
@@ -9,11 +9,14 @@ updated: 2026-09-30
 > 상세 모달리티 분석: [[topics/ADC모달리티]] | 광범위 ADC 현황: [[topics/ADC항체약물접합체]]
 
 ## 핵심 흐름
-- **ivonescimab(이중항체)+ADC 병용 — IO-이중항체-ADC 3중 조합 설계 새 문법(9/30)**: AstraZeneca ivonescimab+T-DXd(HER2 ADC) Phase 1/2 착수. ADC+단순 IO 병용 실패(EVOKE-03) 이후 IO 파트너를 이중항체로 교체하는 설계 흐름. 독성 중첩(ILD·irAE) 허용 기준이 핵심 설계 변수.
-- **SC 플랫폼 AOC(항체-올리고뉴클레오타이드 접합체) 확장 가능성**: 알테오젠 노바티스 메가딜에서 ALT-B4 플랫폼 AOC 확장 드라이버 첫 거론. ADC 다음 접합체 영역으로의 진출 방향.
-- **ADC 링커·제형 플랫폼 독립 수익 모델 지속**: 인투셀(OHPAS), 알테오젠(ALT-B4→AOC 확장), Halozyme(ENHANZE). 임상 리스크 없이 계약금·마일스톤·로열티 수익.
+- **B7-H3 ADC Ris-Rez Phase 3 PFS 달성 — ESMO LBA9(10/26) HR 수치 D-7**: 골육종 117명 ARTEMIS-011 Phase 3, gemcitabine+docetaxel 대비 통계적으로 유의한 PFS 개선. B7-H3 표적 ADC Phase 3 최초 검증. BTD 기반 가속 승인 경로 개방. HR이 다적응증(폐암·유방암·방광암) 확장 전략의 상업적 기준점.
+- **SigVie-002 OS 미달 — 전체군 ADC 설계의 구조적 한계 재확인**: integrin β6 NSCLC 703명 전체군 OS 미달+바이오마커 미확인. ADC 설계 교훈: 희귀·타깃·BTD vs 대규모·전체군·CDx 없는 설계 선택이 결과를 좌우. Pfizer 1L 병용(+키트루다) 시험으로 환자 선별 전략 재도전.
+- **ADC 링커·플랫폼 독립 수익 모델 지속**: 인투셀(OHPAS), 알테오젠(ALT-B4→AOC 확장), Halozyme(ENHANZE). 임상 리스크 없이 계약금·마일스톤·로열티 수익.
 
 ## 타임라인
+### 2026-10-19 [[daily/2026-10-19]]
+- **B7-H3 ADC Ris-Rez(GSK/Hansoh) Phase 3 PFS 달성 — ESMO LBA9(10/26) HR 수치 D-7**: ARTEMIS-011 Phase 3 골육종 117명, gemcitabine+docetaxel 대비 통계적으로 유의한 PFS 개선. B7-H3 표적 ADC Phase 3 최초 검증. BTD 기반 가속 승인 경로. 10/26 HR이 다적응증 확장 전략 기준점. / **SigVie-002(Pfizer) NSCLC OS 미달 — ESMO LBA68(10/26) 전체 수치 공개**: integrin β6 NSCLC 703명 전체군 OS 미달+바이오마커 미확인. ADC 바이오마커 선별 설계 교훈 재확인. Pfizer 1L 병용(+키트루다) 시험 지속. 희귀암 선행 검증 vs 전체군 대규모 시험 대조 사례 → [[topics/ESMO2026]] [[topics/신약개발전략]]
+
 ### 2026-09-30 [[daily/2026-09-30]]
 - **AstraZeneca ivonescimab + T-DXd(HER2 ADC) 병용 임상 착수 — IO-이중항체-ADC 3중 설계 새 문법**: NSCLC 비편평·HER2 발현 하위군 Phase 1/2 공개. AZ-Summit $2B 딜 동시 발표. ADC+단순 IO 병용 실패(EVOKE-03) 이후 IO 파트너를 이중항체로 교체하는 설계 방향 가시화. ILD·irAE 독성 중첩 허용 기준 관리가 3상 전환 요건 → [[topics/바이오제약]] [[topics/신약개발전략]] [[topics/NSCLC치료제경쟁]]
 
