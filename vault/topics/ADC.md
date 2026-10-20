@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [ADC, 바이오제약, 한국바이오, 신약개발전략]
-updated: 2026-10-19
+updated: 2026-10-20
 ---
 # 🗂 ADC — 주제 지도(MOC)
 
@@ -9,11 +9,14 @@ updated: 2026-10-19
 > 상세 모달리티 분석: [[topics/ADC모달리티]] | 광범위 ADC 현황: [[topics/ADC항체약물접합체]]
 
 ## 핵심 흐름
-- **B7-H3 ADC Ris-Rez Phase 3 PFS 달성 — ESMO LBA9(10/26) HR 수치 D-7**: 골육종 117명 ARTEMIS-011 Phase 3, gemcitabine+docetaxel 대비 통계적으로 유의한 PFS 개선. B7-H3 표적 ADC Phase 3 최초 검증. BTD 기반 가속 승인 경로 개방. HR이 다적응증(폐암·유방암·방광암) 확장 전략의 상업적 기준점.
-- **SigVie-002 OS 미달 — 전체군 ADC 설계의 구조적 한계 재확인**: integrin β6 NSCLC 703명 전체군 OS 미달+바이오마커 미확인. ADC 설계 교훈: 희귀·타깃·BTD vs 대규모·전체군·CDx 없는 설계 선택이 결과를 좌우. Pfizer 1L 병용(+키트루다) 시험으로 환자 선별 전략 재도전.
+- **ESMO 2026 sac-TMT ADC 3건 확증 데이터 주간 — TROP2 임상 서열 처음 드러남**: TroFuse-005(자궁내막암 OS+PFS, N=776, 10/26), OptiTROP-Lung04·Lung06(NSCLC TROP2 ADC, 10/25), KEYNOTE-C93(dMMR 자궁내막암 pembrolizumab, 10/26). Dato-DXd·Trodelvy·sac-TMT 3파전 HR 공개 후 K-바이오 ADC 링커 기업 협상 레버리지 재조정.
+- **B7-H3 ADC Ris-Rez Phase 3 PFS 달성 — ESMO LBA9(10/26) HR 수치**: 골육종 117명 ARTEMIS-011, gemcitabine+docetaxel 대비 PFS 통계적 유의 개선. B7-H3 표적 ADC Phase 3 최초 검증. BTD 기반 가속 승인 경로 개방. HR이 다적응증(폐암·유방암·방광암) 확장 전략의 상업적 기준점.
 - **ADC 링커·플랫폼 독립 수익 모델 지속**: 인투셀(OHPAS), 알테오젠(ALT-B4→AOC 확장), Halozyme(ENHANZE). 임상 리스크 없이 계약금·마일스톤·로열티 수익.
 
 ## 타임라인
+### 2026-10-20 [[daily/2026-10-20]]
+- [[daily/2026-10-20]] — ESMO 2026 ADC 3건 확증 데이터 주간: TroFuse-005(sac-TMT 자궁내막암 OS+PFS, N=776, 10/26), sac-TMT Lung04·Lung06(NSCLC TROP2, 10/25), KEYNOTE-C93(dMMR 자궁내막암 pembrolizumab, 10/26) 순차 공개 — TROP2 ADC 3파전 임상 서열 이번 주 처음 확인; K-바이오 ADC 파이프라인 경쟁 구도 레퍼런스 업데이트 기점 → [[topics/ESMO2026]] [[topics/신약개발전략]]
+
 ### 2026-10-19 [[daily/2026-10-19]]
 - **B7-H3 ADC Ris-Rez(GSK/Hansoh) Phase 3 PFS 달성 — ESMO LBA9(10/26) HR 수치 D-7**: ARTEMIS-011 Phase 3 골육종 117명, gemcitabine+docetaxel 대비 통계적으로 유의한 PFS 개선. B7-H3 표적 ADC Phase 3 최초 검증. BTD 기반 가속 승인 경로. 10/26 HR이 다적응증 확장 전략 기준점. / **SigVie-002(Pfizer) NSCLC OS 미달 — ESMO LBA68(10/26) 전체 수치 공개**: integrin β6 NSCLC 703명 전체군 OS 미달+바이오마커 미확인. ADC 바이오마커 선별 설계 교훈 재확인. Pfizer 1L 병용(+키트루다) 시험 지속. 희귀암 선행 검증 vs 전체군 대규모 시험 대조 사례 → [[topics/ESMO2026]] [[topics/신약개발전략]]
 

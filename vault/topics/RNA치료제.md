@@ -9,12 +9,15 @@ publish: true
 > 범위: ASO·siRNA·mRNA·RNA 편집(trans-splicing 리보자임)·AOC 등 RNA를 표적하거나 RNA로 작용하는 모달리티. 전달체(LNP·GalNAc·항체) 경쟁, 적응증 확장(희귀질환→대형 만성질환), 승인·파트너링 이정표를 추적한다.
 
 ## 핵심 흐름
-- **ZANVASTRO(zilganersen, Ionis) 9/3 FDA 승인 — ASO 희귀 CNS 두 번째 상업 허가**: Alexander disease(AxD) 첫 질환 수정 치료제. GFAP mRNA 억제, 척수강내 분기 1회 투여. PRV 수여. nusinersen(SMA)에 이어 Ionis ASO 플랫폼의 CNS 희귀질환 확장 경로 재확인.
-- **Ionis olezarsen(Tryngolza) — GalNAc-ASO 대형 만성질환 첫 진입(6/24 승인)**: sHTG 독자 상업화 진행 중. FCS(3만~7만 명) → sHTG(약 300만 명) 환자 풀 확장. 급여 협상이 RNA 모달리티 전체 약가 선례.
-- **Moderna MFLUSIVA(mRNA-1010) FDA 승인(8/5)** — mRNA 계절 독감 백신, 연간 필수 접종 시장 첫 진입. 코로나19 이후 mRNA 플랫폼 상업화 2단계.
+- **Merck KGaA, Silence Therapeutics EV $1.1B(ADS $20·130% 프리미엄) 인수 합의(10/19)** — GalNAc-siRNA 플랫폼 M&A, 핵심 자산 divesiran(진성다혈증 PV) Phase 2 완료·Phase 3 2027H1 개시 예정. 플랫폼 미보유 중대형 파마 M&A 압력 패턴 재확인(Alnylam→AZ-Dicerna→Merck KGaA-Silence 순).
+- **GalNAc-siRNA 간 표적 전달**: 간세포 ASGR 수용체를 통해 siRNA를 간에 정밀 배달, 6~12주 피하주사 한 번으로 수개월간 효과. 간 기반 질환(혈전·지질·혈액 대사) 적응증 확장 지속. 간 외 조직은 별도 기술(LNP·AOC) 필요.
+- **ZANVASTRO(zilganersen, Ionis) 9/3 FDA 승인 — ASO 희귀 CNS 두 번째 상업 허가**: Alexander disease(AxD) 첫 질환 수정 치료제. nusinersen(SMA)에 이어 Ionis ASO 플랫폼 CNS 희귀질환 확장 경로 재확인.
 - **전달체 경쟁**: GalNAc(간)·LNP(백신·간)·AOC(근육) 3트랙. 노바티스 AOC 플랫폼 FSHD 임상 검증으로 근육 특이 전달 첫 돌파.
 
 ## 타임라인
+### 2026-10-20 [[daily/2026-10-20]]
+- [[daily/2026-10-20]] — Merck KGaA, Silence Therapeutics EV $1.1B(130% 프리미엄) 인수 합의: GalNAc-siRNA 플랫폼 내재화, 핵심 자산 divesiran(PV, Phase 2 완료·88% vs 19% 사혈 응답률) Phase 3 2027H1 개시 예정. 플랫폼 미보유 빅파마 M&A 압력 패턴 반복 확인 → [[topics/신약개발전략]] [[topics/바이오제약]]
+
 ### 2026-09-09 [[daily/2026-09-09]]
 - ZANVASTRO(zilganersen, Ionis) 9/3 FDA 승인 — ASO, CNS 희귀질환(Alexander disease) 두 번째 상업 허가. GFAP mRNA 억제 기전, 척수강내 분기 1회 투여. PRV 수여. Ionis 독자 상업화 두 번째 검증 → [[topics/희귀질환신약]] [[topics/신약개발전략]]
 
