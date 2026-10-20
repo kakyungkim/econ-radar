@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-20
+- Merck KGaA × Silence Therapeutics 인수 합의 — EV $1.1B(약 1조5,000억원), 130% 프리미엄, GalNAc-siRNA 플랫폼 내재화
+- ESMO 2026 LBA 초록 공개 — INTerpath-001 mRNA 암백신·sac-TMT ADC 3건 수치 10/24~26 발표 예정
+- Regeneron pozelimab VEXAS 증후군 PDUFA 오늘(10/20) — 결과 미확인, 최초 VEXAS 표적치료제 후보
+- GSK bepirovirsen 만성B형간염 기능적 완치 PDUFA D-6(10/26) — CHB 2억5,400만 명 시장 패러다임 전환 시험대
+- Netflix Q3 오늘 장후 발표 — 가이던스 $128.6억, 컨센서스 $130.2억, 광고 구독·이익률 개선 확인 분수령
+
 ## 2026-10-19
 - [후속] 중국 Q3 GDP +4.5% YoY — 컨센서스 +4.4% 상회, AI 수출 견인·내수 부동산 부진 동반
 - GSK+Hansoh Ris-Rez(B7-H3 ADC) — 골육종 Phase 3 PFS 달성, ESMO LBA9 10/26 프레지덴셜
@@ -57,12 +64,6 @@ publish: false
 - Google Gemini 4 Argon 기업·개발자 광범 공개 + Anthropic IR데이 SF 진행 — AI 3파전(GPT-6·Gemini 4·Claude) 구도, 목표 밸류 $1.8~2T
 - Kelun-Biotech sac-TMT ESMO 2026 LBA 2건 선정(OptiTROP-Lung04·06) — TROP-2 ADC 3파전 재점화, TSMC Q3 콜 D-1
 
-## 2026-10-13
-- CXMT 4F² DRAM 발표 — 코스피 "블랙 튜즈데이" 5.46% 급락(6,035.35), 삼성 –7.39%·SK하이닉스 –10.09%, 이틀 누적 –8.9%
-- 빅4 은행(JPM·GS·WFC·C) Q3 2026 실적 컨센서스 상회(추정) — 다이먼 "갈수록 복잡해지는 리스크" 경고, 내일 CPI D-1
-- Anthropic 10/14 기관 IR데이 + 11월 나스닥 IPO 로드맵 확인 — 목표 밸류에이션 ~$2T(본문 확인 필요), GS·MS·JPM 주관
-- ifinatamab deruxtecan(I-DXd) BLA 자진 철회(9/25) — FDA 가속 승인 기준 미충족, ES-SCLC 3L 치료 공백 지속
-- 미국 9월 CPI D-1 — 내일(10/14) 08:30 ET 발표, 헤드라인 컨센 3.7% YoY·코어 2.4%
 
 
 
