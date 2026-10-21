@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-21
+- 영국 9월 CPI 3.5%(컨센서스 3.4% 상회) — BOE 11월 25bp 인상 확률 ~80%, 길트 10년물 5.44%(19년 최고)
+- Netflix Q3 영업이익률 34.6%(가이던스 33.2% 대비 +140bp), EPS $0.87 상회 — 광고 연간 목표 $3.0B→$2.7B 하향
+- SAFFRON NDA FDA 제출 완료 — 오시머티닙+사볼리티닙 EGFR+MET NSCLC Phase 3 PFS+OS 달성, ESMO LBA6(10/25) HR 공개 예정
+- 한국은행 기준금리 결정 내일(10/22) — 전문가 11명 전원 동결(현 3.00%), 최종 3.50% 전망 다수
+- INTerpath-001 ESMO LBA1 D-3(10/24) — mRNA 흑색종 백신 Phase 3 RFS·DMFS 모두 달성, 세계 최초 치료용 mRNA 3상 HR 수치 첫 공개
+
 ## 2026-10-20
 - Merck KGaA × Silence Therapeutics 인수 합의 — EV $1.1B(약 1조5,000억원), 130% 프리미엄, GalNAc-siRNA 플랫폼 내재화
 - ESMO 2026 LBA 초록 공개 — INTerpath-001 mRNA 암백신·sac-TMT ADC 3건 수치 10/24~26 발표 예정
@@ -56,15 +63,6 @@ publish: false
 - 미국 9월 CPI 헤드라인 3.7%(컨센서스 상회), 코어 2.6% YoY로 가속 — FOMC 10월 인상 확률 ~33% 재점화
 - Gilead-Vir PRO-XTEN 이중 차폐 TCE 파트너십 체결 — 고형암 3개 후보, 계약 규모 $1.87B(공식 미확인)
 - Anthropic IR데이 후속 — Q2 2026 매출 $11.5B+(14배 YoY), 조정 영업이익 첫 흑자(공식 미확인), 로드쇼 11월 목표
-
-## 2026-10-14
-- daraxonrasib(Revolution Medicines) RASolute 302 Phase 3 OS 달성 — mOS 13.2 vs 6.6개월(HR=0.40), FDA NDA 수리, 췌장암 KRAS 억제제 표준 교체 신호
-- ASML Q3 2026 순매출 €11.7B·순이익 €5.0B·GM 57.5% 대폭 상회 — 주가 –1.86%, Q4 가이던스 €14.2~15.2B 상향
-- 미국 9월 CPI 발표일 — 수집 시점 실제치 미확인, 컨센서스 헤드라인 3.6~3.7%·코어 2.4~2.5%, 10년 국채 5.364% 고점
-- Google Gemini 4 Argon 기업·개발자 광범 공개 + Anthropic IR데이 SF 진행 — AI 3파전(GPT-6·Gemini 4·Claude) 구도, 목표 밸류 $1.8~2T
-- Kelun-Biotech sac-TMT ESMO 2026 LBA 2건 선정(OptiTROP-Lung04·06) — TROP-2 ADC 3파전 재점화, TSMC Q3 콜 D-1
-
-
 
 
 

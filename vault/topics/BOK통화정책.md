@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [거시정책]
-updated: 2026-08-27
+updated: 2026-10-21
 ---
 # 🗂 BOK 통화정책 — 주제 지도(MOC)
 

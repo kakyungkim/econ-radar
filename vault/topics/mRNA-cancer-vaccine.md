@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 신약개발전략]
-updated: 2026-08-30
+updated: 2026-10-21
 ---
 # 🗂 mRNA 암 치료 백신 — 주제 지도(MOC)
 

@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, EGFR폐암]
-updated: 2026-09-09
+updated: 2026-10-21
 ---
 # 🗂 EGFR 폐암 — 주제 지도(MOC)
 
