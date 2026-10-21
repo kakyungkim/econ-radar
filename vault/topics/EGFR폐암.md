@@ -6,11 +6,15 @@ updated: 2026-10-21
 # 🗂 EGFR 폐암 — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **WCLC 서울 2026(9/12~15) D-3 — 유한양행 YH42946 HER2+EGFR 엑손20 이중 경구 TKI 첫 임상 데이터 공개**: 1/2상 ORR·안전성 초기 결과. EGFR 엑손20 삽입 커버리지가 AZ sunvozertinib·amivantamab(J&J)과의 차별화 포인트.
-- **EGFR 변이 NSCLC 1차 치료 표준 전쟁 — Tagrisso(AZ) 8년 OS vs MARIPOSA(J&J) amivantamab+lazertinib HR 0.75**: WCLC 2026이 첫 학술 정면 대결 무대. 가이드라인 개정 방향과 수백만 명 처방 흐름이 연동.
-- **AZ sunvozertinib $1.5B 라이선스(9/7)** — EGFR 엑손20 삽입 1차 치료 Phase 3 데이터 WCLC 공개. amivantamab(J&J)과 엑손20 처방 경쟁 구도 확정.
+- **SAFFRON NDA FDA 제출 완료(9/29) — EGFR+MET 이중 표적 내성 극복 첫 Phase 3 OS 근거**: AstraZeneca+HUTCHMED 오시머티닙(Tagrisso)+사볼리티닙(Orpathys) 병용, EGFR 변이+MET 증폭·과발현 NSCLC 2차 치료. Phase 3 SAFFRON(N=338, 30개국 230개 기관) PFS·OS 이중 달성(8/17 탑라인). HR·OS 중앙값 10/25 ESMO LBA6 최초 공개 예정.
+- **MET 증폭: 오시머티닙 1차 후 가장 흔한 획득 내성 경로(5~15%)** — 현재 유일한 선택지는 백금 기반 화학요법(PFS 4~5개월). SAFFRON이 OS를 입증하면 TKI 병용이 화학요법을 대체하는 최초 Phase 3 근거가 된다.
+- **1차 치료 표준 전쟁 지속 — Tagrisso 8년 OS vs MARIPOSA amivantamab+lazertinib HR 0.75**: WCLC 2026(9/12~15) 학술 대결 이후 2차 내성 극복 경쟁(SAFFRON)으로 전선 확대. AZ sunvozertinib(엑손20 삽입 1차 치료)까지 포트폴리오 전방위 커버.
+- **동반진단(MET IHC·FISH) 표준화가 광범위 처방 선행 조건**: ESMO 10/25 HR 수치 강도가 가이드라인 편입과 ICER 급여 근거 구축의 출발점.
 
 ## 타임라인
+### 2026-10-21 [[daily/2026-10-21]]
+- [[daily/2026-10-21]] — SAFFRON NDA FDA 제출 완료(9/29) 확인. 오시머티닙+사볼리티닙 병용, EGFR 변이+MET 증폭 NSCLC 2차 치료. Phase 3 PFS·OS 이중 달성(N=338). MET 증폭: 1차 오시머티닙 후 가장 흔한 획득 내성 경로(5~15%), 현 유일 선택지 백금 화학요법 대체 근거. HR·OS 중앙값 10/25 ESMO LBA6 최초 공개 예정 → [[topics/ESMO2026]] [[topics/신약개발전략]]
+
 ### 2026-09-09 [[daily/2026-09-09]]
 - 유한양행 YH42946 WCLC D-3(9/12~15) — HER2·EGFR 엑손20 이중 경구 TKI 첫 1/2상 ORR 데이터 공개. EGFR 엑손20 삽입 커버 기전이 AZ sunvozertinib·amivantamab(J&J)과의 차별화 포인트 → [[topics/한국바이오]] [[topics/HER2표적치료]] [[topics/바이오제약]]
 
