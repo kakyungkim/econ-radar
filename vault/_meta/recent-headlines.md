@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-22
+- 한국은행 3.00% 동결 — 7인 만장일치, 점도표 3.25% 시사, 11월 추가 인상 가능성 열어둬
+- Tesla Q3 EPS $0.48 beat, FCF $1.53B(약 2조1,100억원) 서프라이즈 — FSD 구독 174만 명(+67% YoY), 순이익 -43% YoY
+- ESMO 2026 마드리드 내일 개막 — LBA1 INTerpath-001 mRNA 암백신 Phase 3 HR(10/24), LBA6 SAFFRON EGFR+MET HR(10/25) 첫 공개
+- GSK Hibsago(bepirovirsen) FDA PDUFA D-4(10/26) — 만성B형간염 기능적 치유율 19% vs 0%, CHB 패러다임 전환 시험대
+- 삼성바이오로직스 PolyPeptide 공개매수 87.92% 성사 — CHF 1.46B(약 2조2,000억원 추정), GLP-1 API CDMO 포트폴리오 진입
+
 ## 2026-10-21
 - 영국 9월 CPI 3.5%(컨센서스 3.4% 상회) — BOE 11월 25bp 인상 확률 ~80%, 길트 10년물 5.44%(19년 최고)
 - Netflix Q3 영업이익률 34.6%(가이던스 33.2% 대비 +140bp), EPS $0.87 상회 — 광고 연간 목표 $3.0B→$2.7B 하향
@@ -56,14 +63,6 @@ publish: false
 - ImmunityBio Anktiva(N-803) — 방광암 유두종성 NMIBC 확대 FDA 조기 승인(원 PDUFA 2027-01-06보다 3개월 앞)
 - ESMO 2026 마드리드 D-8 — Innovent IBI343(CLDN18.2 ADC) LBA77 위암 Phase 3 전체 데이터 10/23, 한국 Ligachem LCB02A도 동일 표적 발표
 - 미국 8개 주 AG OpenAI 집단 고소(2026-10-14) — 아동 안전·소비자 기만, AI 기업 상대 최대 규모 주 공동 소송
-
-## 2026-10-15
-- TSMC Q3 2026 매출 $46.7B(약 64조4,000억원) 약 50% YoY 성장, Q4 가이던스 $52.3~54.3B(+58%) — CC Wei "AI 수요 공급 능력 초과", 6분기 연속 최고 실적
-- Moderna-Merck INTerpath-001 Phase 3 전체 데이터 ESMO 2026(10/24) Presidential Symposium 첫 공개 예정 — mRNA 개인맞춤 암 백신 첫 3상 성공 검증
-- 미국 9월 CPI 헤드라인 3.7%(컨센서스 상회), 코어 2.6% YoY로 가속 — FOMC 10월 인상 확률 ~33% 재점화
-- Gilead-Vir PRO-XTEN 이중 차폐 TCE 파트너십 체결 — 고형암 3개 후보, 계약 규모 $1.87B(공식 미확인)
-- Anthropic IR데이 후속 — Q2 2026 매출 $11.5B+(14배 YoY), 조정 영업이익 첫 흑자(공식 미확인), 로드쇼 11월 목표
-
 
 
 
