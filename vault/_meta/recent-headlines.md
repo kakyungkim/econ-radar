@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-23
+- GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 만성B형간염 기능적 완치율 19% vs 0%, CHB 첫 기능적 치유제 탄생
+- Innovent IBI343 ESMO LBA77 위암 Phase 3 PFS 충족 — Takeda $11.4B 글로벌 파트너십, 계약금 $1.2B 확인
+- INTerpath-001(intismeran autogene) ESMO LBA1 내일(10/24) — mRNA 흑색종 백신 Phase 3 RFS·DMFS 달성
+- Meta Q3 2026년 capex 가이던스 $135~145B 상향 — AH -11%, AI 투자 ROI 타임라인 시험대
+- FOMC D-5(10/28) — 현행 기준금리 3.75~4.00% 동결 전망, Warsh 의장 금리 경로 발언 예정
+
 ## 2026-10-22
 - 한국은행 3.00% 동결 — 7인 만장일치, 점도표 3.25% 시사, 11월 추가 인상 가능성 열어둬
 - Tesla Q3 EPS $0.48 beat, FCF $1.53B(약 2조1,100억원) 서프라이즈 — FSD 구독 174만 명(+67% YoY), 순이익 -43% YoY
@@ -57,12 +64,6 @@ publish: false
 - 삼성바이오로직스-PolyPeptide 공개매수 87.9% 응모 완료 — 국내 제약바이오 최대 해외 M&A 연말 종결 목표
 - Anthropic 나스닥 IPO 11월 중순 로드쇼 목표 — 밸류에이션 $1.8~2조(복수 매체 보도, 공식 미확인)
 
-## 2026-10-16
-- Warsh 연준 의장 IMF 방콕 발언 — 10월 인상 확률 33%→15% 하락, S&P +0.33% ~7,744pt, 10년물 5.08% 안정
-- Arrowhead ARO-MAPT Phase 1 — 피하 RNAi BBB 투과 PoC 최초 확인, CSF 타우 -73%(건강인, 105일)
-- ImmunityBio Anktiva(N-803) — 방광암 유두종성 NMIBC 확대 FDA 조기 승인(원 PDUFA 2027-01-06보다 3개월 앞)
-- ESMO 2026 마드리드 D-8 — Innovent IBI343(CLDN18.2 ADC) LBA77 위암 Phase 3 전체 데이터 10/23, 한국 Ligachem LCB02A도 동일 표적 발표
-- 미국 8개 주 AG OpenAI 집단 고소(2026-10-14) — 아동 안전·소비자 기만, AI 기업 상대 최대 규모 주 공동 소송
 
 
 
