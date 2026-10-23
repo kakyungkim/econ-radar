@@ -1,17 +1,19 @@
 ---
 type: moc
 tags: [바이오제약, EGFR폐암]
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 # 🗂 EGFR 폐암 — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **SAFFRON NDA FDA 제출 완료(9/29) — EGFR+MET 이중 표적 내성 극복 첫 Phase 3 OS 근거**: AstraZeneca+HUTCHMED 오시머티닙(Tagrisso)+사볼리티닙(Orpathys) 병용, EGFR 변이+MET 증폭·과발현 NSCLC 2차 치료. Phase 3 SAFFRON(N=338, 30개국 230개 기관) PFS·OS 이중 달성(8/17 탑라인). HR·OS 중앙값 10/25 ESMO LBA6 최초 공개 예정.
-- **MET 증폭: 오시머티닙 1차 후 가장 흔한 획득 내성 경로(5~15%)** — 현재 유일한 선택지는 백금 기반 화학요법(PFS 4~5개월). SAFFRON이 OS를 입증하면 TKI 병용이 화학요법을 대체하는 최초 Phase 3 근거가 된다.
-- **1차 치료 표준 전쟁 지속 — Tagrisso 8년 OS vs MARIPOSA amivantamab+lazertinib HR 0.75**: WCLC 2026(9/12~15) 학술 대결 이후 2차 내성 극복 경쟁(SAFFRON)으로 전선 확대. AZ sunvozertinib(엑손20 삽입 1차 치료)까지 포트폴리오 전방위 커버.
-- **동반진단(MET IHC·FISH) 표준화가 광범위 처방 선행 조건**: ESMO 10/25 HR 수치 강도가 가이드라인 편입과 ICER 급여 근거 구축의 출발점.
+- **SAFFRON(AZ+HUTCHMED) LBA6(10/25) ESMO D-2 — EGFR+MET NSCLC 2차 치료 Phase 3 PFS·OS HR 모레 공개**: FDA NDA 이미 제출(9/29). Phase 3 SAFFRON(N=338, 30개국 230개 기관) PFS·OS 이중 달성(8/17 탑라인). 강한 HR이면 화학요법→TKI 병용 표준 이동 첫 Phase 3 근거.
+- **MET 증폭: 오시머티닙 1차 후 가장 흔한 획득 내성 경로(5~15%)** — 현 유일 선택지 백금 화학요법(PFS 4~5개월) 대체 첫 근거. 동반진단(MET IHC·FISH) 표준화가 광범위 처방 선행 조건.
+- **1차 치료 표준 전쟁 지속 — Tagrisso 8년 OS vs MARIPOSA amivantamab+lazertinib HR 0.75**: WCLC 2026 학술 대결 이후 2차 내성 극복 경쟁(SAFFRON)으로 전선 확대. ESMO 10/25 HR 수치 강도가 가이드라인 편입과 ICER 급여 근거 구축 출발점.
 
 ## 타임라인
+### 2026-10-23 [[daily/2026-10-23]]
+- [[daily/2026-10-23]] — SAFFRON(AZ+HUTCHMED) ESMO LBA6(10/25) EGFR+MET NSCLC 2차 치료 Phase 3 HR 모레 공개 D-2. FDA NDA 이미 제출(9/29). 강한 HR이면 화학요법→TKI 병용 표준 이동 → [[topics/ESMO2026]] [[topics/신약개발전략]]
+
 ### 2026-10-21 [[daily/2026-10-21]]
 - [[daily/2026-10-21]] — SAFFRON NDA FDA 제출 완료(9/29) 확인. 오시머티닙+사볼리티닙 병용, EGFR 변이+MET 증폭 NSCLC 2차 치료. Phase 3 PFS·OS 이중 달성(N=338). MET 증폭: 1차 오시머티닙 후 가장 흔한 획득 내성 경로(5~15%), 현 유일 선택지 백금 화학요법 대체 근거. HR·OS 중앙값 10/25 ESMO LBA6 최초 공개 예정 → [[topics/ESMO2026]] [[topics/신약개발전략]]
 
