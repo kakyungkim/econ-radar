@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-24
+- INTerpath-001 Phase 3 ESMO LBA1 — mRNA 흑색종 백신 RFS HR 0.58(p<0.001), DMFS HR 0.62(p=0.002), NEJM 동시 게재, 세계 최초 mRNA 항암백신 Phase 3 성공
+- DeLLphi-305 LBA3 — 타를라타맙+더발루맙 ES-SCLC 1차 유지요법 Phase 3 OS·PFS·ORR 달성
+- IBI343 G-HOPE-001 OS HR 0.57 확인 [후속] — CLDN18.2 ADC 위암 3차 치료 mOS 10.2 vs 6.9개월
+- 빅테크 어닝스+FOMC D-4 — Alphabet·Microsoft·SK하이닉스 Q3(10/28), PCE·GDP Q3(10/29)
+- HLB 리픽투(Lyrfigtu) — FGFR2 담관암 FDA 승인(9/23), 국산 첫 항암 신약 직접 NDA, Q4 미국 출시
+
 ## 2026-10-23
 - GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 만성B형간염 기능적 완치율 19% vs 0%, CHB 첫 기능적 치유제 탄생
 - Innovent IBI343 ESMO LBA77 위암 Phase 3 PFS 충족 — Takeda $11.4B 글로벌 파트너십, 계약금 $1.2B 확인
@@ -57,12 +64,6 @@ publish: false
 - 중국 Q3 GDP — 10/19 오전 발표 예정, 컨센서스 +4.4% YoY(Reuters), 정부 목표 4.5~5.0% 하단 미달 우려
 - Iambic Therapeutics(IAM) IPO 첫날 +18% — 공모가 $16→종가 $18.91(단일소스), AI 신약 플랫폼 기관 수요 확인
 
-## 2026-10-17
-- ESMO 2026 D-6 — INTerpath-001(Merck+Moderna mRNA 흑색종 백신) HR 수치 10/24 LBA1 첫 공개
-- Legend Biotech LB2501 — 세계 최초 이중타깃(CD19/CD20) 체내(in vivo) CAR-T FDA IND 승인
-- AstraZeneca-insitro AI 신약 발견 딜 — 선급금 $4,000만, 마일스톤 최대 $14.6억(MASH+심근병증)
-- 삼성바이오로직스-PolyPeptide 공개매수 87.9% 응모 완료 — 국내 제약바이오 최대 해외 M&A 연말 종결 목표
-- Anthropic 나스닥 IPO 11월 중순 로드쇼 목표 — 밸류에이션 $1.8~2조(복수 매체 보도, 공식 미확인)
 
 
 
