@@ -1,6 +1,6 @@
 name: Daily Watchdog
 
-# 데일리 발행 누락 감시. 매일 22:00 KST에 오늘 날짜의 vault/daily/DATE.md가 main에 있는지 본다.
+# 데일리 발행 누락 감시. 매일 22:00 KST에 오늘 날짜의 vault/daily/DATE.md가 main에 있는지, 블로그 페이지가 200인지 본다.
 # 없으면 개인 텔레그램 DM(vars.TELEGRAM_ALERT_CHAT_ID)으로 알린다. 공개 채널로는 보내지 않는다.
 # 배경: 2026-10-01 클라우드 루틴이 주간 사용량 한도로 1초 만에 끝났는데 "성공(오류 있음)"으로 기록돼 아무도 몰랐다.
 # 재시도는 클라우드 루틴 "econ-radar 데일리 재시도(20:30 KST)"가 맡는다. 이 워크플로는 최종 상태만 본다.
@@ -31,10 +31,20 @@ jobs:
           [ -z "$DATE" ] && DATE=$(TZ=Asia/Seoul date +%F)
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
           if [ -f "vault/daily/$DATE.md" ]; then
-            echo "missing=false" >> "$GITHUB_OUTPUT"
             echo "OK: vault/daily/$DATE.md 있음"
+            # 데일리는 있는데 블로그 복사(deploy.sh)만 빠진 경우. 2026-10-02, 10-14, 10-15가 이렇게 404였다.
+            CODE=$(curl -s -o /dev/null -w '%{http_code}' "https://kakyungkim.github.io/econ-radar/$DATE.html")
+            if [ "$CODE" = "200" ]; then
+              echo "missing=false" >> "$GITHUB_OUTPUT"
+              echo "OK: 블로그 $DATE.html 200"
+            else
+              echo "missing=true" >> "$GITHUB_OUTPUT"
+              echo "reason=블로그 페이지 econ-radar/$DATE.html 이 $CODE (데일리는 있음, deploy.sh 미실행 추정)" >> "$GITHUB_OUTPUT"
+              echo "MISSING: 블로그 $DATE.html $CODE"
+            fi
           else
             echo "missing=true" >> "$GITHUB_OUTPUT"
+            echo "reason=22시까지 vault/daily/$DATE.md가 main에 없습니다." >> "$GITHUB_OUTPUT"
             echo "MISSING: vault/daily/$DATE.md 없음"
           fi
 
@@ -44,14 +54,15 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ALERT_CHAT_ID: ${{ vars.TELEGRAM_ALERT_CHAT_ID }}
           DATE: ${{ steps.check.outputs.date }}
+          REASON: ${{ steps.check.outputs.reason }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_ALERT_CHAT_ID" ]; then
             echo "토큰 또는 TELEGRAM_ALERT_CHAT_ID 없음. 알림 생략"; exit 1
           fi
           TEXT="⚠️ econ-radar 데일리 누락: $DATE
-          22시까지 vault/daily/$DATE.md가 main에 없습니다.
-          원인 확인: claude.ai 루틴 실행 기록(사용량 한도, 저장소 접근 등)
+          $REASON
+          원인 확인: claude.ai 루틴 실행 기록(사용량 한도, 저장소 접근, deploy.sh 차단 등)
           감시 실행: $RUN_URL"
           RES=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TELEGRAM_ALERT_CHAT_ID}" \
