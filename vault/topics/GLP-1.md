@@ -20,6 +20,9 @@ updated: 2026-10-19
 - [[daily/2026-10-03]] — Novo Nordisk CagriSema 체중감량 23%(vs tirzepatide 25.5%) 열세로 2026년 매출 최대 -13% 전망, 경구 GLP-1 경쟁 본격화
 - 핵심 이슈: Novo CagriSema vs tirzepatide 경쟁 구도 확인, 경구 semaglutide·Foundayo 처방 경쟁, 2~3주 내 IQVIA 경구 점유율 첫 정량화 → [[topics/바이오제약]] [[topics/유망기업]]
 
+### 2026-10-01 [[daily/2026-10-01]]
+- Lilly 경구 GLP-1 Foundayo(orforglipron) 3상 ACHIEVE-4 상세 결과 EASD 공개(인슐린 글라르진 대비): MACE-4 HR 0.84(95% CI 0.59-1.20)로 비열등성 충족, 우월성은 미입증(p=0.336). 52주 A1C -1.6%p, 체중 -8.8%. 사망 지표 HR은 다중성 미보정 탐색 분석이라 안전성 수위로만 해석 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-10-02 [[daily/2026-10-02]]
 - Lilly 3대 PBM(CVS Caremark·Express Scripts·OptumRx) 전면 급여 10/1 발효, 월 $25 코페이 — GLP-1 보험 장벽 해소. retatrutide TRANSCEND-T2D-3 신장질환 임상 이달 완료 예정 → [[topics/바이오제약]] [[topics/신약개발전략]]
 

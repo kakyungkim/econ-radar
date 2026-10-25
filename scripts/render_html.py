@@ -398,10 +398,11 @@ def _parse_english(body, j, doc):
         s = line.strip()
         if re.match(r"^##?\s+", line):
             break
-        m = re.match(r"^-\s+\*\*(.+?)\*\*:\s*(.*)$", s)
+        # 괄호 풀이가 굵은 표기 밖에 있는 `**word** (뜻):` 도 받는다(2026-08~10 발행본 10개가 이 형식이라 섹션이 빠졌다).
+        m = re.match(r"^-\s+\*\*(.+?)\*\*\s*(\([^)]*\))?:\s*(.*)$", s)
         if m:
-            head = m.group(1).strip()
-            desc = m.group(2).strip()
+            head = (m.group(1).strip() + " " + (m.group(2) or "")).strip()
+            desc = m.group(3).strip()
             word, meaning, speak = _split_english_head(head)
             cur = {"word": word, "meaning": meaning, "speak": speak,
                    "desc": desc, "en": None, "ko": None}
