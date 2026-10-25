@@ -151,6 +151,7 @@ def parse_front(md):
 
 PAGE = """<!DOCTYPE html>
 <html lang="ko"><head><meta charset="UTF-8">
+<link rel="canonical" href="{canonical}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <style>
@@ -436,6 +437,7 @@ def main():
                     + "".join(chips) + "</nav>")
     page = PAGE.format(
         title=html.escape(h1), h1=inline(h1), blog=BLOG_BASE,
+        canonical="%s/%s.html" % (BLOG_FULL, args.period),
         range=html.escape(fm.get("date_range", "")),
         toc=toc_html, foottags=foottags_html,
         body=body_html)
