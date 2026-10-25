@@ -15,6 +15,9 @@ publish: true
 - **G12C 2세대 Roche divarasib PFS·OS 동시 달성**: 1세대(sotorasib·adagrasib) 공식 추월. G12C 선도 데이터가 G12D 임상 설계 비교 기준선.
 
 ## 타임라인
+### 2026-10-25 [[daily/2026-10-25]]
+- [[daily/2026-10-25]] — **INCB161734 CRC 1상 데이터 ESMO 첫 공개(#1007RO)**: 대장암 단독 또는 세툭시맙 병용 Phase 1 안전성·효능 데이터. Incyte-Genmab INCB161734+페토셈타맙(EGFR×LGR5 bispecific)+화학요법 1L CRC Phase 1/2 협력 발표. 내일(10/26) PDAC 데이터(#3137RO). KRAS G12D는 CRC의 약 13%, PDAC의 약 40% 발현 → [[topics/ESMO2026]] [[topics/바이오제약]]
+
 ### 2026-10-18 [[daily/2026-10-18]]
 - [[daily/2026-10-18]] — Incyte INCB161734(KRAS G12D 경구 억제제) ESMO 2026 Rapid Oral 2건(10/25 대장암·10/26 췌장암): KRAS G12D 억제제 임상 데이터 세계 최초 공개. 비공유결합 소분자·병용 설계. Revolution Medicines(ERAS-4)·Mirati/BMS와 경쟁 구도에서 첫 공개 데이터 → [[topics/ESMO2026]] [[topics/바이오제약]]
 

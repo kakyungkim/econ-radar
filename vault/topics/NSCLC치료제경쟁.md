@@ -15,6 +15,9 @@ updated: 2026-09-16
 - **PD-1/VEGF 이중특이항체 — HARMONi-2 OS 데이터로 카테고리 격상, ABBV-1480·pumitamig는 Phase 3 대기**: ivonescimab이 가장 앞서 있으며 Summit/Akeso의 다음 경로(HARMONi-7·FDA BLA)가 전략 분기점.
 
 ## 타임라인
+### 2026-10-25 [[daily/2026-10-25]]
+- **[SAFFRON Phase 3 PFS+OS 달성](../daily/2026-10-25.md)** — 사볼리티닙+오시머티닙 vs 백금 이중화학요법, N=338, EGFR+MET NSCLC 오시머티닙 진행 후. 오늘 ESMO LBA6 전체 HR 공개 예정. 비교: SACHI PFS HR 0.34. FDA NDA 제출 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-09-16 [[daily/2026-09-16]]
 - **[ivonescimab HARMONi-2 OS HR=0.73](../daily/2026-09-16.md)** — pembrolizumab 단독 직접 비교, 중앙 OS 30.8 vs 22.6개월. PD-L1+ 1차 NSCLC에서 이중항체 단독요법이 체크포인트 억제제를 OS에서 처음 직접 앞선 3상 결과. 중국 단일 코호트 한계, HARMONi-7이 FDA BLA 경로 관건 → [[topics/신약개발전략]] [[topics/바이오제약]]
 

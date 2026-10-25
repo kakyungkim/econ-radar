@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-25
+- SAFFRON LBA6 — 사볼리티닙+오시머티닙 EGFR+MET NSCLC Phase 3(N=338) PFS+OS 달성, 오늘 저녁 ESMO 전체 HR 공개, FDA NDA 제출
+- Incyte INCB161734 CRC 1상 데이터 ESMO 첫 발표 + Incyte-Genmab 1L CRC Phase 1/2 협력
+- Ris-Rez(B7-H3 ADC) 골육종 ARTEMIS-011 Phase 3 PFS 달성, 내일 LBA9 전체 데이터
+- SK하이닉스 Q3 실적 D-4 — 컨센서스 76.9조원, HBM4 첫 매출 반영, 10/29 발표
+- 빅테크 어닝스 위크 D-3 — Alphabet Q3 컨센서스 $128B·Google Cloud 성장 연속성, FOMC 동결 유력(10/28)
+
 ## 2026-10-24
 - INTerpath-001 Phase 3 ESMO LBA1 — mRNA 흑색종 백신 RFS HR 0.58(p<0.001), DMFS HR 0.62(p=0.002), NEJM 동시 게재, 세계 최초 mRNA 항암백신 Phase 3 성공
 - DeLLphi-305 LBA3 — 타를라타맙+더발루맙 ES-SCLC 1차 유지요법 Phase 3 OS·PFS·ORR 달성
@@ -56,15 +63,6 @@ publish: false
 - GLP-1 경구 경쟁 — Lilly Foundayo(orforglipron) vs Novo Nordisk 경구 Wegovy 접근성 전쟁
 - Pfizer SigVie-002 — NSCLC ADC 전체군 OS 미달, 바이오마커 선별 없는 ADC 설계 교훈
 - Netflix Q3 D-1 — 10/20 장후 발표, 가이던스 $128.6억 vs 컨센서스 $130.2억
-
-## 2026-10-18
-- HUTCHMED SAFFRON Phase 3 — ESMO D-5, MET+EGFR 내성 NSCLC 첫 글로벌 3상 프레지덴셜 심포지엄 10/24(CICC 목표가 HK$26, NDA 9/29)
-- Incyte INCB161734 — 경구 KRAS G12D 억제제, 대장암(10/25 #1007RO)·췌장암(10/26 #3137RO) ESMO 2건 발표
-- SK하이닉스 Q3 실적 임박 — HBM4 수익화 첫 공식 확인 시점, 영업이익 추정 70.1~77.9조 원(하나·DS 범위)
-- 중국 Q3 GDP — 10/19 오전 발표 예정, 컨센서스 +4.4% YoY(Reuters), 정부 목표 4.5~5.0% 하단 미달 우려
-- Iambic Therapeutics(IAM) IPO 첫날 +18% — 공모가 $16→종가 $18.91(단일소스), AI 신약 플랫폼 기관 수요 확인
-
-
 
 
 
