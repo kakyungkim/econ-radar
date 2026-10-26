@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-26
+- SAFFRON LBA6 전체 데이터 + SANOVO LBA69 — 사볼리티닙+오시머티닙 EGFRm NSCLC 2차(PFS 45% 감소/OS 32% 감소, NEJM) + 1차(PFS HR 0.56, 중앙 24.9개월) Phase 3 동시 확증
+- GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 세계 첫 만성 B형 간염 ASO 기능적 완치 치료제, 완치율 19% vs 0%
+- Krascendo-1(divarasib) KRAS G12C head-to-head Phase 3 — PFS HR 0.58/OS HR 0.56 vs 소토라십·아다그라십
+- Anthropic IPO 11월 임박 — 목표 밸류에이션 $2조, Nvidia 최대 $100억 투자 협의
+- FOMC D-2 + 빅테크 어닝스(Alphabet/Microsoft 10/28) + SK하이닉스 Q3(10/29) — 이번 주 Q4 방향 결판
+
 ## 2026-10-25
 - SAFFRON LBA6 — 사볼리티닙+오시머티닙 EGFR+MET NSCLC Phase 3(N=338) PFS+OS 달성, 오늘 저녁 ESMO 전체 HR 공개, FDA NDA 제출
 - Incyte INCB161734 CRC 1상 데이터 ESMO 첫 발표 + Incyte-Genmab 1L CRC Phase 1/2 협력
@@ -56,14 +63,5 @@ publish: false
 - Regeneron pozelimab VEXAS 증후군 PDUFA 오늘(10/20) — 결과 미확인, 최초 VEXAS 표적치료제 후보
 - GSK bepirovirsen 만성B형간염 기능적 완치 PDUFA D-6(10/26) — CHB 2억5,400만 명 시장 패러다임 전환 시험대
 - Netflix Q3 오늘 장후 발표 — 가이던스 $128.6억, 컨센서스 $130.2억, 광고 구독·이익률 개선 확인 분수령
-
-## 2026-10-19
-- [후속] 중국 Q3 GDP +4.5% YoY — 컨센서스 +4.4% 상회, AI 수출 견인·내수 부동산 부진 동반
-- GSK+Hansoh Ris-Rez(B7-H3 ADC) — 골육종 Phase 3 PFS 달성, ESMO LBA9 10/26 프레지덴셜
-- GLP-1 경구 경쟁 — Lilly Foundayo(orforglipron) vs Novo Nordisk 경구 Wegovy 접근성 전쟁
-- Pfizer SigVie-002 — NSCLC ADC 전체군 OS 미달, 바이오마커 선별 없는 ADC 설계 교훈
-- Netflix Q3 D-1 — 10/20 장후 발표, 가이던스 $128.6억 vs 컨센서스 $130.2억
-
-
 
 
