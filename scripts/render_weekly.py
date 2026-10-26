@@ -273,6 +273,10 @@ def parse_weekly(fm, body, period):
             t = _plain(m.group(1))
             t = re.sub(r"^흐름\s*\d+\s*[:：]\s*", "", t)  # '흐름 1: ' 접두 제거
             flow_titles.append(t)
+    else:
+        # W32~W43 리포트는 `## 흐름 N — 부제` 형식이라 위에서 0개가 나왔다.
+        for m in re.finditer(r"^##\s+흐름\s*\d+\s*(?:[:：]|—|-)\s*(.*)$", body, re.M):
+            flow_titles.append(_plain(m.group(1)))
 
     return {
         "title": title, "daterange": daterange,
