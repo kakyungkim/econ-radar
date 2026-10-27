@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-27
+- FOMC D-1 + Alphabet·Microsoft 어닝스 D-1 — AI capex ROI 첫 번째 공식 채점(10/28 동시 발표)
+- Pfizer SigVie-002(IB6 ADC) nsq-NSCLC Phase 3 OS 미달 — ESMO LBA68, 1차 치료 전체 집단 실패
+- AZ VOLGA Phase 3 양성 — MIBC EFS HR 0.51(49% 위험 감소)·OS HR 0.58(42% 위험 감소), ESMO LBA2
+- SK하이닉스·삼성전자 Q3 D-2 — 10/29 동시 발표, HBM4 첫 매출 반영, SK하이닉스 컨센서스 OP 76.96조원
+- Merck·Kelun-Biotech sac-TMT ESMO 3중 — TroFuse-005(자궁내막암)·Lung04 Final OS·Lung06(NSCLC 1차)
+
 ## 2026-10-26
 - SAFFRON LBA6 전체 데이터 + SANOVO LBA69 — 사볼리티닙+오시머티닙 EGFRm NSCLC 2차(PFS 45% 감소/OS 32% 감소, NEJM) + 1차(PFS HR 0.56, 중앙 24.9개월) Phase 3 동시 확증
 - GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 세계 첫 만성 B형 간염 ASO 기능적 완치 치료제, 완치율 19% vs 0%
@@ -56,12 +63,5 @@ publish: false
 - SAFFRON NDA FDA 제출 완료 — 오시머티닙+사볼리티닙 EGFR+MET NSCLC Phase 3 PFS+OS 달성, ESMO LBA6(10/25) HR 공개 예정
 - 한국은행 기준금리 결정 내일(10/22) — 전문가 11명 전원 동결(현 3.00%), 최종 3.50% 전망 다수
 - INTerpath-001 ESMO LBA1 D-3(10/24) — mRNA 흑색종 백신 Phase 3 RFS·DMFS 모두 달성, 세계 최초 치료용 mRNA 3상 HR 수치 첫 공개
-
-## 2026-10-20
-- Merck KGaA × Silence Therapeutics 인수 합의 — EV $1.1B(약 1조5,000억원), 130% 프리미엄, GalNAc-siRNA 플랫폼 내재화
-- ESMO 2026 LBA 초록 공개 — INTerpath-001 mRNA 암백신·sac-TMT ADC 3건 수치 10/24~26 발표 예정
-- Regeneron pozelimab VEXAS 증후군 PDUFA 오늘(10/20) — 결과 미확인, 최초 VEXAS 표적치료제 후보
-- GSK bepirovirsen 만성B형간염 기능적 완치 PDUFA D-6(10/26) — CHB 2억5,400만 명 시장 패러다임 전환 시험대
-- Netflix Q3 오늘 장후 발표 — 가이던스 $128.6억, 컨센서스 $130.2억, 광고 구독·이익률 개선 확인 분수령
 
 
