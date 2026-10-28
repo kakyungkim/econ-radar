@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-28
+- OptiTROP-Lung06(sac-TMT) PD-L1 음성 NSCLC 1차 치료 — ADC+ICI 병합 Phase 3 양성 첫 사례, mPFS 15.0 vs 5.7개월(HR ~0.49), NEJM 게재
+- TroFuse-005(sac-TMT) 자궁내막암 2차+ — OS HR 0.68, mOS 19.0 vs 12.1개월(+6.9개월), Lancet 게재, PDUFA 2027/6/15
+- FOMC + Alphabet Q3 + Microsoft FY2027Q1 — AI capex ROI 첫 공식 채점(오늘 밤 발표)
+- SK하이닉스·삼성전자 Q3 D-1 — HBM4 첫 매출 반영 분기, 내일(10/29) 발표
+- ARTEMIS-011(Ris-Rez, B7-H3 ADC) 골육종 Phase 3 — PFS HR 0.33(mPFS 5.5 vs 1.4개월), 희귀 소아·청소년 고형암 ADC 첫 3상 양성
+
 ## 2026-10-27
 - FOMC D-1 + Alphabet·Microsoft 어닝스 D-1 — AI capex ROI 첫 번째 공식 채점(10/28 동시 발표)
 - Pfizer SigVie-002(IB6 ADC) nsq-NSCLC Phase 3 OS 미달 — ESMO LBA68, 1차 치료 전체 집단 실패
@@ -57,11 +64,5 @@ publish: false
 - GSK Hibsago(bepirovirsen) FDA PDUFA D-4(10/26) — 만성B형간염 기능적 치유율 19% vs 0%, CHB 패러다임 전환 시험대
 - 삼성바이오로직스 PolyPeptide 공개매수 87.92% 성사 — CHF 1.46B(약 2조2,000억원 추정), GLP-1 API CDMO 포트폴리오 진입
 
-## 2026-10-21
-- 영국 9월 CPI 3.5%(컨센서스 3.4% 상회) — BOE 11월 25bp 인상 확률 ~80%, 길트 10년물 5.44%(19년 최고)
-- Netflix Q3 영업이익률 34.6%(가이던스 33.2% 대비 +140bp), EPS $0.87 상회 — 광고 연간 목표 $3.0B→$2.7B 하향
-- SAFFRON NDA FDA 제출 완료 — 오시머티닙+사볼리티닙 EGFR+MET NSCLC Phase 3 PFS+OS 달성, ESMO LBA6(10/25) HR 공개 예정
-- 한국은행 기준금리 결정 내일(10/22) — 전문가 11명 전원 동결(현 3.00%), 최종 3.50% 전망 다수
-- INTerpath-001 ESMO LBA1 D-3(10/24) — mRNA 흑색종 백신 Phase 3 RFS·DMFS 모두 달성, 세계 최초 치료용 mRNA 3상 HR 수치 첫 공개
 
 

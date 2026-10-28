@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-10-27
+updated: 2026-10-28
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -11,12 +11,15 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Alphabet·Microsoft Q3/Q1 FY2027 어닝스 D-1(10/28) — AI 설비투자 수익 전환 공식 첫 검증**: Azure 44~45% CC 가이던스, AI 비즈니스 런레이트 370억달러(약 51조원). Google Cloud Q2 YoY +82%·마진 31.2% 기준선. 클라우드 성장률이 가이던스를 초과하면 AI 실수요 전환 내러티브가 굳는다.
-- **capex ROI 균형**: Alphabet Q2 FCF 마이너스 전환, Meta capex 1,350~1,450억달러(약 187~201조원) 공언으로 AI ROI 논쟁 공론화. capex가 FCF를 잠식하는 구조 지속 시 빅테크 성장주 서프라이즈 효과 단기화.
-- **Nvidia GB300 추론 비용 Hopper 플랫폼 대비 35배 절감(자사 발표·단일 소스)**: 공급이 수요를 충족하지 못하는 상황에서 SK하이닉스·삼성전자 HBM4 협상력 유지. Gemini 4 연말보다 이른 출시 보도(미확인)가 클라우드 추론 수요 자극 가능.
-- **TSMC Q4 가이던스 $52.3~54.3B — AI 인프라 수요 연말 이상 가시화**: Q3 매출 $46.7B(+50.9% YoY). AI·HPC 비중 Q3 68%. CoWoS 후공정 병목 지속.
+- **Alphabet Q3·Microsoft FY2027 Q1 어닝스 D-0(오늘 발표) — AI 설비투자 수익 전환 첫 공식 채점**: Google Cloud 컨센서스 약 290억달러(YoY ~100% 기대), Azure CC 44~45% 가이던스 초과 여부가 핵심. Meta capex 1,350~1,450억달러 공언 이후 AI ROI 논쟁이 공론화됐으며 오늘 Q3 클라우드 성장률이 그 첫 공식 답이다.
+- **Nvidia KYEC 11억달러 선납금 계약(GTC Berlin 10/21)**: 6개사(KYEC·Amkor·IBIDEN·Samsung Electro-Mechanics·SPIIL·Unimicron) 패키징·테스팅 용량 2028년까지 직접 확보. GB300 공급 제약 지속 확인.
+- **capex ROI 구도**: Cloud 성장 가속 확인 시 AI 인프라 사이클 지속 서사 강화. capex 대비 FCF 마이너스 지속·Cloud 둔화 시 과잉 투자 우려 재점화.
+- **국내 연결 고리**: Cloud 성장 수치 → Nvidia GPU 수요 → HBM 수요 → SK하이닉스·삼성전자 매출. 오늘 밤 결과가 내일(10/29) 한국 반도체주 방향에 직접 영향.
 
 ## 타임라인
+### 2026-10-28 [[daily/2026-10-28]]
+- [[daily/2026-10-28]] — Alphabet Q3·Microsoft FY2027 Q1 어닝스 D-0(오늘 발표): Azure CC 44~45% 가이던스, AI 런레이트 $37B. Google Cloud ~$29B(YoY ~100%) 컨센서스. FOMC 동결과 같은 날. Nvidia KYEC·Amkor 등 6개사 선납금 총 $11억+ — 2028년까지 패키징·테스팅 공급망 직접 확보. AI capex ROI 첫 공식 채점 → [[topics/FOMC]] [[topics/반도체]]
+
 ### 2026-10-27 [[daily/2026-10-27]]
 - [[daily/2026-10-27]] — Alphabet Q3·Microsoft FY2027 Q1 어닝스 D-1: Azure 44~45% CC 가이던스, AI 런레이트 $37B, Copilot 유료 시트 2,000만+. Google Cloud Q2 YoY +82% 기준선. FOMC 동결(87%)와 같은 날 겹쳐 AI capex ROI 첫 공식 검증. Nvidia GB300 추론 35배 절감 주장(단일 소스) → [[topics/FOMC]] [[topics/반도체]]
 
