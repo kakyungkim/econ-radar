@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-29
+- MSFT Azure +48% CC 서프라이즈 · Alphabet EPS $2.12 미스 — AI 투자 수익화 속도 첫 분기점
+- HBM4 시대 공식 개막 — SK하이닉스 OP 83.3조(+632%) · 삼성전자 OP 107.4조(+783%), 합산 190조원
+- FOMC 10월 동결 10-2 균열(Cook·Hammack 인상 주장), 12월 인상 OIS 80%
+- ESMO 2026 유방암 — iza-bren(BMS/SystImmune) PFS HR 0.41 · ribociclib NATALEE 6년 OS HR 0.809
+- Anthropic S-1 제출(Nasdaq 'ANT') — 밸류 최대 $2조, 11월 16일 상장 목표, Nvidia $10B 앵커 협의
+
 ## 2026-10-28
 - OptiTROP-Lung06(sac-TMT) PD-L1 음성 NSCLC 1차 치료 — ADC+ICI 병합 Phase 3 양성 첫 사례, mPFS 15.0 vs 5.7개월(HR ~0.49), NEJM 게재
 - TroFuse-005(sac-TMT) 자궁내막암 2차+ — OS HR 0.68, mOS 19.0 vs 12.1개월(+6.9개월), Lancet 게재, PDUFA 2027/6/15
@@ -57,12 +64,6 @@ publish: false
 - Meta Q3 2026년 capex 가이던스 $135~145B 상향 — AH -11%, AI 투자 ROI 타임라인 시험대
 - FOMC D-5(10/28) — 현행 기준금리 3.75~4.00% 동결 전망, Warsh 의장 금리 경로 발언 예정
 
-## 2026-10-22
-- 한국은행 3.00% 동결 — 7인 만장일치, 점도표 3.25% 시사, 11월 추가 인상 가능성 열어둬
-- Tesla Q3 EPS $0.48 beat, FCF $1.53B(약 2조1,100억원) 서프라이즈 — FSD 구독 174만 명(+67% YoY), 순이익 -43% YoY
-- ESMO 2026 마드리드 내일 개막 — LBA1 INTerpath-001 mRNA 암백신 Phase 3 HR(10/24), LBA6 SAFFRON EGFR+MET HR(10/25) 첫 공개
-- GSK Hibsago(bepirovirsen) FDA PDUFA D-4(10/26) — 만성B형간염 기능적 치유율 19% vs 0%, CHB 패러다임 전환 시험대
-- 삼성바이오로직스 PolyPeptide 공개매수 87.92% 성사 — CHF 1.46B(약 2조2,000억원 추정), GLP-1 API CDMO 포트폴리오 진입
 
 
 
