@@ -2,18 +2,21 @@
 type: moc
 tags: [AI]
 timestamp: 2026-06-13T01:38:06+09:00
-updated: 2026-10-24
+updated: 2026-10-29
 publish: true
 ---
 # 🗂 AI — 주제 지도(MOC)
 
 ## 핵심 흐름
-- **빅테크 어닝스+FOMC 동시 이벤트 주간 D-4(10/28) — AI 수익화 검증 분수령**: Alphabet·Microsoft Q3 실적 + SK하이닉스 Q3(HBM4 출하 첫 공개) + FOMC 동결 성명서 동시. Meta CAPEX 쇼크($135~145B) 이후 "지출→수익 전환" 논리 성립 여부 검증 구간.
-- **SK하이닉스 Q3 실적(10/28) — HBM4 출하량·ASP 첫 공개**: 영업이익 컨센서스 약 77조원(FnGuide). AI 인프라 수요 체인에서 메모리 수혜가 CAPEX 과잉 우려를 상쇄하는지 HBM4 마진 수치로 확인.
-- **Alphabet·Microsoft RPO·AI 클라우드 성장률이 핵심 관전 포인트**: Google Cloud Q2 +82% YoY 연속성 확인. Azure AI 수익 비중 추가 상승 여부. "AI 투자 → 클라우드 수익" 전환이 가시화되지 않으면 빅테크 AI 밸류에이션 재조정 압력.
-- **중국 AI 칩 수출통제 리스크 지속**: BIS HBM4·HBM4E 대중국 통제 강화 검토 상존. SK하이닉스 중국 고객사 공급망 영향 모니터링 필요.
+- **Azure +48% CC vs Alphabet EPS 미스 — AI 수익화 속도 첫 공식 분화**: Microsoft FY2027 Q1 Azure 불변통화 기준 48%(가이던스 상단 3~4%포인트 초과), AI 비즈니스 런레이트 $370억(YoY +123%). Alphabet Google Cloud +103%로 처음 $300억 돌파했으나 운영이익 컨센서스 하회·2027 capex "대폭 증가" 예고로 주가 -10%.
+- **Anthropic S-1 제출 — AI 소프트웨어 기업 최초 공개시장 밸류에이션 검증 무대**: Nasdaq 'ANT', 목표 $2조, 런레이트 매출 $650억+, 11월 16일 상장 목표. Nvidia $100억 앵커 투자 협의. S-1 공시 수치가 공개되면 AI 소프트웨어 섹터 밸류에이션 기준점이 재설정된다.
+- **HBM4 AI 인프라 체인 재확인**: SK하이닉스 83.3조원(OPM 79.7%)+삼성전자 107.4조원 합산 190조원. Azure +48% 수요가 HBM4 수요 체인과 연결됨을 재확인.
+- **중국 AI 칩 수출통제 리스크 지속**: BIS HBM4·HBM4E 대중국 통제 강화 검토 상존. GOOGL capex 동결 가능성과 함께 중기 수요의 변수.
 
 ## 타임라인
+### 2026-10-29 [[daily/2026-10-29]]
+- [[daily/2026-10-29]] — Microsoft Azure +48% CC(가이던스 초과)·운영이익률 50%·AI 런레이트 $370억 확인. Alphabet Google Cloud +103%에도 EPS 미스·2027 capex 증가 예고로 주가 -10%. AI 수익화 속도 첫 공식 격차 발생. Anthropic S-1 제출(Nasdaq 'ANT', $2조, 런레이트 $650억+, Nvidia $100억 앵커 협의) → [[topics/반도체]] [[topics/FOMC]] [[topics/투자테마]] [[topics/유망기업]]
+
 ### 2026-10-24 [[daily/2026-10-24]]
 - [[daily/2026-10-24]] — 빅테크 어닝스 D-4(10/28): Alphabet·Microsoft Q3 + SK하이닉스 Q3(HBM4 출하 첫 수치) + FOMC 동결 성명서 동시. Meta CAPEX 쇼크($135~145B) 이후 "AI 지출→수익 전환" 논리 성립 여부 검증 주간 진입. 영업이익 컨센서스 SK하이닉스 약 77조원(FnGuide) → [[topics/반도체HBM]] [[topics/거시정책]] [[topics/유망기업]]
 
