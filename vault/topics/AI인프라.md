@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI인프라, 반도체, 투자테마]
 timestamp: 2026-06-21T10:20:47+00:00
-updated: 2026-10-28
+updated: 2026-10-30
 publish: true
 ---
 # 🗂 AI 인프라 — 주제 지도(MOC)
@@ -11,12 +11,16 @@ publish: true
 > [AI](/topics/AI.md) 에서 인프라 레이어만 분리한 파일. 모델·서비스 경쟁은 [AI](/topics/AI.md) 참조.
 
 ## 핵심 흐름
-- **Alphabet Q3·Microsoft FY2027 Q1 어닝스 D-0(오늘 발표) — AI 설비투자 수익 전환 첫 공식 채점**: Google Cloud 컨센서스 약 290억달러(YoY ~100% 기대), Azure CC 44~45% 가이던스 초과 여부가 핵심. Meta capex 1,350~1,450억달러 공언 이후 AI ROI 논쟁이 공론화됐으며 오늘 Q3 클라우드 성장률이 그 첫 공식 답이다.
-- **Nvidia KYEC 11억달러 선납금 계약(GTC Berlin 10/21)**: 6개사(KYEC·Amkor·IBIDEN·Samsung Electro-Mechanics·SPIIL·Unimicron) 패키징·테스팅 용량 2028년까지 직접 확보. GB300 공급 제약 지속 확인.
-- **capex ROI 구도**: Cloud 성장 가속 확인 시 AI 인프라 사이클 지속 서사 강화. capex 대비 FCF 마이너스 지속·Cloud 둔화 시 과잉 투자 우려 재점화.
-- **국내 연결 고리**: Cloud 성장 수치 → Nvidia GPU 수요 → HBM 수요 → SK하이닉스·삼성전자 매출. 오늘 밤 결과가 내일(10/29) 한국 반도체주 방향에 직접 영향.
+- **빅테크 3사 AI 클라우드 어닝스 시즌 완결 — AWS Q3 $46B(+39.3%), Azure +48% CC, Google Cloud +103%(EPS 미스)**: 세 회사 모두 AI 워크로드 수요 가속 확인. 주가 반응은 수익화 속도에 따라 갈림 — MSFT +5%, AMZN 하락, GOOGL -10%.
+- **AI 성장 서사 안에서 이익 전환 속도를 시장이 처음 주가에 반영**: Azure OPM ~50% 기업 고객 AI 수익 전환 가장 빠름. Amazon은 성장 유지하나 capex 부담이 이익 가시성 압박. Alphabet은 성장 가장 공격적이나 수익 전환 가장 느림.
+- **Amazon 2027 capex "materially higher"(2026년 ~$2,200억달러 초과) 예고 — 구체 수치 미공시**: Jassy CEO "2027·2028년 AWS 성장률 40% 초과" 명시. Q4 가이던스 $240~247B. 2027 capex 구체 수치 공시 시 시장 할인 요인 명확화.
+- **빅테크 capex 확대는 HBM4 수요와 구조적 연결 — 국내 반도체 방향성 결정**: SK하이닉스·삼성전자 공급 계약·ASP 추이가 한국 반도체 섹터 핵심 지표.
+- **Q4 AWS 성장률 40% 돌파 여부가 다음 데이터포인트**: Azure 대비 수익화 시계 차이가 언제 좁혀지느냐가 밸류에이션 재평가 타이밍.
 
 ## 타임라인
+### 2026-10-30 [[daily/2026-10-30]]
+- [[daily/2026-10-30]] — Amazon Q3: AWS $46B(+39.3%), 전사 OPM 13.9% 역대 최고, 2027 capex "materially higher" 예고. 빅테크 AI 클라우드 어닝스 시즌 완결 — MSFT +5%·AMZN 하락·GOOGL -10%. AI 서사 안에서 이익 전환 속도 차이를 시장이 주가로 처음 반영 → [[topics/반도체HBM]] [[topics/AnthropicIPO]]
+
 ### 2026-10-28 [[daily/2026-10-28]]
 - [[daily/2026-10-28]] — Alphabet Q3·Microsoft FY2027 Q1 어닝스 D-0(오늘 발표): Azure CC 44~45% 가이던스, AI 런레이트 $37B. Google Cloud ~$29B(YoY ~100%) 컨센서스. FOMC 동결과 같은 날. Nvidia KYEC·Amkor 등 6개사 선납금 총 $11억+ — 2028년까지 패키징·테스팅 공급망 직접 확보. AI capex ROI 첫 공식 채점 → [[topics/FOMC]] [[topics/반도체]]
 

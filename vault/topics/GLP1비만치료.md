@@ -1,18 +1,23 @@
 ---
 type: moc
 tags: [바이오제약, GLP-1비만치료, 투자테마]
-updated: 2026-09-15
+updated: 2026-10-30
 ---
 # 🗂 GLP-1 비만 치료 — 주제 지도(MOC)
 
 > 범위: GLP-1·GIP·글루카곤 수용체 작용제 기반 비만·2형 당뇨 치료제. 효능·내약성·급여 구조·차세대 경쟁.
 
 ## 핵심 흐름
-- **경구 GLP-1 3파전 구도로 확대 — AZ elecoglipron Phase 3 진입**: Lilly Foundayo(4월 승인)·Novo Wegovy pill에 이어 AstraZeneca elecoglipron이 EMBOLD·ELUMINATE Phase 3를 개시했다. 승인 예상 시점 2028~2029년으로 Lilly·Novo에 2~3년 후발이다.
-- **elecoglipron Phase 2b 수치 — 비만 -11.8%(36주), 2형 당뇨 HbA1c -1.9%p**: 경쟁약 근접 수준의 데이터가 Phase 3 투자 근거다. 구조적으로 확대되는 경구 GLP-1 시장에서 후발 진입도 시장이 있다.
-- **Lilly Foundayo 선두·Novo 경구 세마글루타이드 2위**: 두 선발 주자의 브랜드 인지도와 급여 지위가 후발 진입자에게 불리한 약가·급여 협상 환경을 형성할 가능성이 있다.
+- **Eli Lilly Q3 FY2026 tirzepatide 합산 $16.05B/분기 — 연율 환산 ~$64B**: Mounjaro(2형 당뇨+심혈관) $10.7B(+65% YoY), Zepbound(비만) $5.3B(+48% YoY). 단일 분자 기준 세계 최대 판매 수준 근접. Mounjaro 심혈관계 위험 감소 적응증 FDA 추가 승인 완료.
+- **Q2 +48%→Q3 +39% 성장률 둔화 — 해석 엇갈림**: 기저효과·시장 성숙화 자연스러운 둔화 vs Novo Nordisk 경구 Wegovy 경쟁 반영 해석 병존. 실현가격 하락(보험 협상·할인율 증가)이 매출 성장 일부를 압박.
+- **경구 GLP-1 경쟁 본격화 예고 — 주사제 프리미엄 압박 요인**: Novo 경구 Wegovy, Lilly orforglipron(2형 당뇨 NDA 제출 예정). 복약 편의 향상으로 주사제 시장 일부 전환 가능성.
+- **다음 성장 논거: retatrutide(삼중작동제) Phase 3, 신경정신과 파이프라인**: TRIUMPH-1(비만 80주 -28.3%)·TRANSCEND-T2D-1(당뇨) 규제 제출 준비. AtaiBeckley 인수를 통한 신경정신과 확장.
+- **경구 GLP-1 3파전 지속 — AZ elecoglipron Phase 3 진행 중**: 승인 예상 2028~2029년. Lilly·Novo 선발 주자 브랜드·급여 지위가 후발 진입자 환경 형성.
 
 ## 타임라인
+### 2026-10-30 [[daily/2026-10-30]]
+- [[daily/2026-10-30]] — Eli Lilly Q3 FY2026: tirzepatide 합산 $16.05B/분기(Mounjaro $10.7B +65%, Zepbound $5.3B +48%). 성장률 Q2 +48%→Q3 +39% 둔화. Mounjaro 심혈관 적응증 추가 승인 완료. 경구 GLP-1 경쟁(Novo·Lilly orforglipron) 본격화 예고 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-09-15 [[daily/2026-09-15]]
 - AstraZeneca elecoglipron Phase 3 EMBOLD·ELUMINATE 개시 — Phase 2b 비만 -11.8%(36주), 2형 당뇨 HbA1c -1.9%p 근거. Lilly Foundayo(4월 승인)·Novo Wegovy pill에 2~3년 후발. 승인 예상 2028~2029년 → [[topics/바이오제약]] [[topics/유망기업]]
 
