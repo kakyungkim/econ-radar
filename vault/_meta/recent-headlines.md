@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-30
+- intismeran autogene INTerpath-001 Phase 3 — 흑색종 mRNA 개인맞춤 암백신 항암 Phase 3 첫 성공(RFS HR 0.58, NEJM)
+- divarasib KrasCendo-1 Phase 3 — KRAS G12C 3세대, sotorasib·adagrasib 동시 추월(PFS HR 0.58/OS HR 0.56, NEJM)
+- Amazon Q3 + AI 클라우드 어닝스 총결산 — AWS $46B(+39.3%), 전사 OPM 13.9% 역대 최고, 2027 capex "materially higher"
+- US GDP Q3 +3.4% SAAR — BEA 1차 추정치, 컨센서스 상회, 12월 FOMC 인상 OIS ~80% 압박 강화
+- Eli Lilly Q3 FY2026 — tirzepatide(Mounjaro+Zepbound) 합산 $16.0B/분기, 성장 지속 vs 둔화 논쟁
+
 ## 2026-10-29
 - MSFT Azure +48% CC 서프라이즈 · Alphabet EPS $2.12 미스 — AI 투자 수익화 속도 첫 분기점
 - HBM4 시대 공식 개막 — SK하이닉스 OP 83.3조(+632%) · 삼성전자 OP 107.4조(+783%), 합산 190조원
@@ -57,12 +64,6 @@ publish: false
 - 빅테크 어닝스+FOMC D-4 — Alphabet·Microsoft·SK하이닉스 Q3(10/28), PCE·GDP Q3(10/29)
 - HLB 리픽투(Lyrfigtu) — FGFR2 담관암 FDA 승인(9/23), 국산 첫 항암 신약 직접 NDA, Q4 미국 출시
 
-## 2026-10-23
-- GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 만성B형간염 기능적 완치율 19% vs 0%, CHB 첫 기능적 치유제 탄생
-- Innovent IBI343 ESMO LBA77 위암 Phase 3 PFS 충족 — Takeda $11.4B 글로벌 파트너십, 계약금 $1.2B 확인
-- INTerpath-001(intismeran autogene) ESMO LBA1 내일(10/24) — mRNA 흑색종 백신 Phase 3 RFS·DMFS 달성
-- Meta Q3 2026년 capex 가이던스 $135~145B 상향 — AH -11%, AI 투자 ROI 타임라인 시험대
-- FOMC D-5(10/28) — 현행 기준금리 3.75~4.00% 동결 전망, Warsh 의장 금리 경로 발언 예정
 
 
 
