@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-10-31
+- BOJ 10월 1.25% 동결(7-2 표결) — 12월 인상 기준선 높아졌다, 분기 경기전망 보고서 11/2 공개
+- 한미약품 에페글레나타이드 식약처 10/7 허가 확인 — 국산 신약 45호, 국내 최초 GLP-1 비만치료제
+- 삼성바이오로직스 PolyPeptide 최소 청약 충족(10/16) — CHF 1.46B(약 2.7조원), 펩타이드 CDMO 확장
+- Anthropic IPO 로드쇼 11/9주 예정 — S-1 제출 완료, 밸류 ~$2T, 미국 중간선거 후 개시
+- Inovio INO-3107 FDA PDUFA 10/30 경과 — 결과 미확인, DNA 플랫폼 최초 승인 여부 주목
+
 ## 2026-10-30
 - intismeran autogene INTerpath-001 Phase 3 — 흑색종 mRNA 개인맞춤 암백신 항암 Phase 3 첫 성공(RFS HR 0.58, NEJM)
 - divarasib KrasCendo-1 Phase 3 — KRAS G12C 3세대, sotorasib·adagrasib 동시 추월(PFS HR 0.58/OS HR 0.56, NEJM)
@@ -56,15 +63,6 @@ publish: false
 - Ris-Rez(B7-H3 ADC) 골육종 ARTEMIS-011 Phase 3 PFS 달성, 내일 LBA9 전체 데이터
 - SK하이닉스 Q3 실적 D-4 — 컨센서스 76.9조원, HBM4 첫 매출 반영, 10/29 발표
 - 빅테크 어닝스 위크 D-3 — Alphabet Q3 컨센서스 $128B·Google Cloud 성장 연속성, FOMC 동결 유력(10/28)
-
-## 2026-10-24
-- INTerpath-001 Phase 3 ESMO LBA1 — mRNA 흑색종 백신 RFS HR 0.58(p<0.001), DMFS HR 0.62(p=0.002), NEJM 동시 게재, 세계 최초 mRNA 항암백신 Phase 3 성공
-- DeLLphi-305 LBA3 — 타를라타맙+더발루맙 ES-SCLC 1차 유지요법 Phase 3 OS·PFS·ORR 달성
-- IBI343 G-HOPE-001 OS HR 0.57 확인 [후속] — CLDN18.2 ADC 위암 3차 치료 mOS 10.2 vs 6.9개월
-- 빅테크 어닝스+FOMC D-4 — Alphabet·Microsoft·SK하이닉스 Q3(10/28), PCE·GDP Q3(10/29)
-- HLB 리픽투(Lyrfigtu) — FGFR2 담관암 FDA 승인(9/23), 국산 첫 항암 신약 직접 NDA, Q4 미국 출시
-
-
 
 
 
