@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-01
+- Inovio Voceryq(INO-3107) FDA 가속승인 — DNA 플랫폼 미국 첫 허가, 재발성 호흡기유두종증(RRP) 대상, 현금 $37.7M 런치 자금 압박
+- PCE 9월 코어 +3.1%·슈퍼코어 +3.60% YoY — 12월 FOMC 인상 OIS ~90%, 결정 변수 NFP(11/7)·CPI(11/13)
+- 이보네시맙 PDUFA 11/14 — NSCLC 2차 PD-1/VEGF 이중항체, 중국 단독 임상 데이터 FDA 수용 여부 최대 변수
+- 미국 중간선거 D-2 — AI 규제·빅테크 세금 핵심 정책 변수, Anthropic 로드쇼(11/9주) 시점 겹침
+- 경구 GLP-1 이중 시장 — Novo 경구 Wegovy vs Lilly Foundayo, 접근성·급여 장벽 지속, 레타트루타이드 2027 BLA 예정
+
 ## 2026-10-31
 - BOJ 10월 1.25% 동결(7-2 표결) — 12월 인상 기준선 높아졌다, 분기 경기전망 보고서 11/2 공개
 - 한미약품 에페글레나타이드 식약처 10/7 허가 확인 — 국산 신약 45호, 국내 최초 GLP-1 비만치료제
@@ -56,13 +63,5 @@ publish: false
 - Krascendo-1(divarasib) KRAS G12C head-to-head Phase 3 — PFS HR 0.58/OS HR 0.56 vs 소토라십·아다그라십
 - Anthropic IPO 11월 임박 — 목표 밸류에이션 $2조, Nvidia 최대 $100억 투자 협의
 - FOMC D-2 + 빅테크 어닝스(Alphabet/Microsoft 10/28) + SK하이닉스 Q3(10/29) — 이번 주 Q4 방향 결판
-
-## 2026-10-25
-- SAFFRON LBA6 — 사볼리티닙+오시머티닙 EGFR+MET NSCLC Phase 3(N=338) PFS+OS 달성, 오늘 저녁 ESMO 전체 HR 공개, FDA NDA 제출
-- Incyte INCB161734 CRC 1상 데이터 ESMO 첫 발표 + Incyte-Genmab 1L CRC Phase 1/2 협력
-- Ris-Rez(B7-H3 ADC) 골육종 ARTEMIS-011 Phase 3 PFS 달성, 내일 LBA9 전체 데이터
-- SK하이닉스 Q3 실적 D-4 — 컨센서스 76.9조원, HBM4 첫 매출 반영, 10/29 발표
-- 빅테크 어닝스 위크 D-3 — Alphabet Q3 컨센서스 $128B·Google Cloud 성장 연속성, FOMC 동결 유력(10/28)
-
 
 
