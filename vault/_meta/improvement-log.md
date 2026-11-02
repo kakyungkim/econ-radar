@@ -317,3 +317,13 @@ publish: false
 - **복구 부작용**: 되살린 vault/push, vault/email 파일 때문에 Telegram, Email 발송 워크플로가 11-01 호로 돌았다. 메일은 Buttondown 중복 차단(email_duplicate), 텔레그램은 토큰 재발급 직후라 401로 둘 다 나가지 않았다. 실패 알림 Issue #7, #8이 생겼다(조치 불필요).
 - **재발 방지**: 세 저장소에 pre-commit 훅(삭제 20개 초과 또는 인덱스 급감 시 차단, 빈 저장소로 3가지 경우 검사). 전역 rules/scripting-safety.md 7항, 튜토리얼 ~/.claude/docs/ops-tutorials.md.
 - **같은 날 함께 한 일**: 텔레그램 토큰 재발급(주간 루틴 프롬프트에 평문으로 있던 것을 제거), GoatCounter 방문 분석 설치(블로그 head, 정적 페이지 185개, 템플릿 3곳), paper-radar deploy.sh 수정과 W40~W42, W44 블로그 복구.
+
+## 2026-11-02 (오후) 신뢰성 보강, 노출 개선, 자산화 1차
+- **시장 수치 점검**: `scripts/check_market_numbers.py`(검사 11개). 코스피, 미 국채 10년물, 원/달러를 FRED와 Yahoo 직전 30일 종가와 대조하고, 시장 항목의 3주 넘은 기사 링크를 표시한다. 고치기 전 10-03/10-04 본의 오기 셋을 모두 잡고 고친 뒤 0건. 9~11월 전체 대조로 목표 지수, 해외 국채, 시가총액, 출처 목록을 제외 규칙에 넣었다. FRED는 urllib과 브라우저 User-Agent를 받지 않아 curl 기본값으로 받는다. 진행표 T4.8, push 뒤 `daily-checks.yml`이 재점검해 DM.
+- **루틴 프롬프트 갱신**(RemoteTrigger update): 데일리, 재시도, 주간(토큰 제거), paper-radar. push는 `HEAD:main`(paper-radar는 `HEAD:master`)과 원격 확인, 커밋 전 삭제 0건 확인, deploy는 "원격 main 반영 확인" 문구로 성공 판정.
+- **읽힘 보고**: `readership-report.yml`(월 10:00 KST DM). 첫 측정은 메일 18명에 9통 모두 열람 0(Buttondown 열람 추적이 꺼져 있음, 사용자가 켜야 함), 텔레그램 13명에 글당 조회 1~2.
+- **노출**: 데일리와 주간 템플릿에 화제 제목, description, og, NewsArticle/Article JSON-LD, 메일 구독 버튼. 기존 블로그 페이지 161개에 같은 내용을 끼워 넣음(재렌더 없이). llms.txt에 두 뉴스레터. GoatCounter 설치.
+- **주제 노트**: 13개 묶음을 대표 노트로 합치고 32개는 안내 노트(`merged_into`)로. 매핑은 `topic-merge-2026-11-02.md`.
+- **자산화 1차**: `build_event_db.py`로 `vault/_meta/events.csv`(3,476행), `build_topic_hubs.py`로 주제 허브 12곳(공개는 승인 대기). AI(796건)는 묶음이라 허브에서 뺐다.
+- **paper-radar**: 후보 수집을 GitHub Actions로(`collect-candidates.yml`, 일 07:00 KST, arXiv/bioRxiv/medRxiv/Europe PMC API, 검사 10개). W44로 실제 실행해 60건과 초록을 저장소에 올린 것을 확인. 방문 분석 줄만 다른 W35~W44 렌더본을 현재 렌더러로 맞춰 배포 전 대조 게이트가 막지 않게 했다. 기획 문서(재설계 브리프, 통합 로드맵, 스텁 스킬)는 공개 저장소라 올리지 않고 knowledge-hub `projects/paper-radar-planning/`에 사본을 두었다.
+- **글**: 블로그 한영 "자동 발행 뉴스레터 econ-radar 5개월 점검"(블로그 브랜치에 커밋, 게시 승인 대기), 링크드인 초안 `vault/blog-drafts/2026-11-02-linkedin-econ-radar-audit.md`. 한국어 연결어미 쉼표 z 5.65→−0.52, 영문 HUMAN_ONLY 점수 1.
