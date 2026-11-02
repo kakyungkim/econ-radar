@@ -5,6 +5,8 @@ updated: 2026-09-19
 ---
 # 🗂 희귀질환 PDUFA — 주제 지도(MOC)
 
+> 상위 주제: [[topics/희귀질환신약]]
+
 ## 핵심 흐름
 - **FAYUVI(rebisufligene etisparvovec-hopf) FDA 완전 승인(9/17) — MPS IIIA 세계 최초 치료제**: 9월 PDUFA 첫 결과. AAV9 단회 뇌조 내 투여 395만달러, PRV 수령. 8월 DTX401 이후 Ultragenyx 두 번째 AAV 연속 승인.
 - **AQNEURSA(levacetylleucine) FDA 승인(9/19) — A-T 최초 치료제**: FAYUVI와 같은 날 두 개의 "최초 치료제"가 동시 승인. NPC 이어 같은 분자로 두 번째 적응증을 확장한 비상장 IntraBio 모델 주목.

@@ -1,7 +1,8 @@
 ---
 type: moc
 tags: [AI경쟁구도, AI, 투자테마, 반도체AI]
-updated: 2026-10-11
+aliases: [AI모델경쟁]
+updated: 2026-11-02
 ---
 # 🗂 AI 경쟁 구도 — 주제 지도(MOC)
 
@@ -11,6 +12,9 @@ updated: 2026-10-11
 - **OpenAI 연환산 순수익 $50B(약 69조원) vs 총수익 $70B — 28% 격차로 AI 기업 수익화 회계 논쟁 촉발**: FT가 10/8 보도한 순수익 $50B은 투자자에게 공유됐던 총수익 $70B보다 $20B(약 27조6,000억원) 낮다. AI 기업 밸류에이션 기준선이 "어느 수익 기준이냐"에 따라 달라지는 문제가 표면화됐다.
 - **Anthropic 공개 S-1 이번 주(10/12~16) D-14 — 11/9 로드쇼 목표**: 비밀 S-1은 6월 1일 제출. 기업가치 논의 약 2조달러(약 2,760조원). S-1 공개 시 API·엔터프라이즈 매출 비중·순손실·컴퓨트 비용이 처음 공시 기반으로 드러나 OpenAI 논란의 gross vs net 비교가 실수치로 전환된다.
 - **Nvidia Hugging Face 인수(9/3) + Mistral 삼성전자 주도 €3B(9/8) — AI 에코시스템 경쟁 구도 재편**: AI 경쟁이 칩 성능에서 에코시스템 전환 비용 싸움으로 이동. 소버린 AI(EU) 자본화 병행.
+- **GPT-6 Astra 일반 공개(Critical 등급) — "배포하며 모니터링" 방식 상업화**: FrontierMath Tier 4 97.6%, ARC-AGI-3 99.9%, OpenAI 역대 최초 Critical 등급. 9/5부터 ChatGPT Plus·Pro·Business·Enterprise 전 구독자 배포. AI 안전 거버넌스 규범이 바뀌고 있다는 신호.
+- **MAI-Transcribe-2 $0.10/시간 — 음성인식 인프라 원가 레이어 상품화**: FLEURS 60개 언어 WER 5.2% 1위, $0.10/오디오시간(2026년 말까지). 독립 음성인식 API 사업자 구조적 압박. Microsoft Azure AI Foundry 통합 전략.
+- **AI 경쟁 평가 기준 이동 — 벤치마크 점수 → 보안 등급·가드레일·가격 3영역**: Critical 등급 배포가 경쟁사도 같은 선택을 강요받는 구조 형성. 기업 IT·보안팀 검토가 채택 속도의 병목.
 
 ## 타임라인
 ### 2026-10-11 [[daily/2026-10-11]]
@@ -29,5 +33,8 @@ updated: 2026-10-11
 ### 2026-09-07 [[daily/2026-09-07]]
 - Nvidia Hugging Face $12.93B($11.9B 현금+$1B 유지 주식) 인수 합의(9/3) — AI 플랫폼 수직 통합. 반독점 심사·오픈소스 커뮤니티 이탈 리스크가 실행 변수. GPT-6 Astra 출시 첫 주 KOSPI AI 반도체 +8%대 랠리 → [[topics/AI반도체]] [[topics/반도체HBM]]
 
+### 2026-09-05 [[daily/2026-09-05]]
+- GPT-6 Astra 일반 공개(Critical 등급) + MAI-Transcribe-2 $0.10/시간 음성인식 상품화 — AI 경쟁 기준이 성능에서 가격·안전 등급으로 이동 → [[topics/AI반도체]] [[topics/AI인프라]]
+
 ## 연결 주제
-- [[topics/AI모델경쟁]] [[topics/AI반도체]] [[topics/반도체HBM]] [[topics/투자테마]] [[topics/한국바이오]]
+- [[topics/AI반도체]] [[topics/반도체HBM]] [[topics/투자테마]] [[topics/한국바이오]] [[topics/AI인프라]]
