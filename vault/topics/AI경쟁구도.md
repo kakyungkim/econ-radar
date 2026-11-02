@@ -21,7 +21,7 @@ updated: 2026-10-11
 
 ### 2026-10-09 [[daily/2026-10-09]]
 - [[daily/2026-10-09]] — Anthropic IPO 11월 9일 주로 연기(10/6 보도): 11/3 중간선거 이후 로드쇼 검토. 기업가치 2조 달러. 10/25 공개 S-1 제출이 첫 이정표. 구글 TPU 100만 개 약정 클라우드 종속 구조와 미래 인프라 지출 약정 5,180억 달러가 주요 리스크 → [[topics/유망기업]] [[topics/바이오IPO]]
-- [[daily/2026-10-09]] — TRex Bio(TRXB)·Retension Pharma(RTSN) 나스닥 상장: 고금리 5.35% 환경에서 IPO 창구 지속 여부 시험. Lilly 1,300만 달러 전략 투자(TRXB) → [[topics/바이오IPO]]
+- [[daily/2026-10-09]] — TRex Bio(TRXB)·Retension Pharma(RTSN) 나스닥 상장: 10년물 5.3% 안팎의 고금리 속에서 IPO 창구 지속 여부 시험. Lilly 1,300만 달러 전략 투자(TRXB) → [[topics/바이오IPO]]
 
 ### 2026-09-09 [[daily/2026-09-09]]
 - Mistral AI €3B(약 3조3,000억원) 삼성전자 주도 시리즈 D — 유럽 기술 역대 최대 에퀴티 라운드. 포스트머니 €21B(직전 라운드 1.8배). EU AI Act GPAI 집행 이후 소버린 AI 시장 첫 대형 자본화. 삼성전자 NPU·HBM 고객 확보+유럽 AI 생태계 투자 이중 전략 → [[topics/소버린AI]] [[topics/반도체HBM]]
