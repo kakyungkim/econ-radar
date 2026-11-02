@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오PDUFA, 바이오제약, 투자테마]
-updated: 2026-10-11
+updated: 2026-11-02
 publish: false
 ---
 # 🗂 바이오 PDUFA — 주제 지도(MOC)
@@ -12,11 +12,15 @@ publish: false
 > 가속승인 경로 구조 변화는 [[topics/ADC항체약물접합체]] 및 [[topics/신약개발전략]] 참조.
 
 ## 핵심 흐름
-- **bepirovirsen(GSK·Ionis) PDUFA D-15(10/26) — 만성 B형 간염(CHB) 기능적 완치 첫 도전**: ASO 기반. B-Well Phase 3 기반, BTD·우선심사 부여. 성공 시 평생 경구 항바이러스제 복용에서 유한 기간 치료로 패러다임 전환. 기능적 완치율 원문 수치 미공개가 약가 협상 변수.
-- **INO-3107(INOVIO) PDUFA D-19(10/30) — 재발성 호흡기 유두종증(RRP) DNA 플랫폼 치료 백신**: DNA 플랫폼 최초 상업적 허가 이진 이벤트. 미충족 수요 강하지만 FDA 가속승인 요건 미충족 예비 의견으로 불확실성 높음. 시총 약 7,200만달러(약 993억원) 소규모 기업.
-- **10월 두 이벤트 모두 비전통 모달리티(ASO·DNA 플랫폼) — FDA 수용 선례 형성**: 두 결과가 동시에 해당 플랫폼의 규제 경로를 규정한다.
+- **셀멘도시란(cemdisiran) gMG — 이달 FDA 결정, 최초 siRNA gMG 치료제 후보**: Regeneron·Alnylam 공동 개발. 보체 C5 mRNA siRNA 기반, 12주 1회 피하주사. MG-ADL -2.3점(P<0.001). 허가 시 투여 간격 6분의 1(격주→12주) 차별화 포지션.
+- **넬라달킵(neladalkib) PDUFA D-25(11/27) — ALK 4세대 TKI, 로브레나 내성 공백 겨냥**: BTD+우선심사. 로브레나 미투여 하위군 ORR 46%. OS 미성숙이 가이드라인 편입 속도 제한 변수.
+- **미타피바트(mitapivat) SCD PDUFA 11/1 경과 — 결과 확인 대기**: Agios sNDA. 1차 평가변수(통증 발작 빈도 감소) 미달성. HbF 증가 대리 평가변수 가속승인 여부가 분수령.
+- **11월 세 품목 모두 다른 모달리티(siRNA·4세대 TKI·경구 소분자) — 모달리티 레이스 스냅샷**: 각 결과가 해당 플랫폼의 CNS·희귀질환 규제 경로를 동시에 규정.
 
 ## 타임라인
+### 2026-11-02 [[daily/2026-11-02]]
+- [[daily/2026-11-02]] — 11월 PDUFA 집중: ① 셀멘도시란(cemdisiran) gMG — 이달 FDA 결정 대기. 최초 siRNA gMG 치료제, 12주 1회 피하주사 차별화. ② 넬라달킵(neladalkib) PDUFA D-25(11/27) — ALK 4세대 TKI, 로브레나 미투여 하위군 ORR 46%, BTD·우선심사. ③ 미타피바트(mitapivat) SCD PDUFA 11/1 경과 — 결과 미확인, 1차 평가변수 미달성, 가속승인 여부 대기 → [[topics/신약개발전략]] [[topics/바이오제약]]
+
 ### 2026-10-11 [[daily/2026-10-11]]
 - [[daily/2026-10-11]] — bepirovirsen(GSK·Ionis) CHB 기능적 완치 PDUFA D-15(10/26). INO-3107(INOVIO) RRP DNA 치료 백신 PDUFA D-19(10/30). 두 품목 모두 비전통 모달리티(ASO·DNA) 이진 이벤트. INO-3107 FDA 가속승인 요건 미충족 예비 의견 불확실성 지속 → [[topics/신약개발전략]]
 
