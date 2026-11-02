@@ -1,0 +1,43 @@
+name: Weekly Readership Report
+
+# 주 1회 메일 열람과 클릭, 텔레그램 구독자와 조회수를 모아 개인 DM으로 보낸다. 키는 Secret에만 둔다.
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # 월 01:00 UTC = 월 10:00 KST (주간 리포트 발행 뒤)
+  workflow_dispatch:
+    inputs:
+      fields:
+        description: '응답 필드 이름만 출력(첫 설정 확인용)'
+        type: boolean
+        default: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.fields }}" = "true" ]; then
+            python3 scripts/report_readership.py --fields
+          else
+            python3 scripts/report_readership.py --days 7 | tee report.txt
+          fi
+
+      - name: Send DM
+        if: github.event.inputs.fields != 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ vars.TELEGRAM_ALERT_CHAT_ID }}
+        run: |
+          RES=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_ALERT_CHAT_ID}" \
+            --data-urlencode "text=$(head -c 3500 report.txt)" -d disable_web_page_preview=true)
+          echo "$RES" | grep -q '"ok":true' && echo "DM 발송 완료" || { echo "DM 실패: $RES" | sed 's/bot[0-9]*:[A-Za-z0-9_-]*/bot***/g'; exit 1; }
