@@ -34,7 +34,8 @@ news-scout, market-analyst, company-scout, newsletter-editor, style-critic, fact
    - T4 통합(newsletter-editor, T2·T3 의존) → `vault/daily/*`
    - **T4.5 문체 검수(style-critic, T4 의존) → `vault/daily/*` 윤문** (발행 전 AI스러운 표현 제거)
    - **T4.7 사실 검증(fact-checker, T4.5 의존) → `vault/daily/*` 수치·출처 검증** (자동 발행의 마지막 사실 방어선 — 핵심 수치 원문 대조, 출처 없는 수치 차단, 단일 소스 표기)
-   - T5 렌더(report-renderer, T4.7 의존) → `vault/html/*.html`, `vault/push/*`
+   - **T4.8 시장 수치 점검(팀장 직접, T4.7 의존)** → `python3 scripts/check_market_numbers.py DATE --online`. "낡은 링크"(시장 수치 항목에 3주 넘은 기사)와 "시세와 다름"(코스피, 미 국채 10년물, 원/달러가 직전 30일 종가 범위 밖)을 출력한다. 걸린 문장은 그날 실제 값으로 고치거나, 과거 값을 인용한 것이면 날짜를 문장에 밝힌다. 장중 값은 "장중"이라고 쓴다. 시세를 받지 못하면(클라우드 접속 제한) 낡은 링크만 보고 넘어간다. GitHub Actions(daily-checks.yml)가 push 뒤 같은 검사를 다시 돌려 개인 DM으로 알린다. (2026-11-02 추가, 10-03과 10-04의 7월 기사 수치 오염)
+   - T5 렌더(report-renderer, T4.8 의존) → `vault/html/*.html`, `vault/push/*`
    - T6 vault 정리(knowledge-curator, T4.7 의존) → `vault/topics/*` 갱신
    - **T7 블로그 발행(팀장 직접, T5 의존, econ-radar push 뒤)** → `BLOG=<블로그 clone> CONFIRM=0 ./deploy.sh YYYY-MM-DD "<헤드라인>"`. 끝에 "🚀 공개 완료 — 원격 main 반영 확인"이 나와야 완료다. exit 1이면 실패로 보고한다. 이 단계 없이 "모든 작업 완료"라고 보고하지 않는다.
      (2026-11-02 추가. 10-28, 10-29 실행 로그에서 deploy.sh 출력이 "✅ 커밋 완료 / Everything up-to-date / 🚀 공개 완료"였다. 블로그 clone이 detached HEAD라 새 커밋이 밀리지 않았는데 성공으로 보고됐다. 두 날 모두 텔레그램만 나가고 블로그는 404였다. deploy.sh는 이제 원격 반영을 확인한다. "Everything up-to-date"가 보이면 공개되지 않은 것이다.)
