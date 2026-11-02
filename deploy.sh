@@ -37,16 +37,32 @@ fi
 
 cd "$BLOG"
 git add "econ-radar/$DATE.html" "econ-radar/index.html"
-if git diff --cached --quiet; then echo "변경 없음 — 종료"; exit 0; fi
-git commit -q -m "econ-radar: $DATE 발행"
-echo "✅ 커밋 완료"
+if git diff --cached --quiet; then
+  echo "ℹ️  로컬 변경 없음 — 원격 반영 여부만 확인"   # 앞선 실행이 커밋만 하고 push를 못 했을 수 있다
+else
+  git commit -q -m "econ-radar: $DATE 발행"
+  echo "✅ 커밋 완료"
+fi
+
+# HEAD:main 으로 민다. `git push origin main`은 detached HEAD(클라우드 세션의 기본 상태)에서
+# 새 커밋이 아닌 옛 main을 밀어 "Everything up-to-date"로 성공 종료했다(2026-10-28, 10-29 블로그 누락).
+# push 뒤에는 원격 main에 이 날짜 파일이 로컬과 같은 내용으로 있는지 확인하고, 없으면 실패로 끝낸다.
+publish() {
+  git push origin HEAD:main
+  git fetch -q origin main
+  if [ "$(git rev-parse "FETCH_HEAD:econ-radar/$DATE.html" 2>/dev/null)" != "$(git rev-parse "HEAD:econ-radar/$DATE.html")" ]; then
+    echo "❌ push 뒤 원격 main에 econ-radar/$DATE.html 이 없거나 다릅니다. 공개되지 않았습니다." >&2
+    exit 1
+  fi
+  echo "🚀 공개 완료 — 원격 main 반영 확인 (페이지는 1~2분 뒤 라이브)"
+}
 
 if [ "$CONFIRM" = "1" ]; then
   read -r -p "지금 push 해서 공개할까요? [y/N] " yn
   case "$yn" in
-    [yY]*) git push origin main && echo "🚀 공개 완료 (1~2분 뒤 라이브)";;
-    *)     echo "⏸  push 보류 — 나중에:  (cd \"$BLOG\" && git push)";;
+    [yY]*) publish;;
+    *)     echo "⏸  push 보류 — 나중에:  (cd \"$BLOG\" && git push origin HEAD:main)";;
   esac
 else
-  git push origin main && echo "🚀 공개 완료 (1~2분 뒤 라이브)"
+  publish
 fi
