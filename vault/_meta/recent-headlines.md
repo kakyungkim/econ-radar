@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-02
+- BOJ 2026년 2% 물가 목표 달성 첫 공식 선언 — FY2027 근원 CPI 2.6% 상향, 12월 1.50% 인상 시장 확률 68%
+- 한국 10월 수출 최종치 $115.3B(+93.7%) — 반도체 $56.4B 사상 최고 비중 48.9%, 연누계 $930B
+- 미국 중간선거 D-1 — AI 규제 방향·Anthropic IPO 공모가(11/9주 로드쇼) 직결 변수
+- 셀멘도시란(Cemdisiran, Regeneron) gMG FDA 결정 이달 — 최초 siRNA gMG 치료제, NIMBLE MG-ADL -2.3점
+- 넬라달킵(Nuvalent) PDUFA D-25(11/27) — ALK 4세대 TKI, 로브레나 미투여 하위군 ORR 46%
+
 ## 2026-11-01
 - Inovio Voceryq(INO-3107) FDA 가속승인 — DNA 플랫폼 미국 첫 허가, 재발성 호흡기유두종증(RRP) 대상, 현금 $37.7M 런치 자금 압박
 - PCE 9월 코어 +3.1%·슈퍼코어 +3.60% YoY — 12월 FOMC 인상 OIS ~90%, 결정 변수 NFP(11/7)·CPI(11/13)
@@ -57,11 +64,5 @@ publish: false
 - SK하이닉스·삼성전자 Q3 D-2 — 10/29 동시 발표, HBM4 첫 매출 반영, SK하이닉스 컨센서스 OP 76.96조원
 - Merck·Kelun-Biotech sac-TMT ESMO 3중 — TroFuse-005(자궁내막암)·Lung04 Final OS·Lung06(NSCLC 1차)
 
-## 2026-10-26
-- SAFFRON LBA6 전체 데이터 + SANOVO LBA69 — 사볼리티닙+오시머티닙 EGFRm NSCLC 2차(PFS 45% 감소/OS 32% 감소, NEJM) + 1차(PFS HR 0.56, 중앙 24.9개월) Phase 3 동시 확증
-- GSK Hibsago(bepirovirsen) FDA 승인(10/20) — 세계 첫 만성 B형 간염 ASO 기능적 완치 치료제, 완치율 19% vs 0%
-- Krascendo-1(divarasib) KRAS G12C head-to-head Phase 3 — PFS HR 0.58/OS HR 0.56 vs 소토라십·아다그라십
-- Anthropic IPO 11월 임박 — 목표 밸류에이션 $2조, Nvidia 최대 $100억 투자 협의
-- FOMC D-2 + 빅테크 어닝스(Alphabet/Microsoft 10/28) + SK하이닉스 Q3(10/29) — 이번 주 Q4 방향 결판
 
 
