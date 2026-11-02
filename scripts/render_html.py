@@ -17,6 +17,7 @@ render_html.py — econ-radar 일일 뉴스레터 결정적 렌더러
 import sys
 import os
 import re
+import json
 import base64
 import argparse
 
@@ -1014,7 +1015,11 @@ def render_footer(doc):
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6 18.7 19.9c-.24 1.08-.88 1.34-1.79.84l-4.94-3.64-2.38 2.29c-.26.26-.48.48-.99.48l.35-5.03 9.15-8.27c.4-.35-.09-.55-.62-.2L4.55 13.37l-4.87-1.52c-1.06-.33-1.08-1.06.22-1.57L20.57 3.05c.88-.33 1.65.2 1.37 1.55z"/></svg>
         매일 텔레그램으로 받기 <span class="text-indigo-200 font-normal text-sm">@econradar</span>
       </a>
-      <p class="text-xs text-gray-400">매일 저녁(오후 6시 반 이후) 핵심 5건 요약 + 전체 링크.</p>
+      <a href="https://buttondown.com/kakyungkim" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 bg-white border border-indigo-200 hover:border-indigo-400 text-indigo-700 font-semibold text-[15px] rounded-xl px-5 py-3 shadow-sm transition mb-2 ml-1">
+        ✉️ 메일로 받기 <span class="text-indigo-400 font-normal text-sm">무료</span>
+      </a>
+      <p class="text-xs text-gray-400">매일 저녁(오후 6시 반 이후) 핵심 5건 요약 + 전체 링크. 주간 동향 리포트는 월요일 아침.</p>
       <p class="text-sm text-gray-500 mt-4">econ-radar · {date}</p>
       <p class="text-xs text-gray-400 mt-1">투자 참고용 정보입니다. 판단과 책임은 본인에게 있습니다.</p>
     </footer>""".format(date=date)
@@ -1293,7 +1298,54 @@ def build_html(doc, hero_b64):
              'title="맨 위로">&uarr;</a>')
     with open(TEMPLATE, encoding="utf-8") as f:
         tmpl = f.read()
-    return tmpl.replace("{{DATE}}", doc["date"] or "").replace("{{BODY}}", body)
+    title, desc, jsonld = page_meta(doc)
+    return (tmpl.replace("{{TITLE}}", esc(title)).replace("{{DESC}}", esc(desc))
+            .replace("{{JSONLD}}", jsonld)
+            .replace("{{DATE}}", doc["date"] or "").replace("{{BODY}}", body))
+
+
+def _plain_text(s):
+    s = WIKILINK_RE.sub(" ", s or "")
+    s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+    s = re.sub(r"[*_`>#]", "", s)
+    s = re.sub(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\uFE0F]", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _clip(s, n):
+    """n자 안에서 단어 경계로 자른다. 말줄임표는 붙이지 않는다."""
+    if len(s) <= n:
+        return s
+    cut = s[:n]
+    return cut[:cut.rfind(" ")].rstrip(",·:;( ") if " " in cut else cut
+
+
+def page_meta(doc):
+    """검색 결과와 링크 미리보기에 보일 제목, 요약, NewsArticle 구조화 데이터. 2026-11-02 추가."""
+    date = doc["date"] or ""
+    hook = ""
+    if doc.get("topic") and doc["topic"].get("title"):
+        hook = doc["topic"]["title"]
+    elif doc.get("top5"):
+        hook = doc["top5"][0]["title"]
+    hook = _plain_text(hook)
+    tail = " | econ-radar " + date
+    title = (_clip(hook, 70 - len(tail)) + tail) if hook else "econ-radar " + date
+    parts = [_plain_text(g) for g in (doc.get("glance") or [])]
+    if not parts:
+        parts = [_plain_text(it["title"]) for it in (doc.get("top5") or [])]
+    desc = _clip(" ".join(p for p in parts if p), 160) or title
+    url = "https://kakyungkim.github.io/econ-radar/%s.html" % date
+    ld = {
+        "@context": "https://schema.org", "@type": "NewsArticle",
+        "headline": _clip(hook or title, 110), "description": desc,
+        "datePublished": date + "T18:30:00+09:00", "inLanguage": "ko-KR",
+        "url": url, "mainEntityOfPage": url,
+        "author": {"@type": "Person", "name": "Ka-Kyung Kim", "url": "https://kakyungkim.github.io/"},
+        "publisher": {"@type": "Organization", "name": "econ-radar", "url": "https://kakyungkim.github.io/econ-radar/"},
+        "about": [_plain_text(it["title"]) for it in (doc.get("top5") or [])][:5],
+    }
+    return title, desc, json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
 
 
 def main():

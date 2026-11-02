@@ -5,7 +5,7 @@ stdlib만 사용(자체 마크다운 변환). 데일리 render_html.py와 별도
 사용: python scripts/render_weekly.py 2026-W26   [--out-suffix=-test]
 출력: vault/html/2026-W26-동향.html
 """
-import sys, os, re, html, argparse
+import sys, os, re, html, json, argparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS = os.path.join(ROOT, "vault", "reports")
@@ -187,6 +187,7 @@ PAGE = """<!DOCTYPE html>
 <link rel="canonical" href="{canonical}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
+{meta}
 <style>
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 :root{{--ink:#1e293b;--indigo:#4338ca;--indigo-deep:#3730a3;--soft:#eef2ff;--line:#c7d2fe;--muted:#64748b;--pop:#c026d3;}}
@@ -278,6 +279,28 @@ def _short_range(daterange):
         a, b = ds[0], ds[-1]
         return "%d/%d~%d/%d" % (int(a[1]), int(a[2]), int(b[1]), int(b[2]))
     return daterange or ""
+
+
+def head_meta(h1, key_msgs, period):
+    """검색 결과와 링크 미리보기용 description, og, Article 구조화 데이터. 2026-11-02 추가."""
+    url = "%s/%s.html" % (BLOG_FULL, period)
+    t = re.sub(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\uFE0F]", "", h1).strip()
+    d = " ".join(key_msgs)
+    if len(d) > 160:
+        d = d[:160]
+        d = d[:d.rfind(" ")] if " " in d else d
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": t[:110], "description": d,
+          "inLanguage": "ko-KR", "url": url, "mainEntityOfPage": url,
+          "author": {"@type": "Person", "name": "Ka-Kyung Kim", "url": "https://kakyungkim.github.io/"},
+          "publisher": {"@type": "Organization", "name": "econ-radar", "url": BLOG_FULL + "/"}}
+    e = lambda x: html.escape(x, quote=True)
+    return ('<meta name="description" content="%s">\n'
+            '<meta property="og:type" content="article">\n<meta property="og:site_name" content="econ-radar">\n'
+            '<meta property="og:locale" content="ko_KR">\n<meta property="og:title" content="%s">\n'
+            '<meta property="og:description" content="%s">\n<meta property="og:url" content="%s">\n'
+            '<meta name="twitter:card" content="summary">\n'
+            '<script type="application/ld+json">%s</script>') % (
+        e(d), e(t), e(d), e(url), json.dumps(ld, ensure_ascii=False).replace("</", "<\\/"))
 
 
 def parse_weekly(fm, body, period):
@@ -475,8 +498,10 @@ def main():
         toc_html = ('<nav class="toc" aria-label="섹션 바로가기">'
                     '<span class="toc-label">📑 바로가기</span>'
                     + "".join(chips) + "</nav>")
+    _m = parse_weekly(fm, body, args.period)
     page = PAGE.format(
         title=html.escape(h1), h1=inline(h1), blog=BLOG_BASE,
+        meta=head_meta(h1, _m["key_msgs"], args.period),
         canonical="%s/%s.html" % (BLOG_FULL, args.period),
         range=html.escape(fm.get("date_range", "")),
         toc=toc_html, foottags=foottags_html,
