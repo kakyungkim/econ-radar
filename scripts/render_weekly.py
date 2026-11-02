@@ -50,6 +50,39 @@ def inline(text):
     return re.sub(r"\x00(\d+)\x00", unstash, text)
 
 
+# 근거 표기 정리. md는 옵시디언용 [[daily/DATE]]로 근거를 달지만 공개 HTML에서는 괄호째 글자로 보였다.
+# 문장 안 데일리 위키링크는 그날 데일리로 가는 날짜 링크로, "근거 노트:" 줄과 "## 재료 출처" 절은 빼고,
+# 공개되지 않는 노트(topics, analysis) 위키링크는 지운다. vault 원본은 그대로 둔다.
+_DAILY = r"\[\[daily/(\d{4})-(\d{2})-(\d{2})(?:\|[^\]]*)?\]\]"
+# 괄호로 감싼 묶음, 바깥 괄호 끝에 붙은 묶음("$3.87B, [[daily/..]])"), 맨 묶음 순으로 본다.
+_D = r"\[\[daily/\d{4}-\d{2}-\d{2}(?:\|[^\]]*)?\]\]"
+_RUN = re.compile(r"\((%s(?:[\s·,]*%s)*)\)|(%s(?:[\s·,]*%s)*)(\))?" % ((_D,) * 4))
+
+
+def _date_links(run):
+    return ", ".join("[%d/%d](/daily/%s-%s-%s.md)" % (int(mo), int(d), y, mo, d)
+                     for y, mo, d in re.findall(_DAILY, run))
+
+
+def clean_evidence(body):
+    out, skip = [], False
+    for ln in body.split("\n"):
+        s = ln.strip()
+        if re.match(r"^##\s", s):
+            skip = bool(re.match(r"^##\s+(재료 출처|근거 노트)\s*$", s))
+        if skip or re.match(r"^(\*\*)?근거 노트(\*\*)?\s*:", s):
+            continue
+        ln = _RUN.sub(lambda m: "(%s)" % _date_links(m.group(1)) if m.group(1)
+                      else _date_links(m.group(2)) + ")" if m.group(3)
+                      else "(%s)" % _date_links(m.group(2)), ln)
+        ln = re.sub(r"\s*\[\[[^\]]+\]\]", "", ln)           # 공개 안 된 노트 링크
+        ln = re.sub(r"\(\s*\)", "", ln)
+        out.append(ln)
+    while out and re.match(r"^\s*(-{3,}|\*{3,})?\s*$", out[-1]):  # 뺀 절 앞에 남은 구분선
+        out.pop()
+    return "\n".join(out)
+
+
 # 위클리 섹션(## 헤더) → 짧은 칩 라벨 매핑(키워드 포함 검색, 순서대로). 점프 TOC용.
 TOC_LABELS = [
     ("핵심 메시지", "핵심", "지난 주를 관통한 핵심 메시지"),
@@ -425,6 +458,7 @@ def main():
     h1 = h1m.group(1) if h1m else (args.period + " 동향")
     if h1m:
         body = body[:h1m.start()] + body[h1m.end():]
+    body = clean_evidence(body)
     # 공개 위클리엔 태그 미표시(장식적·태그 페이지 없음). frontmatter 태그는 내부 분류용으로만 유지.
     foottags_html = ""
     # 본문 렌더하며 ## 섹션 수집 → 점프 TOC 생성
