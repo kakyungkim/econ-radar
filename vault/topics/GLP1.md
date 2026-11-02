@@ -1,0 +1,21 @@
+---
+type: moc
+tags: [바이오제약, GLP1, 투자테마]
+updated: 2026-10-19
+---
+# 🗂 GLP-1 비만·당뇨 치료제 — 주제 지도(MOC)
+
+> GLP-1/GIP/글루카곤 수용체 작용제 기반 경구·주사 제형 경쟁 및 급여 구조.
+> 상세 누적 타임라인: [[topics/GLP-1]] 참조.
+
+## 핵심 흐름
+- **경구 GLP-1 접근성 전쟁 개막 — Lilly Foundayo vs Novo 경구 Wegovy**: Foundayo(orforglipron) 4월 FDA 승인·$149~349/월·체중 -11.2%(36mg, 16개월). 주사 Zepbound(-21%) 대비 효능 열위이나 주사 기피 환자층 신규 유입으로 시장 자체 팽창 구조. Novo 경구 Wegovy 2026년 6월 기준 300만건+ 처방.
+- **Lilly 3대 PBM 전면 급여 10/1 발효 — GLP-1 보험 장벽 실질 완화**: CVS Caremark·Express Scripts·OptumRx 월 $25 코페이. retatrutide(3세대 GLP-1+GIP+글루카곤) Q1 2027 BLA 예정으로 처방자 연결 포석.
+- **Novo 방어력 시험대**: CagriSema 체중감량 23%(tirzepatide 25.5% 열세). 2026년 미국 매출 감소 우려·Deutsche Bank 매도 등급. 포트폴리오·가격 양면 열위 지속 시 매출 감소 현실화 가능성.
+
+## 타임라인
+### 2026-10-19 [[daily/2026-10-19]]
+- [[daily/2026-10-19]] — Lilly Foundayo(orforglipron) vs Novo 경구 Wegovy: 경구 GLP-1 접근성 경쟁 국면 본격화. Foundayo $149~349/월·체중 -11.2%(36mg, 16개월). 주사 기피 환자층 신규 유입 구조. 지불자 급여 범위 확대 속도·IQVIA 처방 점유율 데이터가 경쟁 분수령 → [[topics/바이오제약]] [[topics/투자테마]] [[topics/유망기업]]
+
+## 연결 주제
+- [[topics/GLP-1]] [[topics/바이오제약]] [[topics/신약개발전략]] [[topics/투자테마]] [[topics/유망기업]]

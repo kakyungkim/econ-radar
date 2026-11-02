@@ -1,0 +1,79 @@
+name: Daily Watchdog
+
+# 데일리 발행 누락 감시. 매일 22:00 KST에 오늘 날짜의 vault/daily/DATE.md가 main에 있는지, 블로그 페이지가 200인지 본다.
+# 없으면 개인 텔레그램 DM(vars.TELEGRAM_ALERT_CHAT_ID)으로 알린다. 공개 채널로는 보내지 않는다.
+# 배경: 2026-10-01 클라우드 루틴이 주간 사용량 한도로 1초 만에 끝났는데 "성공(오류 있음)"으로 기록돼 아무도 몰랐다.
+# 재시도는 클라우드 루틴 "econ-radar 데일리 재시도(20:30 KST)"가 맡는다. 이 워크플로는 최종 상태만 본다.
+# 날짜는 실행 시각에서 12시간을 뺀 KST 날짜로 정한다. 예약 실행이 4~9시간 늦게 시작돼(10/5~11/1 실측 02:00~06:40 KST)
+# 실행 시각의 날짜를 쓰면 아직 오지 않은 다음 날을 확인해 매일 "누락" 오알림을 보냈다. 지연이 14시간을 넘으면 다시 틀린다.
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 13:00 UTC = 22:00 KST
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '확인할 날짜 (YYYY-MM-DD). 비워두면 실행 시각 12시간 전의 KST 날짜.'
+        required: false
+        default: ''
+      now:
+        description: '실행 시각 흉내 (UTC, 예 2026-11-01T18:20:42Z). 날짜 계산 검증용. 비워두면 지금.'
+        required: false
+        default: ''
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check today's daily
+        id: check
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          NOW_IN="${{ github.event.inputs.now }}"
+          if [ -n "$NOW_IN" ]; then NOW=$(date -u -d "$NOW_IN" +%s); else NOW=$(date +%s); fi
+          [ -z "$DATE" ] && DATE=$(TZ=Asia/Seoul date -d "@$((NOW - 43200))" +%F)
+          echo "실행 시각 $(TZ=Asia/Seoul date -d "@$NOW" '+%F %H:%M KST') -> 확인 날짜 $DATE"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          if [ -f "vault/daily/$DATE.md" ]; then
+            echo "OK: vault/daily/$DATE.md 있음"
+            # 데일리는 있는데 블로그 복사(deploy.sh)만 빠진 경우. 2026-10-02, 10-14, 10-15가 이렇게 404였다.
+            CODE=$(curl -s -o /dev/null -w '%{http_code}' "https://kakyungkim.github.io/econ-radar/$DATE.html")
+            if [ "$CODE" = "200" ]; then
+              echo "missing=false" >> "$GITHUB_OUTPUT"
+              echo "OK: 블로그 $DATE.html 200"
+            else
+              echo "missing=true" >> "$GITHUB_OUTPUT"
+              echo "reason=블로그 페이지 econ-radar/$DATE.html 이 $CODE (데일리는 있음, deploy.sh 미실행 추정)" >> "$GITHUB_OUTPUT"
+              echo "MISSING: 블로그 $DATE.html $CODE"
+            fi
+          else
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+            echo "reason=22시까지 vault/daily/$DATE.md가 main에 없습니다." >> "$GITHUB_OUTPUT"
+            echo "MISSING: vault/daily/$DATE.md 없음"
+          fi
+
+      - name: Alert via Telegram DM
+        if: steps.check.outputs.missing == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ vars.TELEGRAM_ALERT_CHAT_ID }}
+          DATE: ${{ steps.check.outputs.date }}
+          REASON: ${{ steps.check.outputs.reason }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_ALERT_CHAT_ID" ]; then
+            echo "토큰 또는 TELEGRAM_ALERT_CHAT_ID 없음. 알림 생략"; exit 1
+          fi
+          TEXT="⚠️ econ-radar 데일리 누락: $DATE
+          $REASON
+          원인 확인: claude.ai 루틴 실행 기록(사용량 한도, 저장소 접근, deploy.sh 차단 등)
+          감시 실행: $RUN_URL"
+          RES=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_ALERT_CHAT_ID}" \
+            --data-urlencode "text=${TEXT}" -d disable_web_page_preview=true)
+          echo "$RES" | grep -q '"ok":true' && echo "DM 발송 완료" || { echo "DM 실패: $RES" | sed 's/bot[0-9]*:[A-Za-z0-9_-]*/bot***/g'; exit 1; }
