@@ -26,6 +26,8 @@ PATTERNS = [
     ("us10y", re.compile(r"10년물[^0-9\n]{0,25}?(?P<v>\d\.\d{2,3})\s*%")),
     ("usdkrw", re.compile(r"(?:원/달러|원달러|환율)[^0-9\n]{0,20}?(?P<v>1,\d{3}(?:\.\d+)?)\s*(?:~|원)")),
 ]
+# 실제 시세와 비교하면 안 되는 문맥: 목표가와 전망, 미국 외 국채. 2026-09~10월 호에서 잘못 걸렸던 것들
+SKIP_CTX = re.compile(r"목표|전망|타깃|target|예상|컨센서스|시나리오|영국|길트|gilt|독일|분트|일본|JGB|중국|유로", re.I)
 # 실제 범위 밖으로 허용하는 여유: 장중 값과 표기 반올림을 감안
 TOL = {"kospi": ("pct", 0.05), "us10y": ("abs", 0.10), "usdkrw": ("pct", 0.02)}
 LABEL = {"kospi": "코스피", "us10y": "미 국채 10년물(%)", "usdkrw": "원/달러"}
@@ -91,7 +93,20 @@ def _other_month(ctx, date):
     return False
 
 
+def _drop_source_lists(text):
+    """출처 목록(Sources 절, '1차 자료' 줄)은 기사 제목을 옮긴 것이라 값 대조에서 뺀다."""
+    out, skip = [], False
+    for ln in text.split("\n"):
+        if re.match(r"^#{1,3}\s", ln):
+            skip = bool(SKIP_HEAD.match(ln))
+        if skip or "1차 자료" in ln:
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
+
 def check_values(text, refs, date):
+    text = _drop_source_lists(text)
     d0 = _date(date)
     lo_day = (d0 - dt.timedelta(days=WINDOW_DAYS)).isoformat()
     out = []
@@ -108,6 +123,9 @@ def check_values(text, refs, date):
             ctx = text[max(line_start, m.start() - 40):m.end()]
             if _other_month(ctx, date):
                 continue
+            tail = text[m.end():m.end() + 12]
+            if SKIP_CTX.search(ctx + tail) or re.match(r"\s*(조|억)", tail):
+                continue
             if not (lo_ok <= v <= hi_ok):
                 out.append({"series": series, "value": v, "range": [round(lo, 2), round(hi, 2)],
                             "context": text[max(line_start, m.start() - 30):m.end() + 20].strip()})
@@ -115,16 +133,19 @@ def check_values(text, refs, date):
 
 
 # ---------- 시세 받기 ----------
-def _get(url, timeout=40, tries=3):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    for i in range(tries):
-        try:
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                return r.read().decode("utf-8")
-        except Exception:
-            if i == tries - 1:
-                raise
-
+def _get(url, timeout=30, tries=3, ua=None):
+    # urllib은 FRED에서 시간 초과가 났다(맥과 GitHub 러너 모두). curl은 0.3초에 받는다.
+    # FRED는 브라우저 흉내 User-Agent를 막고 curl 기본값만 받는다. Yahoo에만 ua를 준다.
+    import subprocess
+    last = None
+    for _ in range(tries):
+        cmd = ["curl", "-sfL", "-m", str(timeout)] + (["-A", ua] if ua else []) + [url]
+        r = subprocess.run(cmd,
+                           capture_output=True, text=True)
+        if r.returncode == 0 and r.stdout:
+            return r.stdout
+        last = RuntimeError("curl exit %d" % r.returncode)
+    raise last
 
 def fetch_refs(date):
     d0 = _date(date)
@@ -141,7 +162,7 @@ def fetch_refs(date):
         p1 = int(dt.datetime.combine(_date(start), dt.time()).timestamp())
         p2 = int(dt.datetime.combine(d0 + dt.timedelta(days=1), dt.time()).timestamp())
         url = "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?period1={}&period2={}&interval=1d"
-        j = json.loads(_get(url.format(p1, p2)))["chart"]["result"][0]
+        j = json.loads(_get(url.format(p1, p2), ua="Mozilla/5.0"))["chart"]["result"][0]
         kst = dt.timezone(dt.timedelta(hours=9))
         refs["kospi"] = {dt.datetime.fromtimestamp(t, kst).date().isoformat(): c
                          for t, c in zip(j["timestamp"], j["indicators"]["quote"][0]["close"]) if c}

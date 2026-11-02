@@ -85,3 +85,17 @@ def test_sources_section_and_background_links_are_not_flagged():
     # 둘째 블록은 제목에 코스피가 있어 본다. 첫 블록(Sources)은 보지 않는다
     urls = [f["url"] for f in C.stale_links(md, DATE)]
     assert not any("20260703" in u for u in urls)
+
+
+def test_targets_foreign_bonds_and_market_cap_are_skipped():
+    # 2026-09~10월 호에서 실제로 잘못 걸렸던 문장들
+    text = ("Goldman Sachs Timothy Moe는 KOSPI 12,000 목표(선행 PER 7.5배)를 유지했다. "
+            "영국 10년물 국채(길트·gilts)는 5.44%로 2007년 이후 19년 최고치를 기록했다. "
+            "KOSPI·KOSDAQ 합산 시총은 6,022조 원으로 줄었다.")
+    assert _flags(text) == []
+
+
+def test_source_lists_are_not_value_checked():
+    text = ("**1차 자료**: [Bloomberg — Goldman KOSPI 12,000](https://www.bloomberg.com/x)\n\n"
+            "## Sources\n- [Bloomberg — Goldman Moe KOSPI 12,000](https://www.bloomberg.com/y)\n")
+    assert _flags(text) == []
