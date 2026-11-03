@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-03
+- 미국 중간선거 당일 — 민주당 하원 다수 94% 예측(Kalshi), AI 규제·Anthropic IPO 공모가 직결 변수
+- Apple Q4 FY2026 매출 $114.5B(+12%) EPS $2.10 컨센 상회, 마진 가이던스 약화로 주가 -3%
+- Anthropic IPO 밸류에이션 $1.5~1.6T 하향 — 나스닥 100 최근 고점 대비 -10% 기술적 조정 반영
+- 미타피바트(Pyrukynd) SCD PDUFA 2027-02-01로 3개월 연장(REMS 추가정보 요청) + I-DXd BLA 자진 철수 확인
+- AMD Q3 FY2026 오늘 장 마감 후 발표 예정 — 데이터센터 컨센서스 $8.2B, 결과 미확인
+
 ## 2026-11-02
 - BOJ 2026년 2% 물가 목표 달성 첫 공식 선언 — FY2027 근원 CPI 2.6% 상향, 12월 1.50% 인상 시장 확률 68%
 - 한국 10월 수출 최종치 $115.3B(+93.7%) — 반도체 $56.4B 사상 최고 비중 48.9%, 연누계 $930B
@@ -56,13 +63,5 @@ publish: false
 - FOMC + Alphabet Q3 + Microsoft FY2027Q1 — AI capex ROI 첫 공식 채점(오늘 밤 발표)
 - SK하이닉스·삼성전자 Q3 D-1 — HBM4 첫 매출 반영 분기, 내일(10/29) 발표
 - ARTEMIS-011(Ris-Rez, B7-H3 ADC) 골육종 Phase 3 — PFS HR 0.33(mPFS 5.5 vs 1.4개월), 희귀 소아·청소년 고형암 ADC 첫 3상 양성
-
-## 2026-10-27
-- FOMC D-1 + Alphabet·Microsoft 어닝스 D-1 — AI capex ROI 첫 번째 공식 채점(10/28 동시 발표)
-- Pfizer SigVie-002(IB6 ADC) nsq-NSCLC Phase 3 OS 미달 — ESMO LBA68, 1차 치료 전체 집단 실패
-- AZ VOLGA Phase 3 양성 — MIBC EFS HR 0.51(49% 위험 감소)·OS HR 0.58(42% 위험 감소), ESMO LBA2
-- SK하이닉스·삼성전자 Q3 D-2 — 10/29 동시 발표, HBM4 첫 매출 반영, SK하이닉스 컨센서스 OP 76.96조원
-- Merck·Kelun-Biotech sac-TMT ESMO 3중 — TroFuse-005(자궁내막암)·Lung04 Final OS·Lung06(NSCLC 1차)
-
 
 
