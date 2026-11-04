@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-04
+- 미국 중간선거 결과 — 민주당 상·하원 양원 장악, GRID Savings Act·AI 사업자 책임법안 입법 경로 개시
+- AMD Q3 FY2026 Q4 가이던스 170억달러(약 25조원) — 컨센서스 대폭 상회, AI 인프라 수요 지속 첫 수치 확인
+- 이보네시맙(Ivonescimab) PDUFA D-10(11/14) — 뇌전이 intracranial 데이터 보완, FDA 커뮤니케이션 없음
+- Anthropic S-1 세부 — 상반기 매출 163억달러·순손실 807억달러, 로드쇼 D-5(11/9주 착수)
+- 제약 PDUFA 집중 구간 — 넬라달킵 D-23(11/27)·셀멘도시란 11월 대기·Capricor deramiocel 2027년 초 연장
+
 ## 2026-11-03
 - 미국 중간선거 당일 — 민주당 하원 다수 94% 예측(Kalshi), AI 규제·Anthropic IPO 공모가 직결 변수
 - Apple Q4 FY2026 매출 $114.5B(+12%) EPS $2.10 컨센 상회, 마진 가이던스 약화로 주가 -3%
@@ -56,12 +63,5 @@ publish: false
 - FOMC 10월 동결 10-2 균열(Cook·Hammack 인상 주장), 12월 인상 OIS 80%
 - ESMO 2026 유방암 — iza-bren(BMS/SystImmune) PFS HR 0.41 · ribociclib NATALEE 6년 OS HR 0.809
 - Anthropic S-1 제출(Nasdaq 'ANT') — 밸류 최대 $2조, 11월 16일 상장 목표, Nvidia $10B 앵커 협의
-
-## 2026-10-28
-- OptiTROP-Lung06(sac-TMT) PD-L1 음성 NSCLC 1차 치료 — ADC+ICI 병합 Phase 3 양성 첫 사례, mPFS 15.0 vs 5.7개월(HR ~0.49), NEJM 게재
-- TroFuse-005(sac-TMT) 자궁내막암 2차+ — OS HR 0.68, mOS 19.0 vs 12.1개월(+6.9개월), Lancet 게재, PDUFA 2027/6/15
-- FOMC + Alphabet Q3 + Microsoft FY2027Q1 — AI capex ROI 첫 공식 채점(오늘 밤 발표)
-- SK하이닉스·삼성전자 Q3 D-1 — HBM4 첫 매출 반영 분기, 내일(10/29) 발표
-- ARTEMIS-011(Ris-Rez, B7-H3 ADC) 골육종 Phase 3 — PFS HR 0.33(mPFS 5.5 vs 1.4개월), 희귀 소아·청소년 고형암 ADC 첫 3상 양성
 
 
