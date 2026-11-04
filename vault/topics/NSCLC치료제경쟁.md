@@ -1,7 +1,7 @@
 ---
 type: moc
 tags: [바이오제약, 신약개발전략, NSCLC, 이중특이항체]
-updated: 2026-09-16
+updated: 2026-11-04
 ---
 # 🗂 NSCLC 치료제 경쟁 — 주제 지도(MOC)
 
@@ -9,12 +9,15 @@ updated: 2026-09-16
 > PD-1/VEGF 이중특이항체·ADC·EGFR TKI 세 축의 1차 치료 재편 흐름.
 
 ## 핵심 흐름
-- **ivonescimab HARMONi-2 — pembrolizumab 단독 직접 비교 OS HR=0.73(30.8 vs 22.6개월)**: PD-1×VEGF-A 이중항체 단독요법이 체크포인트 억제제 단독을 OS에서 처음으로 직접 앞선 3상 선례. 중국 단일 코호트 한계가 FDA/EMA 허가 전환 불확실성으로 남는다. 글로벌 허가는 HARMONi-7 결과가 분수령.
-- **EGFR 1차 치료 재편 확정 — MARIPOSA 아시아 코호트 OS HR 0.74**: amivantamab+lazertinib이 osimertinib 대비 통계 유의 달성. EGFR·HER2 아형 치료 경쟁은 각자의 분자아형 내에서 진행 중.
-- **HER2 변이 NSCLC — DESTINY-Lung04 1차 PFS 14.3 vs 8.3개월**: ADC 단독이 pembro+화학요법 표준을 1차에서 처음 앞선 3상 선례.
-- **PD-1/VEGF 이중특이항체 — HARMONi-2 OS 데이터로 카테고리 격상, ABBV-1480·pumitamig는 Phase 3 대기**: ivonescimab이 가장 앞서 있으며 Summit/Akeso의 다음 경로(HARMONi-7·FDA BLA)가 전략 분기점.
+- **이보네시맙 PDUFA D-10(11/14) — PFS 단독 근거·중국 임상 데이터 FDA 수용 첫 선례 가능성**: 오늘(11/4)까지 FDA 커뮤니케이션 없음. 뇌전이 intracranial PFS 보완 데이터 제출. OS 미달 상태에서 PFS 단독으로 허가 여부가 이 모달리티 전반의 급여 협상 선례를 결정.
+- **넬라달킵 PDUFA D-23(11/27) — ALK+ NSCLC 4세대 TKI, 돌파치료·우선심사**: 로르라티닙 내성 이후 선택지 없던 미충족 수요 세그먼트 진입. 돌파치료·우선심사 조합 역사적 승인 성공률 높음.
+- **오시머티닙(Tagrisso) 2차 치료 독점 구도 균열 가능성**: 이보네시맙 승인 시 EGFRm NSCLC 2차 치료에서 첫 경쟁자 등장. 급여 등재 타임라인이 상업적 성패를 가를 가능성.
+- **중국 단독 임상 데이터 FDA 수용 여부가 이중특이항체 모달리티 전략 경로 결정**: 거부 시 HARMONi-7(글로벌 코호트) 완료 전까지 BLA 재검토.
 
 ## 타임라인
+### 2026-11-04 [[daily/2026-11-04]]
+- [[daily/2026-11-04]] — 이보네시맙 D-10, 오늘 FDA 커뮤니케이션 없음. 뇌전이 intracranial PFS 데이터 보완 근거로 D-10 현재 부정 신호 없음. OS 미달(통계적 유의성 없음) 상태에서 11/14 PDUFA. 오시머티닙 2차 치료 독점에 첫 경쟁자 가능성. / 넬라달킵 D-23(11/27), 돌파치료·우선심사, ALK+ NSCLC 4세대 TKI, 로르라티닙 내성 미충족 수요 타깃 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-10-25 [[daily/2026-10-25]]
 - **[SAFFRON Phase 3 PFS+OS 달성](../daily/2026-10-25.md)** — 사볼리티닙+오시머티닙 vs 백금 이중화학요법, N=338, EGFR+MET NSCLC 오시머티닙 진행 후. 오늘 ESMO LBA6 전체 HR 공개 예정. 비교: SACHI PFS HR 0.34. FDA NDA 제출 → [[topics/바이오제약]] [[topics/신약개발전략]]
 
