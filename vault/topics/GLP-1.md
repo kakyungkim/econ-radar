@@ -2,7 +2,7 @@
 type: moc
 tags: [바이오제약, GLP-1, 투자테마]
 aliases: [GLP1, GLP-1비만치료, GLP1비만치료, GLP1비만치료제]
-updated: 2026-11-02
+updated: 2026-11-05
 ---
 # 🗂 GLP-1 — 주제 지도(MOC)
 
@@ -10,14 +10,15 @@ updated: 2026-11-02
 > 하위 주제(별도 유지): [[topics/GLP-1경구제]]
 
 ## 핵심 흐름
-- **경구 GLP-1 이중 시장 형성 — Novo 경구 Wegovy(-15%) vs Lilly Foundayo(-12.4%)**: 경구제 전환이 주사 기피층이라는 새 수요 집단을 시장에 진입시켜 전체 시장 규모 확대. 경구 Wegovy 2분기 총처방 130만 건.
-- **경쟁 승부처가 효능에서 복약 편의성·가격 접근성으로 전환**: 미국 민간 보험 GLP-1 비만 급여 불균등 지속 — 접근성이 자부담 가능 계층 집중.
-- **레타트루타이드 2027년 Q1 BLA 예고 — 현 시장 지도 재편 예고**: Phase 3 80주 체중 감량 ~22.6~28%. 경구 Wegovy(-15%)·Foundayo(-12.4%)가 효능 기준에서 아래 리그로 밀릴 전망.
-- **Wegovy 일본 MASH 첫 승인(6/26) — 플랫폼 분자 전략 구체화**: 비만→당뇨→MASH 적응증 확장. 한국·대만 후속 시장 기준점.
-- **Eli Lilly Q3 FY2026 tirzepatide 합산 $16.05B/분기 — 연율 환산 ~$64B**: Mounjaro(2형 당뇨+심혈관) $10.7B(+65% YoY), Zepbound(비만) $5.3B(+48% YoY). 단일 분자 기준 세계 최대 판매 수준 근접. Mounjaro 심혈관계 위험 감소 적응증 FDA 추가 승인 완료.
-- **Q2 +48%→Q3 +39% 성장률 둔화 — 해석 엇갈림**: 기저효과·시장 성숙화 자연스러운 둔화 vs Novo Nordisk 경구 Wegovy 경쟁 반영 해석 병존. 실현가격 하락(보험 협상·할인율 증가)이 매출 성장 일부를 압박.
+- **SYNCHRONIZE-CVOT 11/9 AHA 발표 — GLP-1/GCG 이중 기전 최초 비만 CVOT**: 수르보두티드(Boehringer Ingelheim·Zealand Pharma), 5,508명, 5P-MACE 비열등성. SELECT(세마글루타이드, 비당뇨 비만 CV 사건 20% 감소) 이후 두 번째 대형 비만 CVOT. 성공 시 비만치료제 급여 등재의 CVOT 필수 조건 관행 고착. 처방 채널이 비만전문의에서 심장내과로 확장될 가능성.
+- **경구 GLP-1 이중 시장 형성 — Novo 경구 Wegovy(-15%) vs Lilly Foundayo(-12.4%)**: 경구 Wegovy 2분기 총처방 130만 건. 주사 기피 환자층 신규 유입으로 전체 시장 규모 확대.
+- **레타트루타이드 2027년 Q1 BLA 예고**: Phase 3 80주 체중 감량 ~22.6~28%. 현 경구제 효능 기준을 모두 넘어선다.
+- **Eli Lilly tirzepatide 합산 $16.05B/분기 — 연율 환산 ~$64B**: Mounjaro $10.7B(+65%)·Zepbound $5.3B(+48%). Q2 +48%→Q3 +39% 성장률 둔화.
 
 ## 타임라인
+### 2026-11-05 [[daily/2026-11-05]]
+- [[daily/2026-11-05]] — 수르보두티드 SYNCHRONIZE-CVOT 11/9(일) AHA 'New Frontiers in Cardiometabolic Risk Reduction' 세션 08:00 발표 D-4. 5,508명 비만·과중 + CV·신장 고위험. GLP-1·글루카곤 이중 기전이 GLP-1 단독 대비 추가 CV 혜택을 주는지 첫 검증. 성공 시 미국 Medicare Part D 급여 범위 CV 고위험군 확장 근거 형성. Zealand 주가 파트너십 로열티 구조로 결과에 직접 연동 → [[topics/바이오제약]] [[topics/신약개발전략]]
+
 ### 2026-11-01 [[daily/2026-11-01]]
 - [[daily/2026-11-01]] — 경구 GLP-1 이중 시장 구도 정리. Novo 경구 Wegovy 2분기 총처방 130만 건(-15% 체중 감소) vs Lilly Foundayo(-12.4%). 레타트루타이드 2027년 Q1 BLA 예고로 현 구도 지속 기간 제한적 → [[topics/바이오제약]] [[topics/투자테마]]
 
