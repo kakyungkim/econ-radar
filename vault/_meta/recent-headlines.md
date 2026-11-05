@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-05
+- 중간선거 후 에너지 프리미엄 붕괴 — Dow +3.03%·금 $4,066 첫 돌파, KOSPI -5.5% AI 반도체 순환매 이탈
+- AHA 2026 Scientific Sessions 11/6 개막 — 11/7 펠라카르센 Lp(a)HORIZON 전체 실패 데이터 공개
+- 수르보두티드 SYNCHRONIZE-CVOT AHA 11/9 발표 — 비만치료제 최초 대형 GLP-1/GCG 이중 CVOT
+- Qualcomm Q4 FY2026 더블 비트 — 자동차 첫 $20억(약 2조9,400억원) 돌파(+89% YoY), FY2027 데이터센터 $5B 목표 재확인
+- 미 10월 NFP 11/6(ET 08:30) 발표 예정 — 9월 +2.9만 충격 후 반등 여부, Fed 12월 인상 OIS ~80%
+
 ## 2026-11-04
 - 미국 중간선거 결과 — 민주당 상·하원 양원 장악, GRID Savings Act·AI 사업자 책임법안 입법 경로 개시
 - AMD Q3 FY2026 Q4 가이던스 170억달러(약 25조원) — 컨센서스 대폭 상회, AI 인프라 수요 지속 첫 수치 확인
@@ -56,12 +63,5 @@ publish: false
 - Amazon Q3 + AI 클라우드 어닝스 총결산 — AWS $46B(+39.3%), 전사 OPM 13.9% 역대 최고, 2027 capex "materially higher"
 - US GDP Q3 +3.4% SAAR — BEA 1차 추정치, 컨센서스 상회, 12월 FOMC 인상 OIS ~80% 압박 강화
 - Eli Lilly Q3 FY2026 — tirzepatide(Mounjaro+Zepbound) 합산 $16.0B/분기, 성장 지속 vs 둔화 논쟁
-
-## 2026-10-29
-- MSFT Azure +48% CC 서프라이즈 · Alphabet EPS $2.12 미스 — AI 투자 수익화 속도 첫 분기점
-- HBM4 시대 공식 개막 — SK하이닉스 OP 83.3조(+632%) · 삼성전자 OP 107.4조(+783%), 합산 190조원
-- FOMC 10월 동결 10-2 균열(Cook·Hammack 인상 주장), 12월 인상 OIS 80%
-- ESMO 2026 유방암 — iza-bren(BMS/SystImmune) PFS HR 0.41 · ribociclib NATALEE 6년 OS HR 0.809
-- Anthropic S-1 제출(Nasdaq 'ANT') — 밸류 최대 $2조, 11월 16일 상장 목표, Nvidia $10B 앵커 협의
 
 
