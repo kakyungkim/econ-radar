@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-06
+- KOSPI 이틀 연속 급락 + 서킷브레이커 — 삼성전자 188,700원(-6.35%)·SK하이닉스 1,132,000원(-10.44%), 이틀 누적 ~-11%
+- AHA 2026 Scientific Sessions Day 1 개막 — 11/7 Braunwald Session 08:30 펠라카르센 Lp(a)HORIZON 전체 데이터 첫 공개
+- CTX310 (CRISPR Therapeutics) AHA 2026 Late-Breaking 발표 예정 — ANGPTL3 편집 1년 추적 최대 -89% 유지(ESC 2026)
+- Anthropic IPO D-4 — 기관투자자 밸류에이션 $2T → $1.5~1.6T 조정, 로드쇼 최소 11/10 착수
+- 미 10월 NFP 오늘 KST 21:30 발표 예정 — 9월 +2.9만 충격 후 반등 여부(컨센서스 약 +65K)
+
 ## 2026-11-05
 - 중간선거 후 에너지 프리미엄 붕괴 — Dow +3.03%·금 $4,066 첫 돌파, KOSPI -5.5% AI 반도체 순환매 이탈
 - AHA 2026 Scientific Sessions 11/6 개막 — 11/7 펠라카르센 Lp(a)HORIZON 전체 실패 데이터 공개
@@ -56,12 +63,5 @@ publish: false
 - 삼성바이오로직스 PolyPeptide 최소 청약 충족(10/16) — CHF 1.46B(약 2.7조원), 펩타이드 CDMO 확장
 - Anthropic IPO 로드쇼 11/9주 예정 — S-1 제출 완료, 밸류 ~$2T, 미국 중간선거 후 개시
 - Inovio INO-3107 FDA PDUFA 10/30 경과 — 결과 미확인, DNA 플랫폼 최초 승인 여부 주목
-
-## 2026-10-30
-- intismeran autogene INTerpath-001 Phase 3 — 흑색종 mRNA 개인맞춤 암백신 항암 Phase 3 첫 성공(RFS HR 0.58, NEJM)
-- divarasib KrasCendo-1 Phase 3 — KRAS G12C 3세대, sotorasib·adagrasib 동시 추월(PFS HR 0.58/OS HR 0.56, NEJM)
-- Amazon Q3 + AI 클라우드 어닝스 총결산 — AWS $46B(+39.3%), 전사 OPM 13.9% 역대 최고, 2027 capex "materially higher"
-- US GDP Q3 +3.4% SAAR — BEA 1차 추정치, 컨센서스 상회, 12월 FOMC 인상 OIS ~80% 압박 강화
-- Eli Lilly Q3 FY2026 — tirzepatide(Mounjaro+Zepbound) 합산 $16.0B/분기, 성장 지속 vs 둔화 논쟁
 
 
