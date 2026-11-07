@@ -327,3 +327,11 @@ publish: false
 - **자산화 1차**: `build_event_db.py`로 `vault/_meta/events.csv`(3,476행), `build_topic_hubs.py`로 주제 허브 12곳(공개는 승인 대기). AI(796건)는 묶음이라 허브에서 뺐다.
 - **paper-radar**: 후보 수집을 GitHub Actions로(`collect-candidates.yml`, 일 07:00 KST, arXiv/bioRxiv/medRxiv/Europe PMC API, 검사 10개). W44로 실제 실행해 60건과 초록을 저장소에 올린 것을 확인. 방문 분석 줄만 다른 W35~W44 렌더본을 현재 렌더러로 맞춰 배포 전 대조 게이트가 막지 않게 했다. 기획 문서(재설계 브리프, 통합 로드맵, 스텁 스킬)는 공개 저장소라 올리지 않고 knowledge-hub `projects/paper-radar-planning/`에 사본을 두었다.
 - **글**: 블로그 한영 "자동 발행 뉴스레터 econ-radar 5개월 점검"(블로그 브랜치에 커밋, 게시 승인 대기), 링크드인 초안 `vault/blog-drafts/2026-11-02-linkedin-econ-radar-audit.md`. 한국어 연결어미 쉼표 z 5.65→−0.52, 영문 HUMAN_ONLY 점수 1.
+
+## 2026-11-07 토큰 절약 재설계 1차, 블로그 글과 주제 허브 공개
+- **배경**: Claude Max를 계속 쓰기 어려울 수 있어 품질을 유지하며 토큰을 줄이기로 했다. Claude 무료는 Claude Code와 루틴이 없고, Pro는 루틴을 쓸 수 있으나 대화형 사용과 같은 한도에서 차감된다(Max로도 10-01에 주간 한도에 걸렸다).
+- **수집 이관**: `scripts/collect_news.py`, `scripts/feeds.tsv`(신뢰 매체 39개), `collect-news.yml`. 러너 첫 실행 11-07: 피드 39/39, 후보 120, 본문 발췌 55. 최근 호 인용 도메인에 저신뢰 사이트가 섞이던 문제도 함께 줄 것으로 본다(측정 전).
+- **모델**: knowledge-curator만 Haiku(정해진 편집). 분석, 편집, 문체, 사실 검증은 그대로.
+- **루틴 프롬프트 4개**: 피드 파일 사용, fact-check는 발췌 대조 우선, 커밋에 AI 공동저자 줄 금지(전역 규칙. 다중 저장소 클라우드 세션은 프로젝트 settings.json을 읽지 않아 프롬프트로 막았다).
+- **공개**: 블로그 글 "자동 발행 뉴스레터 econ-radar 5개월 점검"(한영, 11-02자), 주제 허브 12곳(`/econ-radar/topics/`), 아카이브 "주제별로 보기".
+- **확인**: 11-02~11-06 다섯 호 모두 블로그까지 정상, 시장 수치 점검 0건, 감시 오알림 0건.

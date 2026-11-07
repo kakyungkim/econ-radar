@@ -47,3 +47,18 @@ publish: false
 ## 관찰 (누적)
 - 전체 1회 발행 ≈ **43만 subagent 토큰 / 벽시계 25분 내외**(2026-06-11 기준 첫 계측).
 - 병렬화로 분석·렌더/정리 단계를 묶어 벽시계를 단축 중. 추가 단축 여지: 검수+렌더 사이 대기, 렌더 토큰 절감.
+
+## 2026-11-07 토큰 절약 재설계 전 기준값 (클라우드 루틴 실행 기록의 subagent_tokens)
+
+| 실행 | 단계 | 토큰 |
+|---|---|---|
+| 2026-10-29 | style-critic | 86,769 |
+| 2026-10-29 | fact-checker | 73,262 |
+| 2026-10-29 | knowledge-curator | 105,206 |
+| 2026-11-06 | fact-checker | 69,172 (수치 10개 중 원문 미접속 6) |
+| 2026-11-06 | knowledge-curator | 127,404 |
+
+news-scout, market-analyst, company-scout, newsletter-editor 값은 로그 앞쪽 페이지라 읽지 않았다. 한 번 발행 합계는 70~90만 토큰으로 추정(측정 아님).
+
+**바꾼 것(11-07):** 수집을 GitHub Actions RSS 39개로(`collect-news.yml`, 15:17/17:43 KST), news-scout와 fact-checker는 `vault/raw/feed-DATE.*`을 먼저 읽음, knowledge-curator는 `model: haiku`에 노트 앞부분만 읽기, 중복 확인은 최근 2일치 앞부분만.
+**재는 법:** RemoteTrigger `list_runs`(데일리 trig_01QDsiYk8JXWg9LfVYvuXjVY)와 `get_run_log`에서 task-notification의 `subagent_tokens`를 단계별로 모은다. 11-07부터 7일치를 위 표와 비교하고, 피드 밖 보강 건수와 fact-check의 발췌 대조 건수도 함께 본다.
