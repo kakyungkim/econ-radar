@@ -101,4 +101,4 @@ def test_select_hubs_excludes_generic():
 
 def test_index_lists_hubs():
     page = H.render_index([("ADC항체약물접합체", "adc", 3, "2026-09-30", "2026-11-01")])
-    assert 'href="adc.html"' in page and "ADC항체약물접합체" in page and "…" not in page
+    assert 'href="adc.html"' in page and "ADC(항체약물접합체)" in page and "…" not in page
