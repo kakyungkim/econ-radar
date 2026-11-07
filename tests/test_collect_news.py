@@ -128,3 +128,18 @@ def test_double_escaped_cdata_title_survives():
     x = ("<rss version='2.0'><channel><item><title>&lt;![CDATA[Drug works]]&gt;</title>"
          "<link>https://ex.com/c</link><pubDate>Thu, 06 Nov 2026 03:00:00 GMT</pubDate></item></channel></rss>")
     assert cn.parse_feed(x.encode(), "O", "en", "bio")[0]["title"] == "Drug works"
+
+
+def test_article_text_is_not_stored_by_default():
+    # 저장소가 공개라 기사 본문(저작권)을 커밋하지 않는다(2026-11-08 사용자 결정). RSS 요약만 남긴다.
+    import collect_news as CN
+    assert CN.DEFAULT_FETCH_TEXT == 0
+    assert "fetch_text" not in CN.main.__defaults__ if CN.main.__defaults__ else True
+
+
+def test_strip_text_removes_excerpts_from_saved_payload():
+    import collect_news as CN
+    d = {"items": [{"title": "t", "summary": "s", "text": "기사 본문 문장", "text_status": "ok"}]}
+    out = CN.strip_text(d)
+    assert out["items"][0]["text"] == "" and out["items"][0]["text_status"] == "not_fetched"
+    assert out["items"][0]["summary"] == "s"

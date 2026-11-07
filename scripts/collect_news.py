@@ -5,7 +5,7 @@
 클라우드 데일리 루틴은 WebSearch/WebFetch에 토큰을 많이 쓰고 샌드박스에서 원문 사이트를 열지 못한다.
 수집을 GitHub Actions로 옮기고, 루틴(news-scout)은 이 후보 파일을 읽는다.
 
-사용: python3 scripts/collect_news.py 2026-11-06 [--hours 30] [--max-per-feed 15] [--max-items 120] [--fetch-text 60]
+사용: python3 scripts/collect_news.py 2026-11-06 [--hours 30] [--max-per-feed 15] [--max-items 120] [--fetch-text 0]
 창: DATE 18:00 KST에서 거슬러 --hours 시간. 종료 코드: 0 = 피드 절반 이상 성공, 1 = 미만.
 stdlib만 사용. 네트워크는 curl(subprocess)로 받는다(urllib가 일부 호스트에서 시간 초과, FRED류는 브라우저 UA 거부).
 """
@@ -259,13 +259,25 @@ def load_feeds(path):
     return out
 
 
+# 저장소가 공개라 기사 본문(저작권)은 받지도 저장하지도 않는다(2026-11-08 사용자 결정). RSS 요약까지만 남긴다.
+DEFAULT_FETCH_TEXT = 0
+
+
+def strip_text(d):
+    """이미 저장된 페이로드에서 기사 본문 발췌를 지운다. 요약은 남긴다."""
+    for i in d.get("items", []):
+        i["text"] = ""
+        i["text_status"] = "not_fetched"
+    return d
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("date")
     ap.add_argument("--hours", type=int, default=30)
     ap.add_argument("--max-per-feed", type=int, default=15)
     ap.add_argument("--max-items", type=int, default=120)
-    ap.add_argument("--fetch-text", type=int, default=60)
+    ap.add_argument("--fetch-text", type=int, default=DEFAULT_FETCH_TEXT)
     ap.add_argument("--feeds", default=os.path.join(ROOT, "scripts", "feeds.tsv"))
     a = ap.parse_args(argv)
     t0 = time.time()
