@@ -193,13 +193,13 @@ def render_index(hubs):
     desc = "econ-radar가 매일 쌓은 경제 뉴스를 주제별로 모은 허브 %d곳. 주제마다 날짜순 타임라인과 출처를 제공합니다." % len(hubs)
     jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "econ-radar 주제 허브",
               "url": canonical, "inLanguage": "ko", "hasPart": {"@type": "ItemList", "itemListElement": [
-                  {"@type": "ListItem", "position": i, "name": h[0], "url": "%s/topics/%s.html" % (SITE, h[1])}
+                  {"@type": "ListItem", "position": i, "name": disp(h[0]), "url": "%s/topics/%s.html" % (SITE, h[1])}
                   for i, h in enumerate(hubs, 1)]}}
     body = ['<body><div class="wrap">\n<a class="back" href="%s/">econ-radar 아카이브</a>' % SITE,
             '<div class="head"><h1>econ-radar 주제 허브</h1><div class="meta">주제별로 모은 경제, 바이오, AI 동향</div></div>', "<ul>"]
     for name, slug, n, d0, d1 in hubs:
         body.append('<li><a class="t" href="%s.html">%s</a><span class="d">%s ~ %s, %d건</span></li>'
-                    % (esc(slug), esc(name), esc(d0), esc(d1), n))
+                    % (esc(slug), esc(disp(name)), esc(d0), esc(d1), n))
     body.append("</ul>")
     return head_html("주제 허브 | econ-radar", desc, canonical, jsonld) + "\n".join(body) + "\n" + footer_html()
 
