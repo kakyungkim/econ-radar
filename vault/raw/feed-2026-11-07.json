@@ -20,7 +20,7 @@
   },
   "한국경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 경제": {
@@ -35,17 +35,17 @@
   },
   "머니투데이": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "조선비즈": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "Korea Times business": {
    "fetched": 3,
-   "kept": 3,
+   "kept": 0,
    "error": ""
   },
   "한국은행 보도자료": {
@@ -94,7 +94,7 @@
    "error": ""
   },
   "FT home": {
-   "fetched": 11,
+   "fetched": 12,
    "kept": 5,
    "error": ""
   },
@@ -201,6 +201,193 @@
  },
  "items": [
   {
+   "title": "IMGT米国で膵がん確証試験開始 併用療法の生存期間検証",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:54 KST",
+   "url": "https://biz.chosun.com/jp/jp-science/2026/11/07/AHFWGOWT6ZFFVISI7KVIHJLARY/",
+   "summary": "治療用集束超音波医療機器企業 ##IMGT##が米国で膵臓がん治療機器の確証試験に本格着手した。国内の初期臨床に続き、韓国と米国で合計366人の患者を対象に、抗がん剤と集束超音波の併用治療の効果を検証する。 IMGTは5日（現地時間）、米国バージニア大学（UVA）で膵臓がん確証試験（SonoPAN III）の初の患者登録を完了したと明らかにした。今回の臨床は、境界型切除可能および局所進行性膵臓がん患者366人を対象に実施する無作為割り付け試験である。 標準抗がん療法であるFOLFIRINOX単独治療群と、集束超音波機器「IMD10」併用治療群を比較する。主要評価変数は全生存期間（OS）で、併用治療が患者の生存期間を延長するかを確認する。 IMD10は、集束超音波で誘導した微細気泡の機械的作用を活用して、細胞膜の透過性を一時的に高める機器だ。これにより、抗がん剤が腫瘍内部へよりよく送達されるようにすることを目標とする。 IMGTは、国内の研究者主導臨床とソウル大学病院で実施した30人規模の無作為割り付け探索的臨床を通じて臨床経験を蓄積した。今回の確証試験は、米国FDAの品目承認に向けた核",
+   "text": "治療用集束超音波医療機器企業 IMGTが米国で膵臓がん治療機器の確証試験に本格着手した。国内の初期臨床に続き、韓国と米国で合計366人の患者を対象に、抗がん剤と集束超音波の併用治療の効果を検証する。\nIMGTは5日（現地時間）、米国バージニア大学（UVA）で膵臓がん確証試験（SonoPAN III）の初の患者登録を完了したと明らかにした。今回の臨床は、境界型切除可能および局所進行性膵臓がん患者366人を対象に実施する無作為割り付け試験である。\n標準抗がん療法であるFOLFIRINOX単独治療群と、集束超音波機器「IMD10」併用治療群を比較する。主要評価変数は全生存期間（OS）で、併用治療が患者の生存期間を延長するかを確認する。\nIMD10は、集束超音波で誘導した微細気泡の機械的作用を活用して、細胞膜の透過性を一時的に高める機器だ。これにより、抗がん剤が腫瘍内部へよりよく送達されるようにすることを目標とする。\nIMGTは、国内の研究者主導臨床とソウル大学病院で実施した30人規模の無作為割り付け探索的臨床を通じて臨床経験を蓄積した。今回の確証試験は、米国FDAの品目承認に向けた核心段階である。\n米国ではUVAに続き、ブリガム・アンド・ウィメンズ病院（BWH）とメイスがんセンターが参加し、国内ではソウル大学病院と盆唐ソウル大学病院が臨床を実施する予定だ。\nイ・ハクジョンIMGT代表は「韓国と米国の参加医療機関と緊密に協力し、集束超音波と抗がん剤の併用が膵臓がん患者の治療成績の改善に寄与できるかを検証する」と述べた。",
+   "text_status": "ok"
+  },
+  {
+   "title": "아이엠지티, 美서 췌장암 임상 첫 환자 등록…확증시험",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:54 KST",
+   "url": "https://biz.chosun.com/science-chosun/medicine-health/2026/11/07/AW6SL65CRJBYFMNWJCZ6WNKOAA/",
+   "summary": "치료용 집속초음파 의료기기 기업 ##아이엠지티##가 미국에서 췌장암 치료기기 확증임상에 본격 착수했다. 국내 초기 임상에 이어 한국과 미국에서 총 366명의 환자를 대상으로 항암제와 집속초음파 병용 치료의 효과를 검증한다. 아이엠지티는 5일(현지 시각) 미국 버지니아대학교(UVA)에서 췌장암 확증임상(SonoPAN III)의 첫 환자 등록을 마쳤다고 밝혔다. 이번 임상은 경계성 절제가능 및 국소진행성 췌장암 환자 366명을 대상으로 진행하는 무작위배정 시험이다. 표준 항암요법인 FOLFIRINOX 단독 치료군과 집속초음파 기기 ‘IMD10’ 병용 치료군을 비교한다. 주요 평가변수는 전체생존기간(OS)으로, 병용 치료가 환자의 생존기간을 연장하는지 확인한다. IMD10은 집속초음파로 유도한 미세 기포의 기계적 작용을 활용해 세포막의 투과성을 일시적으로 높이는 기기다. 이를 통해 항암제가 종양 내부로 더 잘 전달되도록 하는 것이 목표다. 아이엠지티는 국내 연구자 주도 임상과 서울대병원에",
+   "text": "치료용 집속초음파 의료기기 기업 아이엠지티가 미국에서 췌장암 치료기기 확증임상에 본격 착수했다. 국내 초기 임상에 이어 한국과 미국에서 총 366명의 환자를 대상으로 항암제와 집속초음파 병용 치료의 효과를 검증한다.\n아이엠지티는 5일(현지 시각) 미국 버지니아대학교(UVA)에서 췌장암 확증임상(SonoPAN III)의 첫 환자 등록을 마쳤다고 밝혔다. 이번 임상은 경계성 절제가능 및 국소진행성 췌장암 환자 366명을 대상으로 진행하는 무작위배정 시험이다.\n표준 항암요법인 FOLFIRINOX 단독 치료군과 집속초음파 기기 'IMD10' 병용 치료군을 비교한다. 주요 평가변수는 전체생존기간(OS)으로, 병용 치료가 환자의 생존기간을 연장하는지 확인한다.\nIMD10은 집속초음파로 유도한 미세 기포의 기계적 작용을 활용해 세포막의 투과성을 일시적으로 높이는 기기다. 이를 통해 항암제가 종양 내부로 더 잘 전달되도록 하는 것이 목표다.\n아이엠지티는 국내 연구자 주도 임상과 서울대병원에서 진행한 30명 규모의 무작위배정 탐색임상을 통해 임상 경험을 축적했다. 이번 확증임상은 미국 FDA 품목허가를 위한 핵심 단계다.\n미국에서는 UVA에 이어 브리검 여성병원(BWH)과 메이스 암센터가 참여하며, 국내에서는 서울대병원과 분당서울대병원이 임상을 진행할 예정이다.\n이학종 아이엠지티 대표는 \"한국과 미국의 참여 의료기관들과 긴밀히 협력해 집속초음파와 항암제 병용이 췌장암 환자의 치료 성과 개선에 기여할 수 있는지 검증하겠다\"고 말했다.",
+   "text_status": "ok"
+  },
+  {
+   "title": "[포토] 박진만 감독 '오늘은 정말 기뻐요'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:52 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717512248179",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. 삼성 박진만 감독이 승장 인터뷰를 마친 후 환호하는 팬들에 답례하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.\n삼성 박진만 감독이 승장 인터뷰를 마친 후 환호하는 팬들에 답례하고 있다.",
+   "text_status": "short"
+  },
+  {
+   "title": "원위, 12월 첫 오케스트라 협연 단독 공연…‘겨울 동화’ 피운다",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:52 KST",
+   "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/07/GYZGINBSGNRDAOLFHE3DONRUGE/",
+   "summary": "밴드 ONEWE(원위)가 겨울의 길목에서 한 편의 동화 같은 감성 공연으로 팬들을 찾는다.원위(용훈, 강현, 하린, 동명, 기욱)는 오는 12월 12일과 13일 양일간 서울 광진구 예스24 라이브홀에서 '2026 ONEWE SEASON LIVE '冬花 : ONE moment WE bloom''(이하 '冬花 : ONE moment WE bloom')을 개최하",
+   "text": "밴드 ONEWE(원위)가 겨울의 길목에서 한 편의 동화 같은 감성 공연으로 팬들을 찾는다.\n원위(용훈, 강현, 하린, 동명, 기욱)는 오는 12월 12일과 13일 양일간 서울 광진구 예스24 라이브홀에서 '2026 ONEWE SEASON LIVE '冬花 : ONE moment WE bloom''(이하 '冬花 : ONE moment WE bloom')을 개최하고 연말 무대를 따스하게 물들인다.\n이번 시즌 라이브 '冬花 : ONE moment WE bloom'은 매서운 바람 속에서도 묵묵히 꽃을 피워내는 겨울 꽃처럼, 서로의 온기가 되어준 소중한 순간들을 낭만적인 서사로 그려내는 콘서트다. 저마다의 겨울을 지나고 있는 리스너들에게 원위만의 전매특허 감성과 따뜻한 음악적 위로를 건넬 예정이다.\n특히 이번 공연에서 원위는 데뷔 후 처음으로 오케스트라와의 협연을 예고해 음악 팬들의 폭발적인 기대를 모은다. 원위 특유의 폭발적이고 에너제틱한 밴드 사운드에 웅장하고 풍성한 오케스트라 선율이 더해져, 한층 깊어진 원위 음악의 진수를 선사할 전망이다.\n앞서 원위는 정규 3집 '面 : Unknown Atlas'(면 : 언노운 아틀라스)를 발표하고 특유의 감각적인 스토리텔링과 동화적 서사로 국내외에서 뜨거운 호평을 받았다. 연이어 오는 8일 요코하마, 22일 타이베이에서 단독 콘서트 '2026 ONEWE 6th Live Concert 'O! NEW E!volution VI''를 개최하며 열혈 글로벌 행보를 이어가는 중이다.\n한편, 원위의 시즌 라이브 '冬花 : ONE moment WE bloom'은 12월 12일과 13일 예스24 라이브홀에서 열린다. <",
+   "text_status": "ok"
+  },
+  {
+   "title": "[사진] 어두운 표정의 이강철 감독",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:51 KST",
+   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/07/GNSDOMZSG44TGMJZGIYDGYZSMQ/",
+   "summary": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다. 홈팀 삼성은 장찬희가, 방문팀 KT는 로건이 선발 출전했다.KT 위즈 이강철 감독이 방송 인터뷰를 마치고 어두운 표정으로 돌아가고 있다. 2026.11.07 [OSEN=대구, 이석우 기자]",
+   "text": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다.\nKT 위즈 이강철 감독이 방송 인터뷰를 마치고 어두운 표정으로 돌아가고 있다. 2026.11.07",
+   "text_status": "short"
+  },
+  {
+   "title": "[사진] 박진만 감독, 이겼다.",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:51 KST",
+   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/07/G5SDCOBQGZQWCYZXGM3DOMLBMY/",
+   "summary": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다. 홈팀 삼성은 장찬희가, 방문팀 KT는 로건이 선발 출전했다.삼성 라이온즈 박진만 감독이 승리 인터뷰를 마치고 팬들에게 감사 인사를 하고 있다. 2026.11.07 [OSEN=대구, 이석우 기자]",
+   "text": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다.\n삼성 라이온즈 박진만 감독이 승리 인터뷰를 마치고 팬들에게 감사 인사를 하고 있다. 2026.11.07",
+   "text_status": "short"
+  },
+  {
+   "title": "[사진] 박진만 감독, 승리의 미소",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:51 KST",
+   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/07/MYZWCMZTMQ2WMZLBMU4WCODDGI/",
+   "summary": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다. 홈팀 삼성은 장찬희가, 방문팀 KT는 로건이 선발 출전했다.삼성 라이온즈 박진만 감독이 승리 인터뷰를 들어가고 있다. 2026.11.07 [OSEN=대구, 이석우 기자]",
+   "text": "7일 대구삼성라이온즈파크에서 2026 신한 SOL KBO 한국시리즈 4차전 삼성 라이온즈와 KT 위즈의 경기가 열렸다.\n삼성 라이온즈 박진만 감독이 승리 인터뷰를 들어가고 있다. 2026.11.07",
+   "text_status": "short"
+  },
+  {
+   "title": "[포토] 박진만 '이게 다 팬 덕분입니다'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:50 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717493973400",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. 삼성 박진만 감독이 승장 인터뷰를 마친 후 환호하는 팬들에 답례하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.\n삼성 박진만 감독이 승장 인터뷰를 마친 후 환호하는 팬들에 답례하고 있다.",
+   "text_status": "short"
+  },
+  {
+   "title": "[포토] 박진만 감독 '흐뭇한 승장 인터뷰'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:49 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717482877141",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. 삼성 박진만 감독이 패장 인터뷰를 하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.",
+   "text_status": "short"
+  },
+  {
+   "title": "[포토] 이강철 감독 '아, 로건 딜레마'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:48 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717470769178",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. KT 이강철 감독이 패장 인터뷰를 하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.",
+   "text_status": "short"
+  },
+  {
+   "title": "[포토] 이재희 '이런 날이 오네요'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:46 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717461518487",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. 삼성 이재희가 데일리 MVP 수상 후 포즈를 취하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.",
+   "text_status": "short"
+  },
+  {
+   "title": "[포토] 이재희, 숨길 수 없는 MVP 미소",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:45 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110717445896344",
+   "summary": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다. 삼성 이재희가 데일리 MVP 수상 후 포즈를 취하고 있다....",
+   "text": "2026 KBO 포스트시즌 한국시리즈(KS) 4차전 삼성 라이온즈 대 KT 위즈 경기가 7일 대구 삼성라이온즈파크에서 열렸다.",
+   "text_status": "short"
+  },
+  {
+   "title": "'계좌 박살 났다' 현타 온 개미들…주가 폭락에 몰려든 곳이 [투자톡]",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-07 17:22 KST",
+   "url": "https://www.hankyung.com/article/2026110609146",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "400억 쏟았는데 가동도 못 한다…경남 '풍력 시험장' 어쩌나",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:06 KST",
+   "url": "https://www.hankyung.com/article/2026110722857",
+   "summary": "",
+   "text": "이번 광복절 연휴 3일 동안 경남 전역에 가뭄 해갈에 도움이 되는 비가 내렸으나 남해안에는 집중호우가 쏟아지고 있다.기상청에 따르면 광복절인 15일 0시부터 17일 오전 6시 사이 거제시에 782.5㎜, 통영시에 6...\n'122년 기상 관측' 사상 최고치…경남 양산 '42.5도' 찍었다 [종합]\n경남 양산의 한낮 기온이 42.5도까지 치솟으며 국내 기상 관측 122년 역사상 최고 기온 기록을 새로 썼다.경상권을 중심으로 극단적인 폭염이 지속되면서 온열질환자가 급증하고 행정당국의 대응 수위도 격상됐다.2일 기...\n경남 창원의 한 재건축 조합이 조합장에게 20억원의 성과금을 지급하는 안건을 추진하면서 재건축 조합장 인센티브를 둘러싼 논란이 다시 불거지고 있다. 24일 연합뉴스에 따르 창원시의 한 주택재건축정비사업조합은...",
+   "text_status": "ok"
+  },
+  {
+   "title": "\"내가 살겠다\"며 세입자 내보낸 집주인…결국 '날벼락'",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-07 17:00 KST",
+   "url": "https://www.hankyung.com/article/202611033595i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "홍대는 K뷰티, 성수는 북쪽으로…스타벅스로 알아본 상권 변화 [권용훈의 트렌드워치]",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-07 17:00 KST",
+   "url": "https://www.hankyung.com/article/202611060905i",
+   "summary": "",
+   "text": "라이엇 게임즈가 모바일 MOBA 게임 ‘리그 오브 레전드: 와일드 리프트(이하 와일드 리프트)’의 글로벌 커뮤니티 행사인 ‘2026 와일드 라운드: 스매쉬(2026 Wild Round...\n\"AI 공짜로 풀겠습니다\"…대학생 잡으러 나선 구글의 승부수 [정지은의 테크킥]\n지난달 31일 서울 성수동 한서빌딩에 마련된 ‘스낵이 제미나이 캠퍼스’. 구글 제미나이 로고가&...\n스타벅스가 서울 상암동 MBC 사옥에 입점해 운영하던 매장을 폐점했다. 계약 기간이 만료된 뒤 계약을 연장하지 않은 것으로 파악된다.28일 스타벅스 코리아에 따르면 상암MBC점은 영업을 최근 종료했다. 해당 매장은 ...",
+   "text_status": "ok"
+  },
+  {
+   "title": "하루 만에 4800조 날아갔다…세계 증시 덮친 '블루쓰나미' 쇼크",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-07 16:50 KST",
+   "url": "https://www.hankyung.com/article/2026110722767",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "환자복 입고 흉기 위협, 진료실 피습 이어 또 불거진 병원 안전",
    "source": "청년의사",
    "lang": "ko",
@@ -221,6 +408,17 @@
    "summary": "금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다. 미래에셋증권은 지난 4일과 5일 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어에..",
    "text": "금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다.\n미래에셋증권은 지난 4일과 5일 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어에 대한 외부의 공격이 발생했다고 7일 밝혔다.\n이로 인해 고객 3800여명이 자사에 개설한 계좌번호가 유출됐다. 하지만 예금주명 등 여타 민감정보는 빠져나가지 않았다고 미래에셋증권은 전했다.\n다만, 퇴직자 및 외주직원을 포함한 미래에셋증권 임직원 3만5255명의 개인정보가 유출됐다.\n임직원 대부분은 이름, 사번이 유출되었고 이메일주소와 휴대폰번호, 암호화된 비밀번호는 일부만 유출된 상황이다.\n미래에셋증권 관계자는 “외부 IP의 비정상적인 접근 정황을 확인한 즉시 관련 접근 경로를 차단하고 비상대응체계를 가동했다”며 “관련 법령에 따라 금융위원회와 금융감독원·개인정보보호위원회에 보고했다”고 말했다.\n그는 “외부에서 정상 권한 없이 자료를 열람한 사례로, 악성코드 감염이나 서비스 중단은 없었다”면서 “현재까지 확인된바 금전적 피해는 없으며, 회사 홈페이지를 포함한 주요 시스템과 서비스는 영향 없이 정상 운영 중”이라고 말했다.\n미래에셋증권에서 해킹 사고로 인해 고객과 임직원의 정보가 일부 유출되었습니다. 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어를 겨냥한 외부 공격에서 비정상 접근 정황이 확인됐습니다. 접근 경로 차단과 비상대응체계 가동으로 주요 시스템과 서비스는 정상 운영되고 있습니다.\n금융권에서 연쇄 해킹 사고가 발생한 가운데 미래에셋증권에서 고객 계좌번호가 유출되는 사건이 발생했다.\n지난 4일과 5일 발생한 외부 공격으로 3800여명의 고객 정보와 3만5255명의 임직원 개인정보가 유출됐으나, 금융기관의 민감정보는 안전하다고 회사는 밝혔다.\n미래에셋증권은 외부 접근을 즉시 차단하고 관련 기관에 보고했으며, 현재까지 금전적 피해는 없는 상황이다.",
    "text_status": "ok"
+  },
+  {
+   "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-07 16:37 KST",
+   "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+   "summary": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
+   "text": "",
+   "text_status": "not_fetched"
   },
   {
    "title": "대구가톨릭대의료원 노조, 노동쟁의 조정신청",
@@ -333,6 +531,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "The race is on to build the first fusion power plant — and Europe is looking to Japan for help",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-07 15:00 KST",
+   "url": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+   "summary": "Fusion energy has the potential to provide abundant, clean power. Now, the race is on to develop the world’s first commercial plant.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“혼자 늙는 것도 서러운데, 다 가져가야만 했냐”…고령 1인가구 보험료 ‘쑥’",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -355,150 +564,227 @@
    "text_status": "ok"
   },
   {
-   "title": "\"뭘봐!\" 행인 폭행, 20대 징역 1년…5년간 동종범죄 6회",
-   "source": "머니투데이",
+   "title": "세계식량가격지수 하락 전환…곡물·육류·유제품 내려",
+   "source": "연합뉴스 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 11:17 KST",
-   "url": "https://www.mt.co.kr/society/2026/11/07/2026110710571348486",
-   "summary": "자신을 쳐다본다는 이유로 시비 끝에 행인을 폭행한 혐의를 받는 20대 A씨가 징역 1년을 선고받았다. A씨는 5년간 동종 범죄로 6차례 처벌받은 전력이 있는 것으로 확인됐다. 창원지법 형사3단독 박기주 부장판사는 상해 혐의로 기소된 A씨에게 징역 1년을 선고했다고 7일 밝혔다. A씨는 지난 4월5일 오전 4시25분쯤 경남 창원시 진해구의 한 아파트 인근 도로에서 B(20대)씨가 자신을 쳐다본다는 이유로 말다툼을 벌이다 주먹으로 얼굴을 여러 차례 때려 상해를 입힌 혐의로 재판에 넘겨졌다. B씨는 치아 파절과 코뼈 골절 등 약 8주간의 치료가 필요한 상해를 입었다....",
-   "text": "자신을 쳐다본다는 이유로 시비 끝에 행인을 폭행한 혐의를 받는 20대 A씨가 징역 1년을 선고받았다. A씨는 5년간 동종 범죄로 6차례 처벌받은 전력이 있는 것으로 확인됐다.\n창원지법 형사3단독 박기주 부장판사는 상해 혐의로 기소된 A씨에게 징역 1년을 선고했다고 7일 밝혔다.\nA씨는 지난 4월5일 오전 4시25분쯤 경남 창원시 진해구의 한 아파트 인근 도로에서 B(20대)씨가 자신을 쳐다본다는 이유로 말다툼을 벌이다 주먹으로 얼굴을 여러 차례 때려 상해를 입힌 혐의로 재판에 넘겨졌다.\nB씨는 치아 파절과 코뼈 골절 등 약 8주간의 치료가 필요한 상해를 입었다.\n박 부장판사는 \"A씨가 범행을 인정하고 반성하는 점과 피해자를 위해 800만원을 형사공탁한 점은 유리한 정상으로 참작했다\"면서도 \"사소한 시비를 이유로 피해자의 얼굴을 무차별적으로 폭행해 비교적 중한 상해를 입힌 데다 피해자가 공탁금 수령을 거부하고 엄벌을 탄원한 점, 범행 직후 현장에서 도주한 점 등을 불리한 정상으로 판단했다\"고 설명했다.\n특히 \"A씨가 최근 5년간 동종 범죄로 6차례 처벌받은 전력이 있는 점을 들어 폭력적 성향과 재범 위험성이 상당하다\"며 \"피고인에게 실형을 선고하는 것이 불가피하다\"고 판시했다.",
+   "published": "2026-11-07 14:52 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261107034800030",
+   "summary": "(서울=연합뉴스) 한주홍 기자 = 석 달 연속 오름세를 보였던 세계식량가격지수가 지난달 하락 전환했다.",
+   "text": "(서울=연합뉴스) 한주홍 기자 = 석 달 연속 오름세를 보였던 세계식량가격지수가 지난달 하락 전환했다.\n농림축산식품부는 유엔 식량농업기구(FAO)가 발표한 10월 세계식량가격지수가 133.9로 전달보다 1.2% 하락했다고 7일 밝혔다.\n지난달 지수는 러시아의 우크라이나 침공으로 정점을 찍은 2022년 3월(160.2)보다는 16.4% 낮지만, 지난해 10월과 비교하면 5.9% 높은 수준이다.\n곡물 가격지수는 116.8로, 전달보다 4.5% 내렸다. 4개월 연속 상승했던 밀 가격은 국제 수요가 부진한 가운데, 아르헨티나를 중심으로 생산 전망이 개선되면서 하락세로 돌아섰다. 국제 옥수수 가격과 보리·수수 가격도 동반 하락했다.\n반면 쌀 가격은 일부 수출국의 수확 지연과 악천후 등의 영향으로 1.6% 상승했다.\n육류 가격지수는 125.5로, 1.2% 하락했다. 돼지고기·양고기·쇠고기 가격은 내렸고, 가금육 가격은 보합세를 나타냈다.\n유제품 가격지수는 1.1% 떨어진 117.8이었다. 국제 버터와 치즈 가격이 내린 영향이 컸다.\n이에 반해 탈지분유 가격은 수입 수요가 이어지는 가운데 공급 물량이 제한되면서 대폭 상승했다.\n유지류 가격지수는 0.3% 오른 199.2였다. 대두유 가격은 바이오연료 부문의 수요 증가와 남미의 계절적 공급 감소에 힘입어 2022년 말 이후 최고 수준으로 올랐다. 해바라기유 가격도 반등했다.\n그러나 유채유 가격은 계절적 공급 증가와 바이오디젤 원료 수요 부진으로 하락했다.\n설탕 가격지수는 121.3으로, 2024년 12월 이후 가장 높은 수준을 나타냈다. 전달보다 6.6% 올랐고, 1년 전보다는 28.8% 상승한 수치다.\n브라질의 주요 사탕수수 생산지인 중남부 지역에서 강우로 수확과 압착 작업이 차질을 빚은 것이 가격 상승의 주요 원인으로 작용했다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 14:52 송고 2026년11월07일 14시52분 송고",
    "text_status": "ok"
   },
   {
-   "title": "Mirae Asset says data breaches exposed customer, employee information",
-   "source": "Korea Times business",
+   "title": "장기 투자자가 오래 머무는 증시가 답이다",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-07 14:30 KST",
+   "url": "https://www.hankyung.com/article/202611059392i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Trump’s defeat heralds a US retreat",
+   "source": "FT home",
    "lang": "en",
-   "section": "korea",
-   "published": "2026-11-07 11:17 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261107/mirae-asset-says-data-breaches-exposed-customer-employee-information?utm_source=rss",
-   "summary": "Mirae Asset Securities Co. said Saturday that it suffered cyberattacks that resulted in the leakage of account numbers some 3,800 customers and personal information of over 35,000 current, former employees and contractors. The South Korean brokerage said unauthorized external access occurred Wednesday and Thursday, targeting its mobile web phone authentication login service and internal system, respectively. They resulted in the leakage of some 3,800 customer account numbers and information on 3",
-   "text": "The headquarters of Mirae Asset Group, the parent company of Mirae Asset Securities, in downtown Seoul / Courtesy of Mirae Asset Securities\nMirae Asset Securities Co. said Saturday that it suffered cyberattacks that resulted in the leakage of account numbers some 3,800 customers and personal information of over 35,000 current, former employees and contractors.\nThe South Korean brokerage said unauthorized external access occurred Wednesday and Thursday, targeting its mobile web phone authentication login service and internal system, respectively.\nThey resulted in the leakage of some 3,800 customer account numbers and information on 35,255 current, former and contractors. The non-customer, corporate data leaked included names, employee ID numbers, email addresses, mobile phone numbers and passwords.\nMirae Asset said it immediately blocked the affected access routes after detecting suspicious activity from external IP addresses and activated its emergency response system.\nThe company also said it reported the incident to the Financial Services Commission, the Financial Supervisory Service and the Personal Information Protection Commission.",
-   "text_status": "ok"
+   "section": "macro",
+   "published": "2026-11-07 14:00 KST",
+   "url": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
+   "summary": "American retrenchment could change Middle East balance of power and signify opportunities for China",
+   "text": "",
+   "text_status": "not_fetched"
   },
   {
-   "title": "JoongAng Ilbo buyers have financial room to fund acquisition: KIS report",
-   "source": "Korea Times business",
+   "title": "The mother of all American course corrections",
+   "source": "FT home",
    "lang": "en",
-   "section": "korea",
-   "published": "2026-11-07 11:17 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261107/joongang-ilbo-buyers-have-financial-room-to-fund-acquisition-kis-report?utm_source=rss",
-   "summary": "In an unconventional lifeline for Korea's traditional press, a diverse corporate coalition spanning tech, retail and entertainment has agreed to rescue JoongAng Ilbo, one of the nation’s most influential conservative daily newspapers. Under a 520 billion won ($388 million) conditional agreement approved Wednesday by the boards of Daou Technology, Saramin, CJ Corp. and Shinsegae, the newly injected capital will flow directly into the newspaper to clear its debts and pull the media outlet out of a",
-   "text": "JoongAng Ilbo headquarters in Seoul / Korea Times photo by Yun Gi-hun\nThis article is part of a series utilizing data and reports provided by Korea Investors Service (KIS) to offer our readers in-depth insights on industry trends, corporate fiscal health and M&A deals.\nIn an unconventional lifeline for Korea's traditional press, a diverse corporate coalition spanning tech, retail and entertainment has agreed to rescue JoongAng Ilbo, one of the nation’s most influential conservative daily newspapers.\nUnder a 520 billion won ($388 million) conditional agreement approved Wednesday by the boards of Daou Technology, Saramin, CJ Corp. and Shinsegae, the newly injected capital will flow directly into the newspaper to clear its debts and pull the media outlet out of a creditor-led workout program it entered this summer.\nAccording to an assessment by Korea Investors Service (KIS), a Moody’s affiliate, the acquiring companies possess the financial capacity to comfortably fund the transaction.\nUnder the agreed funding structure, Daou Technology will cover 36.5 percent of the total, or about 189.8 billion won, while CJ Corp. will contribute 35.7 percent, or 185.6 billion won. Shinsegae is participating alongside CJ as a financial investor with a 14.1 percent stake (73.3 billion won), and online job portal Saramin will provide 13.7 percent (71.2 billion won). Daou Technology and Saramin both operate under the Daou Kiwoom Group.\nIndustry risk: Limited — KIS sees limited credit risk for CJ (AA-) and Shinsegae (AA). It sees a manageable, though rising, debt burden for Daou Technology (A).Key credit drivers: The deal still needs a creditors’ meeting on Nov. 6 and a bondholders’ meeting on Nov. 17, and final funding plans are pending. Also, Korean law caps any large business group at 50 ",
-   "text_status": "ok"
+   "section": "macro",
+   "published": "2026-11-07 14:00 KST",
+   "url": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1",
+   "summary": "US midterms are the latest confirmation that reports of the death of liberal democracy have been much exaggerated",
+   "text": "",
+   "text_status": "not_fetched"
   },
   {
-   "title": "From Pokemon to T1, global fandoms open new market for Korean resellers",
-   "source": "Korea Times business",
+   "title": "European security agencies probe whether bomb hoaxes started in Russia",
+   "source": "FT home",
    "lang": "en",
+   "section": "macro",
+   "published": "2026-11-07 14:00 KST",
+   "url": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1",
+   "summary": "A working hypothesis is that the co-ordinated threats were produced by pro-Kremlin activists or hacking groups",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "How Wall Street’s all-in bet on AI blew up",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-07 14:00 KST",
+   "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
+   "summary": "US midterm elections sparked a hedge fund and retail investor exodus from a trade that had taken over equity markets",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "A bittersweet year for liberals",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-07 14:00 KST",
+   "url": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
+   "summary": "The lesson of 2026 is that people can forgive election subversion, Kremlin support — but not high prices",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "농식품부, 우리술 품평회 수상작 국내외 판로 확대 지원",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 11:17 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261107/from-pokemon-to-t1-global-fandoms-open-new-market-for-korean-resellers?utm_source=rss",
-   "summary": "Korean sellers are finding new opportunities in the global collectibles market, as overseas buyers are willing to pay a premium for rare, hard-to-find items, with trading card sales by Korean sellers on eBay more than tripling year-on-year in the third quarter. EBay said Friday that Korean sellers in the Collectible Card Games Category saw the highest sales growth among all Korean sellers on the global e-commerce platform from July to September this year. Trading cards featuring characters, arti",
-   "text": "A 2026 KOREA MEGA FESTA Magikarp card, left, and a Riftbound X 2025 World Champion T1 Signature Edition Card / Screen capture from eBay\nKorean sellers are finding new opportunities in the global collectibles market, as overseas buyers are willing to pay a premium for rare, hard-to-find items, with trading card sales by Korean sellers on eBay more than tripling year-on-year in the third quarter.\nEBay said Friday that Korean sellers in the Collectible Card Games Category saw the highest sales growth among all Korean sellers on the global e-commerce platform from July to September this year. Trading cards featuring characters, artists or celebrity athletes fueled platform users’ attraction toward the Korean resellers.\nThe most popular trading cards featured characters from the globally popular animated franchise Pokemon and iconic League of Legends esports team T1. The top-selling item in the category was the 2026 KOREA MEGA FESTA Magikarp card, which also ranked ninth in overall sales among Korean sellers on eBay.\nThe Riftbound X 2025 World Champion T1 Signature Edition Card fetched a premium even during prelaunch sales, demonstrating a global fandom around the product itself and the team represented by professional gamer Lee Sang-hyeok, who is known more widely as Faker. Four of the card’s related products clinched spots in the Top 10 in the category during the third quarter.\nLEGO 10190 Market Street / Screen capture from eBay\nLEGO was another hot item sold by Korean sellers on eBay. Thanks to the brand, which commonly releases editions featuring popular franchises such as Star Wars and Marvel, the Building Toys Category posted the second-highest sales growth among Korean sellers in the three-month period. Those that were no longer produced or were manufactured in a limi",
+   "published": "2026-11-07 13:00 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261106142200030",
+   "summary": "(서울=연합뉴스) 한주홍 기자 = 농림축산식품부가 올해 대한민국 우리술 품평회 수상작의 해외 판로 개척과 국내 소비 확대를 지원한다고 7일 밝혔...",
+   "text": "(서울=연합뉴스) 한주홍 기자 = 농림축산식품부가 올해 대한민국 우리술 품평회 수상작의 해외 판로 개척과 국내 소비 확대를 지원한다고 7일 밝혔다.\n농식품부는 지난 4∼5일 서울 코엑스에서 열린 '2026 하반기 K-푸드 플러스(+) 바이어 초청 수출상담회'와 연계해 국내 양조장과 해외 바이어 간 상담을 지원했다.\n이어 6일에는 중국·튀르키예·몽골 등의 주류 수입·외식업체 바이어를 대상으로 충북 충주의 중원당과 다농바이오를 방문하는 팸투어를 진행했다.\n바이어들은 양조장 제조시설을 둘러보고 품평회 수상작인 중원당의 '청명주'와 다농바이오의 '가무치 소주 43도' 등을 시음했다.\n국내 소비자 대상 홍보 행사도 열었다. 농식품부와 한국농수산식품유통공사(aT)는 이날 서울 성수동에서 '2026 우리술 팝업스토어'를 열고 품평회 대상·최우수상·우수상 수상작 18종을 선보였다.\n농식품부는 12월 수상업체를 대상으로 선진지 견학을 추진하는 등 후속 지원도 이어갈 계획이다.\n농식품부 관계자는 \"판로 개척과 현장 경험, 후속 역량 강화 사업을 연계해 K-술의 성장을 지속적으로 뒷받침하겠다\"고 말했다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 13:00 송고 2026년11월07일 13시00분 송고",
    "text_status": "ok"
   },
   {
-   "title": "김영철 \"교통사고로 떠난 형…엄마는 어떻게 버텼나 싶다\"",
-   "source": "머니투데이",
+   "title": "\"존박이 랩으로 주문했더니\"…맥도날드가 진짜 만든 '이것' [김소연의 얼굴전략]",
+   "source": "한국경제 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 11:15 KST",
-   "url": "https://www.mt.co.kr/entertainment/2026/11/07/2026110710284750683",
-   "summary": "개그맨 김영철이 교통사고로 세상을 떠난 형을 언급했다. 지난 6일 유튜브 채널 '김영철 오리지널'에는 개그우먼 정선희가 출연해 '인생 책' 세 권을 소개하는 영상이 공개됐다. 이 영상에서 정선희는 '나를 위로하고 일으켜 세워준 책'에 대해 \"책은 종류에 상관없이 우리를 어떤 식으로든 위로해주고 일으켜 세워 준다\"며 딱 한 권만 고르기는 어려웠다고 말했다. 그는 \"어떻게 한 권의 책이 인생을 일으키겠나. 우리는 그런 드라마를 기대하지만, 삶이란 생각보다 재미가 없더라. 그 한마디에 일어날 정도면 누적된 여러 마디의 이야기들이 이미 구력을 심어준 것\"이라고 설명했다....",
-   "text": "지난 6일 유튜브 채널 '김영철 오리지널'에는 개그우먼 정선희가 출연해 '인생 책' 세 권을 소개하는 영상이 공개됐다.\n이 영상에서 정선희는 '나를 위로하고 일으켜 세워준 책'에 대해 \"책은 종류에 상관없이 우리를 어떤 식으로든 위로해주고 일으켜 세워 준다\"며 딱 한 권만 고르기는 어려웠다고 말했다.\n그는 \"어떻게 한 권의 책이 인생을 일으키겠나. 우리는 그런 드라마를 기대하지만, 삶이란 생각보다 재미가 없더라. 그 한마디에 일어날 정도면 누적된 여러 마디의 이야기들이 이미 구력을 심어준 것\"이라고 설명했다.\n정선희는 \"나를 일으킨 책을 어떻게 한 권을 고르지? 싶었는데 딱 스치는 한 권이 있었다\"며 박완서의 '한 말씀만 하소서'를 꼽았다.\n그는 \"박완서 님이 딸 넷에 아들 하나였는데 26세의 젊은 아들을 잃는다. 하루아침에 자식이 떠난 자리에서 토하듯이 자신의 감정을 옮겨 적은 것이라고 한다\"고 서문을 소개했다.\n이어 \"한 장 한 장이 나를 일으키기보다는 어떨 땐 날 쓰러뜨렸다\"며 \"마주하고 싶지 않은 과거, 감정들을 오롯이 다시 마주하게 해줬다\"고 설명했다. 그러면서 \"문학적인 서술이 없는데 이걸 비슷하게 겪은 자만이 느낄 수 있는 게 있다\"고 덧붙였다.\n김영철은 \"1991년에 형이 교통사고로 하늘나라에 갔는데 엄마 입장으로 한번 읽어봤다\"며 박완서가 자식을 잃은 슬픔 속에서 우동을 맛있게 먹은 자기 모습에 괴로워하는 대목을 언급했다.\n이어 \"헛웃음이 나올 정도로 이 슬픈 얘기를 정직하고 솔직하고 담백하게 이야기하는데, 우리 엄마가 어떤 마음으로 하루하루 버텨냈을까 싶었다\"고 털어놨다.\n그러면서 \"엄마가 저렇게 밥을 먹었구나 싶었다. 엄마가 우리가 밥 먹는 걸 쳐다보면 '된장찌개 끓였는데 참 맛있지? 밥이 들어가네'라고 했던 모습이 지나갔다. 엄마가 때론 우리 앞에서 억지로 못 먹는 연기도 했었나? 엄마를 알아가는 계기가 됐다\"고 말했다.\n김영철은 고등학교 3학년 때 큰형이 교통사고로 떠났다고 밝힌 바 있다. 김영철은 과거 여러 방송에 출연해 외출했던 큰형이 나간 김에 자신이 먹고 싶다고 했던 치킨을 사 오기로 했는데 그날 저녁 교통사고를 당해 세상을 떠났다고 털어놨다.",
+   "published": "2026-11-07 13:00 KST",
+   "url": "https://www.hankyung.com/article/202611060608g",
+   "summary": "",
+   "text": "\"그날이 뭔 날인지 알아?\"…'1000만뷰' 아이돌 영상의 비밀 [김소연의 얼굴전략]\n\"11월11일이 무슨 날인지 아세요?\"한국에서는 너무나 익숙한 질문입니다. 편의점과 대형마트에 빼빼로 선물세트가 쌓이고 친구와 연인, 가족끼리 과자를 주고받는 날이기 때문입니다. 빼빼로데이는 법정공휴일도 정부가 정한...\n'사진 3장에 157억 터졌다'…디올이 지수 모셔가는 이유 [김소연의 얼굴전략]\n\"미주 수출을 늘리고 싶어서 아이돌 멤버를 모델로 쓰려고 하는데 누가 좋을까요?\"해외 시장 진출을 추진하는 국내 뷰티 브랜드 마케터가 털어놓은 고민입니다. 한때 해외에서 인지도를 높이기 위해 할리우드 배우나 현지 유...\n똑같은 금메달인데…'100억' 안세영 웃고 나이키는 '낭패' [김소연의 얼굴전략]\n똑같은 금메달을 땄지만 후원 기업들의 표정은 달랐습니다. 2026 아이치·나고야 아시안게임에서 배드민턴 여자 단식 2연패를 달성한 안세영은 스포츠 브랜드 요넥스의 선택을 다시 한 번 입증했습니다. 반면 ...",
    "text_status": "ok"
   },
   {
-   "title": "[사진]박진만 감독, 강민호! 정말 리드 잘해줬어",
-   "source": "조선비즈",
+   "title": "\"국장은 이제 그만\"…서학개미 일주일새 3조 '폭풍 매수'한 곳",
+   "source": "한국경제 증권",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 11:06 KST",
-   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/07/MEZDKMLGMU4TQYJQHA4TEMTCMI/",
-   "summary": "프로야구 삼성 라이온즈가 우승 확률 88.9%를 거머쥐었다. 업셋 우승이라는 역사에 한 발짝 내딛었다.삼성 라이온즈는 6일 대구 삼성 라이온즈파크에서 열린 '2026 신한 SOL KBO리그' 포스트시즌' 한국시리즈 3차전, KT 위즈와의 경기에서 5-1로 승리를 거뒀다. 이로써 정규시즌 2위로 플레이오프 5차전까지 치르고 한국시리즈에 올라온 삼성은 시리즈",
-   "text": "프로야구 삼성 라이온즈가 우승 확률 88.9%를 거머쥐었다. 업셋 우승이라는 역사에 한 발짝 내딛었다.\n삼성 라이온즈는 6일 대구 삼성 라이온즈파크에서 열린 '2026 신한 SOL KBO리그' 포스트시즌' 한국시리즈 3차전, KT 위즈와의 경기에서 5-1로 승리를 거뒀다. 이로써 정규시즌 2위로 플레이오프 5차전까지 치르고 한국시리즈에 올라온 삼성은 시리즈 2승1패를 마크했다.\n경기종료 후 삼성 박진만 감독이 강민호와 하이파이브를 하고 있다. 2026.11.06",
-   "text_status": "short"
+   "section": "markets",
+   "published": "2026-11-07 12:57 KST",
+   "url": "https://www.hankyung.com/article/2026110721637",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
   },
   {
-   "title": "'살인자' 욕설이 가족에게도...'경기 중 충격 사망 사고' 25세 GK, 이대로 축구 관두나 \"큰 정신적 충격, 너무 슬퍼하고 있다\"",
-   "source": "조선비즈",
+   "title": "미래에셋증권도 3만9천여명 정보유출…당국에 전날 밤 신고(종합2보)",
+   "source": "연합뉴스 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 11:05 KST",
-   "url": "https://biz.chosun.com/sports/football/2026/11/07/HBTDENTDMVSGEZBUGRTGMZJRGU/",
-   "summary": "경기 도중 거친 반칙으로 상대를 사망에 이르게 한 골키퍼 헤수스 오워노(25, FC 안도라)가 현역 은퇴를 고민하고 있다. 그의 가족들까지 도 넘은 비난과 욕설에 고통받고 있는 것으로 알려졌다.스페인 '문도 데포르티보'는 7일(이하 한국시간) \"죄책감에 무너진 오워노가 축구를 그만두는 것까지 고민하고 있다\"며 \"헤수스 데 미겔의 사망은 오워노에게 깊은 상처",
-   "text": "경기 도중 거친 반칙으로 상대를 사망에 이르게 한 골키퍼 헤수스 오워노(25, FC 안도라)가 현역 은퇴를 고민하고 있다. 그의 가족들까지 도 넘은 비난과 욕설에 고통받고 있는 것으로 알려졌다.\n스페인 '문도 데포르티보'는 7일(이하 한국시간) \"죄책감에 무너진 오워노가 축구를 그만두는 것까지 고민하고 있다\"며 \"헤수스 데 미겔의 사망은 오워노에게 깊은 상처를 남겼다. 그는 슬픔과 죄책감, 벌어진 일을 받아들이기 어려운 마음에 시달리며 인생에서 가장 힘든 시기 중 하나를 보내고 있다\"고 보도했다.\n오워노가 14세였을 때부터 그를 가까이에서 지켜봐 온 적도기니 남자 축구대표팀의 총괄 코디네이터 아나 마예가 직접 밝힌 이야기다. 마예는 \"아무리 주변에서 그렇게 말해줘도 그는 너무나 슬퍼하고 있다. 정말 큰 충격을 받은 상태다. 특히 데 미겔에게 생후 1년 6개월 된 아이와 아내가 있었다는 사실 때문에 더욱 힘들어한다. 이 모든 상황을 어떻게 감당해야 할지 모르고 있다\"고 전했다.\n오워노는 현재 구단의 도움을 받아 정신적 충격을 극복하기 위해 노력하고 있다. 안도라는 그에게 전문적인 심리 상담을 지원하고 있으며, 비슷한 비극을 겪었던 다른 운동선수들의 영상을 보여주면서 이번 일이 사고였다는 사실을 받아들일 수 있도록 돕고 있다. 하지만 좀처럼 마음의 상처가 아물지 않고 있다.\n충격적인 사망 사고는 지난 2일 발생했다. 테네리페와 안도라의 스페인 라리가2(2부리그) 경기 도중 테네리페 공격수 데 미겔이 상대 골키퍼 오워노와 강하게 충돌했다.\n사고는 후반 추가시간에 벌어졌다. 오워노가 길게 넘어온 공을 걷어내기 위해 골문에서 뛰쳐나왔고, 공을 향해 달려오던 데 미겔과 부딪쳤다. 이 과정에서 오워노가 높이 들어 올린 무릎이 데 미겔의 가슴 부위를 강타했다. 물론 고의는 아니었겠지만, 동업자 의식이 너무나 부족한 반칙이었다.\n데 미겔은 그대로 의식을 잃고 쓰러졌고, 오워노는 레드카드를 받았다. 데 미겔은 의료진의 응급처치를 받고 병원으로 이송됐지만, 심정지까지 겪었다. 이후 심폐소생술 끝에 다시 심장 박동을 되찾았으나 끝내 의식을 회복하지 못했다. 결국 데 미겔은 다음 날 오전 향년 30세로 눈을 감았다.\n갑작스러운 비보에 전 세계 축구계가 충격에 빠졌다. 리오넬 메시와 크리스티아누 호날두, 킬리안 음바페 등 세계적인 스타들이 고인을 추모했고, 유럽축구연맹(UEFA)도 이번 주 열리는 경기에서 묵념을 진행하기로 했다.\n사건의 당사자인 오워노 역시 큰 충격에 빠졌다. 그는 지난 4일 소속팀 안도라를 통해 직접 성명을 발표하며 \"지금은 내 인생에서 가장 힘든 나날이다. 어떤 말을 해야 할지 모르겠고, 무슨 일이 일어났는지 받아들이기도 너무 어렵다\"고 심경을 밝혔다.\n또한 오워노는 \"앞으로 답해야 할 질문이 많다는 것을 알고 있다. 어떤 일이 닥치더라도 최대한 존중하는 자세로 마주하겠다\"라며 \"하지만 지금은 솔직히 헤수스와 우리가 겪고 있는 고통 외에는 아무것도 생각할 수 없다. 헤수스, 편히 쉬길 바란다\"고 애도했다.\n동료들도 오워노를 감싸고 나섰다. 안도라의 아르헨티나 출신 수비수 라우타로 스파츠는 \"그를 아는 사람이라면 그가 어떤 사람인지, 지금 얼마나 큰 고통을 겪고 있는지 잘 알고 있다. 또한 그가 누군가를 고의로 다치게 할 사람이 결코 아니라는 것도 알고 있다\"고 강조했다.\n그러나 오워노를 향한 비난은 가족들에게까지 번졌다. 특히 바스크 지방에서 축구선수로 뛰고 있는 그의 남동생이 심각한 피해를 보고 있는 것으로 알려졌다.\n마예는 \"사람들이 헤수스의 남동생을 살인자라고 부르고 있다. 소속팀에서도 그를 비난하고, 심지어 일부 학부모들까지 욕설을 퍼붓고 있다. 너무나 가혹한",
+   "published": "2026-11-07 12:47 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261107014453008",
+   "summary": "(서울=연합뉴스) 황철환 배영경 기자 = 금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다.",
+   "text": "(서울=연합뉴스) 서대연 기자 = 금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다. 미래에셋증권은 지난 4일과 5일 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어(mi-global)를 겨냥한 외부의 공격이 하루 간격으로 발생했다고 7일 밝혔다. 이로 인해 고객 3천800여명이 자사에 개설한 계좌번호가 유출됐다. 또 퇴직자 및 외주직원을 포함한 미래에셋증권 임직원 3만5천255명의 개인정보가 유출됐다. 다만 예금주명 등 여타 민감정보는 빠져나가지 않았다고 미래에셋증권은 전했다. 사진은 이날 서울 중구 미래에셋증권 본사 모습. 2026.11.7 dwise@yna.co.kr\n(서울=연합뉴스) 황철환 배영경 기자 = 금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다.\n최근 금융권을 상대로 한 잇단 해킹과 이에 대한 대책 발표에도 불구하고 국내 최대 증권사인 미래에셋증권에서도 해킹 피해가 발생해 추가 해킹에 대한 우려가 가라앉지 않고 있다.\n미래에셋증권[006800]은 지난 4일과 5일 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어(mi-global)를 겨냥한 외부의 공격이 하루 간격으로 발생했다고 7일 밝혔다.\n이로 인해 고객 3천800여명이 자사에 개설한 계좌번호가 유출됐다. 다만 예금주명 등 여타 민감정보는 빠져나가지 않았다고 미래에셋증권은 전했다.\n또 퇴직자 및 외주직원을 포함한 미래에셋증권 임직원 3만5천255명의 개인정보가 유출됐다.\n유출된 임직원 개인정보 항목은 성명, 사번이 대부분이나 일부는 이메일주소, 휴대폰번호, 암호화된 비밀번호 등도 피해항목에 포함됐다. 주민등록번호와 여권번호, 운전면허번호, 외국인등록번호 등 고유식별정보와 민감정보는 유출되지 않았다.\n미래에셋증권 관계자는 \"외부 IP의 비정상적인 접근 정황을 확인한 즉시 관련 접근 경로를 차단하고 비상대응체계를 가동했으며, 관련 법령에 따라 금융위원회와 금융감독원·개인정보보호위원회에 보고했다\"고 말했다.\n그는 \"외부에서 정상 권한 없이 자료를 열람한 사례로, 악성코드 감염이나 서비스 중단은 없었다\"면서 \"현재까지 확인된바 금전적 피해는 없고, 회사 홈페이지를 포함한 주요 시스템과 서비스는 영향 없이 정상 운영 중\"이라고 말했다.\n미래에셋증권은 전날 밤 당국에 침해사고 사실을 신고했다. 현재 당국은 사안의 경중과 가용 인력 등을 고려해 내주 미래애셋증권에 점검반 파견 여부를 검토 중인 것으로 알려졌다.\n국내 금융권에서는 최근 AI 에이전트가 활용된 것으로 추정되는 일련의 해킹 공격으로 인한 피해가 잇따르고 있다.\n미래에셋그룹의 경우 지난달 26일 미래에셋생명의 고객 개인정보가 유출됐고, 같은달 28일과 이달 2일에는 미래에셋자산운용과 에너지인프라자산운용에서 외부 침투 시도가 파악됐다.\n미래에셋생명은 현장점검 결과 침해에 따른 정보유출 피해자 수가 약 6천800명 수준인 것으로 전해진다.\n여기에 미래에셋증권마저 타깃이 되면서 미래에셋그룹에서 사이버 공격을 받은 계열사는 4개로 증가했다.\n당국 점검 결과 이번 그룹 내 연이은 침해사고 관련 위법사항이 발견되면 검사로 전환하고 추후 책임을 물을 가능성도 있다.\n최근 이찬진 금융감독원장은 사고 발생 회사가 기존에 배포한 유의사항·자체 점검 등을 적절히 이행했는지 살피고, 특히 대형 금융사에는 은행권과 마찬가지로 최고경영자(CEO)에 책임을 물을 방침을 분명히 했다.\n앞서 미래에셋을 제외한 다른 금융투자업계 중에서는 대신증권[003540]과 한양증권[001750]에서도 해킹으로 인한 정보 유출사고가 발생했다.\n미래에셋증권은 \"예금주명 등 다른 정보는 유출되지 않았으",
    "text_status": "ok"
   },
   {
-   "title": "'우지원 딸' 우서윤 맞아? 성형설 정면 돌파하더니 치아까지 \"자신있는 미소\"",
-   "source": "조선비즈",
+   "title": "전기공사 견적, 현장에서 스마트폰으로…전기공사협회 '내손사' 선보인다",
+   "source": "한국경제 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 11:05 KST",
-   "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/07/GI3GCYRSGEYGCMRYMI4TAM3DME/",
-   "summary": "전 농구선수 우지원의 딸이자 미스코리아 진(眞) 우서윤이 치아 시술 후 한층 더 자연스러운 미소를 보였다.우서윤은 6일 자신의 SNS에 \"자신 있고 자연스러운 미소\"라며 카페에서 여유로운 시간을 갖고 있는 모습을 담은 사진을 공개했다.사진에서 우서윤은 카페에서 시간을 보내고 있다. 케이크와 음료를 주문한 뒤 자리를 잡은 우서윤은 카메라를 향해 자연스러운 미",
-   "text": "전 농구선수 우지원의 딸이자 미스코리아 진(眞) 우서윤이 치아 시술 후 한층 더 자연스러운 미소를 보였다.\n우서윤은 6일 자신의 SNS에 \"자신 있고 자연스러운 미소\"라며 카페에서 여유로운 시간을 갖고 있는 모습을 담은 사진을 공개했다.\n사진에서 우서윤은 카페에서 시간을 보내고 있다. 케이크와 음료를 주문한 뒤 자리를 잡은 우서윤은 카메라를 향해 자연스러운 미소와 포즈를 보이며 미스코리아 자태를 뽐냈다.\n우서윤은 최근 \"전에는 웃을 때 치아가 신경 쓰였는데, 지금은 어디서든 자신 있게 웃을 수 있어요! 자연치를 최대한 보존하면서 필요한 부분만 선택적으로 개선할 수 있다는 점도 좋았고, 무엇보다 결과가 자연스러워서 정말 만족스러워요\"라며 치아 시술을 밝힌 바 있다.\n성형설에 대해서는 \"미스코리아 진이라는 타이틀에 걸맞은 사람이 될 수 있도록 매 순간 배우고 노력하며, 하루하루 성장해 나가겠습니다\"라며 미스코리아 진 당선 2개월 만에 심경을 전했다.\n현재 미스코리아로 다양한 활동을 하고 있는 우서윤은 자연스러운 미소를 보여주며 한국의 미를 알리고 있다. 이날 사진에서도 깔끔하고 포멀한 실루엣이 도회적인 매력을 살렸고, 자연스럽고 편안한 꾸안꾸 스타일로 미모를 뽐냈다.\n우서윤은 우지원의 딸이다. 어린 시절 각종 예능에 출연하며 이름을 알렸고, 미스코리아 참가 전에는 '내 새끼의 연애'에 출연해 눈길을 모았다.",
+   "published": "2026-11-07 12:37 KST",
+   "url": "https://www.hankyung.com/article/202611072158i",
+   "summary": "",
+   "text": "한국전기공사협회가 몽골 전기공사 분야 전문단체와 손잡고 기술교육과 전문인력 교류를 확대한다. 몽골 숙련인력의 국내 파견·근무와 몽골 기업의 국내 전기공사 사업 참여에 필요한 정보도 교류하기로 했다.한국전...\n\"살 빼고 요요 막아준다?\"…마운자로 열풍에 '이것'까지 인기 [정지은의 테크킥]\n비만치료제 마운자로의 인기가 높아지면서 관련 정보를 제공하거나 투약 과정을 관리해주는 모바일 앱이 잇따라&n...\n한국과 일본 중소기업계가 도쿄와 서울을 오가는 ‘셔틀교류’를 통해 협력을 확대한다. 인공지능 전환(AX)과 디지털 전환(DX), 글로벌 시장 진출 등 공통 과제의 해법을 공유하고 업종별 교류를 ...",
    "text_status": "ok"
   },
   {
-   "title": "김지원, 수술복 입은 이정은에 \"제 스승입니다\"…'닥터X' 최고 시청률 16%",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 11:01 KST",
-   "url": "https://biz.chosun.com/entertainment/tv/2026/11/07/GY3WEMZSHBSWGODFGY4TQOJWMI/",
-   "summary": "김지원이 8세 소아암 환자를 살리기 위한 분투에 나섰다. SBS 금토드라마 ‘닥터X : 하얀 마피아의 시대’(이하 '닥터X')가 8세 소아암 환자를 살리기 위해 초현실적인 수술에 도전한 김지원의 뜨거운 집념과 이에 힘을 보태는 의료진의 모습으로 안방극장에 가슴 벅찬 전율을 선사했다.이와 함께 ‘닥터X’ 9화는 최고 시청률 16.6%, 전국 및 수도권 15.",
-   "text": "SBS 금토드라마 '닥터X : 하얀 마피아의 시대'(이하 '닥터X')가 8세 소아암 환자를 살리기 위해 초현실적인 수술에 도전한 김지원의 뜨거운 집념과 이에 힘을 보태는 의료진의 모습으로 안방극장에 가슴 벅찬 전율을 선사했다.\n이와 함께 '닥터X' 9화는 최고 시청률 16.6%, 전국 및 수도권 15.3%를 기록하며 동시간대 1위는 물론, 5주 연속 전 채널 모든 프로그램 중 1위를 차지하며 시청률 고공행진을 이어갔다. 2049 시청률 또한 최고 5.86%, 평균 5.3%를 기록하며 적수 없는 최고의 화제작임을 다시 한번 입증했다. (닐슨코리아 기준)\n지난 6일(금)에 방송된 '닥터X' 9화에서는 8세 소아암 환자 이현아(이채유 분)를 살리기 위해 세상에 없던 초현실적인 수술에 나서는 계수정(김지원 분)의 모습이 그려졌다. 모두가 반대하는 가운데 홀로 수술을 준비한 계수정과 그를 돕기 위해 결단을 내린 도윤식(김영민 분), 그리고 장희숙(이정은 분)까지 수술방에 합류하며 본격적인 합동 수술의 시작을 알렸다.\n부승권(손현주 분)은 장희숙에게 \"계수정은 닥터X입니까?\"라고 물으며 의문을 드러냈다. 장희숙은 \"환자의 생명과 안위를 최우선으로 여기고, 맡은 수술에 최선을 다하는 의사가 닥터X라면 계수정은 닥터X가 맞다\"고 답했다. 이어 환자를 살리기 위해 고군분투하는 계수정을 의심하는 부승권을 향해 날 선 일침을 가한 것은 물론, 그가 녹내장을 앓고 있다는 사실까지 꿰뚫어 보며 여유롭게 그를 압박했다. 하지만 부승권 역시 물러서지 않았다. 그는 닥터X란 수술법이 확립되지 않은 위험한 수술에 도전하는 의사이자, 생명과 실력을 저울질하는 오만한 신의 손이라고 생각한다고 말했다. 부승권은 그런 의미에서 계수정은 닥터X가 맞다고 단언해 긴장감을 자아냈다.\n한편, 유가을(기소유 분)의 수술을 6시간 안에 성공시키면 계약 조건의 폭을 넓혀주겠다는 부승권의 제안을 받아들였던 계수정은 '솔로 서저리'로 단 5시간 20분 만에 완벽하게 수술을 끝내며 또 한 번 실력을 입증했다. 계수정은 수술이 끝나기 무섭게 8세 소아암 환자 이현아를 살릴 방법을 고민하기 시작했다. 희귀 종양이 주요 혈관과 여러 장기에 침윤한 상황으로, 구서대병원 의사들은 물론 용역소 식구들조차 수술할 방법이 없다며 고개를 저을 만큼 절망적인 상황이었다.\n하지만 계수정은 포기하지 않았고, 이현아를 살릴 수 있는 단 하나의 수술법인 '복부다장기 체외 종양 절제 및 자가이식술'을 생각해냈다. 종양이 침윤한 총 6개의 장기를 모두 체외로 꺼낸 뒤 각각의 종양을 제거하고 다시 체내에 이식하는 초고난도 수술이었다. 다만 이는 혼자서는 절대로 완수할 수 없는 수술이었다. 아무리 신의 경지에 다다른 술기와 압도적인 수술 속도를 자랑하는 계수정이라도 아이가 버틸 수 있는 시간이 한정된 만큼, 여러 집도의가 동시에 수술에 참여해 시간을 단축해야 했다.\n계수정은 수술 컨퍼런스에서 의료진을 설득하기 위해 노력했으나, 모두 불가능한 수술이라며 난색을 표했고 부승권 역시 성공 가능성이 불분명한 고위험 수술이라며 강하게 반대했다. 결국 계수정은 모두에게 90도로 허리를 숙이며 \"부탁드립니다\"라고 간곡히 요청했다. 그러나 함께 수술하겠다고 나서는 의료진은 없었다. 부승권은 새로운 수술법에 대한 IRB(임상연구윤리심의위원회) 승인 절차가 완료될 때까지는 수술을 허가할 수 없다며 계수정의 요청을 거절했다.\n모두가 등을 돌린 상황에서 계수정은 다시 한번 '솔로 서저리'를 결심했다. 조원진(이진희 분)은 \"그쪽은 절대 실패하지 않죠. 난 절대 포기하지 않아요\"라며 계수정을 돕겠다고 나섰다. 계수정은 수술 시뮬레이션을 거듭했지만, 혼자서는 좀처럼 시간을 ",
+   "title": "Canakinumab Reduces Nodule Size in High-Risk Lung Precancers",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-07 12:26 KST",
+   "url": "https://www.onclive.com/view/canakinumab-reduces-nodule-size-high-risk-lung-precancers",
+   "summary": "IL-1β blockade with canakinumab was well tolerated and reduced nodule size in patients with high-risk indeterminate pulmonary nodules.",
+   "text": "IL-1β blockade with canakinumab was well tolerated and reduced nodule size in patients with high-risk indeterminate pulmonary nodules.\nTreatment with the IL-1β–targeting monoclonal antibody canakinumab (Ilaris) produced reductions in nodule size in a subset of patients with persistent, high-risk indeterminate pulmonary nodules (IPNs) and was well tolerated, according to a planned interim analysis of the phase 2 Can-Prevent-Lung trial (NCT04789681) presented at the 2026 SITC Annual Meeting.1\nInvestigators reported that the trial met its revised primary end point and identified baseline markers of myeloid inflammation associated with radiographic response, supporting further study of IL-1 blockade as a lung cancer interception strategy.\nIn the interim analysis population (n = 15), 10 patients experienced a reduction in nodule size following treatment with canakinumab. Among patients with nodule shrinkage, the largest reductions from baseline were –26.3%, –17.9%, –8.8%, and –6.7%. Plasma IL-1β levels increased in a quantifiable manner during treatment, demonstrating the biological activity of canakinumab.\n\"This trial suggests that we've got a better handle on the dosing and management of canakinumab, which is, I think, one of the first steps forward in terms of trying to target myeloid-derived inflammation for lung cancer interception,\" Matthew D. Park, PhD, a postdoctoral fellow in the laboratory of Miriam Merad, MD, PhD, at the Icahn School of Medicine at Mount Sinai in New York, New York, said in an exclusive interview with OncLive®.\nPreclinical work from the Merad laboratory showed that aging of the hematopoietic system, rather than aging of the tumor or surrounding tissue, drives age-dependent lung cancer development, and that disrupting IL-1/IL-1 receptor 1 signaling",
    "text_status": "ok"
   },
   {
-   "title": "“KT에 박영현 있다면 삼성엔 내가 있다” 지칠 줄 모르는 74G 좌완의 자신감…“수원 갈 일 없게 만들겠다” [KS]",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 11:01 KST",
-   "url": "https://biz.chosun.com/sports/baseball/2026/11/07/MJSWGNJYGU2GIOBVGBSTQNJWHE/",
-   "summary": "“KT 위즈에 박영현이 있다면 삼성에는 제가 있다”.쉴 새 없이 마운드에 오르지만 지친 기색은 찾아보기 어렵다. 오히려 공에 힘이 더 붙고 자신감도 커졌다. 프로야구 삼성 라이온즈의 좌완 이승민이 올가을 눈부신 투구를 이어가며 필승조의 핵심으로 자리 잡았다.이승민은 정규시즌 74경기에 등판해 68이닝을 소화했다. 가을야구에서도 단 한 경기를 제외하고 모두",
-   "text": "쉴 새 없이 마운드에 오르지만 지친 기색은 찾아보기 어렵다. 오히려 공에 힘이 더 붙고 자신감도 커졌다. 프로야구 삼성 라이온즈의 좌완 이승민이 올가을 눈부신 투구를 이어가며 필승조의 핵심으로 자리 잡았다.\n이승민은 정규시즌 74경기에 등판해 68이닝을 소화했다. 가을야구에서도 단 한 경기를 제외하고 모두 마운드에 올랐다. 연이은 등판으로 체력적인 부담이 클 법도 하지만 정작 본인은 걱정할 필요가 없다고 손사래를 쳤다.\n그는 “괜찮다. 체력적으로도 별문제가 없다. 오늘 던질 때도 확실히 힘이 잘 실리는 느낌이었다”며 “구속도 잘 나오고, 어쩌면 저는 많이 던져야 어깨가 풀리는 스타일인 것 같다”고 웃었다.\n계속된 호투는 자신감으로 이어졌다. 이승민은 “플레이오프부터 결과가 잘 나오면서 자신감이 붙었다. 어떤 상황에서든 제 공을 던지는 데 집중하면 막아낼 수 있다는 믿음이 생겼다”고 말했다.\n구위에 대한 만족감도 컸다. 그는 “실투가 나와도 상대 타자가 파울을 치는 경우가 있다. 그만큼 지금 공에 힘이 있다고 생각한다”며 “투구 밸런스도 정말 좋다. 좋은 감각을 유지하고 있을 때 계속 던지고 싶다”고 밝혔다.\n그러면서 “KT에 박영현이 있다면 삼성에는 제가 있다”고 너스레를 떨었다. 잦은 등판에도 흔들림 없는 자신감이 묻어나는 한마디였다.\n든든한 동료의 활약도 이승민에게 큰 힘이 되고 있다. 좌완 배찬승은 지난 4일 한국시리즈 2차전에서 1점 차 승리를 지켜내는 등 가을 무대에서 호투를 이어가고 있다.\n이승민은 “찬승이가 잘해주면서 제 부담도 조금은 줄었다. 기사에서 제가 고생을 많이 하고 있다고 이야기했던데 밥을 한 번 더 사야 할 것 같다”고 웃어 보였다.\n상대 중심타자를 만나도 물러서지 않는다. 리그 정상급 외국인 타자로 꼽히는 KT의 샘 힐리어드를 상대로도 자신 있게 승부하고 있다.\n그는 “힐리어드는 KIA의 해럴드 카스트로와 비슷한 유형이라고 생각한다. 맞더라도 홈런보다는 단타를 내준다는 생각으로 승부하는데 결과가 잘 나오고 있다”고 설명했다.\n재활 중인 동료 이호성을 향한 애정도 드러냈다. 이호성은 지난해 가을야구에서 인상적인 활약을 펼쳤지만 지난 3월 오른쪽 팔꿈치 인대접합 수술을 받은 뒤 복귀를 준비하고 있다.\n이승민은 “일본 오키나와 마무리 캠프에 가기 전에 호성이와 밥을 먹기로 했는데 시간이 맞지 않아 만나지 못했다. 하루빨리 돌아오기만을 기다리고 있다”고 말했다.\n삼성은 한국시리즈 3차전까지 2승 1패로 앞서 있다. 12년 만의 정상 탈환까지 남은 승리는 단 두 번. 이승민은 안방에서 우승을 확정하고 싶다는 바람을 숨기지 않았다.\n그는 “수원은 너무 멀다. 버스를 타고 이동하는 것도 힘들었다”며 “대구에서 바로 끝내고 편하게 쉬고 싶다. 수원 갈 일 없게 만들겠다”고 힘줘 말했다.\n정규시즌부터 가을야구까지 누구보다 바쁘게 마운드를 오르내린 이승민. 지칠 법도 하지만 더 던지고 싶다는 그의 시선은 오직 우승을 향해 있다.",
+   "title": "VGX-3100 Elicits Regression and Clearance in HPV-16/18–Associated Cervical HSILs",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-07 12:16 KST",
+   "url": "https://www.onclive.com/view/vgx-3100-elicits-regression-and-clearance-in-hpv-16-18-associated-cervical-hsils",
+   "summary": "VGX-3100 met its composite primary end point in the phase 3 HPV-303CHN trial, supporting a nonsurgical treatment approach for HPV-16/18–associated cervical HSIL.",
+   "text": "The investigational DNA immunotherapy VGX-3100 significantly improved rates of histologic regression with concurrent human papillomavirus (HPV)–16/18 clearance compared with placebo in patients with HPV-16/18–associated cervical high-grade squamous intraepithelial lesions (HSILs), according to findings from the phase 3 HPV-303CHN trial (ChiCTR2300071848) presented at the 2026 SITC Annual Meeting.1\nData demonstrated that at week 36, 52.5% of patients in the VGX-3100 arm (n = 139) achieved the composite primary end point of histologic regression with HPV-16/18 clearance vs 35.3% of those in the placebo arm (n = 68), translating to a between-group difference of 17.2% (95% CI, 2.7%-30.6%; P = .025). The secondary virologic end point of HPV-16/18 DNA negativity was met by 55.4% vs 38.2% of patients, respectively (difference, 17.2%; 95% CI, 2.6%-30.8%).\nSafety findings also showed agent was well tolerated, with no serious adverse effects (AEs) attributed to treatment.\n\"We believe that these findings support the opportunity for VGX-3100 as an extremely promising nonsurgical immunotherapy option, which avoids the requirement to remove tissue and/or to delay or prevent surgical excision entirely in eligible women with HPV-16/18–associated cervical HSILs,\" presenting author Jeffrey Skolnik, MD, senior vice president of clinical development at Inovio Pharmaceuticals, said in the presentation.\nCervical HSILs arise from persistent HPV-16/18 infection, and surgical excision, the current standard approach, removes the lesion without addressing the underlying virus and has been associated with adverse obstetric outcomes.\nVGX-3100 is a DNA immunotherapy targeting the E6 and E7 oncoproteins of HPV-16 and HPV-18. It is intended to elicit T-cell responses specific to these antigens, with t",
    "text_status": "ok"
   },
   {
-   "title": "아일릿, '체포하겠어'로 '뮤뱅' 1위...\"글릿 덕분에 소중한 1위\"",
-   "source": "머니투데이",
+   "title": "경남도·창원시, 전국 최초로 중국에 단감 수출",
+   "source": "연합뉴스 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 10:59 KST",
-   "url": "https://www.mt.co.kr/entertainment/2026/11/07/2026110710597255676",
-   "summary": "그룹 아일릿(ILLIT)이 컴백 후 첫 음악방송 1위에 올랐다. 아일릿은 지난 6일 방송된 KBS 2TV '뮤직뱅크'에서 미니 5집 'BREAK EVEN'의 타이틀곡 '체포하겠어'로 1위에 등극했다. 아일릿은 \"항상 저희 옆에서 고생해 주시는 소속사 식구들과 스태프분들께 진심으로 감사드린다\"라고 했다. 또한 \"앨범 준비하는 동안 큰 힘이 되어 준 모카에게도 고마운 마음을 전하고 싶다\"라면서 \"무엇보다 GLLIT(글릿.팬덤명) 덕분에 소중한 1위를 할 수 있었다고 생각한다. 앞으로도 글릿의 마음을 체포하기 위해 열심히 하겠다\"라고 소감을 전했다....",
-   "text": "아일릿은 지난 6일 방송된 KBS 2TV '뮤직뱅크'에서 미니 5집 'BREAK EVEN'의 타이틀곡 '체포하겠어'로 1위에 등극했다.\n아일릿은 \"항상 저희 옆에서 고생해 주시는 소속사 식구들과 스태프분들께 진심으로 감사드린다\"라고 했다.\n또한 \"앨범 준비하는 동안 큰 힘이 되어 준 모카에게도 고마운 마음을 전하고 싶다\"라면서 \"무엇보다 GLLIT(글릿.팬덤명) 덕분에 소중한 1위를 할 수 있었다고 생각한다. 앞으로도 글릿의 마음을 체포하기 위해 열심히 하겠다\"라고 소감을 전했다.\n아일릿은 '뮤직뱅크'에서 경쾌하고 에너제틱한 퍼포먼스로 흥을 돋웠다. 한결 여유로운 모습으로 무대에 오른 멤버들은 안정적인 라이브 실력은 물론, 리듬에 착 감기는 군무로 짜릿한 쾌감을 선사했다. 각양각색 스타일링도 돋보였다. 이들은 라이프가드, 치어리더, 스포츠 심판 등 호루라기를 떠올리게 하는 다양한 캐릭터로 변신해 보는 재미를 더했다.\n'체포하겠어'는 애플뮤직 '오늘의 톱 100: 대한민국' 5일 연속 정상(11월 5일 자)을 지켰다. 멜론 '톱 100'과 벅스, 지니 등 실시간 차트 상위권에도 안착했다.\n이와 함꼐 글로벌 차트에서의 활약도 눈에 띈다. '체포하겠어'는 발매 직후 스포티파이 '데일리 톱 송 글로벌'에 진입한 뒤 꾸준히 순위권에 이름 올렸고, 11월 7일 자 미국 빌보드 '글로벌 200', '글로벌 (미국 제외)'에도 들었다.",
+   "published": "2026-11-07 12:03 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261107029500052",
+   "summary": "(창원=연합뉴스) 이정훈 기자 = 경남도와 창원시는 전국에서 처음으로 단감을 중국에 수출했다고 7일 밝혔다.",
+   "text": "(창원=연합뉴스) 이정훈 기자 = 경남도와 창원시는 전국에서 처음으로 단감을 중국에 수출했다고 7일 밝혔다.\n동읍농협이 10t, 경남단감원예농협이 9.6t을 각각 중국에 처음으로 보냈다.\n도는 2008년 우리나라와 중국이 검역협상을 시작해 17년 만인 지난해 11월 협상을 최종 타결한 후 전국 지자체 중 최초로 중국에 단감을 수출한다고 강조했다.\n중국 검역당국이 현지 실사에 이어 지난달 말 수출검역을 승인하면서 경남 단감 수출길이 열렸다.\n도와 창원시는 12월 중국 상하이와 난징 유통매장에서 단감 홍보·판촉 행사를 함께 열어 경남 단감 우수성을 현지에 알린다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 12:03 송고 2026년11월07일 12시03분 송고",
    "text_status": "ok"
   },
   {
-   "title": "'라이어' 유연석, 서현진 향한 폭발 \"거짓말 좀 멈춰요\"",
-   "source": "머니투데이",
+   "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-07 12:00 KST",
+   "url": "https://www.hankyung.com/article/202611061657i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "송미령 장관, '푸드위크 코리아' 방문…\"K푸드 지속 성장 지원\"",
+   "source": "연합뉴스 경제",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-07 10:55 KST",
-   "url": "https://www.mt.co.kr/entertainment/2026/11/07/2026110710557225132",
-   "summary": "'라이어' 유연석의 감정이 크게 요동친다. MBC 금토드라마 '라이어' 제작진이 7일, 4회 방송을 앞두고 팽팽하게 부딪히는 민준호(유연석 분)와 강지선(서현진 분)의 모습을 공개했다. 엇갈린 주장을 이어가고 있는 민준호와 강지선이 얼마나 치열하게 부딪힐지 궁금증을 자아낸다. 공개된 첫 사진 속 민준호는 다친 채 병원에 온 아들 민현수(강지용 분)를 걱정하는 눈빛으로 보고 있다. 자신 때문에 아들이 싸움에 휘말리고 다치기까지 한 만큼 민준호의 분노가 커질 수밖에 없는 상황. '라이어' 제작진에 따르면 반복되는 상황에 화가 난 민준호가 강지선에게 전화를 걸어 \"제발 그 말도 안 되는 거짓말 좀 멈춰요\"라고 소리친다고. 민준호의 감정이 지금까지 보다 더 크게 요동칠 것으로 보인다....",
-   "text": "MBC 금토드라마 '라이어' 제작진이 7일, 4회 방송을 앞두고 팽팽하게 부딪히는 민준호(유연석 분)와 강지선(서현진 분)의 모습을 공개했다. 엇갈린 주장을 이어가고 있는 민준호와 강지선이 얼마나 치열하게 부딪힐지 궁금증을 자아낸다.\n공개된 첫 사진 속 민준호는 다친 채 병원에 온 아들 민현수(강지용 분)를 걱정하는 눈빛으로 보고 있다. 자신 때문에 아들이 싸움에 휘말리고 다치기까지 한 만큼 민준호의 분노가 커질 수밖에 없는 상황.\n'라이어' 제작진에 따르면 반복되는 상황에 화가 난 민준호가 강지선에게 전화를 걸어 \"제발 그 말도 안 되는 거짓말 좀 멈춰요\"라고 소리친다고. 민준호의 감정이 지금까지 보다 더 크게 요동칠 것으로 보인다.\n강지선 역시 사건과 관련된 악의적인 기사가 보도되면서 학교에서 교사로서 입지가 흔들렸다. 급기야 사건에 대해 직접적으로 묻는 아이들 앞에서 겁에 질린 채 뒷걸음질 쳐 학교에서 뛰쳐나오기까지 했다.\n사진 속 누군가와 통화 중인 강지선의 표정을 통해 그녀가 얼마나 처절한 심정인지 짐작케 한다.\n'라이어' 제작진은 \"각자 자신의 일상을 제자리로 되돌리고 싶은 두 사람이 사활을 걸고 부딪히는 장면이다\"라면서 \"그만큼 강력한 긴장감과 연기 시너지가 터질 것이다. 많은 관심과 기대 부탁드린다\"라고 전했다.\n한편, '라이어'는 1회에서 민준호와 강지선은 '완벽했던 첫 데이트'를 했지만 다음날 강지선이 민준호를 경찰에 신고했다. 이어 2회에서는 '그날 밤'에 대한 둘의 주장이 엇갈린 가운데 거짓말탐지기 조사 결과 강지선이 거짓말을 한 것으로 드러났다.\n3회에서는 지금껏 본 적 없는 민준호의 또 다른 얼굴이 포착됐다. 시청자는 둘 중 한쪽을 믿었다가 의심하고 또 그 의심이 흔들리는 경험을 하며 혼란에 빠져들고 있다. 4회에서는 어떤 전개가 펼쳐지게 될지 귀추가 주목되고 있다.",
+   "published": "2026-11-07 12:00 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261107027400030",
+   "summary": "(서울=연합뉴스) 한주홍 기자 = 송미령 농림축산식품부 장관은 7일 서울 강남구 코엑스에서 진행 중인 국내 최대 규모의 식품산업 박람회 '푸드위...",
+   "text": "(서울=연합뉴스) 한주홍 기자 = 송미령 농림축산식품부 장관은 7일 서울 강남구 코엑스에서 진행 중인 국내 최대 규모의 식품산업 박람회 '푸드위크 코리아 2026' 행사장을 방문했다.\n송 장관은 먼저 '삼성 스마트 공장 지원 사업관'에서 제조 공정 자동화와 로봇·데이터 인프라 구축 성과를 살펴봤다.\n이어 국가식품클러스터진흥원과 한국식품연구원 부스도 찾아 식품 기술 개발과 사업화 현황을 살폈다.\n또 지역 농산물 활용 제품을 만드는 청년 창업 기업들과 푸드테크 기업들도 만났다.\n아울러 전통 농식품을 현대적으로 재해석한 제품과 수출용 상품도 둘러봤다.\n(서울=연합뉴스) 강민지 기자 = 4일 서울 강남구 코엑스에서 국제 종합 식품 전시회 '2026 푸드위크 코리아'에 입장하기 위해 참관객들이 줄을 서 있다.2026.11.4 mjkang@yna.co.kr\n송 장관은 \"국산 농산물과 식품 기술을 결합한 고부가가치 제품 개발, 우리 기업의 세계 시장 진출, K-푸드의 지속 가능한 성장을 위해 정책적 지원을 아끼지 않겠다\"고 강조했다.\n지난 4일부터 이날까지 나흘간 '맛으로 잇는 세계, K-푸드로 통하다'를 주제로 열리는 이번 행사에는 46개국의 약 1천개 기업이 참가했다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 12:00 송고 2026년11월07일 12시00분 송고",
    "text_status": "ok"
   },
   {
-   "title": "'시즌 1G 최다 2볼넷→KS서 5볼넷' 소형준마저 무너졌다! 박영현 빼면 ERA 8.10, KT 선발은 얼마나 더 버텨야 하나 [KS4 현장]",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:43 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/07/2026110709521185042",
-   "summary": "큰 경기에 강했던 KT 위즈 소형준(25)마저 믿기 어려운 제구 난조에 빠졌다. 삼성 라이온즈의 강력한 타선과 타자 친화적인 대구삼성라이온즈파크, 무엇보다 좀처럼 믿음을 주지 못하는 불펜까지. KT 선발투수들이 짊어진 부담이 갈수록 커지고 있다. 소형준은 6일 대구삼성라이온즈파크에서 열린 2026 신한 SOL KBO 한국시리즈(7전 4선승제) 3차전에 선발 등판해 6이닝 3피안타 5볼넷 6탈삼진 4실점으로 패전투수가 됐다. KT는 삼성에 1-5로 패하며 시리즈 전적 1승 2패로 밀렸다. 평소 소형준과 전혀 다른 모습이었다. 올해 정규시즌 23경기에서 10승 3패 평균자책점 3.15를 기록한 소형준은 131⅓이닝 동안 볼넷을 고작 24개만 내줬다. 한 경기 최다 볼넷도 2개였다....",
-   "text": "큰 경기에 강했던 KT 위즈 소형준(25)마저 믿기 어려운 제구 난조에 빠졌다. 삼성 라이온즈의 강력한 타선과 타자 친화적인 대구삼성라이온즈파크, 무엇보다 좀처럼 믿음을 주지 못하는 불펜까지. KT 선발투수들이 짊어진 부담이 갈수록 커지고 있다.\n소형준은 6일 대구삼성라이온즈파크에서 열린 2026 신한 SOL KBO 한국시리즈(7전 4선승제) 3차전에 선발 등판해 6이닝 3피안타 5볼넷 6탈삼진 4실점으로 패전투수가 됐다. KT는 삼성에 1-5로 패하며 시리즈 전적 1승 2패로 밀렸다.\n평소 소형준과 전혀 다른 모습이었다. 올해 정규시즌 23경기에서 10승 3패 평균자책점 3.15를 기록한 소형준은 131⅓이닝 동안 볼넷을 고작 24개만 내줬다. 한 경기 최다 볼넷도 2개였다.\n더욱이 소형준은 가을야구에 유독 강했다. 2021년 한국시리즈에서 6이닝 무실점으로 KT의 창단 첫 우승에 기여했다. 이번 3차전 이전까지 포스트시즌 통산 8경기 3승 무패 1홀드 평균자책점 1.48을 기록한 '빅게임 피처'였다.\n그런 소형준이 1회말부터 볼넷 1개를 내주며 흔들렸다. 2회말에는 이재현과 류지혁에게 연속 볼넷을 허용했고, 김지찬까지 볼넷으로 내보내 만루 위기를 자초했다. 결국 구자욱에게 2타점 3루타를 얻어맞으면서 1-4로 끌려갔다. 2회에만 볼넷 3개를 허용한 것은 역대 한국시리즈 한 이닝 최다 볼넷 타이기록이었다.\n이강철(60) KT 감독도 경기 후 \"소형준이 그런 볼넷을 안 던지는 투수인데 1, 2회 밸런스가 무너지는 바람에 초반 싸움에서 진 것 같다\"고 아쉬워했다.\n그러나 소형준은 2회말 2사 이후부터 6회까지 13타자를 연속 범타로 처리했다. 제구를 되찾자 삼성 타자들도 좀처럼 공략하지 못했다. 이 감독은 \"소형준보다 더 좋은 투수가 없다고 판단해 일찍 교체할 생각은 하지 않았다\"고 설명했다.\n여기서 KT의 또 다른 고민이 드러난다. 소형준이 흔들렸음에도 쉽게 교체할 수 없는 마운드 사정이다. KT는 앞선 1차전에서 8-0으로 앞서다가 불펜이 무너지면서 8-7 진땀승을 거뒀다. 로건 앨런과 김정운, 오원석 등이 줄줄이 실점하면서 결국 8회초 1사 만루에서 마무리 박영현을 호출해야 했다.\n2차전에서도 마찬가지였다. 선발 고영표가 7이닝 1실점으로 호투했고, 박영현까지 1⅔이닝 무실점으로 버텼지만, 연장 10회 다시 실점했다. 12회에는 수비 실책까지 겹치며 2-3으로 패했다.\n두 경기에서 박영현은 3⅓이닝 무실점을 기록한 반면 나머지 구원진은 4⅔이닝 6실점(5자책점)을 기록했다. 3차전에서도 불안은 이어졌다. 손동현이 1이닝 무실점, 배제성이 ⅔이닝 무실점으로 버텼지만, 김정운은 ⅓이닝 1실점으로 다시 흔들렸다.\n3차전까지 박영현을 제외한 KT 불펜의 성적은 6⅔이닝 7실점(6자책점), 평균자책점 8.10이다. 박영현 혼자 10개의 아웃카운트를 책임지는 동안 나머지 구원진은 20개의 아웃카운트를 잡는 데 그쳤다.\n선발투수들에게 부담이 커질 수밖에 없는 구조다. 삼성은 김지찬과 김성윤, 구자욱, 최형우, 르윈 디아즈로 이어지는 강력한 타선을 갖췄다. 홈런이 많이 나오는 라이온즈파크에서는 실투 하나도 치명적이다.\n여기에 선발이 내려간 뒤 경기를 책임질 불펜마저 불안하다면 긴 이닝을 책임져야 한다는 부담도 커질 수 있다. 설상가상 주축 타자들이 줄부상을 당하면서 KT 선발 투수들은 더 많은 아웃카운트를 책임져야 하는 상황이 됐다.\nKT는 7일 오후 2시 같은 장소에서 열리는 4차전에 로건을 선발로 내세운다. 1차전에서 불펜으로 등판했다가 ⅓이닝 2실점으로 무너졌다 다시 선발로 돌아온 로건이 얼마나 긴 이닝을 책임지느냐에 따라 KT의 불펜 운용도 달라질 전망이다. 이 감독",
+   "title": "Researchers Identify Suspicious Activity on Kalshi and Polymarket Before Times/Siena Poll Release",
+   "source": "NYT Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-07 11:55 KST",
+   "url": "https://www.nytimes.com/2026/11/06/technology/kalshi-polymarket-nyt-siena-poll-bets.html",
+   "summary": "A trader placed well-timed bets on Polymarket and Kalshi in two Senate races. It was unclear if the person had access to inside information or simply made good trades.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "EVX-01 Plus Pembrolizumab Yields Neoantigen-Specific T-Cell Responses in Advanced Melanoma",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-07 11:38 KST",
+   "url": "https://www.onclive.com/view/evx-01-plus-pembrolizumab-elicits-neoantigen-specific-t-cell-responses-in-advanced-melanoma",
+   "summary": "EVX-01 plus pembrolizumab generated sustained neoantigen-specific T-cell responses in advanced melanoma.",
+   "text": "The personalized, artificial intelligence (AI)–designed peptide vaccine EVX-01 given with pembrolizumab (Keytruda) generated T-cell responses against patient-specific neoantigens and was associated with changes in circulating immune cell populations in patients with advanced melanoma, according to translational data from a phase 2 trial (NCT05309421).1 The immune findings accompanied durable clinical responses in a population made up predominantly of patients with stage IV disease.\nFindings presented at the 2026 SITC Annual Meeting showed that patients enrolled in the single-arm study (n = 16) achieved an objective response rate (ORR) of 75%, including complete responses in 25% and partial responses in 50%. One patient (6%) had stable disease, and 3 patients (19%) had progressive disease as their best response. Responses were assessed by RECIST 1.1 crtieria and confirmed on follow-up scans. Of the 118 vaccine neoantigens tested, 89% induced a T-cell response.\n\"We showed that EVX-01 induced sustained neoantigen T-cell responses with enrichment of effector memory T cells,\" presenting author Mads Lausen, PhD, a senior scientist at Evaxion, said in the presentation. \"Altogether, these data support the potential of EVX-01 as a cancer vaccine against advanced melanoma.\"\nEVX-01 is an individualized neoantigen vaccine composed of peptides, with the targets for each patient chosen by Evaxion's AI-Immunology platform.\nThe open-label, single-arm phase 2 trial enrolled patients with stage IV or unresectable stage III melanoma who had not previously received checkpoint inhibitor therapy.\nDuring vaccine production, patients received pembrolizumab at 400 mg intravenously every 6 weeks starting at week 0. Six EVX-01 priming doses were administered every 2 weeks from week 12 through wee",
    "text_status": "ok"
   },
   {
-   "title": "IDP-023 Plus Isatuximab Elicits Responses in Daratumumab-Refractory Multiple Myeloma",
+   "title": "Inside the card-grading empire shaping the price of Pokémon cards",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-07 11:00 KST",
+   "url": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
+   "summary": "PSA’s resale premium, backlog and grading-market dominance shape what collectors pay — and how much their Pokémon cards may fetch.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "IDP-023 Plus Isatuximab Drives Responses in Daratumumab-Refractory Multiple Myeloma",
    "source": "OncLive",
    "lang": "en",
    "section": "bio",
@@ -527,18 +813,7 @@
    "published": "2026-11-07 10:40 KST",
    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
    "summary": "The deal highlights the challenges of developing massive AI data centers.",
-   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now.\nFounder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE.\nCrusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the development after reportedly raising concerns about its cost and construction timeline under Crusoe’s management.\nCrusoe initially announced the project last year with Blackstone-backed infrastructure company Tallgrass, planning to eventually scale it to 10 gigawatts of power capacity.\nGoogle did not disclose how much it paid Crusoe for the unfinished project, bu it announced plans to invest $17 billion to develop the data center campus.\nThe deal highlights how difficult it can be for independent data center developers to deliver massive projects on time and within budget, given the challenges of securing equipment and power. Growing opposition from local communities can further complicate development.\nDespite taking over the Wyoming facility, Google hasn’t walked away from working with Crusoe entirely. Crusoe is developing another data center for Google near Amarillo, Texas.\nThe deal to sell the site to Google was first reported by Bloomberg in June, but the Wyoming setback didn’t stop Crusoe from raising a $3.9 billion round in September.\nCrusoe makes money by leasing data center space to customers that bring their own GPUs, by renting out its own GPUs, and by selling compute power used to run AI models, known as inference.\nCrusoe’s largest projects serve some of the biggest names in AI. Its campus in Abilen",
-   "text_status": "ok"
-  },
-  {
-   "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:30 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261107025000011",
-   "summary": "[연합뉴스 이 시각 헤드라인] - 10:30",
-   "text": "금융권에서 연쇄 해킹 사고가 잇따르는 가운데 미래에셋증권에서도 해킹으로 인한 정보 유출이 발생했다. 최근 금융권을 상대로 한 잇단 해킹과 이에 대한 대책 발표에도 불구하고 국내 최대 증권사인 미래에셋증권에서도 해킹 피해가 발생해 추가 해킹에 대한 우려가 가라앉지 않고 있다. 미래에셋증권은 지난 4일과 5일 모바일웹 휴대폰 인증 로그인 서비스와 그룹웨어(mi-global)를 겨냥한 외부의 공격이 하루 간격으로 발생했다고 7일 밝혔다.\n전문보기: https://www.yna.co.kr/view/AKR20261107014452008\n도널드 트럼프 미국 대통령이 11·3 중간선거에서 공화당이 참패한 지 사흘 만인 6일(현지시간) 백악관 비서실장을 수지 와일스에서 스티븐 밀러(41) 부비서실장으로 교체한다고 발표했다. 이를 신호탄으로 중간선거 패배 이후 백악관과 행정부 전반의 인적 개편이 본격화할지 주목된다. 트럼프 대통령은 이날 소셜미디어 트루스소셜을 통해 오는 9일부터 밀러 부비서실장이 백악관 비서실장을 맡게 된다고 밝혔다.\n전문보기: https://www.yna.co.kr/view/AKR20261107005052071\n미국 애리조나주(州)에서 60년 만에 처음으로 민주당이 주지사 선거 승리는 물론 주 상·하원까지 모두 장악하는 일이 벌어졌다. AP통신과 폭스뉴스 등은 6일(현지시간) 애리조나에서 1966년 이후 처음으로 민주당이 주지사와 주 상·하원을 싹쓸이하는 '트라이펙타'(Trifecta·3관왕)를 달성했다고 보도했다. 우선 민주당 소속 케이티 홉스 주지사가 재선에 성공했고, 주 상원 선거에서는 민주당이 17석을 가져가 과반을 넘겼다. 공화당은 10석을 지켰고 3석은 아직 결정되지 않았다. 민주당이 애리조나 상원의 다수당이 된 것은 1990년대 초 이후 처음이다.\n전문보기: https://www.yna.co.kr/view/AKR20261107014600075\n미국 중간선거에서 승리한 민주당이 인공지능(AI) 데이터센터에 대한 규제를 강화할 것이라는 전망이 나오면서 최대 100억달러 규모의 원전 투자 선급금 지급 문제가 도마 위에 올랐다. 전기를 대량으로 쓸 AI 데이터센터 건설에 제동이 걸리면 미국 내 원전 사업의 수익성 확보도 불투명해지는 만큼, 거액의 자금부터 먼저 집행하는 것이 적절한지를 놓고 우려의 목소리가 나오고 있다. 7일 관계 당국에 따르면 100억달러 규모의 원전 투자 선급금은 설계에서 제작, 납품까지 수년이 걸리는 원전 핵심 설비인 장주기 품목(Long Lead Items)을 사전에 확보하기 위한 자금이다.\n전문보기: https://www.yna.co.kr/view/AKR20261106181900003\n이달 19일 치러지는 2027학년도 대학수학능력시험을 앞두고 인공지능(AI) 기능이 탑재된 스마트안경이 감독관과 수험생 모두에게 부담이 되고 있다. 감독관으로 나서는 교사들은 기기 식별과 확인 과정에서 발생할 수 있는 민원을 걱정하고, 일부 수험생은 불필요한 의심을 피하려고 평소 쓰던 안경 대신 콘택트렌즈를 준비하고 있다. 교육 당국은 시험장마다 스마트안경 판별을 전담할 요원을 배치하기로 했지만, 현장에선 기기 식별과 부정행위 대응 부담이 여전할 것이라는 우려가 나온다.\n전문보기: https://www.yna.co.kr/view/AKR20261106116500061\n미국이 이란에 대한 군사작전을 재개할 가능성이 거론되는 가운데 도널드 트럼프 미국 대통령이 6일(현지시간) 이란과 대화하고 있다고 밝혔다. 트럼프 대통령은 이날 백악관에서 기자들과 만나 \"우리는 이란과 매우 잘하고 있다. 이란과 대화하고 있으며, 계속 대화해왔다\"고 말했다고 로이터 통신 ",
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now.\nFounder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE.\nCrusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the development after reportedly raising concerns about its cost and construction timeline under Crusoe’s management.\nCrusoe initially announced the project last year with Blackstone-backed infrastructure company Tallgrass, planning to eventually scale it to 10 gigawatts of power capacity.\nGoogle did not disclose how much it paid Crusoe for the unfinished project, but it announced plans to invest $17 billion to develop the data center campus.\nThe deal highlights how difficult it can be for independent data center developers to deliver massive projects on time and within budget, given the challenges of securing equipment and power. Growing opposition from local communities can further complicate development.\nDespite taking over the Wyoming facility, Google hasn’t walked away from working with Crusoe entirely. Crusoe is developing another data center for Google near Amarillo, Texas.\nThe deal to sell the site to Google was first reported by Bloomberg in June, but the Wyoming setback didn’t stop Crusoe from raising a $3.9 billion round in September.\nCrusoe makes money by leasing data center space to customers that bring their own GPUs, by renting out its own GPUs, and by selling compute power used to run AI models, known as inference.\nCrusoe’s largest projects serve some of the biggest names in AI. Its campus in Abile",
    "text_status": "ok"
   },
   {
@@ -553,28 +828,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "토스, 여성공학인 성장지원 우수기업 산업통상부 장관상",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:25 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261107024700017",
-   "summary": "(서울=연합뉴스) 한상용 기자 = 토스 운영사 비바리퍼블리카는 '2026 산업현장 여성공학인대회'에서 여성공학인 성장지원 우수기관·기업 부문 산...",
-   "text": "(서울=연합뉴스) 한상용 기자 = 토스 운영사 비바리퍼블리카는 '2026 산업현장 여성공학인대회'에서 여성공학인 성장지원 우수기관·기업 부문 산업통상부 장관상을 받았다고 7일 밝혔다.\n토스는 여성 기술인력 채용 확대와 경력 개발, 경력단절 예방을 위한 지원 제도 운영 성과를 인정받았다고 설명했다.\n토스의 여성 기술인력은 2024년 90명에서 올해 201명으로 약 2.2배로 늘었다.\n같은 기간 기술직군 내 여성 비율은 18.1%에서 21.8%로, 신규 채용 인력 중 여성 비율은 10.3%에서 22.0%로 높아졌다.\n토스는 일·가정 양립을 지원하기 위해 2024년부터 전국 24개 거점에서 이용할 수 있는 '우리동네 토스 어린이집'을 운영하고 있다.\n올해 3월에는 서울 강남구 역삼동 사옥 인근에 직영 '토스 이음 어린이집'도 열었다.\n토스는 출산·육아휴직 이후 업무 복귀를 돕는 '리보딩' 제도를 운영하기도 한다.\n정희연 토스 최고인사책임자(CHRO)는 \"누구나 전문성을 바탕으로 성장하고 리더십을 발휘할 수 있는 조직문화를 만들어 나가겠다\"고 말했다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 10:25 송고 2026년11월07일 10시25분 송고",
-   "text_status": "ok"
-  },
-  {
-   "title": "태백시, 공공이불빨래방 3호점 추진…취약계층 돌봄 확대",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:10 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261106140000062",
-   "summary": "(태백=연합뉴스) 이상학 기자 = 강원 태백시가 취약계층의 생활 편의를 높이고 노인일자리를 확대하기 위해 공공이불빨래방 3호점 조성에 나선다.",
-   "text": "(태백=연합뉴스) 이상학 기자 = 강원 태백시가 취약계층의 생활 편의를 높이고 노인일자리를 확대하기 위해 공공이불빨래방 3호점 조성에 나선다.\n태백시는 소도동 옛 태백농특산물직판장을 활용해 공공이불빨래방 3호점을 조성할 계획이라고 7일 밝혔다.\n현재 설계비 5천500만원을 투입해 설계를 진행하고 있으며, 2027년 설계를 마무리한 뒤 본격적인 공사에 들어갈 예정이다.\n공공이불빨래방은 거동이 불편한 어르신과 장애인 등 취약계층을 대상으로 이불 수거부터 세탁·건조·배달까지 지원하는 생활밀착형 복지사업이다.\n노인일자리 사업과 연계해 어르신들에게 일자리와 사회참여 기회도 제공하고 있다.\n태백시는 2022년 7월 장성권역에 1호점인 '보드미 빨래방'을 개소한 데 이어 지난해 9월 옛 화전파출소를 활용한 2호점 '포그니 빨래방'을 개소했다.\n올해 1월부터 10월까지 1·2호점 이용 실적은 2천867가구, 세탁한 이불은 1만3천137채에 달한다.\n이들 빨래방은 세탁 서비스와 함께 이용자의 안부를 확인하고 생활실태를 점검하는 돌봄 기능도 수행하고 있다.\n지난 9∼10월 1호점 이용자 60명과 노인일자리 참여자 28명을 대상으로 실시한 만족도 조사에서는 응답자 전원이 서비스와 근무환경에 만족한다고 답했다.\n태백시는 3호점이 조성되면 지역 내 8개 동을 3개 권역으로 나눠 서비스를 제공할 계획이다.\n1호점은 장성·철암·구문소동, 2호점은 황지·황연·삼수동, 3호점은 문곡소도·상장동을 각각 담당하게 된다.\n태백시 관계자는 \"공공이불빨래방은 취약계층의 생활 부담을 덜고 어르신들에게 일자리를 제공하는 복지사업\"이라며 \"3호점 조성을 차질 없이 추진해 체감할 수 있는 복지서비스를 확대하겠다\"고 말했다.\n**[사진 설명]** 태백시가 운영 중인 공공이불빨래방에서 이불 세탁 작업이 이뤄지고 있다. [태백시 제공. 재판매 및 DB 금지]\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 10:10 송고 2026년11월07일 10시10분 송고",
-   "text_status": "ok"
-  },
-  {
    "title": "메스 대신 칩 든 의사들, 살아있는 뇌세포로 컴퓨터 돌린다 [김인엽의 AI프런티어]",
    "source": "한국경제 IT",
    "lang": "ko",
@@ -586,29 +839,7 @@
    "text_status": "ok"
   },
   {
-   "title": "[바이오사이언스] 신약 경쟁 치열한데…정부 R&D 투자 2년째 감소",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261106161400017",
-   "summary": "(서울=연합뉴스) 박상현 기자 = 정부의 신약 관련 연구개발(R&D) 투자액이 2022년 정점을 찍은 뒤 2년 연속 감소한 것으로 나타났...",
-   "text": "(서울=연합뉴스) 박상현 기자 = 정부의 신약 관련 연구개발(R&D) 투자액이 2022년 정점을 찍은 뒤 2년 연속 감소한 것으로 나타났다.\n미국과 중국 등이 첨단 신약 개발을 위해 치열한 경쟁을 벌이는 상황에서 한국 바이오의 생존을 위해 투자를 체계적으로 늘려야 한다는 목소리가 나온다.\n7일 제약·바이오 업계에 따르면 한국과학기술기획평가원(KISTEP)은 최근 발간한 '2024년 신약 개발 정부 R&D 투자 포트폴리오 분석'에서 2024년 정부의 신약 개발 연구 투자비가 5천433억원으로 집계됐다고 밝혔다.\n정부의 신약 개발 투자비는 2014년 2천805억원에서 꾸준히 올라 2022년 6천219억원을 기록했다. 8년 만에 122% 증가한 것이다.\n하지만 신약 개발 투자비는 2023년 5천985억원으로 하락한 데 이어 2024년에는 5천433억원으로 더 줄어들었다.\n2015년부터 2024년까지 10년간 정부 연구개발 예산 중 신약 개발 투자는 총 4조4천745억원으로 집계됐다.\n2024년 신약 관련 연구개발 투자를 분야별로 보면 인프라가 1천834억원(33.8%)으로 가장 많았다.\n이어 후보물질 도출·최적화 1천368억원(25.2%), 비임상 1천93억원(20.1%), 임상 544억원(10.0%), 타깃 발굴·검증 244억원(4.5%) 순이었다.\n신약 관련 연구개발 투자비가 가장 많았던 2022년과 비교하면 인프라 투자와 비임상 분야는 큰 차이가 없었으나, 후보물질 도출·최적화와 임상 분야는 줄었다.\n2022년 당시 후보물질 도출·최적화 투자는 1천722억원, 임상 투자는 791억원이었다.\n임상 투자의 경우 2024년에는 임상 1상이 67.9%를 차지했고 임상 3상은 2.5%에 불과했다. 2023년에도 임상 1상 투자가 66.3%이고 임상 3상은 2.5%였다.\n반면 2022년에는 임상 1상 38.7%, 임상 2상 35.3%, 임상 3상 26.0%로 차이가 작았다.\n2024년 질환별 투자 금액은 감염증(1천9억원), 종양 질환(991억원), 퇴행성 뇌질환(376억원) 순으로 많았다. 2022년에도 순위는 같았으나, 감염증(2천25억원) 분야 쏠림이 두드러졌다.\n보고서 저자인 홍기현·정봉진 부연구위원은 이번 보고서에서 신약 관련 연구개발 투자 감소 이유에 대해 특별히 언급하지 않았다.\n이들은 다만 \"신약 개발은 오랜 시간이 소요되고 실패 위험이 높으며, 대상 질환과 의약품 종류도 다양해 전략적·효율적으로 투자할 필요가 있다\"고 제언했다.\n이승규 한국바이오협회 부회장은 \"역대 정부가 바이오 분야를 육성한다고 했지만, 투자의 온기를 체감하지 못하는 업체가 많다\"며 \"바이오 생태계 전반을 튼튼하게 할 수 있는 다양한 기금을 조성해 창업부터 체계적으로 지원해야 한다\"고 말했다.\n이어 임상 3상보다는 1상과 2상 등 신약 개발의 초기 단계에 투자해야 실력 있는 바이오 기업이 늘어날 것이라고 덧붙였다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 10:00 송고 2026년11월07일 10시00분 송고",
-   "text_status": "ok"
-  },
-  {
-   "title": "성남시, 내년 장애인 252명에 공공일자리 제공",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 10:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261106164400061",
-   "summary": "(성남=연합뉴스) 이우성 기자 = 경기 성남시는 내년 장애인 공공일자리 사업에 39억원을 투입해 252명에게 일자리를 제공한다고 7일 밝혔다.",
-   "text": "(성남=연합뉴스) 이우성 기자 = 경기 성남시는 내년 장애인 공공일자리 사업에 39억원을 투입해 252명에게 일자리를 제공한다고 7일 밝혔다.\n사업은 일반형 전일제(주 40시간·월 223만6천300원) 72명, 시간제(주 20시간·월 112만3천500원) 31명, 복지형(주 14시간·월 59만9천200원) 149명 등 3개 유형으로 나눠 시행한다.\n선발된 인원은 내년 1월부터 1년간 시·구청과 동 행정복지센터, 도서관 등에서 행정·사서 보조, 장애인전용주차구역 단속 보조, 환경도우미 등으로 근무한다.\n일반형(전일제·시간제) 사업 참여 희망자는 9∼13일 거주지 동 행정복지센터에서, 복지형은 23∼27일 민간 위탁 수행기관에서 신청하면 된다.\n제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포, AI 학습 및 활용 금지> 2026/11/07 10:00 송고 2026년11월07일 10시00분 송고",
-   "text_status": "ok"
-  },
-  {
-   "title": "\"사지마\" 말리는데도 산다…요즘 SNS 뒤집어놓은 '이 가게' [권용훈의 트렌드워치]",
+   "title": "\"사지 마\" 말리는데도 산다…요즘 SNS 뒤집어놓은 '이 가게' [권용훈의 트렌드워치]",
    "source": "한국경제 경제",
    "lang": "ko",
    "section": "korea",
@@ -641,39 +872,6 @@
    "text_status": "short"
   },
   {
-   "title": "기술주 운명, 다음 주에 달렸다 ⑴ 코어위브 실적 ⑵ 앤트로픽 IPO [김현석의 월스트리트나우]",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-07 09:13 KST",
-   "url": "https://www.hankyung.com/article/202611071912i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "세금 면제에 5년 비자까지…금융패권 다투는 홍콩·싱가포르 [차이나 워치]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 09:05 KST",
-   "url": "https://www.hankyung.com/article/202611061835i",
-   "summary": "",
-   "text": "\"AI, 너마저 속다니\"…추천 결과까지 조작한 기막힌 수법 [차이나 워치]\n중국에서 인공지능(AI)에 허위 정보를 대량으로 유포해 특정 기업이나 제품을 추천하도록 유도하는 신종 마케팅이 확산하고 있다.존재하지 않는 제품을 AI가 추천하거나 조작된 기업 평가가 검색 결과에 반영되는 사례까지 ...\n中 국유기업도 부채 위기…4130억위안 빚에 채권시장 출렁 [차이나 워치]\n중국의 부동산 침체가 지방 국유기업의 신용위기로 번지면서 채권시장이 크게 흔들리고 있다. 광둥성 주하이시 최대 국유기업인 주하이화파그룹의 대규모 부채와 유동성 문제가 불거지자 투자자들이 채권 매도에 나서면서다.헝다그...\n\"트럼프 졌대\" 中서 조롱 봇물…7000만뷰 터졌지만 속내는 복잡 [차이나 워치]\n미국 중간선거에서 공화당이 참패하면서 미·중 관계를 지탱해온 외교적 균형에도 변화가 예상된다. 중국은 도널드 트럼프 미국 대통령의 정치적 영향력 약화를 반기면서도 미국 의회의 대중 강경 노선이 강화될 가...",
-   "text_status": "ok"
-  },
-  {
-   "title": "매장 3만개 밍밍헌망, 왜 잘나가던 PB를 줄였나",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 09:00 KST",
-   "url": "https://www.hankyung.com/article/202610031795i",
-   "summary": "",
-   "text": "중국 대형 간식 전문 유통업체 밍밍헌망이 자체브랜드(PB) 전략을 축소하는 대신, 대규모 구매력을 활용한 규격 차별화 상품 조달과 콜드체인 물류 인프라 구축에 투자를 집중하며 독자적인 성장 노선을 구축하고 있습니다.\n한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다.\n더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요.\n본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다.",
-   "text_status": "ok"
-  },
-  {
    "title": "\"일본어로 글 배워야 했는데\"…'또 하나의 한글' 몰랐던 사실 [홍민성의 테토남]",
    "source": "한국경제 IT",
    "lang": "ko",
@@ -682,28 +880,6 @@
    "url": "https://www.hankyung.com/article/202611060613g",
    "summary": "",
    "text": "오세훈 무죄에 최민희 \"AI 판사 도입하자\"…당장 어려운 이유 3가지 [홍민성의 테토남]\n최민희 더불어민주당 최고위원이 지난 26일 \"특히 정치적인 사건부터 AI 판사를 도입하자\"고 제안했습니다. 오세훈 서울시장의 정치자금법 위반 사건 항소심 무죄 판결을 비판하며 관련 법안을 준비하겠다고 밝혔는데요. 방...\n대통령도 물어봤다는데…\"네 말이 맞아\" 간신 진화한 AI 경고 [홍민성의 테토남]\n\"제미나이에게 물어봤습니다.\" 이재명 대통령이 지난 21일 수사기관장의 국무회의 배석 문제를 놓고 구글의 인공지능(AI) 답변을 공유했습니다. 그러자 보수 정치권에서도 제미나이의 답변을 공개하며 일제히 반박에 나섰고...\n\"비싸도 좋으니 물량만 달라\"…거품 경고에도 삼전닉스 '반전' [홍민성의 테토남]\n요즘 인공지능(AI)에 너무 많은 돈이 몰린다는 걱정이 담긴 뉴스가 많죠. 데이터센터를 짓고 반도체를 사들이는 데 쓴 돈을 제대로 회수할 수 있겠느냐는 것이죠. 그런데 삼성전자와 SK하이닉스는 오히려 공장 짓는 속도...",
-   "text_status": "ok"
-  },
-  {
-   "title": "바이낸스 해킹은 비트코인 해킹이 아니다 [김민승의 ₿피셜]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 09:00 KST",
-   "url": "https://www.hankyung.com/article/202611069859i",
-   "summary": "",
-   "text": "바이낸스 해킹 사건은 블록체인 기술 자체의 결함이 아닌 사회공학적 기법을 통한 기업 보안망 돌파 사례로, 코인에 대한 편견에서 벗어나 고도화되는 위협에 맞서 전 세계 정보 및 금융 시스템 전반의 보안 방어를 강화해야 한다는 교훈을 줍니다.\n한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다.\n더 궁금한 점이 있으신가요? 읽으면서 머릿속에 맴돌던 질문들, 앨리스가 대답해 드릴게요.\n본 서비스의 AI가 제공하는 종목 정보는 정보 제공 목적의 참고 자료일 뿐, 투자 권유·자문·추천에 해당하지 않습니다. 투자에 따른 손실 책임은 사용자에게 있습니다.",
-   "text_status": "ok"
-  },
-  {
-   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-   "source": "The Verge AI",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-07 08:46 KST",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-   "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
-   "text": "CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿\nCEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿\nOpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.\nEchoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects.\nOpenAI’s rival Anthropic filed its S-1 to go public last week. Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety. He didn’t give a specific timeline for the IPO, but said at the time, “I think it’s also kind of bad for the world if OpenAI waits too long to go public.”",
    "text_status": "ok"
   },
   {
@@ -716,28 +892,6 @@
    "summary": "CoreWeave and Nebius earnings, alongside key inflation reports that could shape the Fed's next interest rate decision, are the focus.",
    "text": "CNBC's Jim Cramer on Friday said that next week's earnings from leading neoclouds could test investor confidence in the battered data center trade.\nStocks rebounded to end a turbulent election week, which saw investors dumping companies tied to the artificial intelligence infrastructure build-out after Democrats flipped the House and Senate and some key gubernatorial seats. Following the worst day on Wall Street in 19 months, Friday's gains were welcome but not to be trusted. Cramer remained skeptical of any recovery, as he also had been about what proved to be Wednesday's short-lived midterm rally.\nCramer argued that concerns about data center spending and financing have yet to be resolved. \"It felt like a dead cat bounce,\" the \"Mad Money\" host said, referring to Friday's largely positive market. \"I know we are never going to get an all clear. But it still feels like there are plenty of sellers lurking, just waiting for stocks to make a bigger recovery so they can get out.\"\nWith that backdrop, Cramer turned to the week ahead.\nConstellation Energy reports before the bell, offering an early look at how political uncertainty could affect the power infrastructure supporting AI data centers.\nOn Holding reports earnings, but Cramer remains cautious on the athletic footwear. He said the industry feels increasingly crowded. \"I am going to pass on this one,\" he said.\nThe consumer price index also arrives Tuesday morning, with Cramer looking for a meaningful slowdown in inflation. He warned that persistently high prices could prompt Federal Reserve Chairman Kevin Warsh to raise interest rates again. The Fed hiked rates in September for the first time in three years.\nAfter the close, neocloud CoreWeave reports in what could be one of the week's most consequential earnings release",
    "text_status": "ok"
-  },
-  {
-   "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-   "source": "The Verge AI",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-07 08:00 KST",
-   "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-   "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
-   "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nNvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips.\nChina’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says.\nLast week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new.\nThe NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang, was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang.",
-   "text_status": "ok"
-  },
-  {
-   "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 07:53 KST",
-   "url": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
-   "summary": "Washington says Beijing is not fulfilling commitments to increase supply of rare earths and other critical products",
-   "text": "",
-   "text_status": "not_fetched"
   },
   {
    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
@@ -795,17 +949,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "폭락했던 AI 기술주 반등…나스닥 1.1% ↑ [뉴욕증시 브리핑]",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-07 07:25 KST",
-   "url": "https://www.hankyung.com/article/2026110719317",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
    "source": "CNBC top news",
    "lang": "en",
@@ -813,72 +956,6 @@
    "published": "2026-11-07 07:22 KST",
    "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
    "summary": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "대형주 중 올해 낙폭 큰 상위 50위 리스트 따져보니",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-07 07:20 KST",
-   "url": "https://www.hankyung.com/article/202611061208i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Dr Lee on Polatuzumab Vedotin/Glofitamab and CD19 CAR T-Cell Therapy in Pediatric Refractory Burkitt Lymphoma",
-   "source": "OncLive",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-07 07:16 KST",
-   "url": "https://www.onclive.com/view/dr-lee-on-polatuzumab-vedotin-glofitamab-and-cd19-car-t-cell-therapy-in-pediatric-refractory-burkitt-lymphoma",
-   "summary": "Daniel W. Lee, III, MD, discusses a case study of polatuzumab vedotin/glofitamab and CD19 CAR T-cell therapy in a child with refractory Burkitt lymphoma.",
-   "text": "Daniel W. Lee, III, MD, discusses a case study of polatuzumab vedotin/glofitamab and CD19 CAR T-cell therapy in a child with refractory Burkitt lymphoma.\nDaniel W. Lee, III, MD, an associate professor of pediatrics in the Division of Pediatric Hematology/Oncology at the University of Virginia School of Medicine, a member of the UVA Comprehensive Cancer Center, and director of pediatric hematopoietic stem cell transplantation and immunotherapy at UVA Health Children’s in Charlottesville, discussed a first-in-child case in which polatuzumab vedotin-piiq (Polivy) plus glofitamab-gxbm (Columvi), then modulated CD19-directed CAR T-cell therapy, induced remission in a child with primary refractory Burkitt lymphoma. The case was presented at the 2026 SITC Annual Meeting.\nThe patient, a 7-year-old male with stage IV Burkitt leukemia/lymphoma with a large abdominal mass and 97% bone marrow involvement, was refractory to 4 cycles of rituximab (Rituxan) plus chemotherapy. While he recovered from surgical debulking, the team collected and stored his peripheral blood mononuclear cells via apheresis, a fortuitous decision because the aggressiveness of Burkitt lymphoma leaves little opportunity to pause chemotherapy to collect T cells, Lee explained.\nThe investigators then developed pediatric dosing for polatuzumab vedotin and glofitamab, Lee said, following a New England Journal of Medicine publication that showed 3 adults with relapsed/refractory Burkitt leukemia/lymphoma achieved a complete metabolic response with the combination. The pediatric patient achieved a complete metabolic response after the third cycle, with no cytokine release syndrome (CRS) or immune effector cell–associated neurotoxicity syndrome (ICANS), Lee explained.\nThe patient later relapsed with CD20-negative dis",
-   "text_status": "ok"
-  },
-  {
-   "title": "US economy outstrips forecasts to add 165,000 jobs in October",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 07:16 KST",
-   "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-   "summary": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "PSMA Radioligand Therapy Spans Metastatic Prostate Cancer as Next-Generation Theranostics Emerge",
-   "source": "OncLive",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-07 07:15 KST",
-   "url": "https://www.onclive.com/view/psma-radioligand-therapy-spans-metastatic-prostate-cancer-as-next-generation-theranostics-emerge",
-   "summary": "David VanderWeele, MD, PhD, reviews where lutetium Lu 177 vipivotide tetraxetan fits across metastatic prostate cancer, how to select and manage patients, and the new radionuclides, targeting molecules, and antigens under investigation.",
-   "text": "Prostate-specific membrane antigen (PSMA)–targeted radioligand therapy is now available across the spectrum of metastatic prostate cancer, with a survival benefit established in late-line disease, high patient enthusiasm, and generally good tolerability, while new schedules, clinical settings, antigen targets, and radiopharmaceutical payloads continue to emerge, according to David VanderWeele, MD, PhD.1\n“There’s a lot of enthusiasm…for this therapy, and that’s because most patients tolerate it very well,” VanderWeele said during a presentation at the 2026 LUGPA Annual Meeting.\nVanderWeele, an associate professor of medicine at Northwestern University Feinberg School of Medicine in Chicago, Illinois, focused on lutetium Lu 177 vipivotide tetraxetan (Pluvicto), using the term LuPSMA for PSMA-targeting, lutetium-based radioligand therapy. He used the Prostate Cancer Working Group 4 terminology, in which androgen pathway modulation (APM)–sensitive and APM-resistant disease replace the terms castration-sensitive and castration-resistant.\nVanderWeele opened with the case of a 90-year-old patient with heart failure who had lived with prostate cancer for 6 years and APM-resistant disease for 2 years, with progression on multiple lines of androgen receptor–directed therapy. Screening PSMA PET showed highly avid disease, with a maximum standardized uptake value (SUVmax) of 101 in nodal disease and 61.6 in bone. After 4 cycles of LuPSMA, his prostate-specific antigen (PSA) level fell from 107 ng/mL to undetectable levels, and repeat PET imaging showed a complete response; the PSA remained below 0.01 ng/mL at month 15 on surveillance. “This is really why there is so much enthusiasm,” he said.\nLuPSMA is a beta-emitting therapy that requires radiation precautions and is generally giv",
-   "text_status": "ok"
-  },
-  {
-   "title": "Trump taps immigration hardliner Stephen Miller as chief of staff",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 07:09 KST",
-   "url": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
-   "summary": "Decision to replace Susie Wiles comes days after Republican Party’s resounding midterm election defeat",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"삼전닉스 믿고 버텼는데\"…증권가가 내놓은 뜻밖의 조언 [종목+]",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-07 07:09 KST",
-   "url": "https://www.hankyung.com/article/2026110610246",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -901,17 +978,6 @@
    "published": "2026-11-07 07:03 KST",
    "url": "https://www.nytimes.com/2026/11/06/us/politics/susie-wiles-calley-means-joe-rogan.html",
    "summary": "In a no-holds-barred interview with Joe Rogan, Calley Means, a former top health adviser, accused Susie Wiles of repeatedly bowing to lobbying pressures and fixating on campaign contributions.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 07:00 KST",
-   "url": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-   "summary": "Magnitude of rebound was feeble compared with historic recoveries from severe sell-offs",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1004,17 +1070,6 @@
    "text_status": "ok"
   },
   {
-   "title": "Sen. Chris Murphy released from hospital after stroke, will miss votes for 'several weeks' as he rehabs",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-07 06:40 KST",
-   "url": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html",
-   "summary": "The Connecticut Democrat Murphy has been discussed as a possible candidate for the White House in 2028.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
    "source": "MarketWatch top stories",
    "lang": "en",
@@ -1024,17 +1079,6 @@
    "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
    "text": "",
    "text_status": "not_fetched"
-  },
-  {
-   "title": "Updated CAPItello-281 Data Support OS Advantage With Capivasertib in PTEN-Deficient mHSPC",
-   "source": "OncLive",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-07 06:32 KST",
-   "url": "https://www.onclive.com/view/updated-capitello-281-data-support-os-advantage-with-capivasertib-in-pten-deficient-mhspc",
-   "summary": "Longer follow-up of CAPItello-281 showed capivasertib plus abiraterone extended survival in PTEN-deficient hormone-sensitive prostate cancer.",
-   "text": "The addition of capivasertib (Truqap) to abiraterone acetate (Zytiga) and androgen deprivation therapy (ADT) continued to show an overall survival (OS) advantage vs placebo plus abiraterone and ADT with longer follow-up in patients with PTEN-deficient de novo metastatic hormone-sensitive prostate cancer (mHSPC), according to updated data from the phase 3 CAPItello-281 trial (NCT04493853) presented at the 2026 LUGPA Annual Meeting.1\nIn the updated analysis, which was first presented at the 2026 ESMO Congress, the median OS was 57.4 months (95% CI, 47.0-not calculable [NC]) with capivasertib plus abiraterone (n = 507) vs 46.5 months (95% CI, 40.7-53.2) with placebo plus abiraterone (n = 505), a difference of 10.9 months (HR, 0.82; 95% CI, 0.68-0.99; P = .044).2 The descriptive analysis did not meet the threshold for statistical significance. At the March 9, 2026, data cutoff, which provided approximately 17 months of additional follow-up, OS maturity was 42%, with 195 deaths in the capivasertib arm and 226 deaths in the placebo arm.\nThe updated median radiographic progression-free survival (rPFS) was 35.5 months (95% CI, 29.7-40.5) with capivasertib vs 26.0 months (95% CI, 22.4-31.3) with placebo (HR, 0.83; 95% CI, 0.70-0.99; nominal P = .033). In an exploratory analysis using increasingly stringent PTEN-deficiency cutoffs, the OS HR was 0.76 (95% CI, 0.61-0.93) among patients with at least 95% PTEN loss (capivasertib, n = 404; placebo, n = 410), 0.75 (95% CI, 0.56-1.02) among those with at least 99% loss (capivasertib, n = 205; placebo, n = 196), and 0.74 (95% CI, 0.53-1.02) among those with 100% loss (capivasertib, n = 169; placebo, n = 162).\nReviewing the updated safety data, Daniel George, MD, noted that the on-target adverse effects (AEs) of capivasertib tended to em",
-   "text_status": "ok"
   },
   {
    "title": "Trump Appeals Dismissal of $10 Billion Libel Suit Against Wall Street Journal",
@@ -1059,17 +1103,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-07 06:15 KST",
-   "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-   "summary": "Saudi national Abdulrahman Alfozan is charged with planting a recording device in a conference room at artificial intelligence giant OpenAI.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
    "source": "MarketWatch top stories",
    "lang": "en",
@@ -1077,28 +1110,6 @@
    "published": "2026-11-07 06:15 KST",
    "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
    "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
-   "source": "NYT Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 06:11 KST",
-   "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html",
-   "summary": "With a lot of information to process in a short time, many market watchers said that the moves were extreme — in both directions.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-07 06:07 KST",
-   "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-   "summary": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1112,28 +1123,6 @@
    "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
    "text": "",
    "text_status": "not_fetched"
-  },
-  {
-   "title": "Voters take their pick in New Zealand’s ‘supermarket election’",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-07 06:00 KST",
-   "url": "https://www.ft.com/content/1e80651b-14f3-4cf0-9b47-2f6dee158496?syn-25a6b1a6=1",
-   "summary": "Christopher Luxon tries to hang on as cost of living crisis and high energy prices weigh on consumers",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"대기업 회장님도 쓴대\"…요즘 입소문 났다는 '이 골프채' [권용훈의 직업불만족(族)]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-07 06:00 KST",
-   "url": "https://www.hankyung.com/article/202610292649i",
-   "summary": "",
-   "text": "한국프로골프(KPGA) 투어 2026시즌 최종전에서 대상과 상금왕을 동시에 노리던 장유빈이 ‘스코어카드’ 오기 실수로 실격됐다.6일 제주 서귀포시 테디밸리 골프앤리조트 밸리·테디 코...\n더에이치큐, KPGA 최종전 홀인원 부상으로 마오타이주 후원[골프브리핑]\n한국프로골프(KPGA) 투어 공식 주류 파트너사인 더에이치큐가 2026시즌 최종전 ‘KPGA 투어챔피언십 in JEJU’에 귀주 마오타이주를 홀인원 부상 및 행사 만찬주로 후원한다고 6일 밝혔다...\n직원 늘려야 회사 큰다고?…AI 시대 달라진 ‘성공 공식’은 [글로벌인재포럼 2026]\n기획자가 사업을 구상하고, 개발자가 제품을 만들고, 마케터가 고객을 모은다. 여러 분야의 인재를 모아야 회사를 세울 수 있다는 공식이 인공지능(AI)의 등장으로 바뀌고 있다. 한 사람이 AI를 활용해 기획부터 디자인...",
-   "text_status": "ok"
   },
   {
    "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
@@ -1213,6 +1202,17 @@
    "text_status": "ok"
   },
   {
+   "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-07 03:40 KST",
+   "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+   "summary": "Microsoft is winding down the number of neoclouds it counts as partners, picking key suppliers and focusing on its own data centers.",
+   "text": "Microsoft is shrinking its roster of neocloud partners as it focuses on work with a few key suppliers and builds out its own data centers, according to people familiar with the matter.\nThe software giant's plans pose another potential challenge for a corner of the artificial intelligence market that's showing signs of strain due to rising borrowing costs, hefty debt loads and concerns about whether the buildout will slow down.\nMicrosoft has forged relationships in recent years with a number of neoclouds, including CoreWeave, Nebius, Chronoscale, IREN, Lambda and Nscale, as well as with Oracle, which is pouring money into building out AI infrastructure.\nMicrosoft is now in the evaluation stage and hasn't decided which neoclouds it will stop using, said two sources, who asked not to be named because the talks are confidential. One of the people said Microsoft wants to prioritize its own data center footprint. Bloomberg reported on the plans earlier. Two people said that Microsoft opted not to renew a deal with Oracle.\nA Microsoft spokesperson said in an emailed statement that its infrastructure strategy is \"built on flexibility and choice.\"\n\"We combine Microsoft-owned datacenters, leased facilities and strategic partnerships with third-party providers to deliver the capacity our customers need, where and when they need it,\" the spokesperson said. \"We regularly review these investments against customer demand. That includes tracking delivery and adjusting plans as circumstances change.\"\nThe neoclouds have been a turbulent trade on Wall Street in recent weeks as rising interest rates added to fears that many companies have become overly reliant on debt in rushing to build capacity. Shares of CoreWeave, Nebius and IREN are all down by roughly half over the past month even af",
+   "text_status": "ok"
+  },
+  {
    "title": "Why the US midterms sparked an AI stock selloff",
    "source": "BBC Business",
    "lang": "en",
@@ -1231,8 +1231,8 @@
    "published": "2026-11-07 03:10 KST",
    "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
    "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]",
-   "text": "",
-   "text_status": "not_fetched"
+   "text": "You can create things like a shopping hub, school dashboard, or music tracker directly within Muse.\nYou can create things like a shopping hub, school dashboard, or music tracker directly within Muse.\nMeta will now allow you to build customized, app-like experiences within Muse. The new feature, called “spaces,” allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app.\nMeta says you can create a new space by describing it. If you connect an outside app to Muse — like Gmail, Google Calendar, OpenTable, Notion, and others Muse works with — the AI assistant will continuously pull information from them, allowing it to update pricing, dates, and other information in your space in the background. You can also interact with elements inside your spaces by checking things off, adding notes, and making edits.\nYou can also change the placement of your spaces in the Muse app, too, as Meta lets you keep them in the sidebar, move them into your main tab, or schedule when you see them. “For example, keep your weekly planner up front during the workweek, then swap it for your weekend plans on Saturday,” Meta says.\nMeta also announced that it’s bringing new “Active Memory” and “Active Focus” capabilities from its Muse Wonder AI model into the Muse app and its Meta AI chatbot. This will allow Muse to understand when past information becomes relevant during conversations, as well as make it better at working toward goals.\nMeta is rolling out spaces to all Muse users. The company is also looking into ways to share your spaces with other users and collaborate with them.",
+   "text_status": "ok"
   },
   {
    "title": "How a Blue Wave midterm might reshape the AI industry",
@@ -1242,8 +1242,8 @@
    "published": "2026-11-07 03:00 KST",
    "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
    "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
-   "text": "",
-   "text_status": "not_fetched"
+   "text": "Buy One Founder Summit Ticket, Get a Second for Free. Register now.\nFounder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE.\nDemocrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.\nThe public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a major talking point, with newly-elected Democratic governors and congressmembers likely to support additional regulation.\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and Anthony Ha discuss what the election will mean for the tech industry moving forward — not just when it comes to data centers (which OpenAI is already trying to rebrand), but also increased government scrutiny of Big Tech.\nListen to the full episode to hear more about:\nSubscribe to Equity on YouTube, Apple Podcasts, Overcast, Spotify and all the casts. You also can follow Equity on X and Threads, at @EquityPod.\nAnthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.\nYou can contact or verify outreach from Anthony by emailing [email protected].\nSean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He p",
+   "text_status": "ok"
   },
   {
    "title": "STAT+: Democrats’ midterm landslide spells relief for hospitals",
@@ -1323,6 +1323,28 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Big Tech lost big in the 2026 election",
+   "source": "The Verge AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-07 01:38 KST",
+   "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+   "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David […]",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "How Akai and Moog are embracing vibe-coded mods",
+   "source": "The Verge AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-07 01:34 KST",
+   "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+   "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people can […]",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Satellos' new Duchenne study endpoint; Amgen's Repatha cuts heart attack risk",
    "source": "Endpoints News",
    "lang": "en",
@@ -1341,28 +1363,6 @@
    "published": "2026-11-07 01:06 KST",
    "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
    "summary": "Nonfarm payrolls were expected to increase by 59,000 in October as the unemployment rate was expected to hold steady at 4.2%.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-07 00:06 KST",
-   "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
-   "summary": "The Cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and Tesla has issued several voluntary recalls.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"이례적으로 강한 고용\"…미국 금리인상 확률 '매우 높음'",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-06 23:28 KST",
-   "url": "https://www.hankyung.com/article/202611061820i",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
