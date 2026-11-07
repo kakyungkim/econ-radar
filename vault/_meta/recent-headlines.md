@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-07
+- 미 10월 NFP +165,000명 — 컨센서스 2.8배 서프라이즈, 연준 12월 금리 인상 경로 확정
+- J&J 리브레반트(amivantamab) 두경부암 FDA 가속승인 — bispecific Ab 적응증 두경부암 첫 확장
+- Novartis 졸젠스마 암 발생 9례 — AAV insertional mutagenesis 2건 확인, 유전자치료 안전성 논쟁
+- OpenAI $1.25조 조달 vs Anthropic IPO $1.5조 하회 경고 — AI 1세대 밸류에이션 분화
+- K바이오 5사 3Q 모두 YoY 성장 — 삼성바이오로직스 1조 4,903억 원(+18.5%), 정부 R&D 투자 역행
+
 ## 2026-11-06
 - KOSPI 이틀 연속 급락 + 서킷브레이커 — 삼성전자 188,700원(-6.35%)·SK하이닉스 1,132,000원(-10.44%), 이틀 누적 ~-11%
 - AHA 2026 Scientific Sessions Day 1 개막 — 11/7 Braunwald Session 08:30 펠라카르센 Lp(a)HORIZON 전체 데이터 첫 공개
@@ -56,12 +63,5 @@ publish: false
 - 이보네시맙 PDUFA 11/14 — NSCLC 2차 PD-1/VEGF 이중항체, 중국 단독 임상 데이터 FDA 수용 여부 최대 변수
 - 미국 중간선거 D-2 — AI 규제·빅테크 세금 핵심 정책 변수, Anthropic 로드쇼(11/9주) 시점 겹침
 - 경구 GLP-1 이중 시장 — Novo 경구 Wegovy vs Lilly Foundayo, 접근성·급여 장벽 지속, 레타트루타이드 2027 BLA 예정
-
-## 2026-10-31
-- BOJ 10월 1.25% 동결(7-2 표결) — 12월 인상 기준선 높아졌다, 분기 경기전망 보고서 11/2 공개
-- 한미약품 에페글레나타이드 식약처 10/7 허가 확인 — 국산 신약 45호, 국내 최초 GLP-1 비만치료제
-- 삼성바이오로직스 PolyPeptide 최소 청약 충족(10/16) — CHF 1.46B(약 2.7조원), 펩타이드 CDMO 확장
-- Anthropic IPO 로드쇼 11/9주 예정 — S-1 제출 완료, 밸류 ~$2T, 미국 중간선거 후 개시
-- Inovio INO-3107 FDA PDUFA 10/30 경과 — 결과 미확인, DNA 플랫폼 최초 승인 여부 주목
 
 
