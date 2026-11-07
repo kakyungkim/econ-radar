@@ -16,6 +16,9 @@ updated: 2026-11-05
 - **Eli Lilly tirzepatide 합산 $16.05B/분기 — 연율 환산 ~$64B**: Mounjaro $10.7B(+65%)·Zepbound $5.3B(+48%). Q2 +48%→Q3 +39% 성장률 둔화.
 
 ## 타임라인
+
+### 2026-11-07 [[daily/2026-11-07]]
+- [[daily/2026-11-07]] — Lilly–Hims & Hers 정식 파트너십: 복제약 구독 모델에서 오리지날 비만약 공급으로 전환. 비만치료 유통 채널이 디지털 플랫폼으로 확장되는 흐름 → [[topics/바이오제약]] [[topics/투자테마]]
 ### 2026-11-05 [[daily/2026-11-05]]
 - [[daily/2026-11-05]] — 수르보두티드 SYNCHRONIZE-CVOT 11/9(일) AHA 'New Frontiers in Cardiometabolic Risk Reduction' 세션 08:00 발표 D-4. 5,508명 비만·과중 + CV·신장 고위험. GLP-1·글루카곤 이중 기전이 GLP-1 단독 대비 추가 CV 혜택을 주는지 첫 검증. 성공 시 미국 Medicare Part D 급여 범위 CV 고위험군 확장 근거 형성. Zealand 주가 파트너십 로열티 구조로 결과에 직접 연동 → [[topics/바이오제약]] [[topics/신약개발전략]]
 
