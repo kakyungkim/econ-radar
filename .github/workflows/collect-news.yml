@@ -1,11 +1,11 @@
 name: collect-news
 
 # RSS에서 뉴스 후보를 모아 vault/raw/feed-DATE.{json,md}로 커밋한다. 데일리 루틴(18:30 KST)이 읽는다.
-# 정각 cron은 이 저장소에서 4~9시간 늦게 시작한 적이 있어 분을 어긋나게 둔다.
+# 예약 실행은 이 저장소에서 4~9시간 늦게 시작한다(2026-11-07: 15:17 예약이 22:09, 17:43 예약이 다음 날 00:08).
+# 그래서 오전부터 두 시간 간격으로 다섯 번 걸어, 늦어도 하나는 18:30 루틴 전에 들어오게 한다. 뒤 실행이 앞 파일을 덮어 쓴다.
 on:
   schedule:
-    - cron: '17 6 * * *'   # 15:17 KST
-    - cron: '43 8 * * *'   # 17:43 KST
+    - cron: '17 0,2,4,6,8 * * *'   # 09:17, 11:17, 13:17, 15:17, 17:17 KST
   workflow_dispatch:
     inputs:
       date:
@@ -36,7 +36,8 @@ jobs:
       - name: 날짜 결정
         run: |
           D="${{ github.event.inputs.date }}"
-          if [ -z "$D" ]; then D=$(TZ=Asia/Seoul date +%F); fi
+          # 자정을 넘겨 늦게 돈 실행이 다음 날 파일을 만들지 않게 6시간 전 날짜로 잡는다.
+          if [ -z "$D" ]; then D=$(TZ=Asia/Seoul date -d '-6 hours' +%F); fi
           echo "DATE=$D" >> "$GITHUB_ENV"
 
       - name: 수집

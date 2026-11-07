@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# AI 공동저자 줄과 생성 꼬리말을 커밋 메시지에서 지운다. 저장소 주인의 규칙이고,
+# 클라우드 루틴은 프롬프트로 금지해도 Co-Authored-By 를 붙였다(2026-11-07 c7290f6, f62689c).
+# 루틴은 0단계에서 `git config core.hooksPath .githooks` 로 이 폴더를 켠다.
+f="$1"
+tmp="$f.tmp.$$"
+grep -v -i -E '^(Co-Authored-By:.*(claude|anthropic|codex|openai|gemini|copilot)|Claude-Session:|.*Generated with \[?Claude Code)' "$f" > "$tmp" || true
+# 끝에 남은 빈 줄을 정리한다
+sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' "$tmp" > "$f"
+rm -f "$tmp"

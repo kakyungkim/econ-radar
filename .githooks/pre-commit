@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# 대량 삭제 커밋 차단. 2026-11-02 econ-radar에서 git 2.24의 `git stash -- 경로` + `stash pop`이
+# 인덱스를 비워 파일 1,238개가 지워진 커밋 두 개가 push됐다. 의도한 대량 삭제면 ALLOW_MASS_DELETE=1.
+LIMIT=${MASS_DELETE_LIMIT:-20}
+[ "${ALLOW_MASS_DELETE:-0}" = "1" ] && exit 0
+N=$(git diff --cached --diff-filter=D --name-only | wc -l | tr -d ' ')
+TOTAL=$(git ls-files | wc -l | tr -d ' ')
+if [ "$N" -gt "$LIMIT" ] || { [ "$TOTAL" -lt 10 ] && [ "$(git ls-tree -r --name-only HEAD 2>/dev/null | wc -l | tr -d ' ')" -gt 50 ]; }; then
+  echo "❌ 커밋 중단: 삭제 ${N}개, 인덱스 파일 ${TOTAL}개. 인덱스가 비었을 수 있다." >&2
+  echo "   확인: git status / 복구: git read-tree HEAD 후 다시 git add" >&2
+  echo "   의도한 삭제면: ALLOW_MASS_DELETE=1 git commit ..." >&2
+  exit 1
+fi

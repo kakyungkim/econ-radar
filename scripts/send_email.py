@@ -37,9 +37,21 @@ import sys
 import os
 import re
 import json
+import html as htmllib
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
+
+
+def prepare_email(html, date):
+    """본문의 <!-- SUBJECT: ... --> 에서 제목을 꺼내고, 그 주석은 본문에서 지운다.
+    Buttondown이 주석을 글자로 보여 구독자 메일 맨 위에 "SUBJECT: ... R&amp;D" 줄이
+    찍혔다(2026-11-08 미리보기에서 확인). 제목의 HTML 엔티티도 풀어 둔다."""
+    m = re.search(r"<!--\s*SUBJECT:\s*(.+?)\s*-->", html, flags=re.S)
+    subject = htmllib.unescape(m.group(1).strip()) if m else ("econ-radar %s" % date)
+    html = re.sub(r"<!--\s*SUBJECT:.*?-->\s*", "", html, count=1, flags=re.S)
+    return subject, html
+
 
 API_KEY = os.environ.get("BUTTONDOWN_API_KEY", "").strip()
 _send = os.environ.get("EMAIL_SEND", "").strip().lower()
@@ -108,9 +120,7 @@ if EMAIL_NOTICE:
     if n == 0:
         html = banner + html
 
-# 제목: render_html.py 가 본문에 박아둔 <!-- SUBJECT: ... --> 에서 추출.
-m = re.search(r"<!--\s*SUBJECT:\s*(.+?)\s*-->", html)
-subject = m.group(1).strip() if m else ("econ-radar %s" % date)
+subject, html = prepare_email(html, date)
 
 payload = {"subject": subject, "body": html}
 sched_kst = None
