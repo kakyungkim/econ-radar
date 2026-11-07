@@ -1,0 +1,40 @@
+# name	lang	section	url  (section: macro markets korea bio ai policy)
+연합뉴스 경제	ko	korea	https://www.yna.co.kr/rss/economy.xml
+한국경제 경제	ko	korea	https://www.hankyung.com/feed/economy
+한국경제 IT	ko	ai	https://www.hankyung.com/feed/it
+한국경제 증권	ko	markets	https://www.hankyung.com/feed/finance
+매일경제 경제	ko	korea	https://www.mk.co.kr/rss/30100041/
+매일경제 증권	ko	markets	https://www.mk.co.kr/rss/50200011/
+머니투데이	ko	korea	https://rss.mt.co.kr/mt_news.xml
+조선비즈	ko	korea	https://biz.chosun.com/arc/outboundfeeds/rss/?outputType=xml
+Korea Times business	en	korea	https://www.koreatimes.co.kr/www/rss/biz.xml
+한국은행 보도자료	ko	policy	https://www.bok.or.kr/portal/bbs/P0000559/news.rss
+히트뉴스	ko	bio	https://www.hitnews.co.kr/rss/allArticle.xml
+청년의사	ko	bio	https://www.docdocdoc.co.kr/rss/allArticle.xml
+CNBC top news	en	markets	https://www.cnbc.com/id/100003114/device/rss/rss.html
+CNBC economy	en	macro	https://www.cnbc.com/id/20910258/device/rss/rss.html
+CNBC health	en	bio	https://www.cnbc.com/id/10000108/device/rss/rss.html
+CNBC technology	en	ai	https://www.cnbc.com/id/19854910/device/rss/rss.html
+MarketWatch top stories	en	markets	https://feeds.content.dowjones.io/public/rss/mw_topstories
+MarketWatch MarketPulse	en	markets	https://feeds.content.dowjones.io/public/rss/mw_marketpulse
+FT home	en	macro	https://www.ft.com/rss/home
+WSJ markets	en	markets	https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+WSJ world	en	macro	https://feeds.a.dj.com/rss/RSSWorldNews.xml
+WSJ tech	en	ai	https://feeds.a.dj.com/rss/RSSWSJD.xml
+BBC Business	en	macro	https://feeds.bbci.co.uk/news/business/rss.xml
+NYT Business	en	macro	https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+Economist finance	en	macro	https://www.economist.com/finance-and-economics/rss.xml
+Federal Reserve press	en	policy	https://www.federalreserve.gov/feeds/press_all.xml
+ECB press	en	policy	https://www.ecb.europa.eu/rss/press.html
+SEC press	en	policy	https://www.sec.gov/news/pressreleases.rss
+Fierce Biotech	en	bio	https://www.fiercebiotech.com/rss.xml
+Fierce Pharma	en	bio	https://www.fiercepharma.com/rss.xml
+Endpoints News	en	bio	https://endpts.com/feed/
+STAT	en	bio	https://www.statnews.com/feed/
+pharmaphorum	en	bio	https://pharmaphorum.com/rss.xml
+OncLive	en	bio	https://www.onclive.com/rss
+BioPharma Dive	en	bio	https://www.biopharmadive.com/feeds/news/
+Nature Biotechnology	en	bio	https://www.nature.com/nbt.rss
+TechCrunch AI	en	ai	https://techcrunch.com/category/artificial-intelligence/feed/
+The Verge AI	en	ai	https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+MIT Technology Review	en	ai	https://www.technologyreview.com/feed/
