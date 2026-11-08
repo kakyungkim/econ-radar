@@ -48,6 +48,15 @@ jobs:
               | grep -E '^[0-9]{4}-W[0-9]{2}-동향\.md$' \
               | sed -E 's/-동향\.md$//' \
               | sort -r | head -1)
+            # 예약 실행은 지난주(어제 KST가 속한 ISO 주) 리포트만 보낸다. 새 리포트가 없으면
+            # 예전 주를 다시 보내지 않고 건너뛴다(루틴이 멈추면 매주 같은 리포트가 재발송될 뻔했다, 2026-11-08).
+            if [ "${{ github.event_name }}" = "schedule" ]; then
+              EXPECT=$(TZ=Asia/Seoul date -d '-1 day' +%G-W%V)
+              if [ "$PERIOD" != "$EXPECT" ]; then
+                echo "::warning::최신 리포트 $PERIOD 가 기대한 주 $EXPECT 와 달라 발송을 건너뜀"
+                PERIOD=""
+              fi
+            fi
           fi
           echo "period=$PERIOD" >> "$GITHUB_OUTPUT"
           echo "Detected period: $PERIOD"
