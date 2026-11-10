@@ -63,6 +63,14 @@ jobs:
           case "$PROVIDER" in codex|claude) ;; *) echo "지원하지 않는 provider: $PROVIDER"; exit 2;; esac
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
           echo "provider=$PROVIDER" >> "$GITHUB_OUTPUT"
+          if [ "$PROVIDER" = "codex" ] && [ -n "$OPENAI_API_KEY" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          elif [ "$PROVIDER" = "claude" ] && [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "선택한 제공자의 API secret이 없습니다. GitHub 러너는 구독 로그인 세션을 사용할 수 없습니다. 로컬 구독은 docs/AI-PROVIDER.md를 참고하세요."
+          fi
 
       - name: Skip if already generated
         id: existing
@@ -75,7 +83,7 @@ jobs:
           fi
 
       - name: Install selected AI CLI
-        if: steps.existing.outputs.skip != 'true'
+        if: steps.config.outputs.enabled == 'true' && steps.existing.outputs.skip != 'true'
         run: |
           if [ "${{ steps.config.outputs.provider }}" = "codex" ]; then
             test -n "$OPENAI_API_KEY" || { echo "OPENAI_API_KEY secret 필요"; exit 1; }
@@ -86,7 +94,7 @@ jobs:
           fi
 
       - name: Generate and validate
-        if: steps.existing.outputs.skip != 'true'
+        if: steps.config.outputs.enabled == 'true' && steps.existing.outputs.skip != 'true'
         env:
           AI_PROVIDER: ${{ steps.config.outputs.provider }}
           FORCE: ${{ github.event.inputs.force }}
@@ -96,7 +104,7 @@ jobs:
           python3 scripts/run_daily_pipeline.py "${ARGS[@]}"
 
       - name: Commit and push
-        if: steps.existing.outputs.skip != 'true'
+        if: steps.config.outputs.enabled == 'true' && steps.existing.outputs.skip != 'true'
         env:
           DATE: ${{ steps.config.outputs.date }}
           PROVIDER: ${{ steps.config.outputs.provider }}

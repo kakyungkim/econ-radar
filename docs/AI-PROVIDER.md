@@ -23,8 +23,11 @@ GitHub 호스팅 러너는 로컬 구독 로그인 세션을 이어받지 않는
 
 ## 수동 발행
 
+파이프라인 실행 후 `git status --short`로 변경을 확인한다. 대상 날짜의 `vault/raw`, `vault/analysis`, `vault/daily`, `vault/html`, `vault/push`, `vault/email` 파일과 인덱스, 실제 갱신된 주제 파일만 골라 stage한 다음 커밋·push한다. 날짜 폴더 전체를 한꺼번에 stage하지 않는다.
+
 ```bash
-git add vault/raw vault/analysis vault/daily vault/html vault/push vault/email vault/topics
+git status --short
+# 확인한 대상 날짜 파일과 갱신된 주제 파일을 명시해 git add
 git commit -m "econ-radar: YYYY-MM-DD 데일리 발행"
 git push origin main
 ```
