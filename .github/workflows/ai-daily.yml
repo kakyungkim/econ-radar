@@ -1,0 +1,110 @@
+name: AI Daily Generate (Codex or Claude)
+
+on:
+  schedule:
+    - cron: '30 9,11 * * *'  # 18:30, 20:30 KST; 두 번째 실행은 누락 시 재시도
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '대상 날짜 YYYY-MM-DD (비우면 오늘 KST)'
+        required: false
+        default: ''
+      provider:
+        description: 'codex 또는 claude (비우면 저장소 변수 AI_PROVIDER, 기본 codex)'
+        required: false
+        default: ''
+      force:
+        description: '기존 날짜 덮어쓰기'
+        type: boolean
+        default: false
+
+concurrency:
+  group: ai-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install test dependency
+        run: python3 -m pip install pytest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Resolve provider and date
+        id: config
+        env:
+          INPUT_DATE: ${{ github.event.inputs.date }}
+          INPUT_PROVIDER: ${{ github.event.inputs.provider }}
+          DEFAULT_PROVIDER: ${{ vars.AI_PROVIDER }}
+        run: |
+          DATE="$INPUT_DATE"
+          PROVIDER="$INPUT_PROVIDER"
+          [ -n "$DATE" ] || DATE=$(TZ=Asia/Seoul date +%F)
+          [ -n "$PROVIDER" ] || PROVIDER="${DEFAULT_PROVIDER:-codex}"
+          case "$PROVIDER" in codex|claude) ;; *) echo "지원하지 않는 provider: $PROVIDER"; exit 2;; esac
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "provider=$PROVIDER" >> "$GITHUB_OUTPUT"
+
+      - name: Skip if already generated
+        id: existing
+        run: |
+          if [ -s "vault/daily/${{ steps.config.outputs.date }}.md" ] && [ "${{ github.event.inputs.force }}" != "true" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "이미 발행 산출물이 있어 건너뜀"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install selected AI CLI
+        if: steps.existing.outputs.skip != 'true'
+        run: |
+          if [ "${{ steps.config.outputs.provider }}" = "codex" ]; then
+            test -n "$OPENAI_API_KEY" || { echo "OPENAI_API_KEY secret 필요"; exit 1; }
+            npm install -g @openai/codex
+          else
+            test -n "$ANTHROPIC_API_KEY" || { echo "ANTHROPIC_API_KEY secret 필요"; exit 1; }
+            npm install -g @anthropic-ai/claude-code
+          fi
+
+      - name: Generate and validate
+        if: steps.existing.outputs.skip != 'true'
+        env:
+          AI_PROVIDER: ${{ steps.config.outputs.provider }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          ARGS=("${{ steps.config.outputs.date }}" --provider "$AI_PROVIDER")
+          [ "$FORCE" = "true" ] && ARGS+=(--force)
+          python3 scripts/run_daily_pipeline.py "${ARGS[@]}"
+
+      - name: Commit and push
+        if: steps.existing.outputs.skip != 'true'
+        env:
+          DATE: ${{ steps.config.outputs.date }}
+          PROVIDER: ${{ steps.config.outputs.provider }}
+        run: |
+          git config user.name "econ-radar bot"
+          git config user.email "bot@econ-radar.local"
+          git add vault/raw vault/analysis vault/daily vault/html vault/push vault/email vault/topics artifacts/runs
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "econ-radar: $DATE 데일리 생성 ($PROVIDER)"
+          git pull --rebase origin main
+          git push origin HEAD:main
