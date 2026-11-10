@@ -23,16 +23,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Detect date
         id: detect
         env:
           INPUT_DATE: ${{ github.event.inputs.date }}
+          PUSH_BEFORE: ${{ github.event.before }}
         run: |
           DATE="$INPUT_DATE"
           if [ -z "$DATE" ]; then
-            DATE=$(git diff --name-only HEAD~1 HEAD -- 'vault/html/*.html' | sed -nE 's#vault/html/([0-9]{4}-[0-9]{2}-[0-9]{2})\.html#\1#p' | tail -1)
+            BEFORE="$PUSH_BEFORE"
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              BEFORE="HEAD~1"
+            fi
+            DATE=$(git diff --name-only "$BEFORE" HEAD -- 'vault/html/*.html' | sed -nE 's#vault/html/([0-9]{4}-[0-9]{2}-[0-9]{2})\.html#\1#p' | sort | tail -1)
           fi
           test -n "$DATE" || { echo "발행 날짜 감지 실패"; exit 1; }
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
