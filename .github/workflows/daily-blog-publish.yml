@@ -43,6 +43,11 @@ jobs:
           token: ${{ secrets.BLOG_DEPLOY_TOKEN }}
           path: blog
 
+      - name: Configure blog commit identity
+        run: |
+          git -C blog config user.name "econ-radar bot"
+          git -C blog config user.email "bot@econ-radar.local"
+
       - name: Deploy verified HTML
         env:
           DATE: ${{ steps.detect.outputs.date }}
