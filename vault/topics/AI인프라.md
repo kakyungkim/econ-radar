@@ -18,6 +18,9 @@ publish: true
 - **Q4 AWS 성장률 40% 돌파 여부가 다음 데이터포인트**: Azure 대비 수익화 시계 차이가 언제 좁혀지느냐가 밸류에이션 재평가 타이밍.
 
 ## 타임라인
+### 2026-11-11 [[daily/2026-11-11]]
+- [[daily/2026-11-11]] — Anthropic IPO 관련 창업자 현금화 소식, Nvidia 조사 착수, 뉴욕주 AI 안전법 발효. 빅테크 AI 인프라 수요 서사와 규제·지배구조 리스크가 같은 주에 겹침 → [[topics/AnthropicIPO]] [[topics/AI규제]]
+
 ### 2026-10-30 [[daily/2026-10-30]]
 - [[daily/2026-10-30]] — Amazon Q3: AWS $46B(+39.3%), 전사 OPM 13.9% 역대 최고, 2027 capex "materially higher" 예고. 빅테크 AI 클라우드 어닝스 시즌 완결 — MSFT +5%·AMZN 하락·GOOGL -10%. AI 서사 안에서 이익 전환 속도 차이를 시장이 주가로 처음 반영 → [[topics/반도체HBM]] [[topics/AnthropicIPO]]
 
