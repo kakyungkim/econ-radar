@@ -5,47 +5,47 @@
  "feeds": {
   "연합뉴스 경제": {
    "fetched": 120,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 경제": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 IT": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 경제": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "머니투데이": {
-   "fetched": 100,
-   "kept": 5,
-   "error": ""
+   "fetched": 0,
+   "kept": 0,
+   "error": "RuntimeError: curl 28"
   },
   "조선비즈": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 4,
    "error": ""
   },
   "Korea Times business": {
-   "fetched": 21,
-   "kept": 5,
+   "fetched": 0,
+   "kept": 0,
    "error": ""
   },
   "한국은행 보도자료": {
@@ -55,17 +55,17 @@
   },
   "히트뉴스": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "청년의사": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "CNBC top news": {
    "fetched": 30,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "CNBC economy": {
@@ -80,12 +80,12 @@
   },
   "CNBC technology": {
    "fetched": 30,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "MarketWatch top stories": {
    "fetched": 10,
-   "kept": 5,
+   "kept": 0,
    "error": ""
   },
   "MarketWatch MarketPulse": {
@@ -94,8 +94,8 @@
    "error": ""
   },
   "FT home": {
-   "fetched": 8,
-   "kept": 5,
+   "fetched": 12,
+   "kept": 2,
    "error": ""
   },
   "WSJ markets": {
@@ -114,13 +114,13 @@
    "error": ""
   },
   "BBC Business": {
-   "fetched": 55,
-   "kept": 5,
+   "fetched": 57,
+   "kept": 6,
    "error": ""
   },
   "NYT Business": {
-   "fetched": 48,
-   "kept": 5,
+   "fetched": 50,
+   "kept": 6,
    "error": ""
   },
   "Economist finance": {
@@ -155,12 +155,12 @@
   },
   "Endpoints News": {
    "fetched": 24,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "STAT": {
    "fetched": 20,
-   "kept": 4,
+   "kept": 6,
    "error": ""
   },
   "pharmaphorum": {
@@ -170,7 +170,7 @@
   },
   "OncLive": {
    "fetched": 30,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "BioPharma Dive": {
@@ -180,17 +180,17 @@
   },
   "Nature Biotechnology": {
    "fetched": 8,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   "TechCrunch AI": {
    "fetched": 20,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "The Verge AI": {
    "fetched": 10,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "MIT Technology Review": {
@@ -201,6 +201,17 @@
  },
  "items": [
   {
+   "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 18:00 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112160700011",
+   "summary": "■ 젠슨황 쫓겨나면 AI산업 대혼란…순환거래 위축에 규제강화 우려",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "공급 끊긴 필수 항암제·항생제, 국내 제약사 3곳이 만든다",
    "source": "히트뉴스",
    "lang": "ko",
@@ -208,6 +219,72 @@
    "published": "2026-11-12 17:59 KST",
    "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=80711",
    "summary": "[히트뉴스=최선재 기자] 공급 불안정에 놓인 필수 항암제와 항생제 3개 품목을 국내 제약회사 3사가 제조해 연내 의료현장에 공급한다.12일 식품의약품안전처에 따르면 제조에는 보령과 한국유나이티드제약, 건일바이오팜 등 3개사가 참여하는데 올해 신규 주문 제조 품목은 총 4개로, 2016년 사업을 시작한 이후 역대 최대 규모다.이번에 주문 제조하는 품목은 보령의 '에이디마이신동결건조주50밀리그램(독소루비신염산염)', 한국유나이티드제약의 '다우노신주20밀리그램(다우노루비신염산염)', 건일바이오팜의 '답토건주350밀리그램(답토마이신)'이다",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "반도체 초호황에도 살아나지 않는 소비",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:59 KST",
+   "url": "https://www.hankyung.com/article/2026111236301",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "'깐부' 손잡고 대박 났는데…젠슨 황 쇼크에 한국도 '초긴장'",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111236681",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "사내 불륜·美 정계 압박에…\"황 믿는다\"던 이사회 돌아서",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:54 KST",
+   "url": "https://www.hankyung.com/article/2026111236431",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "스타벅스, 독립유공자 후손에게 1억 지원",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:54 KST",
+   "url": "https://www.hankyung.com/article/2026111236171",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "'젠슨 황 리스크' 직격탄 맞았다…줄줄이 비명 쏟아진 종목",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111236161",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[단독] 나스닥은 분기마다 IR…코스닥 상장사는 투자만 받고 설명 뒷전",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111236381",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -234,6 +311,94 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "[단독] 코스닥 우량기업 '年 2회 IR' 의무화",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:51 KST",
+   "url": "https://www.hankyung.com/article/2026111236641",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[동정] 남재헌 해수부 차관, 가리비 양식업계와 간담회",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:48 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112169200030",
+   "summary": "▲ 남재헌 해양수산부 차관은 12일 서울에서 가리비 양식 어업인과 업계 관계자들을 만나 포괄적·점진적 환태평양경제동반자협정(CPTPP) 가입에 ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "K웨이브의 힘…외국인 관광객 2000만 시대",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:47 KST",
+   "url": "https://www.hankyung.com/article/2026111235881",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "코인마켓 거래소 '플라이빗'도 해킹…\"고객 40명 정보 유출\"",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:47 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112168500002",
+   "summary": "(서울=연합뉴스) 박수현 기자 = 코인마켓 가상자산 거래소 플라이빗에서도 해킹 사고로 고객 40명의 개인정보가 유출되는 사고가 발생했다.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"드라이기 쓸 일 줄었네\"…출시 24분 만에 동난 '이 샴푸'",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:47 KST",
+   "url": "https://www.hankyung.com/article/202611123267g",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "경영권 또 흔들리나…고려아연 이사회 '격랑'",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:47 KST",
+   "url": "https://www.hankyung.com/article/2026111236821",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "전남광주시, 대규모 사업에 지역 중소기업 참여 확대 모색",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:45 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112164900054",
+   "summary": "(전남광주=연합뉴스) 형민우 기자 = 전남광주통합특별시는 12일 광주 홀리데이인 호텔에서 중소기업계와 간담회를 열고, 대규모 투자사업에 지역 중...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"33년간 키운 회사서 쫓겨나나\"…젠슨 황 거취 놓고 '술렁'",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:43 KST",
+   "url": "https://www.hankyung.com/article/2026111236591",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "금융지주 사외이사 주주가 추천…회장 3연임땐 주총 75% 찬성 얻어야",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -241,6 +406,61 @@
    "published": "2026-11-12 17:41 KST",
    "url": "https://www.mk.co.kr/news/economy/12205964",
    "summary": "당정, 금융회사 지배구조 개선안 확정 CEO 추천 임추위 전원 독립이사로 주주의 독립이사 후보추천제 도입 국민연금 등 기관투자자의 추천 길도 넓혀 3연임 법적금지는 개선안서 빠져 ..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "JYP '깜짝 실적'에 K엔터주 동반 상승",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:38 KST",
+   "url": "https://www.hankyung.com/article/2026111236111",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "증시 하락 직격탄…증권사 3분기 '순이익 쇼크'",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:37 KST",
+   "url": "https://www.hankyung.com/article/2026111236131",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "황종우 해수부 장관, 포르투갈과 해양수산 협력 양해각서",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:33 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112165300051",
+   "summary": "(부산=연합뉴스) 이영재 기자 = 황종우 해양수산부 장관은 12일 서울에서 조세 마누엘 페르난데스 포르투갈 농업해양부 장관과 해양수산 협력 양해...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "네이버, 물류 자회사 세운다…인프라에 1조 투자해 쿠팡 추격",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:29 KST",
+   "url": "https://www.hankyung.com/article/2026111235441",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "바이브컴퍼니, 29억9천만원 제3자배정 유상증자",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 17:29 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261112164200008",
+   "summary": "(서울=연합뉴스) 코스닥 상장사 바이브컴퍼니[301300]는 타법인증권취득자금 등 약 29억9천만원을 조달하고자 제3자배정 유상증자를 결정했다고...",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -256,6 +476,50 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "네이버, AI 팩토리 2조원 첫 수주…\"10곳 이상과 추가 논의\"",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:27 KST",
+   "url": "https://www.hankyung.com/article/2026111235431",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "펄어비스 '붉은사막' 세계 PC게임 왕좌 올랐다",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:26 KST",
+   "url": "https://www.hankyung.com/article/2026111235461",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "메가존클라우드, 공공기관 AWS 이용 쉽도록 도입 간소화",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-12 17:26 KST",
+   "url": "https://www.hankyung.com/article/2026111235471",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "AI is coming for consulting’s billable hours — and its graduate pipeline",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-12 17:20 KST",
+   "url": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html",
+   "summary": "AI is changing the consulting industry, forcing firms to rethink billable hours and the traditional graduate career ladder.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "젠슨 황 해임 준비 소식…엔비디아 주가, 시간외 거래서 8% 급락",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -267,6 +531,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "[단독] 셀렉트 '연 2회 IR' 의무화 된다…86% 기업이 기준미달",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 17:18 KST",
+   "url": "https://www.hankyung.com/article/202611123042i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“순익 28% 급감했지만”…키움증권, 메리츠금융 목표가 17만원 유지한 이유",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -274,6 +549,39 @@
    "published": "2026-11-12 17:12 KST",
    "url": "https://www.mk.co.kr/news/stock/12205946",
    "summary": "키움증권은 12일 메리츠금융지주에 대해 3분기 실적이 시장 기대치를 하회했지만 보험과 증권 등 주요 사업의 수익성은 견조하다며 목표주가 17만원과 투자의견 ‘매수’를 유지했다. 키..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
+   "source": "CNBC economy",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 17:02 KST",
+   "url": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
+   "summary": "The U.K. economy grew 0.7% in the third quarter of the year, in line with estimates.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Novo commits $200m to support World Diabetes Federation",
+   "source": "pharmaphorum",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-12 16:54 KST",
+   "url": "https://pharmaphorum.com/news/novo-commits-200m-support-world-diabetes-federation",
+   "summary": "Novo commits $200m to support World Diabetes Federation Phil.Taylor Thu, 12/11/2026 - 07:54",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-12 16:50 KST",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html",
+   "summary": "The scandal engulfing Jensen Huang is fueling calls for tighter restrictions on China's access to advanced AI chips, just days before the Trump-Xi summit.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -300,204 +608,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "삼성증권 3Q 누적 순익 1조2918억원…전년동기比 63%↑",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.mt.co.kr/stock/2026/11/12/2026111216085490079",
-   "summary": "3Q 순익 3528억원, 14% 증가 WM·IB 안정적 이익 기여, 3분기 '선방' 삼성증권이 올해 3분기까지 총 1조2918억원 당기순이익을 냈다. 1년 전에 비해 63.1% 증가한 것으로 3분기 실적도 선방했다는 평가다. 삼성증권은 올해 3분기 누적 1조2918억5200만원의 당기순이익(연결기준, 잠정)을 냈다고 12일 공시했다. 지난해 3분기 누적 순이익(7922억3200만원)에 비해 63.1% 증가했다. 3분기 당기순이익은 3527억7200만원으로 전년 동기 대비 14.1% 증가했다. 증시가 좋았던 올 2분기(4882억2400만원)에 비해서는 27.7% 감소했다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Naver clinches $1.5 bill. AI computing deal with US firm",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm?utm_source=rss",
-   "summary": "Naver has signed a 2 trillion-won ($1.5 billion) computing services supply contract with a U.S. artificial intelligence (AI) inference company, securing an initial customer for its AI infrastructure business ahead of the commercial launch planned in the first half of next year. “This is a meaningful contract that confirms actual market demand and the initial commercial viability of the AI factory business,” CEO Choi Soo-yeon said during the company's third-quarter earnings call Thursday. \"Revenu",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "KakaoBank simplifies banking for foreign residents with mobile account service",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.koreatimes.co.kr/business/banking-finance/20261112/kakaobank-simplifies-banking-for-foreign-residents-with-mobile-account-service?utm_source=rss",
-   "summary": "KakaoBank’s account service for foreign residents attracted 20,000 accounts in its first month, drawing customers from 124 countries, the bank said Thursday. Introduced in October, the account is available to foreign residents aged 19 and older and can be opened through the bank’s app in about five minutes. Customers can also apply for debit cards and send money overseas through the app without visiting a branch. The bank streamlines registration through the government’s Public MyData service, w",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Korea Zinc loses court battle over curbs on Young Poong's voting rights",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261112/korea-zinc-loses-court-battle-over-curbs-on-young-poongs-voting-rights?utm_source=rss",
-   "summary": "A court ruled Thursday that a resolution passed at Korea Zinc's annual shareholder meeting last year that restricted the voting rights of Young Poong Corp. and private equity firm MBK Partners Ltd. must be nullified. Young Poong and MBK formed an alliance under an agreement signed in September 2024 to secure management control of Korea Zinc, the world's largest refined zinc smelter. Since then, the two parties have jointly exercised their voting rights, prompting Korea Zinc Chairman Choi Yun-beo",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Jensen Huang's potential exit casts shadow over Korea's AI road map",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261112/jensen-huangs-potential-exit-casts-shadow-over-koreas-ai-road-map?utm_source=rss",
-   "summary": "Mounting uncertainties surrounding Nvidia are threatening to disrupt Korea's semiconductor industry and its broader artificial intelligence (AI) road maps, as U.S. semiconductor restrictions are likely to be tightened and the future of its beleaguered CEO Jensen Huang is unclear. Following Huang's admission of an affair with a suspected Chinese spy, U.S. lawmakers have stepped up calls for tighter restrictions on China's access to U.S.-made AI chips. Senate Democratic Leader Chuck Schumer on Tue",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Korean tech firms tighten security training amid industrial espionage concerns",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-12 16:12 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261112/korean-tech-firms-tighten-security-training-amid-industrial-espionage-concerns?utm_source=rss",
-   "summary": "Major tech-intensive firms here are stepping up internal security training and vigilance against industrial espionage, after Nvidia CEO Jensen Huang made headlines for his reported affair with Alice Huang, who is suspected of being linked to Chinese intelligence. The allegations have heightened concerns among technology companies that personal relationships and social interactions could be exploited to compromise sensitive corporate information. Major U.S. technology companies, including OpenAI,",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"뿌링클 무임승차\" vs \"일반적 개발 방식\"…CJ 냉동치킨 소바바 논란",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:11 KST",
-   "url": "https://www.mt.co.kr/living/2026/11/12/2026111214092390962",
-   "summary": "한국프랜차이즈산업협회가 CJ제일제당 냉동치킨 브랜드 '소바바'의 일부 제품이 bhc '뿌링클' 등 유명 치킨 프랜차이즈의 대표 메뉴와 비슷하다며 시정을 요구했다. CJ제일제당은 외식 메뉴를 가정에서 즐길 수 있게 구현하는 것은 업계의 일반적인 제품 개발 방식이며, 사전 법무 검토로 상표권 침해 등 법적 리스크를 배제하고 출시했다고 반박했다. 협회는 12일 CJ제일제당이 bhc, BBQ, 교촌치킨 등의 대표 메뉴와 비슷한 제품을 만들었다는 논란이 제기됐다며 이같이 밝혔다. 협회가 문제로 꼽은 제품은 '뿌리즐링', '황금홀릭', '자메이카 치킨', '자메이카 스타일 치킨', '고추 바삭바삭 치킨', '소이 허니 순살', '마쏘킥 순살' 등이다. 협회는 이 제품들이 bhc의 '뿌링클', BBQ의 '황금 올리브 치킨'과 '자메이카 통다리 구이', 교촌치킨의 '허니 시리즈', 굽네치킨의 '고추바사삭' 등을 떠올리게 한다고 주장했다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "'김도영-한동희-문현빈 10타수 무안타' 무기력한 중심타선, 'NC산 분전'에도 이길 수 없었다 [APBC]",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:10 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/12/2026111215405820677",
-   "summary": "'강한 2번'을 외치며 한 단계 올라선 김도영(KIA)을 시작으로 뒤를 강력한 홈런 군단을 기대케 한 안현민(KT), 한동희(롯데)의 조합은 첫 경기 대실패로 끝났다. 한국 야구 대표팀은 12일 일본 도쿄돔에서 열린 호주와 2026 아시아프로야구챔피언십(APBC) 예선 1차전에서 7-8 역전패 했다. 아쉬운 장면이 많았지만 결과적으로 중심 타선에서 힘을 내지 못한 게 너무도 뼈아팠다. 리그 타격 2관왕과 최우수선수(MVP)까지 유력한 김도영은 4타수 무안타에 그쳤고 주장 한동희와 문현빈(이상 3타수 무안타)까지 모두 침묵했다. 시작부터 좋지 않았다. 선발 등판한 괴물 신인 김민준이 연이은 볼넷에 이어 블레이크 카빌에게 스리런 홈런을 맞고 끌려갔다. 3회에도 주자를 쌓은 뒤 조동욱에게 공을 넘기고 물러났으나 추가 실점하며 0-4로 점수 차가 더 벌어졌다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "상승 때 매도 vs 가치주보다 싼데 지금 매수…AI주에 월가도 상반된 의견",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:10 KST",
-   "url": "https://www.mt.co.kr/world/2026/11/12/2026111214592974855",
-   "summary": "AI(인공지능) 관련주가 부채를 동원한 막대한 규모의 인프라 투자 비용과 불투명한 수익 전망, 데이터센터 건설에 대한 규제 강화 우려 등으로 큰 변동성을 보이고 있다. 여기에 AI 대장주인 엔비디아를 이끌어온 젠슨 황 최고경영자(CEO)의 '중국 스파이와의 불륜 스캔들'이 불거지면서 AI 관련주에 대한 투자는 더욱 혼돈 상태다. 이에 배런스는 4명의 펀드매니저들을 인터뷰해 큰 폭의 주가 조정 뒤 반등을 시도하고 있는 AI 관련주에 어떻게 대응해야 할지 질문했다. 주가 강세 때 매도해 비중을 줄이라는 의견부터 지금이 매수 기회라는 판단, AI 활용으로 수혜를 입을 수 있는 각 산업의 선도 기업으로 시야를 넓히라는 조언까지 다양한 투자 아이디어들이 제시됐다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "한화손보, 3분기 누적 순익 3114억…보험손익 14.5% 증가",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:10 KST",
-   "url": "https://www.mt.co.kr/finance/2026/11/12/2026111215284067068",
-   "summary": "한화손해보험이 보험손익 개선에 힘입어 올해 3분기까지 3100억원이 넘는 순이익을 거뒀다. 투자손익은 감소했지만 장기보험의 보험금 예실차 개선과 자동차·일반보험의 손해율 안정으로 보험손익이 두 자릿수 증가하면서 전체 실적을 끌어올렸다. 12일 한화손보에 따르면 올해 3분기 누적 당기순이익은 3114억원으로 전년 동기 2942억원 대비 5.8% 증가했다. 3분기 단독 순이익은 961억원으로 지난해 같은 기간보다 34.1% 늘었다. 보험 본업의 수익성이 개선되면서 전체 실적 증가를 견인했다. 올해 3분기 누적 보험손익은 3137억원으로 전년 동기 대비 14.5% 증가했다. 반면 투자손익은 4016억원으로 9.9% 감소했다. 투자 부문의 부진에도 보험손익이 개선되면서 누적 순이익은 증가세를 유지했다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "サムスンバイオエピスが1043億ウォン中間配当",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:08 KST",
-   "url": "https://biz.chosun.com/jp/jp-science/2026/11/12/TDRE3V7HQBFZ5NRCVMBFSELZMM/",
-   "summary": "サムスンバイオエピスが持株会社 ##サムスンエピスホールディングス## に1,043億ウォンを中間配当する。子会社で創出した利益を持株会社に移し、事業運営と将来の成長エンジン確保に活用する構造である. サムスンエピスホールディングスは、子会社のサムスンバイオエピスが11日に取締役会を開き、1,043億7,92万ウォン規模の現金中間配当を決定したと12日に公示した。普通株1株当たり配当金は5,043ウォンである。配当基準日は12月4日、支払予定日は同18日である. サムスンエピスホールディングスは今回の配当金を財務の柔軟性確保と事業運営資金として活用する予定である。新薬とバイオシミラー分野の将来の成長エンジンを確保するための多様な活用案も検討している. 今回の配当は昨年5月の企業分割発表当時に公開した持株会社の運営方針の延長線上にある。サムスンエピスホールディングスは子会社の配当金を主要な原資として活用する計画を明らかにした経緯がある. サムスンエピスホールディングスはサムスンバイオエピスの持分100%を保有している。サムスンバイオエピスの資産はサムスンエピスホールディングス単体基準の資",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "삼성바이오에피스, 삼성에피스홀딩스에 1043억원 중간배당",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:08 KST",
-   "url": "https://biz.chosun.com/science-chosun/bio/2026/11/12/ORWE2OUR7NETXBOH7PSIIVIIOA/",
-   "summary": "삼성바이오에피스가 지주사 ##삼성에피스홀딩스##에 1043억원을 중간배당한다. 자회사에서 창출한 이익을 지주사로 이전해 사업 운영과 미래 성장동력 확보에 활용하는 구조다. 삼성에피스홀딩스는 자회사 삼성바이오에피스가 지난 11일 이사회를 열고 1043억792만원 규모의 현금 중간배당을 결정했다고 12일 공시했다. 보통주 1주당 배당금은 5043원이다. 배당 기준일은 12월 4일이며, 지급 예정일은 같은 달 18일이다. 삼성에피스홀딩스는 이번 배당금을 재무 유연성 확보와 사업 운영 자금으로 활용할 예정이다. 신약과 바이오시밀러 분야의 미래 성장동력을 확보하기 위한 다양한 활용 방안도 검토하고 있다. 이번 배당은 지난해 5월 기업분할 발표 당시 공개한 지주사 운영 방침의 연장선에 있다. 삼성에피스홀딩스는 자회사 배당금을 주요 재원으로 활용하겠다는 계획을 밝힌 바 있다. 삼성에피스홀딩스는 삼성바이오에피스의 지분 100%를 보유하고 있다. 삼성바이오에피스 자산은 삼성에피스홀딩스 별도 기준 자",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "경주시, 2030년까지 충효동 일대에 산업단지 조성",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:07 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261112144500053",
-   "summary": "(경주=연합뉴스) 손대성 기자 = 경북 경주시는 2030년까지 충효동 야척마을과 현곡면 상구리 일대 약 30만㎡ 땅에 충효일반산업단지 조성을 추...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "東国CM AIデータセンター向け新鋼板開発",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:07 KST",
-   "url": "https://biz.chosun.com/jp/jp-industry/2026/11/12/572ZMIQVUFENRPXK6EML67LR4A/",
-   "summary": "Dongkuk Steel Millグループのめっき・カラー鋼板専門会社である東国CMは12日、新たに開発したカラー鋼板「DK Shield（ディーケー・シールド）」で、高付加価値の機能性鋼材市場の拡大に乗り出すと明らかにした。 東国CMによると、DK Shieldは結露遅延と振動減衰、抗カビ機能を備えた高付加価値製品である。東国CMは特殊機能性塗料と多層コーティング技術を適用し、製品開発を終えたと説明した。 金属表面に発生する結露は腐食やカビの発生を招き、産業施設の維持管理の観点で重要な課題とされる。結露による腐食などは電気設備の絶縁性能低下や安全事故につながる可能性がある。 東国CMは、韓国化学融合試験研究院（KTR）の結果、DK Shieldの結露遅延性能が従来品に比べて10倍水準であることが示されたと説明した。 DK Shieldは人工知能（AI）データセンターの特性を考慮した新製品である。AIデータセンターは電力消費が大きく、大型空調設備や配電盤が設置される。空調機付近やケーブルダクトでは、外部との温度差に起因する結露が発生する可能性が高い。また、自然に形成された水滴が特定の",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "동국씨엠, AI 데이터센터 특화 컬러강판 개발… 결로 지연 기술 구현",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:07 KST",
-   "url": "https://biz.chosun.com/industry/company/2026/11/12/4QDCQJSU6NCBXO55V6DO6A6XRQ/",
-   "summary": "동국제강 그룹 도금컬러강판 전문회사 동국씨엠이 12일 신규 개발한 컬러강판 ‘디케이 실드(DK Shield)’로 고부가가치 기능성 철강 제품 시장 확대에 나선다고 밝혔다. 동국씨엠에 따르면 디케이 실드는 결로 지연과 진동 감쇠, 항곰팡이 기능이 있는 고부가가치 제품이다. 동국씨엠은 특수 기능성 도료와 다층 코팅 기술을 적용해 제품 개발을 마쳤다고 설명했다. 금속 표면에 발생하는 결로는 부식과 곰팡이 발생을 일으켜 산업 시설 유지관리 측면에서 중요한 문제로 꼽힌다. 결로로 인한 부식 등은 전기 설비 절연 성능 저하나 안전사고로 이어질 수 있다. 동국씨엠은 한국화학융합시험연구원(KTR) 결과 DK Shield의 결로 지연 성능이 기존 제품 대비 10배 수준으로 나타났다고 설명했다. DK Shield는 인공지능(AI) 데이터센터의 특성을 고려한 신제품이다. AI 데이터센터는 전력량이 높아 대형 공조 설비나 배전반이 설치된다. 공조기 인근이나 전선 통로에는 외부와의 온도 차로 인한 결로가 ",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "'젠슨황 해임위기'가 악재로?…코스피, 오락가락 등락하다 0.6%↓(종합)",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:06 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261112138051008",
-   "summary": "(서울=연합뉴스) 김유향 기자 = 코스피가 12일 사흘 만에 약세로 돌아섰다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "対中規制強化がHBM需給に重圧 エヌビディアCEO去就は不確実",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:05 KST",
-   "url": "https://biz.chosun.com/jp/jp-it/2026/11/12/6IWR6IRIS5EIHFFPAN762EHE54/",
-   "summary": "サムスン電子やSKハイニックスなど韓国の半導体業界は「ジェンスン・フアン不倫スキャンダル」に伴う高帯域幅メモリー（HBM）供給への影響よりも、米国の対中国人工知能（AI）半導体輸出規制強化の可能性をより大きな変数として注視している。ジェンスン・フアンの解任可否が確定していないなか、規制の行方が業績により大きく影響し得るとの判断である. ◇ 解任・権限縮小をめぐり天秤にかけるエヌビディア取締役会 11日（現地時間）ウォール・ストリート・ジャーナル（WSJ）によれば、エヌビディアの取締役会はフアン最高経営責任者（CEO）が2件の婚外関係を持っていたことが明らかになったことを受けて解任を準備中で、早ければ同日中にも取締役会を開き進退を協議する予定だ。フアンCEOの不倫相手の一人はエヌビディアの主要顧客であるシンガポールのデータ企業メガスピード（Megaspeed）の幹部アリス・フアンで、米当局が中国情報機関との関係を疑う人物とされる。ただし関与疑惑は確認されていない. ニューヨーク・タイムズ（NYT）は、フアンCEOが自身に直接報告するヘルスケア部門の副社長とも婚外関係を続けていたと報じた。",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "UK economy grows at fastest rate for more than two years",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 16:05 KST",
-   "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-   "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "“1명이 1만명분 연구”…한국이 지금 만들어야 할 연구 생태계",
    "source": "청년의사",
    "lang": "ko",
@@ -509,17 +619,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "제주산 감귤 우즈베키스탄 첫 수출…중앙아시아 진출 발판",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:02 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261112143500056",
-   "summary": "(제주=연합뉴스) 백나용 기자 = 제주산 감귤이 우즈베키스탄에 처음 수출되면서 중앙아시아 시장 진출의 발판을 마련했다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "루닛·씨어스·쓰리빌리언·코어라인…글로벌 진출 ‘각자도생’ 해법",
    "source": "청년의사",
    "lang": "ko",
@@ -527,28 +626,6 @@
    "published": "2026-11-12 16:01 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044497",
    "summary": "국내 디지털 헬스케어 기업들이 글로벌 시장 진출 전략을 공개했다.루닛은 수가 유무에 따라 제품별로 접근을 달리하고, 씨어스는 국내에서 검증한 모델이 작동하는 국가를 골라 확장하며, 쓰리빌리언과 코어라인소프트는 각각 글로벌 소비자 확대와 폐암 검진 시장 선점을 내세웠다.지난 11일 가톨릭대 서울성모병원 인근 플렌티컨벤션에서 열린 ‘DHP 2026: Breakout to the Globe’에서 루닛, 씨어스, 쓰리빌리언, 코어라인소프트 등 디지털 헬스케어 기업 대표들은 미디어라운드 테이블을 통해 각각의 글로벌 진출 경험과 전략을 공유했",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "농식품부, 농업 분야 통상 현안 대응 민관협의체 구성",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261112111400030",
-   "summary": "(서울=연합뉴스) 홍국기 기자 = 농림축산식품부는 주요 통상 현안에 대한 농업계 의견 수렴과 대응안 모색을 위해 '농업 분야 통상현안 대응 민관...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[게시판] 정부 민생안정지원단, 서울고용센터 찾아 청년취업 지원 점검",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 16:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261112131400002",
-   "summary": "▲ 범부처 민생안정지원단은 12일 서울지방고용노동청 서울고용센터를 방문해 청년 취업 지원 서비스 운영 현황을 점검하고, 서울지역 일자리 동향과 ...",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -586,13 +663,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "미래에셋증권, 3분기 적자전환…4056억 순손실 '어닝쇼크'",
-   "source": "한국경제 증권",
+   "title": "\"공단 특사경 용납 못해…강행 시 강경 대응\" 불타는 의료계",
+   "source": "청년의사",
    "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-12 15:35 KST",
-   "url": "https://www.hankyung.com/article/2026111231536",
-   "summary": "",
+   "section": "bio",
+   "published": "2026-11-12 15:47 KST",
+   "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044490",
+   "summary": "11일 오후 여당 주도로 국민건강보험공단에 특별사법경찰권한을 부여하는 '사법경찰직무법 개정안'이 국회 법제사법위원회 법안심사제1소위원회를 통과하자 의료계는 \"입법 폭거\"라며 격앙된 반응을 쏟아냈다. 오는 13일 법사위 전체회의가 예정된 가운데 법안 폐기와 공단 특사경 원점 재검토를 요구하는 목소리가 전국에서 빗발쳤다.의협은 법안 소위 통과 직후 성명을 내고 \"법치주의를 훼손한 명백한 입법 폭거\"라며 \"강한 분노와 유감을 표한다\"고 규탄했다. 의료계 반대에도 법안 처리를 강행할 경우 \"의료 현장 파국과 국민적 피해\"를 감당해야 할 것",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -608,57 +685,24 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "토스뱅크, 1000원부터 투자 가능한 '펀드 서비스' 출시",
-   "source": "한국경제 경제",
+   "title": "수석 합격자 ‘AI 안경’ 의혹에… 한국세무사회 “철저한 진상조사 촉구”",
+   "source": "조선비즈",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-12 15:33 KST",
-   "url": "https://www.hankyung.com/article/202611123111i",
-   "summary": "",
+   "published": "2026-11-12 15:17 KST",
+   "url": "https://biz.chosun.com/topics/topics_social/2026/11/12/4SZNFXAM75GH5JK5UCMRIJFO4I/",
+   "summary": "올해 세무사 자격시험 수석 합격자의 높은 성적을 두고 시험 중 인공지능(AI) 스마트 안경을 활용한 것 아니냐는 의혹이 불거지자, 한국세무사회가 시험 시행기관 및 관계 당국에 철저한 진상조사를 촉구하기로 했다. 한국세무사회는 12일 입장문을 내고 “세무사 시험의 공정성은 세무사 자격제도에 대한 국민의 신뢰는 물론 세무사 회원과 한국세무사회의 명예에도 중대한 영향을 미치는 사안”이라며 이같이 밝혔다. 세무사시험은 세무사법에 따른 국가자격시험으로, 한국산업인력공단이 정부로부터 위탁받아 시행한다. 한국세무사회는 시험 시행과 관리·감독에 관한 법적 권한이 없어 이번 의혹을 직접 조사하거나 수사할 수는 없다는 입장이다. 한국세무사회는 “시험 시행 기관인 한국산업인력공단 및 관계 당국에 이번 부정행위 의혹에 대한 철저한 진상 조사와 필요한 조치를 촉구하겠다”며 “조사 결과에 따라 필요한 조치를 취해 나가겠다”고 했다. 다만 의혹이 사실로 확인되지 않은 상황에서 특정 응시자에 대한 섣부른 판단은",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "HSG 코칭센터, 창립 기념 세미나 'Coaching, Next' 개최",
-   "source": "한국경제 경제",
+   "title": "韓国税務社会が税理士試験AI疑惑の徹底調査要求",
+   "source": "조선비즈",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-12 15:28 KST",
-   "url": "https://www.hankyung.com/article/202611123102i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "점주 복지에 8억 쐈다…치킨 프랜차이즈 첫 우수등급",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 15:26 KST",
-   "url": "https://www.hankyung.com/article/202611123147g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "한국인 덜 마시는데 외국인 반했다?…K-믹스커피의 '반전' [현장+]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 15:26 KST",
-   "url": "https://www.hankyung.com/article/202611122262g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "신성이엔지 \"데이터센터 설치기간 절반으로 단축\"",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-12 15:21 KST",
-   "url": "https://www.hankyung.com/article/202611123120i",
-   "summary": "",
+   "published": "2026-11-12 15:17 KST",
+   "url": "https://biz.chosun.com/jp/jp-society/2026/11/12/UPHD45TEJVF7FARXLRIQLTZVGE/",
+   "summary": "今年の税理士資格試験で首席合格者の成績が極めて高かったことをめぐり、試験中に人工知能（AI）スマート眼鏡を活用したのではないかとの疑惑が浮上すると、韓国税務社会が試験施行機関および関係当局に対し、徹底した真相調査を促すことにした。 韓国税務社会は12日に立場文を出し、「税理士試験の公正性は、税理士資格制度に対する国民の信頼はもちろん、税理士会員と韓国税務社会の名誉にも重大な影響を及ぼす事案だ」として、このように明らかにした。 税理士試験は税理士法に基づく国家資格試験で、韓国産業人力公団が政府から委託を受けて施行している。韓国税務社会は、試験の施行および管理・監督に関する法的権限がなく、今回の疑惑を直接調査したり捜査したりすることはできないという立場である。 韓国税務社会は「試験施行機関である韓国産業人力公団および関係当局に、今回の不正行為疑惑に対する徹底した真相調査と必要な措置を促す」とし、「調査結果に応じて必要な措置を講じていく」と述べた。 ただし疑惑が事実と確認されていない状況で特定の受験者に対する性急な判断は慎むべきだと強調した。 韓国税務社会は「試験成績が高いという理由だけで特",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -685,21 +729,10 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "“불편할 만큼 가까웠다”…젠슨 황 불륜 예고한 공매도 보고서 살펴보니",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-12 15:15 KST",
-   "url": "https://www.hankyung.com/article/202611122993i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
-   "source": "CNBC top news",
+   "source": "CNBC technology",
    "lang": "en",
-   "section": "markets",
+   "section": "ai",
    "published": "2026-11-12 15:11 KST",
    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
    "summary": "Nvidia's board is meeting days after CEO Jensen Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
@@ -718,6 +751,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "\"미·중은 10배 속도로 달린다\"…한국, '소버린 바이오'로 맞선다",
+   "source": "히트뉴스",
+   "lang": "ko",
+   "section": "bio",
+   "published": "2026-11-12 15:09 KST",
+   "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=80694",
+   "summary": "[히트뉴스=김선경 기자] \"중국과 미국이 2배, 10배 더 빠른 속도로 달려가고 있다. 한국 정부가 가만히 있으면 상대적으로 뒤로 후퇴하는 효과가 난다.\"미국과 중국이 AI 기반 과학 연구에 속도를 내는 상황에서 한국이 투자 규모만으로 경쟁하기는 어렵다. AI 신약개발의 주도권을 확보하려면 한국형 바이오 데이터와 AI 모델, 실험 인프라를 국가 자산으로 축적하고 이를 하나의 연구개발 체계로 연결해야 한다는 제언이 나왔다. K-문샷을 중심으로 AI 과학자와 자율실험실을 구현하려는 정부의 도전도 시작되고 있다.11일 웨스틴조선 서울 호",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“이틀 연속 상한가라 올라탔는데”…관리종목 90%는 폭락했다",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -725,6 +769,17 @@
    "published": "2026-11-12 14:59 KST",
    "url": "https://www.mk.co.kr/news/stock/12205912",
    "summary": "지정 해제 32곳 중 29곳 주가 하락 평균 26.9% 떨어져…코스피도 부진코스닥시장에서 관리종목이나 투자주의환기종목에 지정됐던 곳들이 주가 관리에 비상이 걸렸다. 투자자 주의를 ..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Nvidia shares tumble on Huang exit",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 14:57 KST",
+   "url": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -740,94 +795,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "네이버, AI 팩토리 첫 수주…“내년 상반기부터 실적 반영” [정지은의 테크킥]",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-12 14:26 KST",
-   "url": "https://www.hankyung.com/article/202611122906i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "'젠슨 황 불륜 의혹' 임원은…엔비디아 AI 신약사업 주도",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-12 14:03 KST",
-   "url": "https://www.hankyung.com/article/202611122453i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[핫스톡] '스시자로' 허용에...한미약품 주가 급락",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-12 14:01 KST",
-   "url": "https://www.hankyung.com/article/202611122793i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "EU and UK set to delay 10% tariff on electric cars",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 14:00 KST",
-   "url": "https://www.ft.com/content/b6c31ee9-0837-4fb0-83d9-a0e70100d0a3?syn-25a6b1a6=1",
-   "summary": "European carmakers had warned the levy would make them more vulnerable to Chinese competition",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "France signals support for Spain’s ECB presidential candidate",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 14:00 KST",
-   "url": "https://www.ft.com/content/b0d03a62-a75d-41f9-bac3-1518cefe400a?syn-25a6b1a6=1",
-   "summary": "Pablo Hernández de Cos’s bid gains momentum as Paris and Berlin eye package deal on central bank leadership",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Growth investing or gambling?",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 14:00 KST",
-   "url": "https://www.ft.com/content/92eb0eca-aee8-45af-b336-7a9a20da0a64?syn-25a6b1a6=1",
-   "summary": "The current extreme risk-taking in equity markets might present a once-in-a-career investment opportunity",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"모두가 떠날 때 사라\"…전문가가 꼽은 반등 시그널",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-12 14:00 KST",
-   "url": "https://www.hankyung.com/article/202611119617i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "초고수들, '젠슨 황 해임설' 틈타 엔비디아 저가 매수…테슬라·SK하이닉스 ADR은 팔아",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-12 13:52 KST",
-   "url": "https://www.hankyung.com/article/202611122652i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "주식 투자 선수들이라더니 … 액티브 ETF, 지수도 못 이겼다",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -835,72 +802,6 @@
    "published": "2026-11-12 13:50 KST",
    "url": "https://www.mk.co.kr/news/stock/12205437",
    "summary": "액티브전문 운용사 5곳 수익률 비교사모펀드 시장에서 이름을 날린 전문 자산운용사들이 상장지수펀드(ETF) 시장에 속속 진출하고 있지만 성적표는 기대에 미치지 못하고 있다. 운용역의..",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 13:41 KST",
-   "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
-   "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"올 들어 '반토막' 났는데\"…하루만에 17% 반등한 '이 종목'",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-12 13:27 KST",
-   "url": "https://www.hankyung.com/article/202611122639i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "State dinners to scrutiny: Nvidia’s Huang falls out of favour in Trump’s Washington",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 13:19 KST",
-   "url": "https://www.ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688?syn-25a6b1a6=1",
-   "summary": "AI kingmaker’s opponents see ‘blood in the water’ after affair with suspected Chinese spy",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 13:18 KST",
-   "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-   "summary": "The billionaire tech executive's future is in question after reports of a second extramarital affair.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "삼진제약, 먹는 항응고제 렉사반 출시…원료부터 완제까지 생산 체계 구축",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-12 12:49 KST",
-   "url": "https://www.hankyung.com/article/202611122645i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Nvidia shares tumble in after-market trading",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 12:39 KST",
-   "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
-   "summary": "Stock sinks almost 9 per cent in after-market trading as chief executive’s fate hangs in balance following more revelations",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -917,23 +818,12 @@
   },
   {
    "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-   "source": "CNBC top news",
+   "source": "CNBC technology",
    "lang": "en",
-   "section": "markets",
+   "section": "ai",
    "published": "2026-11-12 12:25 KST",
    "url": "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html",
    "summary": "The post on X comes amid reports that Nvidia's board is preparing to oust Huang.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 12:15 KST",
-   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-   "summary": "There is already a demographic ‘run’ on Social Security.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -949,21 +839,10 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 12:10 KST",
-   "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-   "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
-   "source": "CNBC top news",
+   "source": "CNBC technology",
    "lang": "en",
-   "section": "markets",
+   "section": "ai",
    "published": "2026-11-12 12:02 KST",
    "url": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
    "summary": "Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.",
@@ -971,40 +850,7 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 11:52 KST",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
-   "summary": "Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 11:45 KST",
-   "url": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-   "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "CFTC investigates if Kalshi improperly self-certified event contracts",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-12 11:43 KST",
-   "url": "https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html",
-   "summary": "News of the probe comes after the CFTC ordered Kalshi to take down a sports-related \"mention markets\" back in August.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang, CEO’s, Future",
+   "title": "Nvidia’s Stock Price Plummets as Board Is Said to Consider Jensen Huang’s Future as CEO",
    "source": "NYT Business",
    "lang": "en",
    "section": "macro",
@@ -1037,43 +883,32 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "\"처음엔 혹평 쏟아졌는데\"…9년 만에 세계 1위 찍은 '한국 게임'",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-12 10:38 KST",
-   "url": "https://www.hankyung.com/article/202611122283i",
-   "summary": "",
+   "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-12 09:46 KST",
+   "url": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+   "summary": "Meta's head of infrastructure and co-head of engineering Santosh Janardhan will leave in 2027, with former AWS senior vice president David Brown taking over.",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-   "source": "BBC Business",
+   "title": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions",
+   "source": "Nature Biotechnology",
    "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 09:49 KST",
-   "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-   "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-12 08:50 KST",
-   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "section": "bio",
+   "published": "2026-11-12 09:00 KST",
+   "url": "https://www.nature.com/articles/s41587-026-03378-9",
+   "summary": "Nature Biotechnology, Published online: 12 November 2026; doi:10.1038/s41587-026-03378-9 An analysis of Investigational New Drug (IND) submissions to the US Food and Drug Administration (FDA) from 1995 to 2025 reveals a rapid growth in adeno-associated virus (AAV) development over three decades and highlights common reasons for regulatory holds that should be considered for successful product development.",
    "text": "",
    "text_status": "not_fetched"
   },
   {
    "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
-   "source": "CNBC technology",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "ai",
+   "section": "markets",
    "published": "2026-11-12 08:41 KST",
    "url": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
    "summary": "Cramer said he's becoming less skeptical of CoreWeave after strong earnings and reassuring comments from its CEO.",
@@ -1125,13 +960,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-   "source": "CNBC economy",
+   "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "macro",
-   "published": "2026-11-12 07:59 KST",
-   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-   "summary": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+   "section": "markets",
+   "published": "2026-11-12 07:58 KST",
+   "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+   "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1142,7 +977,7 @@
    "section": "ai",
    "published": "2026-11-12 07:44 KST",
    "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-   "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
+   "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1165,6 +1000,39 @@
    "published": "2026-11-12 07:30 KST",
    "url": "https://www.onclive.com/view/dr-borgen-on-matching-treatment-to-her2-biology-in-early-stage-her2-positive-breast-cancer",
    "summary": "Patrick Borgen, MD, discusses the importance of treatment decision-making based on HER2 biology and the surgeon’s role in HER2-positive disease management.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-12 07:20 KST",
+   "url": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
+   "summary": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "JetBlue unveils new first-class seats to bring back profits",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-12 07:10 KST",
+   "url": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
+   "summary": "JetBlue gave reporters a look at its new first-class seats on Wednesday.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 07:07 KST",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+   "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1202,24 +1070,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-   "source": "CNBC technology",
+   "title": "Democrats pledge to expose ‘absolute avalanche of corruption’ under Trump",
+   "source": "FT home",
    "lang": "en",
-   "section": "ai",
-   "published": "2026-11-12 06:13 KST",
-   "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-   "summary": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-12 06:04 KST",
-   "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-   "summary": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+   "section": "macro",
+   "published": "2026-11-12 06:01 KST",
+   "url": "https://www.ft.com/content/3d3fcb94-143d-446c-8b09-b1f830ca97e9?syn-25a6b1a6=1",
+   "summary": "Congress member Jamie Raskin says he will launch sweeping probe of president and allies but warns party to avoid impeachment ‘distraction’",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1263,6 +1120,28 @@
    "section": "ai",
    "published": "2026-11-12 05:15 KST",
    "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Meta is losing its longtime head of infrastructure",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-12 05:12 KST",
+   "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+   "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-12 05:02 KST",
+   "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
    "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
    "text": "",
    "text_status": "not_fetched"
@@ -1323,6 +1202,39 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "이중근 부영 회장, ‘유엔참전용사 추모’ 국민대표로 헌화",
+   "source": "매일경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-12 03:26 KST",
+   "url": "https://www.mk.co.kr/news/economy/12205696",
+   "summary": "국민 대표로 2년째 참배부영그룹은 이중근 회장이 ‘제20회 유엔참전용사 국제추모의 날’ 기념식에서 국민대표로 헌화했다고 11일 밝혔다. 이날 기념식은 한국전쟁 때 희생된 유엔군 참..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Poundland founder writes to King for help",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 02:59 KST",
+   "url": "https://www.bbc.co.uk/news/videos/cm4gndjd4nnno?at_medium=RSS&at_campaign=rss",
+   "summary": "Poundland has filed a notice of intention to appoint administrators, which protects it from creditors until Thursday.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Brad Friedel on Shrewsbury Town takeover",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 02:55 KST",
+   "url": "https://www.bbc.co.uk/news/videos/cq62p80pe3yzo?at_medium=RSS&at_campaign=rss",
+   "summary": "New Shrewsbury Town sporting director Brad Friedel talks exclusively to BBC Radio Shropshire about the club's takeover.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Opinion: What MAHA’s support for Russell Brand tells us about the movement",
    "source": "STAT",
    "lang": "en",
@@ -1334,6 +1246,50 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Sonrotoclax-Based Regimens Elicit Responses in Relapsed/Refractory MCL",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-12 02:47 KST",
+   "url": "https://www.onclive.com/view/sonrotoclax-based-regimens-elicit-responses-in-relapsed-refractory-mcl",
+   "summary": "A meta-analysis of 4 sonrotoclax cohorts showed consistent response activity and low tumor lysis rates in heavily pretreated mantle cell lymphoma.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "네이버, 美 데이터센터 규제 '반사이익' … 두산에너빌과 시총 20위 각축",
+   "source": "매일경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-12 02:41 KST",
+   "url": "https://www.mk.co.kr/news/stock/12205639",
+   "summary": "미국의 데이터센터 건설 규제 우려가 커지면서 네이버를 비롯한 국내 기업이 반사이익을 볼 것이라는 기대가 높아지고 있다. 이 같은 수혜를 바탕으로 네이버가 시가총액 20위권 진입을 ..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Silicon Valley Tech Allies Support Jensen Huang",
+   "source": "NYT Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 02:29 KST",
+   "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-affair-nvidia-support.html",
+   "summary": "Elon Musk and other Silicon Valley figures cast the Nvidia chief’s relationship with a woman believed to be a Chinese spy as a personal lapse, not a security failure.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Workers across Spain stage first general strike in 14 years",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-12 02:01 KST",
+   "url": "https://www.bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss",
+   "summary": "People across Spain are striking, primarily over housing costs.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "What to know about this year’s UN climate talks",
    "source": "MIT Technology Review",
    "lang": "en",
@@ -1341,17 +1297,6 @@
    "published": "2026-11-12 02:00 KST",
    "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
    "summary": "It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world. Turkey and Australia are cohosting this…",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-12 01:51 KST",
-   "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-   "summary": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China, told CNBC he expects answers about Jensen Huang's relationship.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1422,6 +1367,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "STAT+: Why this former ER doc thinks giving AI less information is sometimes better",
+   "source": "STAT",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-12 00:20 KST",
+   "url": "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/?utm_campaign=rss",
+   "summary": "In this edition of AI Prognosis: A conversation with Graham Walker, co-founder of MDCalc, about the company's new AI tool.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
    "source": "CNBC health",
    "lang": "en",
@@ -1429,6 +1385,17 @@
    "published": "2026-11-12 00:14 KST",
    "url": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
    "summary": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "STAT+: Cassidy sets key vote on Overton, even as he remains undecided on nominee to lead FDA",
+   "source": "STAT",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-12 00:07 KST",
+   "url": "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/?utm_campaign=rss",
+   "summary": "Cassidy said he and other GOP lawmakers are undecided on Heidi Overton to lead the FDA.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1451,6 +1418,28 @@
    "published": "2026-11-11 23:00 KST",
    "url": "https://endpoints.news/beeline-reveals-phase-2-lupus-data-from-old-bristol-myers-drug/",
    "summary": "Beeline Medicines fleshed out an impressive mid-stage win in systemic lupus on Wednesday, setting the stage for Phase 3 trials with a former drug from Bristol Myers Squibb. At each of three doses tested, Beeline’s ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+   "source": "The Verge AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-11 23:00 KST",
+   "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+   "summary": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. […]",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "UK science minister calls for more life sciences investment",
+   "source": "Endpoints News",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-11 22:52 KST",
+   "url": "https://endpoints.news/uk-science-minister-calls-for-more-life-sciences-investment/",
+   "summary": "Now that the UK government has increased its spending on medicines, it’s calling for life sciences companies to do their part and invest on home soil. “We are determined to ensure that the UK is ...",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1499,17 +1488,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Gravity is an experimental variable pharma has rarely been able to change",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-11 21:44 KST",
-   "url": "https://pharmaphorum.com/rd/gravity-experimental-variable-pharma-has-rarely-been-able-change",
-   "summary": "Gravity is an experimental variable pharma has rarely been able to change Nicole.Raleigh Wed, 11/11/2026 - 12:44",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
    "source": "CNBC economy",
    "lang": "en",
@@ -1517,6 +1495,28 @@
    "published": "2026-11-11 21:27 KST",
    "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html",
    "summary": "Retail sales rose at their slowest pace in nearly a year in October as American consumers showed signs of strain from high prices.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "AI로 만든 ‘포토샵 닮은꼴’ 등장에… 어도비 “수십 년 쌓은 IP가 경쟁력”",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-11 13:13 KST",
+   "url": "https://biz.chosun.com/it-science/ict/2026/11/11/ETSLC34ZONG7FM5C4ARVLFPTNQ/",
+   "summary": "최근 한 개인 개발자가 인공지능(AI) 기반 리버스 엔지니어링(역공학)으로 어도비의 대표 편집 도구 포토샵과 일러스트레이터, 프리미어 프로 등과 비슷한 기능을 갖춘 소프트웨어를 만들어 무료로 공개하면서 화제를 모았다. 이런 ‘AI 복제 소프트웨어’가 기승을 부리면서 어도비의 경쟁력을 위협할 수 있다는 전망에 대해 루이즈 펜트랜드 어도비 최고법무책임자(CLO)는 10일(현지시각) 미국 마이애미에서 열린 ‘어도비 맥스(MAX)’ 미디어 브리핑에서 “어도비는 지식재산권(IP) 뿐만 아니라 안전과 보안도 고려해 제품을 개발했다”며 이같은 우려를 일축했다. 그는 “지금처럼 기술이 빠르게 바뀌는 시기에는 창작물을 안전하게 보호하면서 작업할 수 있는 제품을 쓰는 게 무엇보다 중요하다”며 “여기서 안전하다는 것은 지식재산권 규정과 보안 요건을 모두 충족한다는 의미”라고 했다. 무료로 풀린 어도비의 AI 복제품은 보안 요건을 갖추지 못했기 때문에 기업 고객이 도입하기엔 한계가 있다는 설명이다. 펜트",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "アドビCLO AI複製横行もIPと安全で対抗",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-11 13:13 KST",
+   "url": "https://biz.chosun.com/jp/jp-it/2026/11/11/P7WG45ZY3JGBHG2ZBKEGKQCRSE/",
+   "summary": "最近、ある個人開発者が人工知能（AI）を用いたリバースエンジニアリング（逆工学）によって、アドビの代表的な編集ツールであるフォトショップやイラストレーター、プレミアプロなどと類似の機能を備えたソフトウエアを作り、無料で公開して話題を集めた。 こうした「AI複製ソフトウエア」が横行し、アドビの競争力を脅かしかねないとの見方について、ルイーズ・ペントランド最高法務責任者（CLO）は10日（現地時間）、米国マイアミで開かれた「アドビ・マックス（MAX）」のメディアブリーフィングで、「アドビは知的財産権（IP）だけでなく安全性とセキュリティも考慮して製品を開発してきた」と述べ、この懸念を退けた。 ペントランドCLOは「今のように技術が急速に変わる時期には、創作物を安全に保護しながら作業できる製品を使うことが何より重要だ」とし、「ここで言う安全とは、知的財産権の規定とセキュリティ要件をすべて満たすことを意味する」と語った。無料で公開されたアドビのAI複製品はセキュリティ要件を備えていないため、企業顧客が導入するには限界があるとの説明である。 ペントランドCLOは「アドビは主要なIPの構築に数十年",
    "text": "",
    "text_status": "not_fetched"
   }
