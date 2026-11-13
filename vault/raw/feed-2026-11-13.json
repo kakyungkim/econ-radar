@@ -5,12 +5,12 @@
  "feeds": {
   "연합뉴스 경제": {
    "fetched": 120,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 경제": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 IT": {
@@ -20,7 +20,7 @@
   },
   "한국경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 경제": {
@@ -30,22 +30,22 @@
   },
   "매일경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "머니투데이": {
-   "fetched": 0,
-   "kept": 0,
-   "error": "RuntimeError: curl 28"
+   "fetched": 100,
+   "kept": 6,
+   "error": ""
   },
   "조선비즈": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 4,
    "error": ""
   },
   "Korea Times business": {
-   "fetched": 3,
-   "kept": 3,
+   "fetched": 0,
+   "kept": 0,
    "error": ""
   },
   "한국은행 보도자료": {
@@ -55,7 +55,7 @@
   },
   "히트뉴스": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "청년의사": {
@@ -85,7 +85,7 @@
   },
   "MarketWatch top stories": {
    "fetched": 10,
-   "kept": 5,
+   "kept": 0,
    "error": ""
   },
   "MarketWatch MarketPulse": {
@@ -94,8 +94,8 @@
    "error": ""
   },
   "FT home": {
-   "fetched": 10,
-   "kept": 5,
+   "fetched": 11,
+   "kept": 3,
    "error": ""
   },
   "WSJ markets": {
@@ -114,7 +114,7 @@
    "error": ""
   },
   "BBC Business": {
-   "fetched": 58,
+   "fetched": 55,
    "kept": 5,
    "error": ""
   },
@@ -135,7 +135,7 @@
   },
   "ECB press": {
    "fetched": 15,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   "SEC press": {
@@ -160,17 +160,17 @@
   },
   "STAT": {
    "fetched": 20,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "pharmaphorum": {
    "fetched": 10,
-   "kept": 5,
+   "kept": 3,
    "error": ""
   },
   "OncLive": {
    "fetched": 30,
-   "kept": 5,
+   "kept": 4,
    "error": ""
   },
   "BioPharma Dive": {
@@ -180,7 +180,7 @@
   },
   "Nature Biotechnology": {
    "fetched": 8,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   "TechCrunch AI": {
@@ -201,6 +201,127 @@
  },
  "items": [
   {
+   "title": "11월도 석유가격 '고정'…\"민생 안정 위한 가격 고정\"",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 18:00 KST",
+   "url": "https://www.mt.co.kr/economy/2026/11/13/2026111314410187904",
+   "summary": "오는 14일부터 실시하는 제12차 석유최고가격이 주유소에 공급되는 도매가격 기준 리터(ℓ) 당 휘발유 1784원, 경유 1773원, 등유 1380원으로 유지된다. 산업통상부는 향후 4주간 적용될 12차 석유 최고가격을 기존 11차 최고가격으로 동결한다고 13일 발표했다. 8차부터 약 5개월째(20주)연속 유지 중이다. 산업부 관계자는 \"최근 카타르 등의 중재에 따라 미-이란 종전 기대감은 높아지고 있으나 호르무즈 해협 인근 선박 피격이 지속되는 등 중동 지역의 불안은 여전한 상황\"이라며 \"국제유가는 두바이·브렌트유가 배럴당 90불대로 10월 평균 대비 하락했으나 현재 최고가격이 정해진 6월말보다는 배럴당 약 20불 이상 높은 수준\"이라고 밝혔다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[내일 날씨] 토요일 전국 가을비…낮 최고 17도 '포근'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 18:00 KST",
+   "url": "https://www.mt.co.kr/society/2026/11/13/2026111316551194404",
+   "summary": "토요일(14일)은 전국이 대체로 흐리고 대부분 지역에 비가 내리겠다. 13일 기상청에 따르면 내일은 새벽 인천과 경기남부, 강원남부내륙·산지, 경상권을 거쳐 오전에 서울을 비롯한 대부분 지역에 비가 내리겠다. 예상 강수량은 △서울·인천·경기남부·서해5도 5~10㎜ △경기북부 5㎜ 안팎 △강원도 5~10㎜ △대전·세종·충남·충북 5~30㎜ △광주·전남 10~40㎜ △전북 5~30㎜ △부산·울산·경남 10~40㎜ △대구·경북·울릉도·독도 5~30㎜ △제주도 10~60㎜다. 아침 최저기온은 △서울 10도 △ 대전 11도 △대구 10도 △전주 13도 △광주 12도 △부산 13도 △춘천 8도 △강릉 11도 △제주 17도 △울릉도·독도 15도 등이다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "AI 투자 여전히 뜨겁네…앤트로픽 IPO, 공모물량 6배 몰려",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 17:58 KST",
+   "url": "https://www.hankyung.com/article/2026111358661",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "넥슨화장품 다보, 'PDRN EGF 리쥬부스팅' 세럼·크림 2종 출시",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:58 KST",
+   "url": "https://www.mt.co.kr/industry/2026/11/13/2026111316182821512",
+   "summary": "산뜻한 세럼과 풍부한 보습 크림으로 구성…PDRN·EGF 함유 넥슨화장품의 스킨케어 브랜드 다보(DABO)가 PDRN과 EGF를 함유한 '다보 PDRN EGF 리쥬부스팅 세럼'과 '다보 PDRN EGF 리쥬부스팅 크림' 등 신제품 2종을 출시했다고 밝혔다. 이번 신제품은 세럼과 크림의 서로 다른 제형을 통해 일상적인 보습 관리를 할 수 있도록 구성했다. 두 제품 모두 연어 유래 PDRN 성분인 소듐디엔에이와 EGF 성분인 에스에이치-올리고펩타이드-1을 함유했다. '다보 PDRN EGF 리쥬부스팅 세럼'은 산뜻한 사용감을 고려한 제품이다. 판테놀과 나이아신아마이드, 아세틸헥사펩타이드-8 등을 함께 배합했으며, 건조하고 푸석한 피부에 수분과 영양감을 더하는 데 초점을 맞췄다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "중기부 2차 '모두의창업' 개인 정보 유출…1차 유출사고 5개월만(종합)",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:57 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113154952030",
+   "summary": "(서울=연합뉴스) 이상서 기자 = 중소벤처기업부는 2차 '모두의 창업' 참가자 지원 기업에서 개인정보가 유출된 정황을 확인했다고 13일 밝혔다.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "금호건설, 호실적에 상한가…우선주·금호전기도 '껑충'",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111358641",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "한혜진 \"15년 전 부케 받고 결혼할 줄, 아직까지 혼자\"",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:54 KST",
+   "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111317474934165",
+   "summary": "모델 겸 방송인 한혜진이 15년 전 친구 결혼식에서 부케를 받고 자신도 결혼할 줄 알았지만 여전히 혼자라고 털어놨다. 지난 12일 한혜진의 유튜브 채널에는 유튜버 풍자와 함께 차박 캠핑을 떠난 영상이 공개됐다. 영상에서 두 사람은 연애와 결혼에 관한 이야기를 나눴다. 한혜진은 \"그때까지만 해도 부케를 무작위로 던졌다. 내가 지금까지 딱 한 번 부케를 받아봤는데, 받는 순간 든 생각이 기분이 좋다가 아니라 '나 결혼하나 봐'였다\"고 회상했다. 이어 \"그때 사람들도 다 환호했다. 그런데 지금까지 혼자다\"라고 말해 웃음을 자아냈다. 이상형에 관한 이야기도 이어졌다. 풍자는 자신보다 키가 크고 건장한 연하 남성이 이상형이라고 밝혔다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[인사] 미래에셋증권",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:54 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113162400008",
+   "summary": "<신임>",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "만년 팀원이 좋다…'오피스 피터팬' 속출",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111358521",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"승진하기 싫어요\" 삼성도 골머리…'월 100만원' 카드 꺼냈다",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111357961",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"팀장 맡으면 돈 더 준다\"…中 기업들, 스톡옵션에 특별수당까지 [차이나 워치]",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:49 KST",
+   "url": "https://www.hankyung.com/article/202611060158i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“땡큐 젠슨 황, 저가매수 가즈아~”…美 개미, 엔비디아 1억1100만달러 매수",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -208,6 +329,61 @@
    "published": "2026-11-13 17:47 KST",
    "url": "https://www.mk.co.kr/news/stock/12207635",
    "summary": "뉴욕증시 개장후 30분 동안 사들여 동일시간 역대 최대 매수 규모 기록 일부는 단기 옵션 등 고위험 상품도 업계 “주가반등 기대감 여전히 강해”젠슨 황 최고경영자(CEO)의 전격 ..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "신성씨앤에스, '2026 블랙프라이데이' 3주간 진행…PC·노트북부터 모니터·RTX 워크스테이션까지",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:46 KST",
+   "url": "https://www.mt.co.kr/industry/2026/11/13/2026111114381697451",
+   "summary": "HP·삼성전자 공식 파트너사인 신성씨앤에스는 11월 3일부터 23일까지 3주간 기업 고객 대상 '2026 블랙프라이데이'를 진행한다고 밝혔다. 이번 행사는 HP·삼성 갤럭시북 등 업무용 PC·노트북은 물론 모니터, RTX 그래픽을 탑재한 고성능 제품까지 기업에 필요한 장비를 한자리에서 고를 수 있도록 구성했다. 신성씨앤에스는 반도체 시장의 불확실성이 이어지며 기업의 IT 장비 구매 부담이 커진 점을 고려해 이번 행사의 품목을 넓혔다고 설명했다. 부서 단위로 도입하는 사무용 PC·노트북(HP ProDesk 2 G1i, HP EliteBook, 삼성 갤럭시북6 엔터프라이즈 에디션)부터 모니터, 그래픽·설계·AI 연산을 위한 고성능 라인업까지 함께 선보인다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "지호한방삼계탕, 부산 프랜차이즈 창업박람회 참가…영남권 가맹 확대 나서",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:45 KST",
+   "url": "https://www.mt.co.kr/industry/2026/11/13/2026111312312316361",
+   "summary": "14일까지 벡스코서 맞춤형 창업 상담·가맹 지원 혜택 제공 11월 30일 개금역점서 사업설명회 개최…부산·울산·경남 공략 삼계탕 프랜차이즈 지호한방삼계탕이 부산 지역 예비 창업자와의 접점 확대를 위해 프랜차이즈 창업박람회에 참가했다. 지호한방삼계탕은 11월 12일부터 14일까지 부산 벡스코(BEXCO) 제1전시장에서 열리는 '2026 KFA 프랜차이즈 창업박람회 부산'에 참가해 예비 가맹점주를 대상으로 창업 상담을 진행하고 있다. 벡스코 제1전시장 3B홀 B37 부스에서는 1:1 맞춤형 창업 상담을 제공한다. 박람회 현장 상담 후 실제 가맹점 개설을 진행하는 경우 최대 1,000만 원 상당의 가맹 지원 혜택도 제공한다. 대표 메뉴인 한방삼계탕 무료 시식 행사도 마련했다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"AI 투자 축소 우려 있지만…AMD·브로드컴 공격 확장 땐 수혜\"",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:38 KST",
+   "url": "https://www.hankyung.com/article/2026111358231",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "삼성, 美 데이터센터 냉각업체 인수 추진",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:37 KST",
+   "url": "https://www.hankyung.com/article/2026111358131",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "정진완 우리은행장 1년 연임",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:36 KST",
+   "url": "https://www.hankyung.com/article/2026111358121",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -223,6 +399,28 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "반나절만에 돌아선 외국인 [한경 프리미엄9 TODAY]",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 17:34 KST",
+   "url": "https://www.hankyung.com/article/2026111357911",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[게시판] 우리은행, '우리WON 포트폴리오' 가입하면 최대 30만원 경품",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:34 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113157400002",
+   "summary": "▲ 우리은행은 12월 31일까지 '우리WON 포트폴리오' 신규 가입 고객에게 최대 30만원 상당 경품을 제공한다고 13일 밝혔다. 신규 가입자 ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "증권가 ‘4천피’ 경고 나왔다…“젠슨 황 사임, 반도체 불확실성 커져” [오늘 나온 보고서]",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -234,6 +432,61 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "중기부 ‘모두의 창업’ 2차 프로그램도 해킹…참가자 818명 개인정보 유출",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:30 KST",
+   "url": "https://biz.chosun.com/industry/business-venture/2026/11/13/Q53RZZ5WGVF7FLJNKFNL4AKEVY/",
+   "summary": "중소벤처기업부의 대국민 창업 오디션 ‘모두의 창업’ 2차 프로그램에서 외부 해킹으로 참가자 818명의 개인정보가 유출됐다. 1차 프로그램에 이어 두 번째 해킹 사고가 발생하면서 사업 참여자의 개인정보 관리에 대한 우려가 커지고 있다. 중기부는 2차 프로그램의 AI 솔루션 공급기업 50곳 중 하나인 ‘아미쿠스렉스’가 지난 11일 오전 8시 30분 자체 시스템에서 외부 해킹 공격 정황을 포착했다고 13일 밝혔다. 조사 결과 아미쿠스렉스가 보유·관리하던 개인정보 2만28명의 정보가 유출됐고, 이 가운데 ‘모두의 창업’ 2차 프로그램 참가자는 818명으로 확인됐다. 유출 항목은 이름과 전화번호, 이메일 주소다. 이번 사고는 참가자들이 아이디어 검증과 사업화를 위해 외부 AI 솔루션을 이용하는 과정에서 발생했다. 중기부는 AI 솔루션 공급기업 50곳을 선정해 이용료를 지원하고 있고, 참가자는 서비스 계정 발급에 필요한 개인정보의 제3자 제공에 동의한 뒤 각 기업의 자체 시스템에서 솔루션을 이",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "創業支援AIで個人情報流出818人分漏えい再発",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:30 KST",
+   "url": "https://biz.chosun.com/jp/jp-industry/2026/11/13/Q3OIRSHSXNESLGX4R3PDVFGRMY/",
+   "summary": "中小ベンチャー企業部の国民向け創業オーディション「みんなの創業」第2次プログラムで外部からのハッキングにより参加者818人の個人情報が流出した。第1次プログラムに続き2度目のハッキング事故が発生し、事業参加者の個人情報管理に対する懸念が高まっている。 中小ベンチャー企業部は、第2次プログラムのAIソリューション供給企業50社のうちの1社である「アミクスレックス」が11日午前8時30分、自社システムで外部からのハッキング攻撃の兆候を捕捉したと、13日に明らかにした。 調査の結果、アミクスレックスが保有・管理していた個人情報2万28人分の情報が流出し、このうち「みんなの創業」第2次プログラムの参加者は818人であることが確認された。流出項目は氏名と電話番号、メールアドレスである。 今回の事故は、参加者がアイデアの検証と事業化のために外部AIソリューションを利用する過程で発生した。中小ベンチャー企業部はAIソリューション供給企業50社を選定して利用料を支援しており、参加者はサービスアカウント発行に必要な個人情報の第三者提供に同意したうえで、各社の自社システムでソリューションを利用する。 創業",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[게시판] 농식품부, 15일까지 '2026 대한민국 우리술 대축제'",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:30 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113129300030",
+   "summary": "▲ 농림축산식품부는 13일부터 15일까지 서울 양재동 aT센터에서 '2026 대한민국 우리술 대축제'를 개최한다고 밝혔다. 이번 행사에는 전국 ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "유한양행 \"만성신장병 신약 임상1상 계획 식약처 승인받아\"",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:29 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113157700017",
+   "summary": "(서울=연합뉴스) 신선미 기자 = 유한양행[000100]은 만성신장병(CKD) 신약으로 개발 중인 'YH34180'의 임상 1상 시험계획(IND...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-13 17:27 KST",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+   "summary": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "시선AI, 산업부 ‘M.AX 얼라이언스’ 3개 분과 동시 승인… “제조 AX 공급 확대로 매출 성장 기대”",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -241,6 +494,72 @@
    "published": "2026-11-13 17:27 KST",
    "url": "https://www.mk.co.kr/news/stock/12207624",
    "summary": "인공지능 전문 기업 시선AI는 산업통상부 주관 민관 협력 AI 전환 플랫폼인 ‘M.AX 얼라이언스’에서 산단AX, 방산, 팩토리 등 총 3개 핵심 분과 등록 승인을 동시에 획득했다..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "중기부 2차 '모두의 창업'서 참가자 818명 개인정보 유출",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 17:26 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261113154951030",
+   "summary": "(서울=연합뉴스) 이상서 기자 = 중소벤처기업부는 2차 '모두의 창업' 참가자 지원 기업에서 개인정보가 유출된 정황을 확인했다고 13일 밝혔다.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[단독] 쏘카 '파격 실험'…\"타던 차 팔면 포인트 지급\"",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-13 17:25 KST",
+   "url": "https://www.hankyung.com/article/2026111357681",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"HBM 없는 AI 추론…열 빼기 쉬운 적층 구조가 해법\"",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-13 17:23 KST",
+   "url": "https://www.hankyung.com/article/2026111357651",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "日 찾은 韓 스타트업 10곳, 라인야후 등과 협력 확대",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-13 17:23 KST",
+   "url": "https://www.hankyung.com/article/2026111357661",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "엔비디아 폭락에 '줍줍'했는데…\"당장 빠져나와라\" 강력 경고",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 17:17 KST",
+   "url": "https://www.hankyung.com/article/2026111356787",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-13 17:17 KST",
+   "url": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html",
+   "summary": "Starshield is SpaceX's military-grade satellite network designed for government and national security use, building on the technology developed for Starlink.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -278,6 +597,50 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "유한양행, 자체 발굴 신약 1상 진입…신장병 치료제 개발 나선다",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-13 16:57 KST",
+   "url": "https://www.hankyung.com/article/202611135661i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "李대통령 \"증안펀드 적정 가동 방식 재검토해야\"",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 16:45 KST",
+   "url": "https://www.hankyung.com/article/202611135641i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "李 대통령 \"IR 안하는 상장사, 자격 의문\"…거래소 \"코스닥 연 1회 의무화 추진\"",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-13 16:44 KST",
+   "url": "https://www.hankyung.com/article/202611135520i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-13 16:29 KST",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-without-jensen-huang-what-lies-ahead-for-asian-chipmakers-.html",
+   "summary": "Nvidia's leadership shake-up raises questions for Asian chipmakers, though analysts expect limited near-term disruption.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "금융지주 회장 연임 문턱 높여도…10명 중 8명은 가볍게 넘는다",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -300,6 +663,50 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Isabel Schnabel: Made in Europe",
+   "source": "ECB press",
+   "lang": "en",
+   "section": "policy",
+   "published": "2026-11-13 16:20 KST",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-13 16:15 KST",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+   "summary": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[가봤어요] 브랜드 수 절반 줄인 컬리뷰티페스타… 관람객 반응은 제각각",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 16:07 KST",
+   "url": "https://biz.chosun.com/distribution/channel/2026/11/13/ZAYKVTOXFJHNBFOODAIK6G62GQ/",
+   "summary": "“부스가 확실히 줄었어요. 그래도 유명한 브랜드가 많고, 기초 화장품을 중심으로 모아놔서 구경하기는 편해졌어요.” 13일 서울 동대문디자인플라자(DDP)에서 열린 ‘컬리뷰티페스타 2026’을 찾은 곽소연(33)씨는 지난해와 달라진 행사장 분위기에 대해 이같이 말했다. 올해 두 번째로 행사장을 찾았다는 곽씨는 “작년에는 오래 기다린 것에 비해 샤쉐(샘플)가 많았는데 올해는 본품을 주는 비율이 높은 편”이라면서도 “색조 브랜드가 확실히 적어져 어린 관람객들은 아쉬워하는 것 같다”고 말했다. 올해로 3회째인 컬리뷰티페스타는 지난 12일부터 오는 15일까지 나흘간 DDP 아트홀에서 진행된다. 행사에는 SK-II, 유세린, 사봉, 시세이도프로페셔널 등 45개 브랜드가 참여했다. 2024년 첫 행사 당시 90여 개였던 참여 브랜드 수는 지난해 60개, 올해 45개로 줄었다. 첫 행사와 비교하면 절반 수준이다. 관람객 편의를 높이고 브랜드별 체험 공간을 확대하기 위해 참여 브랜드 수를 조정했다는",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Kurlyビューティーフェスタ縮小も評価割れる 有名ブランドと基礎強化",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-13 16:07 KST",
+   "url": "https://biz.chosun.com/jp/jp-retail/2026/11/13/CC4KQ5CCZFGJTJCN7MBCXP3IRY/",
+   "summary": "「ブースは確かに減った。それでも有名ブランドが多く、基礎化粧品を中心にまとめてあるので見て回りやすくなった」 13日、ソウルの東大門デザインプラザ（DDP）で開かれた「Kurlyビューティーフェスタ2026」を訪れたクァク・ソヨン（33）は、昨年と変わった会場の雰囲気についてこのように語った。今年2回目の来場だというクァク氏は「昨年は長く待ったわりにサシェ（サンプル）が多かったが、今年は本品を渡す比率が高い方だ」としつつも「カラーメイクのブランドが確かに減って、若い来場者は物足りなく感じているようだ」と述べた。 今年で3回目のKurlyビューティーフェスタは12日から15日までの4日間、DDPアートホールで実施される。イベントにはSK-II、ユセリン、サボン、資生堂プロフェッショナルなど45ブランドが参加した。2024年の初回開催時に約90だった参加ブランド数は、昨年60、今年は45へと減少した。初回と比べると半分水準である。来場者の利便性を高め、ブランド別の体験スペースを拡充するため参加ブランド数を調整したというのが会社側の説明だ。 会場は朝・昼・夕方・夜の4つのゾーンに分け、時間帯",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“시장에만 맡기면 못 버텨”…동물대체시험법 기업, 규제 미비에 투자 난항",
    "source": "청년의사",
    "lang": "ko",
@@ -311,79 +718,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Google complies with Korea's security requirements for high-precision map data: gov't",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-13 15:47 KST",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261113/google-complies-with-koreas-security-requirements-for-high-precision-map-data-govt?utm_source=rss",
-   "summary": "The Korean government said Friday that Google has complied with security requirements imposed as a condition for allowing the transfer of high-precision map data overseas. The Ministry of Land, Infrastructure and Transport said a government-led consultation body reviewed Google's implementation of security measures following its conditional approval in February to export 1:5,000-scale digital map data. The review found that the global tech giant had implemented measures to prevent the exposure o",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Conversion of credit card points to cash vouchers to be allowed starting May",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-13 15:47 KST",
-   "url": "https://www.koreatimes.co.kr/business/20261113/conversion-of-credit-card-points-to-cash-vouchers-to-be-allowed-starting-may?utm_source=rss",
-   "summary": "Credit card users will be able to convert their dormant reward points into regional cash vouchers starting May next year, officials said Friday, as part of efforts to boost consumption and breathe vitality into local economies, The government announced the measure after President Lee Jae Myung instructed officials in late June to allow the conversion of \"various hidden or dormant points into local currency to boost consumer vitality and revitalize traditional markets and neighborhood shops,\" off",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "China's memory makers are catching up. What happens when they do?",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-13 15:47 KST",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261113/chinas-memory-makers-are-catching-up-what-happens-when-they-do?utm_source=rss",
-   "summary": "The memory business has rarely had it this good, thanks to the artificial intelligence (AI) boom. Korea’s chipmakers are reporting extraordinary earnings and unusual confidence that the good times will last. SK hynix’s third-quarter operating profit rose more than sevenfold to 83.3 trillion won ($62 billion), an operating margin of almost 80 percent. Samsung Electronics’ rose nearly ninefold to 107.4 trillion won, with its memory business setting records of its own. Across the West Sea, China’s ",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 15:42 KST",
-   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-   "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "목포해양대, 교내서 취업박람회…50개 해운기업 참여",
-   "source": "연합뉴스 경제",
+   "title": "쏘카, 3분기 '역대 최대' 매출…단기 렌트 넘어 장기구독 승부",
+   "source": "한국경제 IT",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:40 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113124800054",
-   "summary": "(목포=연합뉴스) 조근영 기자 = 국립 목포해양대학교가 취업박람회를 열어 학생들에게 취업·진로 탐색의 장을 마련했다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "未払い賃金で朴・永祐元会長に懲役4年",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:40 KST",
-   "url": "https://biz.chosun.com/jp/jp-society/2026/11/13/UZ3DRSMI3ZGYZEQUEOXFUXFANI/",
-   "summary": "労働者への賃金未払いの疑いで1審で懲役4年6月の判決を受けたパク・ヨンウ元デユWINIAグループ会長が、控訴審で懲役4年の判決を言い渡された。 13日、水原高裁第2刑事部（高裁判事キム・ゴヌ、イム・ジェナム、ソ・ジョンヒ）は、労働基準法違反などの容疑で起訴されたパク元会長に懲役4年を宣告し、法廷拘束した。 パク元会長は2020年10月から2023年9月まで、デユWINIAグループの系列会社であるWINIA電子の労働者670人の賃金と退職金など約496億ウォンを滞納し、系列会社の資金10億ウォンを横領した疑いで起訴された。 1審で実刑を言い渡され収監されたパク元会長は、昨年9月に健康上などの理由で保釈を申請し、裁判所が認めて釈放された。 パク元会長側は1審から控訴審に至るまで「労働基準法上の『使用者性』は存在しない」と主張した。 しかし控訴審の裁判部は、原審と同様にパク元会長が労働基準法上の「事業経営担当者」に当たり「使用者性がある」と判断した。 控訴審の裁判部は「パク元会長が事実上、会社を経営したとみられる」とし、「持株会社の最大株主として各社の経営について実質的に経営したとみることが",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘임금체불’ 박영우 전 대유위니아 회장, 2심서 징역 4년… 법정 구속",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:40 KST",
-   "url": "https://biz.chosun.com/topics/topics_social/2026/11/13/TAGWZOWLMRH5HIUJ3IDEFJOPDA/",
-   "summary": "근로자 임금체불 혐의로 1심에서 징역 4년 6개월을 선고받은 박영우 전 대유위니아그룹 회장이 항소심에서 징역 4년형을 선고받았다. 13일 수원고법 제2형사부(고법판사 김건우 임재남 서정희)는 근로기준법 위반 등 혐의로 재판에 넘겨진 박 전 회장에게 징역 4년을 선고하고, 법정구속했다. 박 전 회장은 지난 2020년 10월부터 2023년 9월까지 대유위니아그룹 계열사인 위니아전자 근로자 670명의 임금과 퇴직금 등 약 496억원을 체불하고, 계열사 자금 10억원을 횡령한 혐의로 기소됐다. 1심에서 실형을 선고받아 구속된 박 전 회장은 지난해 9월 건강상 등의 이유로 보석을 신청했고, 법원에서 받아들여 석방됐다. 박 전 회장 측은 1심에서부터 항소심에 이르기까지 “근로기준법상 ‘사용자성’이 존재하지 않는다”고 주장했다. 하지만 항소심 재판부는 원심과 같이 박 전 회장이 근로기준법상 ‘사업경영담당자’에 해당해 ‘사용자성이 있다’고 판단했다. 항소심 재판부는 “박 전 회장이 사실상 회사를 ",
+   "section": "ai",
+   "published": "2026-11-13 15:52 KST",
+   "url": "https://www.hankyung.com/article/202611135100i",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -399,50 +740,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "'전강후약' 코스피, 0.98% 하락 마감…코스닥 0.4%↑",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:38 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113129200008",
-   "summary": "(서울=연합뉴스) 김유향 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 사임한 가운데 코스피는 13일 강한 상승세로 출발했으나 하락 반전, 결...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "전북도의원 \"협약 후 1조2천억 투자 무산…기업 사후 관리 엉망\"",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:37 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113127800055",
-   "summary": "(전주=연합뉴스) 임채두 기자 = 이차전지 소재 전구체 생산 기업인 지이엠코리아가 1조2천억원 규모의 새만금 투자를 철회한 것을 두고 전북특별자...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "외국환시세(11월13일·15:30 기준가)",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:36 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113128900002",
-   "summary": "(15:30)",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[속보] 원·달러 환율, 6원 오른 1336.7원",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:35 KST",
-   "url": "https://biz.chosun.com/policy/policy_sub/2026/11/13/CDODHFSUNRFHHIXFTHZQ5WPA3E/",
-   "summary": "미 달러화 대비 원화 환율(원·달러 환율)은 13일 오후 3시 30분 1336.7원으로 주간 거래를 마쳤다. 직전 거래일 주간 종가보다 6원(0.45%) 올랐다. 같은 기준으로 지난 10일부터 4거래일 연속 1330원대를 유지하고 있는 것이다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "지역·필수의료 예산 대폭 늘렸지만…국회는 ‘실효성’ 지적",
    "source": "청년의사",
    "lang": "ko",
@@ -450,50 +747,6 @@
    "published": "2026-11-13 15:34 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534",
    "summary": "정부가 지역·필수의료 강화 예산을 대폭 늘렸지만 국회 심사 과정에서 사업별 실효성과 집행 가능성이 쟁점으로 떠올랐다. 전공의 수련수당, 지역 의료 인프라 확충, 중증외상과 고위험 산모·신생아 지원 예산이 실제 의료공백 해소로 이어질지 의문이 제기됐다.국회 보건복지위원회는 13일 오전 전체회의를 열고 전날(12일) 예산결산심사소위원회에서 논의됐던 보건복지부의 2027년도 예산안과 기금운용계획안을 심사할 예정이다.먼저 복지부는 필수의료 분야 전공의와 전임의의 수련수당 지원 예산으로 474억1,100만원을 편성했다. 올해 본예산 397억",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "교보증권, 3분기 영업이익 177억원…전분기 대비 85%↓",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:34 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113126900008",
-   "summary": "(서울=연합뉴스) 정회인 기자 = 교보증권[030610]은 올해 3분기 연결 기준 영업이익이 177억원으로 지난해 같은 기간보다 56.4% 감소...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 15:34 KST",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
-   "summary": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "半導体で営業益格差10倍 是正策検討",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:34 KST",
-   "url": "https://biz.chosun.com/jp/jp-industry/2026/11/13/BWBK43B7NFFLFESHAXARNTKPZ4/",
-   "summary": "「半導体輸出が成長率の改善を牽引しているが、半導体分野の大企業と中小企業の営業利益格差は依然として10倍に達している。」 イ・ソヨン中小ベンチャー企業部長官が、半導体産業における大企業と中小企業の収益の二極化問題を指摘し、成果共有の必要性を強調した。イ長官は12日夜、自身のフェイスブックに「きょうメガプロジェクト会議に行って感じた点」との題名の投稿を上げ、こう述べた。 イ長官はこの日、李在明大統領が主宰した「メガプロジェクト第4次点検会議」に出席し、「メガプロジェクトにおける中小企業の役割拡大案」を発表した。会議終了後の深夜ごろには、出席の所感とともに半導体産業の構造的な問題を指摘した。 イ長官は「本来メガプロジェクトは産業通商資源部が主導し、中小ベンチャー企業部は会議の出席対象ではなかった」とし、「前回の会議で大統領が直接、中小ベンチャー企業部の参加方針を決め、きょうは中小企業の困難を直接伝える中小企業人もともに出席した」と説明した。イ長官は「これは非常に意味のあることだ」とし、「結局、われわれが言う成長は『一部の成長』であってはならない」と強調した. イ長官は特に、半導体産業の成長",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "이소영 장관 “반도체 대기업, 中企 영업익 격차 10배…대통령도 주목, 구조 개선해야”",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 15:34 KST",
-   "url": "https://biz.chosun.com/industry/business-venture/2026/11/13/WCWNBWHBS5AHTFDSSKOTP36ZWE/",
-   "summary": "“반도체 수출이 성장률 개선을 이끌고 있지만, 반도체 분야 내 대기업과 중소기업 간 영업이익 격차는 여전히 10배에 이릅니다.” 이소영 중소벤처기업부 장관이 반도체 산업의 대기업과 중소기업 간 수익 양극화 문제를 지적하며 성과 공유의 필요성을 강조했다. 이 장관은 지난 12일 밤 자신의 페이스북에 ‘오늘 메가 프로젝트 회의에 다녀오며, 느낀 점’이라는 제목의 글을 올리고 이같이 밝혔다. 이 장관은 이날 이재명 대통령이 주재한 ‘메가프로젝트 4차 점검회의’에 참석해 ‘메가프로젝트 중소기업 역할 확대 방안’을 발표했다. 회의가 끝난 뒤 자정 무렵에는 참석 소감과 함께 반도체 산업의 구조적 문제를 짚었다. 이 장관은 “원래 메가프로젝트는 산업통상부가 주도하고 중기부는 회의 참석 대상이 아니었다”며 “지난 회의에서 대통령이 직접 중기부 참여 방침을 결정했고, 오늘 중소기업의 어려움을 직접 전달할 중소기업인도 함께 참석했다”고 설명했다. 이 장관은 “이것은 매우 의미 있는 일”이라며 “결국 ",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -516,39 +769,6 @@
    "published": "2026-11-13 15:21 KST",
    "url": "https://www.bbc.co.uk/news/articles/c5zjxjzx2dpwo?at_medium=RSS&at_campaign=rss",
    "summary": "Producers claimed without more support, they could be forced to stop using British-grown apples.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "엘앤씨바이오, '메가카티' 다기관 임상 학술 가치 인정…최우수 연제상 수상",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-13 15:15 KST",
-   "url": "https://www.hankyung.com/article/202611135371i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"급락장에 속지 마라…결국 제자리 찾아간다\"",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-13 15:13 KST",
-   "url": "https://www.hankyung.com/article/202611135090i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "메디톡스, 의료진 대상 하안면 복합시술 세미나 개최",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-13 15:11 KST",
-   "url": "https://www.hankyung.com/article/202611135364i",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -597,13 +817,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Microsoft races to restore services after global outage",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-13 15:03 KST",
-   "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-   "summary": "Issue affecting Outlook, Teams and other services not caused by ‘malicious or cyber activity’, company says",
+   "title": "'유연계약' 통했다…펙수클루 UAE 약가 1000원대→2000원대",
+   "source": "히트뉴스",
+   "lang": "ko",
+   "section": "bio",
+   "published": "2026-11-13 15:05 KST",
+   "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=80733",
+   "summary": "[히트뉴스=이현주 기자] 올해 6월 적용된 '약가유연계약제'가 국산 신약의 해외 약가 협상에서 성과를 냈다. 대웅제약의 위식도역류질환 치료제 '펙수클루(펙수프라잔)'가 국내 약가유연계약을 근거로 아랍에미리트(UAE)에서 당초 제시된 가격보다 높은 약가를 인정받은 것이다.12일 관련 업계에 따르면 대웅제약은 최근 UAE 규제당국과 펙수클루 약가 재심사에서 기존 1000원대였던 약가를 2000원대로 높이는 데 성공했다.당초 펙수클루는 UAE 1차 약가협상에서 원화 환산 기준 1000원대의 가격을 제시받았다. 그러나 지난 6월 국내에서",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -620,56 +840,12 @@
   },
   {
    "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-   "source": "CNBC top news",
+   "source": "CNBC technology",
    "lang": "en",
-   "section": "markets",
+   "section": "ai",
    "published": "2026-11-13 14:51 KST",
    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
    "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "美 원전 데이터 다루던 남자…설렁탕 회사 핵심 인재 된 까닭 [씬메이커]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 14:51 KST",
-   "url": "https://www.hankyung.com/article/202611134361g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"젠슨 황 대신할 사람 있나\"…사퇴 직전 직원들 여론 봤더니",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 14:51 KST",
-   "url": "https://www.hankyung.com/article/2026111352327",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "현대홈쇼핑 법인분할 조건부 승인…책임경영 재원 500억원 확약 요구",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 14:33 KST",
-   "url": "https://www.hankyung.com/article/202611135198g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[속보] 정진완 우리은행장 연임 결정…임기 1년",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 14:15 KST",
-   "url": "https://www.hankyung.com/article/2026111351797",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -685,6 +861,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Why tech CEOs love black leather jackets",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-13 14:00 KST",
+   "url": "https://www.ft.com/content/186f48b8-6574-48be-b0f2-3dcbac5dc24d",
+   "summary": "Beyond just unfathomably wealthy middle-aged men cosplaying cool, Silicon Valley leaders wearing biker jackets highlight an uneasy convergence of monetary capital with cultural cachet",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“이러다 노후 자금 다 날리겠어” … 5060 폐업 급증에 찾아낸 생존법",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -692,105 +879,6 @@
    "published": "2026-11-13 14:00 KST",
    "url": "https://www.mk.co.kr/news/economy/12206515",
    "summary": "폐업 사업자 2년 연속 100만명 안팎 ‘전문가 렌털’로 실패 위험 줄이는 방법보통 60세 안팎에 직장을 떠나더라도 생계를 위해 다시 일해야 하는 게 현실이다. 이들이 새로운 소득..",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "누보, 인니 팜오일 시장 공략 성과…매출 전년비 2배↑",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-13 13:59 KST",
-   "url": "https://www.hankyung.com/article/2026111351236",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "한국예탁결제원 \"미수령 주식·대금 1425억원 주주에 교부\"",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-13 13:56 KST",
-   "url": "https://www.hankyung.com/article/2026111351246",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "윤창현 코스콤 사장, 불법사금융 예방 캠페인 참여",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-13 13:52 KST",
-   "url": "https://www.hankyung.com/article/2026111351186",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "비에이치아이, 3분기 영업익 403억원…전년 동기 대비 120%↑",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-13 13:51 KST",
-   "url": "https://www.hankyung.com/article/2026111351136",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "제이엔비, 3분기 영업이익 5.8억 흑자전환…매출 48% 증가",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-13 13:49 KST",
-   "url": "https://www.hankyung.com/article/2026111351086",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "삼성바이오 노조 2명 공소청 송치…영업비밀 유출 등 혐의",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-13 13:47 KST",
-   "url": "https://www.hankyung.com/article/202611135037i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 13:46 KST",
-   "url": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-   "summary": "There is already a demographic ‘run’ on Social Security.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Outlook, Teams and More Microsoft Programs Disrupted by Outage",
-   "source": "NYT Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-13 13:28 KST",
-   "url": "https://www.nytimes.com/2026/11/12/business/microsoft-outlook-down-outage-email.html",
-   "summary": "The outage began early Thursday afternoon, causing problems for offices, agencies and individuals around the globe.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Nscale warns it needs more cash ahead of $35bn IPO",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-13 13:10 KST",
-   "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
-   "summary": "Nvidia-backed ‘neocloud’ tells investors it must obtain additional financing to fulfil Anthropic contracts",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -806,28 +894,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "\"돈 더 줘도 팀장 안합니다\"…차라리 '만년 팀원' 택한 직장인들 [리멤버 오피스워]",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-13 13:00 KST",
-   "url": "https://www.hankyung.com/article/202611118945g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "As Nvidia reels from Huang's affairs, who stands to gain?",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 12:59 KST",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
-   "summary": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
    "source": "BBC Business",
    "lang": "en",
@@ -839,13 +905,24 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "The downfall of Jensen Huang",
+   "title": "Jensen Huang’s final days at Nvidia",
    "source": "FT home",
    "lang": "en",
    "section": "macro",
    "published": "2026-11-13 12:47 KST",
    "url": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
    "summary": "After 33 years building Nvidia into the world’s most valuable company, its founder’s career disintegrated in less than two weeks",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Expanding Clinical Trial Access Through Community Oncology",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-13 12:15 KST",
+   "url": "https://www.onclive.com/view/expanding-clinical-trial-access-through-community-oncology",
+   "summary": "Age, geographic location, transportation barriers, and language and communication barriers may limit patient opportunities to participate in research.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -861,13 +938,24 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "US cannot reach a deal to end Ukraine war without Europe, says Kushner",
-   "source": "FT home",
+   "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "macro",
-   "published": "2026-11-13 11:08 KST",
-   "url": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
-   "summary": "American envoy’s comments come as European leaders reject Russian push to overhaul continent’s security",
+   "section": "markets",
+   "published": "2026-11-13 11:56 KST",
+   "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
+   "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "RAS Inhibition With Daraxonrasib Marks a Turning Point in Pancreatic Cancer Management",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-13 11:00 KST",
+   "url": "https://www.onclive.com/view/ras-inhibition-with-daraxonrasib-marks-a-turning-point-in-pancreatic-cancer-management",
+   "summary": "Drs Park and Marshall traced the evolution of pancreatic cancer management over the past decades, culminating in the emergence of RAS-directed therapy.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -905,24 +993,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Howard Lutnick Took Softer Line on Nvidia as Calls for Tougher Controls Grew",
-   "source": "NYT Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-13 10:28 KST",
-   "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
-   "summary": "Critics say Howard Lutnick, the commerce secretary, and his department have shielded Nvidia as concerns have grown over A.I. chip sales to firms like Megaspeed.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Windward prices $175M IPO to advance China-licensed lung drugs",
    "source": "BioPharma Dive",
    "lang": "en",
    "section": "bio",
    "published": "2026-11-13 10:22 KST",
    "url": "https://www.biopharmadive.com/news/windward-ipo-pricing-immune-drugs-china-deals-tezspire/874533/",
-   "summary": "The Swiss biotech has two prospects it sees as having the potential to outcompete AstraZeneca and Amgen's blockbuster asthma treatment Tezspire.",
+   "summary": "The Swiss biotech, which pocketed another $50 million through a concurrent private share sale to Sanofi, is developing a potential competitor to the blockbuster asthma treatment Tezspire.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -949,13 +1026,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "파트너사 헨리우스 美 허가 인력 채용 소식…앱클론 14% 급등",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-13 10:02 KST",
-   "url": "https://www.hankyung.com/article/202611134576i",
-   "summary": "",
+   "title": "A unified and practical taxonomy for false discovery rate control in omics research",
+   "source": "Nature Biotechnology",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-13 09:00 KST",
+   "url": "https://www.nature.com/articles/s41587-026-03379-8",
+   "summary": "Nature Biotechnology, Published online: 13 November 2026; doi:10.1038/s41587-026-03379-8 False discovery rate (FDR) control is central to omics research, yet the diverse procedures used rely on different assumptions. This Comment proposes a 2 × 2 matrix that helps sequencing-based and mass-spectrometry-based omics researchers choose the appropriate family of FDR procedures, or alternative methods that may be more rigorous, depending on data and study design.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -982,57 +1059,35 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Dr Levy on Where Iza-Bren May Fit Following Osimertinib In EGFR-Mutated NSCLC",
-   "source": "OncLive",
+   "title": "From Jell-O to Philadelphia cream cheese, Kraft Heinz is putting a new spin on old favorites",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "bio",
-   "published": "2026-11-13 08:16 KST",
-   "url": "https://www.onclive.com/view/dr-levy-on-where-iza-bren-may-fit-following-osimertinib-in-egfr-mutated-nsclc",
-   "summary": "Benjamin P. Levy, MD, explains the rationale for dual EGFR and HER3 targeting with iza-bren and the open sequencing questions after osimertinib.",
+   "section": "markets",
+   "published": "2026-11-13 08:41 KST",
+   "url": "https://www.cnbc.com/2026/11/12/kraft-heinz-bets-on-protein-foods-to-revive-sales.html",
+   "summary": "Kraft Heinz CEO Steve Cahillane is betting on new products, including cheesy ramen and protein-packed Jell-O pudding, to revive growth.",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "Nscale updates IPO prospectus that shows widening loss",
+   "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
    "source": "CNBC technology",
    "lang": "en",
    "section": "ai",
-   "published": "2026-11-13 08:12 KST",
-   "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
-   "summary": "Nvidia-backed neocloud Nscale on Thursday released updated paperwork for a U.S. initial public offering showing a widening loss.",
+   "published": "2026-11-13 08:14 KST",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
+   "summary": "Without Huang, Cramer said Thursday, \"There won't be a better Nvidia, just a different one.\"",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "Dr Levy on Individualizing Frontline Treatment Escalation in EGFR-Mutant NSCLC",
-   "source": "OncLive",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-13 08:10 KST",
-   "url": "https://www.onclive.com/view/dr-levy-on-individualizing-frontline-treatment-escalation-in-egfr-mutant-nsclc",
-   "summary": "Benjamin P. Levy, MD, explains how patient factors, TP53 co-mutations, and brain metastases guide his first-line choices in EGFR-mutant lung cancer.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-   "source": "MarketWatch top stories",
-   "lang": "en",
+   "title": "주식 손실 나도 못 파는 개인투자자…3명 중 2명 ‘보유·물타기’",
+   "source": "매일경제 증권",
+   "lang": "ko",
    "section": "markets",
-   "published": "2026-11-13 07:57 KST",
-   "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
-   "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Dr Levy on How the EGFR-Targeted Therapy Landscape Has Evolved in NSCLC",
-   "source": "OncLive",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-13 07:56 KST",
-   "url": "https://www.onclive.com/view/dr-levy-on-how-the-egfr-targeted-therapy-landscape-has-evolved-in-nsclc",
-   "summary": "Benjamin P. Levy, MD, discusses how osimertinib-based and amivantamab-based combinations are reshaping first-line care for EGFR-mutated non-small cell lung cancer.",
+   "published": "2026-11-13 07:59 KST",
+   "url": "https://www.mk.co.kr/news/stock/12207149",
+   "summary": "국내 개인투자자 3명 중 2명은 손실이 난 종목을 계속 보유하거나 추가 매수에 나서고 있다는 보고서가 나왔다. 토스 금융경영연구소 토스인사이트가 12일 발간한 ‘국내 개인 투자자들..",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1059,17 +1114,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Opening trading-card packs has become a $2 billion market",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 07:38 KST",
-   "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-   "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Muse can now place calls to US businesses — if you pay",
    "source": "TechCrunch AI",
    "lang": "en",
@@ -1081,24 +1125,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-   "source": "MarketWatch top stories",
+   "title": "Here’s the latest.",
+   "source": "NYT Business",
    "lang": "en",
-   "section": "markets",
+   "section": "macro",
    "published": "2026-11-13 07:16 KST",
-   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-   "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-13 07:00 KST",
-   "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-   "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+   "url": "https://www.nytimes.com/live/2026/11/12/business/nvidia-jensen-huang-resigns/heres-the-latest",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1114,17 +1147,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "The unfolding Jensen Huang scandal: a timeline",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-13 06:35 KST",
-   "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
    "source": "TechCrunch AI",
    "lang": "en",
@@ -1136,35 +1158,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
-   "source": "CNBC technology",
+   "title": "Nvidia Stock Tumbles After Jensen Huang Resigns as CEO",
+   "source": "NYT Business",
    "lang": "en",
-   "section": "ai",
-   "published": "2026-11-13 05:59 KST",
-   "url": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html",
-   "summary": "Trump's tariffs, which have ignited trade wars with multiple U.S. economic partners, will likely be a top target for Democrats once they take control of Congress.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-13 05:32 KST",
-   "url": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-   "summary": "Nvidia CEO Jensen Huang has been a singular figure in the development of the AI industry, which suddenly has to survive without him.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-13 05:28 KST",
-   "url": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html",
-   "summary": "Sen. Tom Cotton is urging the Commerce secretary to add CXMT to its \"Entity List\" as the fast-growing Chinese memory maker expands in DRAM and pushes into HBM.",
+   "section": "macro",
+   "published": "2026-11-13 06:15 KST",
+   "url": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
+   "summary": "News that the chipmaker’s chief executive, Jensen Huang, resigned drove Nvidia’s stock down, though the broader market rose slightly.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1235,13 +1235,24 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "FDA's speedy voucher program is dead: report",
+   "title": "FDA's speedy voucher program is dead — report",
    "source": "Endpoints News",
    "lang": "en",
    "section": "bio",
    "published": "2026-11-13 04:34 KST",
    "url": "https://endpoints.news/fdas-speedy-voucher-program-is-dead-report/",
    "summary": "Despite issuing no new vouchers in the six months since former FDA Commissioner Marty Makary left the agency, and a report suggesting the program has been shelved, the FDA still contends it's running the Commissioner’s ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-13 04:27 KST",
+   "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+   "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1433,6 +1444,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "STAT+: Pharmalittle: We’re reading about FDA shelving fast-track review, a Canadian importer arrested, and more",
+   "source": "STAT",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-12 23:14 KST",
+   "url": "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss",
+   "summary": "The FDA has shelved the fast-track drug review initiative launched in June 2025 by former Commissioner Marty Makary",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "The Download: COP31’s climate challenge and the quest for immortality",
    "source": "MIT Technology Review",
    "lang": "en",
@@ -1455,17 +1477,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "NHS use of Incyte's anal cancer drug Zynyz backed by NICE",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-12 20:27 KST",
-   "url": "https://pharmaphorum.com/news/nhs-use-incytes-anal-cancer-drug-zynyz-backed-nice",
-   "summary": "NHS use of Incyte's anal cancer drug Zynyz backed by NICE Phil.Taylor Thu, 12/11/2026 - 11:27",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "The return of the snatch-and-grab state",
    "source": "Economist finance",
    "lang": "en",
@@ -1484,17 +1495,6 @@
    "published": "2026-11-12 19:38 KST",
    "url": "https://www.economist.com/finance-and-economics/2026/11/12/where-to-find-the-anti-ai-trade",
    "summary": "The worse chipmakers do, the better Indian equities perform",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "A certificate of analysis should be evidence, not a sales document",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-12 19:37 KST",
-   "url": "https://pharmaphorum.com/rd/certificate-analysis-should-be-evidence-not-sales-document",
-   "summary": "A certificate of analysis should be evidence, not a sales document Nicole.Raleigh Thu, 12/11/2026 - 10:37",
    "text": "",
    "text_status": "not_fetched"
   },
