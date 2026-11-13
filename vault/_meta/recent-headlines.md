@@ -1,7 +1,7 @@
 ---
 type: meta
 tags: [운영, dedup]
-timestamp: 2026-11-12T18:00:00+09:00
+timestamp: 2026-11-13T18:50:00+09:00
 publish: false
 ---
 # 최근 헤드라인 (recent-headlines) — 중복 회피 기준
@@ -14,6 +14,13 @@ publish: false
 > 사람이 손으로 만든 발행본도 여기 반영한다(아래 6/10·6/11은 수작업 발행분).
 
 ---
+
+## 2026-11-13
+- [후속] 젠슨 황 Nvidia CEO 전격 사임 — 장중 -13%·종가 -4%, AMD·브로드컴 +5% 반사이익, 의회 양당 조사
+- 한국 토종 AI칩 8종 2030년까지 — M.AX 얼라이언스 8,002억 원 로드맵, 삼성 2나노 우선 배정
+- Pfizer 월 1회 비만 주사제 berobenatide 3상에 블랙스톤 $1.5B — PE 자본의 임상 직접 투자
+- BMS R&D 통합 개편 — CMO Massacesi 주도, 연구 책임자 Robert Plenge 퇴임
+- 미 국채금리 2022년 이후 최대 급등 — Fed 12월 추가 인상 기대, Rezera IPO 연기
 
 ## 2026-11-12
 - Nvidia CEO 젠슨 황 해임 준비 — 2번째 불륜 폭로(사내 임원)·이사회 협의, 주가 시간외 -8.9%
@@ -35,17 +42,3 @@ publish: false
 - Novartis 졸젠스마 암 발생 9례 — AAV insertional mutagenesis 2건 확인, 유전자치료 안전성 논쟁
 - OpenAI $1.25조 조달 vs Anthropic IPO $1.5조 하회 경고 — AI 1세대 밸류에이션 분화
 - K바이오 5사 3Q 모두 YoY 성장 — 삼성바이오로직스 1조 4,903억 원(+18.5%), 정부 R&D 투자 역행
-
-## 2026-11-06
-- KOSPI 이틀 연속 급락 + 서킷브레이커 — 삼성전자 188,700원(-6.35%)·SK하이닉스 1,132,000원(-10.44%), 이틀 누적 ~-11%
-- AHA 2026 Scientific Sessions Day 1 개막 — 11/7 Braunwald Session 08:30 펠라카르센 Lp(a)HORIZON 전체 데이터 첫 공개
-- CTX310 (CRISPR Therapeutics) AHA 2026 Late-Breaking 발표 예정 — ANGPTL3 편집 1년 추적 최대 -89% 유지(ESC 2026)
-- Anthropic IPO D-4 — 기관투자자 밸류에이션 $2T → $1.5~1.6T 조정, 로드쇼 최소 11/10 착수
-- 미 10월 NFP 오늘 KST 21:30 발표 예정 — 9월 +2.9만 충격 후 반등 여부(컨센서스 약 +65K)
-
-## 2026-11-05
-- 중간선거 후 에너지 프리미엄 붕괴 — Dow +3.03%·금 $4,066 첫 돌파, KOSPI -5.5% AI 반도체 순환매 이탈
-- AHA 2026 Scientific Sessions 11/6 개막 — 11/7 펠라카르센 Lp(a)HORIZON 전체 실패 데이터 공개
-- 수르보두티드 SYNCHRONIZE-CVOT AHA 11/9 발표 — 비만치료제 최초 대형 GLP-1/GCG 이중 CVOT
-- Qualcomm Q4 FY2026 더블 비트 — 자동차 첫 $20억(약 2조9,400억원) 돌파(+89% YoY), FY2027 데이터센터 $5B 목표 재확인
-- 미 10월 NFP 11/6(ET 08:30) 발표 예정 — 9월 +2.9만 충격 후 반등 여부, Fed 12월 인상 OIS ~80%
