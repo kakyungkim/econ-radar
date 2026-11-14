@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-14
+- [후속] Nvidia CEO 사임 주간 여파 — 주간 시총 $5,730억 증발, AMD·Qualcomm 인수 소문, 의회 청문회 소집
+- Microsoft·FAA 항공 시스템 동시 장애 — 클라우드 단일 장애점 의존 경고, 미 하원 청문회 연계
+- 미 10월 PPI +0.3%(연율 6.5%), 예상치 상회 — Fed 12월 추가 인상 가능성 50% 이상
+- Moderna mRNA 암 백신 연말 FDA 허가 신청 — KEYNOTE-942 2b상 44% 재발 감소, Merck 협업
+- AI 에이전트 생태계 — ChatGPT Wallet 출시, LangChain $3B, Anthropic IPO 로드쇼
+
 ## 2026-11-13
 - [후속] 젠슨 황 Nvidia CEO 전격 사임 — 장중 -13%·종가 -4%, AMD·브로드컴 +5% 반사이익, 의회 양당 조사
 - 한국 토종 AI칩 8종 2030년까지 — M.AX 얼라이언스 8,002억 원 로드맵, 삼성 2나노 우선 배정
