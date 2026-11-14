@@ -15,7 +15,7 @@
   },
   "한국경제 IT": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 증권": {
@@ -35,17 +35,17 @@
   },
   "머니투데이": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "조선비즈": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 2,
    "error": ""
   },
   "Korea Times business": {
-   "fetched": 1,
-   "kept": 1,
+   "fetched": 0,
+   "kept": 0,
    "error": ""
   },
   "한국은행 보도자료": {
@@ -60,7 +60,7 @@
   },
   "청년의사": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "CNBC top news": {
@@ -94,7 +94,7 @@
    "error": ""
   },
   "FT home": {
-   "fetched": 10,
+   "fetched": 9,
    "kept": 5,
    "error": ""
   },
@@ -165,7 +165,7 @@
   },
   "pharmaphorum": {
    "fetched": 10,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "OncLive": {
@@ -212,6 +212,105 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "[포토] 박병호, 서군의 승리",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:56 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417560111036",
+   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 선수들이 동군에 5-2로 승리한 후 기쁨을 나누고 있다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] 구대성 '이도류로 컴백'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:55 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417543129840",
+   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 구대성이 역투하고 있다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] 구대성, 승엽아 이도류 봤지?",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:53 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417522899737",
+   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 구대성이 안타를 날리고 출루한 후 동군 1루수 이승엽과 주먹치기를 하고 있다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] 구대성 '어쨌든 출루했잖아'",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:52 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417511212760",
+   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 구대성이 안타를 날리고 출루한 후 활짝 웃고 있다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] 오승환, 레전드 매치 끝판대장",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:50 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417490394304",
+   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 동군 오승환이 역투하고 있다....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] '7회초 등판한' 오승환",
+   "source": "머니투데이",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 17:50 KST",
+   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111417491473627",
+   "summary": "동군 오승환이 4일 잠실야구장에서 열리는 '잠실 더 라스트 이닝 BY 르노' 레전드게임 7회초 등판하고 있다.. 잠실야구장은 이제 역사속으로 사라지고 새로운 돔구장이 건설된다. 2026.11.14....",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "MS 업무 메일 멈추자 비상대응반 가동…정부, 국내 피해 점검",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-14 17:21 KST",
+   "url": "https://www.hankyung.com/article/2026111465447",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Football kit giveaway aims to boost participation",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 17:13 KST",
+   "url": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
+   "summary": "Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-14 17:11 KST",
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "summary": "A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "‘젠슨황 스캔들’에 서학개미들이 1000억원 ‘폭풍 매수’한 종목은",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -234,6 +333,61 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "The rise of 'housefishing' by estate agents",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 16:45 KST",
+   "url": "https://www.bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss",
+   "summary": "The rise of 'housefishing' by estate agents.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "중기중앙회 \"노란우산 정보 유출 가능성…주소·연락처 등 포함\"(종합)",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 16:37 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261114037551030",
+   "summary": "(서울=연합뉴스) 이상서 기자 = 중소기업중앙회는 11일 노란우산 홈페이지에 대한 외부의 비정상적인 접근과 함께 일부 고객 개인정보의 제3자 조...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "What do Christmas market traders say about rising prices?",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 16:11 KST",
+   "url": "https://www.bbc.co.uk/news/articles/c95y152k8erpo?at_medium=RSS&at_campaign=rss",
+   "summary": "From £8 bratwursts to £11 Yorkshire pudding wraps, why is the cost of the markets rising year on year?",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+   "source": "CNBC top news",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-14 16:08 KST",
+   "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+   "summary": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "중기중앙회 \"노란우산 정보 유출 가능성…주소·연락처 등 포함\"",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 15:57 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261114037500030",
+   "summary": "(서울=연합뉴스) 이상서 기자 = 중소기업중앙회는 11일 노란우산 홈페이지에 대한 외부의 비정상적인 접근과 함께 일부 고객 개인정보의 제3자 조...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "폭등할 때 지켜보다가 반토막 때 샀다...국민연금 3분기 3900억 지른 종목",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -241,6 +395,17 @@
    "published": "2026-11-14 15:50 KST",
    "url": "https://www.mk.co.kr/news/stock/12208726",
    "summary": "美 증권거래위 분기보고서 메모리 조정에 저가 매수 마이크론 주식도 더 담아메모리 반도체주가 큰 폭의 조정을 받은 지난 3분기에 ‘큰손’ 국민연금은 과감히 매수한 것으로 드러났다. ..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Microsoft says services fully restored after day-long global outage",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 15:42 KST",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+   "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -278,6 +443,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Food bank sees donations drop by 10% each year",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 15:33 KST",
+   "url": "https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss",
+   "summary": "Staff fear the government stockpiling advice will have an impact on donations as Christmas looms.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "재택의료 확대에도 위축되는 상급종합병원 가정간호…\"역할 분담 필요\"",
    "source": "청년의사",
    "lang": "ko",
@@ -285,138 +461,6 @@
    "published": "2026-11-14 15:30 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044562",
    "summary": "일차의료 중심 재택의료 확대 과정에서 상급종합병원의 가정간호 기능은 오히려 위축되고 있다는 지적이 나왔다. 중증 재택환자의 지속적인 관리를 위해 환자 중증도에 따라 의료기관의 역할을 분담하고, 일차의료기관부터 상급종합병원까지 연계하는 의료전달체계를 마련해야 한다는 주장이다.13일 국회의원회관에서 더불어민주당 이수진 의원 등이 개최한 '통합돌봄 정착을 위한 가정·방문간호 활용 방안' 토론회에서 이 같은 문제가 제기됐다.민주당 신현영 대변인(서울성모병원 가정의학과)은 이날 토론회에서 상급종합병원의 가정간호 기능 축소를 우려하며 의료기관",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[포토] 이선희, 전설의 회오리 투구",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:25 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111415225665034",
-   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 선발 이선희가 역투하고 있다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "52세 주진모, 아빠 된다…11세 연하 아내 민혜연 임신 3개월",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:22 KST",
-   "url": "https://www.mt.co.kr/entertainment/2026/11/14/2026111415140051498",
-   "summary": "배우 주진모(52)와 가정의학과 전문의 민혜연(41) 부부가 결혼 7년 만에 부모가 된다. 14일 OSEN에 따르면 주진모 소속사 KHS에이전시는 이날 민혜연의 임신 소식에 대해 \"임신이 맞다. 다만 아직 초기인 만큼 조심스러운 단계라 구체적인 이야기를 드리는 것이 어렵다\"고 밝혔다. 민혜연은 현재 임신 3개월째에 접어든 것으로 알려졌다. 소속사 측은 \"행복한 소식인 만큼 많은 축복과 응원 부탁드린다\"고 전했다. 두 사람은 과거 방송에서 '구체적인 2세 계획이 없다'고 밝힌 바 있다. 당시 민혜연은 2세 계획을 묻는 질문에 \"저희는 아직 구체적인 계획이 없다\"며 \"둘 다 이미 늦어서 지금 서두른다고 한들 크게 차이가 안 날 것 같았다\"고 말했다. 이어 \"저희는 둘 다 구체적으로 계획을 세우는 스타일이 아니다\"라고 덧붙였다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Companies love a ‘rockstar’ CEO. Until they depend on one",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-14 15:22 KST",
-   "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-   "summary": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Antitrust fines to hit brokerage, bank earnings but leave capital buffers intact: KIS report",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-14 15:22 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261114/antitrust-fines-to-hit-brokerage-bank-earnings-but-leave-capital-buffers-intact-kis-report?utm_source=rss",
-   "summary": "Korea’s largest-ever antitrust fine will cut into this year’s earnings at the brokerages and banks that underwrite government debt, but it is unlikely to weaken their capital buffers, according to Korea Investors Service (KIS), a Moody’s affiliate. In a report released earlier this week, the credit rating agency said the penalties imposed by the Korea Fair Trade Commission (FTC) will make “a short-term decline in profitability unavoidable,” especially at the firms facing the largest penalties. I",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[포토] 박용택, 안타 출루 후 류중일 감독과 미소배틀",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:19 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111415175861287",
-   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 서군 박용택이 안타를 날리고 출루한 후 동군 류중일과 기뻐하고 있다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[포토]'서군 레전드 선발투수는?'",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:19 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111415174660878",
-   "summary": "서군 선발투수 이선희가 14일 잠실야구장에서 열리는 '잠실 더 라스트 이닝 BY 르노' 레전드게임 1회초 등판하고 있다. 2026.11.14....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[포토] 김응용-김성근 '이만수가 젊네 젊어'",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:16 KST",
-   "url": "https://www.mt.co.kr/sports/2026/11/14/2026111415133647317",
-   "summary": "'잠실 더 라스트 이닝 by 르노' 레전드 매치가 14일 서울 잠실야구장에서 열렸다. 한국야구의 전설 김응용, 김성근 감독아 동서군 총감독으로 경기 전 시구룰 한 후 시타, 시포자와 기념촬영을 하고 있다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "KBS 대하사극 '문무', 오늘 첫 방송…이현욱·장혁·김강우 팽팽한 긴장감",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:15 KST",
-   "url": "https://biz.chosun.com/entertainment/tv/2026/11/14/GIYDSYJSHAYTSYRQMEYTMYLBG4/",
-   "summary": "이현욱, 장혁, 김강우, 박성웅이 전란에 휘말린 한반도에서 갈등의 싹을 틔운다. 오늘(14일) 밤 9시 20분 첫 방송 예정인 KBS 2TV 새 대하드라마 ‘문무’(책임프로듀서 이호 / 극본 김리헌, 홍진이 / 연출 김영조, 구성준 / 제작 키이스트, 몬스터유니온)는 600년간 이어진 전쟁과 삼국 내부의 격변 속에서, 단 하나의 승리를 향해 모든 것을 건",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "송혜교, 20대 시절 후회하는 이유..\"노는 것 좋아했다\" ('핑계고')",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:13 KST",
-   "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/HA3TQYLDME2GMMLBHA3DQZBZHE/",
-   "summary": "배우 송혜교가 20대 시절을 회상했다.14일 유튜브 채널 뜬뜬에는 '레트로는 핑계고｜EP.124 #공유 #송혜교 #양세찬 #유재석' 영상이 게재됐다.이날 '핑계고'에는 넷플릭스 시리즈 '천천히 강렬하게'​에서 함께 호흡을 맞춘 공유와 송혜교가 게스트로 출연해 다양한 이야기를 나눴다.송혜교는 20대 시절에 대한 질문에 \"생각보다 시간 많았다\"며 \"요즘에 조금",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[사진]현역 시절 수비 보여주는 김재호",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:10 KST",
-   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/14/MRSTQNLBGY2TIZDGME2GENZWME/",
-   "summary": "14일 오후 서울 잠실야구장에서 '잠실 더 라스트 이닝 by 르노' 이벤트 경기가 열렸다.이 행사는 잠실야구장에서의 마지막 추억을 야구팬들과 나누기 위해 마련됐다. 선수 57명과 감독 4명 등 총 61명이 참가한다. 동군은 김성근 총감독과 강병철 감독이, 서군은 김응용 총감독과 김인식 감독이 지휘한다. 이종범 이승엽 이병규 김동주 이대호 김태균 등 한국야구",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[사진]힘차게 공 던지는 윤학길",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:10 KST",
-   "url": "https://biz.chosun.com/sports/sports_photo/2026/11/14/MNRWGZBVGAZTSMBTGQ4TGODCG4/",
-   "summary": "14일 오후 서울 잠실야구장에서 '잠실 더 라스트 이닝 by 르노' 이벤트 경기가 열렸다.이 행사는 잠실야구장에서의 마지막 추억을 야구팬들과 나누기 위해 마련됐다. 선수 57명과 감독 4명 등 총 61명이 참가한다. 동군은 김성근 총감독과 강병철 감독이, 서군은 김응용 총감독과 김인식 감독이 지휘한다. 이종범 이승엽 이병규 김동주 이대호 김태균 등 한국야구",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "住民避難支援の70代警備員が死亡 光州放火で死因解明へ",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 15:09 KST",
-   "url": "https://biz.chosun.com/jp/jp-society/2026/11/14/3JXDQHXLD5FY7JASEOBD7SYTFE/",
-   "summary": "全南光州統合特別市のあるマンションで起きた放火事件当時、住民の避難を助けていたところ、マンションの非常階段で心肺停止の状態で見つかった70代の警備員が結局、死亡した。 14日、光州北部警察署などによると、前日午後9時ごろ、地域の大学病院で治療を受けていた警備員A氏が死亡した。 A氏は11日午後6時33分ごろ、全南光州北区雲岩洞の地上21階建てマンションで火災が発生すると住民の避難を手助けしていたが、マンションの非常階段13階で心肺停止の状態で見つかった。 火災当時、A氏は各戸の扉をたたいて住民に出火を知らせ、避難を助けたと伝えられている。 A氏は消防当局により病院へ搬送され、昏睡状態で3日間治療を受けてきたが、結局死亡した。警察は正確な死因を明らかにするため、国立科学捜査研究院に解剖を依頼することにした。 北区はA氏の義士者指定の申請を市と協議する計画である。 当時の火災は、40代の被疑者B氏が極端な選択を試みようとしてマンション6階の世帯内に故意に放火して発生した。警察はB氏の容疑を現住建造物放火致傷から現住建造物放火致死へと変更する予定である。",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -476,12 +520,34 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "앤트로픽 드디어 나스닥 데뷔…편입 전략에 쏠리는 눈 [이수의 ETF 줌인]",
+   "title": "주유소 기름값 26주 연속 하락…소비자 체감은 '글쎄'",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 15:00 KST",
+   "url": "https://www.hankyung.com/article/2026111464727",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "\"내 계좌엔 언제 꽂혀요?\"…'121조 잭팟'에 개미들 들썩 [이수의 ETF 줌인]",
    "source": "한국경제 증권",
    "lang": "ko",
    "section": "markets",
    "published": "2026-11-14 15:00 KST",
    "url": "https://www.hankyung.com/article/2026111350986",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "20년 전 자식에게 준 돈도 토해낸다…무서운 상속법",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 15:00 KST",
+   "url": "https://www.hankyung.com/article/202611107863i",
    "summary": "",
    "text": "",
    "text_status": "not_fetched"
@@ -509,17 +575,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-14 14:08 KST",
-   "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-   "summary": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, disrupting thousands of departing of flights.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
    "source": "NYT Business",
    "lang": "en",
@@ -527,6 +582,17 @@
    "published": "2026-11-14 14:01 KST",
    "url": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
    "summary": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those planned this weekend in France.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Record polar vortex breakdown raises cold weather risk",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 14:00 KST",
+   "url": "https://www.ft.com/content/576640c4-8d35-4504-b1a5-f01c0ca1f5bc?syn-25a6b1a6=1",
+   "summary": "The early collapse of wind system that traps Arctic air is latest extreme atmospheric event",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -542,13 +608,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Nvidia’s cult of personality was bound to end badly",
+   "title": "The citizens of nowhere won in the end",
    "source": "FT home",
    "lang": "en",
    "section": "macro",
    "published": "2026-11-14 14:00 KST",
-   "url": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
-   "summary": "It is worth paying attention to the warning signs of corporate hubris — they often mean something bad is about to happen",
+   "url": "https://www.ft.com/content/9bc5e047-9993-4123-8f22-a59c5de245e9?syn-25a6b1a6=1",
+   "summary": "People might not vote for liberal individualism, but they live it",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -586,17 +652,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "US aviation regulator lifts order that grounded thousands of flights",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 12:21 KST",
-   "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-   "summary": "Airports had halted take-offs because of a temporary ‘telecommunications outage’",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Vorasidenib Elicits Early Metabolic Responses in IDH-Mutant Glioma",
    "source": "OncLive",
    "lang": "en",
@@ -626,17 +681,6 @@
    "published": "2026-11-14 11:44 KST",
    "url": "https://www.yna.co.kr/view/AKR20261114029100003",
    "summary": "(서울=연합뉴스) 오예진 기자 = 두산건설의 3분기 영업이익이 전년 동기 대비 약 40% 감소했다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-14 11:42 KST",
-   "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-   "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -685,17 +729,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "성남시, 내달 10일 채용박람회…참여기업 20개사 모집",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 11:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261113134700061",
-   "summary": "(성남=연합뉴스) 이우성 기자 = 경기 성남시는 다음 달 열리는 '2026 성남시 채용박람회'에 참여할 구인기업 20개사를 오는 25일까지 모집...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "14 dividend stocks selected for long-term growth",
    "source": "MarketWatch top stories",
    "lang": "en",
@@ -714,28 +747,6 @@
    "published": "2026-11-14 10:34 KST",
    "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
    "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 10:30 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261114025200011",
-   "summary": "■ 美전역 항공기 운항중단 '올스톱' 사태…\"관제통신시스템 장애\"",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 10:28 KST",
-   "url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1",
-   "summary": "US president will hold trilateral meeting with Chinese leader and Russia’s Vladimir Putin next week",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -773,17 +784,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "\"로봇 팔던 회사 아냐?\" 화들짝…4000억 돈 보따리 푼 속내 [차이나 워치]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 09:43 KST",
-   "url": "https://www.hankyung.com/article/202611134552i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
    "source": "NYT Business",
    "lang": "en",
@@ -791,17 +791,6 @@
    "published": "2026-11-14 09:40 KST",
    "url": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
    "summary": "A drop in Nvidia shares after the ouster of the company’s chief executive has not spread to the rest of the market, as stocks have held their ground broadly.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "젠슨 황 쫓겨난 '불륜 스캔들'에…거물 CEO들의 흑역사 소환 [강경주의 테크X]",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-14 09:30 KST",
-   "url": "https://www.hankyung.com/article/2026111354366",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -850,17 +839,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-   "source": "CNBC technology",
-   "lang": "en",
-   "section": "ai",
-   "published": "2026-11-14 08:54 KST",
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-   "summary": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Amazon has a plan to index the world’s online shopping data",
    "source": "The Verge AI",
    "lang": "en",
@@ -872,24 +850,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "SpaceX aborts attempt to catch Starship booster rocket",
+   "title": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
    "source": "FT home",
    "lang": "en",
    "section": "macro",
-   "published": "2026-11-14 08:43 KST",
-   "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-   "summary": "Elon Musk suffers setback in efforts to develop a completely reusable megarocket system",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-14 08:42 KST",
-   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-   "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+   "published": "2026-11-14 08:39 KST",
+   "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
+   "summary": "Jailed cryptocurrency mogul loses out on windfall from early investment in the AI lab",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -982,6 +949,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+   "source": "MarketWatch top stories",
+   "lang": "en",
+   "section": "markets",
+   "published": "2026-11-14 07:04 KST",
+   "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+   "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "엔비디아 경쟁자라더니…삼전닉스가 눈독 들인 유망주 정체",
    "source": "한국경제 IT",
    "lang": "ko",
@@ -1037,13 +1015,24 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 06:14 KST",
-   "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-   "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+   "title": "이마트 가양점 부지, 지식산업센터 대신 27층·645가구 주상복합 추진",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 06:00 KST",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/14/VYOK55S3CFGIHGOVGKZOFNCJ24/",
+   "summary": "서울 강서구 가양동 옛 이마트 가양점 부지에 최고 27층, 645가구 규모 주상복합 단지 건립이 추진된다. 지식산업센터를 지으려던 계획을 주택 공급으로 바꾼 것이다. 서울시가 준공업지역 아파트 용적률을 최대 400%까지 풀면서 가양·등촌·염창동 일대의 대형 마트와 공장 부지가 잇따라 주거지로 바뀌고 있다. 14일 강서구에 따르면, 구는 지난 12일 이런 내용을 담은 ‘가양동 449-19번지 지구단위계획 구역 지정 및 계획 결정(안)’을 열람 공고했다. 구는 오는 26일까지 주민 의견을 듣는다. 이후 서울시 심의를 거쳐 계획이 최종 결정된다. 대상지는 가양동 449-19번지 일대 2만2871㎡ 부지다. 결정안에 따르면 이곳에는 지하 6층~지상 27층, 8개 동 규모의 역세권 복합단지가 들어설 계획이다. 전용면적별로는 ▲59㎡ 104가구 ▲74㎡ 53가구 ▲84㎡ 380가구 ▲106㎡ 97가구 ▲136㎡ 11가구다. 이 중 54가구는 서울시의 신혼부부 장기전세주택인 ‘미리내집’으로 공급",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "旧イーマート加陽跡に27階645戸推進 容積率緩和で住宅転換加速",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-14 06:00 KST",
+   "url": "https://biz.chosun.com/jp/jp-realestate/2026/11/14/7IBA7X2MOJE3JPBXJ5U7MTJVKU/",
+   "summary": "ソウル江西区加陽洞の旧イーマート加陽店の敷地に、最高27階、645戸規模の住商複合団地の建設が推進されている。知識産業センターを建てる計画を住宅供給に切り替えたものである。ソウル市が準工業地域のマンション容積率を最大400%まで緩和したことで、加陽・登村・霊泉洞一帯の大型マートや工場の敷地が相次いで居住地に転用されている。 14日、江西区によると、区は12日、この内容を盛り込んだ「加陽洞449-19番地地区単位計画区域指定および計画決定（案）」を縦覧告示した。区は26日まで住民意見を聴取する。その後、ソウル市の審議を経て計画が最終決定される。 対象地は加陽洞449-19番地一帯の2万2871㎡の敷地である。決定案によれば、ここには地下6階〜地上27階、8棟規模の駅近複合団地が入る計画である。専有面積別では▲59㎡ 104戸 ▲74㎡ 53戸 ▲84㎡ 380戸 ▲106㎡ 97戸 ▲136㎡ 11戸である。このうち54戸はソウル市の新婚夫婦向け長期全世帯住宅「ミリネチプ」として供給する予定だ。 団地は地下鉄9号線増美駅1番出口の目の前にある。汝矣島駅まで約15分、新論峴駅までは30分台",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1103,17 +1092,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 04:53 KST",
-   "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-   "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "해킹 당한 금융보안원 “공격 IP 246개 차단완료…국적은 한국”",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -1147,6 +1125,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-14 03:56 KST",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Argenx is spending billions to push beyond Vyvgart",
    "source": "Endpoints News",
    "lang": "en",
@@ -1165,17 +1154,6 @@
    "published": "2026-11-14 03:40 KST",
    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
    "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 03:36 KST",
-   "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-   "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1202,17 +1180,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Are board games making a comeback this Christmas?",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 03:00 KST",
-   "url": "https://www.bbc.co.uk/news/videos/ckp80l667rdjo?at_medium=RSS&at_campaign=rss",
-   "summary": "Are board games making a comeback this Christmas?",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "STAT+: Doctors have questions about the Watchman. Boston Scientific has a sales pitch.",
    "source": "STAT",
    "lang": "en",
@@ -1231,6 +1198,28 @@
    "published": "2026-11-14 02:46 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044561",
    "summary": "건양대병원이 대학야구 선수들의 부상 예방과 신속한 치료를 위해 한국대학야구연맹과 협력한다.건양대병원은 13일 신관 3층 대회의실에서 한국대학야구연맹과 대학야구 선수단 및 임직원의 건강 증진과 의료 지원을 위한 업무협약(MOU)을 체결했다.협약에 따라 건양대의료원은 연맹 소속 선수와 지도자, 임직원에게 부상이나 질환이 발생하면 전문 진료 등 신속한 의료 서비스를 지원한다. 연맹의 요청에 따라 안전사고 예방과 건강관리를 위한 의학적 자문과 보건 지원에도 협력할 계획이다.건양대의료원 김종엽 의생명연구원장은 “이번 협약을 통해 부상을 입은",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+   "source": "FT home",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-14 02:45 KST",
+   "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+   "summary": "Head of SoftBank-owned UK semiconductor group sounded out after Jensen Huang resigned over affairs",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "만족도 높은 무선형 인슐린펌프…환자·보호자 79% “비용 부담 줄여야”",
+   "source": "청년의사",
+   "lang": "ko",
+   "section": "bio",
+   "published": "2026-11-14 02:35 KST",
+   "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044558",
+   "summary": "무선형 인슐린펌프에 대한 사용 만족도는 높지만 경제적 부담이 사용 확대의 걸림돌로 나타났다. 특히 소아·청소년의 월평균 인슐린펌프 본인부담 비용은 성인의 1.9배에 달해 경제적 부담 완화가 필요하다는 목소리가 높았다.한국1형당뇨병환우회와 한국췌장장애인협회는 지난 4일부터 6일까지 무선형 인슐린펌프 사용 경험이 있는 환자와 보호자 326명을 대상으로 실시한 설문조사 결과를 13일 공개했다.조사 결과, 무선형 인슐린펌프 사용에 만족한다는 응답은 80.4%였다. 주요 장점으로는 ‘활동 제약 감소와 일상생활의 편리성’(67.5%)과 ‘착용",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1257,17 +1246,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "What are people emergency stockpiling?",
-   "source": "BBC Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-14 01:31 KST",
-   "url": "https://www.bbc.co.uk/news/videos/c6zxvg79rr9yo?at_medium=RSS&at_campaign=rss",
-   "summary": "From cider to candy canes: What people are emergency stockpiling",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Windward Bio hits Nasdaq with $175M IPO, plus another $50M from Sanofi",
    "source": "Endpoints News",
    "lang": "en",
@@ -1286,6 +1264,17 @@
    "published": "2026-11-14 01:26 KST",
    "url": "https://endpoints.news/moderna-readies-commercial-cancer-vaccine-production-ahead-of-fda-filing/",
    "summary": "MARLBOROUGH, MA — Moderna is “on track and ready” to make thousands of doses of its Merck-partnered cancer vaccine as it prepares to file a marketing application by the end of this year with the FDA ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-14 01:23 KST",
+   "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+   "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1473,6 +1462,17 @@
    "published": "2026-11-13 20:30 KST",
    "url": "https://pharmaphorum.com/news/rapid-dea-review-clears-way-takedas-narcolepsy-launch",
    "summary": "Rapid DEA review clears way for Takeda's narcolepsy launch Phil.Taylor Fri, 13/11/2026 - 11:30",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Life sciences real estate: Beyond labs",
+   "source": "pharmaphorum",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-13 20:30 KST",
+   "url": "https://pharmaphorum.com/rd/life-sciences-real-estate-beyond-labs",
+   "summary": "Life sciences real estate: Beyond labs Nicole.Raleigh Fri, 13/11/2026 - 11:30",
    "text": "",
    "text_status": "not_fetched"
   },
