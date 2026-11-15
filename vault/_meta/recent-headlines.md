@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-15
+- [후속] Nvidia 복귀 압력 — 머스크·115,000명 황인준 복귀 청원, 2대 투자자 이사회 서한, AI 인프라 주 $4.2조 증발
+- 한국 세무사 수석 AI 부정행위 — 공단 고소·효력정지 추진·국가자격시험 전수조사
+- Anthropic IPO 로드쇼 — 사상 최대 IPO 가능성, 창업자 7인 각 $2.5억 현금화 확정
+- 고려아연 Project Crucible TVA 230MW 전력 승인 + SK그룹 AI 플라이휠 선언
+- 리가켐바이오 ADC 플랫폼 빅딜 대기 + EGFR NSCLC 치료 선택지 확장
+
 ## 2026-11-14
 - [후속] Nvidia CEO 사임 주간 여파 — 주간 시총 $5,730억 증발, AMD·Qualcomm 인수 소문, 의회 청문회 소집
 - Microsoft·FAA 항공 시스템 동시 장애 — 클라우드 단일 장애점 의존 경고, 미 하원 청문회 연계
@@ -42,10 +49,3 @@ publish: false
 - Beam Therapeutics 베이스 편집 겸상적혈구 치료제(risto-cel) 피벗 임상 성공 — 연내 FDA 신청
 - Anthropic IPO 창업자 7인 각 $250M 현금화 확정, FT 밸류에이션 계산기 공개(후속)
 - 한미약품 에피노페그듀타이드 Lancet 2b상 — 간 섬유화 개선률 세마글루티드 수치 상회
-
-## 2026-11-07
-- 미 10월 NFP +165,000명 — 컨센서스 2.8배 서프라이즈, 연준 12월 금리 인상 경로 확정
-- J&J 리브레반트(amivantamab) 두경부암 FDA 가속승인 — bispecific Ab 적응증 두경부암 첫 확장
-- Novartis 졸젠스마 암 발생 9례 — AAV insertional mutagenesis 2건 확인, 유전자치료 안전성 논쟁
-- OpenAI $1.25조 조달 vs Anthropic IPO $1.5조 하회 경고 — AI 1세대 밸류에이션 분화
-- K바이오 5사 3Q 모두 YoY 성장 — 삼성바이오로직스 1조 4,903억 원(+18.5%), 정부 R&D 투자 역행
