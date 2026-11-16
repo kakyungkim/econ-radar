@@ -15,6 +15,12 @@ publish: false
 - 어떻게 고칠지: (news-collection 소스 목록에 추가 등)
 ```
 
+## 2026-11-16 (블로그 발행 — econ-radar bot 선점 후 충돌)
+- **무엇이**: econ-radar 레포 push 직후 GitHub Actions가 deploy.sh를 자동 실행해 블로그에 먼저 2026-11-16을 발행했다. 로컬에서도 deploy.sh를 실행하자 index.html 충돌이 발생했다.
+- **왜**: 클라우드 루틴과 GitHub Actions 사이에 타이밍 경쟁이 생긴 것. econ-radar bot이 더 빠르게 발행했다.
+- **어떻게 고침**: 원격 최신 상태로 rebase 후 index.html 타이틀만 별도 커밋으로 업데이트해 최종 발행. 블로그 HTML 본문은 econ-radar bot 버전(vault/html/2026-11-16.html 기반)이 발행됨.
+- **교훈**: econ-radar push 후 약 1~2분 대기 → GA 완료 확인 → 타이틀 업데이트 패턴이 더 안전하다.
+
 ## 2026-07-05 (블로그 detached HEAD → 사일런트 "up-to-date" 함정)
 
 ### 블로그 레포 detached HEAD + force-with-lease 연쇄 사고
