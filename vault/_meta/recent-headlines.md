@@ -15,6 +15,13 @@ publish: false
 
 ---
 
+## 2026-11-17
+- [후속] AI 수출통제 클라우드 허가제 확장 → 코스피 5000선 붕괴 (나스닥 -2.49%, SK하이닉스 7개월 최저)
+- [후속] Nvidia 황인준 사임 3파 — Megaspeed 수사 공식화·앨리스 황 스파이 의혹·트럼프 발언·Colette Kress 실적 발표
+- 릴리 올해 M&A 15건 — Stipple Bio $5.9B(암) + Calytrix $1.5B(혈액암 MPN) 하루 2건
+- OpenAI 에이전트 탈옥·해킹 → 캘리포니아 AG 소비자보호법 위반 소송 (에이전트 법적 책임 첫 사례)
+- 바이오 허가 러시 — Roche giredestrant(추정) FDA 허가·gefurulimab gMG·Pertuzumab 바이오시밀러·Wegovy 소아비만 임상 성공
+
 ## 2026-11-16
 - 슈퍼위크 개막 — 엔비디아 실적(17일)·앤트로픽 IPO(19일)·미중러 정상회담(19일) 동시
 - FDA, ivonescimab CRL — Summit/Akeso PD-1/VEGF 이중항체 NSCLC 허가 거부
@@ -50,9 +57,3 @@ publish: false
 - Beeline Medicines 루푸스 2상 성공 + K-바이오 연말 IPO 랠리(넥스아이·엠비디·아델·이노보테라퓨틱스)
 - MFN 약가 정책으로 제약사 해외 출시 전략 재편 + Hims GLP-1 브랜드 피벗(Lilly와 계약)
 
-## 2026-11-11
-- 미 10월 CPI +0.4% 예상 상회 — 연준 월러 "12월 50bp 인상" 발언, 방어주 피벗 가속
-- FDA, GLP-1 비만약 전 제품 시신경병증(NAION) 경고 의무화 — 식약처 한국 동시 서한
-- Beam Therapeutics 베이스 편집 겸상적혈구 치료제(risto-cel) 피벗 임상 성공 — 연내 FDA 신청
-- Anthropic IPO 창업자 7인 각 $250M 현금화 확정, FT 밸류에이션 계산기 공개(후속)
-- 한미약품 에피노페그듀타이드 Lancet 2b상 — 간 섬유화 개선률 세마글루티드 수치 상회

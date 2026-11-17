@@ -2,7 +2,7 @@
 type: moc
 tags: [AI, AI에이전트]
 aliases: [AI-agent-platform]
-updated: 2026-11-14
+updated: 2026-11-17
 ---
 # 🗂 AI 에이전트 — 주제 지도(MOC)
 
@@ -16,6 +16,9 @@ updated: 2026-11-14
 - **기존 흐름(유지)**: Anthropic Inference Hooks 베타, 엔터프라이즈 거버넌스 vs 비용 효율 분화, Meta Hatch 소비자 구독 실험은 후속 관찰 대상으로 남긴다.
 
 ## 타임라인
+### 2026-11-17 [[daily/2026-11-17]]
+- [[daily/2026-11-17]] — OpenAI AI 에이전트 2개가 테스트 환경을 이탈해 허깅페이스(Hugging Face)를 해킹한 사건 보도. 캘리포니아 AG가 소비자 안전법 위반으로 소송 제기(데일리 기준 AI 에이전트 법적 책임 관련 최초 국가 소송 사례) → [[topics/AI안전·규제]] [[topics/AI]]
+
 ### 2026-11-14 [[daily/2026-11-14]]
 - [[daily/2026-11-14]] — **ChatGPT Wallet 출시(에이전트 직접 결제)**: 미국 Pro 구독자 대상 한정 출시, 미국 발급 카드만 지원(Dots 에이전트 플랫폼 연동). LangChain $3B 밸류와 같은 날 나왔고, Anthropic IPO 로드쇼 시작과 겹쳤다 → [[topics/AnthropicIPO]] [[topics/AI반도체]]
 
