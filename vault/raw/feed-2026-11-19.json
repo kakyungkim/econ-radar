@@ -5,37 +5,37 @@
  "feeds": {
   "연합뉴스 경제": {
    "fetched": 120,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 경제": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "한국경제 IT": {
    "fetched": 50,
-   "kept": 4,
+   "kept": 6,
    "error": ""
   },
   "한국경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 경제": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "매일경제 증권": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "머니투데이": {
    "fetched": 100,
-   "kept": 5,
+   "kept": 0,
    "error": ""
   },
   "조선비즈": {
@@ -44,8 +44,8 @@
    "error": ""
   },
   "Korea Times business": {
-   "fetched": 9,
-   "kept": 5,
+   "fetched": 0,
+   "kept": 0,
    "error": ""
   },
   "한국은행 보도자료": {
@@ -55,17 +55,17 @@
   },
   "히트뉴스": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "청년의사": {
    "fetched": 50,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "CNBC top news": {
    "fetched": 30,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "CNBC economy": {
@@ -80,12 +80,12 @@
   },
   "CNBC technology": {
    "fetched": 30,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "MarketWatch top stories": {
    "fetched": 10,
-   "kept": 4,
+   "kept": 0,
    "error": ""
   },
   "MarketWatch MarketPulse": {
@@ -94,8 +94,8 @@
    "error": ""
   },
   "FT home": {
-   "fetched": 10,
-   "kept": 5,
+   "fetched": 11,
+   "kept": 3,
    "error": ""
   },
   "WSJ markets": {
@@ -114,13 +114,13 @@
    "error": ""
   },
   "BBC Business": {
-   "fetched": 49,
-   "kept": 5,
+   "fetched": 51,
+   "kept": 6,
    "error": ""
   },
   "NYT Business": {
-   "fetched": 32,
-   "kept": 4,
+   "fetched": 35,
+   "kept": 6,
    "error": ""
   },
   "Economist finance": {
@@ -155,22 +155,22 @@
   },
   "Endpoints News": {
    "fetched": 24,
-   "kept": 5,
+   "kept": 6,
    "error": ""
   },
   "STAT": {
    "fetched": 20,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "pharmaphorum": {
    "fetched": 10,
-   "kept": 4,
+   "kept": 0,
    "error": ""
   },
   "OncLive": {
    "fetched": 30,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "BioPharma Dive": {
@@ -180,17 +180,17 @@
   },
   "Nature Biotechnology": {
    "fetched": 8,
-   "kept": 0,
+   "kept": 1,
    "error": ""
   },
   "TechCrunch AI": {
    "fetched": 20,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "The Verge AI": {
    "fetched": 10,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   "MIT Technology Review": {
@@ -201,6 +201,149 @@
  },
  "items": [
   {
+   "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 18:00 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119153400011",
+   "summary": "■ 대법, 한덕수 일부 무죄취지 파기환송…구속 2개월 연장",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "기업금융 키운 농협銀, 첫 순익 2조 눈앞",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 18:00 KST",
+   "url": "https://www.hankyung.com/article/2026111981331",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "이찬진, 금감원 직원 '닮고 싶은 상사'로 뽑혀…총 19명 선정",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:59 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119162300002",
+   "summary": "(서울=연합뉴스) 강수련 기자 = 이찬진 금융감독원장이 금감원 노동조합이 주최한 '2026년 닮고싶은 상사'에 선정됐다.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "청구 깜빡한 실손보험금 1조원…내년부터 '실손24'로 돌려받는다",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:59 KST",
+   "url": "https://www.hankyung.com/article/2026111981341",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "금리 뛰자 대기업도 '정책보증 상품'으로 자금조달",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:58 KST",
+   "url": "https://www.hankyung.com/article/2026111981301",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "롯데손보, 2800억원 무상감자 단행",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111981291",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "KB증권, 지역관광 AI 펀드에 20억 출자",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-19 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111983426",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "하나금융·연세의대 동문회, 맞춤형 금융서비스 MOU",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111981281",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[포토] 한경핀테크대상 시상식",
+   "source": "한국경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:57 KST",
+   "url": "https://www.hankyung.com/article/2026111981311",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "LG생활건강, 정기 임원인사…전무 승진 2명·상무 선임 1명",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:54 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119157700030",
+   "summary": "(서울=연합뉴스) 이상서 기자 = LG생활건강[051900]은 19일 이사회를 열고 전무 승진 2명과 상무 선임 1명을 포함한 2027년 정기 ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "수출 1조달러 기념…내달 3일 한강 밤하늘에 드론 1천대 뜬다",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:54 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119162000003",
+   "summary": "(서울=연합뉴스) 신창용 기자 = 한국 경제의 새 지평을 연 수출 1조달러 달성을 기념하기 위해 다음 달 3일 드론 약 1천대가 한강 밤하늘을 ...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "GTA6 게임만 파는 게 아니다 [한경 프리미엄9 TODAY]",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-19 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111982221",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "HLB·HLB생명과학, 합병 재추진…\"사업 경쟁력 강화\"",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:53 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119161600017",
+   "summary": "(서울=연합뉴스) 신선미 기자 = HLB[028300]와 HLB생명과학[067630]이 신약 사업 경쟁력 강화와 기업가치 제고를 위해 합병을 다...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "대웅제약·티온랩, 월 1회 비만치료제 'TION-L002' 임상 1상 진입",
    "source": "히트뉴스",
    "lang": "ko",
@@ -208,6 +351,72 @@
    "published": "2026-11-19 17:53 KST",
    "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=80917",
    "summary": "[히트뉴스=최선재 기자] 대웅제약(대표 박성수·이창재)은 티온랩테라퓨틱스(대표 임덕수)와 공동 개발 중인 월 1회 장기지속형 비만 치료제 후보물질 ‘TION-L002’의 국내 임상 1상 시험계획(IND)을 승인받았다고 19일 밝혔다.회사 측에 따르면 양사는 임상 1상에서 TION-L002의 안전성과 약동학적 특성 등을 평가하고, 대조약과의 비교를 통해 장기지속형 제형의 개발 가능성을 확인할 계획이다. 이를 바탕으로 글로벌 파트너사를 발굴하고, 공동개발을 통해 해외 시장 진출을 추진할 방침이다.TION-L002는 GLP-1 수용체 작",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[취재수첩] 경쟁입찰 함정 빠진 KDB생명 매각",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-19 17:53 KST",
+   "url": "https://www.hankyung.com/article/2026111982111",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "레버리지 ETF 14개 출격…서학개미 투자법은",
+   "source": "한국경제 증권",
+   "lang": "ko",
+   "section": "markets",
+   "published": "2026-11-19 17:52 KST",
+   "url": "https://www.hankyung.com/article/2026111982181",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "아마존·구글·SKT·LG '앤트로픽 잭팟'",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-19 17:52 KST",
+   "url": "https://www.hankyung.com/article/2026111982171",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "풀무원식품, 미국 자회사 주식 532억원에 추가취득…지분율 100%",
+   "source": "연합뉴스 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:52 KST",
+   "url": "https://www.yna.co.kr/view/AKR20261119161100008",
+   "summary": "(서울=연합뉴스) 코스피 상장사 풀무원[017810]은 자회사인 풀무원식품이 미국의 자회사 관리 자회사(Pulmuone U.S.A.)의 주식 4...",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "저축은행, 교육 사이트 해킹으로 직원 정보 유출… “직원 사칭에 주의”",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:43 KST",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/19/F57WGISQSRBZRFQX4SPGY4ZSNM/",
+   "summary": "저축은행 직원 교육에 사용되던 외부 사이트가 해킹 공격을 받아 저축은행 직원 정보가 유출됐다. 저축은행중앙회는 저축은행 직원을 사칭한 금융사기에 주의할 것을 당부했다. 저축은행중앙회는 “KG에듀원에서 운영하는 저축은행 교육관리 사이트가 외부 해킹 공격을 받아 저축은행 직원의 개인정보가 일부 유출됐다”고 19일 밝혔다. 해킹 공격은 지난주 주말에 발생했으며, 저축은행 직원의 이름, 직급 등이 유출된 것으로 전해졌다. 다만 해킹 공격으로 인해 유출된 정보량은 정확히 파악되지 않았다. 저축은행중앙회는 유출된 저축은행 직원 정보를 이용한 2차 피해가 발생할 것을 우려하고 있다. 저축은행 직원을 사칭한 전화나 문자가 와도 금융정보를 절대 제공하지 말 것, 출처가 불분명한 인터넷 주소(URL)는 클릭하지 말 것을 강조했다. 저축은행중앙회 관계자는 “저축은행 직원을 사칭한 것으로 의심되는 연락을 받은 경우 해당 저축은행 공식 홈페이지 또는 대표 번호를 통해 직원 재직 여부와 연락 사실을 확인하길",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "貯蓄銀行の職員情報流出、教育サイトに不正攻撃 詐欺に注意",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 17:43 KST",
+   "url": "https://biz.chosun.com/jp/jp-finance/2026/11/19/COGSQQUZURBSHA4PESS6JLLJIM/",
+   "summary": "貯蓄銀行の職員教育に使用されていた外部サイトがハッカー攻撃を受け、貯蓄銀行の職員情報が流出した。貯蓄銀行中央会は貯蓄銀行の職員を装った金融詐欺に注意するよう呼びかけた。 貯蓄銀行中央会は19日、「KGエデュワンが運営する貯蓄銀行の教育管理サイトが外部からのハッカー攻撃を受け、貯蓄銀行の職員の個人情報が一部流出した」と明らかにした。 ハッカー攻撃は先週末に発生し、貯蓄銀行の職員の名前や役職などが流出したという。ただ、ハッカー攻撃によって流出した情報の量は正確には把握されていない。 貯蓄銀行中央会は流出した貯蓄銀行の職員情報を利用した二次被害の発生を懸念している。貯蓄銀行の職員を装った電話やメールが届いても金融情報を絶対に提供しないこと、出所が不明なインターネットアドレス（URL）をクリックしないことを強調した。 貯蓄銀行中央会の関係者は「貯蓄銀行の職員を装った疑いのある連絡を受けた場合は、当該貯蓄銀行の公式ホームページや代表番号を通じて、その職員が在籍しているか、連絡した事実があるかを確認してほしい」と語った。",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -267,6 +476,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "큐리언트·알지노믹스 등 코스닥150·KRX300 신규 편입 바이오주 강세",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-19 17:27 KST",
+   "url": "https://www.hankyung.com/article/202611198140i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "“한솔케미칼, 반도체 소재 선방에도 환율에 발목”…목표가↓",
    "source": "매일경제 증권",
    "lang": "ko",
@@ -300,222 +520,101 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "김건희 여사 '3대 의혹' 징역 4년 확정… '명태균 여론조사' 무죄 유지",
-   "source": "머니투데이",
+   "title": "[단독] K증시 흔든 '초단타 알고리즘 계좌'…그물망 촘촘히 짠다",
+   "source": "한국경제 증권",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:28 KST",
-   "url": "https://www.mt.co.kr/society/2026/11/19/2026111915335623897",
-   "summary": "(상보) 대법원이 김건희 여사의 일명 '3대 의혹'(도이치모터스 주가조작·명태균 여론조사 무상수수·통일교 청탁 및 금품수수)에 대한 2심 판결을 그대로 유지했다. 이에 따라 김 여사는 징역 4년을 확정받았다. 대법원 전원합의체는 19일 자본시장법·정치자금법 위반 및 특정범죄가중법상 알선수재 등 혐의를 받는 김 여사에 대해 징역 4년을 선고한 원심 판단을 그대로 확정했다. 앞서 김건희 특검팀(특별검사 민중기)은 무죄 부분에 대해, 김 여사 측은 유죄부분에 대해 상고한 바 있다. 김 여사는 1심에서 징역 1년8개월을 선고받았지만 2심에서 일부 무죄판단이 유죄로 뒤집혀 징역 4년을 선고받았다....",
+   "section": "markets",
+   "published": "2026-11-19 17:10 KST",
+   "url": "https://www.hankyung.com/article/2026111970376",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "디밀리언, '광명시 기업박람회'서 폐배터리 재사용 평가 솔루션 시연",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.mt.co.kr/industry/2026/11/19/2026111909584674107",
-   "summary": "제조 인공지능(AI) 기업 디밀리언이 오는 20일 열리는 '광명시 기업박람회(GM TECH EXPO 2026)'에서 피지컬 AI(Physical AI) 기반의 로봇 자동화 솔루션을 선보인다고 19일 밝혔다. 이번 행사는 광명시에서 처음 개최되는 기업박람회로, 지역 기업의 기술과 제품을 알리고 산업 관계자 간 교류를 지원하기 위해 마련됐다. 디밀리언은 전시 현장에서 자율형 로봇 솔루션 '플렉시봇(FLEXIBOT)'을 선보인다. 플렉시봇은 자율주행, 로봇 제어, AI 에이전트 기술을 결합한 솔루션으로, 주변 환경을 인식하고 작업 상황에 맞춰 대응하는 지능형 로봇 기술을 탑재했다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "P&G Korea donates 20,000 diapers to support vulnerable families",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261119/pg-korea-donates-20000-diapers-to-support-vulnerable-families?utm_source=rss",
-   "summary": "P&G Korea, the local unit of U.S. consumer goods giant Procter & Gamble, is donating 20,000 Pampers diapers to families facing financial and social hardships, extending its support for vulnerable children and single-parent households ahead of the year-end holiday season. The donation was made through the Salvation Army Kettle Campaign, with the diapers set to be distributed to Duri Home, a residential facility for single-parent families, other Salvation Army childcare facilities and households r",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Korean tech giants take different paths in humanoid robot race",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.koreatimes.co.kr/business/tech-science/20261119/korean-tech-giants-take-different-paths-in-humanoid-robot-race?utm_source=rss",
-   "summary": "Samsung Electronics and LG Electronics are pursuing markedly different strategies in the robotics market, and the contrast is expected to become more apparent as the two companies showcase their latest technologies and visions at CES 2027. According to industry officials on Thursday, Samsung Electronics is focusing on precise control of robotic hands and arms, as dexterity is considered one of the most critical capabilities for expanding the practical applications of humanoid robots. Unlike conv",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Diageo Korea unveils 2027 Year of the Red Sheep Johnnie Walker Blue Label",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261119/diageo-korea-unveils-2027-year-of-the-red-sheep-johnnie-walker-blue-label?utm_source=rss",
-   "summary": "Diageo Korea unveiled a limited-edition Johnnie Walker Blue Label to welcome 2027, pairing its flagship Scotch with bespoke artwork celebrating hope and new beginnings. Released earlier this week, the special bottling is the latest chapter in Johnnie Walker’s annual zodiac collection, a series known for reimagining each year’s animal symbol through distinct artistic collaborations. The limited edition marks the Year of the Red Sheep, also referred to as the Year of the Goat. The latest edition w",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Internal trading by large biz groups remains high in 2025: regulator",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261119/internal-trading-by-large-biz-groups-remains-high-in-2025-regulator?utm_source=rss",
-   "summary": "Transactions among affiliates of large business groups still remained high last year amid government efforts to regulate such practices and increased sales, the antitrust regulator said Thursday. According to the Fair Trade Commission (FTC), the total value of inter-affiliate transactions by conglomerates amounted to 841 trillion won ($631 billion) last year. A total of 102 business groups with 2,871 affiliates are subject to the disclosure of their internal trading, with their assets exceeding ",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Kolmar Group secures Red Bull's Korean distribution rights",
-   "source": "Korea Times business",
-   "lang": "en",
-   "section": "korea",
-   "published": "2026-11-19 16:27 KST",
-   "url": "https://www.koreatimes.co.kr/business/companies/20261119/kolmar-group-secures-red-bulls-korean-distribution-rights?utm_source=rss",
-   "summary": "Kolmar Group has secured the Korean distribution rights for Red Bull, the world's No. 1 energy drink brand, as Vice Chairman Yoon Sang-hyun seeks to capitalize on the fast-growing market by adding the Austrian brand to HK inno.N's business portfolio. HK inno.N plans to leverage its nationwide distribution network and experience in building Condition, a popular Korean hangover relief drink, into one of the country's leading brands to expand Red Bull's market share. Launched in Austria in 1987, Re",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "오세훈 \"7개 특검에 1100억원…실패하면 누가 책임지나\"",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:26 KST",
-   "url": "https://www.mt.co.kr/policy/2026/11/19/2026111916154813216",
-   "summary": "오세훈 서울시장이 '조작기소 특검법' 공포와 관련해 \"7개 특검에 들어가는 세금을 합치면 1100억원 규모로 추산된다\"며 특검 수사 결과에 대한 책임을 이재명 대통령에게 물었다. 오 시장은 19일 자신의 페이스북에 \"이 정부 들어 벌써 일곱 번째 특검\"이라며 \"이번 특검이 빈손으로 끝나면 그 책임을 어떻게 질 것인지 지금 국민 앞에 먼저 밝히라\"고 요구했다. 이 대통령은 이날 해외 순방 중 조작기소 특검법을 재가했다. 앞서 지난 17일 한성숙 국무총리 주재 국무회의에서 공포안이 의결됐으며, 이날 관보 게재와 함께 시행됐다. 특검 수사 대상은 12개 항목으로, 이 가운데 6개가 이 대통령 관련 사건의 수사·기소 과정이다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"한국형 베어허그법, 인수 진정성 검증 장치 필요\"",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:26 KST",
-   "url": "https://www.mt.co.kr/stock/2026/11/19/2026111914210079993",
-   "summary": "C&G 포럼…유효상 유니콘경영경제연구원장 발표 '베어허그와 의무공개매수' 한국형 베어허그(Bear Hug) 제도 도입을 앞두고 인수 제안자의 진정성을 검증할 장치가 마련돼야 한다는 지적이 나왔다. 기업 인수 의사나 자금 조달 능력이 충분히 확인되지 않은 '떠보기식 제안'은 기업과 주주, 시장에 혼란을 초래할 수 있다는 이유에서다. 베어허그는 기업을 인수하려는 측이 피인수 기업 이사회가 주주 이익을 이유로 거절하기 어려운 수준의 높은 가격을 공개적으로 제시해 협상 테이블로 끌어내는 전술이다. 적대적 M&A(인수합병)는 이사회나 경영진의 동의 없이 지분을 확보해 경영권을 획득하는 것으로, 대부분 공개매수를 통해 진행된다. 이 과정에서 베어허그가 선행적·절차적으로 활용된다. 갑작스럽게 적대적 공개매수에 나서면 가격이 급등하거나 혼란이 커져 인수 성공 가능성이 낮아질 수 있기 때문에 우호적인 방식으로 접근하는 것이다. 큰 곰이 상대를 꼼짝 못 하게 꽉 껴안는 모습에서 유래한 말인 베어허그의",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "뮤즈라이브, 차세대 키트앨범 'KiT Zero'로 CES 2027 혁신상 2관왕",
-   "source": "머니투데이",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:26 KST",
-   "url": "https://www.mt.co.kr/industry/2026/11/19/2026111914394429753",
-   "summary": "버튼 누르면 전력 자체 생산… 독자 기술로 스마트 음반 진화 이끌어 키트앨범 제작사 뮤즈라이브(대표 석철)가 배터리 없이 자체적으로 전력을 생산하는 차세대 스마트 음반 매체 'KiT Zero(키트 제로)'로 CES 2027 혁신상 2개 부문을 수상했다고 밝혔다. 뮤즈라이브는 내년 1월 미국에서 개최되는 세계 최대 IT·가전 전시회 CES 2027을 앞두고 '모바일 기기, 액세서리 및 앱'과 '콘텐츠 및 엔터테인먼트' 부문에서 혁신상을 받았다. KiT Zero는 기존 키트앨범의 작동 방식에서 한 단계 발전한 제품이다. 뮤즈라이브가 자체 개발한 초음파 통신 기술 USS(Ultrasonic Sound Signature)를 활용하는 기존 키트는 내장 배터리의 전력으로 신호를 발생시키지만, KiT Zero는 별도의 배터리 없이 사용자의 버튼 조작만으로 필요한 전력을 생산한다....",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "AKアイエス、仁川空港の手荷物確認システム高度化を受注",
+   "title": "출퇴근 대란 오나… 서울 지하철 노조, 오늘부터 ‘준법투쟁’",
    "source": "조선비즈",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-19 16:19 KST",
-   "url": "https://biz.chosun.com/jp/jp-industry/2026/11/19/VSCYN3BSLFATVKBMBEZWTQP3QI/",
-   "summary": "愛敬グループのIT系列会社、AKアイエスが仁川国際空港の手荷物確認システム（AIRBRS）の高度化事業を受注した。 AKアイエスは19日、仁川国際空港公社が発注したAIRBRSの高度化事業の契約を締結したと発表した。契約金額は34億ウォン余り、事業期間は2028年5月までだ。AIRBRSは乗客が預けた荷物と搭乗客の情報を照合し、手荷物が該当する航空機に正しく積み込まれるかを確認するシステムだ。 今回の事業では、仁川空港の第1旅客ターミナル（T1）と第2旅客ターミナル（T2）、搭乗棟などの老朽化した設備を交換する。新たな市販ソリューションを導入し、アプリケーションプログラムとデータベース（DB）も再構築する予定だ。 特定メーカーの携帯端末（PDA）に縛られずに使えるアンドロイドアプリを新たに開発する。指に装着して手荷物情報を読み取れるウェアラブルリングスキャナーとも連携させる。AKアイエスはT1とT2のシステム基盤も統合し、ターミナル間の運用効率を高める計画だ。 AKアイエスの関係者は「手荷物確認システムは航空機の定時運航に直結する重要なインフラだ」としたうえで、「品質とセキュリティーの",
+   "published": "2026-11-19 17:08 KST",
+   "url": "https://biz.chosun.com/topics/topics_social/2026/11/19/TGJDBU42RBF6RM7VE35YG6A5FU/",
+   "summary": "서울교통공사 제1노조인 서울교통공사노조가 오는 20일부터 ‘안전 운행 투쟁(준법투쟁)’을 예고했다. 서울교통공사가 지하철 1~8호선 전 구간과 9호선 2·3단계 구간을 운영 중인 만큼, 노선 곳곳에서 열차가 지연 운행될 가능성이 있다. 노조는 20일 첫차부터 안전 운행 투쟁에 나선다고 19일 밝혔다. 소속 조합원 기관사들이 열차 운행 일정을 맞추려 주행 속도를 올리거나 정차 시간 단축을 하지 않는 등의 방식으로 업무 능률을 떨어뜨릴 전망이다. 차량·기술·시설·전기 분야 조합원도 특별 점검이나 추가 작업을 거부한다. 노조는 시간 외·휴일 근무에도 응하지 않을 예정이다. 서울교통공사는 평상시와 같이 총 3183회 열차를 운행하고, 배차 간격도 출근 시간대 2.5∼4.5분, 퇴근 시간대 3∼6분, 평시 5∼9분으로 기존과 같이 유지하기로 했다. 다만 안전 운행 투쟁에 따라 일부 노선·열차 운행이 평소보다 지연될 수 있다. 노조는 서울시와 서울교통공사가 추진하는 인력 감축 계획을 전면 철회",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "AK아이에스, 인천공항 수하물확인시스템 고도화 사업 수주",
+   "title": "ソウル地下鉄労組、20日から順法闘争 鉄道にも拡大へ",
    "source": "조선비즈",
    "lang": "ko",
    "section": "korea",
-   "published": "2026-11-19 16:19 KST",
-   "url": "https://biz.chosun.com/industry/company/2026/11/19/U3PXBCNICNA45KQO6GMELLSO4E/",
-   "summary": "애경그룹 IT 계열사 AK아이에스가 인천국제공항의 수하물확인시스템(AIRBRS) 고도화 사업을 수주했다. AK아이에스는 인천국제공항공사가 발주한 AIRBRS 고도화 사업 계약을 체결했다고 19일 밝혔다. 계약 금액은 34억여원, 사업 기간은 2028년 5월까지다. AIRBRS은 승객이 맡긴 짐과 탑승객 정보를 대조해 수하물이 해당 항공기에 제대로 실리는지 확인하는 시스템이다. 이번 사업을 통해 인천공항 제1여객터미널(T1)과 제2여객터미널(T2), 탑승동 등의 노후 장비를 교체한다. 새 상용 솔루션을 도입하고 응용프로그램과 데이터베이스(DB)도 재구축할 예정이다. 특정 제조사의 휴대용 단말기(PDA)에 구애받지 않고 사용할 수 있는 안드로이드 애플리케이션을 새로 개발한다. 손가락에 착용해 수하물 정보를 읽을 수 있는 웨어러블 링 스캐너와도 연동한다. AK아이에스는 T1과 T2의 시스템 인프라도 통합해 터미널 간 운영 효율을 높일 계획이다. AK아이에스 관계자는 “수하물확인시스템은 항",
+   "published": "2026-11-19 17:08 KST",
+   "url": "https://biz.chosun.com/jp/jp-society/2026/11/19/2VBRCF5C5FCI5FVVBTOSMAH4K4/",
+   "summary": "ソウル交通公社の第1労組であるソウル交通公社労組は、20日から「安全運行闘争（順法闘争）」を実施すると予告した。ソウル交通公社は地下鉄1〜8号線の全区間と9号線の第2・3段階区間を運営しており、各路線の至る所で列車の運行が遅れる可能性がある。 労組は19日、20日の始発から安全運行闘争に入ると明らかにした。所属する組合員の運転士は、列車の運行ダイヤに合わせるために走行速度を上げたり、停車時間を短縮したりしないなどの方法で、業務効率を落とす見通しだ。車両・技術・施設・電気分野の組合員も特別点検や追加作業を拒否する。労組は時間外・休日勤務にも応じない予定だ。 ソウル交通公社は平常時と同じく計3183回の列車を運行し、運行間隔も出勤時間帯は2.5∼4.5分、退勤時間帯は3∼6分、平常時は5∼9分と、従来通り維持することにした。ただ、安全運行闘争により、一部路線・列車の運行が通常より遅れる可能性がある。 労組はソウル市とソウル交通公社が進める人員削減計画を全面撤回し、現場の安全要員を増員するよう求めてきた。韓国政府の指針に沿った3.5%の賃上げや、公益サービスの費用に対する国費支援なども求めた",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "\"샐러리캡 도입, 절대 타협 없다...노조 진지해져라!\" 맨프레드 커미셔너 최후통첩...직장폐쇄 진짜 현실인가",
-   "source": "조선비즈",
+   "title": "코스피, 5000선 붕괴 딛고 상승 전환…반도체 반등에 5137 마감",
+   "source": "한국경제 증권",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:19 KST",
-   "url": "https://biz.chosun.com/sports/baseball/2026/11/19/MYZTGMZSGM4TAZBVHEZTINTGMQ/",
-   "summary": "메이저리그 노사단체협약(CBA) 만료를 앞두고 롭 맨프레드 커미셔너가 샐러리캡 및 연봉 하한선 도입에 대한 강경한 의지를 드러내며 선수노조와 정면충돌하고 있다. 직장폐쇄의 가능성은 서서히 현실이 되고 있다.미국 메이저리그 공식 홈페이지 ‘MLB.com’은 19일(이하 한국시간) “12월 1일 노사단체협약 만료일이 다가옴에 따라 롭 맨프레드 MLB 커미셔너가",
+   "section": "markets",
+   "published": "2026-11-19 17:06 KST",
+   "url": "https://www.hankyung.com/article/2026111980426",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "[사진]MAMA 향하는 빅뱅 태양",
-   "source": "조선비즈",
+   "title": "“한번에 50bp 올리자” 월러 연준 이사 발언이 미친 역설적 효과",
+   "source": "매일경제 증권",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:18 KST",
-   "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/19/GE4WGNZXGI4GGNJUMIZGKZJRMY/",
-   "summary": "그룹 빅뱅 태양이 2026 마마 어워즈(2026 MAMA AWARDS) 참석차 19일 인천국제공항을 통해 일본으로 출국했다.‘마마 어워즈’는 오는 20일과 21일 양일간 일본 교세라 돔 오사카에서 열린다.빅뱅 태양이 출국장으로 향하고 있다. 2026.11.19 [OSEN=인천공항, 최규한 기자]",
+   "section": "markets",
+   "published": "2026-11-19 17:05 KST",
+   "url": "https://www.mk.co.kr/news/business/12213215",
+   "summary": "불앤베어 플러스크리스토퍼 월러 연준 이사가 “다음달 FOMC에서 금리를 한번에 50bp 올려야 한다”고 주장했습니다. 그런데 이 발언 직후 미국 장기금리는 하락하는 모습을 연출했습..",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "울주군, '찾아가는 노사상생 노동법 아카데미'…상생일터 조성",
-   "source": "연합뉴스 경제",
+   "title": "클래시스, 제조·품질 혁신 성과 인정 … 품질혁신 산업포장 수상",
+   "source": "한국경제 IT",
    "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:17 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261119133400057",
-   "summary": "(울산=연합뉴스) 장영은 기자 = 울산 울주군은 19일 울주 남부청소년수련관에서 지역 기업 노사 분쟁 예방과 상생 일터 조성을 위해 '2026년...",
+   "section": "ai",
+   "published": "2026-11-19 17:05 KST",
+   "url": "https://www.hankyung.com/article/202611198049i",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "[사진]김명민-박유림 '슬픈열대' 사부와 죠죠",
-   "source": "조선비즈",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:15 KST",
-   "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/19/HBTDKYJRMZQTANTEMY3TQM3DMI/",
-   "summary": "영화 '슬픈열대(감독 박훈정)’ 언론배급시사 및 기자간담회가 19일 서울 용산구 CGV용산아이파크홀에서 열렸다.'슬픈 열대'는 사부의 죽음 이후, 그가 키워낸 킬러 조직 '슬픈 열대'에서 형제처럼 자란 조직원들이 서로를 향한 의심 속에 피의 복수를 다짐하며 벌어지는 이야기.배우 김명민, 박유림이 이신영 등신대와 포즈를 취하고 있다. 2026.11.19 [",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "태백시, 서울대와 축산 육성 맞손…폐광지역 신성장동력 기대",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:10 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261119132500062",
-   "summary": "(태백=연합뉴스) 류호준 기자 = 강원 태백시가 서울대학교 그린바이오과학기술연구원과 손잡고 스마트 축산단지 조성과 지역 한우산업 육성에 나선다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "KB국민은행서 14억원 규모 금융사고…\"외부인 사기\"",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:06 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261119131700002",
-   "summary": "(서울=연합뉴스) 한지훈 기자 = KB국민은행은 외부인에 의한 사기로 약 14억원 규모 금융사고가 발생했다고 19일 공시했다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "靑, 한한령 해빙 기대감에 \"진전 있다…공연도 가능성 열려\"(종합)",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:04 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261119002251001",
-   "summary": "(선전=연합뉴스) 임형섭 고동욱 기자 = 하준경 청와대 정책실장은 19일 한중 자유무역협정(FTA) 서비스·투자 후속 협상이 실질적으로 타결된 ...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Anthropic raises $81bn in record IPO",
-   "source": "FT home",
+   "title": "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "macro",
-   "published": "2026-11-19 16:04 KST",
-   "url": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
-   "summary": "Shares in AI giant set to begin trading on Thursday after company sells shares at $1.5tn valuation in blockbuster listing",
+   "section": "markets",
+   "published": "2026-11-19 16:38 KST",
+   "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
+   "summary": "Takaichi received a subdued welcome on her trip to attend the APEC summit, as Beijing shows limited appetite for repairing ties strained by Taiwan dispute.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "“여기가 모터쇼야 게임쇼야?” 차·웹툰으로 물든 지스타 [현장+]",
+   "source": "한국경제 IT",
+   "lang": "ko",
+   "section": "ai",
+   "published": "2026-11-19 16:33 KST",
+   "url": "https://www.hankyung.com/article/202611197822i",
+   "summary": "",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "대법 “김건희 ‘명태균 여론조사’ 2심 무죄판단은 정당”… 다수 의견",
+   "source": "조선비즈",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 16:14 KST",
+   "url": "https://biz.chosun.com/topics/law_firm/2026/11/19/QS5MWSHX6ZAGFJXIELHBS4AL4E/",
+   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -531,17 +630,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "전북 첫 가로주택정비사업 착공…전주 우아동에 36층 주상복합",
-   "source": "연합뉴스 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 16:00 KST",
-   "url": "https://www.yna.co.kr/view/AKR20261119059800055",
-   "summary": "(전주=연합뉴스) 김동철 기자 = 전북지역 첫 소규모 가로주택정비사업이 19일 첫 삽을 떴다.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "美증시 혼조...엔트로픽 역대 최대 IPO되나 [월가월부]",
    "source": "매일경제 경제",
    "lang": "ko",
@@ -549,17 +637,6 @@
    "published": "2026-11-19 15:44 KST",
    "url": "https://www.mk.co.kr/news/economy/12213167",
    "summary": "나스닥 반등, 엔비디아는 하락 엔트로픽 공모가 예상 웃돈 83달러 스페이스X 제치고 최대 IPO 될듯반도체 대장주 엔비디아의 실적 호조로 반도체 투자심리가 다소 회복됐지만 연방준비..",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 15:39 KST",
-   "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
-   "summary": "Takaichi received a subdued welcome on her trip to attend the APEC summit, as Beijing shows limited appetite for repairing ties strained by Taiwan dispute.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -575,17 +652,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Trump holds talks separately with Putin and Xi ahead of their historic trilateral meeting",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 15:29 KST",
-   "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-   "summary": "U.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "사서 쓰는 AI에서 키워 쓰는 AI로…길병원표 AI ‘GAIA’ 구축",
    "source": "청년의사",
    "lang": "ko",
@@ -593,17 +659,6 @@
    "published": "2026-11-19 15:26 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044675",
    "summary": "국내 의료 인공지능(AI) 발전의 주요 변곡점마다 가천대 길병원이 있었다. 지난 2016년 국내 최초로 IBM의 ‘왓슨 포 온콜로지’를 도입한 데 이어 의료진의 진단과 치료를 지원하는 국산 AI 개발사업인 ‘닥터앤서’와 응급 AI 실증에도 참여했다.이제는 병원 자체 AI를 개발하고 진료와 행정 업무에 적용하는 단계로 나아가고 있다. 지난 1년 동안 추진한 AI 전환(AX)의 성과를 바탕으로 향후 10년간 AI가 의료진과 함께 일하는 병원을 만들겠다는 구상이다.길병원 AX혁신본부 이종준 본부장은 지난 18일 인천 남동구 길병원 가천홀",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "에스앤아이, 율촌과 손잡고 중대재해 대응 강화…사고 현장 변호사 출동체계 구축",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 15:26 KST",
-   "url": "https://www.hankyung.com/article/202611197650i",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -619,24 +674,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "지스타에 등장한 '뤼튼'…이세영 대표 “콘텐츠 국경·형식 허물 것\"",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 15:24 KST",
-   "url": "https://www.hankyung.com/article/202611197626i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Increase in direct cremations since pandemic",
    "source": "BBC Business",
    "lang": "en",
    "section": "macro",
    "published": "2026-11-19 15:23 KST",
    "url": "https://www.bbc.co.uk/news/articles/ck5ywnr59z85o?at_medium=RSS&at_campaign=rss",
-   "summary": "A 2026 Cost of Dying Report found direct cremation was now chosen for around one in five funerals.",
+   "summary": "A 2026 Cost of Dying Report found direct cremation was now chosen for about one in five funerals.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -652,17 +696,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "'연금저축 이전 시 300만원' 이벤트에…금감원 \"무책임한 불건전 영업\"",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-19 15:19 KST",
-   "url": "https://www.hankyung.com/article/202611196594i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "연말 의료급여 미지급 불가피…복지부 “1월 중 해소”",
    "source": "청년의사",
    "lang": "ko",
@@ -670,17 +703,6 @@
    "published": "2026-11-19 15:19 KST",
    "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044671",
    "summary": "보건복지부가 올해 의료급여 진료비 미지급 예상액 9,000억원 가운데 약 3,000억원을 예비비 등으로 추가 확보해 연말 미지급 규모를 최소화하기로 했다. 내년으로 넘어가는 미지급금은 1월 중 해소할 수 있도록 준비하고 의료기관과 약국에는 지역별 지급 예상 시점을 안내한다.이와 함께 의료급여 수급권자가 예상보다 빠르게 증가하면서 진료비 미지급이 반복될 가능성이 커진 만큼, 예산 추계 방식을 개선하고 수급권자 건강관리서비스 강화 등을 담은 제도 개선안을 내년 1월 발표할 계획이다.복지부 강준 기초의료보장과장은 지난 18일 전문기자협의",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "두 달 전 최고가였던 구리, 왜 하루 새 5% 빠졌나",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-19 15:19 KST",
-   "url": "https://www.hankyung.com/article/202611197583i",
-   "summary": "",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -696,24 +718,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "트위니 완전자율주행 물류로봇, 재구매로 400대 계약 돌파…현장서 통했다",
-   "source": "한국경제 경제",
+   "title": "[신간] 사람이 머무는 쪽으로",
+   "source": "청년의사",
    "lang": "ko",
-   "section": "korea",
+   "section": "bio",
    "published": "2026-11-19 15:13 KST",
-   "url": "https://www.hankyung.com/article/202611184929i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "현대모비스, 휴머노이드 부품 공급 속도…미래 경쟁력 높인다",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 15:10 KST",
-   "url": "https://www.hankyung.com/article/202611197574i",
-   "summary": "",
+   "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044672",
+   "summary": "40년간 노동자들의 곁에서 아픔을 마주해 온 의사의 이야기가 책으로 나왔다. 바로 직업환경의학 전문의인 임상혁 저자의 〈사람이 머무는 쪽으로〉다. 책은 노동자들의 아픔을 마주하며 걸어온 의료인의 삶을 담은 회고록이자, 노동건강과 보건의료의 한계를 넘어 돌봄의 공동체를 모색하는 의료인문 에세이다.저자는 환자를 진료할 때 흔히 묻는 “어디가 아프세요?”, “언제부터 아프셨나요?”라는 질문에 한 가지를 더한다. 바로 “무슨 일을 하십니까?”다. 질병의 원인이 개인의 몸에만 있는 것이 아니라 일하는 환경과 노동조건에도 있을 수 있기 때문이",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -740,6 +751,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "톡신으로 세계를 연 휴젤, '토탈 에스테틱'으로 다음 25년 연다",
+   "source": "히트뉴스",
+   "lang": "ko",
+   "section": "bio",
+   "published": "2026-11-19 15:08 KST",
+   "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=80861",
+   "summary": "[히트뉴스=이우진 기자] 보툴리눔톡신을 앞세워 'K-에스테틱' 시장을 만들어낸 주역 중 한 곳인 휴젤의 25년은 톡신을 세계로 뻗어나게 한 개척의 역사였다. 그 길 위에 휴젤은 이제 필러와 스킨부스터, 화장품을 모두 풀어놓으며 토탈 에스테틱 기업의 모습을 갖춰가고 있다.다음 25년을 향한 목표도 크게 잡았다. 휴젤은 2027년 하반기 미국에서 완전 직접판매에 나서고, 5년 안에 중국 톡신 시장에서 판매량 1위에 오르겠다고 밝혔다. 최근 만난 장두현 휴젤 한국 대표는 올해를 두고 \"다음 성장을 위한 포트폴리오 기반을 다진 한 해였다\"",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Musk accuses Zelenskyy of lying about Starshield restrictions in Ukraine",
    "source": "CNBC top news",
    "lang": "en",
@@ -762,17 +784,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "'AI 커닝' 적발했다가 소송까지?…수능 감독관 10만명 보험 가입",
-   "source": "한국경제 경제",
-   "lang": "ko",
-   "section": "korea",
-   "published": "2026-11-19 15:04 KST",
-   "url": "https://www.hankyung.com/article/202611197491i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Leftover pumpkins help deliver 1,000th free meal",
    "source": "BBC Business",
    "lang": "en",
@@ -780,50 +791,6 @@
    "published": "2026-11-19 15:04 KST",
    "url": "https://www.bbc.co.uk/news/articles/c6x29jxgkjpno?at_medium=RSS&at_campaign=rss",
    "summary": "\"It's a really tough time for a lot of people,\" a sustainable food organisation says.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "[오후시황] 코스피 낙폭 만회하며 보합권...엔터·여행주 강세 지속",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-19 15:00 KST",
-   "url": "https://www.hankyung.com/article/202611197380i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
-   "source": "NYT Business",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-19 14:11 KST",
-   "url": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
-   "summary": "At an all-hands meeting with employees, Colette Kress sought to put the indiscretions of Nvidia’s co-founder, Jensen Huang, behind them.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "AI advances at Anthropic trigger new safety fears on eve of IPO",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-19 14:00 KST",
-   "url": "https://www.ft.com/content/d8be4655-211c-49a8-bfe4-18a00b8e8619?syn-25a6b1a6=1",
-   "summary": "Group disclosed it had activated part of ‘responsible scaling policy’ it set up to ensure AI did not develop so quickly that it caused ‘catastrophic risks’",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Retail investors face squeeze in blockbuster Anthropic IPO",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-19 14:00 KST",
-   "url": "https://www.ft.com/content/38c122d6-b533-4595-9554-3852c52e580f?syn-25a6b1a6=1",
-   "summary": "Frenzy for AI stocks is testing how far Wall Street will go to accommodate a new army of individual investors",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -839,17 +806,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Gold loses its lustre for investors",
-   "source": "FT home",
-   "lang": "en",
-   "section": "macro",
-   "published": "2026-11-19 14:00 KST",
-   "url": "https://www.ft.com/content/86aaff9a-0d0f-49dd-81fc-4c96bcbf2f32?syn-25a6b1a6=1",
-   "summary": "Precious metal long touted as a diversifier for portfolios has not offered protection during recent tech stock fall",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "Have High Gas Prices Made You Change How You Drive? Tell Us About It.",
    "source": "NYT Business",
    "lang": "en",
@@ -861,13 +817,13 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "How the War in Iran Will Remake the Global Energy Order",
-   "source": "NYT Business",
+   "title": "Adani: the billionaire at the heart of Modi’s India",
+   "source": "FT home",
    "lang": "en",
    "section": "macro",
    "published": "2026-11-19 14:00 KST",
-   "url": "https://www.nytimes.com/2026/11/19/business/cop31-energy-iea.html",
-   "summary": "The International Energy Agency, in its most comprehensive analysis of the war’s fallout, found the oil shock could accelerate adoption of alternative power sources.",
+   "url": "https://www.ft.com/content/e1867545-5142-4ee5-b092-b7e04ac04b66?syn-25a6b1a6=1",
+   "summary": "Three years ago, the tycoon was fending off lawsuits and accusations of fraud. Now, his business empire looks more powerful than ever",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -894,28 +850,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "﻿엔비디아는 시스코의 재현인가 [조윤남의 사이클투자]",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-19 13:43 KST",
-   "url": "https://www.hankyung.com/article/202611196403i",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "'역대급 143조원 돈잔치'…삼전닉스 개미들 긴장하는 이유 [분석+]",
-   "source": "한국경제 증권",
-   "lang": "ko",
-   "section": "markets",
-   "published": "2026-11-19 13:30 KST",
-   "url": "https://www.hankyung.com/article/2026111971906",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "How Nvidia Chips Ended Up Within Reach of China’s Military",
    "source": "NYT Business",
    "lang": "en",
@@ -927,67 +861,12 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 12:45 KST",
-   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-   "summary": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 12:45 KST",
-   "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-   "summary": "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
-   "source": "CNBC top news",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 12:43 KST",
-   "url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html",
-   "summary": "Korean media, gaming and travel stocks surged on hopes of greater access to China.",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-   "source": "MarketWatch top stories",
-   "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 12:30 KST",
-   "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
-   "summary": "“Our financial and healthcare situation has become increasingly concerning.”",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "\"AI 쓰는 직원 찾습니다\"…술렁이는 채용판, 생존 전략은?",
    "source": "한국경제 IT",
    "lang": "ko",
    "section": "ai",
    "published": "2026-11-19 12:20 KST",
    "url": "https://www.hankyung.com/article/202611197144g",
-   "summary": "",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "\"이런 기능까지 생겼다고?\"…카톡 업데이트 보니 '깜짝'",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-19 12:08 KST",
-   "url": "https://www.hankyung.com/article/202611197092g",
    "summary": "",
    "text": "",
    "text_status": "not_fetched"
@@ -1015,32 +894,43 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
-   "source": "BBC Business",
+   "title": "Musk says he feels ‘foolish’ for donating nearly $500mn to Republicans",
+   "source": "FT home",
    "lang": "en",
    "section": "macro",
-   "published": "2026-11-19 11:20 KST",
-   "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-   "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+   "published": "2026-11-19 11:19 KST",
+   "url": "https://www.ft.com/content/1af0d736-d5e5-4601-989d-638c9cea74b2?syn-25a6b1a6=1",
+   "summary": "SpaceX CEO backs away from Maga after monetary support for Trump’s party in midterm elections fails to sway voters",
    "text": "",
    "text_status": "not_fetched"
   },
   {
-   "title": "파이안바이오·경희대, 미토콘드리아 뇌 전달 높여 파킨슨병 치료 가능성 확인",
-   "source": "한국경제 IT",
-   "lang": "ko",
-   "section": "ai",
-   "published": "2026-11-19 10:57 KST",
-   "url": "https://www.hankyung.com/article/202611196656i",
-   "summary": "",
+   "title": "Watch: Robinhood’s C.E.O. Says He Shouldn’t Decide What You Can Trade",
+   "source": "NYT Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-19 10:37 KST",
+   "url": "https://www.nytimes.com/2026/11/18/business/dealbook/adena-friedman-vlad-tenev-shayne-copland-dealbook-summit.html",
+   "summary": "Speaking alongside the Nasdaq chief Adena Friedman and the Polymarket founder Shayne Coplan, Vlad Tenev said regular investors should have access to more opportunities.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Who are the investors ready to jump on Anthropic?",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-19 10:22 KST",
+   "url": "https://www.bbc.co.uk/news/videos/c6y0x84xx22wo?at_medium=RSS&at_campaign=rss",
+   "summary": "The BBC's Samira Hussain speaks to a retail investor eagerly waiting for the AI company's stock to go live on Thursday.",
    "text": "",
    "text_status": "not_fetched"
   },
   {
    "title": "Intel signs first external customer for advanced 18A chips",
-   "source": "CNBC technology",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "ai",
+   "section": "markets",
    "published": "2026-11-19 10:05 KST",
    "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
    "summary": "Intel CEO Lip-Bu Tan said Wednesday that the company signed its first outside customer for its 18A chips.",
@@ -1048,13 +938,35 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-   "source": "MarketWatch top stories",
+   "title": "Elon Musk Plays Down G.O.P. Support After Midterm Loss",
+   "source": "NYT Business",
    "lang": "en",
-   "section": "markets",
-   "published": "2026-11-19 10:02 KST",
-   "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-   "summary": "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+   "section": "macro",
+   "published": "2026-11-19 09:58 KST",
+   "url": "https://www.nytimes.com/2026/11/18/business/dealbook/elon-musk-midterms.html",
+   "summary": "The C.E.O. of SpaceX, who spent millions to back Republican candidates, sought to portray himself as a political moderate.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Watch: Christine Lagarde Wants to Fight Fake News",
+   "source": "NYT Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-19 09:54 KST",
+   "url": "https://www.nytimes.com/2026/11/18/business/dealbook/watch-christine-lagarde-wants-to-fight-fake-news.html",
+   "summary": "In an interview at the DealBook Summit, the president of the European Central Bank explained her decision to step down early and said that trust is “in short supply” around the world.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Watch the Biggest Interviews at the DealBook Summit",
+   "source": "NYT Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-19 09:47 KST",
+   "url": "https://www.nytimes.com/2026/11/18/business/dealbook/watch-the-biggest-interviews-at-the-dealbook-summit.html",
+   "summary": "See the full conversations with Prime Minister Mark Carney of Canada, OpenAI’s Sam Altman and Greg Brockman, Mayor Zohran Mamdani of New York, SpaceX’s Elon Musk and more.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1071,9 +983,9 @@
   },
   {
    "title": "Microsoft CEO Satya Nadella calls Outlook outage a 'perfect storm.' Here's what went wrong",
-   "source": "CNBC technology",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "ai",
+   "section": "markets",
    "published": "2026-11-19 09:18 KST",
    "url": "https://www.cnbc.com/2026/11/18/microsoft-put-the-ai-threat-to-software-behind-it-then-came-the-outage.html",
    "summary": "Microsoft shares have dropped nearly 9% since closing at a record high on Nov. 4.",
@@ -1081,13 +993,35 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "Jim Cramer says Nvidia has a new problem — and it has nothing to do with earnings",
-   "source": "CNBC technology",
+   "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+   "source": "CNBC top news",
    "lang": "en",
-   "section": "ai",
-   "published": "2026-11-19 08:46 KST",
-   "url": "https://www.cnbc.com/2026/11/18/nvidia-cramer-anthropic-ipo-ceo.html",
-   "summary": "CNBC's Jim Cramer warned that Anthropic's highly anticipated IPO presents another headwind for Nvidia.",
+   "section": "markets",
+   "published": "2026-11-19 09:07 KST",
+   "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+   "summary": "Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+   "source": "BBC Business",
+   "lang": "en",
+   "section": "macro",
+   "published": "2026-11-19 09:05 KST",
+   "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+   "summary": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Programmable functional RNA design with a virtual scientist",
+   "source": "Nature Biotechnology",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-19 09:00 KST",
+   "url": "https://www.nature.com/articles/s41587-026-03362-3",
+   "summary": "Nature Biotechnology, Published online: 19 November 2026; doi:10.1038/s41587-026-03362-3 RhoAgent designs functional RNA molecules by constraining secondary structure, base interactions and functional motifs.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1147,6 +1081,28 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 07:58 KST",
+   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+   "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 07:37 KST",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+   "summary": "Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "How Trump FDA nominee Heidi Overton's confirmation failed",
    "source": "Endpoints News",
    "lang": "en",
@@ -1154,17 +1110,6 @@
    "published": "2026-11-19 07:29 KST",
    "url": "https://endpoints.news/how-trump-fda-nominee-heidi-overtons-confirmation-failed/",
    "summary": "It was less than 24 hours before the Trump administration’s FDA nominee Heidi Overton would face a crucial vote by the Senate HELP Committee. It was going to be close. But Overton’s team had reason ...",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "AI, Content, & Commercial Transformation: Veeva Commercial Summit 2026",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-19 07:19 KST",
-   "url": "https://pharmaphorum.com/sales-marketing/ai-content-commercial-transformation-veeva-commercial-summit-2026",
-   "summary": "AI, Content, & Commercial Transformation: Veeva Commercial Summit 2026 Eloise.McLennan Wed, 18/11/2026 - 22:19",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1224,6 +1169,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 06:06 KST",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+   "summary": "Nvidia's earnings come at a tumultuous time for the company.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "STAT+: NIH to move last group of its research chimps to a sanctuary",
    "source": "STAT",
    "lang": "en",
@@ -1279,6 +1235,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "STAT+: The emerging winners and losers in the AI scribe market",
+   "source": "STAT",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-19 04:25 KST",
+   "url": "https://www.statnews.com/2026/11/18/ai-scribe-market-emerging-winners-losers-ai-prognosis/?utm_campaign=rss",
+   "summary": "In this edition of AI Prognosis: A closer look at how the AI scribe market is shaking out, news from the HLTH conference, and more",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Meet the European Central Bank’s new squad",
    "source": "Economist finance",
    "lang": "en",
@@ -1297,6 +1264,17 @@
    "published": "2026-11-19 04:24 KST",
    "url": "https://www.onclive.com/view/exploratory-insights-into-early-tolerability-and-treatment-experience-with-vyloy-zolbetuximab-clzb-in-spotlight-and-glow",
    "summary": "Explore CLDN18.2 testing and first-line VYLOY plus chemotherapy in advanced gastric/GEJ cancer, with trial results and proactive nausea control strategies.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Vance scraps schedule to address tech outages as Trump admin insists incidents aren't linked",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 04:17 KST",
+   "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+   "summary": "Recent disruptions include a nationwide ground stop, Microsoft Outlook outage and a reported blackout of the National Security Agency's communications network.",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1356,6 +1334,17 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "What is Nvidia without AI’s sugar daddy in charge?",
+   "source": "The Verge AI",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 03:34 KST",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+   "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen Huang (the former CEO […]",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "Novo’s consumer push gains momentum with Wegovy pill, CagriSema on deck",
    "source": "Endpoints News",
    "lang": "en",
@@ -1367,6 +1356,39 @@
    "text_status": "not_fetched"
   },
   {
+   "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+   "source": "CNBC technology",
+   "lang": "en",
+   "section": "ai",
+   "published": "2026-11-19 03:11 KST",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+   "summary": "Nvidia's interim CEO Colette Kress calmed investors. Now she has to calm employees.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "Longitudinal Community Training Helps Prepare Oncology Fellows for Their Future Careers",
+   "source": "OncLive",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-19 03:00 KST",
+   "url": "https://www.onclive.com/view/longitudinal-community-training-helps-prepare-oncology-fellows-for-their-future-careers",
+   "summary": "Deepa Rangachari, MD, discusses community oncology training, goal-concordant mentorship, genomic fluency, and multidisciplinary care.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "[단독] 중노위 “노조인정” vs 국세청 “아니다”... 삼성만 세금 더 냈다",
+   "source": "매일경제 경제",
+   "lang": "ko",
+   "section": "korea",
+   "published": "2026-11-19 02:53 KST",
+   "url": "https://www.mk.co.kr/news/economy/12212819",
+   "summary": "모호한 세법해석에 기업 혼란같은 회사 노조 지위를 놓고 중앙노동위원회(중노위)와 국세청 등 행정기관들이 서로 다른 해석을 내리면서 과세 현장 혼란이 커지고 있다. 세법의 모호한 규..",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
    "title": "White House pulls nomination for FDA nominee Overton",
    "source": "BioPharma Dive",
    "lang": "en",
@@ -1374,6 +1396,17 @@
    "published": "2026-11-19 02:00 KST",
    "url": "https://www.biopharmadive.com/news/white-house-withdraw-heidi-overton-fda-commissioner-nomination/874961/",
    "summary": "The sudden end of Heidi Overton’s candidacy likely ensures a Democrat-controlled Congress will choose the FDA’s next leader — but shouldn’t disrupt the agency, analysts say.",
+   "text": "",
+   "text_status": "not_fetched"
+  },
+  {
+   "title": "#CTAD26: Lilly’s dopamine drug mevidalen fails Phase 2 study in Alzheimer’s",
+   "source": "Endpoints News",
+   "lang": "en",
+   "section": "bio",
+   "published": "2026-11-19 01:22 KST",
+   "url": "https://endpoints.news/ctad26-lillys-dopamine-drug-mevidalen-fails-phase-2-study-in-alzheimers/",
+   "summary": "BOSTON — A little-known therapy Eli Lilly has quietly been testing in people with mild and moderate Alzheimer’s disease has failed in its Phase 2 study. The experimental drug, called mevidalen, was dropped ...",
    "text": "",
    "text_status": "not_fetched"
   },
@@ -1433,17 +1466,6 @@
    "text_status": "not_fetched"
   },
   {
-   "title": "MSD stops trials of BTK inhibitor for blood cancers",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-18 22:15 KST",
-   "url": "https://pharmaphorum.com/news/msd-stops-trials-btk-inhibitor-blood-cancers",
-   "summary": "MSD stops trials of BTK inhibitor for blood cancers Phil.Taylor Wed, 18/11/2026 - 13:15",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
    "title": "The Download: AI learns to smell and hydropower struggles",
    "source": "MIT Technology Review",
    "lang": "en",
@@ -1451,28 +1473,6 @@
    "published": "2026-11-18 22:10 KST",
    "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”…",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "Beren's Niemann-Pick drug Lembaz cleared by FDA",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-18 21:09 KST",
-   "url": "https://pharmaphorum.com/news/berens-niemann-pick-drug-lembaz-cleared-fda",
-   "summary": "Beren's Niemann-Pick drug Lembaz cleared by FDA Phil.Taylor Wed, 18/11/2026 - 12:09",
-   "text": "",
-   "text_status": "not_fetched"
-  },
-  {
-   "title": "White House drops Heidi Overton pick for FDA chief",
-   "source": "pharmaphorum",
-   "lang": "en",
-   "section": "bio",
-   "published": "2026-11-18 20:22 KST",
-   "url": "https://pharmaphorum.com/news/white-house-drops-heidi-overton-pick-fda-chief",
-   "summary": "White House drops Heidi Overton pick for FDA chief Phil.Taylor Wed, 18/11/2026 - 11:22",
    "text": "",
    "text_status": "not_fetched"
   },
