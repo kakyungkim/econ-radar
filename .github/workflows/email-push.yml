@@ -71,7 +71,7 @@ jobs:
         if: steps.detect.outputs.date != ''
         run: |
           set -o pipefail
-          python3 scripts/validate_daily_contract.py ${{ steps.detect.outputs.date }} --provider-hint claude --require-rendered 2>&1 | tee -a run_output.log
+          python3 scripts/validate_daily_contract.py ${{ steps.detect.outputs.date }} --require-rendered 2>&1 | tee -a run_output.log
           # vault/daily/DATE.md 가 있어야 렌더 가능. 없으면(부분 발행 등) 조용히 건너뜀.
           if [ -f "vault/daily/${{ steps.detect.outputs.date }}.md" ]; then
             python3 scripts/render_html.py ${{ steps.detect.outputs.date }} 2>&1 | tee -a run_output.log

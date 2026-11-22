@@ -53,7 +53,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           set -o pipefail
-          python3 scripts/validate_daily_contract.py ${{ steps.detect.outputs.date }} --provider-hint claude --require-rendered 2>&1 | tee -a run_output.log
+          python3 scripts/validate_daily_contract.py ${{ steps.detect.outputs.date }} --require-rendered 2>&1 | tee -a run_output.log
           python3 scripts/send_push.py ${{ steps.detect.outputs.date }} 2>&1 | tee -a run_output.log
 
       # 실패 시: 런북 진단을 붙여 GitHub Issue 생성 + 텔레그램 DM(TELEGRAM_ALERT_CHAT_ID 설정 시)

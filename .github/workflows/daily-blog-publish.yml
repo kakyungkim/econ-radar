@@ -56,7 +56,7 @@ jobs:
       - name: Validate shared daily contract
         env:
           DATE: ${{ steps.detect.outputs.date }}
-        run: python3 scripts/validate_daily_contract.py "$DATE" --provider-hint claude --require-rendered
+        run: python3 scripts/validate_daily_contract.py "$DATE" --require-rendered
 
       - name: Deploy verified HTML
         env:

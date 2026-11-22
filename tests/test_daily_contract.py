@@ -85,3 +85,62 @@ def test_date_first_analysis_names_warn_but_do_not_block(tmp_path, monkeypatch):
     (tmp_path / f"vault/analysis/{date}-market.md").unlink()
     errors, _, _ = MODULE.validate(date, provider_hint="claude", require_rendered=True)
     assert any("market" in e for e in errors)
+
+
+def _write(root, files):
+    for relative, content in files.items():
+        path = root / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
+
+
+def _base_files(date):
+    return {
+        f"vault/raw/news-{date}.md": "출처 https://example.com/raw\n",
+        f"vault/analysis/market-{date}.md": "시장\n",
+        f"vault/analysis/company-{date}.md": "기업\n",
+        f"vault/daily/{date}.md": f"---\ndate: {date}\n---\n본문 https://example.com/d\n",
+    }
+
+
+def test_missing_frontmatter_uses_committed_run_log_not_a_fixed_guess(tmp_path, monkeypatch):
+    # 2026-11-18~22 는 Codex 로 만들었고 frontmatter 없이 실행 로그만 커밋됐다.
+    monkeypatch.setattr(MODULE, "ROOT", tmp_path)
+    date = "2026-11-18"
+    files = _base_files(date)
+    files[f"artifacts/runs/{date}-codex.log"] = "returncode=0\n"
+    files[f"artifacts/runs/{date}-codex-topics-provider.log"] = "보조 실행\n"
+    _write(tmp_path, files)
+    errors, warnings, provider = MODULE.validate(date)
+    assert not errors
+    assert provider == "codex"
+    assert any("실행 로그" in w for w in warnings)
+
+
+def test_no_frontmatter_and_no_log_is_unknown(tmp_path, monkeypatch):
+    monkeypatch.setattr(MODULE, "ROOT", tmp_path)
+    date = "2026-11-19"
+    _write(tmp_path, _base_files(date))
+    errors, _, provider = MODULE.validate(date)
+    assert not errors
+    assert provider == "unknown"
+
+
+def test_both_provider_logs_is_unknown(tmp_path, monkeypatch):
+    monkeypatch.setattr(MODULE, "ROOT", tmp_path)
+    date = "2026-11-20"
+    files = _base_files(date)
+    files[f"artifacts/runs/{date}-codex.log"] = "x\n"
+    files[f"artifacts/runs/{date}-claude.log"] = "x\n"
+    _write(tmp_path, files)
+    _, warnings, provider = MODULE.validate(date)
+    assert provider == "unknown"
+    assert any("둘 다" in w for w in warnings)
+
+
+def test_publish_workflows_do_not_hardcode_a_provider():
+    # 발행 워크플로는 어느 제공자가 원고를 만들었는지 모른다. 고정 힌트를 넘기면 Codex 날도 claude 로 찍힌다.
+    for name in ("daily-blog-publish.yml", "email-push.yml", "telegram-push.yml"):
+        text = (ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8")
+        assert "validate_daily_contract.py" in text, name
+        assert "--provider-hint" not in text, name

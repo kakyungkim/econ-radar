@@ -14,4 +14,4 @@
 - 적용: provider frontmatter·실행 로그, 공통 계약 검사기, 발행 전 게이트, Claude 직접 발행 제거, 블로그 push 재시도
 - 다음 확인: 다음 Claude 예약 실행이 `provider: claude`와 `company-DATE.md`를 남기는지 관찰
 - 2026-11-23 반영 전 점검: 11-01~11-22 실제 발행분에 게이트를 돌리자 11-16이 실패했다(분석 파일이 `2026-11-16-market.md`, `2026-11-16-companies.md`). 이름만 다른 분석 파일은 경고로 받게 고쳤다. 동시 발행 테스트가 같은 1초 안에 같은 해시 커밋을 만들어 5회 중 3회 실패하던 것도 커밋 시각을 고정해 고쳤다.
-- 남은 것: 발행 워크플로가 `--provider-hint claude`를 고정으로 넘겨 Codex로 만든 날(11-18~22)도 로그에 claude로 찍힌다. 발행을 막지는 않는다.
+- 같은 날 고침: 발행 워크플로가 `--provider-hint claude`를 고정으로 넘겨 Codex로 만든 날(11-18~22)도 claude로 찍혔다. 워크플로에서 힌트를 빼고, frontmatter가 없으면 커밋된 실행 로그(`artifacts/runs/DATE-PROVIDER.log`)로 판단하며 로그도 없으면 unknown으로 둔다. 재검사 결과 11-18~22는 codex, 로그가 없는 11-14~17은 unknown.

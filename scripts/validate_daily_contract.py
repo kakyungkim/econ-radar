@@ -19,6 +19,21 @@ def _nonempty(path: Path, errors: list[str]) -> None:
         errors.append(f"필수 산출물 누락 또는 빈 파일: {path.relative_to(ROOT)}")
 
 
+def _provider_from_run_logs(date: str, warnings: list[str]) -> str:
+    """frontmatter가 없을 때 커밋된 실행 로그(artifacts/runs/DATE-PROVIDER.log)로 제공자를 판단한다."""
+    run_dir = ROOT / "artifacts" / "runs"
+    found = [name for name in ("codex", "claude")
+             if (run_dir / f"{date}-{name}.log").is_file()]
+    if len(found) == 1:
+        warnings.append(f"provider frontmatter 없음; 실행 로그 {date}-{found[0]}.log로 {found[0]} 판단")
+        return found[0]
+    if found:
+        warnings.append("provider frontmatter 없음; codex, claude 실행 로그가 둘 다 있어 unknown")
+    else:
+        warnings.append("provider frontmatter 없음; 실행 로그도 없어 unknown")
+    return "unknown"
+
+
 def validate(date: str, *, provider: str | None = None,
              provider_hint: str | None = None,
              require_rendered: bool = False) -> tuple[list[str], list[str], str]:
@@ -57,9 +72,13 @@ def validate(date: str, *, provider: str | None = None,
         if f"date: {date}" not in daily_text[:1000]:
             errors.append("데일리 frontmatter 날짜 불일치")
         match = PROVIDER_RE.search(daily_text[:1000])
-        recorded_provider = match.group(1) if match else (provider_hint or "unknown")
-        if not match:
+        if match:
+            recorded_provider = match.group(1)
+        elif provider_hint:
+            recorded_provider = provider_hint
             warnings.append(f"provider frontmatter 없음; 실행 경로 힌트로 {recorded_provider} 기록")
+        else:
+            recorded_provider = _provider_from_run_logs(date, warnings)
         if provider and recorded_provider != provider:
             errors.append(f"제공자 기록 불일치: 기대={provider}, 기록={recorded_provider}")
     else:
