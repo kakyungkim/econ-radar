@@ -3,7 +3,7 @@ type: moc
 tags: [바이오제약, 투자테마]
 publish: false
 aliases: [ADC, ADC-항체약물결합체, ADC플랫폼, ADC모달리티]
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 # 🗂 ADC 항체약물접합체 — 주제 지도(MOC)
 
@@ -11,6 +11,7 @@ updated: 2026-11-02
 > ADC 플랫폼·페이로드 기술·딜 구조는 [[topics/ADC모달리티]] 참조.
 
 ## 핵심 흐름
+- **sac-TMT 위식도선암 글로벌 3상 OS 달성·PFS 미달**: TroFuse-015 473명에서 3차 이상 치료 OS 1차 평가변수 달성. 독립검토 PFS는 실패했고 OS HR·중앙값·상세 안전성은 미공개. 탑라인 성공보다 OS 효과 크기와 PFS 불일치 해석이 허가·급여의 다음 관문.
 - **sac-TMT(Trop-2) ESMO 2026 완결 — 4개 적응증 Phase 3 패키지 완성**: 자궁내막암(TroFuse-005 OS HR 0.68, PDUFA 2027/6/15)·EGFR-m NSCLC Final OS(HR 0.69)·PD-L1 음성 NSCLC 1차(Lung06 PFS HR ~0.49)·Lung04까지 4개 Phase 3 완결. 화학요법을 제거하고 ADC+ICI 단독으로 1차 치료 PD-L1 음성 NSCLC Phase 3 양성을 낸 첫 사례.
 - **B7-H3 ADC(Ris-Rez) ARTEMIS-011 골육종 Phase 3 양성** — PFS HR 0.33, ORR 15% vs 2%, DCR 76% vs 33%. 소아·청소년 고형암에서 ADC Phase 3 첫 양성. B7-H3 플랫폼 ARTEMIS-008(ES-SCLC OS HR 0.46) 이후 두 번째 Phase 3.
 - **Trop-2 ADC 3파전 구도**: sac-TMT 다적응증 vs Trodelvy(유방암) vs dato-DXd(NSCLC·유방암). PD-L1 음성 NSCLC 1차 진입은 sac-TMT 단독.
@@ -19,6 +20,9 @@ updated: 2026-11-02
 - **ESMO 2026 ADC 확증 데이터 주간**: TroFuse-005 sac-TMT(자궁내막암, 10/26), B7-H3 ADC Ris-Rez LBA9(골육종, 10/26), sac-TMT Lung04·Lung06(NSCLC, 10/25). TROP2·B7-H3·CLDN18.2 세 표적 ADC Phase 3 HR 이번 주 동시 공개.
 
 ## 타임라인
+### 2026-11-21 [[daily/2026-11-21]]
+- [[daily/2026-11-21]] — Merck sac-TMT TroFuse-015(N=473) 3차 이상 위식도선암 3상 OS 달성, PFS 미달. OS HR·중앙값·상세 독성은 미공개라 전체 데이터와 규제 제출 일정이 가치 판단 기준 → [[topics/신약개발전략]] [[topics/유망기업]]
+
 ### 2026-10-28 [[daily/2026-10-28]]
 - [[daily/2026-10-28]] — sac-TMT ESMO 2026 완결: Lung06 PD-L1 음성 NSCLC 1차 ADC+ICI 첫 Phase 3 양성(PFS HR ~0.49), TroFuse-005 자궁내막암 OS HR 0.68(PDUFA 2027/6/15), Lung04 Final OS HR 0.69. B7-H3 ADC Ris-Rez ARTEMIS-011 골육종 PFS HR 0.33 — 소아·청소년 ADC Phase 3 첫 양성. Merck 가속 승인 vs OS 성숙 대기 전략 선택이 상업화 타임라인 결정 → [[topics/TroFuse005]] [[topics/ARTEMIS011]] [[topics/신약개발전략]]
 
