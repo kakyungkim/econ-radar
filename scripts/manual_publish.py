@@ -137,11 +137,13 @@ def commit_and_push(wt: Path, paths: list[str], message: str, no_push: bool) -> 
     sh("git", "commit", "-q", "-m", message, cwd=wt)
     if no_push:
         return None
-    left = [p for s, p in status_entries(wt) if s != "??"]
-    if left:
-        raise SystemExit(f"추적 파일 변경이 남아 rebase 할 수 없습니다: {left}")
     sh("git", "fetch", "-q", "origin", cwd=wt)
-    sh("git", "rebase", "-q", "origin/main", cwd=wt)
+    behind = subprocess.run(["git", "merge-base", "--is-ancestor", "origin/main", "HEAD"], cwd=wt).returncode != 0
+    if behind:  # 원격에 새 커밋(후보 수집 등)이 있을 때만 rebase
+        left = [p for s, p in status_entries(wt) if s != "??"]
+        if left:
+            raise SystemExit(f"원격에 새 커밋이 있는데 추적 파일 변경이 남아 rebase 할 수 없습니다: {left}")
+        sh("git", "rebase", "-q", "origin/main", cwd=wt)
     sh("git", "push", "origin", "HEAD:main", cwd=wt)
     return sh("git", "rev-parse", "HEAD", cwd=wt).strip()
 
