@@ -1,0 +1,23 @@
+완료했습니다.
+
+- [조사 노트](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/raw/news-2026-11-19.md)
+- [시장 분석](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/analysis/market-2026-11-19.md)
+- [기업 분석](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/analysis/company-2026-11-19.md)
+- [데일리 원고](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/daily/2026-11-19.md)
+- [데일리 인덱스](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/daily/index.md) 갱신
+
+핵심 확인 수치:
+
+- FOMC 금리 3.75~4.00%, 동결 표결 10대2. [연준 의사록](https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm)
+- Anthropic 공모가 83달러, 공개 공모 813억달러, 예상 순유입 1,048억달러. [SEC 투자설명서](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm)
+- Pfizer–Starna 선급금 3억3,000만달러, 마일스톤 최대 23억달러. [Pfizer](https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-starna)
+- AbbVie–DISCO 선급금 4,000만달러, 마일스톤 최대 25억달러. [DISCO](https://www.globenewswire.com/news-release/2026/11/19/3406303/0/en/disco-pharmaceuticals-announces-strategic-collaboration-with-abbvie-to-advance-next-generation-and-gated-bispecific-therapeutics-for-solid-tumors.html)
+
+확인 불가:
+
+- Intel 18A-P 고객명·물량·양산 조건
+- Starna 프로그램 표적·IND 일정
+- DISCO 후보·표적·옵션 조건
+- PT403·TION-L002의 식약처 개별 승인번호·승인일
+
+프런트매터와 필수 섹션을 정적 검사했습니다. 렌더러, git, 배포·외부 발송은 실행하지 않았습니다.
