@@ -1,0 +1,19 @@
+완료했습니다.
+
+생성 파일:
+
+- [조사 노트](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/raw/news-2026-11-21.md)
+- [시장 분석](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/analysis/market-2026-11-21.md)
+- [기업 분석](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/analysis/company-2026-11-21.md)
+- [데일리](/private/tmp/claude-501/-Users-kkkim-projects-econ-radar/80fff1bf-0c44-4b16-8c73-c36a5b530da3/scratchpad/backfill/vault/daily/2026-11-21.md)
+
+핵심 확인 수치:
+
+- 나스닥 -5.28%, S&P 500 -3.70%, SOX -10.7%, Nvidia -14.0%. [AP](https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad)
+- TroFuse-015 473명: OS 달성, PFS 미달. [Merck](https://www.merck.com/news/merck-announces-trofuse-015-trial-evaluating-sacituzumab-tirumotecan-sac-tmt-met-primary-endpoint-of-overall-survival-os-in-third-line-or-later-locally-advanced-unresectable-or-metastatic-gastroes/)
+- Deramiocel CRL, Capricor 현금성 자산 1억9,850만달러. [Capricor](https://www.capricor.com/investors/news-events/press-releases/detail/360/capricor-therapeutics-provides-regulatory-update-on)
+- GTA VI 회사 추정 첫날 37.9억달러·사전판매 3,250만장. [Take-Two](https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records)
+
+AI반도체·AI인프라·ADC·바이오PDUFA·투자전략·유망기업 주제 노트와 recent-headlines 7일치, daily index도 갱신했습니다.
+
+확인 불가: 해외 데이터센터 제한의 시행안, TroFuse-015 효과 크기·상세 독성, deramiocel 추가시험 범위, GTA VI의 감사된 순매출·이익 기여. 렌더·git·배포·외부 발송은 실행하지 않았습니다.
