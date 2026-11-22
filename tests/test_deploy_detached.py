@@ -42,9 +42,11 @@ def test_deploy_from_detached_head_publishes_or_fails():
         assert published, r.stdout + r.stderr
 
 
-def _run(blog):
+def _run(blog, when=None):
     env = dict(os.environ, BLOG=blog, CONFIRM="0",
                GIT_AUTHOR_NAME="t", GIT_AUTHOR_EMAIL="t@t", GIT_COMMITTER_NAME="t", GIT_COMMITTER_EMAIL="t@t")
+    if when:  # 같은 1초 안의 두 실행은 해시까지 같은 커밋을 만들어 push가 "up-to-date"로 통과한다
+        env.update(GIT_AUTHOR_DATE=when, GIT_COMMITTER_DATE=when)
     return sh("bash", os.path.join(ROOT, "deploy.sh"), DATE, "제목", env=env)
 
 
@@ -57,8 +59,8 @@ def test_deploy_on_branch_still_publishes():
         assert sh("git", "--git-dir", remote, "cat-file", "-e", "main:econ-radar/%s.html" % DATE).returncode == 0
 
 
-def test_rejected_push_fails():
-    # 다른 세션이 먼저 블로그에 올려 원격이 앞서 있으면 push가 거부된다. 성공으로 끝나면 안 된다.
+def test_rejected_push_rebases_and_retries():
+    # 다른 세션이 무관한 파일을 먼저 올렸으면 rebase 뒤 한 번 재시도한다.
     with tempfile.TemporaryDirectory() as tmp:
         remote, blog = _blog(tmp)
         seed = os.path.join(tmp, "seed")
@@ -66,5 +68,20 @@ def test_rejected_push_fails():
         for a in (("add", "-A"), ("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "other"), ("push", "-q", "origin", "main")):
             sh("git", *a, cwd=seed)
         r = _run(blog)
-        assert r.returncode != 0
-        assert "공개 완료" not in r.stdout
+        assert r.returncode == 0, r.stdout + r.stderr
+        assert "공개 완료" in r.stdout
+        assert sh("git", "--git-dir", remote, "cat-file", "-e", "main:econ-radar/%s.html" % DATE).returncode == 0
+
+
+def test_concurrent_identical_publish_is_success():
+    with tempfile.TemporaryDirectory() as tmp:
+        remote, stale_blog = _blog(tmp)
+        first_blog = os.path.join(tmp, "first")
+        sh("git", "clone", "-q", remote, first_blog)
+        first = _run(first_blog, when="2026-11-23T00:00:00+0900")
+        assert first.returncode == 0, first.stdout + first.stderr
+        second = _run(stale_blog, when="2026-11-23T00:00:05+0900")
+        assert second.returncode == 0, second.stdout + second.stderr
+        assert "다른 실행이 같은 페이지를 먼저 반영함" in second.stdout
+        index = sh("git", "--git-dir", remote, "show", "main:econ-radar/index.html").stdout
+        assert index.count("%s.html" % DATE) == 1, index

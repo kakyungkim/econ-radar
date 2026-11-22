@@ -1,9 +1,11 @@
 ---
 name: daily-econ-news-orchestrator
-description: econ-radar의 매일 뉴스 파이프라인 입구. "오늘 경제 뉴스 정리/뉴스레터/데일리", "오늘 뉴스 모아줘", "이번 주 바이오만", "투자 파트만 다시", "어제 이어서" 같은 일일 수집·분석·뉴스레터·HTML·푸시 요청에서 사용한다. 신뢰 경제지(국내외) 기반, 해외 기사 한국어 번역, 산업구조·투자(코스피+해외)·커리어 3렌즈로 정리하고 vault에 누적한다.
+description: Claude에서 econ-radar 공통 데일리 오케스트레이터로 연결하는 호환 입구. 일일 수집·분석·뉴스레터·렌더 요청에서 사용하며 공통 산출물 계약과 GitHub 발행 경로를 따른다.
 ---
 
 # daily-econ-news-orchestrator (1층 진행표 / 팀장)
+
+> 정본은 `AGENTS.md`와 `.agents/skills/econ-radar-daily-orchestrator/SKILL.md`다. 아래 Claude 팀 흐름은 역할 분담용이며 산출물명·검증·발행 정책은 공통 정본을 우선한다.
 
 매일 경제 뉴스를 수집→분석→뉴스레터→HTML·푸시로 만들고 vault에 누적하는 Agent Team을 지휘한다.
 
@@ -37,19 +39,19 @@ news-scout, market-analyst, company-scout, newsletter-editor, style-critic, fact
    - **T4.8 시장 수치 점검(팀장 직접, T4.7 의존)** → `python3 scripts/check_market_numbers.py DATE --online`. "낡은 링크"(시장 수치 항목에 3주 넘은 기사)와 "시세와 다름"(코스피, 미 국채 10년물, 원/달러가 직전 30일 종가 범위 밖)을 출력한다. 걸린 문장은 그날 실제 값으로 고치거나, 과거 값을 인용한 것이면 날짜를 문장에 밝힌다. 장중 값은 "장중"이라고 쓴다. 시세를 받지 못하면(클라우드 접속 제한) 낡은 링크만 보고 넘어간다. GitHub Actions(daily-checks.yml)가 push 뒤 같은 검사를 다시 돌려 개인 DM으로 알린다. (2026-11-02 추가, 10-03과 10-04의 7월 기사 수치 오염)
    - T5 렌더(report-renderer, T4.8 의존) → `vault/html/*.html`, `vault/push/*`
    - T6 vault 정리(knowledge-curator, T4.7 의존) → `vault/topics/*` 갱신
-   - **T7 블로그 발행(팀장 직접, T5 의존, econ-radar push 뒤)** → `BLOG=<블로그 clone> CONFIRM=0 ./deploy.sh YYYY-MM-DD "<헤드라인>"`. 끝에 "🚀 공개 완료 — 원격 main 반영 확인"이 나와야 완료다. exit 1이면 실패로 보고한다. 이 단계 없이 "모든 작업 완료"라고 보고하지 않는다.
-     (2026-11-02 추가. 10-28, 10-29 실행 로그에서 deploy.sh 출력이 "✅ 커밋 완료 / Everything up-to-date / 🚀 공개 완료"였다. 블로그 clone이 detached HEAD라 새 커밋이 밀리지 않았는데 성공으로 보고됐다. 두 날 모두 텔레그램만 나가고 블로그는 404였다. deploy.sh는 이제 원격 반영을 확인한다. "Everything up-to-date"가 보이면 공개되지 않은 것이다.)
+   - **T7 발행 인계(팀장 직접, T5·T6 의존)** → daily frontmatter에 `provider: claude`를 기록하고 `python3 scripts/validate_daily_contract.py DATE --provider-hint claude --require-rendered`를 통과시킨다. econ-radar 저장소 반영 뒤 블로그·텔레그램·이메일은 GitHub Actions가 맡는다. Claude는 `deploy.sh`, 텔레그램 API, Buttondown API를 직접 실행하지 않는다.
 3. 팀원은 `TaskUpdate`로 진행/차단/완료를 갱신하고, `SendMessage`로 발견·출처 보강 요청을 주고받는다.
 4. 팀장은 `TaskGet`으로 지연·차단을 확인하고, 막히면 재할당하거나 사람에게 알린다.
 5. 각 산출물은 파일로 남긴다(대화로만 끝내지 않는다).
 
-## 발행 정책 (2026-06-12 자동 발행 전환)
+## 발행 정책 (2026-11-11 공통 경로 일원화)
 - 파일 생성(뉴스레터·HTML·푸시)은 자동.
-- **데일리 발행(블로그 deploy.sh + 텔레그램 채널 @econradar 알림)은 자동** — 2026-06-12 사용자 승인으로 전환. 대신 T4.7 fact-checker가 발행 전 사실 검증을 맡는다.
+- 승인된 예약 발행은 자동이지만 실제 블로그·텔레그램·이메일 처리는 공통 검증을 통과한 GitHub Actions만 수행한다.
+- Claude는 외부 발행을 직접 수행하지 않는다. 저장소 반영이 실패하면 부분 산출물과 오류를 남기고 watchdog의 Codex 복구 경로로 인계한다.
 - 그 외 외부 발송(메일, 다른 메신저, 뉴스레터 서비스, 출판)은 여전히 **사람 승인 뒤**에만.
 
 ## 마무리
-- T6 knowledge-curator와 T7 블로그 발행까지 끝나면 `vault/_meta/improvement-log.md`에 오늘 실행 메모(빠진 소스, 약했던 분야)를 남긴다.
+- T6 knowledge-curator와 T7 발행 인계까지 끝나면 `vault/_meta/improvement-log.md`에 오늘 실행 메모(빠진 소스, 약했던 분야)를 남긴다.
 - `TeamDelete`로 팀을 정리한다.
 
 ## 산출물 계약
@@ -59,7 +61,7 @@ news-scout, market-analyst, company-scout, newsletter-editor, style-critic, fact
 | 분석 | `vault/analysis/{market|company}-YYYY-MM-DD.md` | 편집자 |
 | 통합 | `vault/daily/YYYY-MM-DD.md` | 렌더러·큐레이터·(3층) |
 | 렌더 | `vault/html/*.html`, `vault/push/*.md` | 사람(읽기/발송) |
-| 발행 | 블로그 `econ-radar/YYYY-MM-DD.html` + index | 독자, 텔레그램 링크 |
+| 인계 | `provider: claude`가 있는 daily + 검증된 렌더 | GitHub 발행 워크플로 |
 | 정리 | `vault/topics/*.md` | 내일 수집·3층 저술 |
 
 ## 실패 시

@@ -48,7 +48,19 @@ fi
 # 새 커밋이 아닌 옛 main을 밀어 "Everything up-to-date"로 성공 종료했다(2026-10-28, 10-29 블로그 누락).
 # push 뒤에는 원격 main에 이 날짜 파일이 로컬과 같은 내용으로 있는지 확인하고, 없으면 실패로 끝낸다.
 publish() {
-  git push origin HEAD:main
+  if ! git push origin HEAD:main; then
+    echo "ℹ️  원격 main이 먼저 갱신됨 — 동일 발행 여부 확인 후 1회 재시도"
+    git fetch -q origin main
+    REMOTE_PAGE=$(git rev-parse "FETCH_HEAD:econ-radar/$DATE.html" 2>/dev/null || true)
+    LOCAL_PAGE=$(git rev-parse "HEAD:econ-radar/$DATE.html")
+    if [ "$REMOTE_PAGE" = "$LOCAL_PAGE" ] && \
+       git show "FETCH_HEAD:econ-radar/index.html" 2>/dev/null | grep -q "$DATE.html"; then
+      echo "🚀 공개 완료 — 다른 실행이 같은 페이지를 먼저 반영함"
+      return
+    fi
+    git rebase FETCH_HEAD
+    git push origin HEAD:main
+  fi
   git fetch -q origin main
   if [ "$(git rev-parse "FETCH_HEAD:econ-radar/$DATE.html" 2>/dev/null)" != "$(git rev-parse "HEAD:econ-radar/$DATE.html")" ]; then
     echo "❌ push 뒤 원격 main에 econ-radar/$DATE.html 이 없거나 다릅니다. 공개되지 않았습니다." >&2

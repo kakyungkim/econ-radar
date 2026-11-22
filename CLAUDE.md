@@ -15,7 +15,7 @@
 
 | 이렇게 말하면 | 이 입구를 사용 |
 | --- | --- |
-| "오늘 뉴스 정리/뉴스레터/데일리", "econ-radar 돌려줘", "이번 주 바이오만", "투자 파트만 다시", "어제 이어서" | `daily-econ-news-orchestrator` |
+| "오늘 뉴스 정리/뉴스레터/데일리", "econ-radar 돌려줘", "이번 주 바이오만", "투자 파트만 다시", "어제 이어서" | 공통 `.agents/skills/econ-radar-daily-orchestrator` (`daily-econ-news-orchestrator`는 호환 입구) |
 | "이번 주/달 동향 리포트", "{주제}로 블로그 써줘", "책 목차/챕터 만들어줘" | `content-studio-orchestrator` |
 
 ## 구조 (3층)
@@ -43,7 +43,7 @@
 `vault/` 폴더를 옵시디언에서 vault로 그대로 열면 된다(변환 불필요). 규칙은 `obsidian-vault-conventions` 스킬 참조.
 
 ## 안전선
-- 외부 발송(메일·메신저 푸시 전송, 뉴스레터 발행, 블로그 게시, 출판)은 **항상 사람 승인 뒤**. 자동 발송 금지.
+- 외부 발송은 `AGENTS.md`의 승인 정책을 따른다. 이미 승인된 예약 워크플로는 공통 검증 뒤 GitHub Actions가 실행하고, Claude는 `deploy.sh`나 발송 API를 직접 실행하지 않는다.
 - **발송 경로를 바꾸면 그 자리에서 끝까지 검증.** 이메일·텔레그램·블로그 배포의 방식(변수·필터·워크플로·스크립트)을 바꾼 세션은 draft 모드 등으로 1회 관통 실행해 성공 로그까지 확인하고 끝낸다. 커밋·변수 설정만 하고 검증 없이 종료 금지(2026-07-02 EMAIL_TAG 사흘 결송의 교훈, `vault/_meta/improvement-log.md` 2026-07-05).
 - 투자: 매수·매도 권유 금지. 유망 기업: 특정 종목 매수·입사 보증 금지(정보·시나리오로). 출처 없는 수치 생성 금지.
 
@@ -55,3 +55,4 @@
 - 2026-06-11 — **수요 렌즈(Demand) (A) 오버레이 도입**(취업 스터디 피드백: 투자자 입장에 치우침 → 수요 관점 보강). `vault/_meta/demand-lens.md` 기준선 신규(투자자=공급·자본 ↔ Demand=수요, 제약/바이오 다중 수요자=환자·처방의·지불자, JTBD 4줄). market-analyst·company-scout·sector-analysis에 수요 렌즈 단 추가. 영어 표기 Demand로 통일(구 '고객 렌즈/customer-lens'에서 개명). (C) `demand-analyst` 신설은 TODO에 보류.
 - 2026-06-12 — **완전 자동 발행 전환**(사용자 승인). 클라우드 데일리 루틴(18:30 KST)이 생성→블로그 발행(deploy.sh)→텔레그램 채널(@econradar) 알림까지 수행. "확인 전까지 안 나간다" → "나가되 이상하면 내린다".
 - 2026-06-13 — **하네스 구조 검토 후 우선순위 4건 적용**(상세: `vault/_meta/2026-06-13-harness-review.md`). ① `fact-checker` 신설·T4.7 편입(자동 발행의 사실 방어선 — 수치 원문 대조·출처 없는 수치 차단). ② 레포 private 전환 + vault 전체 git 추적(클라우드 큐레이션·멀티위크 연속성). ③ 렌더 템플릿화 — `scripts/render_html.py`+`scripts/NEWSLETTER-FORMAT.md` 계약, report-renderer는 계약 점검·실행·검증으로 축소(발행당 토큰 ~40% 절감). ④ 3층 가동 — 주간 동향 리포트 클라우드 루틴(일 21:00 KST) 신설.
+- 2026-11-11 — Claude 직접 배포·발송을 제거하고 provider-neutral 검증 및 GitHub 발행 경로로 일원화. `provider: claude` 기록과 Codex 장애 복구 인계를 추가.

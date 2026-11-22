@@ -53,6 +53,11 @@ jobs:
           git -C blog config user.name "econ-radar bot"
           git -C blog config user.email "bot@econ-radar.local"
 
+      - name: Validate shared daily contract
+        env:
+          DATE: ${{ steps.detect.outputs.date }}
+        run: python3 scripts/validate_daily_contract.py "$DATE" --provider-hint claude --require-rendered
+
       - name: Deploy verified HTML
         env:
           DATE: ${{ steps.detect.outputs.date }}

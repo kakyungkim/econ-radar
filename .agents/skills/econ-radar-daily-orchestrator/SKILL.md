@@ -57,6 +57,7 @@ description: econ-radar의 날짜별 뉴스 수집, 분석, 데일리 원고, �
 ### Phase 6. 결정적 후처리
 
 AI 실행이 끝난 뒤 바깥 실행기가 필수 파일 확인, 렌더, 시장 수치 검사, 테스트, 승인된 배포를 담당한다.
+데일리 frontmatter에는 `provider: codex` 또는 `provider: claude`를 기록하고, 발행 전 `scripts/validate_daily_contract.py DATE --require-rendered`를 통과해야 한다.
 
 ## 산출물 계약
 
@@ -75,6 +76,7 @@ AI 실행이 끝난 뒤 바깥 실행기가 필수 파일 확인, 렌더, 시장
 - 핵심 수치를 확인하지 못하면 단정적 문장에서 제외한다.
 - 한 단계 실패 시 기존 산출물을 삭제하지 않는다.
 - 모델은 `git commit`, `git push`, `deploy.sh`, 텔레그램·Buttondown API를 직접 실행하지 않는다.
+- Claude 구독·한도 문제로 데일리가 없으면 watchdog이 Codex 복구 명령을 알리고, 다른 제공자가 같은 날짜를 이미 만들었으면 `--force` 없이 종료한다.
 
 ## 회귀 테스트
 

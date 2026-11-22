@@ -19,6 +19,26 @@ def run(*cmd: str, check: bool = True) -> subprocess.CompletedProcess[str]:
     return subprocess.run(cmd, cwd=ROOT, text=True, check=check)
 
 
+def record_provider(daily: Path, provider: str) -> None:
+    """Record provenance deterministically after either provider finishes."""
+    text = daily.read_text(encoding="utf-8")
+    if re.search(r"^provider:\s*", text, flags=re.MULTILINE):
+        text = re.sub(r"^provider:\s*.*$", f"provider: {provider}", text,
+                      count=1, flags=re.MULTILINE)
+    elif text.startswith("---\n"):
+        lines = text.splitlines(keepends=True)
+        insert_at = next(
+            (index + 1 for index, line in enumerate(lines[:20])
+             if line.startswith("date:")),
+            1,
+        )
+        lines.insert(insert_at, f"provider: {provider}\n")
+        text = "".join(lines)
+    else:
+        raise ValueError("데일리 frontmatter가 없어 provider를 기록할 수 없습니다")
+    daily.write_text(text, encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("date", help="YYYY-MM-DD")
@@ -45,21 +65,24 @@ def main() -> int:
         return 0
     run(*provider_cmd)
 
-    required = [ROOT / "vault" / "raw" / f"news-{args.date}.md",
-                ROOT / "vault" / "analysis" / f"market-{args.date}.md",
-                ROOT / "vault" / "analysis" / f"company-{args.date}.md", daily]
-    missing = [str(p.relative_to(ROOT)) for p in required if not p.exists() or p.stat().st_size == 0]
-    if missing:
-        print("필수 산출물 누락: " + ", ".join(missing), file=sys.stderr)
+    if not daily.exists() or daily.stat().st_size == 0:
+        print(f"필수 산출물 누락: {daily.relative_to(ROOT)}", file=sys.stderr)
         return 3
-    if f"date: {args.date}" not in daily.read_text(encoding="utf-8")[:500]:
-        print("데일리 frontmatter 날짜 불일치", file=sys.stderr)
+    try:
+        record_provider(daily, args.provider)
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
         return 4
+    run("python3", "scripts/validate_daily_contract.py", args.date,
+        "--provider", args.provider)
     run("python3", "scripts/render_html.py", args.date)
+    run("python3", "scripts/validate_daily_contract.py", args.date,
+        "--provider", args.provider, "--require-rendered")
     run("python3", "scripts/check_market_numbers.py", args.date, check=False)
     if importlib.util.find_spec("pytest"):
         run(sys.executable, "-m", "pytest", "-q", "tests/test_render_seo.py",
-            "tests/test_render_english.py", "tests/test_ai_provider_switch.py")
+            "tests/test_render_english.py", "tests/test_ai_provider_switch.py",
+            "tests/test_daily_contract.py")
     else:
         print("pytest가 현재 Python에 없어 로컬 회귀 테스트를 건너뜀(CI에서는 설치 후 필수 실행)")
     print(f"생성·검증 완료: {args.date} ({args.provider})")

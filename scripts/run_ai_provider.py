@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import os
 from pathlib import Path
 import re
@@ -69,8 +70,37 @@ def main() -> int:
     if shutil.which(cmd[0]) is None:
         print(f"실행 파일을 찾을 수 없습니다: {cmd[0]}", file=sys.stderr)
         return 2
-    completed = subprocess.run(cmd, input=prompt, text=True, cwd=ROOT)
-    return completed.returncode
+    started_at = datetime.now(timezone.utc).isoformat()
+    if args.provider == "claude":
+        with log_path.open("w", encoding="utf-8") as log:
+            log.write(f"date={args.date}\nprovider={args.provider}\nstarted_at={started_at}\n\n")
+            process = subprocess.Popen(
+                cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT, text=True, cwd=ROOT, bufsize=1,
+            )
+            assert process.stdin is not None
+            assert process.stdout is not None
+            process.stdin.write(prompt)
+            process.stdin.close()
+            for line in process.stdout:
+                print(line, end="", flush=True)
+                log.write(line)
+            returncode = process.wait()
+            log.write(
+                f"\nfinished_at={datetime.now(timezone.utc).isoformat()}\n"
+                f"returncode={returncode}\n"
+            )
+    else:
+        completed = subprocess.run(cmd, input=prompt, text=True, cwd=ROOT)
+        returncode = completed.returncode
+        with log_path.open("a", encoding="utf-8") as log:
+            log.write(
+                f"\n\ndate={args.date}\nprovider={args.provider}\n"
+                f"started_at={started_at}\n"
+                f"finished_at={datetime.now(timezone.utc).isoformat()}\n"
+                f"returncode={returncode}\n"
+            )
+    return returncode
 
 
 if __name__ == "__main__":

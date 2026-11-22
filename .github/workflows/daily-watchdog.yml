@@ -71,7 +71,11 @@ jobs:
           fi
           TEXT="⚠️ econ-radar 데일리 누락: $DATE
           $REASON
-          원인 확인: claude.ai 루틴 실행 기록(사용량 한도, 저장소 접근, deploy.sh 차단 등)
+          원인 확인: Claude 루틴 실행 기록(구독/사용량 한도, 저장소 접근 등)
+          Codex 구독으로 복구:
+          AI_PROVIDER=codex python3 scripts/run_daily_pipeline.py $DATE
+          완료 후 검증:
+          python3 scripts/validate_daily_contract.py $DATE --provider codex --require-rendered
           감시 실행: $RUN_URL"
           RES=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TELEGRAM_ALERT_CHAT_ID}" \
