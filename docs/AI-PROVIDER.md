@@ -66,6 +66,63 @@ python3 scripts/manual_publish.py --weekly            # 데일리 뒤 지난 일
 
 스크립트가 중간에 멈추면 원인을 고친 뒤 같은 명령을 다시 실행한다. 이미 main에 올라간 날짜는 누락 목록에서 빠지고, 작업 폴더에 남은 원고는 다시 만들지 않고 이어서 커밋한다. 아래 1번부터 7번까지는 스크립트를 쓸 수 없을 때의 손 절차다.
 
+### 주제 노트 보완
+
+데일리 프롬프트(`scripts/prompts/daily-provider.md`)는 원고를 쓴 뒤 `vault/topics/*.md` 타임라인과 `vault/_meta/recent-headlines.md`까지 갱신한다. 2026-11-22 전 프롬프트로 만든 날짜처럼 원고만 있고 주제 노트가 빠졌으면 날짜마다 아래 명령으로 보완한 뒤 발행한다. 데일리와 분석 파일은 고치지 않는다.
+
+```bash
+python3 scripts/run_ai_provider.py 2026-11-18 --provider codex --template scripts/prompts/topics-provider.md
+```
+
+### 매일 자동 실행으로 걸기
+
+수동 발행 스크립트를 이 Mac의 launchd에 걸면 매일 정해진 시각에 돈다. Mac이 꺼져 있으면 돌지 않고, 잠자기였다면 깨어날 때 한 번 돈다. 클라우드 루틴(18:30 KST, 19:45쯤 끝남)과 겹치지 않게 21:30에 건다. 클라우드 루틴이 그날 데일리를 이미 올렸으면 스크립트는 누락 날짜가 없어 아무것도 하지 않는다.
+
+1. `~/Library/LaunchAgents/com.kkkim.econ-radar-publish.plist`를 만든다.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kkkim.econ-radar-publish</string>
+  <key>WorkingDirectory</key><string>/Users/kkkim/projects/econ-radar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/anaconda3/envs/rag/bin/python3</string>
+    <string>scripts/manual_publish.py</string>
+    <string>--weekly</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/kkkim/.npm-global/bin:/Users/kkkim/.local/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardOutPath</key><string>/Users/kkkim/Library/Logs/econ-radar-publish.log</string>
+  <key>StandardErrorPath</key><string>/Users/kkkim/Library/Logs/econ-radar-publish.log</string>
+</dict>
+</plist>
+```
+
+2. 등록하고 한 번 바로 돌려 본다.
+
+```bash
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.kkkim.econ-radar-publish.plist
+launchctl kickstart gui/$(id -u)/com.kkkim.econ-radar-publish
+tail -f ~/Library/Logs/econ-radar-publish.log
+```
+
+3. 끄려면 등록을 해제한다.
+
+```bash
+launchctl bootout gui/$(id -u)/com.kkkim.econ-radar-publish
+```
+
+- PATH에는 `codex`(`~/.npm-global/bin`), `claude`(`~/.local/bin`), `gh`(`/usr/local/bin`)가 있어야 한다. launchd는 셸 설정 파일을 읽지 않는다.
+- `--weekly`는 매일 붙여도 된다. 지난 일요일이 속한 주의 리포트가 이미 있으면 아무것도 하지 않는다.
+- 이미 지난 날짜를 매일 발송으로 다시 내보내지 않으려면 `--days 1`을 더해 오늘과 어제만 보게 한다.
+
 ### 1. 누락 날짜 확인
 
 ```bash

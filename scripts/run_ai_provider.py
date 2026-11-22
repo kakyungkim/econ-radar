@@ -34,8 +34,8 @@ def build_command(provider: str, model: str | None, log_path: Path) -> list[str]
     raise ValueError(f"지원하지 않는 AI_PROVIDER: {provider}")
 
 
-def render_prompt(date: str, provider: str) -> str:
-    text = PROMPT_TEMPLATE.read_text(encoding="utf-8")
+def render_prompt(date: str, provider: str, template: Path = PROMPT_TEMPLATE) -> str:
+    text = template.read_text(encoding="utf-8")
     return text.replace("{{DATE}}", date).replace("{{PROVIDER}}", provider)
 
 
@@ -47,20 +47,24 @@ def main() -> int:
     parser.add_argument("--model", default=os.environ.get("AI_MODEL") or None)
     parser.add_argument("--dry-run", action="store_true",
                         default=os.environ.get("AI_DRY_RUN") == "1")
+    parser.add_argument("--template", type=Path, default=PROMPT_TEMPLATE,
+                        help="프롬프트 파일(기본 daily-provider.md). 예: scripts/prompts/topics-provider.md")
     args = parser.parse_args()
+    template = args.template if args.template.is_absolute() else ROOT / args.template
     if not DATE_RE.fullmatch(args.date):
         parser.error("date는 YYYY-MM-DD 형식이어야 합니다")
 
     run_dir = ROOT / "artifacts" / "runs"
     run_dir.mkdir(parents=True, exist_ok=True)
-    log_path = run_dir / f"{args.date}-{args.provider}.log"
+    suffix = "" if template.resolve() == PROMPT_TEMPLATE.resolve() else f"-{template.stem}"
+    log_path = run_dir / f"{args.date}-{args.provider}{suffix}.log"
     cmd = build_command(args.provider, args.model, log_path)
-    prompt = render_prompt(args.date, args.provider)
+    prompt = render_prompt(args.date, args.provider, template)
 
     if args.dry_run:
         print(f"provider={args.provider}")
         print("command=" + " ".join(cmd))
-        print(f"prompt={PROMPT_TEMPLATE.relative_to(ROOT)}")
+        print(f"prompt={template.relative_to(ROOT)}")
         return 0
     if shutil.which(cmd[0]) is None:
         print(f"실행 파일을 찾을 수 없습니다: {cmd[0]}", file=sys.stderr)

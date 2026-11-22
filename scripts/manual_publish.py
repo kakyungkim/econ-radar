@@ -65,7 +65,7 @@ def date_pattern(date_str: str, blog_only: bool) -> re.Pattern[str]:
         rf"vault/analysis/[a-z]+-{d}\.md",
         rf"vault/daily/{d}\.md",
         rf"vault/html/{d}\.html",
-        rf"artifacts/runs/{d}-[a-z]+\.log",
+        rf"artifacts/runs/{d}-[a-z-]+\.log",
     ]
     if not blog_only:
         parts += [rf"vault/push/{d}\.md", rf"vault/email/{d}\.html"]

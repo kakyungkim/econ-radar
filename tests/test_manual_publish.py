@@ -48,6 +48,7 @@ ENTRIES = [
     ("??", "vault/push/2026-11-18.md"),
     ("??", "vault/email/2026-11-18.html"),
     ("??", "artifacts/runs/2026-11-18-codex.log"),
+    ("??", "artifacts/runs/2026-11-18-codex-topics-provider.log"),
     # 아래는 올라가면 안 된다
     ("??", "artifacts/runs/2026-11-19-codex.log"),
     ("??", "vault/daily/2026-11-19.md"),
@@ -65,6 +66,7 @@ def test_select_paths_takes_only_target_date_and_shared_indexes():
     assert "vault/topics/새주제.md" in selected
     assert "vault/daily/index.md" in selected
     assert "vault/_meta/recent-headlines.md" in selected
+    assert "artifacts/runs/2026-11-18-codex-topics-provider.log" in selected
     for bad in ("artifacts/runs/2026-11-19-codex.log", "vault/daily/2026-11-19.md",
                 "vault/push/2026-11-19.md", "scripts/render_html.py",
                 "vault/html/2026-W40-동향.html"):
