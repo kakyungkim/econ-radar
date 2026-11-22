@@ -33,7 +33,38 @@ GitHub 호스팅 러너는 로컬 구독 로그인 세션을 이어받지 않는
 | 지난 날짜 소급 | 오래된 날짜를 블로그에만 남김 | 1번부터 4번까지(push와 email 파일 제외), 끝나면 7번 |
 | 주간 동향 누락 | `vault/reports/`에 지난주 리포트가 없음 | 6번 |
 
-원고는 Codex로 만드는 것을 기본으로 한다. ChatGPT 구독 한도를 쓰므로 Claude 한도와 따로 계산된다. Codex 한도도 떨어지면 `AI_PROVIDER=claude`로 바꾼다.
+원고는 Codex로 만드는 것을 기본으로 한다. ChatGPT 구독 한도를 쓰므로 Claude 한도와 따로 계산된다. Codex 한도도 떨어지면 `--provider claude`로 바꾼다.
+
+### 스크립트로 한 번에 실행
+
+아래 1번부터 7번까지 중 AI가 필요한 것은 원고 생성뿐이고, 나머지는 `scripts/manual_publish.py`가 처리한다. 터미널에서 직접 실행하면 Claude Code 세션 토큰을 쓰지 않는다.
+
+```bash
+cd ~/projects/econ-radar
+python3 scripts/manual_publish.py --dry-run           # 누락 날짜와 할 일만 출력
+python3 scripts/manual_publish.py                     # 최근 14일 누락분 전부 생성, 발행
+python3 scripts/manual_publish.py --weekly            # 데일리 뒤 지난 일요일이 속한 주의 동향까지
+```
+
+| 옵션 | 쓰는 경우 |
+| --- | --- |
+| `--dates 2026-11-18 2026-11-19` | 날짜를 직접 지정 |
+| `--blog-only` | 지난 날짜 소급. push, email 파일을 빼서 텔레그램, 메일이 나가지 않음 |
+| `--skip-generate` | 원고는 이미 만들어 두었고 커밋과 push만 |
+| `--provider claude` | Codex 한도가 떨어졌을 때 |
+| `--no-push` | 로컬 커밋까지만 하고 직접 확인 |
+| `--no-wait` | Actions와 블로그 공개 확인을 기다리지 않음 |
+| `--weekly 2026-W47` | 주를 직접 지정 |
+
+스크립트가 하는 일은 다음과 같다.
+
+- `../econ-radar-publish`에 origin/main 기준 작업 폴더를 만들거나 재사용한다. 메인 폴더의 미커밋 변경은 건드리지 않는다.
+- origin/main에서 후보 수집(`feed-DATE.json`)은 있고 데일리가 없는 날짜를 오래된 순으로 고른다.
+- 날짜마다 `run_daily_pipeline.py`를 돌린 뒤 그 날짜 파일과 공용 인덱스(`vault/daily/index.md`, `vault/_meta/recent-headlines.md`, `vault/topics/*.md`)만 골라 커밋한다. 다른 날짜 파일, 코드, 삭제는 고르지 않는다(`tests/test_manual_publish.py`).
+- 하루씩 rebase 뒤 push하고, 그 커밋에서 블로그, 텔레그램, 메일 워크플로가 모두 성공하고 블로그 주소가 열릴 때까지 기다린다. 하나라도 실패하면 다음 날짜로 넘어가지 않는다.
+- `--weekly`는 `scripts/prompts/weekly-provider.md`로 주간 동향을 만들어 push한다. 월요일 08:00 KST 예약 실행이 이미 지나갔으면 `weekly-publish.yml`을 직접 실행하고, 아직이면 예약 실행에 맡긴다. 둘 다 돌면 두 번 발송된다.
+
+스크립트가 중간에 멈추면 원인을 고친 뒤 같은 명령을 다시 실행한다. 이미 main에 올라간 날짜는 누락 목록에서 빠지고, 작업 폴더에 남은 원고는 다시 만들지 않고 이어서 커밋한다. 아래 1번부터 7번까지는 스크립트를 쓸 수 없을 때의 손 절차다.
 
 ### 1. 누락 날짜 확인
 
